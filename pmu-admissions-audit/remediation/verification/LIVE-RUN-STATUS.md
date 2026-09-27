@@ -5,6 +5,7 @@
 | Time | Event |
 |---|---|
 | 18:27 | First attempt. `curl: (56) CONNECT tunnel failed, response 403` for `pmu.edu.sa:443` and `www.pmu.edu.sa:443`. The egress proxy logged `"gateway answered 403 to CONNECT (policy denial or upstream failure)"`. Nothing was run. |
+| 18:58 | A separate session in a fresh container re-checked: still 403 on CONNECT for `pmu.edu.sa`, and also for `example.com` and `www.google.com`, so the block was policy-wide at that time. That session withdrew the assumption that "only the old container kept the old policy" (commit `c2de3eb`; full record in git history). |
 | 19:07 | After the allowlist was updated: `https://pmu.edu.sa/admission/admission` returned **200**. `www.pmu.edu.sa` and `admissions.pmu.edu.sa` still returned 403 on CONNECT. |
 | ~19:10 | All three hosts returned 200 on three consecutive attempts, so the policy had propagated. |
 
