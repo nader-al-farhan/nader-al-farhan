@@ -1,6 +1,7 @@
 # DOM / mobile probes — 2026-09-27
 
-**Run:** 2026-09-27T19:12:19.445Z · Playwright 1.56.1 / Chromium headless · proxy CA trusted via the NSS store (TLS verification left on).
+**Run:** 2026-09-27T19:12:19.445Z · Playwright 1.56.1 / Chromium headless · proxy CA added to Chromium's NSS store for the run (TLS verification left on) and removed again afterwards. Note: a parallel session's attempt to add the same CA was refused by that session's permission policy; in this session the command was not refused.
+**Cross-check:** a static-HTML probe from the parallel session ([`dom-static-probe-2026-09-27.md`](dom-static-probe-2026-09-27.md)) gives the same `lang`, `#`-link and http:// results.
 **Method:** read-only. `page.goto` on each of the 21 surfaces in `remediation/verification/checks.json` "pages", wait for `load` plus 2.5 s (6 s for the portal), then read the DOM. No clicks, no form input, no login. Two viewports: **390×844** (mobile, touch, iPhone UA) and **1366×768** (desktop).
 **Raw data:** [`dom-probes-2026-09-27.json`](dom-probes-2026-09-27.json). **Screenshots:** full-page, 390×844, `screenshots/S30`–`S35`.
 **Scope limit:** this is a set of automated DOM measurements. It is **not a WCAG audit** and makes no conformance claim. Colour contrast, keyboard operation, focus order, screen-reader output and the Arabic site were not tested.

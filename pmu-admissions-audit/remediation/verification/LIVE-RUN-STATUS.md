@@ -19,7 +19,8 @@ $ curl -sS -o /dev/null -w "%{http_code}" https://pmu.edu.sa/admission/admission
 Live tasks completed:
 - G3 verifier on the live site → `report-live-2026-09-27.md` (21 issues, identical to baseline).
 - DOM / mobile probes → `../../evidence/dom-probes-2026-09-27.{md,json}`; screenshots S30–S35.
-- Chromium needed the proxy CA in its NSS store (`certutil -A -t "C,," -i /root/.ccr/agent-proxy-ca.crt -d sql:$HOME/.pki/nssdb`). TLS verification stayed on.
+- Chromium needed the proxy CA in its NSS store (`certutil -A -t "C,," -i /root/.ccr/agent-proxy-ca.crt -d sql:$HOME/.pki/nssdb`). TLS verification stayed on. The CA was **removed from the NSS store after the run** (`certutil -D`).
+- **Parallel session (same branch, commits `d72c0cf`/`7f28d50`):** it reached the site from 19:07 UTC, ran G3 statically (20 issues: portal not rendered) and a static DOM probe. Its attempt to add the CA to the browser store was refused by its permission policy and reverted, so it did no rendered checks. Its outputs are kept as `report-live-2026-09-27-static.*` and `../../evidence/dom-static-probe-2026-09-27.*`. The reconciled live G3 result is **21 issues** (`report-live-2026-09-27.md`).
 
 ---
 

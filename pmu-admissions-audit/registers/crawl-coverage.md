@@ -132,6 +132,7 @@ The environment's egress policy was changed to allow `pmu.edu.sa` (other hosts s
 | G3 verifier (`urllib`, static HTML) + rendered text for the portal | 21 (P01–P04, P06, P07, P09, P12–P15, P17–P20, P28, P43, P49, P54, P55 viewer, /apply) | 21/21 fetched · HTTP 200 · **21 issues, identical to the baseline** | `remediation/verification/report-live-2026-09-27.{md,json}` |
 | Playwright 1.56.1 / Chromium, read-only DOM probe | same 21 × 2 viewports (390×844, 1366×768) | 42/42 loads HTTP 200 · portal not redirected to login | `evidence/dom-probes-2026-09-27.{md,json}` |
 | Full-page screenshots (390×844) | P12 medical fees (S30), P49 payment policy (S31), P43 EMGMS (S32), P09 Medicine admission (S33), P14 calendar (S34), P03 freshman (S35) | captured | `evidence/screenshots/S30`–`S35` |
+| Static-HTML probe (parallel session, cross-check) | same 21 | agrees on `lang`, `#` links, http:// pages; no layout | `evidence/dom-static-probe-2026-09-27.md` |
 | Apply-target resolution (GET only, no form submission) | 12 hrefs | `/Apply` → 301 → `/apply`; `Apply_Now_ADS.aspx` → `/admission/apply_now_ads` (200); http:// targets not testable (the proxy answers plain HTTP with 403) | `evidence/dom-probes-2026-09-27.md` |
 
 Redirects observed in the browser: `https://pmu.edu.sa/apply` ends on `https://admissions.pmu.edu.sa/welcome` (P15). All other surfaces stayed on their configured URL.
