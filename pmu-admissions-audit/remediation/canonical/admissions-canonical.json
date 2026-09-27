@@ -1,0 +1,765 @@
+[
+  {
+    "id": "hs_gpa_min",
+    "label": {
+      "en": "Minimum secondary-school GPA",
+      "ar": "الحد الأدنى لمعدل الثانوية"
+    },
+    "owner_role": "Admissions Committee",
+    "decision_ref": "D1",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "80% (general)",
+        "sources": [
+          "P02",
+          "P04",
+          "P18",
+          "P19",
+          "P20"
+        ]
+      },
+      {
+        "value": "85% (CS/Eng/Architecture major-specific)",
+        "sources": [
+          "P19"
+        ]
+      },
+      {
+        "value": "95% (Medicine, stated in document list)",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "70% floor, interview-dependent (legacy)",
+        "sources": [
+          "P20"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": "Category-specific values may be legitimate; the 70% legacy floor is not stated anywhere else."
+  },
+  {
+    "id": "gat_min",
+    "label": {
+      "en": "Minimum General Aptitude (Qudrat)",
+      "ar": "الحد الأدنى لاختبار القدرات"
+    },
+    "owner_role": "Admissions Committee",
+    "decision_ref": "D1",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "60%",
+        "sources": [
+          "P02",
+          "P04",
+          "P19",
+          "P20"
+        ]
+      },
+      {
+        "value": "65% (major-specific)",
+        "sources": [
+          "P19"
+        ]
+      },
+      {
+        "value": "80 (Medicine)",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "'Recent score' only, no minimum",
+        "sources": [
+          "P03"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "tahseely_rule",
+    "label": {
+      "en": "Tahseely requirement and SAT equivalence",
+      "ar": "اشتراط التحصيلي ومكافئ SAT"
+    },
+    "owner_role": "Admissions Committee",
+    "decision_ref": "D3",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Tahseely >= 65 or SAT 1 (1200)",
+        "sources": [
+          "P19"
+        ]
+      },
+      {
+        "value": "Tahseely 80 or SAT 1 1300 (Medicine)",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "SAT >= 1200 instead of Qudrat AND Tahseely",
+        "sources": [
+          "P28"
+        ]
+      },
+      {
+        "value": "SAT II 30% (discontinued 2021, X06)",
+        "sources": [
+          "P18"
+        ]
+      },
+      {
+        "value": "Not mentioned",
+        "sources": [
+          "P03"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "composite_formula",
+    "label": {
+      "en": "Weighted admission formula",
+      "ar": "المعادلة الموزونة"
+    },
+    "owner_role": "Admissions Committee -> Academic Council",
+    "decision_ref": "D1",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "HS 60% + GAT 40%",
+        "sources": [
+          "P02",
+          "P04",
+          "P18 (SAT I)",
+          "P19 general",
+          "P25"
+        ]
+      },
+      {
+        "value": "HS 30% + GAT 50% + Interview 20%",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "HS 40% + GAT 30% + Tahseely 30%",
+        "sources": [
+          "P19 major-specific"
+        ]
+      },
+      {
+        "value": "HS 40% + SAT I 30% + SAT II 30%",
+        "sources": [
+          "P18 CS/Eng"
+        ]
+      },
+      {
+        "value": "(HS 20% + GAT 40% + Tahseely 40%) x 60% + Interview 40%",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "Interview-based acceptance below 80%",
+        "sources": [
+          "P20"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": "Same-category conflict: general freshman 60/40 vs 30/50/20 vs P20."
+  },
+  {
+    "id": "composite_minimum",
+    "label": {
+      "en": "Minimum composite score",
+      "ar": "الحد الأدنى المركّب"
+    },
+    "owner_role": "Admissions Committee",
+    "decision_ref": "D1/D10",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "86 (Medicine) - unreachable at published minimums: 0.2x95+0.4x80+0.4x80 = 83",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "'defined by the Admissions Office' (unpublished)",
+        "sources": [
+          "P19"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "english_ug_direct",
+    "label": {
+      "en": "UG direct-entry English threshold",
+      "ar": "حد الإنجليزية للقبول المباشر"
+    },
+    "owner_role": "English/Prep Program Director -> Admissions Committee",
+    "decision_ref": "D2",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "IELTS Academic 6.0 overall / 5.5 writing",
+        "sources": [
+          "P04",
+          "P06",
+          "P17",
+          "P18",
+          "P19",
+          "P27",
+          "P53"
+        ]
+      },
+      {
+        "value": "IELTS 5.5 overall / 5.5 writing",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "TOEFL iBT 83 / writing 19",
+        "sources": [
+          "P07",
+          "P53"
+        ]
+      },
+      {
+        "value": "TOEFL iBT 65 / PBT 513 / CBT 183",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "'TOEFL or IELTS of 550' (invalid for IELTS)",
+        "sources": [
+          "P20"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": "TOEFL moved to a 1-6 scale on 21 Jan 2026 (X01); CBT retired 2006 (X02)."
+  },
+  {
+    "id": "english_grad",
+    "label": {
+      "en": "Graduate English threshold",
+      "ar": "حد الإنجليزية للدراسات العليا"
+    },
+    "owner_role": "Graduate Studies -> Admissions Committee",
+    "decision_ref": "D2",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "IELTS 6.0 overall & 5.5 each skill / TOEFL iBT 83 & 19 each",
+        "sources": [
+          "P34",
+          "P35",
+          "P36",
+          "P37",
+          "P38",
+          "P39",
+          "P40",
+          "P41",
+          "P42"
+        ]
+      },
+      {
+        "value": "IELTS 7 (no band < 6) / TOEFL 79 / PTE 60 / 'UA CESL' endorsement",
+        "sources": [
+          "P43"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": "P43 contains University of Arizona text (X09)."
+  },
+  {
+    "id": "test_validity",
+    "label": {
+      "en": "English test validity",
+      "ar": "صلاحية اختبار اللغة"
+    },
+    "owner_role": "English/Prep Program Director",
+    "decision_ref": "D2",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "'less than two years old'",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "'two years from test date to commencement of applied semester'",
+        "sources": [
+          "P06",
+          "P07"
+        ]
+      },
+      {
+        "value": "'within 2 years of enrollment term'",
+        "sources": [
+          "P43"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "application_fee",
+    "label": {
+      "en": "Application fee",
+      "ar": "رسم التقديم"
+    },
+    "owner_role": "Finance",
+    "decision_ref": "D5",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "SAR 950 incl. VAT (UG and graduate)",
+        "sources": [
+          "P02",
+          "P04",
+          "P13",
+          "P17",
+          "P19",
+          "P25",
+          "P27"
+        ]
+      },
+      {
+        "value": "SR 950 'Admission and English Placement Test Fee' (no VAT)",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "SR 950 non refundable (no VAT)",
+        "sources": [
+          "P20"
+        ]
+      },
+      {
+        "value": "SAR 1000 incl. VAT (Medicine)",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "SAR 1,150 VAT inclusive (Medicine)",
+        "sources": [
+          "P12"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "placement_fee",
+    "label": {
+      "en": "Placement (Aptis) test fee",
+      "ar": "رسم اختبار تحديد المستوى"
+    },
+    "owner_role": "Finance",
+    "decision_ref": "D5",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Included in SR 950",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "APTIS Exam Fees SAR 575",
+        "sources": [
+          "P13"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "refund_policy",
+    "label": {
+      "en": "Tuition refund and seat reservation",
+      "ar": "استرداد الرسوم وحجز المقعد"
+    },
+    "owner_role": "Finance + Legal",
+    "decision_ref": "D9",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "'All tuition payments are non-refundable.'",
+        "sources": [
+          "P49"
+        ]
+      },
+      {
+        "value": "Deductions 25% / 50% / 75% by timing",
+        "sources": [
+          "P49"
+        ]
+      },
+      {
+        "value": "Partial refund per acceptance-letter terms (unpublished)",
+        "sources": [
+          "P50"
+        ]
+      },
+      {
+        "value": "Medicine seat reservation SAR 20,000 non-refundable",
+        "sources": [
+          "P12"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "tuition_ug",
+    "label": {
+      "en": "UG tuition (new intake)",
+      "ar": "الرسوم الدراسية للبكالوريوس"
+    },
+    "owner_role": "Finance",
+    "decision_ref": "-",
+    "status": "consistent-needs-label",
+    "published_values": [
+      {
+        "value": "2026/27: SAR 30,000/sem (COBA, Law, Prep); SAR 32,500/sem (CAD, CCES, COE); 12-18 hrs flat",
+        "sources": [
+          "P11",
+          "P49 (undated)"
+        ]
+      },
+      {
+        "value": "2025/26 intake: SAR 29,000 all / 32,500 AI & Cyber",
+        "sources": [
+          "P46"
+        ]
+      },
+      {
+        "value": "Continuing (pre-2025/26): 29,000 / 32,500, 12+ hrs",
+        "sources": [
+          "P47"
+        ]
+      }
+    ],
+    "approved_value": "2026/27 schedule as published on P11 (label as current; label P46/P47 as previous/continuing)",
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "tuition_medicine",
+    "label": {
+      "en": "Medicine tuition and duration",
+      "ar": "رسوم ومدة برنامج الطب"
+    },
+    "owner_role": "Dean, College of Medicine + Finance",
+    "decision_ref": "D10",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "7-year hybrid model",
+        "sources": [
+          "P09"
+        ]
+      },
+      {
+        "value": "6-year integrated curriculum (UIC collaboration)",
+        "sources": [
+          "P54"
+        ]
+      },
+      {
+        "value": "Medical Prep SAR 75,000/yr + Medical Program SAR 90,000/yr",
+        "sources": [
+          "P12"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "vat_statement",
+    "label": {
+      "en": "VAT treatment",
+      "ar": "بيان ضريبة القيمة المضافة"
+    },
+    "owner_role": "Finance",
+    "decision_ref": "-",
+    "status": "consistent",
+    "published_values": [
+      {
+        "value": "Non-Saudi: 15% on tuition and fees; Saudi: 15% on fees only",
+        "sources": [
+          "P11",
+          "P12",
+          "P45",
+          "P46",
+          "P49",
+          "P51"
+        ]
+      }
+    ],
+    "approved_value": "As published (consistent with ZATCA, X07)",
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "application_channel",
+    "label": {
+      "en": "Application channel per applicant type",
+      "ar": "قناة التقديم لكل فئة"
+    },
+    "owner_role": "Executive Sponsor + Admissions Director",
+    "decision_ref": "D4",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Saudi UG -> Qabool (uap.sa); non-Saudi -> Study in Saudi (Closed)",
+        "sources": [
+          "P14"
+        ]
+      },
+      {
+        "value": "Everyone -> pmu.edu.sa/apply -> admissions.pmu.edu.sa",
+        "sources": [
+          "P02",
+          "P04",
+          "P18",
+          "P53"
+        ]
+      },
+      {
+        "value": "http://admissions.pmu.edu.sa",
+        "sources": [
+          "P17",
+          "P19"
+        ]
+      },
+      {
+        "value": "Apply_Now_ADS.aspx",
+        "sources": [
+          "P03",
+          "sidebars"
+        ]
+      },
+      {
+        "value": "uap.sa (Medicine)",
+        "sources": [
+          "P09"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "required_documents",
+    "label": {
+      "en": "Required documents per applicant type",
+      "ar": "الوثائق المطلوبة لكل فئة"
+    },
+    "owner_role": "Admissions Director",
+    "decision_ref": "OPS-1",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Original certificate; Saudi ID or Iqama",
+        "sources": [
+          "P03"
+        ]
+      },
+      {
+        "value": "Copy of certificate; Saudi ID only",
+        "sources": [
+          "P04",
+          "P19"
+        ]
+      },
+      {
+        "value": "Certificate certified by Saudi Cultural Mission and Embassy; National ID",
+        "sources": [
+          "P18"
+        ]
+      },
+      {
+        "value": "Embassy stamp + MoE equivalency",
+        "sources": [
+          "P53",
+          "P02"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "intake_status",
+    "label": {
+      "en": "Intake calendar and status",
+      "ar": "تقويم الدورة وحالتها"
+    },
+    "owner_role": "Admissions Director + IT (portal)",
+    "decision_ref": "OPS-2",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Fall 2026-27 only (classes began 2026-08-30)",
+        "sources": [
+          "P14"
+        ]
+      },
+      {
+        "value": "'No events are currently published'",
+        "sources": [
+          "P15"
+        ]
+      },
+      {
+        "value": "Footer: 2021-22; Study at PMU hub: 2023-24",
+        "sources": [
+          "P32",
+          "P56"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "contacts",
+    "label": {
+      "en": "Admissions contact points",
+      "ar": "جهات تواصل القبول"
+    },
+    "owner_role": "Admissions Director",
+    "decision_ref": "OPS-3",
+    "status": "gap",
+    "published_values": [
+      {
+        "value": "enrollment@pmu.edu.sa (Contact Us; 2018 guide)",
+        "sources": [
+          "P64",
+          "P55"
+        ]
+      },
+      {
+        "value": "graduateadm@pmu.edu.sa (graduate)",
+        "sources": [
+          "P30"
+        ]
+      },
+      {
+        "value": "UG sidebars -> graduate contact page",
+        "sources": [
+          "P04",
+          "P17",
+          "P19"
+        ]
+      },
+      {
+        "value": "financal_aid@ vs financial_aid@",
+        "sources": [
+          "P64",
+          "P66"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  },
+  {
+    "id": "programme_register",
+    "label": {
+      "en": "Programmes open for admission",
+      "ar": "البرامج المتاحة للقبول"
+    },
+    "owner_role": "Vice President for Academic Affairs",
+    "decision_ref": "OPS-4",
+    "status": "conflict",
+    "published_values": [
+      {
+        "value": "Degrees & Programs: no Medicine, no EMGMS, no Eng. ISE, no Pre-Master M.Ed.",
+        "sources": [
+          "P61"
+        ]
+      },
+      {
+        "value": "List of Majors: includes EMGMS and 'MS' Eng. ISE; no Medicine",
+        "sources": [
+          "P60"
+        ]
+      },
+      {
+        "value": "Graduate fees: prices 'Master of Engineering' ISE and Pre-Master M.Ed.",
+        "sources": [
+          "P45"
+        ]
+      }
+    ],
+    "approved_value": null,
+    "effective_intake": null,
+    "last_verified": "2026-09-27",
+    "note": ""
+  }
+]

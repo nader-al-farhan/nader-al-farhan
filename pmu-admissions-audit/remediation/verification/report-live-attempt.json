@@ -1,0 +1,181 @@
+{
+  "verdict": "NOT MET",
+  "issues": [
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "hub",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "ug_home",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "freshman",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "direct",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "ielts",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "toefl",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "sat",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "medicine",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "medicine_academic",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "medical_fees",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "other_fees",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "payment_policy",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "calendar",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "international",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "cs_eng",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "transfer",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "emgms",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "legacy_criteria",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "apply",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "portal",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "type": "unverifiable",
+      "finding": "G3",
+      "page": "guide_viewer",
+      "detail": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "groups": [
+    {
+      "rule": "english_ug_direct.ielts_overall",
+      "finding": "F-04",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    },
+    {
+      "rule": "english_ug_direct.toefl_ibt",
+      "finding": "F-04",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    },
+    {
+      "rule": "application_fee.medicine",
+      "finding": "F-03",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    },
+    {
+      "rule": "tahseely_rule.sat_score",
+      "finding": "F-05",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    },
+    {
+      "rule": "tuition_medicine.duration_years",
+      "finding": "F-23",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    },
+    {
+      "rule": "composite_formula.hs_weight_general",
+      "finding": "F-01",
+      "values_by_page": {},
+      "distinct": [],
+      "expected": null,
+      "ok": true
+    }
+  ]
+}

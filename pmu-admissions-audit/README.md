@@ -12,3 +12,5 @@ Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, 
 - Page source (image placeholders): `src/plan.src.html`
 
 Current project verdict: **FULL PROJECT CLOSURE — NOT MET** (baseline, before the project starts).
+
+- **Remediation toolkit (ready to use):** [`remediation/`](remediation/README.md). Contains the canonical record seed, decision packs D0–D10, bilingual components, the legacy redirect map, the G3 verifier with tests, and the closure gate tracker.

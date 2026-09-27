@@ -221,6 +221,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
     <li><a href="#s14">إطار الإغلاق الكامل</a></li>
     <li><a href="#s15">المنهجية والتغطية والقيود</a></li>
     <li><a href="#s16">التصحيح الذاتي وما ثبت سليمًا</a></li>
+    <li><a href="#s17">حزمة المعالجة الجاهزة وحالة البوابات</a></li>
     <li><a href="#appA">ملحق أ: الأدلة المرئية</a></li>
     <li><a href="#appB">ملحق ب: السجلات والمصادر</a></li>
   </ol>
@@ -789,6 +790,35 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
       </ul>
     </div>
   </div>
+</section>
+
+<!-- ============ 17 REMEDIATION KIT ============ -->
+<section class="s" id="s17">
+  <div class="s-head"><span class="s-num">17</span><h2>حزمة المعالجة الجاهزة وحالة البوابات</h2><span class="s-en">Remediation Toolkit · Gate Status</span></div>
+  <p>نُفّذ مسبقًا كل ما لا يحتاج قرارًا مؤسسيًا، حتى يبدأ المشروع من اليوم الأول بأدوات جاهزة. لم يُعدَّل أي شيء في موقع الجامعة، فالنشر من صلاحية فريق الويب بعد توقيع القرارات.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>المخرج</th><th>المحتوى</th><th>البوابة</th><th>المسار في المستودع</th></tr></thead>
+    <tbody>
+      <tr><td>سجل البيانات المرجعي (بذرة)</td><td>19 سجلًا: القيم المنشورة ومصادرها، والدور المالك، والقرار المرتبط. الحالة: 16 متعارضًا، وفجوة واحدة، واثنان متسقان</td><td>G1، G2</td><td class="mono ltr">remediation/canonical/</td></tr>
+      <tr><td>حزم القرار D0 إلى D10</td><td>أدلة، وخيارات محايدة، وسجل توقيع لكل قرار</td><td>G0، G1</td><td class="mono ltr">remediation/decisions/</td></tr>
+      <tr><td>مكوّنات المحتوى AR/EN</td><td>8 مكوّنات مربوطة بحقول السجل، مع قاعدة نشر تمنع تكرار F-20</td><td>G4، G5</td><td class="mono ltr">remediation/content/</td></tr>
+      <tr><td>خريطة تحويل المحتوى القديم</td><td>15 رابطًا، لكل منها الخطر والبديل وإجراء دورة الحياة وطريقة التحقق</td><td>G6</td><td class="mono ltr">remediation/legacy/redirect-map.csv</td></tr>
+      <tr><td>أداة التحقق الآلي (G3)</td><td>تعيد جلب الصفحات وتكشف النصوص القديمة والتناقضات وتعدد القيم. اجتازت 3 من 3 اختبارات. تقرير خط الأساس: 21 مشكلة</td><td>G3، G7</td><td class="mono ltr">remediation/verification/</td></tr>
+      <tr><td>مذكرة طلب الاعتماد D0 (عربي)</td><td>صفحة واحدة للمدير المباشر، مع الإجراءات العاجلة التي لا تحتاج قرارًا أكاديميًا</td><td>G0</td><td class="mono ltr">remediation/content/memo-D0-request-AR.md</td></tr>
+    </tbody>
+  </table></div>
+  <div class="gate" role="table" aria-label="حالة البوابات الآن">
+    <div class="h">البوابة</div><div class="h">ما ينقصها للاجتياز</div><div class="h">الحالة</div>
+    <div class="gid">G0</div><div>توقيع D0 وتسمية الراعي والمالكين</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G1</div><div>توقيع D1 إلى D10 (الموقّع 0 من 10)</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G2</div><div>اعتماد 17 سجلًا من 19</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G3</div><div>تشغيل الأداة على الموقع الحي بنتيجة صفر مشكلات (خط الأساس 21)</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G4</div><div>توحيد 5 مداخل تقديم، واختبارات رحلة لست شخصيات</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G5</div><div>قياس WCAG والتكافؤ اللغوي بمتصفح فعلي</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G6</div><div>إيصال 15 رابطًا قديمًا إلى حالتها النهائية</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G7</div><div>دورتا فحص شهريتان بصفر مشكلات، وتسليم موقّع</div><div><span class="pill p-crit">Not met</span></div>
+  </div>
+  <div class="callout" style="border-color:var(--crit);background:var(--crit-soft)"><p><strong>الحكم الحالي:</strong> <span class="verdict notmet">FULL PROJECT CLOSURE — NOT MET</span>. الإغلاق النهائي يتطلب قرارات الجامعة وتعديل موقعها، وهما خارج صلاحية التدقيق. أدوات إثبات الإغلاق كلها جاهزة، والحكم يتحول إلى <span class="mono ltr">PASS</span> عندما تعطي أداة التحقق صفر مشكلات على الموقع الحي في دورتين متتاليتين، مع اجتياز باقي البوابات.</p></div>
 </section>
 
 <!-- ============ APPENDIX A ============ -->
