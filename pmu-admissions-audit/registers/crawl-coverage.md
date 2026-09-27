@@ -68,3 +68,52 @@ See the "Coverage" section of the executive plan for the final counts. Coverage 
 
 | P20 | Admission Procedures & Criteria | https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro | Legacy criteria page (outside hub navigation) | Core (orphan) | Loaded | **Legacy** | Text + S20 |
 | P21 | Admission & Registration (Diploma Program) | https://www.pmu.edu.sa/academics/admission_registration_dp | Legacy diploma admission announcement (Arabic) | Adjacent | Loaded | **Legacy / unclear** | Text |
+
+
+## D. Phase 2 — reviewed in full (2026-09-27, via remote renderer TinyFish `fetch_content`; header/footer excluded unless noted)
+
+| ID | Title / purpose | Final URL | Scope | Access | Generation | Evidence |
+|---|---|---|---|---|---|---|
+| P23 | Future Students overview | /admission/future_students_ro | Support | Loaded | Unclear | Text |
+| P24/P61 | Degrees & Programs (full body at P61) | /admission/degrees_programs_fs_ro | Core | Loaded | Current (incomplete) | Text |
+| P25 | Admission to the Preparatory Program | /admission/admission-to-the-preparatory-program | Core | Loaded | Current (empty sections) | Text |
+| P26 | Prep → UG | /admission/admission-from-the-prep-to-ug-programs | Core | Loaded | Current | Text |
+| P27 | Visiting Students | /admission/visiting-student-admission | Core | Loaded | Current | Text |
+| P28 | SAT | /admission/sat-admission | Core | Loaded | Current | Text |
+| P29 | Admission Query (form, not submitted) | /admission/admissions_queries | Support | Loaded | Current (bilingual intro) | Text |
+| P30 | Graduate Contact | /admission/admission_contact_gdp | Support | Loaded | Mixed (legacy sidebar) | Text |
+| P31 | Tuition & Fees (Registrar index) | /admission/tuition_fees_ro | Support | Loaded | Mixed | Text |
+| P32 | Footer "Academic Calendar" target | /admission/academic_calendar_2021_2022_ro | Adjacent | Loaded | **Legacy** | Text |
+| P33 | Graduate Admissions hub | /admission/admission_graduate_degree_programs | Core | Loaded | Mixed | Text |
+| P34–P44 | 11 graduate requirement pages (PhD-ME, PhD-BA, EMBA, MBA, MSHD, MSME, MSEE, MSCE, MSID, EMGMS, MA IBL) | /admission/*_gdp | Core | Loaded | Mixed (EMGMS third-party) | Text |
+| P45 | Post Graduate Fees | /admission/post_graduate_fees_tf_ro | Core | Loaded | Current | Text |
+| P46 | UG Fees 2025/2026 intake | /admission/fees_tf_ro_2025_2026 | Core | Loaded | Previous intake | Text |
+| P47 | UG Fees continuing 2024–2025 | /admission/fees_tf_ro_2024_2025 | Support | Loaded | Continuing | Text |
+| P48 | Payment Schedule | /admission/payment_schedule_tf_ro | Support | Loaded (tabs not rendered) | Unclear | Text (headings only) |
+| P49 | Tuition & Fee Payment Policy | /admission/payment_method_tf_ro | Core | Loaded | Undated | Text |
+| P50 | Fees FAQ | /admission/faq_tf_ro | Core | Loaded | Current | Text |
+| P51 | Summer Tuition | /admission/summer_semester_tuition_tf_ro | Support | Loaded | Undated | Text |
+| P52 | International Students' Office | /admission/international_students_office | Core | Loaded | Current (encoding defect) | Text |
+| P53 | Apply (bilingual direct-entry block) | /apply | Core | Loaded (real browser redirects to portal) | **Newest** | Text |
+| P54 | College of Medicine (academic) | /academics/college_of_medicine_udp | Core | Loaded | Current | Text |
+| P55 | Web Admission Guide PDF (2018, ©2011) | /Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf | Core | Loaded | **Legacy** | Text |
+| P56 | "Study at PMU" calendar target | /admission/academic_calendar_2023_2024_ro | Adjacent | Loaded | **Legacy** | Text |
+| P57–P59 | Financial Aid (welcome, tips, index) | /admission/welcome_fa_ro · tips_…_fa_ro · financial_aid_ro | Support | Loaded | Current (thin) | Text |
+| P60 | List of Majors (Registrar) | /admission/list_majors_ro | Support | Loaded | Current | Text |
+| P62 | Transfer & Credit Transfer Policy | /admission/transfer-student-admission-and-credit-transfer-policy | Core | Loaded | Current (**pass**) | Text |
+| P63 | Hub "Contact Us" → staff list | faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4 | Support | Loaded (redirect) | Current (wrong department) | Text |
+| P64 | Contact Us | /about/contact_us | Support | Loaded | Current | Text |
+| P65 | Academic Calendar 2025–26 PDF | /attachments/admission/pdf/academic_calendar_2025-2026.pdf | Support | Loaded | Current (**pass**) | Text |
+| P66 | MOHE scholarship PDF (Arabic) | /attachments/admission/pdf/mohe_2.pdf | Adjacent | Loaded | **Legacy (corrupted text)** | Text |
+| P67 | Registration Office welcome | /admission/registration_office | Adjacent | Loaded | Current | Text |
+| P68 | Study at PMU hub | /admission/admission-registration | Support | Loaded | Mixed | Text + links |
+| P69 | Placement test sample viewer | /pdf/viewer?ID=202 | Adjacent | Loaded | **Legacy chain** | Text |
+| P70 | Student Handbook viewer | /pdf/viewer?ID=179 | Adjacent | Loaded | Unclear | Text (viewer only) |
+
+## E. Coverage summary (final for this audit)
+
+- **Reviewed in full:** 70 resources (P01–P70, counting P34–P44 as 11). These are 58 HTML pages, 4 PDFs, 3 PDF viewers, the portal landing, 2 hubs and 2 external-redirect targets. Two readers were used: the Opera accessibility tree for P01–P22, and the remote renderer for P23–P70.
+- **Discovered but not opened:** Student Handbook PDF, Aptis Candidate Guide (Aug 2017) PDF, Registration Quick Guide (PDF ID 380), Grading System, Academic Standing, Re-instatement, "Students with Saudi residence (Iqama)" target, and news items.
+- **Out of bounds by design (read-only audit):** the logged-in portal, the query-form submission, and any payment flow.
+- **Could not measure:** mobile overflow, heading order, alt text and `lang` via DOM. The container blocks pmu.edu.sa, and the remote browser was unavailable because the wallet balance is zero. No WCAG claim is made.
+- Section B entries that now appear in D are reviewed.

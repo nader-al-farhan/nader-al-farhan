@@ -20,3 +20,18 @@ Verified 2026-09-27. "—" means the page does not state the value. **Bold** mar
 | Intake shown | — | — | — | — | — | — | — | P14: Fall 2026-27 only; P15: "No events"; footer: 2021-22 | Stale / mismatch |
 
 **Candidate canonical record set.** Each of these must have exactly one owner, one value per intake and applicant category, an effective date and a bilingual label. That makes 14 data domains: GPA threshold · GAT threshold · Tahseely rule and equivalents · composite formula and minimum · English tests and thresholds (with 1–6 TOEFL mapping) · test validity · application fees (by program) · placement test fee · seat reservation and refund terms · tuition per college and intake · VAT statement · channel per applicant type · required documents per applicant type · intake calendar and status · contact points.
+
+## Phase 2 additions (2026-09-27)
+
+| Data point | Surface A | Surface B | Surface C | Status |
+|---|---|---|---|---|
+| SAT as substitute for Qudrat/Tahseely | P28 SAT page: "minimum score of 1200 instead of Qudrat and Tahseely" | P19: Tahseely "or SAT 1 (1200)" | P09 Medicine: "SAT 1 1300" · P18: "SAT II 30%" | Conflict (F-05) |
+| TOEFL direct entry | P53 /apply (AR+EN): iBT 83 / W19 | P07: Core 83 / 19 | P03: iBT 65, PBT 513, CBT 183 | P03 is the outlier (F-04) |
+| Graduate English | P34–P42 (9 pages): IELTS 6.0 & 5.5 each · TOEFL 83 & 19 each | P43 EMGMS: IELTS 7 (no band <6) · TOEFL 79 · PTE 60 · "UA CESL" | — | Conflict + third-party text (F-21) |
+| Medicine duration | P09: "7-year hybrid model" | P54: "6-year integrated curriculum" (UIC) | P12: Medical Prep 75,000/yr + Programme 90,000/yr | Conflict (F-23) |
+| Tuition refundability | P49: "All tuition payments are non-refundable." | P49 table: 25% / 50% / 75% deductions | P50: partial refund per acceptance letter (unpublished) | Internal contradiction (F-22) |
+| UG tuition, new intake | P11 (2026/27): 30,000 (COBA, Law, Prep) / 32,500 (CAD, CCES, COE) | P46 (2025/26): 29,000 all / 32,500 AI & Cyber | P49 (undated): 30,000 / 32,500 | Dated generations; P49 undated → label required |
+| GPA descriptor "Very Good" | P37/P40/P41/P42: 2.50/4.00 | P34: 3.00/4.00 | — | Inconsistent (F-27) |
+| Programme list | P61 Degrees & Programs | P60 List of Majors | P45 Graduate Fees | Different sets (F-25) |
+| "Academic Calendar" link target | Footer → 2021–22 | Study at PMU hub → 2023–24 | Registrar → 2026/27 | Stale links (F-12) |
+| Financial-aid mailbox | P64: financal_aid@pmu.edu.sa | P66: financial_aid@pmu.edu.sa | — | Conflict (F-11) |
