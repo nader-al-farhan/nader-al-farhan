@@ -22,6 +22,8 @@ Live tasks completed:
 - Chromium needed the proxy CA in its NSS store (`certutil -A -t "C,," -i /root/.ccr/agent-proxy-ca.crt -d sql:$HOME/.pki/nssdb`). TLS verification stayed on. The CA was **removed from the NSS store after the run** (`certutil -D`).
 - **Parallel session (same branch, commits `d72c0cf`/`7f28d50`):** it reached the site from 19:07 UTC, ran G3 statically (20 issues: portal not rendered) and a static DOM probe. Its attempt to add the CA to the browser store was refused by its permission policy and reverted, so it did no rendered checks. Its outputs are kept as `report-live-2026-09-27-static.*` and `../../evidence/dom-static-probe-2026-09-27.*`. The reconciled live G3 result is **21 issues** (`report-live-2026-09-27.md`).
 
+- **Method approved:** on 2026-09-27 the audit owner explicitly accepted the browser-rendered evidence (portal text for F-08, DOM probes, S30–S35), including the temporary proxy-CA step used to produce it.
+
 ---
 
 # History
