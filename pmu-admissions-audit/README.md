@@ -13,6 +13,8 @@ Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, 
 - Live G3 report: [`remediation/verification/report-live-2026-09-27.md`](remediation/verification/report-live-2026-09-27.md)
 - Page source (image placeholders): `src/plan.src.html`
 
+- **Full review (2026-09-27):** [`REVIEW-2026-09-27.md`](REVIEW-2026-09-27.md). Every commit was re-checked, and every quote was re-matched against the live site (70/70 resources, HTTP 200). There are 11 wording, count and addressee corrections. No finding was withdrawn and no severity changed.
+
 Current project verdict: **FULL PROJECT CLOSURE — NOT MET** (baseline, before the project starts).
 
 **Live re-verification (2026-09-27, audit container):**

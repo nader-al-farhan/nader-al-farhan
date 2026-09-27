@@ -11,3 +11,16 @@
 | X07 | VAT on private education | ZATCA: the State bears VAT on qualifying private educational services (tuition) for Saudi citizens (Royal Decree A/86, 2018); VAT not collected from eligible citizens on covered tuition; standard rate 15% applies otherwise. | https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx ; https://www.pwc.com/m1/en/services/tax/me-tax-legal-news/2024/saudi-arabia-circular-on-private-educational-services-provided-to-saudi-citizens-nd-vat-treatment.html | PMU 2026/27 fee table (Saudi: no VAT on tuition; non-Saudi: 15% on tuition+fees) is consistent with ZATCA. Whether non-tuition "fees" (e.g., application fee) fall inside/outside the relief is a Finance/Tax determination → wording "SAR 950 incl. VAT" vs "S.R.950 ... fee" (no VAT) must be unified by Finance. |
 | X08 | Study in Saudi | Official MoE platform for non-Saudi students (Qabul is for Saudi nationals); covers public and private universities. | https://studyinsaudi.sa/en ; https://www.moe.gov.sa/en/mediacenter/MOEnews/Pages/Study-Saudi-Arabia.aspx | PMU calendar's non-Saudi route (Study in Saudi) is consistent with MoE model; but PMU "International Students without Saudi Residence" page + portal "Register" must reflect the same routing (see P17 when reviewed). |
 | X09 | "UA CESL" English endorsement | The Center for English as a Second Language (CESL) is at the University of Arizona. Its Graduate English Endorsement "is for UA admission only". | https://cesl.arizona.edu/endorsement ; https://cesl.arizona.edu/learn-english/graduate-university-track | The PMU EMGMS page (P43) lists "Graduate English Language Endorsement from UA Center for English as Second Language (CESL)" as a way to meet PMU's English requirement. This is third-party checklist text applied to PMU, and the pathway it names is not open to PMU applicants. |
+
+## Re-verification during the full review (2026-09-27)
+
+The audit container can reach only `pmu.edu.sa`, so the external sites could not be fetched directly. Each fact below was re-checked through a web search restricted to the official domain.
+
+| ID | Result | Source |
+|---|---|---|
+| X01 | **Confirmed.** The 1–6 scale has applied since 21 Jan 2026. A comparable 0–120 score is shown for two years, "through January 2028". | https://www.ets.org/toefl/institutions/ibt/score-scale-update.html |
+| X02 | **Confirmed.** The final TOEFL CBT administration was in September 2006. | https://www.ets.org/Media/Research/pdf/TOEFL-SUM-0506-CBT.pdf |
+| X06 | **Partly confirmed.** The discontinuation in January 2021 is confirmed. The "last international sitting June 2021" date was **not** re-confirmed by the official source in this check. It is treated as unverified, and no finding depends on it. | https://blog.collegeboard.org/what-were-sat-subject-tests |
+| X07 | **Confirmed.** Royal Decree A/86: the State bears VAT for citizens on covered private education. | https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx |
+| X09 | **Confirmed.** CESL's endorsement "is for UA admission only". | https://cesl.arizona.edu/endorsement |
+| X03, X04, X05, X08 | Not re-checked in this review. They are unchanged from the original check. | as above |

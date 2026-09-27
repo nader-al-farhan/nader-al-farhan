@@ -138,3 +138,7 @@ The environment's egress policy was changed to allow `pmu.edu.sa` (other hosts s
 Redirects observed in the browser: `https://pmu.edu.sa/apply` ends on `https://admissions.pmu.edu.sa/welcome` (P15). All other surfaces stayed on their configured URL.
 
 **Updated total: 72 resources reviewed (unchanged); 21 core surfaces live re-verified with DOM measurements.**
+
+## G. Full review re-fetch — 2026-09-27
+
+The review re-fetched **70 resources** directly: P01–P72, excluding the portal SPA (P15) and P61 (same URL as P24). **70/70 returned HTTP 200.** Every quote in the field notes (209) and the findings register (110) was matched against this text. The results are in `../REVIEW-2026-09-27.md`. Of the 15 legacy URLs in `remediation/legacy/redirect-map.csv`, 14 still return 200. The `http://admissions.pmu.edu.sa/` row could not be tested from this environment.
