@@ -1,0 +1,791 @@
+<title>PMU Admissions Project Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Readex+Pro:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#1c2b3d; --ink-2:#44536a; --muted:#6a778a;
+  --paper:#f6f7f9; --sheet:#ffffff; --line:#dfe3ea; --line-2:#c9d0db;
+  --navy:#243a52; --navy-soft:#e8edf4;
+  --accent:#d9621c; --accent-soft:#fbeadf;
+  --crit:#b3261e; --crit-soft:#fbe4e2;
+  --high:#b35c00; --high-soft:#fcecd9;
+  --med:#8a6d00; --med-soft:#f7efcf;
+  --low:#2f6386; --low-soft:#e0edf6;
+  --ok:#2e7a4d; --ok-soft:#e1f2e8;
+  --svg-box:#ffffff; --svg-fill:#eef2f7;
+  --f-body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
+  --f-disp:"Readex Pro","IBM Plex Sans Arabic","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ink:#e7ecf3; --ink-2:#bcc6d4; --muted:#93a0b3;
+    --paper:#10161f; --sheet:#171f2b; --line:#2a3545; --line-2:#3a475a;
+    --navy:#9fb8d6; --navy-soft:#1f2b3b;
+    --accent:#f08a4b; --accent-soft:#3a2517;
+    --crit:#ff8a80; --crit-soft:#3d1c1a;
+    --high:#ffb766; --high-soft:#3b2a14;
+    --med:#e7cc62; --med-soft:#353015;
+    --low:#8fc3e8; --low-soft:#172b3a;
+    --ok:#7fd3a0; --ok-soft:#15301f;
+    --svg-box:#1c2635; --svg-fill:#223044;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#e7ecf3; --ink-2:#bcc6d4; --muted:#93a0b3;
+  --paper:#10161f; --sheet:#171f2b; --line:#2a3545; --line-2:#3a475a;
+  --navy:#9fb8d6; --navy-soft:#1f2b3b;
+  --accent:#f08a4b; --accent-soft:#3a2517;
+  --crit:#ff8a80; --crit-soft:#3d1c1a;
+  --high:#ffb766; --high-soft:#3b2a14;
+  --med:#e7cc62; --med-soft:#353015;
+  --low:#8fc3e8; --low-soft:#172b3a;
+  --ok:#7fd3a0; --ok-soft:#15301f;
+  --svg-box:#1c2635; --svg-fill:#223044;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15.5px;line-height:1.75;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
+[lang="en"],.ltr{direction:ltr;unicode-bidi:isolate}
+a{color:var(--navy);text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:3px}
+h1,h2,h3,h4{font-family:var(--f-disp);color:var(--ink);text-wrap:balance;line-height:1.35;margin:0}
+h2{font-size:1.5rem;font-weight:700}
+h3{font-size:1.12rem;font-weight:600}
+h4{font-size:1rem;font-weight:600}
+p{margin:0;max-width:72ch}
+.mono,code{font-family:var(--f-mono);font-size:.86em}
+.eyebrow{font-family:var(--f-disp);font-size:.78rem;letter-spacing:.06em;color:var(--accent);font-weight:600}
+.muted{color:var(--muted)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.stack-lg{display:flex;flex-direction:column;gap:22px}
+
+/* cover */
+.cover{background:var(--sheet);border:1px solid var(--line);border-top:6px solid var(--navy);border-radius:4px;padding:34px 30px;display:grid;gap:22px}
+.cover h1{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:700;direction:ltr;text-align:right}
+.cover .sub{font-size:1.15rem;color:var(--ink-2);font-family:var(--f-disp);font-weight:500}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 22px;border-top:1px solid var(--line);padding-top:18px}
+.meta div{display:flex;flex-direction:column;gap:2px}
+.meta dt{font-size:.78rem;color:var(--muted);letter-spacing:.03em}
+.meta dd{margin:0;font-weight:600}
+.verdict{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:3px;font-family:var(--f-mono);font-weight:500;font-size:.9rem;direction:ltr}
+.verdict.notmet{background:var(--crit-soft);color:var(--crit);border:1px solid var(--crit)}
+.verdict.pass{background:var(--ok-soft);color:var(--ok);border:1px solid var(--ok)}
+
+/* toc */
+nav.toc{background:var(--sheet);border:1px solid var(--line);border-radius:4px;padding:18px 22px}
+nav.toc ol{margin:8px 0 0;padding-inline-start:22px;columns:2 260px;column-gap:28px}
+nav.toc li{break-inside:avoid;padding-block:2px}
+
+/* section */
+section.s{background:var(--sheet);border:1px solid var(--line);border-radius:4px;padding:28px 26px;display:flex;flex-direction:column;gap:18px}
+.s-head{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:12px;flex-wrap:wrap}
+.s-num{font-family:var(--f-mono);color:var(--accent);font-size:.95rem}
+.s-en{font-family:var(--f-disp);color:var(--muted);font-size:.9rem;direction:ltr;margin-inline-start:auto}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{border:1px solid var(--line);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:2px;background:var(--paper)}
+.stat b{font-family:var(--f-disp);font-size:1.9rem;line-height:1.1;font-variant-numeric:tabular-nums;color:var(--ink)}
+.stat span{font-size:.86rem;color:var(--ink-2)}
+.stat.c b{color:var(--crit)}
+
+/* callout */
+.callout{border-inline-start:4px solid var(--accent);background:var(--accent-soft);padding:14px 18px;border-radius:0 4px 4px 0}
+.callout.navy{border-color:var(--navy);background:var(--navy-soft)}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:4px}
+table{border-collapse:collapse;width:100%;font-size:.9rem;min-width:640px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:start}
+thead th{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem;color:var(--ink);position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td q,td .q{font-family:var(--f-body);direction:ltr;unicode-bidi:isolate;display:inline;background:var(--paper);border:1px solid var(--line);padding:0 5px;border-radius:3px;font-size:.88em;quotes:none}
+
+/* pills */
+.pill{display:inline-block;font-family:var(--f-mono);font-size:.74rem;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap;direction:ltr}
+.p-crit{color:var(--crit);background:var(--crit-soft)}
+.p-high{color:var(--high);background:var(--high-soft)}
+.p-med{color:var(--med);background:var(--med-soft)}
+.p-low{color:var(--low);background:var(--low-soft)}
+.p-ok{color:var(--ok);background:var(--ok-soft)}
+.p-enh{color:var(--navy);background:var(--navy-soft)}
+
+/* scorecard */
+.score{display:grid;grid-template-columns:minmax(150px,1.1fr) 110px 3fr;gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.score>div{padding:10px 14px;border-bottom:1px solid var(--line)}
+.score>div:nth-last-child(-n+3){border-bottom:0}
+.score .h{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem}
+@media (max-width:640px){.score{grid-template-columns:1fr}.score .h{display:none}.score>div{border-bottom:0}.score>div:nth-child(3n){border-bottom:1px solid var(--line)}}
+
+/* workstreams */
+.ws-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.ws{border:1px solid var(--line);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;background:var(--paper)}
+.ws h3{display:flex;gap:10px;align-items:baseline}
+.ws h3 .mono{color:var(--accent)}
+.ws dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:.9rem}
+.ws dt{color:var(--muted)}
+.ws dd{margin:0}
+.ws ul{margin:0;padding-inline-start:18px;font-size:.92rem}
+
+/* figures */
+figure{margin:0;display:flex;flex-direction:column;gap:8px}
+figcaption{font-size:.86rem;color:var(--ink-2)}
+.fig{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:var(--sheet);padding:10px}
+svg text{font-family:var(--f-body)}
+.sv-box{fill:var(--svg-box);stroke:var(--line-2);stroke-width:1.2}
+.sv-fill{fill:var(--svg-fill);stroke:var(--line-2);stroke-width:1}
+.sv-navy{fill:var(--navy)}
+.sv-accent{fill:var(--accent)}
+.sv-t{fill:var(--ink);font-size:13px}
+.sv-t2{fill:var(--ink-2);font-size:11.5px}
+.sv-th{fill:var(--ink);font-size:14px;font-weight:600}
+.sv-inv{fill:var(--sheet);font-size:13px;font-weight:600}
+.sv-line{stroke:var(--line-2);stroke-width:1.4;fill:none}
+.sv-arrow{stroke:var(--ink-2);stroke-width:1.5;fill:none}
+.sv-grid{stroke:var(--line);stroke-width:1}
+.sv-bar{fill:var(--navy)}
+.sv-bar2{fill:var(--accent)}
+.sv-bar3{fill:var(--low)}
+.sv-crit{fill:var(--crit)}
+.sv-ok{fill:var(--ok)}
+
+/* evidence */
+.ev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.ev{border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--paper);display:flex;flex-direction:column}
+.ev img{display:block;width:100%;height:auto;border-bottom:1px solid var(--line)}
+.ev .cap{padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:.88rem}
+.ev .cap .url{font-family:var(--f-mono);font-size:.76rem;color:var(--muted);direction:ltr;word-break:break-all}
+
+details{border:1px solid var(--line);border-radius:4px;background:var(--paper)}
+details>summary{cursor:pointer;padding:12px 16px;font-family:var(--f-disp);font-weight:600}
+details>div{padding:0 16px 16px}
+
+.gate{display:grid;grid-template-columns:64px 1fr 120px;gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.gate>div{padding:10px 12px;border-bottom:1px solid var(--line)}
+.gate>div:nth-last-child(-n+3){border-bottom:0}
+.gate .gid{font-family:var(--f-mono);font-weight:500;color:var(--accent)}
+.gate .h{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem}
+@media (max-width:640px){.gate{grid-template-columns:52px 1fr}.gate>div:nth-child(3n){grid-column:1/-1;border-bottom:1px solid var(--line)}.gate .h:nth-child(3){display:none}}
+
+ul.clean{margin:0;padding-inline-start:20px;display:flex;flex-direction:column;gap:6px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10px}
+
+@media print{
+  body{background:#fff}
+  section.s,.cover,nav.toc{break-inside:auto;border-color:#bbb}
+  .ev{break-inside:avoid}
+  details{border:0}details>summary{display:none}details>div{padding:0}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap" dir="rtl" lang="ar">
+<div class="stack-lg">
+
+<!-- ============ COVER ============ -->
+<header class="cover">
+  <span class="eyebrow">Prince Mohammad Bin Fahd University · Admissions Office</span>
+  <h1 lang="en">PMU Admissions — Executive Project High-Level Plan</h1>
+  <p class="sub">مشروع توحيد مصدر الحقيقة لبيانات القبول وإعادة هيكلة تجربة المتقدم. الخطة مبنية على تدقيق رقمي ميداني مستقل.</p>
+  <dl class="meta">
+    <div><dt>الجهة المستفيدة</dt><dd>المدير المباشر · إدارة القبول · الإدارة العليا</dd></div>
+    <div><dt>الجهات الشريكة</dt><dd>الكليات · المالية · تقنية المعلومات والويب · الاتصال المؤسسي</dd></div>
+    <div><dt>تاريخ التحقق من الأدلة</dt><dd class="mono ltr">2026-09-27</dd></div>
+    <div><dt>نقطة البداية الرسمية</dt><dd class="mono ltr" style="font-size:.8rem">pmu.edu.sa/admission/admission</dd></div>
+  </dl>
+  <div><span class="verdict notmet">Current status: FULL PROJECT CLOSURE — NOT MET</span> <span class="muted" style="font-size:.86rem">(خط الأساس قبل بدء المشروع. معايير الإغلاق في القسم 14)</span></div>
+</header>
+
+<nav class="toc" aria-label="المحتويات">
+  <strong class="eyebrow">المحتويات</strong>
+  <ol>
+    <li><a href="#s1">الملخص التنفيذي</a></li>
+    <li><a href="#s2">تقييم الوضع الراهن</a></li>
+    <li><a href="#s3">لماذا يلزم قرار إداري الآن</a></li>
+    <li><a href="#s4">خط الأساس للأدلة</a></li>
+    <li><a href="#s5">الحالة المستهدفة</a></li>
+    <li><a href="#s6">نطاق المشروع</a></li>
+    <li><a href="#s7">مسارات العمل</a></li>
+    <li><a href="#s8">الحوكمة وصلاحيات القرار</a></li>
+    <li><a href="#s9">الهيكل المقترح لقسم القبول</a></li>
+    <li><a href="#s10">استراتيجية المحتوى القديم</a></li>
+    <li><a href="#s11">خارطة الطريق التنفيذية</a></li>
+    <li><a href="#s12">قرارات مطلوبة من الإدارة</a></li>
+    <li><a href="#s13">مؤشرات الأداء والمخاطر</a></li>
+    <li><a href="#s14">إطار الإغلاق الكامل</a></li>
+    <li><a href="#s15">المنهجية والتغطية والقيود</a></li>
+    <li><a href="#appA">ملحق أ: الأدلة المرئية</a></li>
+    <li><a href="#appB">ملحق ب: السجلات والمصادر</a></li>
+  </ol>
+</nav>
+
+<!-- ============ 1 EXEC SUMMARY ============ -->
+<section class="s" id="s1">
+  <div class="s-head"><span class="s-num">01</span><h2>الملخص التنفيذي</h2><span class="s-en">Executive Summary</span></div>
+  <div class="stats">
+    <div class="stat"><b>22</b><span>صفحة ومورد حي فُحصت نصوصها كاملة</span></div>
+    <div class="stat"><b>19</b><span>نتيجة موثّقة (Findings)</span></div>
+    <div class="stat c"><b>3</b><span>حرجة: الأهلية، والمال، ومسار التقديم</span></div>
+    <div class="stat"><b>9</b><span>تعارضات مؤكدة (Verified Conflicts)</span></div>
+    <div class="stat c"><b>5</b><span>معادلات قبول موزونة منشورة لنفس المرحلة</span></div>
+    <div class="stat"><b>0</b><span>صفحات قواعد عليها مالك أو تاريخ سريان</span></div>
+  </div>
+  <div class="stack">
+    <p><strong>الخلاصة:</strong> مشكلة قسم القبول في موقع الجامعة لا تقتصر على أخطاء متفرقة. السبب الجذري المُثبت بالأدلة أنه <strong>لا يوجد مصدر حقيقة واحد</strong> لقواعد القبول والرسوم والمواعيد. كل قاعدة منسوخة يدويًا في عدة صفحات تنتمي إلى أجيال مختلفة من المحتوى، ولا يظهر عليها مالك ولا تاريخ سريان. لذلك يرى المتقدم قيمًا متناقضة لنفس القرار.</p>
+    <ul class="clean">
+      <li><strong>الأهلية:</strong> خمس معادلات موزونة مختلفة (مثل 60/40 مقابل 30/50/20) وحدود إنجليزية متعارضة (IELTS ‏5.5 مقابل 6.0، وTOEFL ‏65 مقابل 83). المعادلات مرتبطة بفئات مختلفة، لكنها تتعارض داخل الفئة الواحدة.</li>
+      <li><strong>المال:</strong> رسم التقديم لكلية الطب 1,000 ريال في صفحة القبول و1,150 ريالًا في صفحة الرسوم. رسم حجز المقعد (20,000 ريال غير مسترد) غير مذكور في صفحة القبول.</li>
+      <li><strong>مسار التقديم:</strong> تقويم القبول يوجّه السعوديين إلى منصة «قبول» وغير السعوديين إلى «ادرس في السعودية»، بينما توجّه ست صفحات أخرى جميع المتقدمين إلى بوابة الجامعة. البوابة نفسها تعرض «لا توجد أحداث منشورة».</li>
+      <li><strong>اللغة:</strong> لم نجد نسخة عربية لقواعد القبول الملزمة في أي صفحة فُحصت.</li>
+    </ul>
+    <div class="callout navy"><p><strong>التوصية:</strong> اعتماد مشروع تنفيذي من <strong>6 مسارات عمل على مدى 22 أسبوعًا</strong> من تاريخ الموافقة، ينتهي قبل فتح دورة قبول خريف 2027. تقدير موعد فتح الدورة افتراض مبني على أن دورة خريف 2026 فُتحت في 2026-05-03. الإجراء الحاسم على المسار الحرج هو <strong>ست قرارات مؤسسية</strong> (القسم 12)، ولا يمكن لأي فريق تقني تصحيح المحتوى قبل صدورها.</p></div>
+  </div>
+</section>
+
+<!-- ============ 2 CURRENT STATE ============ -->
+<section class="s" id="s2">
+  <div class="s-head"><span class="s-num">02</span><h2>تقييم الوضع الراهن</h2><span class="s-en">Current-State Assessment</span></div>
+  <p>التقييم التالي مشتق مباشرة من سجل النتائج. التصنيف نوعي، مبني على الأدلة وليس على عيّنة إحصائية.</p>
+  <div class="score" role="table" aria-label="بطاقة تقييم الوضع الراهن">
+    <div class="h" role="columnheader">المحور</div><div class="h" role="columnheader">التقييم</div><div class="h" role="columnheader">الدليل المختصر</div>
+    <div role="cell">دقة البيانات واتساقها</div><div role="cell"><span class="pill p-crit">Critical</span></div><div role="cell">9 تعارضات مؤكدة في المعادلات والحدود والرسوم والمسار (F-01…F-06)</div>
+    <div role="cell">مصدر الحقيقة الواحد (SSOT)</div><div role="cell"><span class="pill p-crit">Absent</span></div><div role="cell">القاعدة نفسها منسوخة يدويًا في 6 إلى 8 صفحات، وصفحة معايير قديمة ما زالت منشورة (P20)</div>
+    <div role="cell">رحلة المتقدم والتوجيه</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">4 مداخل «قدّم الآن» متباينة، وتواصل الطلاب الجامعيين يحيل إلى صفحة الدراسات العليا</div>
+    <div role="cell">حداثة المحتوى</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">تقويم لدورة بدأت فعلًا، وتذييل يشير إلى تقويم 2021–2022، واختبارات متوقفة (CBT وSAT II)</div>
+    <div role="cell">التكافؤ العربي والإنجليزي</div><div role="cell"><span class="pill p-med">Medium–High</span></div><div role="cell">لا مفتاح لغة ولا مقابل عربي لصفحات القواعد المفحوصة</div>
+    <div role="cell">التقنية وإمكانية الوصول</div><div role="cell"><span class="pill p-med">Medium</span></div><div role="cell">روابط http و«#»، وقالبان متعايشان، وعناوين تعمل كأزرار (الفحص محدود وليس تدقيق WCAG كاملًا)</div>
+    <div role="cell">الحوكمة والملكية</div><div role="cell"><span class="pill p-crit">Absent</span></div><div role="cell">لا مالك ولا تاريخ سريان ولا تاريخ مراجعة على أي صفحة قواعد</div>
+  </div>
+</section>
+
+<!-- ============ 3 WHY ACTION ============ -->
+<section class="s" id="s3">
+  <div class="s-head"><span class="s-num">03</span><h2>لماذا يلزم قرار إداري الآن</h2><span class="s-en">Why Management Action Is Required</span></div>
+  <div class="two">
+    <div class="stack">
+      <h3>الأثر على الجامعة</h3>
+      <ul class="clean">
+        <li><strong>قابلية الدفاع عن قرار القبول:</strong> حين تنشر الجامعة معايير متعارضة يصبح أي رفض أو قبول قابلًا للطعن.</li>
+        <li><strong>التزامات مالية:</strong> تحصيل مبلغ يختلف عما أُعلن، وعدم الإفصاح المسبق عن رسم غير مسترد قيمته 20,000 ريال.</li>
+        <li><strong>المواءمة مع المنصات الوطنية:</strong> تنص الجامعة على مسار «قبول» و«ادرس في السعودية»، ثم تعرض مسارًا آخر يتجاوزهما.</li>
+        <li><strong>السمعة:</strong> نص مسودة غير محرّر، وعبارات «مرحلة الإطلاق»، وأخطاء إملائية في صفحات سياسات منشورة.</li>
+      </ul>
+    </div>
+    <div class="stack">
+      <h3>لماذا لا يكفي فريق الويب وحده</h3>
+      <p>7 من أصل 9 تعارضات تتطلب <strong>تحديد القيمة الصحيحة</strong>، وهذا قرار أكاديمي أو مالي وليس قرار تحرير. لم يُحسم أي تعارض من عندنا. كل تعارض بلا مصدر رسمي حاسم مصنّف في هذه الخطة <em>Owner Decision Required</em>.</p>
+      <p>ومن دون نموذج حوكمة سيعود التناقض مع أول تحديث للرسوم أو الحدود. هذا ما حدث فعلًا، والدليل وجود أربعة أجيال من جداول الرسوم معروضة جنبًا إلى جنب.</p>
+      <p class="muted" style="font-size:.9rem">إطار المرجعية: الشفافية والتحول الرقمي في الخدمات ضمن <a href="https://www.vision2030.gov.sa/" lang="en">Saudi Vision 2030</a>، ومعيار <a href="https://www.w3.org/TR/WCAG22/" lang="en">W3C WCAG 2.2</a> لإمكانية الوصول. استُخدم الإطار سياقًا توجيهيًا فقط، ولم نقِس الامتثال لأي منهما.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 EVIDENCE BASELINE ============ -->
+<section class="s" id="s4">
+  <div class="s-head"><span class="s-num">04</span><h2>خط الأساس للأدلة</h2><span class="s-en">Evidence Baseline</span></div>
+  <p>أهم التعارضات المؤكدة. النصوص منقولة حرفيًا من الصفحات الحية بتاريخ <span class="mono ltr">2026-09-27</span>. السجل الكامل (19 نتيجة) في <span class="mono ltr">registers/findings-register.md</span>.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>ID</th><th>الخطورة</th><th>القاعدة</th><th>قيمة المصدر (أ)</th><th>قيمة المصدر (ب)</th><th>الدليل</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">F-01</td><td><span class="pill p-crit">Critical</span></td><td>المعادلة الموزونة</td><td>P02/P04: <q>Secondary School 60% · General Aptitude Test 40%</q></td><td>P03: <q>High school 30% · Aptitude Test 50% · Personal Interview 20%</q> · P19: 40/30/30 مع التحصيلي</td><td>S03، S04 + نص</td></tr>
+      <tr><td class="mono">F-02</td><td><span class="pill p-crit">Critical</span></td><td>قناة التقديم</td><td>P14: <q>For Saudi Students: Apply online through Qabool platform</q></td><td>P18: <q>The application process can be completed entirely online</q> → pmu.edu.sa/apply</td><td><strong>S14</strong>، S15</td></tr>
+      <tr><td class="mono">F-03</td><td><span class="pill p-crit">Critical</span></td><td>رسم تقديم الطب</td><td>P09: <q>SAR 1000 (incl. VAT)</q></td><td>P12: <q>SAR 1,150 (VAT inclusive)</q></td><td><strong>S12</strong></td></tr>
+      <tr><td class="mono">F-04</td><td><span class="pill p-high">High</span></td><td>حد الإنجليزية</td><td>P03: <q>iBT 65 … IELTS Band of 5.5</q></td><td>P07: <q>Core 83 / 19</q> · P04/P06: IELTS 6.0</td><td>S03 + نص</td></tr>
+      <tr><td class="mono">F-05</td><td><span class="pill p-high">High</span></td><td>مكافئ التحصيلي</td><td>P09: <q>(SAT 1) 1300</q></td><td>P19: <q>SAT 1 (1200)</q> · P18: <q>SAT II 30%</q> (متوقف منذ 2021)</td><td>نص + X06</td></tr>
+      <tr><td class="mono">F-06</td><td><span class="pill p-high">High</span></td><td>رسم اختبار التحديد</td><td>P03: <q>S.R.950 Admission and English Placement Test Fee</q></td><td>P13: <q>APTIS Exam Fees — SAR 575</q></td><td>نص</td></tr>
+      <tr><td class="mono">F-08</td><td><span class="pill p-high">High</span></td><td>حالة الدورة</td><td>P14: تقويم خريف 2026 فقط (بدأت الدراسة 2026-08-30)</td><td>P15: <q>No events are currently published.</q></td><td>S14، <strong>S15</strong></td></tr>
+    </tbody>
+  </table></div>
+  <details>
+    <summary>ما تحقّقنا منه خارجيًا (مصادر رسمية)</summary>
+    <div class="tbl"><table>
+      <thead><tr><th>ID</th><th>الحقيقة الخارجية</th><th>المصدر</th><th>الأثر على محتوى الجامعة</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">X01</td><td>انتقل TOEFL iBT إلى سلّم 1–6 منذ 21 يناير 2026 مع عرض مكافئ 0–120 لمدة سنتين</td><td><a href="https://www.ets.org/toefl/institutions/ibt/score-scale-update.html" lang="en">ETS</a></td><td>جداول الجامعة على سلّم 0–120 فقط</td></tr>
+        <tr><td class="mono">X02</td><td>أُوقف TOEFL CBT في 2006</td><td><a href="https://www.ets.org/Media/Research/pdf/TOEFL-SUM-0506-CBT.pdf" lang="en">ETS</a></td><td>عبارة «CBT 183» في P03 قديمة</td></tr>
+        <tr><td class="mono">X04</td><td>توصي IELTS بصلاحية النتيجة سنتين</td><td><a href="https://ielts.org/organisations/ielts-for-organisations/verifying-ielts-results" lang="en">IELTS</a></td><td>قاعدة الجامعة متّسقة معها لكنها مصاغة بطريقتين</td></tr>
+        <tr><td class="mono">X06</td><td>أوقفت College Board اختبارات SAT Subject في 2021</td><td><a href="https://blog.collegeboard.org/what-were-sat-subject-tests" lang="en">College Board</a></td><td>شرط «SAT II» في P18 غير قابل للتحقيق</td></tr>
+        <tr><td class="mono">X07</td><td>تتحمّل الدولة ضريبة القيمة المضافة على التعليم الأهلي للمواطنين</td><td><a href="https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx" lang="en">ZATCA</a></td><td>جدول رسوم 2026/27 متّسق. صياغة الضريبة على رسم التقديم تحتاج توحيدًا من المالية</td></tr>
+        <tr><td class="mono">X05/X08</td><td>منصة «قبول» للسعوديين و«ادرس في السعودية» لغير السعوديين</td><td><a href="https://www.moe.gov.sa/en/knowledgecenter/eservices/pages/unified-admission.aspx" lang="en">MoE</a> · <a href="https://studyinsaudi.sa/en" lang="en">Study in Saudi</a></td><td>التقويم متّسق مع النموذج الوطني. التعارض داخلي في موقع الجامعة</td></tr>
+      </tbody>
+    </table></div>
+  </details>
+</section>
+
+<!-- ============ 5 TARGET STATE ============ -->
+<section class="s" id="s5">
+  <div class="s-head"><span class="s-num">05</span><h2>الحالة المستهدفة</h2><span class="s-en">Target State · Admissions Canonical Data</span></div>
+  <p>كل قاعدة أو رقم أو موعد يُخزَّن <strong>مرة واحدة</strong> في سجل قبول مرجعي، ولكل منه مالك وتاريخ سريان وتسمية عربية وإنجليزية. كل واجهة (الموقع بلغتيه، والبوابة، والتقويم، والملفات) تعرض القيمة من السجل نفسه، ولا يُسمح بكتابة القيم يدويًا داخل الصفحات.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 300" width="100%" style="min-width:720px" role="img" aria-labelledby="ssotT">
+        <title id="ssotT">نموذج مصدر الحقيقة الواحد لبيانات القبول</title>
+        <!-- owners -->
+        <g>
+          <rect class="sv-fill" x="740" y="20" width="200" height="260" rx="4"/>
+          <text class="sv-th" x="840" y="46" text-anchor="middle">مالكو البيانات</text>
+          <text class="sv-t" x="840" y="80" text-anchor="middle">لجنة القبول · المعادلات</text>
+          <text class="sv-t" x="840" y="108" text-anchor="middle">المالية · الرسوم والضريبة</text>
+          <text class="sv-t" x="840" y="136" text-anchor="middle">برنامج الإنجليزية · الحدود</text>
+          <text class="sv-t" x="840" y="164" text-anchor="middle">الكليات · شروط التخصص</text>
+          <text class="sv-t" x="840" y="192" text-anchor="middle">القبول · المواعيد والقنوات</text>
+          <text class="sv-t" x="840" y="220" text-anchor="middle">التسجيل · الوثائق</text>
+          <text class="sv-t2" x="840" y="258" text-anchor="middle">يقررون ويعتمدون القيم</text>
+        </g>
+        <path class="sv-arrow" d="M738 150 H672" marker-end="url(#ah)"/>
+        <!-- canonical -->
+        <g>
+          <rect x="470" y="70" width="200" height="160" rx="4" class="sv-navy"/>
+          <text class="sv-inv" x="570" y="112" text-anchor="middle">سجل القبول المرجعي</text>
+          <text class="sv-inv" x="570" y="134" text-anchor="middle" style="font-weight:400;font-size:12px" direction="ltr">Admissions Canonical Record</text>
+          <text class="sv-inv" x="570" y="166" text-anchor="middle" style="font-weight:400;font-size:12px">14 مجال بيانات</text>
+          <text class="sv-inv" x="570" y="188" text-anchor="middle" style="font-weight:400;font-size:12px">قيمة · مالك · سريان · AR/EN</text>
+        </g>
+        <path class="sv-arrow" d="M468 150 H402" marker-end="url(#ah)"/>
+        <!-- approval -->
+        <g>
+          <rect class="sv-box" x="260" y="100" width="140" height="100" rx="4"/>
+          <text class="sv-th" x="330" y="136" text-anchor="middle">سير اعتماد</text>
+          <text class="sv-t2" x="330" y="160" text-anchor="middle">مراجعة لغوية</text>
+          <text class="sv-t2" x="330" y="180" text-anchor="middle">تحقق مستقل</text>
+        </g>
+        <path class="sv-arrow" d="M258 150 H200" marker-end="url(#ah)"/>
+        <!-- surfaces -->
+        <g>
+          <rect class="sv-box" x="20" y="20" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="49" text-anchor="middle">الموقع · عربي</text>
+          <rect class="sv-box" x="20" y="78" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="107" text-anchor="middle">الموقع · English</text>
+          <rect class="sv-box" x="20" y="136" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="165" text-anchor="middle">بوابة التقديم</text>
+          <rect class="sv-box" x="20" y="194" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="223" text-anchor="middle">التقويم وحالة الدورة</text>
+          <rect class="sv-box" x="20" y="252" width="178" height="36" rx="4"/><text class="sv-t2" x="109" y="275" text-anchor="middle">الأدلة وملفات PDF</text>
+        </g>
+        <path class="sv-line" d="M570 232 V290 H330" stroke-dasharray="4 4"/>
+        <text class="sv-t2" x="450" y="284" text-anchor="middle">مراقبة الانحراف والانتهاء (شهريًا وقبل كل دورة)</text>
+        <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+      </svg>
+    </div>
+    <figcaption>الشكل 1: يتدفق كل مجال بيانات من مالكه، إلى السجل المرجعي، ثم إلى سير الاعتماد، ثم إلى جميع الواجهات. تعيد المراقبة أي انحراف إلى المالك.</figcaption>
+  </figure>
+  <div class="two">
+    <div class="stack"><h3>مبادئ الحالة المستهدفة</h3>
+      <ul class="clean">
+        <li>قيمة واحدة لكل قاعدة، لكل فئة متقدم، ولكل دورة قبول.</li>
+        <li>كل مكوّن قاعدة يعرض: «سارية لدورة كذا · الجهة المالكة · آخر تحقق».</li>
+        <li>العربية والإنجليزية من القيمة نفسها، ولا ترجمة يدوية للأرقام.</li>
+        <li>زر «قدّم الآن» خطوة توجيه وليس رابطًا واحدًا لكل المتقدمين.</li>
+        <li>لا تُحذف صفحة قديمة قبل وجود بديل، وتحويل (redirect)، وتحقق.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>مجالات البيانات المرجعية (14)</h3>
+      <p style="font-size:.92rem">حد المعدل · حد القدرات · قاعدة التحصيلي ومكافئاتها · المعادلة الموزونة والحد الأدنى · اختبارات الإنجليزية وحدودها (مع سلّم TOEFL 1–6) · صلاحية الاختبارات · رسوم التقديم حسب البرنامج · رسم اختبار التحديد · حجز المقعد وشروط الاسترداد · الرسوم الدراسية لكل كلية ودورة · بيان الضريبة · قناة التقديم لكل فئة · الوثائق لكل فئة · التقويم وحالة الدورة وجهات التواصل.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6 SCOPE ============ -->
+<section class="s" id="s6">
+  <div class="s-head"><span class="s-num">06</span><h2>نطاق المشروع</h2><span class="s-en">Project Objective · Scope · Out of Scope</span></div>
+  <div class="callout"><p><strong>هدف المشروع:</strong> أن يجد كل متقدم، بالعربية أو الإنجليزية، قيمة واحدة صحيحة ومعتمدة ومؤرّخة لكل قاعدة تؤثر على أهليته وتكلفته وموعده وقناة تقديمه، في كل واجهة تنشرها الجامعة، مع نموذج حوكمة يمنع عودة التناقض.</p></div>
+  <div class="two">
+    <div class="stack"><h3>داخل النطاق</h3>
+      <ul class="clean">
+        <li>جميع صفحات القبول الجامعي والدولي والتحويل والزائرين والطب والسنة التحضيرية.</li>
+        <li>صفحات الدراسات العليا (11 برنامجًا). لم تُدقّق بعد، وتُدقّق في المرحلة الأولى.</li>
+        <li>صفحات الرسوم والدفع والاسترداد ذات الصلة بالمتقدم الجديد.</li>
+        <li>واجهة بوابة التقديم العامة (الصفحة الترحيبية والتقويم والتوجيه).</li>
+        <li>ملفات PDF والأدلة المرتبطة، والصفحات القديمة المفهرسة.</li>
+        <li>التكافؤ العربي والإنجليزي لكل مكوّن أساسي.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>خارج النطاق</h3>
+      <ul class="clean">
+        <li>تغيير سياسات القبول نفسها. المشروع يوثّق القرار ولا يصنعه.</li>
+        <li>إعادة تصميم موقع الجامعة بالكامل خارج قسم القبول.</li>
+        <li>التعديل الداخلي لمنطق البوابة بعد تسجيل الدخول، إلا ما يخص عرض المواعيد والتوجيه.</li>
+        <li>أنظمة معلومات الطلاب (SIS) والفوترة الداخلية.</li>
+        <li>الحملات التسويقية والإعلانات المدفوعة.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7 WORKSTREAMS ============ -->
+<section class="s" id="s7">
+  <div class="s-head"><span class="s-num">07</span><h2>مسارات العمل</h2><span class="s-en">Workstreams · Deliverables · Dependencies</span></div>
+  <div class="ws-grid">
+    <article class="ws"><h3><span class="mono">WS1</span>القواعد والقرارات المرجعية</h3>
+      <dl><dt>القائد</dt><dd>مدير القبول (أمانة لجنة القبول)</dd><dt>يعالج</dt><dd>F-01، F-03 إلى F-06، F-09، F-13، F-18</dd></dl>
+      <ul><li>ملف قرار لكل تعارض، بالأدلة والخيارات</li><li><strong>كتاب قواعد القبول v1</strong> معتمد بتاريخ سريان</li><li>جدول حدود الإنجليزية مع سلّم TOEFL 1–6</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: قرارات D1 إلى D5</p></article>
+    <article class="ws"><h3><span class="mono">WS2</span>البيانات المرجعية والحوكمة</h3>
+      <dl><dt>القائد</dt><dd>الجودة / الفعالية المؤسسية + تقنية المعلومات</dd><dt>يعالج</dt><dd>F-10، F-19، والسبب الجذري</dd></dl>
+      <ul><li>سجل مرجعي بـ14 مجالًا (مالك، قيمة، سريان، AR/EN)</li><li>سير عمل النشر والاعتماد ومستوى الخدمة المتفق عليه</li><li>أداة فحص انحراف (مقارنة الواجهات بالسجل)</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: WS1، وقرار المنصة D8</p></article>
+    <article class="ws"><h3><span class="mono">WS3</span>إعادة هيكلة تجربة القبول</h3>
+      <dl><dt>القائد</dt><dd>الاتصال المؤسسي + فريق الويب</dd><dt>يعالج</dt><dd>F-07، F-11، F-14، F-15، F-17</dd></dl>
+      <ul><li>بنية معلومات جديدة وصفحة رئيسية للقبول مع مكوّن حالة الدورة</li><li>مكوّنات مشتركة تُغذّى من السجل</li><li>نسخة عربية مكافئة لكل مكوّن أساسي</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: WS1 وWS2، وقرار اللغة D6</p></article>
+    <article class="ws"><h3><span class="mono">WS4</span>البوابة ومواءمة قنوات التقديم</h3>
+      <dl><dt>القائد</dt><dd>تقنية المعلومات (البوابة) + القبول</dd><dt>يعالج</dt><dd>F-02، F-08</dd></dl>
+      <ul><li>خريطة القناة لكل فئة (قبول، ادرس في السعودية، البوابة)</li><li>تقويم البوابة وحالتها من السجل المرجعي</li><li>استبدال اللافتات المنتهية وتوجيه التسجيل</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: قرار القناة D4</p></article>
+    <article class="ws"><h3><span class="mono">WS5</span>إدارة المحتوى القديم وتحسين محركات البحث</h3>
+      <dl><dt>القائد</dt><dd>فريق الويب</dd><dt>يعالج</dt><dd>F-12، F-16 (الروابط)</dd></dl>
+      <ul><li>سجل الروابط القديمة وحالة كل منها</li><li>خرائط التحويل 301، وnoindex، والأرشفة</li><li>تحديث التذييل والروابط الداخلية</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: جاهزية الصفحات البديلة (WS3)، وقرار D7</p></article>
+    <article class="ws"><h3><span class="mono">WS6</span>الجودة والتحقق والتسليم</h3>
+      <dl><dt>القائد</dt><dd>الجودة / الفعالية المؤسسية (تحقق مستقل)</dd><dt>يعالج</dt><dd>كل النتائج (إثبات الإغلاق)</dd></dl>
+      <ul><li>إعادة زحف كاملة ومقارنة بالسجل</li><li>اختبارات رحلة لست شخصيات من المتقدمين، واختبار WCAG 2.2 AA</li><li>حزمة إغلاق وتسليم للتشغيل</li></ul>
+      <p class="muted" style="font-size:.86rem">يعتمد على: WS1 إلى WS5</p></article>
+  </div>
+</section>
+
+<!-- ============ 8 GOVERNANCE ============ -->
+<section class="s" id="s8">
+  <div class="s-head"><span class="s-num">08</span><h2>الحوكمة وصلاحيات القرار</h2><span class="s-en">Governance · Decision Rights · RACI</span></div>
+  <p>النموذج مبني على الأدوار والوظائف. لا توجد أسماء أشخاص. <strong>D</strong>=يقرر · <strong>O</strong>=يملك البيانات · <strong>A</strong>=يعتمد النشر · <strong>P</strong>=ينشر · <strong>V</strong>=يتحقق في بيئة الإنتاج · <strong>M</strong>=يراقب الانحراف والانتهاء · <strong>C</strong>=يُستشار.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>مجال البيانات</th><th>لجنة القبول / المجلس الأكاديمي</th><th>مدير القبول</th><th>المالية</th><th>الكليات</th><th>برنامج الإنجليزية</th><th>تقنية المعلومات / الويب</th><th>الاتصال المؤسسي</th><th>الجودة</th></tr></thead>
+    <tbody>
+      <tr><td>المعادلات والحدود الأكاديمية</td><td>D</td><td>O · A</td><td>—</td><td>C</td><td>C</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>حدود اختبارات الإنجليزية</td><td>D</td><td>A</td><td>—</td><td>C</td><td>O</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>شروط التخصص (الطب، الهندسة، الحاسب، العمارة)</td><td>D</td><td>A</td><td>—</td><td>O</td><td>C</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>الرسوم والضريبة والاسترداد</td><td>C</td><td>A</td><td>D · O</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>قنوات التقديم والمواعيد</td><td>C</td><td>D · O</td><td>—</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>الوثائق المطلوبة</td><td>C</td><td>D · O</td><td>—</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V</td></tr>
+      <tr><td>النص العربي والإنجليزي</td><td>—</td><td>A</td><td>—</td><td>—</td><td>—</td><td>P</td><td>O</td><td>V</td></tr>
+    </tbody>
+  </table></div>
+  <div class="two">
+    <div class="stack"><h3>إجابات الحوكمة الست</h3>
+      <ul class="clean">
+        <li><strong>من يقرر؟</strong> لجنة القبول أو المجلس الأكاديمي في القواعد، والمالية في المال، وراعي المشروع في القنوات.</li>
+        <li><strong>من يملك البيانات؟</strong> مالك واحد مسمّى وظيفيًا لكل مجال من المجالات الـ14.</li>
+        <li><strong>من يعتمد؟</strong> مدير القبول ومالك المجال معًا قبل أي نشر.</li>
+        <li><strong>من ينشر؟</strong> فريق الويب فقط، ومن السجل المرجعي فقط.</li>
+        <li><strong>من يتحقق في الإنتاج؟</strong> الجودة أو الفعالية المؤسسية، وهي مستقلة عن الناشر.</li>
+        <li><strong>من يراقب الانحراف والانتهاء؟</strong> عمليات المحتوى، بفحص شهري وقبل فتح كل دورة.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>هيكل الاجتماعات</h3>
+      <ul class="clean">
+        <li><strong>لجنة التوجيه</strong> (راعي تنفيذي، ومدير القبول، والمالية، وتقنية المعلومات، والجودة) كل أسبوعين، وتقرر عند بوابات الإغلاق.</li>
+        <li><strong>فريق المشروع</strong> أسبوعيًا، بقادة مسارات العمل الستة.</li>
+        <li><strong>التصعيد:</strong> أي قرار يتأخر عن موعده أكثر من 5 أيام عمل يُرفع إلى الراعي التنفيذي.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9 PROPOSED STRUCTURE ============ -->
+<section class="s" id="s9">
+  <div class="s-head"><span class="s-num">09</span><h2>الهيكل المقترح لقسم القبول</h2><span class="s-en">Proposed Information Architecture</span></div>
+  <p>الوضع الحالي: صفحة رئيسية فيها نحو 40 رابطًا دون مقدمة ولا حالة ولا توجيه، ومساران (Freshman وDirect) لنفس الفئة بقواعد مختلفة. المقترح يبدأ بسؤال المتقدم «من أنت؟» ثم يعرض له المكوّنات المشتركة نفسها، مُعبّأة بقيم فئته من السجل المرجعي.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 470" width="100%" style="min-width:760px" role="img" aria-labelledby="iaT">
+        <title id="iaT">بنية المعلومات المقترحة لقسم القبول</title>
+        <defs><marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+        <!-- home -->
+        <rect x="280" y="14" width="400" height="74" rx="4" class="sv-navy"/>
+        <text class="sv-inv" x="480" y="42" text-anchor="middle">القبول · الصفحة الرئيسية (AR | EN)</text>
+        <text class="sv-inv" x="480" y="66" text-anchor="middle" style="font-weight:400;font-size:12px">شريط حالة الدورة: مفتوح / مغلق · آخر موعد · القناة الصحيحة</text>
+        <!-- router -->
+        <rect x="380" y="108" width="200" height="40" rx="20" class="sv-accent"/>
+        <text class="sv-inv" x="480" y="133" text-anchor="middle">«من أنت؟» اختيار المسار</text>
+        <path class="sv-arrow" d="M480 88 V106"/>
+        <!-- routes -->
+        <g>
+          <path class="sv-line" d="M80 172 H880"/>
+          <path class="sv-arrow" d="M480 148 V170"/>
+          <rect class="sv-box" x="20" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="90" y="206" text-anchor="middle">خريج ثانوية</text><text class="sv-t2" x="90" y="228" text-anchor="middle">سعودي / مقيم</text>
+          <rect class="sv-box" x="176" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="246" y="206" text-anchor="middle">طالب دولي</text><text class="sv-t2" x="246" y="228" text-anchor="middle">دون إقامة</text>
+          <rect class="sv-box" x="332" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="402" y="206" text-anchor="middle">محوّل</text><text class="sv-t2" x="402" y="228" text-anchor="middle">من جامعة أخرى</text>
+          <rect class="sv-box" x="488" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="558" y="206" text-anchor="middle">كلية الطب</text><text class="sv-t2" x="558" y="228" text-anchor="middle">مسار خاص</text>
+          <rect class="sv-box" x="644" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="714" y="206" text-anchor="middle">دراسات عليا</text><text class="sv-t2" x="714" y="228" text-anchor="middle">11 برنامجًا</text>
+          <rect class="sv-box" x="800" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="870" y="206" text-anchor="middle">زائر</text><text class="sv-t2" x="870" y="228" text-anchor="middle">Visiting</text>
+          <path class="sv-line" d="M90 172 V182 M246 172 V182 M402 172 V182 M558 172 V182 M714 172 V182 M870 172 V182"/>
+        </g>
+        <!-- shared components -->
+        <rect class="sv-fill" x="20" y="268" width="920" height="138" rx="4"/>
+        <text class="sv-th" x="920" y="292" text-anchor="end">مكوّنات مشتركة، كلها تُغذّى من السجل المرجعي، ونفسها لكل مسار</text>
+        <g>
+          <rect class="sv-box" x="36" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="88" y="340" text-anchor="middle">الشروط</text><text class="sv-t2" x="88" y="362" text-anchor="middle">والمعادلة</text>
+          <rect class="sv-box" x="150" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="202" y="340" text-anchor="middle">الإنجليزية</text><text class="sv-t2" x="202" y="362" text-anchor="middle">والاختبارات</text>
+          <rect class="sv-box" x="264" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="316" y="340" text-anchor="middle">التكاليف</text><text class="sv-t2" x="316" y="362" text-anchor="middle">والمنح</text>
+          <rect class="sv-box" x="378" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="430" y="340" text-anchor="middle">المواعيد</text><text class="sv-t2" x="430" y="362" text-anchor="middle">حالة الدورة</text>
+          <rect class="sv-box" x="492" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="544" y="340" text-anchor="middle">الوثائق</text><text class="sv-t2" x="544" y="362" text-anchor="middle">قائمة تحقق</text>
+          <rect class="sv-box" x="606" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="658" y="340" text-anchor="middle">طريقة التقديم</text><text class="sv-t2" x="658" y="362" text-anchor="middle">القناة الصحيحة</text>
+          <rect class="sv-box" x="720" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="772" y="340" text-anchor="middle">المتابعة</text><text class="sv-t2" x="772" y="362" text-anchor="middle">والقرار</text>
+          <rect class="sv-box" x="834" y="306" width="90" height="84" rx="4"/><text class="sv-t" x="879" y="340" text-anchor="middle">التواصل</text><text class="sv-t2" x="879" y="362" text-anchor="middle">والاستفسار</text>
+        </g>
+        <path class="sv-arrow" d="M480 246 V266" marker-end="url(#ah2)"/>
+        <!-- footer rows -->
+        <rect class="sv-box" x="20" y="420" width="450" height="38" rx="4"/><text class="sv-t" x="245" y="444" text-anchor="middle">دليل البرامج (برامج نشطة فقط، مرتبطة بالشروط والرسوم)</text>
+        <rect class="sv-box" x="490" y="420" width="450" height="38" rx="4"/><text class="sv-t" x="715" y="444" text-anchor="middle">الأرشيف: قواعد وجداول الدورات السابقة (noindex، مع لافتة)</text>
+      </svg>
+    </div>
+    <figcaption>الشكل 2: صفحة رئيسية واحدة، ثم ستة مسارات، ثم ثمانية مكوّنات مشتركة. تُدمج صفحتا Freshman وDirect Admissions في مسار واحد، وتنتقل صفحة المعايير القديمة (P20) إلى الأرشيف.</figcaption>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>المكوّن</th><th>ما يعرضه للمتقدم</th><th>مجالات السجل المغذّية</th><th>يعالج</th></tr></thead>
+    <tbody>
+      <tr><td>شريط حالة الدورة</td><td>مفتوح أو مغلق، والدورة القادمة، وآخر موعد، والقناة الصحيحة. يظهر في الموقع والبوابة</td><td>التقويم · القنوات</td><td>F-02، F-08</td></tr>
+      <tr><td>الشروط والمعادلة</td><td>الحدود الدنيا، والمعادلة الموزونة، والحد الأدنى المركّب، مع مثال حسابي</td><td>المعدل · القدرات · التحصيلي · المعادلة</td><td>F-01، F-05، F-09</td></tr>
+      <tr><td>الإنجليزية والاختبارات</td><td>جدول واحد لـIELTS وTOEFL (0–120 و1–6) وAptis، مع الصلاحية</td><td>الإنجليزية · الصلاحية</td><td>F-04، F-18</td></tr>
+      <tr><td>التكاليف والمنح</td><td>رسم التقديم، ورسم الاختبار، وحجز المقعد، والرسوم الدراسية، والضريبة، والاسترداد لدورة محددة</td><td>مجالات الرسوم الخمسة</td><td>F-03، F-06، F-07، F-10</td></tr>
+      <tr><td>الوثائق</td><td>قائمة تحقق حسب الفئة والجنسية، قابلة للطباعة</td><td>الوثائق</td><td>F-13</td></tr>
+      <tr><td>طريقة التقديم</td><td>خطوات القناة الصحيحة للفئة، بزر واحد</td><td>القنوات</td><td>F-02</td></tr>
+      <tr><td>التواصل</td><td>بريد وهاتف بأسماء أدوار، وساعات العمل، ونموذج استفسار، وزمن الرد</td><td>جهات التواصل</td><td>F-11</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 10 LEGACY ============ -->
+<section class="s" id="s10">
+  <div class="s-head"><span class="s-num">10</span><h2>استراتيجية المحتوى القديم</h2><span class="s-en">Legacy Strategy</span></div>
+  <p>لا يُحذف أي محتوى مباشرة. كل عنصر يمر بدورة حياة تحفظ الروابط المفهرسة وإشارات المتقدمين المحفوظة، ولا تنتقل الحالة إلا بعد التحقق.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 110" width="100%" style="min-width:680px" role="img" aria-labelledby="lcT">
+        <title id="lcT">دورة حياة المحتوى القديم</title>
+        <defs><marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+        <g>
+          <rect class="sv-box" x="770" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="855" y="50" text-anchor="middle">استبدال</text><text class="sv-t2" x="855" y="70" text-anchor="middle" direction="ltr">Replace</text>
+          <rect class="sv-box" x="580" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="665" y="50" text-anchor="middle">تحويل / noindex</text><text class="sv-t2" x="665" y="70" text-anchor="middle" direction="ltr">Redirect 301 / Noindex</text>
+          <rect class="sv-box" x="390" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="475" y="50" text-anchor="middle">تحقق</text><text class="sv-t2" x="475" y="70" text-anchor="middle" direction="ltr">Verify (crawl + search)</text>
+          <rect class="sv-box" x="200" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="285" y="50" text-anchor="middle">أرشفة</text><text class="sv-t2" x="285" y="70" text-anchor="middle" direction="ltr">Archive (banner)</text>
+          <rect x="20" y="24" width="160" height="62" rx="4" class="sv-navy"/><text class="sv-inv" x="100" y="50" text-anchor="middle">إيقاف نهائي</text><text class="sv-inv" x="100" y="70" text-anchor="middle" style="font-weight:400;font-size:11.5px" direction="ltr">Retire (410 / remove)</text>
+          <path class="sv-arrow" d="M768 55 H752" marker-end="url(#ah3)"/><path class="sv-arrow" d="M578 55 H562" marker-end="url(#ah3)"/><path class="sv-arrow" d="M388 55 H372" marker-end="url(#ah3)"/><path class="sv-arrow" d="M198 55 H182" marker-end="url(#ah3)"/>
+        </g>
+      </svg>
+    </div>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>العنصر القديم</th><th>الاعتمادية وخطر محركات البحث</th><th>البديل</th><th>المعالجة المقترحة</th></tr></thead>
+    <tbody>
+      <tr><td>P20 Admission Procedures &amp; Criteria</td><td>مفهرسة في البحث، وخارج قائمة التنقل</td><td>مكوّن «الشروط والمعادلة»</td><td>تحويل 301 ثم تحقق ثم إيقاف</td></tr>
+      <tr><td>P03 Freshman Admission (قواعد CBT و30/50/20)</td><td>مرتبطة من صفحات حديثة ومفضّلة المستخدمين</td><td>مسار «خريج ثانوية»</td><td>استبدال ثم تحويل 301</td></tr>
+      <tr><td>جداول الرسوم 2024–2025 و2025–2026</td><td>يحتاجها الطلاب المستمرون</td><td>صفحة رسوم الدورة الحالية</td><td>أرشفة بلافتة «للطلاب المقبولين في…» مع noindex</td></tr>
+      <tr><td>رابط التذييل: تقويم 2021–2022</td><td>في كل صفحة من الموقع</td><td>التقويم الحالي</td><td>تعديل القالب، ثم تحويل 301 للرابط القديم</td></tr>
+      <tr><td>Apply_Now_ADS.aspx وروابط http للبوابة</td><td>روابط داخلية كثيرة</td><td>مكوّن «طريقة التقديم»</td><td>تحويل 301 إلى صفحة التوجيه</td></tr>
+      <tr><td>دليل Aptis ‏2017، ودليل الطالب 2019–2020، وخطاب MOHE</td><td>ملفات PDF مفهرسة</td><td>إصدارات محدّثة أو لا شيء</td><td>استبدال أو أرشفة، مع X-Robots-Tag: noindex</td></tr>
+      <tr><td>P21 إعلان الدبلوم (عربي، غير مؤرّخ)</td><td>يظهر عند البحث عن «القبول والتسجيل»</td><td>حسب قرار العمادة المعنية</td><td>تأكيد المالك، ثم أرشفة أو تحديث</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 11 ROADMAP ============ -->
+<section class="s" id="s11">
+  <div class="s-head"><span class="s-num">11</span><h2>خارطة الطريق التنفيذية</h2><span class="s-en">Executive Roadmap · 22 weeks</span></div>
+  <p>المدة مبنية على حجم ما ثبت: 19 نتيجة، و14 مجال بيانات، ونحو 45 صفحة وملفًا، وست قرارات. الأسبوع 0 هو تاريخ موافقة الإدارة. إذا تمت الموافقة منتصف أكتوبر 2026 يقع الإغلاق نحو منتصف مارس 2027، أي قبل فتح دورة خريف 2027 المتوقع بنحو 6 إلى 7 أسابيع (افتراض مبني على نمط 2026).</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 470" width="100%" style="min-width:820px" role="img" aria-labelledby="gT" direction="ltr">
+        <title id="gT">مخطط زمني للمشروع على 22 أسبوعًا مع نقاط القرار والبوابات</title>
+        <!-- grid: x0=250, week width=30 -> 22 weeks = 660 -> 910 -->
+        <g>
+          <text class="sv-t2" x="250" y="22">W0</text><text class="sv-t2" x="400" y="22">W5</text><text class="sv-t2" x="550" y="22">W10</text><text class="sv-t2" x="700" y="22">W15</text><text class="sv-t2" x="850" y="22">W20</text><text class="sv-t2" x="902" y="22">W22</text>
+          <path class="sv-grid" d="M250 30 V420 M400 30 V420 M550 30 V420 M700 30 V420 M850 30 V420 M910 30 V420"/>
+        </g>
+        <!-- rows: y start 40, step 36 -->
+        <g>
+          <text class="sv-t" x="240" y="56" text-anchor="end">Mobilize, charter, owners</text>
+          <rect class="sv-bar" x="250" y="44" width="60" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="92" text-anchor="end">WS1 Rules &amp; decisions</text>
+          <rect class="sv-bar2" x="280" y="80" width="150" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="128" text-anchor="end">Containment hotfixes</text>
+          <rect class="sv-bar3" x="310" y="116" width="90" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="164" text-anchor="end">WS2 Canonical record</text>
+          <rect class="sv-bar2" x="340" y="152" width="210" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="200" text-anchor="end">WS4 Portal &amp; channels</text>
+          <rect class="sv-bar" x="430" y="188" width="240" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="236" text-anchor="end">WS3 IA &amp; content (EN)</text>
+          <rect class="sv-bar2" x="430" y="224" width="270" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="272" text-anchor="end">WS3 Arabic parity</text>
+          <rect class="sv-bar2" x="520" y="260" width="240" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="308" text-anchor="end">WS5 Legacy &amp; redirects</text>
+          <rect class="sv-bar" x="610" y="296" width="180" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="344" text-anchor="end">WS6 Validation, UAT, a11y</text>
+          <rect class="sv-bar2" x="730" y="332" width="120" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="380" text-anchor="end">Handover &amp; hypercare</text>
+          <rect class="sv-bar" x="820" y="368" width="90" height="16" rx="2"/>
+        </g>
+        <!-- decisions and gates -->
+        <g>
+          <path class="sv-crit" d="M310 404 l7 -9 l7 9 z"/><text class="sv-t2" x="317" y="418" text-anchor="middle">G0</text>
+          <path class="sv-crit" d="M370 404 l7 -9 l7 9 z"/><text class="sv-t2" x="377" y="418" text-anchor="middle">D1–D5</text>
+          <path class="sv-crit" d="M430 404 l7 -9 l7 9 z"/><text class="sv-t2" x="437" y="418" text-anchor="middle">G1</text>
+          <path class="sv-crit" d="M550 404 l7 -9 l7 9 z"/><text class="sv-t2" x="557" y="418" text-anchor="middle">G2</text>
+          <path class="sv-crit" d="M760 404 l7 -9 l7 9 z"/><text class="sv-t2" x="767" y="418" text-anchor="middle">G3–G6</text>
+          <path class="sv-crit" d="M903 404 l7 -9 l7 9 z"/><text class="sv-t2" x="905" y="418" text-anchor="end">G7</text>
+        </g>
+        <!-- legend -->
+        <g>
+          <rect class="sv-bar2" x="250" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="270" y="447">Critical path</text>
+          <rect class="sv-bar" x="370" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="390" y="447">Parallel work</text>
+          <rect class="sv-bar3" x="490" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="510" y="447">Containment</text>
+          <path class="sv-crit" d="M610 448 l6 -9 l6 9 z"/><text class="sv-t2" x="628" y="447">Decision point / closure gate</text>
+        </g>
+      </svg>
+    </div>
+    <figcaption>الشكل 3: الأشرطة البرتقالية هي المسار الحرج: القرارات، ثم السجل المرجعي، ثم المحتوى الإنجليزي، ثم التكافؤ العربي، ثم التحقق، ثم الإغلاق. أي تأخير في D1 إلى D5 يؤخر تاريخ الإغلاق بالمدة نفسها.</figcaption>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>المرحلة</th><th class="num">الأسابيع</th><th>المخرجات</th><th>شرط العبور</th></tr></thead>
+    <tbody>
+      <tr><td>التعبئة والميثاق</td><td class="num">0–2</td><td>ميثاق معتمد، ومالك لكل مجال من المجالات الـ14، وفريق المشروع</td><td>G0</td></tr>
+      <tr><td>الاحتواء العاجل</td><td class="num">2–5</td><td>تصحيح رسم الطب بعد قرار المالية، وnoindex على P20، وإصلاح «تواصل» الطلاب الجامعيين، ولافتة «القواعد قيد التوحيد» على الصفحات المتعارضة</td><td>قرار D5 للرسم</td></tr>
+      <tr><td>القواعد المرجعية</td><td class="num">1–6</td><td>ملفات القرار، وكتاب قواعد القبول v1، وجدول الإنجليزية مع سلّم 1–6</td><td>D1 إلى D5 ثم G1</td></tr>
+      <tr><td>السجل المرجعي والحوكمة</td><td class="num">3–10</td><td>سجل بـ14 مجالًا، وسير اعتماد، وتدقيق الصفحات غير المفحوصة (الدراسات العليا وغيرها)</td><td>G2</td></tr>
+      <tr><td>البناء: البنية والمحتوى والبوابة</td><td class="num">6–17</td><td>صفحة القبول الرئيسية، والمسارات الستة، والمكوّنات الثمانية، والنسخة العربية، وتقويم البوابة</td><td>قبول المحتوى من كل مالك</td></tr>
+      <tr><td>المحتوى القديم</td><td class="num">12–18</td><td>خرائط التحويل، وnoindex، والأرشيف، وتحديث التذييل</td><td>G6 (بعد التحقق)</td></tr>
+      <tr><td>التحقق</td><td class="num">16–20</td><td>إعادة الزحف، واختبارات الرحلة، وWCAG 2.2 AA، وفحص التكافؤ</td><td>G3 إلى G5</td></tr>
+      <tr><td>التسليم والإغلاق</td><td class="num">19–22</td><td>دليل التشغيل، ودورتا فحص انحراف، وحزمة الإغلاق</td><td>G7 والحكم النهائي</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 12 DECISIONS ============ -->
+<section class="s" id="s12">
+  <div class="s-head"><span class="s-num">12</span><h2>قرارات مطلوبة من الإدارة</h2><span class="s-en">Executive Decisions Required</span></div>
+  <p>لم يتخذ التدقيق أيًا من هذه القرارات. كل قرار أدناه يوقف مسار عمل محددًا حتى يصدر.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>القرار المطلوب</th><th>لماذا</th><th>الجهة المختصة</th><th>يتوقف عليه</th><th>الموعد</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">D0</td><td>اعتماد المشروع والراعي التنفيذي والميثاق</td><td>بلا تفويض لا يمكن إلزام الكليات والمالية بمواعيد</td><td>الإدارة العليا</td><td>كل المشروع</td><td class="num">W0</td></tr>
+      <tr><td class="mono">D1</td><td>المعادلة الموزونة الرسمية والحد الأدنى المركّب لكل فئة (عام، هندسة وحاسب وعمارة، طب، دولي)</td><td>F-01 وF-09: خمس معادلات منشورة، وحد أدنى غير معلن</td><td>لجنة القبول ثم المجلس الأكاديمي</td><td>WS1، WS3</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D2</td><td>حدود الإنجليزية الرسمية والاختبارات المقبولة (IELTS، TOEFL على سلّم 1–6، Aptis، الإصدار المنزلي) وقاعدة الصلاحية</td><td>F-04 وF-18: ‏5.5 مقابل 6.0، و65 مقابل 83</td><td>لجنة القبول بتوصية برنامج الإنجليزية</td><td>WS1، WS3</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D3</td><td>المكافئ المعتمد للتحصيلي لحملة SAT والشهادات الدولية بعد إيقاف SAT Subject</td><td>F-05: ثلاث صيغ، إحداها مستحيلة</td><td>لجنة القبول والكليات المعنية</td><td>مسار الطالب الدولي</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D4</td><td>قناة التقديم الرسمية لكل فئة، ودور بوابة الجامعة مقابل «قبول» و«ادرس في السعودية»</td><td>F-02: مسارات متناقضة في الصفحة نفسها</td><td>الراعي التنفيذي ومدير القبول</td><td>WS4 وكل أزرار التقديم</td><td class="num">W3</td></tr>
+      <tr><td class="mono">D5</td><td>قيمة رسم تقديم الطب، وهل يشمل رسم 950 اختبار Aptis، وصياغة الضريبة والإفصاح عن حجز المقعد</td><td>F-03 وF-06 وF-07: التزام مالي مباشر</td><td>المالية</td><td>الاحتواء العاجل، ومكوّن التكاليف</td><td class="num">W2</td></tr>
+      <tr><td class="mono">D6</td><td>اعتماد العربية لغة نشر مكافئة ملزمة لقواعد القبول، ومعيار التكافؤ</td><td>F-14: لا نسخة عربية للقواعد</td><td>الإدارة العليا</td><td>WS3 (التكافؤ العربي)</td><td class="num">W2</td></tr>
+      <tr><td class="mono">D7</td><td>تفويض إيقاف المحتوى القديم وأرشفته (P20، P21، الجداول والملفات القديمة)</td><td>F-12: أجيال قديمة مفهرسة</td><td>مدير القبول، والعمادات المالكة</td><td>WS5</td><td class="num">W8</td></tr>
+      <tr><td class="mono">D8</td><td>منصة السجل المرجعي والنشر: تطوير نظام إدارة المحتوى الحالي أو بديل له</td><td>قالبان متعايشان وصفحات .aspx قديمة</td><td>تقنية المعلومات بموافقة الراعي</td><td>WS2، WS3</td><td class="num">W3</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 13 KPIs & RISKS ============ -->
+<section class="s" id="s13">
+  <div class="s-head"><span class="s-num">13</span><h2>مؤشرات الأداء والمخاطر</h2><span class="s-en">KPIs · Risks</span></div>
+  <h3>مؤشرات الأداء (مشتقة من المشكلات المثبتة)</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>المؤشر</th><th class="num">خط الأساس (2026-09-27)</th><th class="num">المستهدف عند الإغلاق</th><th>طريقة القياس</th></tr></thead>
+    <tbody>
+      <tr><td>تعارضات مؤكدة بين الواجهات لنفس القاعدة</td><td class="num">9</td><td class="num">0</td><td>إعادة زحف ومقارنة آلية بالسجل المرجعي</td></tr>
+      <tr><td>معادلات موزونة منشورة لكل فئة متقدم</td><td class="num">حتى 5</td><td class="num">1</td><td>مطابقة نصية لمكوّن الشروط</td></tr>
+      <tr><td>قنوات «قدّم الآن» المتباينة لنفس الفئة</td><td class="num">4</td><td class="num">1</td><td>فحص كل روابط وأزرار التقديم</td></tr>
+      <tr><td>نسبة القيم المنشورة المرتبطة بسجل له مالك وتاريخ سريان</td><td class="num">0%</td><td class="num">100%</td><td>تدقيق المكوّنات مقابل السجل</td></tr>
+      <tr><td>الأيام التي تعرض فيها الصفحة دورة منتهية أو «لا أحداث»</td><td class="num">مستمر</td><td class="num">0</td><td>مراقب يومي لمكوّن حالة الدورة</td></tr>
+      <tr><td>صفحات القواعد الأساسية ذات المقابل العربي المكافئ</td><td class="num">0</td><td class="num">100% من القائمة المعتمدة</td><td>فحص تكافؤ الحقول والقيم</td></tr>
+      <tr><td>عناصر قديمة مفهرسة دون لافتة أرشيف</td><td class="num">≥ 8</td><td class="num">0</td><td>زحف، وأداة مشرفي البحث، وفحص site:</td></tr>
+      <tr><td>روابط http و«#» في قوالب القبول</td><td class="num">موجودة في كل صفحة</td><td class="num">0</td><td>فاحص روابط آلي</td></tr>
+      <tr><td>مشكلات WCAG 2.2 AA الحرجة والجدية في القوالب</td><td class="num">غير مقاس</td><td class="num">0</td><td>فحص آلي، ثم يدوي بلوحة المفاتيح وقارئ الشاشة</td></tr>
+      <tr><td>نجاح اختبارات الرحلة (6 شخصيات، القناة الصحيحة خلال 3 نقرات أو أقل)</td><td class="num">غير مقاس</td><td class="num">6 من 6</td><td>اختبار مستخدمين مسجّل</td></tr>
+      <tr><td>حجم استفسارات القبول المتكررة (الرسوم، والحدود، والقناة)</td><td class="num">يُقاس في W0–W2</td><td class="num">انخفاض يُحدد بعد القياس</td><td>تصنيف تذاكر نموذج الاستفسار. لم نفترض رقمًا</td></tr>
+    </tbody>
+  </table></div>
+  <h3>المخاطر</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>الخطر</th><th>الاحتمال</th><th>الأثر</th><th>المعالجة</th><th>المالك</th></tr></thead>
+    <tbody>
+      <tr><td>تأخر القرارات D1 إلى D5 (المسار الحرج)</td><td><span class="pill p-high">High</span></td><td><span class="pill p-crit">Critical</span></td><td>مواعيد قرار ملزمة في الميثاق، وملف قرار جاهز بالخيارات، وتصعيد بعد 5 أيام</td><td>الراعي التنفيذي</td></tr>
+      <tr><td>قيود نظام إدارة المحتوى الحالي على المكوّنات المشتركة</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-high">High</span></td><td>تقييم تقني في W2 وقرار D8، مع حل مرحلي بمكوّنات مضمّنة</td><td>تقنية المعلومات</td></tr>
+      <tr><td>اكتشاف تعارضات إضافية في الصفحات غير المدقّقة (الدراسات العليا)</td><td><span class="pill p-high">High</span></td><td><span class="pill p-med">Medium</span></td><td>تدقيقها في المرحلة الأولى، واستيعابها في السجل قبل البناء</td><td>مدير القبول</td></tr>
+      <tr><td>فقدان ترتيب محركات البحث بسبب التحويلات</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-med">Medium</span></td><td>تحويل 301 لكل رابط، وخريطة موقع، ومراقبة ما بعد الإطلاق</td><td>فريق الويب</td></tr>
+      <tr><td>ضعف جودة النص العربي أو تأخره</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-high">High</span></td><td>محرر عربي مختص، ومسرد مصطلحات معتمد، والقيم من السجل</td><td>الاتصال المؤسسي</td></tr>
+      <tr><td>تغيير قواعد المنصات الوطنية أثناء المشروع</td><td><span class="pill p-low">Low</span></td><td><span class="pill p-high">High</span></td><td>قناة التقديم مجال مستقل في السجل، يُحدّث في مكان واحد</td><td>مدير القبول</td></tr>
+      <tr><td>توسّع النطاق إلى إعادة تصميم الموقع كاملًا</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-med">Medium</span></td><td>بند «خارج النطاق» في الميثاق، وطلب تغيير رسمي لأي توسّع</td><td>لجنة التوجيه</td></tr>
+      <tr><td>عودة الانحراف بعد التسليم</td><td><span class="pill p-high">High</span></td><td><span class="pill p-high">High</span></td><td>بوابة G7: دورتا مراقبة ناجحتان وسير نشر يمنع الإدخال اليدوي</td><td>الجودة</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 14 CLOSURE ============ -->
+<section class="s" id="s14">
+  <div class="s-head"><span class="s-num">14</span><h2>إطار الإغلاق الكامل</h2><span class="s-en">Full Project Closure Framework</span></div>
+  <p>النشر وحده لا يعني الإغلاق، وكذلك إصلاح روابط أو تحديث محتوى. يثبت الإغلاق أن السبب الجذري عولج في <strong>جميع الواجهات</strong>. كل بوابة تتطلب دليلًا من جهة التحقق المستقلة، ولا يُعلن <span class="mono ltr">PASS</span> إذا تعذّر إثبات أي بوابة.</p>
+  <div class="gate" role="table" aria-label="بوابات الإغلاق">
+    <div class="h">البوابة</div><div class="h">معيار النجاح والدليل المطلوب</div><div class="h">الحالة الآن</div>
+    <div class="gid">G0</div><div><strong>التفويض:</strong> ميثاق معتمد، وراعٍ تنفيذي، ومالك وظيفي مسمّى لكل مجال من المجالات الـ14</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G1</div><div><strong>القواعد المرجعية:</strong> القرارات D1 إلى D6 موقّعة ومسجّلة في كتاب قواعد القبول v1 بتاريخ سريان</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G2</div><div><strong>البيانات المرجعية:</strong> 100% من المجالات في السجل، وكل الصفحات المدرجة في «غير مدقّق» (الدراسات العليا وملفات PDF والنماذج) دُقّقت وعولجت</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G3</div><div><strong>مطابقة الواجهات:</strong> صفر تعارضات في إعادة زحف كاملة تشمل الموقع بلغتيه والبوابة والتقويم وملفات PDF، مقارنة آليًا بالسجل</div><div><span class="pill p-crit">Not met (9)</span></div>
+    <div class="gid">G4</div><div><strong>الرحلة والتوجيه:</strong> 6 من 6 اختبارات رحلة ناجحة. كل فئة تصل إلى القناة الصحيحة خلال 3 نقرات أو أقل من صفحة القبول الرئيسية، وحالة الدورة متطابقة بين الموقع والبوابة</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G5</div><div><strong>الجودة:</strong> WCAG 2.2 AA بصفر مشكلات حرجة أو جدية مع فحص يدوي، وصفر روابط http أو «#»، وتكافؤ عربي 100% للمكوّنات الأساسية</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G6</div><div><strong>المحتوى القديم:</strong> كل عنصر في سجل المحتوى القديم في حالة نهائية (محوّل، أو noindex، أو مؤرشف بلافتة) ومتحقق منه بالزحف وأداة البحث</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G7</div><div><strong>التشغيل:</strong> الحوكمة مفعّلة، ودورتا فحص انحراف متتاليتان بصفر انحراف غير معالج، وتسليم موقّع لعمليات المحتوى</div><div><span class="pill p-crit">Not met</span></div>
+  </div>
+  <div class="callout" style="border-color:var(--crit);background:var(--crit-soft)">
+    <p><strong>الحكم الحالي (خط الأساس):</strong> <span class="verdict notmet">FULL PROJECT CLOSURE — NOT MET</span></p>
+    <p style="margin-top:8px">قاعدة الحكم: يُعلن <span class="mono ltr">FULL PROJECT CLOSURE — PASS</span> فقط عند اجتياز G0 إلى G7 كلها بدليل موثّق. أي بوابة غير مثبتة تعني <span class="mono ltr">NOT MET</span>.</p>
+  </div>
+</section>
+
+<!-- ============ 15 METHOD ============ -->
+<section class="s" id="s15">
+  <div class="s-head"><span class="s-num">15</span><h2>المنهجية والتغطية والقيود</h2><span class="s-en">Method · Coverage · Limitations</span></div>
+  <div class="two">
+    <div class="stack"><h3>ما نُفّذ فعلًا</h3>
+      <ul class="clean">
+        <li>بدأ الاكتشاف من <span class="mono ltr">pmu.edu.sa/admission/admission</span> وتتبّع روابط التنقل والقوائم الجانبية، ثم استُكمل بالبحث على الويب لاكتشاف الصفحات المعزولة.</li>
+        <li>قُرئ نص 22 صفحة حيّة كاملًا عبر شجرة إمكانية الوصول في متصفح المستخدم (Opera Browser Connector)، والتُقطت 9 لقطات شاشة.</li>
+        <li>استُخرجت نقاط البيانات وقورنت عبر الصفحات (مصفوفة البيانات)، وتُحقّق من 8 حقائق خارجية من مصادرها الرسمية.</li>
+        <li>صُنّف كل تعارض دون اختيار القيمة الصحيحة ما لم يوجد مصدر رسمي حاسم.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>القيود المصرّح بها</h3>
+      <ul class="clean">
+        <li>بيئة التدقيق حجبت نطاق <span class="mono ltr">pmu.edu.sa</span>، فتمت القراءة عبر متصفح المستخدم. هذا لم يسمح بزحف آلي شامل ولا بقراءة رموز HTTP.</li>
+        <li>لقطات الشاشة تُظهر أعلى الصفحة فقط لتعذّر التمرير. النصوص المقتبسة من أسفل الصفحة موثّقة نصيًا، وكل لقطة موضّح ما تثبته بالضبط.</li>
+        <li>انقطع الاتصال بالمتصفح مرارًا، فلم تُدقّق: صفحات الدراسات العليا، والسنة التحضيرية، والزائرين، وSAT، ونموذج الاستفسار، ودليل القبول PDF، وصفحات الدفع والاسترداد، والبوابة بعد تسجيل الدخول.</li>
+        <li>فحص إمكانية الوصول محدود ولا يمثل تدقيق امتثال لـWCAG.</li>
+        <li>لم يُستخدم أي تقرير أو نتائج سابقة. لم يُفتح تبويب لوحة إدارة البوابة الموجود في المتصفح، ولم تُسجَّل أي بيانات شخصية.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPENDIX A ============ -->
+<section class="s" id="appA">
+  <div class="s-head"><span class="s-num">A</span><h2>ملحق أ: الأدلة المرئية</h2><span class="s-en">Representative Evidence Appendix</span></div>
+  <p>التُقطت كل اللقطات بتاريخ <span class="mono ltr">2026-09-27</span> من متصفح المستخدم. تحت كل لقطة: ما تثبته بالضبط، وما يُثبَت بالنص المقتبس بدلًا منها.</p>
+  <div class="ev-grid">
+    <figure class="ev"><img src="{{S12}}" alt="صفحة رسوم برنامج الطب تعرض Medical Application Fee بقيمة SAR 1,150 VAT inclusive"><figcaption class="cap"><strong>S12 · F-03 <span class="pill p-crit">Critical</span></strong><span>تثبت مباشرة: «Medical Application Fee — SAR 1,150 (VAT inclusive)». القيمة المتعارضة (SAR 1000) منقولة نصًا من P09.</span><span class="url">pmu.edu.sa/admission/medical_program_studies_fees_tf_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S14}}" alt="تقويم القبول يعرض زر Apply Now بجوار تعليمات التقديم عبر منصة قبول"><figcaption class="cap"><strong>S14 · F-02 / F-08 <span class="pill p-crit">Critical</span></strong><span>تثبت: زر «Apply Now» المؤدي إلى pmu.edu.sa/Apply بجوار «For Saudi Students: Apply online through Qabool platform»، وأن التقويم المعروض هو «Fall 2026-2027» فقط.</span><span class="url">pmu.edu.sa/admission/admission_calendar_fs_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S15}}" alt="الصفحة الترحيبية لبوابة التقديم تعرض لا توجد أحداث منشورة ولافتة لفصل سابق"><figcaption class="cap"><strong>S15 · F-08 / F-02 <span class="pill p-high">High</span></strong><span>تثبت: «No events are currently published» في البوابة، ولافتة قبول دراسات عليا لـ«الفصل الدراسي الثاني 2026/2025»، وزر تسجيل دون توجيه للقناة.</span><span class="url">admissions.pmu.edu.sa/welcome (from pmu.edu.sa/apply)</span></figcaption></figure>
+    <figure class="ev"><img src="{{S09}}" alt="صفحة قبول كلية الطب بعنوان College of Medical"><figcaption class="cap"><strong>S09 · F-07 <span class="pill p-high">High</span></strong><span>تثبت: هوية الصفحة وعبارة «The PMU College of Medical curriculum». أما النص غير المحرّر وغياب رسم حجز المقعد فموثّقان نصيًا.</span><span class="url">pmu.edu.sa/admission/college_of_medicine_admission</span></figcaption></figure>
+    <figure class="ev"><img src="{{S03}}" alt="صفحة Freshman Admission بقالب القائمة الجانبية"><figcaption class="cap"><strong>S03 · F-01 / F-04</strong><span>تثبت: وجود صفحة «Freshman Admission» المستقلة (معادلة 30/50/20 وTOEFL 65/CBT 183 منقولة نصًا من أسفلها).</span><span class="url">www.pmu.edu.sa/admission/freshman_admission</span></figcaption></figure>
+    <figure class="ev"><img src="{{S04}}" alt="صفحة Direct Admissions from Secondary School ومسار التنقل ينتهي بكلمة Freshman"><figcaption class="cap"><strong>S04 · F-01 / F-15</strong><span>تثبت: صفحة ثانية للمسار نفسه، ومسار تنقّل ينتهي بـ«Freshman» (معادلة 60/40 وIELTS 6.0 منقولة نصًا).</span><span class="url">pmu.edu.sa/admission/direct-admissions-from-secondary-school</span></figcaption></figure>
+    <figure class="ev"><img src="{{S20}}" alt="صفحة Admission Procedures and Criteria القديمة"><figcaption class="cap"><strong>S20 · F-12 / F-01</strong><span>تثبت: أن الصفحة القديمة ما زالت منشورة. حد 70% و«IELTS of 550» و«PMU Standard Battery Test» منقولة نصًا.</span><span class="url">www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S22}}" alt="ترويسة الصفحة الرئيسية دون مفتاح تبديل اللغة"><figcaption class="cap"><strong>S22 · F-14</strong><span>تثبت: عدم ظهور مفتاح لغة في ترويسة الصفحة الرئيسية. الترويسة نفسها تتكرر في كل صفحات القبول المفحوصة.</span><span class="url">www.pmu.edu.sa/</span></figcaption></figure>
+    <figure class="ev"><img src="{{S01}}" alt="صفحة مكتب القبول الرئيسية بقوائم روابط"><figcaption class="cap"><strong>S01 · F-15 / F-11</strong><span>تثبت: أن الصفحة الرئيسية قوائم روابط بلا مقدمة ولا حالة دورة. رابط «Contact Us» يحيل إلى دليل الموظفين (موثّق نصيًا).</span><span class="url">pmu.edu.sa/admission/admission</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ APPENDIX B ============ -->
+<section class="s" id="appB">
+  <div class="s-head"><span class="s-num">B</span><h2>ملحق ب: السجلات الداعمة والمصادر</h2><span class="s-en">Supporting Registers · Sources</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>السجل</th><th>المحتوى</th><th>المسار في المستودع</th></tr></thead>
+    <tbody>
+      <tr><td>سجل النتائج</td><td>19 نتيجة كاملة بالرابط والنص والتعارض والأثر والمعالجة والمالك</td><td class="mono ltr">pmu-admissions-audit/registers/findings-register.md</td></tr>
+      <tr><td>سجل التغطية</td><td>22 صفحة مدقّقة، وأكثر من 20 رابطًا مكتشفًا غير مدقّق، مع التصنيف والحالة</td><td class="mono ltr">pmu-admissions-audit/registers/crawl-coverage.md</td></tr>
+      <tr><td>مصفوفة البيانات</td><td>نقاط البيانات نفسها عبر الصفحات، ومرشّحو السجل المرجعي</td><td class="mono ltr">pmu-admissions-audit/registers/data-point-matrix.md</td></tr>
+      <tr><td>التحقق الخارجي</td><td>X01 إلى X08 مع الروابط الرسمية</td><td class="mono ltr">pmu-admissions-audit/evidence/external-verification.md</td></tr>
+      <tr><td>الملاحظات الميدانية</td><td>مقتطفات حرفية لكل صفحة (P01 إلى P22)</td><td class="mono ltr">pmu-admissions-audit/evidence/field-notes.md</td></tr>
+      <tr><td>لقطات الشاشة</td><td>9 ملفات PNG أصلية</td><td class="mono ltr">pmu-admissions-audit/evidence/screenshots/</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted" style="font-size:.88rem">مصادر خارجية رسمية: <a href="https://www.ets.org/toefl/institutions/ibt/score-scale-update.html" lang="en">ETS TOEFL score scale</a> · <a href="https://ielts.org/organisations/ielts-for-organisations/verifying-ielts-results" lang="en">IELTS results validity</a> · <a href="https://blog.collegeboard.org/what-were-sat-subject-tests" lang="en">College Board SAT Subject Tests</a> · <a href="https://etec.gov.sa/en/qiyas" lang="en">ETEC Qiyas</a> · <a href="https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx" lang="en">ZATCA VAT on education</a> · <a href="https://www.moe.gov.sa/en/knowledgecenter/eservices/pages/unified-admission.aspx" lang="en">MoE Unified Admission</a> · <a href="https://studyinsaudi.sa/en" lang="en">Study in Saudi</a> · <a href="https://www.w3.org/TR/WCAG22/" lang="en">W3C WCAG 2.2</a> · <a href="https://www.vision2030.gov.sa/" lang="en">Saudi Vision 2030</a></p>
+</section>
+
+<footer class="end">تدقيق مستقل · الأدلة مؤرخة في 2026-09-27 · لا يتضمن هذا المستند أسماء أشخاص، وكل الأدوار وظيفية</footer>
+</div>
+</div>
