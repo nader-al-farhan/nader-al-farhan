@@ -14,6 +14,19 @@ export interface ServerConfig {
   defaultCommandTimeoutMs: number;
   /** Largest file the server will read or write, in bytes. */
   maxFileBytes: number;
+  transport: "stdio" | "http";
+  http: HttpConfig;
+}
+
+export interface HttpConfig {
+  host: string;
+  port: number;
+  /** Bearer token clients must send. Required for the HTTP transport. */
+  authToken: string | undefined;
+  /** Extra accepted Host header values (hostname or hostname:port); loopback names are always accepted. */
+  allowedHosts: string[];
+  /** Accepted Origin header values for browser clients; requests with any other Origin are rejected. */
+  allowedOrigins: string[];
 }
 
 const DEFAULT_BLOCKED = [
@@ -55,5 +68,13 @@ export function loadConfig(argv: string[] = process.argv.slice(2), env = process
     blockedCommands: [...new Set([...DEFAULT_BLOCKED, ...extraBlocked])].filter((c) => !unblocked.has(c)),
     defaultCommandTimeoutMs: Number(env.DC_COMMAND_TIMEOUT_MS) || 30_000,
     maxFileBytes: Number(env.DC_MAX_FILE_BYTES) || 5 * 1024 * 1024,
+    transport: env.DC_TRANSPORT?.trim().toLowerCase() === "http" ? "http" : "stdio",
+    http: {
+      host: env.DC_HTTP_HOST?.trim() || "127.0.0.1",
+      port: Number(env.DC_HTTP_PORT) || 3000,
+      authToken: env.DC_AUTH_TOKEN?.trim() || undefined,
+      allowedHosts: parseList(env.DC_ALLOWED_HOSTS).map((h) => h.toLowerCase()),
+      allowedOrigins: parseList(env.DC_ALLOWED_ORIGINS),
+    },
   };
 }
