@@ -1,0 +1,589 @@
+{
+  "_about": "Structured view of published values that the hub needs for calculation. Every entry points to a canonical record (canon) and to the audited pages (sources). Nothing here is an approved value: approval lives only in admissions-canonical.json (approved_value).",
+  "formulas": [
+    {
+      "id": "A",
+      "canon": "composite_formula",
+      "sources": [
+        "P02",
+        "P04",
+        "P19",
+        "P25"
+      ],
+      "routes": [
+        "saudi_hs"
+      ],
+      "weights": {
+        "hs": 0.6,
+        "gat": 0.4
+      },
+      "label": {
+        "ar": "ثانوية 60% + قدرات 40%",
+        "en": "HS 60% + Qudrat 40%"
+      }
+    },
+    {
+      "id": "B",
+      "canon": "composite_formula",
+      "sources": [
+        "P03"
+      ],
+      "routes": [
+        "saudi_hs"
+      ],
+      "weights": {
+        "hs": 0.3,
+        "gat": 0.5,
+        "interview": 0.2
+      },
+      "label": {
+        "ar": "ثانوية 30% + قدرات 50% + مقابلة 20%",
+        "en": "HS 30% + Qudrat 50% + Interview 20%"
+      }
+    },
+    {
+      "id": "C",
+      "canon": "composite_formula",
+      "sources": [
+        "P19 (major-specific)"
+      ],
+      "routes": [
+        "saudi_hs"
+      ],
+      "weights": {
+        "hs": 0.4,
+        "gat": 0.3,
+        "tah": 0.3
+      },
+      "label": {
+        "ar": "ثانوية 40% + قدرات 30% + تحصيلي 30% (الهندسة والحاسب)",
+        "en": "HS 40% + Qudrat 30% + Tahseely 30% (Eng./CS majors)"
+      }
+    },
+    {
+      "id": "L",
+      "canon": "composite_formula",
+      "sources": [
+        "P20 (legacy, still published)"
+      ],
+      "routes": [
+        "saudi_hs"
+      ],
+      "rule": "legacy_p20",
+      "label": {
+        "ar": "القاعدة القديمة: معدل 80% فأكثر، أو 70% فأكثر مع قبول يعتمد على المقابلة، وقدرات 60%",
+        "en": "Legacy rule: HS 80%+, or 70%+ with acceptance depending on the interview; Qudrat 60%"
+      }
+    },
+    {
+      "id": "M",
+      "canon": "composite_formula",
+      "sources": [
+        "P09"
+      ],
+      "routes": [
+        "medicine"
+      ],
+      "weights": {
+        "hs": 0.2,
+        "gat": 0.4,
+        "tah": 0.4
+      },
+      "minimum": 86,
+      "minimum_canon": "composite_minimum",
+      "then": {
+        "academic": 0.6,
+        "interview": 0.4
+      },
+      "label": {
+        "ar": "طب: (ثانوية 20% + قدرات 40% + تحصيلي 40%) بحد أدنى 86",
+        "en": "Medicine: (HS 20% + Qudrat 40% + Tahseely 40%), minimum 86"
+      }
+    }
+  ],
+  "minimums": {
+    "saudi_hs": {
+      "hs": {
+        "value": 80,
+        "canon": "hs_gpa_min",
+        "sources": [
+          "P02",
+          "P04",
+          "P19"
+        ]
+      },
+      "gat": {
+        "value": 60,
+        "canon": "gat_min",
+        "sources": [
+          "P02",
+          "P04",
+          "P19"
+        ]
+      }
+    },
+    "medicine": {
+      "hs": {
+        "value": 95,
+        "canon": "hs_gpa_min",
+        "sources": [
+          "P09"
+        ]
+      },
+      "gat": {
+        "value": 80,
+        "canon": "gat_min",
+        "sources": [
+          "P09"
+        ]
+      },
+      "tah": {
+        "value": 80,
+        "canon": "tahseely_rule",
+        "sources": [
+          "P09"
+        ]
+      }
+    }
+  },
+  "tuition_2026_27": {
+    "canon": "tuition_ug",
+    "sources": [
+      "P11"
+    ],
+    "per_semester": {
+      "coba_law_prep": 30000,
+      "cad_cces_coe": 32500
+    },
+    "groups": {
+      "coba_law_prep": {
+        "ar": "إدارة الأعمال، القانون، السنة التحضيرية",
+        "en": "Business, Law, Preparatory"
+      },
+      "cad_cces_coe": {
+        "ar": "العمارة والتصميم، الحاسب، الهندسة",
+        "en": "Architecture & Design, Computing, Engineering"
+      }
+    }
+  },
+  "medicine_fees": {
+    "canon": "tuition_medicine",
+    "sources": [
+      "P12"
+    ],
+    "prep_per_year": 75000,
+    "program_per_year": 90000,
+    "seat_reservation": 20000
+  },
+  "vat": {
+    "canon": "vat_statement",
+    "rate": 0.15,
+    "sources": [
+      "P11",
+      "P12",
+      "P49"
+    ]
+  },
+  "application_fee": {
+    "canon": "application_fee",
+    "options": [
+      {
+        "value": 950,
+        "sources": [
+          "P02",
+          "P04",
+          "P13"
+        ]
+      },
+      {
+        "value": 1000,
+        "sources": [
+          "P09"
+        ],
+        "route": "medicine"
+      },
+      {
+        "value": 1150,
+        "sources": [
+          "P12"
+        ],
+        "route": "medicine"
+      }
+    ]
+  },
+  "channels": {
+    "canon": "application_channel",
+    "calendar_rule": {
+      "sources": [
+        "P14"
+      ],
+      "saudi_ug": "https://www.uap.sa/",
+      "non_saudi": "https://studyinsaudi.sa/",
+      "non_saudi_state": "Closed"
+    },
+    "portal": {
+      "sources": [
+        "P02",
+        "P04",
+        "P18",
+        "P53"
+      ],
+      "url": "https://pmu.edu.sa/apply"
+    }
+  },
+  "documents": [
+    {
+      "id": "certificate",
+      "ar": "شهادة الثانوية",
+      "en": "Secondary school certificate",
+      "variants": [
+        {
+          "ar": "الأصل",
+          "en": "Original",
+          "sources": [
+            "P03"
+          ]
+        },
+        {
+          "ar": "نسخة",
+          "en": "Copy",
+          "sources": [
+            "P04",
+            "P19"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine",
+        "international"
+      ]
+    },
+    {
+      "id": "equivalency",
+      "ar": "معادلة الشهادة من وزارة التعليم + ختم السفارة",
+      "en": "MoE equivalency + embassy stamp",
+      "variants": [
+        {
+          "ar": "للشهادات الدولية",
+          "en": "International certificates",
+          "sources": [
+            "P53",
+            "P02",
+            "P18"
+          ]
+        }
+      ],
+      "routes": [
+        "international",
+        "saudi_hs"
+      ]
+    },
+    {
+      "id": "id",
+      "ar": "الهوية الوطنية أو الإقامة",
+      "en": "National ID or Iqama",
+      "variants": [
+        {
+          "ar": "هوية أو إقامة",
+          "en": "ID or Iqama",
+          "sources": [
+            "P03"
+          ]
+        },
+        {
+          "ar": "هوية فقط",
+          "en": "ID only",
+          "sources": [
+            "P04",
+            "P19"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine",
+        "transfer"
+      ]
+    },
+    {
+      "id": "passport",
+      "ar": "جواز السفر",
+      "en": "Passport",
+      "variants": [
+        {
+          "ar": "نسخة",
+          "en": "Copy",
+          "sources": [
+            "P03",
+            "P09",
+            "P19"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine",
+        "international",
+        "transfer"
+      ]
+    },
+    {
+      "id": "gat",
+      "ar": "نتيجة اختبار القدرات",
+      "en": "General Aptitude (Qudrat) score",
+      "variants": [
+        {
+          "ar": "نتيجة حديثة",
+          "en": "Recent score",
+          "sources": [
+            "P03",
+            "P04"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine"
+      ]
+    },
+    {
+      "id": "tahseely",
+      "ar": "نتيجة التحصيلي أو SAT",
+      "en": "Tahseely or SAT score",
+      "variants": [
+        {
+          "ar": "حسب التخصص",
+          "en": "Depends on major",
+          "sources": [
+            "P09",
+            "P19",
+            "P28"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine",
+        "international"
+      ]
+    },
+    {
+      "id": "english",
+      "ar": "شهادة IELTS أو TOEFL (إن وُجدت)",
+      "en": "IELTS or TOEFL certificate (if available)",
+      "variants": [
+        {
+          "ar": "وإلا اختبار تحديد المستوى",
+          "en": "Otherwise placement test",
+          "sources": [
+            "P04",
+            "P53"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "medicine",
+        "international",
+        "transfer",
+        "graduate",
+        "visiting"
+      ]
+    },
+    {
+      "id": "transcript",
+      "ar": "السجل الأكاديمي من الجامعة السابقة",
+      "en": "Transcript from previous university",
+      "variants": [
+        {
+          "ar": "معدل 2.0 من 4.0 على الأقل",
+          "en": "GPA at least 2.0/4.0",
+          "sources": [
+            "P17",
+            "P62"
+          ]
+        }
+      ],
+      "routes": [
+        "transfer"
+      ]
+    },
+    {
+      "id": "bachelor",
+      "ar": "شهادة البكالوريوس وكشف الدرجات",
+      "en": "Bachelor's degree and transcript",
+      "variants": [
+        {
+          "ar": "حسب البرنامج",
+          "en": "Per programme",
+          "sources": [
+            "P34",
+            "P37"
+          ]
+        }
+      ],
+      "routes": [
+        "graduate"
+      ]
+    },
+    {
+      "id": "noobjection",
+      "ar": "خطاب عدم ممانعة من جهة العمل (للموظفين)",
+      "en": "Employer no-objection letter (if employed)",
+      "variants": [
+        {
+          "ar": "",
+          "en": "",
+          "sources": [
+            "P03",
+            "P19"
+          ]
+        }
+      ],
+      "routes": [
+        "saudi_hs",
+        "graduate",
+        "transfer"
+      ]
+    }
+  ],
+  "faq_keywords": {
+    "hs_gpa_min": [
+      "معدل",
+      "ثانوية",
+      "نسبة",
+      "gpa",
+      "high school",
+      "average"
+    ],
+    "gat_min": [
+      "قدرات",
+      "qudrat",
+      "aptitude",
+      "gat"
+    ],
+    "tahseely_rule": [
+      "تحصيلي",
+      "tahseely",
+      "sat",
+      "achievement"
+    ],
+    "composite_formula": [
+      "موزونة",
+      "معادلة",
+      "weighted",
+      "formula",
+      "composite"
+    ],
+    "composite_minimum": [
+      "حد أدنى",
+      "minimum score",
+      "86"
+    ],
+    "english_ug_direct": [
+      "ايلتس",
+      "آيلتس",
+      "توفل",
+      "انجليزي",
+      "إنجليزي",
+      "ielts",
+      "toefl",
+      "english"
+    ],
+    "english_grad": [
+      "ماجستير",
+      "دكتوراه",
+      "دراسات عليا",
+      "graduate",
+      "master",
+      "phd"
+    ],
+    "test_validity": [
+      "صلاحية",
+      "مدة",
+      "validity",
+      "valid",
+      "expire"
+    ],
+    "application_fee": [
+      "رسم التقديم",
+      "رسوم التقديم",
+      "application fee",
+      "رسم"
+    ],
+    "placement_fee": [
+      "تحديد المستوى",
+      "aptis",
+      "placement"
+    ],
+    "refund_policy": [
+      "استرداد",
+      "استرجاع",
+      "refund",
+      "withdraw",
+      "انسحاب"
+    ],
+    "tuition_ug": [
+      "رسوم دراسية",
+      "الرسوم الدراسية",
+      "tuition",
+      "تكلفة",
+      "cost"
+    ],
+    "tuition_medicine": [
+      "الطب",
+      "medicine",
+      "medical"
+    ],
+    "vat_statement": [
+      "ضريبة",
+      "vat",
+      "tax"
+    ],
+    "application_channel": [
+      "اين اقدم",
+      "أين أقدم",
+      "قبول",
+      "منصة",
+      "apply",
+      "portal",
+      "qabool",
+      "study in saudi"
+    ],
+    "intake_status": [
+      "موعد",
+      "مواعيد",
+      "متى",
+      "تقويم",
+      "deadline",
+      "when",
+      "calendar",
+      "open"
+    ],
+    "required_documents": [
+      "وثائق",
+      "مستندات",
+      "أوراق",
+      "documents",
+      "papers"
+    ],
+    "contacts": [
+      "تواصل",
+      "ايميل",
+      "بريد",
+      "هاتف",
+      "contact",
+      "email",
+      "phone"
+    ],
+    "programme_register": [
+      "تخصص",
+      "تخصصات",
+      "برامج",
+      "programs",
+      "majors",
+      "programme"
+    ]
+  }
+}

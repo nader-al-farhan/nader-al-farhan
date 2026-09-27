@@ -2,7 +2,8 @@
 
 Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, phases 2–3 via a remote renderer), starting from https://pmu.edu.sa/admission/admission. The 21 core surfaces were re-verified live the same day (G3 verifier + Playwright DOM/mobile probes, 19:09–19:20 UTC).
 
-- **Main deliverable:** [`PMU-Admissions-Executive-Plan.html`](PMU-Admissions-Executive-Plan.html). Single file, Arabic with English terms, print-ready, screenshots embedded.
+- **Main deliverable:** [`PMU-Admissions-Executive-Plan.html`](PMU-Admissions-Executive-Plan.html) (Arabic) and [`PMU-Admissions-Executive-Plan-EN.html`](PMU-Admissions-Executive-Plan-EN.html) (English).
+- **Admissions Hub prototype:** [`remediation/hub/admissions-hub-prototype.html`](remediation/hub/admissions-hub-prototype.html) (concept, bilingual). Single file, Arabic with English terms, print-ready, screenshots embedded.
 - Findings register: [`registers/findings-register.md`](registers/findings-register.md) — 30 findings: 4 Critical, 10 High, 11 Medium, 4 Low, 1 Enhancement, plus a self-correction log and verified passes.
 - Crawl coverage: [`registers/crawl-coverage.md`](registers/crawl-coverage.md)
 - Data-point matrix: [`registers/data-point-matrix.md`](registers/data-point-matrix.md)
