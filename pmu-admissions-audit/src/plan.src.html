@@ -261,7 +261,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
     <div role="cell">رحلة المتقدم والتوجيه</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">5 مداخل «قدّم الآن» متباينة، ودليل تقديم لنظام متوقف، وتواصل الطلاب الجامعيين يحيل إلى صفحة الدراسات العليا</div>
     <div role="cell">حداثة المحتوى</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">تقويم لدورة بدأت فعلًا، وتذييل يشير إلى تقويم 2021–2022، واختبارات متوقفة (CBT وSAT II)</div>
     <div role="cell">التكافؤ العربي والإنجليزي</div><div role="cell"><span class="pill p-med">Medium–High</span></div><div role="cell">لا مفتاح لغة ولا مقابل عربي لصفحات القواعد المفحوصة</div>
-    <div role="cell">التقنية وإمكانية الوصول</div><div role="cell"><span class="pill p-med">Medium</span></div><div role="cell">روابط http و«#»، وقالبان متعايشان، وعناوين تعمل كأزرار (الفحص محدود وليس تدقيق WCAG كاملًا)</div>
+    <div role="cell">التقنية وإمكانية الوصول</div><div role="cell"><span class="pill p-med">Medium</span></div><div role="cell">روابط http و«#»، وقالبان متعايشان، وعناوين تعمل كأزرار. قياس 27 سبتمبر: لا توجد سمة lang في 20 من 20 صفحة، و81 صورة بلا نص بديل، وتخطٍّ في ترتيب العناوين في 18 من 20 صفحة (قياس من HTML الخادم، وليس تدقيق WCAG)</div>
     <div role="cell">الحوكمة والملكية</div><div role="cell"><span class="pill p-crit">Absent</span></div><div role="cell">لا مالك ولا تاريخ سريان ولا تاريخ مراجعة على أي صفحة قواعد</div>
   </div>
 </section>
@@ -701,7 +701,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
       <tr><td>صفحات قبول بأقسام إلزامية فارغة</td><td class="num">6</td><td class="num">0</td><td>فحص آلي للحقول الإلزامية قبل النشر</td></tr>
       <tr><td>برامج غير متطابقة بين الكتالوج وقائمة التخصصات وجدول الرسوم</td><td class="num">5</td><td class="num">0</td><td>مطابقة سجل البرامج الموحّد</td></tr>
       <tr><td>روابط http و«#» في قوالب القبول</td><td class="num">موجودة في كل صفحة</td><td class="num">0</td><td>فاحص روابط آلي</td></tr>
-      <tr><td>مشكلات WCAG 2.2 AA الحرجة والجدية في القوالب</td><td class="num">غير مقاس</td><td class="num">0</td><td>فحص آلي، ثم يدوي بلوحة المفاتيح وقارئ الشاشة</td></tr>
+      <tr><td>مشكلات WCAG 2.2 AA الحرجة والجدية في القوالب</td><td class="num">غير مقاس (خط أساس ثابت: بلا lang في 20/20، و81 صورة بلا alt)</td><td class="num">0</td><td>فحص آلي، ثم يدوي بلوحة المفاتيح وقارئ الشاشة</td></tr>
       <tr><td>نجاح اختبارات الرحلة (6 شخصيات، القناة الصحيحة خلال 3 نقرات أو أقل)</td><td class="num">غير مقاس</td><td class="num">6 من 6</td><td>اختبار مستخدمين مسجّل</td></tr>
       <tr><td>حجم استفسارات القبول المتكررة (الرسوم، والحدود، والقناة)</td><td class="num">يُقاس في W0–W2</td><td class="num">انخفاض يُحدد بعد القياس</td><td>تصنيف تذاكر نموذج الاستفسار. لم نفترض رقمًا</td></tr>
     </tbody>
@@ -753,13 +753,14 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
         <li>المرحلة 1: قُرئ نص 22 صفحة كاملًا عبر شجرة إمكانية الوصول في متصفح المستخدم (Opera)، والتُقطت 9 لقطات شاشة. المرحلة 2: قُرئ 48 موردًا إضافيًا عبر أداة جلب عن بُعد تعرض الصفحة بعد تنفيذ JavaScript (TinyFish)، منها كل صفحات الدراسات العليا والرسوم والاسترداد والأدلة.</li>
         <li>استُخرجت نقاط البيانات وقورنت عبر الصفحات (مصفوفة البيانات)، وأُعيد حساب المعادلات المنشورة، وتُحقّق من 9 حقائق خارجية من مصادرها الرسمية.</li>
         <li>صُنّف كل تعارض دون اختيار القيمة الصحيحة ما لم يوجد مصدر رسمي حاسم.</li>
+        <li><strong>تحقق حي في 27 سبتمبر 2026:</strong> بعد فتح النطاق في بيئة التدقيق، شُغّلت أداة G3 على 21 صفحة، وكلها أعادت HTTP 200. النتيجة NOT MET بـ20 مشكلة، ولم تُحلّ أي مشكلة من خط الأساس. وقيست بنية HTML في الصفحات نفسها (lang وdir، وعدد H1 وترتيب العناوين، والنص البديل، وروابط «#» وhttp، ووجهات أزرار Apply) بطلبات قراءة فقط، دون نقر أو إرسال.</li>
       </ul>
     </div>
     <div class="stack"><h3>القيود المصرّح بها</h3>
       <ul class="clean">
-        <li>بيئة التدقيق حجبت نطاق <span class="mono ltr">pmu.edu.sa</span>، فتمت القراءة عبر متصفح المستخدم. هذا لم يسمح بزحف آلي شامل ولا بقراءة رموز HTTP.</li>
+        <li>في المرحلتين 1 و2 حجبت بيئة التدقيق نطاق <span class="mono ltr">pmu.edu.sa</span>، فتمت القراءة عبر متصفح المستخدم. فُتح النطاق في 27 سبتمبر، فأصبح التحقق الحي ورموز HTTP متاحة (القسم 17).</li>
         <li>لقطات الشاشة تُظهر أعلى الصفحة فقط لتعذّر التمرير. النصوص المقتبسة من أسفل الصفحة موثّقة نصيًا، وكل لقطة موضّح ما تثبته بالضبط.</li>
-        <li>المرحلة 3 (مسح الموصلات): فُتح دليل Aptis (أغسطس 2017) ودليل الطالب (مايو 2019)، وفُحصت بيانات الصفحات القديمة الوصفية، فتبيّن أنها بلا noindex ولا canonical. Remote Desktop Commander متصل بجهازك، لكن سياسة الأذونات في هذه الجلسة منعت تشغيل أوامر عليه. Ahrefs مثبت واتصاله غير مكتمل. متصفح Opera غير متصل. لم يُفتح بعد: محتوى تبويبات جدول الدفع. البوابة بعد تسجيل الدخول خارج حدود تدقيق للقراءة فقط.</li><li>لم تُنفّذ قياسات الجوال والـDOM (تجاوز العرض، وترتيب العناوين، والنص البديل، وسمة lang): الموقع محجوب في بيئة العمل، وجلسة المتصفح البعيد لم تتوفر لنفاد رصيد المحفظة. لذلك لا يُدّعى أي امتثال.</li>
+        <li>المرحلة 3 (مسح الموصلات): فُتح دليل Aptis (أغسطس 2017) ودليل الطالب (مايو 2019)، وفُحصت بيانات الصفحات القديمة الوصفية، فتبيّن أنها بلا noindex ولا canonical. Remote Desktop Commander متصل بجهازك، لكن سياسة الأذونات في هذه الجلسة منعت تشغيل أوامر عليه. Ahrefs مثبت واتصاله غير مكتمل. متصفح Opera غير متصل. لم يُفتح بعد: محتوى تبويبات جدول الدفع. البوابة بعد تسجيل الدخول خارج حدود تدقيق للقراءة فقط.</li><li>قيست بنية HTML الثابتة (ترتيب العناوين، والنص البديل، وسمة lang، والروابط). <strong>لم تُقس</strong> العناصر التي تحتاج عرض الصفحة: تجاوز العرض والجداول عند 390 و1366 بكسل، والنص الذي يحقنه JavaScript (مثل نص البوابة في F-08)، ولقطات الصفحة الكاملة S30–S35. السبب أن متصفح Chromium داخل البيئة لا يثق بشهادة وسيط الشبكة، وسياسة الأذونات رفضت إضافتها، فأُعيد المخزن إلى حالته. الأداة جاهزة للتشغيل من شبكة عادية (<span class="mono ltr">dom_probe.mjs</span>). لا يُدّعى أي امتثال.</li>
         <li>فحص إمكانية الوصول محدود ولا يمثل تدقيق امتثال لـWCAG.</li>
         <li>لم يُستخدم أي تقرير أو نتائج سابقة. لم يُفتح تبويب لوحة إدارة البوابة الموجود في المتصفح، ولم تُسجَّل أي بيانات شخصية.</li>
       </ul>
@@ -777,6 +778,8 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
         <li><strong>رابط uap.sa في صفحة الطب:</strong> بدا خطأً في البداية، ثم تبيّن أن تقويم الجامعة نفسه يعتمد منصة «قبول». <strong>سُحب</strong> كخطأ، وأُعيد تصنيفه تعارضًا داخليًا في التوجيه.</li>
         <li><strong>كتالوج البرامج:</strong> القراءة الأولى أظهرت «6 برامج أعمال فقط» بسبب طريقة الاستخراج، والجلب الكامل أظهر القائمة كلها. <strong>سُحب</strong> واستُبدل بالفجوة الحقيقية: الطب وثلاثة برامج مسعّرة غائبة.</li>
         <li><strong>العربية:</strong> وُجدت العربية في صفحة التقديم ونموذج الاستفسار، فعُدّلت الصياغة. النتيجة قائمة لأن العربية غائبة عن كل صفحات القواعد.</li>
+        <li><strong>أداة G3 في التشغيل الحي:</strong> لم تُبلغ عن F-24 في البداية، فبدا ذلك إصلاحًا من الجامعة. الفحص اليدوي أظهر أن الرابط ما زال منشورًا داخل علامات اقتباس مفردة لم تكن الأداة تقرؤها. <strong>صُحّحت الأداة</strong> وأُضيف اختبار، وثبت F-24 حيًا.</li>
+        <li><strong>F-08 في البوابة:</strong> لم تُبلغ الأداة عن عبارة «No events are currently published» لأن البوابة تحقن النص عبر JavaScript. <strong>لم يُعتبر ذلك إصلاحًا</strong>، والنتيجة قائمة على اللقطة S15.</li>
       </ul>
     </div>
     <div class="stack"><h3>ما ثبت متسقًا (نقاط سليمة)</h3>
@@ -787,6 +790,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
         <li>مجموع الساعات × سعر الساعة يطابق إجمالي كل برنامج دراسات عليا.</li>
         <li>تقويم 2025–2026 الأكاديمي يطابق تقويم القبول في بدء الدراسة (2026-08-30).</li>
         <li>صفحة تواصل الدراسات العليا تستخدم بريدًا وظيفيًا.</li>
+        <li>وسم viewport موجود في 21 من 21 صفحة، وفي 17 من 20 صفحة عنوان H1 واحد فقط، وكل أزرار Apply تعمل (HTTP 200) دون روابط مكسورة (قياس 27 سبتمبر).</li>
       </ul>
     </div>
   </div>
@@ -803,7 +807,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
       <tr><td>حزم القرار D0 إلى D10</td><td>أدلة، وخيارات محايدة، وسجل توقيع لكل قرار</td><td>G0، G1</td><td class="mono ltr">remediation/decisions/</td></tr>
       <tr><td>مكوّنات المحتوى AR/EN</td><td>8 مكوّنات مربوطة بحقول السجل، مع قاعدة نشر تمنع تكرار F-20</td><td>G4، G5</td><td class="mono ltr">remediation/content/</td></tr>
       <tr><td>خريطة تحويل المحتوى القديم</td><td>15 رابطًا، لكل منها الخطر والبديل وإجراء دورة الحياة وطريقة التحقق</td><td>G6</td><td class="mono ltr">remediation/legacy/redirect-map.csv</td></tr>
-      <tr><td>أداة التحقق الآلي (G3)</td><td>تعيد جلب الصفحات وتكشف النصوص القديمة والتناقضات وتعدد القيم. اجتازت 3 من 3 اختبارات. تقرير خط الأساس: 21 مشكلة</td><td>G3، G7</td><td class="mono ltr">remediation/verification/</td></tr>
+      <tr><td>أداة التحقق الآلي (G3)</td><td>تعيد جلب الصفحات وتكشف النصوص القديمة والتناقضات وتعدد القيم. اجتازت 4 من 4 اختبارات (أُضيف اختبار بعد تصحيح قراءة الروابط داخل علامات اقتباس مفردة). خط الأساس: 21 مشكلة. التشغيل الحي في 27 سبتمبر: 20 مشكلة على 21 صفحة</td><td>G3، G7</td><td class="mono ltr">remediation/verification/</td></tr>
       <tr><td>مذكرة طلب الاعتماد D0 (عربي)</td><td>صفحة واحدة للمدير المباشر، مع الإجراءات العاجلة التي لا تحتاج قرارًا أكاديميًا</td><td>G0</td><td class="mono ltr">remediation/content/memo-D0-request-AR.md</td></tr>
     </tbody>
   </table></div>
@@ -812,9 +816,9 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
     <div class="gid">G0</div><div>توقيع D0 وتسمية الراعي والمالكين</div><div><span class="pill p-crit">Not met</span></div>
     <div class="gid">G1</div><div>توقيع D1 إلى D10 (الموقّع 0 من 10)</div><div><span class="pill p-crit">Not met</span></div>
     <div class="gid">G2</div><div>اعتماد 17 سجلًا من 19</div><div><span class="pill p-crit">Not met</span></div>
-    <div class="gid">G3</div><div>تشغيل الأداة على الموقع الحي بنتيجة صفر مشكلات (خط الأساس 21)</div><div><span class="pill p-crit">Not met</span></div>
-    <div class="gid">G4</div><div>توحيد 5 مداخل تقديم، واختبارات رحلة لست شخصيات</div><div><span class="pill p-crit">Not met</span></div>
-    <div class="gid">G5</div><div>قياس WCAG والتكافؤ اللغوي بمتصفح فعلي</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G3</div><div>صفر مشكلات على الموقع الحي. <strong>قيس حيًا في 27 سبتمبر: 20 مشكلة على 21 صفحة</strong>، ولم تُحلّ أي مشكلة من خط الأساس</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G4</div><div>توحيد مداخل التقديم (قياس حي: كل أزرار Apply تنتهي إلى صفحتين متوازيتين، ويحمل التقويم 7 أزرار)، واختبارات رحلة لست شخصيات</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G5</div><div>خط أساس ثابت قيس في 27 سبتمبر: بلا lang في 20/20، و81 صورة بلا alt، و120 رابط «#»، وروابط http في 4 صفحات. الناجح: وسم viewport في 21/21. المتبقي: قياس العرض وWCAG والتكافؤ اللغوي بمتصفح فعلي</div><div><span class="pill p-crit">Not met</span></div>
     <div class="gid">G6</div><div>إيصال 15 رابطًا قديمًا إلى حالتها النهائية</div><div><span class="pill p-crit">Not met</span></div>
     <div class="gid">G7</div><div>دورتا فحص شهريتان بصفر مشكلات، وتسليم موقّع</div><div><span class="pill p-crit">Not met</span></div>
   </div>
@@ -836,6 +840,7 @@ footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10p
     <figure class="ev"><img src="{{S22}}" alt="ترويسة الصفحة الرئيسية دون مفتاح تبديل اللغة"><figcaption class="cap"><strong>S22 · F-14</strong><span>تثبت: عدم ظهور مفتاح لغة في ترويسة الصفحة الرئيسية. الترويسة نفسها تتكرر في كل صفحات القبول المفحوصة.</span><span class="url">www.pmu.edu.sa/</span></figcaption></figure>
     <figure class="ev"><img src="{{S01}}" alt="صفحة مكتب القبول الرئيسية بقوائم روابط"><figcaption class="cap"><strong>S01 · F-15 / F-11</strong><span>تثبت: أن الصفحة الرئيسية قوائم روابط بلا مقدمة ولا حالة دورة. رابط «Contact Us» يحيل إلى دليل الموظفين (موثّق نصيًا).</span><span class="url">pmu.edu.sa/admission/admission</span></figcaption></figure>
   </div>
+  <div class="callout navy"><p><strong>لقطات الصفحة الكاملة S30–S35 (رسوم الطب، وسياسة الدفع، وEMGMS، وقبول الطب، والتقويم، وFreshman):</strong> لم تُلتقط. تعذّر عرض الصفحات في المتصفح داخل بيئة التدقيق بسبب شهادة وسيط الشبكة (القسم 15)، ولم تُصنع أي صورة بديلة. القيم التي كانت ستُظهرها ثابتة نصيًا في التشغيل الحي لأداة G3 (<span class="mono ltr">report-live-2026-09-27.md</span>)، وقياسات البنية في <span class="mono ltr">evidence/dom-probes-2026-09-27.md</span>.</p></div>
 </section>
 
 <!-- ============ APPENDIX B ============ -->

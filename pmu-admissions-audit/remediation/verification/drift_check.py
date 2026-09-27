@@ -25,12 +25,16 @@ CANONICAL = HERE.parent / "canonical" / "admissions-canonical.json"
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "PMU-Admissions-G3-Verifier/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        raw = r.read().decode("utf-8", "replace")
-    # keep hrefs (links are checked too), drop scripts/styles, strip tags
+        return html_to_text(r.read().decode("utf-8", "replace"))
+
+
+def html_to_text(raw):
+    # keep href/src targets in either quote style (links and embedded files are
+    # checked too), drop scripts/styles, strip tags
     raw = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", raw)
-    hrefs = " ".join(re.findall(r'href="([^"]+)"', raw))
+    refs = " ".join(m[1] for m in re.findall(r"""(?i)\b(?:href|src)\s*=\s*(["'])(.*?)\1""", raw))
     text = html.unescape(re.sub(r"(?s)<[^>]+>", " ", raw))
-    return re.sub(r"\s+", " ", text) + " " + hrefs
+    return re.sub(r"\s+", " ", text) + " " + refs
 
 
 def load_pages(cfg, fixtures):

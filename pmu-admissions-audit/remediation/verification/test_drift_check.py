@@ -34,6 +34,14 @@ class G3VerifierTest(unittest.TestCase):
         issues, _ = dc.run(cfg, {}, {"hub": "URLError: blocked"})
         self.assertEqual(issues[0]["type"], "unverifiable")
 
+    def test_html_to_text_keeps_single_quoted_src_and_href(self):
+        raw = ("<iframe src='/files/Web-Admission-Guide-v2-2_20-12-18.pdf'></iframe>"
+               '<a href="http://admissions.pmu.edu.sa">Apply</a><script>x="hidden"</script>')
+        text = dc.html_to_text(raw)
+        self.assertIn("Web-Admission-Guide-v2-2_20-12-18", text)
+        self.assertIn("http://admissions.pmu.edu.sa", text)
+        self.assertNotIn("hidden", text)
+
 
 if __name__ == "__main__":
     unittest.main()

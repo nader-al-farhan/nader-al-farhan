@@ -1,0 +1,1202 @@
+{
+  "run_at": "2026-09-27T19:15:17+00:00",
+  "method": "static HTML (urllib via audit egress proxy); no JavaScript, no layout",
+  "pages": {
+    "hub": {
+      "url": "https://pmu.edu.sa/admission/admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/admission",
+      "html_bytes": 44807,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admissions Office"
+      ],
+      "heading_sequence": "h1 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+      "heading_skips": [],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 132,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "https://www.pmu.edu.sa/apply",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/apply"
+        },
+        {
+          "tag": "a",
+          "text": "Apply",
+          "href": "https://www.pmu.edu.sa/apply",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/apply"
+        }
+      ]
+    },
+    "ug_home": {
+      "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+      "html_bytes": 47634,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Undergraduate Admissions"
+      ],
+      "heading_sequence": "h1 h3 h4 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "New Applicant:"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 7,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../Attachments/Admission/Images/admission-banner.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 107,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "https://pmu.edu.sa/apply",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply"
+        }
+      ]
+    },
+    "freshman": {
+      "url": "https://www.pmu.edu.sa/admission/freshman_admission",
+      "status": 200,
+      "final_url": "https://www.pmu.edu.sa/admission/freshman_admission",
+      "html_bytes": 43189,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Freshman Admission"
+      ],
+      "heading_sequence": "h2 h1 h4 h4 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Undergraduate Programs Admission"
+        },
+        {
+          "from": "h1",
+          "to": "h4",
+          "text": "Freshman Admission Requirements"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 109,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "direct": {
+      "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+      "html_bytes": 52694,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Direct Admissions from Secondary School"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Freshman Admissions"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 148,
+      "links_hash": 6,
+      "links_http": [
+        "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+      ],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "ielts": {
+      "url": "https://pmu.edu.sa/admission/ielts-admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+      "html_bytes": 51167,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "The International English Language Testing System"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "(IELTS)"
+        }
+      ],
+      "tables_total": 1,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 143,
+      "links_hash": 6,
+      "links_http": [
+        "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+      ],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/ielts-admission#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply for IELTS",
+          "href": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx",
+          "onclick": null,
+          "resolved": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+        }
+      ]
+    },
+    "toefl": {
+      "url": "https://pmu.edu.sa/admission/toefl-admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+      "html_bytes": 50878,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Test of English as a Foreign Language"
+      ],
+      "heading_sequence": "h2 h1 h3 h4 h4 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "TOEFL iBT"
+        }
+      ],
+      "tables_total": 1,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 142,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/toefl-admission#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "sat": {
+      "url": "https://pmu.edu.sa/admission/sat-admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/sat-admission",
+      "html_bytes": 51075,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "SCHOLASTIC APTITUDE TEST"
+      ],
+      "heading_sequence": "h2 h1 h3 h4 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Scholastic Aptitude Test (SAT)"
+        }
+      ],
+      "tables_total": 1,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 144,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/sat-admission#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "medicine": {
+      "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+      "html_bytes": 58244,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admissions to the College of Medicine"
+      ],
+      "heading_sequence": "h2 h1 h3 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h3 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Curriculum Structure"
+        }
+      ],
+      "tables_total": 1,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 144,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/college_of_medicine_admission#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "medicine_academic": {
+      "url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+      "status": 200,
+      "final_url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+      "html_bytes": 59722,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "College of MEDICINE"
+      ],
+      "heading_sequence": "h3 h3 h1 h2 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h3",
+          "text": "Quick Links"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 8,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 107,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../admission/college_of_medicine_admission.aspx",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/admission/college_of_medicine_admission.aspx"
+        }
+      ]
+    },
+    "medical_fees": {
+      "url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+      "html_bytes": 45408,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Medical Program Studies"
+      ],
+      "heading_sequence": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Study @ PMU"
+        },
+        {
+          "from": "h1",
+          "to": "h4",
+          "text": "Undergraduate Fees"
+        }
+      ],
+      "tables_total": 2,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 115,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        }
+      ]
+    },
+    "other_fees": {
+      "url": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+      "html_bytes": 47136,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Other Fees"
+      ],
+      "heading_sequence": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Study @ PMU"
+        },
+        {
+          "from": "h1",
+          "to": "h4",
+          "text": "Admission Application Fees- Undergraduate Programs"
+        }
+      ],
+      "tables_total": 3,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 114,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        }
+      ]
+    },
+    "payment_policy": {
+      "url": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+      "html_bytes": 46442,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 2,
+      "h1_text": [
+        "Tuition Fee Payment",
+        "Tuition and Fee Payment Policy"
+      ],
+      "heading_sequence": "h2 h1 h1 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Study @ PMU"
+        }
+      ],
+      "tables_total": 1,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 115,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        }
+      ]
+    },
+    "calendar": {
+      "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+      "html_bytes": 58685,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admissions Calendars"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Stay Connected"
+        }
+      ],
+      "tables_total": 4,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 146,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "https://pmu.edu.sa/Apply",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Apply"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "https://pmu.edu.sa/Apply",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Apply"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl03\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+          "onclick": null,
+          "resolved": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl03\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl09\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+          "onclick": null,
+          "resolved": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl09\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))"
+        }
+      ]
+    },
+    "international": {
+      "url": "https://pmu.edu.sa/admission/international_students",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/international_students",
+      "html_bytes": 56334,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 0,
+      "h1_text": [],
+      "heading_sequence": "h2 h4 h4 h4 h4 h4 h4 h4 h4 h2 h4 h4 h4 h4 h2 h4 h4 h4 h4 h2 h2 h4 h2 h2 h4 h2 h4 h2 h4 h2 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "International Admissions Office"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Apply"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Admission Criteria"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Visitor Students"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Tuition and Fees"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Transportation"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Campus Life"
+        },
+        {
+          "from": "h2",
+          "to": "h4",
+          "text": "Why PMU"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 124,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply",
+          "href": "https://pmu.edu.sa/apply",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply"
+        }
+      ]
+    },
+    "cs_eng": {
+      "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+      "html_bytes": 53867,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Computer Science and Engineering Majors Admission Requirements"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "General Requirements:"
+        }
+      ],
+      "tables_total": 2,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 147,
+      "links_hash": 6,
+      "links_http": [
+        "http://admissions.pmu.edu.sa/",
+        "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+        "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+      ],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "transfer": {
+      "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+      "html_bytes": 53242,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admissions from Other Universities"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Transfer Admissions"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 148,
+      "links_hash": 6,
+      "links_http": [
+        "http://admissions.pmu.edu.sa/",
+        "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+      ],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Applying for Aid",
+          "href": "#menu11",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/admission/admission-from-other-universities#menu11"
+        },
+        {
+          "tag": "a",
+          "text": "Apply Now",
+          "href": "../Admission/Apply_Now_ADS.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx"
+        }
+      ]
+    },
+    "emgms": {
+      "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+      "html_bytes": 42190,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "EMGMS Admissions Requirements"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Admissions Office"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Master of Science in Engineering Management Application(EMGMS) Checklist"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 110,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply for EMBA",
+          "href": "../Admission/Application_Form_EMBA_GDP.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Application_Form_EMBA_GDP.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply for MBA",
+          "href": "../Admission/Application_Form_MBA_GDP.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Application_Form_MBA_GDP.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply for MSHD",
+          "href": "../Admission/Application_Form_MSEHD_GDP.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Application_Form_MSEHD_GDP.aspx"
+        },
+        {
+          "tag": "a",
+          "text": "Apply for MSME",
+          "href": "../Admission/Application_Form_MSME_GDP.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/Admission/Application_Form_MSME_GDP.aspx"
+        }
+      ]
+    },
+    "legacy_criteria": {
+      "url": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+      "status": 200,
+      "final_url": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+      "html_bytes": 40374,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admission Procedures & Criteria"
+      ],
+      "heading_sequence": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h2",
+          "text": "Study @ PMU"
+        },
+        {
+          "from": "h1",
+          "to": "h3",
+          "text": "Student Categories"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 103,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://www.pmu.edu.sa/apply.aspx"
+        }
+      ]
+    },
+    "apply": {
+      "url": "https://pmu.edu.sa/apply",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/apply",
+      "html_bytes": 78814,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 1,
+      "h1_text": [
+        "Admissions"
+      ],
+      "heading_sequence": "h1 h2 h3 h3 h3 h3 h3",
+      "heading_skips": [],
+      "tables_total": 4,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 94,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        }
+      ]
+    },
+    "portal": {
+      "url": "https://admissions.pmu.edu.sa/welcome",
+      "status": 200,
+      "final_url": "https://admissions.pmu.edu.sa/welcome",
+      "html_bytes": 3290,
+      "redirected_to_login": false,
+      "lang": "en",
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1",
+      "h1_count": 0,
+      "h1_text": [],
+      "heading_sequence": "",
+      "heading_skips": [],
+      "tables_total": 0,
+      "images_total": 0,
+      "images_missing_alt": [],
+      "images_empty_alt": 0,
+      "links_total": 0,
+      "links_hash": 0,
+      "links_http": [],
+      "apply_controls": []
+    },
+    "guide_viewer": {
+      "url": "https://pmu.edu.sa/pdf/viewer?ID=203",
+      "status": 200,
+      "final_url": "https://pmu.edu.sa/pdf/viewer?ID=203",
+      "html_bytes": 39858,
+      "redirected_to_login": false,
+      "lang": null,
+      "dir": null,
+      "viewport_meta": "width=device-width, initial-scale=1.0",
+      "h1_count": 0,
+      "h1_text": [],
+      "heading_sequence": "h3 h3 h3 h3 h3",
+      "heading_skips": [
+        {
+          "from": "(start)",
+          "to": "h3",
+          "text": "Stay Connected"
+        }
+      ],
+      "tables_total": 0,
+      "images_total": 6,
+      "images_missing_alt": [
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo-PMU-1.png",
+        "../web-resources/home/images/logo-name.png",
+        "../web-resources/home/images/logo_new_r.png"
+      ],
+      "images_empty_alt": 0,
+      "links_total": 97,
+      "links_hash": 6,
+      "links_http": [],
+      "apply_controls": [
+        {
+          "tag": "a",
+          "text": "Apply to PMU",
+          "href": "../apply.aspx",
+          "onclick": null,
+          "resolved": "https://pmu.edu.sa/apply.aspx"
+        }
+      ]
+    }
+  }
+}

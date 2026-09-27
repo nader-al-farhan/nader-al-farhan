@@ -8,7 +8,7 @@ This folder holds everything the project needs that does not depend on an instit
 | `decisions/` | D0–D10 signable decision packs: evidence, neutral options, signature record | WS1, gate G1 |
 | `content/` | Bilingual component templates bound to canonical fields; D0 request memo (Arabic) | WS3 |
 | `legacy/redirect-map.csv` | 15 legacy URLs, each with its risk, replacement, lifecycle action and verification method | WS5, gate G6 |
-| `verification/` | `drift_check.py` G3 verifier (live or fixtures), `checks.json`, unit tests (3/3 pass), baseline report | WS6, gates G3/G7 |
+| `verification/` | `drift_check.py` G3 verifier (live or fixtures), `checks.json`, unit tests (4/4 pass), baseline and live reports, static DOM probe (`static_probe.py`) and browser probe (`dom_probe.mjs`) | WS6, gates G3/G7 |
 | `closure/gate-tracker.md` | G0–G7 status with evidence | Steering committee |
 
 Run the verifier against the live site from any network that can reach pmu.edu.sa:

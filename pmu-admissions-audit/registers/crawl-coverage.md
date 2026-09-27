@@ -122,3 +122,17 @@ See the "Coverage" section of the executive plan for the final counts. Coverage 
 | P72 | Student Handbook 2019/2020 PDF | /attachments/admission/images/registrar_office/student-handbook-2019-2020-002.pdf | Adjacent | Loaded | **Legacy** | Text |
 
 **Updated total: 72 resources reviewed.**
+
+## F. Live re-verification from the audit container — 2026-09-27
+
+After the network allowlist was updated, the container reached `pmu.edu.sa`, `www.pmu.edu.sa` and `admissions.pmu.edu.sa` directly. Right after the change, the `www.` and `admissions.` hosts were still refused for a few minutes (HTTP 403 on CONNECT) before they became reachable. Real HTTP status codes are recorded here, unlike sections A–E.
+
+| What | Pages | Result | Evidence |
+|---|---|---|---|
+| G3 verifier (static HTML text) | the 21 pages in `checks.json` (P01–P20 equivalents, apply, portal, guide viewer) | 21/21 HTTP 200, 0 unreachable. Verdict NOT MET, 20 issues. | `remediation/verification/report-live-2026-09-27.md` / `.json` |
+| Static DOM probe | same 21 pages | lang/dir, viewport meta, H1 and heading order, alt, `#` and `http://` links, Apply targets | `evidence/dom-probes-2026-09-27.md` / `.json` |
+| Apply targets (GET only, nothing submitted) | `/apply.aspx`, `/Apply`, `/apply`, `/Admission/Apply_Now_ADS.aspx`, `/admission/Apply_Now_ADS`, `/admission/college_of_medicine_admission.aspx` | All 200 after 0–2 redirects. They resolve to two landing pages, `/apply` and `/admission/apply_now_ads`. | same |
+| Not reached | `http://admissions.pmu.edu.sa/` (plain http) | HTTP 403 from the egress proxy. This is a policy result, not PMU's response. | — |
+| Not measured | rendered layout (overflow at 390/1366 px), JavaScript-injected text, full-page screenshots S30–S35 | The in-container Chromium does not trust the audit proxy CA (`ERR_CERT_AUTHORITY_INVALID`). The trust-store change was refused by policy and reverted. | `remediation/verification/LIVE-RUN-STATUS.md` |
+
+No new pages were added to the register. The total stays at **72 resources reviewed**. Of these, 21 were re-verified live on 2026-09-27.

@@ -13,4 +13,10 @@ Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, 
 
 Current project verdict: **FULL PROJECT CLOSURE — NOT MET** (baseline, before the project starts).
 
+**Live re-verification (2026-09-27, audit container):**
+- **G3 verifier:** NOT MET on 21/21 reachable pages, with 20 issues. No finding was resolved or overturned. See [`remediation/verification/report-live-2026-09-27.md`](remediation/verification/report-live-2026-09-27.md).
+- **Static DOM baseline:** see [`evidence/dom-probes-2026-09-27.md`](evidence/dom-probes-2026-09-27.md).
+- **Not done:** the rendered browser checks and the full-page screenshots S30–S35, because the in-container browser does not trust the egress proxy CA. See [`remediation/verification/LIVE-RUN-STATUS.md`](remediation/verification/LIVE-RUN-STATUS.md).
+- **Rebuilding the plan:** `python3 src/build_plan.py`.
+
 - **Remediation toolkit (ready to use):** [`remediation/`](remediation/README.md). Contains the canonical record seed, decision packs D0–D10, bilingual components, the legacy redirect map, the G3 verifier with tests, and the closure gate tracker.
