@@ -117,3 +117,8 @@ See the "Coverage" section of the executive plan for the final counts. Coverage 
 - **Out of bounds by design (read-only audit):** the logged-in portal, the query-form submission, and any payment flow.
 - **Could not measure:** mobile overflow, heading order, alt text and `lang` via DOM. The container blocks pmu.edu.sa, and the remote browser was unavailable because the wallet balance is zero. No WCAG claim is made.
 - Section B entries that now appear in D are reviewed.
+
+| P71 | Aptis Candidate Guide (Aug 2017) PDF | /Attachments/Admission/PDF/Appendix 3.3 (Aptis Candidate Guide).pdf | Support | Loaded | **Legacy** | Text |
+| P72 | Student Handbook 2019/2020 PDF | /attachments/admission/images/registrar_office/student-handbook-2019-2020-002.pdf | Adjacent | Loaded | **Legacy** | Text |
+
+**Updated total: 72 resources reviewed.**

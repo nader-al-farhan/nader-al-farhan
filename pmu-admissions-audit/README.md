@@ -1,6 +1,6 @@
 # PMU Admissions — Independent Audit & Executive Project Plan
 
-Evidence verified on **2026-09-27** across 70 live resources (phase 1 in Opera, phase 2 via a remote renderer), starting from https://pmu.edu.sa/admission/admission.
+Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, phases 2–3 via a remote renderer), starting from https://pmu.edu.sa/admission/admission.
 
 - **Main deliverable:** [`PMU-Admissions-Executive-Plan.html`](PMU-Admissions-Executive-Plan.html). Single file, Arabic with English terms, print-ready, screenshots embedded.
 - Findings register: [`registers/findings-register.md`](registers/findings-register.md) — 28 findings: 4 Critical, 10 High, 10 Medium, 3 Low, 1 Enhancement, plus a self-correction log and verified passes.
