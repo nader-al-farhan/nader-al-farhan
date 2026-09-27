@@ -115,10 +115,25 @@ See the "Coverage" section of the executive plan for the final counts. Coverage 
 - **Reviewed in full:** 70 resources (P01–P70, counting P34–P44 as 11). These are 58 HTML pages, 4 PDFs, 3 PDF viewers, the portal landing, 2 hubs and 2 external-redirect targets. Two readers were used: the Opera accessibility tree for P01–P22, and the remote renderer for P23–P70.
 - **Discovered but not opened:** Student Handbook PDF, Aptis Candidate Guide (Aug 2017) PDF, Registration Quick Guide (PDF ID 380), Grading System, Academic Standing, Re-instatement, "Students with Saudi residence (Iqama)" target, and news items.
 - **Out of bounds by design (read-only audit):** the logged-in portal, the query-form submission, and any payment flow.
-- **Could not measure:** mobile overflow, heading order, alt text and `lang` via DOM. The container blocks pmu.edu.sa, and the remote browser was unavailable because the wallet balance is zero. No WCAG claim is made.
+- **Mobile / DOM (measured 2026-09-27, live pass):** see section F. The Arabic site, colour contrast, keyboard operation and screen-reader output are still not measured. No WCAG claim is made.
 - Section B entries that now appear in D are reviewed.
 
 | P71 | Aptis Candidate Guide (Aug 2017) PDF | /Attachments/Admission/PDF/Appendix 3.3 (Aptis Candidate Guide).pdf | Support | Loaded | **Legacy** | Text |
 | P72 | Student Handbook 2019/2020 PDF | /attachments/admission/images/registrar_office/student-handbook-2019-2020-002.pdf | Adjacent | Loaded | **Legacy** | Text |
 
 **Updated total: 72 resources reviewed.**
+
+## F. Live re-verification pass (2026-09-27, 19:09–19:20 UTC, audit container)
+
+The environment's egress policy was changed to allow `pmu.edu.sa` (other hosts such as example.com remain blocked). The 21 core surfaces in `remediation/verification/checks.json` were re-read directly from the audit container. HTTP status codes are available for this pass.
+
+| Method | Surfaces | Result | Evidence |
+|---|---|---|---|
+| G3 verifier (`urllib`, static HTML) + rendered text for the portal | 21 (P01–P04, P06, P07, P09, P12–P15, P17–P20, P28, P43, P49, P54, P55 viewer, /apply) | 21/21 fetched · HTTP 200 · **21 issues, identical to the baseline** | `remediation/verification/report-live-2026-09-27.{md,json}` |
+| Playwright 1.56.1 / Chromium, read-only DOM probe | same 21 × 2 viewports (390×844, 1366×768) | 42/42 loads HTTP 200 · portal not redirected to login | `evidence/dom-probes-2026-09-27.{md,json}` |
+| Full-page screenshots (390×844) | P12 medical fees (S30), P49 payment policy (S31), P43 EMGMS (S32), P09 Medicine admission (S33), P14 calendar (S34), P03 freshman (S35) | captured | `evidence/screenshots/S30`–`S35` |
+| Apply-target resolution (GET only, no form submission) | 12 hrefs | `/Apply` → 301 → `/apply`; `Apply_Now_ADS.aspx` → `/admission/apply_now_ads` (200); http:// targets not testable (the proxy answers plain HTTP with 403) | `evidence/dom-probes-2026-09-27.md` |
+
+Redirects observed in the browser: `https://pmu.edu.sa/apply` ends on `https://admissions.pmu.edu.sa/welcome` (P15). All other surfaces stayed on their configured URL.
+
+**Updated total: 72 resources reviewed (unchanged); 21 core surfaces live re-verified with DOM measurements.**

@@ -23,6 +23,7 @@
     "portal": "https://admissions.pmu.edu.sa/welcome",
     "guide_viewer": "https://pmu.edu.sa/pdf/viewer?ID=203"
   },
+  "render": ["portal"],
   "forbidden": [
     {"finding": "F-04", "page": "freshman", "text": "CBT 183"},
     {"finding": "F-05", "page": "international", "text": "SAT II"},

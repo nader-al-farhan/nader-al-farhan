@@ -4,6 +4,7 @@ Usage
   python3 drift_check.py                       # live fetch (needs network access to pmu.edu.sa)
   python3 drift_check.py --fixtures DIR        # offline: DIR/<page_key>.txt holds page text
   python3 drift_check.py --out report          # writes report.md and report.json
+  python3 drift_check.py --rendered DIR        # text for client-rendered pages ('render' in checks.json)
 
 Exit code 0 = G3 PASS (no forbidden text, no contradictions, every consistency
 group has exactly one value and matches the approved canonical value if set).
@@ -26,18 +27,29 @@ def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "PMU-Admissions-G3-Verifier/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = r.read().decode("utf-8", "replace")
-    # keep hrefs (links are checked too), drop scripts/styles, strip tags
+    return html_to_text(raw)
+
+
+def html_to_text(raw):
+    # keep href/src targets (links and embedded documents are checked too), drop scripts/styles, strip tags
     raw = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", raw)
-    hrefs = " ".join(re.findall(r'href="([^"]+)"', raw))
+    hrefs = " ".join(m[1] for m in re.findall(r"""\b(?:href|src)\s*=\s*(["'])(.+?)\1""", raw))
     text = html.unescape(re.sub(r"(?s)<[^>]+>", " ", raw))
     return re.sub(r"\s+", " ", text) + " " + hrefs
 
 
-def load_pages(cfg, fixtures):
+def load_pages(cfg, fixtures, rendered=None):
     pages, errors = {}, {}
     for key, url in cfg["pages"].items():
         try:
-            if fixtures:
+            if key in cfg.get("render", []) and not fixtures:
+                # client-rendered page (SPA): static HTML is an empty shell, so its text
+                # must come from a headless-browser capture; missing capture = unprovable
+                f = pathlib.Path(rendered or "") / f"{key}.txt"
+                if not rendered or not f.exists():
+                    raise FileNotFoundError(f"client-rendered page; pass --rendered DIR with {key}.txt")
+                pages[key] = re.sub(r"\s+", " ", f.read_text(encoding="utf-8"))
+            elif fixtures:
                 f = pathlib.Path(fixtures) / f"{key}.txt"
                 if not f.exists():
                     continue
@@ -113,10 +125,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--fixtures")
     ap.add_argument("--out")
+    ap.add_argument("--rendered", help="DIR/<page_key>.txt: headless-browser text for pages listed in checks.json 'render'")
     ap.add_argument("--config", default=str(HERE / "checks.json"))
     a = ap.parse_args(argv)
     cfg = json.loads(pathlib.Path(a.config).read_text(encoding="utf-8"))
-    pages, errors = load_pages(cfg, a.fixtures)
+    pages, errors = load_pages(cfg, a.fixtures, a.rendered)
     issues, groups = run(cfg, pages, errors)
     verdict, md = report(issues, groups, pages, errors, a.out)
     print(md)

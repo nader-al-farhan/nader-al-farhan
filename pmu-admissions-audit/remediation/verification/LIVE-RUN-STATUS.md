@@ -1,7 +1,29 @@
-# Live run status — BLOCKED (re-checked in a fresh container)
+# Live run status — RESOLVED (2026-09-27 19:09 UTC)
 
-Latest check: **2026-09-27 18:58 UTC** — new session, new container, started after the user reported changing the network policy to allow all domains.
-Previous check: 2026-09-27 18:27 UTC (earlier container; details kept below).
+Access confirmed at **2026-09-27 19:09 UTC** in the same session, after the network policy was changed again:
+
+```
+$ curl -sS -o /dev/null -w "%{http_code}" https://pmu.edu.sa/admission/admission
+200
+```
+
+| URL | Result (19:09 UTC) |
+|---|---|
+| `https://pmu.edu.sa/admission/admission` | `200` |
+| `https://www.pmu.edu.sa/` | `200` |
+| `https://example.com` | `curl: (56) CONNECT tunnel failed, response 403` |
+| `https://www.google.com` | `curl: (56) CONNECT tunnel failed, response 403` |
+
+**Fact:** the policy now allows `pmu.edu.sa` specifically; it is not "all domains" (example.com is still refused). Plain `http://` requests are still answered by the proxy with 403, so http:// link behaviour cannot be tested from this environment.
+
+Live tasks completed:
+- G3 verifier on the live site → `report-live-2026-09-27.md` (21 issues, identical to baseline).
+- DOM / mobile probes → `../../evidence/dom-probes-2026-09-27.{md,json}`; screenshots S30–S35.
+- Chromium needed the proxy CA in its NSS store (`certutil -A -t "C,," -i /root/.ccr/agent-proxy-ca.crt -d sql:$HOME/.pki/nssdb`). TLS verification stayed on.
+
+---
+
+# History
 
 ## Re-check 2026-09-27 18:58 UTC — result
 

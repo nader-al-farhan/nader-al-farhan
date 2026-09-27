@@ -34,6 +34,18 @@ class G3VerifierTest(unittest.TestCase):
         issues, _ = dc.run(cfg, {}, {"hub": "URLError: blocked"})
         self.assertEqual(issues[0]["type"], "unverifiable")
 
+    def test_html_to_text_keeps_single_quoted_src(self):
+        # regression: live run 2026-09-27 missed F-24 because the PDF sits in iframe src='...'
+        t = dc.html_to_text("<iframe src='https://x/Web-Admission-Guide-v2-2_20-12-18.pdf'></iframe><a href=\"http://a\">A</a>")
+        self.assertIn("Web-Admission-Guide-v2-2_20-12-18", t)
+        self.assertIn("http://a", t)
+
+    def test_render_page_without_capture_is_unverifiable(self):
+        cfg = {"pages": {"portal": "https://example.invalid"}, "render": ["portal"],
+               "forbidden": [], "contradiction": [], "consistency": []}
+        pages, errors = dc.load_pages(cfg, None, None)
+        self.assertIn("portal", errors)
+
 
 if __name__ == "__main__":
     unittest.main()
