@@ -1,0 +1,3016 @@
+{
+ "summary": {
+  "hub": "https://pmu.edu.sa/admission/admission",
+  "run_at": "2026-09-28T04:36:14+00:00",
+  "anchors_total": 133,
+  "unique_urls": 114,
+  "tested": 107,
+  "final_200": 106,
+  "redirected": 84,
+  "not_tested": 7,
+  "rows": 70,
+  "header_links": 62,
+  "severity": {
+   "متوسطة": 24,
+   "منخفضة": 32,
+   "عالية": 7,
+   "بلا ملاحظة": 7
+  },
+  "hash_links": 6
+ },
+ "hub_observations": [
+  {
+   "severity": "H",
+   "note": "لا توجد سمة lang على وسم <html> (F-29)، ولا رابط لنسخة عربية من الصفحة في HTML",
+   "action": "إضافة lang ونسخة عربية مكافئة (G5)"
+  },
+  {
+   "severity": "M",
+   "note": "33 من 36 رابط محتوى تمر بتحويل واحد على الأقل، و32 منها بسلسلة من خطوتين أو أكثر (مثال: Upper-case .aspx → lower-case .aspx → بدون امتداد)",
+   "action": "ربط كل رابط بعنوانه النهائي مباشرة (أداء + SEO)"
+  },
+  {
+   "severity": "M",
+   "note": "ثلاث نقاط تقديم مختلفة في الصفحة نفسها: C06/C08 (www.pmu.edu.sa/apply) + قائمة الرأس «Apply to PMU» (apply.aspx) — كلها تنتهي عند البوابة",
+   "action": "زر تقديم واحد مع مُوجِّه أهلية"
+  },
+  {
+   "severity": "L",
+   "note": "قائمة «Research Centers» مكررة في الرأس (نسختان: 9 و10 روابط؛ «Additive Manufacturing…» في الثانية فقط)",
+   "action": "مصدر واحد للقائمة"
+  },
+  {
+   "severity": "L",
+   "note": "رابط فارغ بلا href داخل مجموعة «Undergraduate Placement Tests» ورابط مخفي «#sidebar»",
+   "action": "حذف العناصر الفارغة"
+  },
+  {
+   "severity": "M",
+   "note": "«Objectives» في قائمة About بالرأس رابطه «#» (لا يعمل)",
+   "action": "ربطه بصفحة الأهداف أو حذفه"
+  },
+  {
+   "severity": "L",
+   "note": "«SIGN IN» في الرأس href=«javascript:void(0);» — غير قابل للوصول بلوحة المفاتيح كرابط",
+   "action": "استخدام <button> لقائمة منسدلة"
+  }
+ ],
+ "rows": [
+  {
+   "id": "B1",
+   "region": "breadcrumb",
+   "group": "",
+   "text": "Home",
+   "href": "../Default.aspx",
+   "resolved": "https://pmu.edu.sa/Default.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/default",
+   "title": "PMU, Prince Mohammad Bin Fahd University.",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/pmufaculties/»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/B1.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "B2",
+   "region": "breadcrumb",
+   "group": "",
+   "text": "Study @ PMU",
+   "href": "Admission-Registration.aspx",
+   "resolved": "https://pmu.edu.sa/admission/Admission-Registration.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-registration",
+   "title": "Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [
+    "STUDY AT PMU"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/B2.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C01",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Overview",
+   "href": "../Admission/Future_Students_RO.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/future_students_ro",
+   "title": "Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "OVERVIEW"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-15"
+   ],
+   "blueprint": {
+    "page": "P23",
+    "to": "home",
+    "action": "merge",
+    "note": "نص تسويقي عام يُدمج في مقدمة الصفحة الرئيسية"
+   },
+   "screenshot": "shots/C01.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C02",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Degrees & Programs",
+   "href": "../Admission/Degrees_Programs_FS_RO.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+   "title": "Degrees & Programs :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "DEGREES & PROGRAMS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-25"
+   ],
+   "blueprint": {
+    "page": "P24",
+    "to": "programs",
+    "action": "rebuild",
+    "note": "يُعاد بناؤه من سجل البرامج الموحّد"
+   },
+   "screenshot": "shots/C02.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C03",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Admissions Calendar",
+   "href": "../Admission/Admission_Calendar_FS_RO.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS CALENDARS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "عنوان الصفحة H1 «ADMISSIONS CALENDARS» (جمع) بينما الرابط «Admissions Calendar»",
+     "action": "توحيد التسمية"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-02",
+    "F-08"
+   ],
+   "blueprint": {
+    "page": "P14",
+    "to": "dates",
+    "action": "move",
+    "note": "يصبح صفحة المواعيد، وتُغذّى حالة الدورة من السجل"
+   },
+   "screenshot": "shots/C03.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C04",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Contact Us",
+   "href": "../Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "resolved": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "visible": true,
+   "status": 200,
+   "redirects": 3,
+   "final_url": "https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4",
+   "title": "Staff List :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": null,
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (3): 301 → 301 → 302 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "H",
+     "note": "«Contact Us» ينتهي بقائمة موظفين على faculty.pmu.edu.sa (أسماء شخصية) بدل قناة تواصل موحّدة للقبول، والسلسلة تمرّ بخطوة http:// غير مشفّرة (https→http→https)",
+     "action": "ربط «تواصل معنا» بصفحة تواصل موحّدة للقبول (بريد/هاتف/ساعات عمل) عبر https مباشرة؛ لم تُلتقط صورة لأن الصفحة تعرض أسماء"
+    }
+   ],
+   "severity": "H",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": "لم تُلتقط: الصفحة تعرض أسماء موظفين"
+  },
+  {
+   "id": "C05",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Admission Query",
+   "href": "../Admission/admissions_queries",
+   "resolved": "https://pmu.edu.sa/Admission/admissions_queries",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/admissions_queries",
+   "title": "Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSION QUERY"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "يظهر بلون برتقالي وبإزاحة مختلفة عن بقية روابط المجموعة (مع C24) — عدم اتساق بصري",
+     "action": "توحيد نمط الروابط في القائمة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": {
+    "page": "P29",
+    "to": "contact",
+    "action": "move",
+    "note": "ينتقل إلى صفحة التواصل مع زمن رد معلن"
+   },
+   "screenshot": "shots/C05.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C06",
+   "region": "main",
+   "group": "Future Students",
+   "text": "Apply Now",
+   "href": "https://www.pmu.edu.sa/apply",
+   "resolved": "https://www.pmu.edu.sa/apply",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://www.pmu.edu.sa/apply",
+   "title": "Admissions :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "H",
+     "note": "«Apply Now» و C08 «Apply» يذهبان لنفس البوابة (admissions.pmu.edu.sa/welcome) بتسميتين مختلفتين، وهي إحدى 5 نقاط تقديم متعارضة (P14 يوجّه السعوديين إلى «قبول» وغير السعوديين إلى «ادرس في السعودية»)",
+     "action": "نقطة تقديم واحدة مع مُوجِّه أهلية (انظر مخطط الـ Blueprint: R1–R6)"
+    }
+   ],
+   "severity": "H",
+   "findings": [
+    "F-02"
+   ],
+   "blueprint": {
+    "page": "P53",
+    "to": "apply",
+    "action": "replace",
+    "note": "موجّه القنوات بالمسار الدولي محدّدًا مسبقًا"
+   },
+   "screenshot": null,
+   "screenshot_note": "البوابة تطبيق JavaScript لم يُعرض بطريقة الالتقاط هذه"
+  },
+  {
+   "id": "C07",
+   "region": "main",
+   "group": "International Students’ Office",
+   "text": "International Students without Saudi Residence",
+   "href": "../Admission/International_Students.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/International_Students.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/international_students",
+   "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "نص «SAT II» (اختبار أُلغي دوليًا) موجود في HTML الصفحة (F-05) ولم يظهر في الجزء المرئي عند الالتقاط",
+     "action": "حذف مرجع SAT II وتحديث متطلبات الطلاب الدوليين"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-02",
+    "F-05"
+   ],
+   "blueprint": {
+    "page": "P18",
+    "to": "ug_intl",
+    "action": "rewrite",
+    "note": "إعادة كتابة: SAT II متوقف، والقناة متعارضة مع التقويم"
+   },
+   "screenshot": "shots/C07.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C08",
+   "region": "main",
+   "group": "International Students’ Office",
+   "text": "Apply",
+   "href": "https://www.pmu.edu.sa/apply",
+   "resolved": "https://www.pmu.edu.sa/apply",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://www.pmu.edu.sa/apply",
+   "title": "Admissions :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "H",
+     "note": "رابط التقديم للطلاب الدوليين يذهب للبوابة العامة نفسها دون توضيح القناة الخاصة بغير المقيمين",
+     "action": "توجيه حسب الأهلية بدل رابط عام"
+    }
+   ],
+   "severity": "H",
+   "findings": [
+    "F-02"
+   ],
+   "blueprint": {
+    "page": "P53",
+    "to": "apply",
+    "action": "replace",
+    "note": "موجّه القنوات بالمسار الدولي محدّدًا مسبقًا"
+   },
+   "screenshot": null,
+   "screenshot_note": "البوابة تطبيق JavaScript لم يُعرض بطريقة الالتقاط هذه"
+  },
+  {
+   "id": "C09",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Home",
+   "href": "../Admission/Admission_Graduate_Degree_Programs.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "title": "Graduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "GRADUATE ADMISSIONS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-25"
+   ],
+   "blueprint": {
+    "page": "P33",
+    "to": "grad",
+    "action": "move",
+    "note": "صفحة قسم الدراسات العليا"
+   },
+   "screenshot": "shots/C09.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C10",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the PhD in Mechanical Engineering Program",
+   "href": "../Admission/application_form_deme_gdp.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+   "title": "Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "PHD IN MECHANICAL ENGINEERING ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "H",
+     "note": "الرابط «PhD in Mechanical Engineering» يفتح عنوان URL «application_form_deme_gdp» وعنوان تبويب <title> «Application Form for MSDH» — عنوان برنامج آخر",
+     "action": "تصحيح <title> والـ URL للبرنامج الصحيح"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في H1: «ADMISSSIONS» (ثلاث S)",
+     "action": "تصحيح الإملاء"
+    }
+   ],
+   "severity": "H",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C10.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C11",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the PhD in Business Administration Program",
+   "href": "../Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+   "title": "Admissions Requirements , Admissions to the PhD in Business Administration :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "PHD-BA ADMISSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C11.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C12",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the EMBA Program",
+   "href": "../Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+   "title": "Admissions Requirements , Executive MBA Program (EMBA) :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "EMBA ADMISSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C12.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C13",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MBA Program",
+   "href": "../Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+   "title": "Admissions Requirements, MBA Program (MBA) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MBA ADMISSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C13.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C14",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MSHD Program",
+   "href": "../Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+   "title": "Admissions Requirements for MSHD :: Graduate Degree Programs :: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الرابط «MSHD» بينما الـ URL «msehd» وعنوان H1 عام «ADMISSIONS REQUIREMENTS» دون اسم البرنامج",
+     "action": "توحيد اختصار البرنامج وإضافة اسمه للعنوان"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C14.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C15",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MSME Program",
+   "href": "../Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+   "title": "Admissions to the Master of Science in Mechanical Engineering (MSME) Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MSME ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في H1: «MSME ADMISSSIONS REQUIREMENTS»",
+     "action": "تصحيح الإملاء"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C15.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C16",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MSEE Program",
+   "href": "../Admission/application_form_msee_gdp.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+   "title": "MSEE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MSEE ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في H1 «MSEE ADMISSSIONS REQUIREMENTS»؛ والـ URL «application_form_…» لصفحة متطلبات وليست نموذجًا",
+     "action": "تصحيح الإملاء والمسار"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C16.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C17",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MSCE Program",
+   "href": "../Admission/application_form_MSCE_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+   "title": "MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MSCE ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في H1 «MSCE ADMISSSIONS REQUIREMENTS»؛ الـ URL «application_form_…»",
+     "action": "تصحيح الإملاء والمسار"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C17.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C18",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MSID Program",
+   "href": "../Admission/application_form_MSID_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+   "title": "MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MSID ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في H1 «MSID ADMISSSIONS REQUIREMENTS»؛ الـ URL «application_form_…»",
+     "action": "تصحيح الإملاء والمسار"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C18.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C19",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the EMGMS Program",
+   "href": "../Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+   "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "EMGMS ADMISSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "H",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «CESL» (F-21)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    }
+   ],
+   "severity": "H",
+   "findings": [
+    "F-21"
+   ],
+   "blueprint": null,
+   "screenshot": "shots/C19.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C20",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Admissions to the MIBL",
+   "href": "../Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+   "title": "Admissions to the Master of Arts (MA) in International Business Law Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MIBL ADMISSSIONS REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الـ URL يحوي «MIlBL» (حرف l صغير زائد)؛ H1 «MIBL ADMISSSIONS REQUIREMENTS»؛ نص الرابط بلا كلمة «Program» خلافًا لبقية المجموعة",
+     "action": "تصحيح المسار والإملاء والتسمية"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/C20.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C21",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Tuition & Fees",
+   "href": "../Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+   "title": "Post Graduate Fees :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "POST GRADUATE FEES"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "صفحة الرسوم تنتقل بالزائر لقسم «Registration Office» (تتغير القائمة الجانبية)، فيفقد سياق القبول",
+     "action": "إبقاء الرسوم ضمن رحلة القبول أو إضافة مسار عودة واضح"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": {
+    "page": "P45",
+    "to": "costs",
+    "action": "merge",
+    "note": "قسم الدراسات العليا في صفحة التكاليف"
+   },
+   "screenshot": "shots/C21.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C22",
+   "region": "main",
+   "group": "Graduate Admissions",
+   "text": "Contact Info",
+   "href": "../Admission/Admission_Contact_GDP.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+   "title": "Contact Info :: Graduate Degree Programs :: Admissions Office ::Study @ PMU:: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "CONTACT INFO"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-11"
+   ],
+   "blueprint": {
+    "page": "P30",
+    "to": "contact",
+    "action": "merge",
+    "note": "بريد الدراسات العليا الوظيفي في صفحة التواصل"
+   },
+   "screenshot": "shots/C22.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C23",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Home",
+   "href": "../Admission/Undergraduate_Programs_Admission.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+   "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "UNDERGRADUATE ADMISSIONS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «College of Medical» (F-17)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-17"
+   ],
+   "blueprint": {
+    "page": "P02",
+    "to": "ug",
+    "action": "move",
+    "note": "صفحة قسم البكالوريوس"
+   },
+   "screenshot": "shots/C23.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C24",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Admission to the College of Medicine",
+   "href": "../admission/college_of_medicine_admission",
+   "resolved": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS TO THE COLLEGE OF MEDICINE"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "H",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «the process typically involves» (F-07)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "H",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «to be developed in launch phase» (F-07)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «College of Medical» (F-17)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "L",
+     "note": "بلون/إزاحة مختلفة عن بقية المجموعة (مع C05)",
+     "action": "توحيد النمط"
+    }
+   ],
+   "severity": "H",
+   "findings": [
+    "F-03",
+    "F-07",
+    "F-17",
+    "F-20",
+    "F-23"
+   ],
+   "blueprint": {
+    "page": "P09",
+    "to": "ug_med",
+    "action": "rewrite",
+    "note": "إعادة كتابة بعد القرارين D5 وD10"
+   },
+   "screenshot": "shots/C24.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C25",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Admissions to the Preparatory Program",
+   "href": "../Admission/Admission-to-the-Preparatory-Program.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+   "title": "Admission to the Preparatory Program :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS TO THE PREPARATORY PROGRAM"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-26"
+   ],
+   "blueprint": {
+    "page": "P25",
+    "to": "ug_prep",
+    "action": "rewrite",
+    "note": "أقسام فارغة تُعبّأ من السجل"
+   },
+   "screenshot": "shots/C25.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C26",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Direct Admissions from Secondary School",
+   "href": "../Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+   "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "DIRECT ADMISSIONS FROM SECONDARY SCHOOL"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-01",
+    "F-04"
+   ],
+   "blueprint": {
+    "page": "P04",
+    "to": "ug_hs",
+    "action": "merge",
+    "note": "يُدمج مع Freshman في مسار واحد"
+   },
+   "screenshot": "shots/C26.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C27",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Admissions from Other Universities",
+   "href": "../Admission/Admission-from-Other-Universities.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+   "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS FROM OTHER UNIVERSITIES"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «http://admissions.pmu.edu.sa» (F-16)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://admissions.pmu.edu.sa/»، «http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-16"
+   ],
+   "blueprint": {
+    "page": "P17",
+    "to": "ug_transfer",
+    "action": "move",
+    "note": "مع سياسة التحويل (P62) ورابط HTTPS"
+   },
+   "screenshot": "shots/C27.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C28",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Visting Students",
+   "href": "../Admission/Visiting-Student-Admission.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/visiting-student-admission",
+   "title": "Visiting Student Admission :: Undergraduate :: Admission Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "VISITING STUDENT ADMISSIONS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «http://admissions.pmu.edu.sa» (F-16)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://admissions.pmu.edu.sa/»",
+     "action": "تحويلها إلى https"
+    },
+    {
+     "severity": "M",
+     "note": "خطأ إملائي في نص الرابط: «Visting Students» (F-17)",
+     "action": "تصحيحه إلى «Visiting Students»"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-16",
+    "F-17"
+   ],
+   "blueprint": {
+    "page": "P27",
+    "to": "ug_visit",
+    "action": "move",
+    "note": "تصحيح الإملاء «Visiting»"
+   },
+   "screenshot": "shots/C28.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C29",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Admissions from the Preparatory Program",
+   "href": "../Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+   "title": "Admission from the Preparatory Program to Undergraduate Programs :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS FROM THE PREPARATORY PROGRAM TO UNDERGRADUATE PROGRAMS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-28"
+   ],
+   "blueprint": {
+    "page": "P26",
+    "to": "ug_prep",
+    "action": "merge",
+    "note": "قسم «الانتقال إلى البكالوريوس»"
+   },
+   "screenshot": "shots/C29.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C30",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Computer Science and Engineering Majors Admission Requirements",
+   "href": "../Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+   "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "COMPUTER SCIENCE AND ENGINEERING MAJORS ADMISSION REQUIREMENTS"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «http://admissions.pmu.edu.sa» (F-16)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://admissions.pmu.edu.sa/»، «http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx»، «http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-01",
+    "F-05",
+    "F-16"
+   ],
+   "blueprint": {
+    "page": "P19",
+    "to": "ug_hs",
+    "action": "merge",
+    "note": "مكوّن «شروط التخصص» داخل المسار"
+   },
+   "screenshot": "shots/C30.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C31",
+   "region": "main",
+   "group": "Undergraduate Admissions",
+   "text": "Tuition & Fees",
+   "href": "../Admission/Fees_TF_RO.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/fees_tf_ro",
+   "title": "Undergraduate Fees :: Tuition & Fees ::Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "UNDERGRADUATE FEES"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "كما في C21: الصفحة ضمن قسم «Registration Office»",
+     "action": "كما في C21"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-10"
+   ],
+   "blueprint": {
+    "page": "P10",
+    "to": "costs",
+    "action": "merge",
+    "note": "الدورة الحالية فقط؛ السابقة إلى الأرشيف"
+   },
+   "screenshot": "shots/C31.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C32",
+   "region": "main",
+   "group": "Undergraduate Placement Tests",
+   "text": "Overview",
+   "href": "../Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "title": "Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "OVERVIEW"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": {
+    "page": "P05",
+    "to": "req",
+    "action": "merge",
+    "note": "مقدمة صفحة الإنجليزية والاختبارات"
+   },
+   "screenshot": "shots/C32.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C33",
+   "region": "main",
+   "group": "Undergraduate Placement Tests",
+   "text": "Aptis",
+   "href": "../Admission/Aptis-Placement-Test.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/aptis-placement-test",
+   "title": "Aptis Placement Test :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "APTIS PLACEMENT TEST"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-12"
+   ],
+   "blueprint": {
+    "page": "P08",
+    "to": "req",
+    "action": "merge",
+    "note": "مع استبدال دليل 2017"
+   },
+   "screenshot": "shots/C33.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C34",
+   "region": "main",
+   "group": "Undergraduate Placement Tests",
+   "text": "IELTS",
+   "href": "../Admission/IELTS-Admission.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+   "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "الصفحة تربط بمركز اختبار IELTS عبر http:// (يُحوَّل إلى https)",
+     "action": "استخدام https مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-04",
+    "F-18"
+   ],
+   "blueprint": {
+    "page": "P06",
+    "to": "req",
+    "action": "merge",
+    "note": "صف في الجدول الموحّد"
+   },
+   "screenshot": "shots/C34.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C35",
+   "region": "main",
+   "group": "Undergraduate Placement Tests",
+   "text": "TOEFL",
+   "href": "../Admission/TOEFL-Admission.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+   "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "TEST OF ENGLISH AS A FOREIGN LANGUAGE"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-04"
+   ],
+   "blueprint": {
+    "page": "P07",
+    "to": "req",
+    "action": "merge",
+    "note": "مع سلّم 1–6 (X01)"
+   },
+   "screenshot": "shots/C35.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "C36",
+   "region": "main",
+   "group": "Undergraduate Placement Tests",
+   "text": "Scholastic Aptitude Test (SAT)",
+   "href": "../Admission/SAT-Admission.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/sat-admission",
+   "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "SCHOLASTIC APTITUDE TEST"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [
+    "F-05"
+   ],
+   "blueprint": {
+    "page": "P28",
+    "to": "req",
+    "action": "merge",
+    "note": "مكافئ التحصيلي بعد القرار D3"
+   },
+   "screenshot": "shots/C36.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F01",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://twitter.com/PMU_KSA",
+   "resolved": "https://twitter.com/PMU_KSA",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    },
+    {
+     "severity": "L",
+     "note": "حسابان مختلفان على Twitter/X في التذييل (F01 «PMU_KSA» و F02 «pmuofficial») — أيهما الرسمي غير موضّح",
+     "action": "إبقاء الحساب الرسمي فقط وتحديث العلامة إلى X"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F02",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://twitter.com/pmuofficial",
+   "resolved": "https://twitter.com/pmuofficial",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F03",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://www.facebook.com/pmuofficial",
+   "resolved": "https://www.facebook.com/pmuofficial",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F04",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+   "resolved": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F05",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://www.youtube.com/user/PMUOfficial",
+   "resolved": "https://www.youtube.com/user/PMUOfficial",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F06",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "https://www.instagram.com/pmu_official/",
+   "resolved": "https://www.instagram.com/pmu_official/",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F07",
+   "region": "footer",
+   "group": "STAY CONNECTED",
+   "text": "(أيقونة)",
+   "href": "#",
+   "resolved": "https://pmu.edu.sa/admission/admission#",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ADMISSIONS OFFICE"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "«#» يعيد تحميل الصفحة نفسها",
+     "action": ""
+    },
+    {
+     "severity": "M",
+     "note": "أيقونة RSS برابط «#» (لا تؤدي لشيء)",
+     "action": "إزالتها أو ربطها بموجز فعلي"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-17"
+   ],
+   "blueprint": null,
+   "screenshot": "shots/F07.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F08",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Academic Calendar",
+   "href": "../Admission/academic_calendar_2021_2022_ro.aspx",
+   "resolved": "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro",
+   "title": "Academic Year 2021/2022 :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "ACADEMIC CALENDAR 2021 / 2022"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "H",
+     "note": "«Academic Calendar» في التذييل يفتح «ACADEMIC CALENDAR 2021 / 2022» — تقويم منتهٍ منذ 4 سنوات (F-12)",
+     "action": "ربطه بالتقويم الحالي"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي رابطًا إلى خادم داخلي (http://web1:8066/…) لا يعمل للجمهور",
+     "action": "إزالة الرابط الداخلي"
+    }
+   ],
+   "severity": "H",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F08.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F09",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Careers",
+   "href": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+   "resolved": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+   "visible": true,
+   "status": null,
+   "redirects": null,
+   "final_url": null,
+   "title": null,
+   "h1": null,
+   "tested": false,
+   "observations": [
+    {
+     "severity": "—",
+     "note": "لم يُختبر: نطاق خارج pmu.edu.sa غير متاح من بيئة التدقيق",
+     "action": ""
+    }
+   ],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F10",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Global Engagement",
+   "href": "../global-engagement/",
+   "resolved": "https://pmu.edu.sa/global-engagement/",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/global-engagement/",
+   "title": "",
+   "h1": [
+    "GLOBAL ENGAGEMENT"
+   ],
+   "tested": true,
+   "observations": [],
+   "severity": "—",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F10.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F11",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Sports Center Schedule",
+   "href": "../life_pmu/sportscenterschedule.aspx",
+   "resolved": "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/sportscenterschedule",
+   "title": "SportsSports Center Schedule For 2024, Life @ PMU",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "عنوان التبويب «SportsSports Center Schedule For 2024» — كلمة مكررة وسنة سابقة؛ 38 صورة بلا alt",
+     "action": "تحديث العنوان والسنة ونص alt"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F11.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F12",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "President's Office",
+   "href": "../About/Welcome_Rector.aspx",
+   "resolved": "https://pmu.edu.sa/About/Welcome_Rector.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/about/welcome_rector",
+   "title": "Welcome from the President, President's Office, Administration :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "يُحوَّل عبر JavaScript من welcome_rector إلى welcome_president (تحويل من جهة المتصفح)",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F12.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F13",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Dining",
+   "href": "../Life_Pmu/Dining_CL.aspx",
+   "resolved": "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/life_pmu/dining_cl",
+   "title": "Dining :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "DINING"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F13.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F14",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "News",
+   "href": "../news/more_news.aspx",
+   "resolved": "https://pmu.edu.sa/news/more_news.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/news/more_news",
+   "title": "More News, PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F14.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F15",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "Events",
+   "href": "../news/more_events.aspx",
+   "resolved": "https://pmu.edu.sa/news/more_events.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/news/more_events",
+   "title": "More Events, PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F15.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F16",
+   "region": "footer",
+   "group": "FIND @ PMU",
+   "text": "PMU Album",
+   "href": "../gallary.aspx",
+   "resolved": "https://pmu.edu.sa/gallary.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/gallary",
+   "title": "PMU Gallary",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "L",
+     "note": "خطأ إملائي في عنوان الصفحة والمسار: «PMU Gallary» / gallary",
+     "action": "تصحيحه إلى Gallery مع تحويل 301"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F16.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F17",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Engineering",
+   "href": "../Academics/College_of_Engineering_UDP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+   "title": "College of Engineering :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "قائمة الكليات في التذييل (7 روابط) لا تتضمن كلية الطب، بينما قائمة الرأس تتضمنها",
+     "action": "إضافة كلية الطب للتذييل"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F17.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F18",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Computer Engineering & Sciences",
+   "href": "../Academics/College_Computer_Engineering_Science_UDP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+   "title": "College of Computer Engineering &amp; Sciences :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/3»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F18.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F19",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Business",
+   "href": "../Academics/College_Business_Administration_UDP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+   "title": "College of Business Administration :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/1»",
+     "action": "تحويلها إلى https"
+    },
+    {
+     "severity": "L",
+     "note": "التسمية «College of Business» بينما الرأس والصفحة «College of Business Administration»",
+     "action": "توحيد الاسم"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F19.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F20",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Law",
+   "href": "../Academics/law_dept_cshs_udp.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+   "title": "College of LAW :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "College of LAW",
+    "Master of Arts (MA) in International Business Law",
+    "PMU Law Blog"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/14»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F20.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F21",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Architecture and Design",
+   "href": "../Academics/College_of_Architecture_Design_UDP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_of_architecture_design_udp",
+   "title": "College of Architecture and Design :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F21.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F22",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "College of Sciences and Human Studies",
+   "href": "../Academics/College_Sciences_Human_Studies_UDP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+   "title": "College of Sciences and Human Studies(CSHS) :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "College of Sciences and Human Studies (CSHS)"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/4»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F22.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F23",
+   "region": "footer",
+   "group": "COLLEGES / PROGRAMS",
+   "text": "Preparatory Program",
+   "href": "../Academics/Overview_PP.aspx",
+   "resolved": "https://pmu.edu.sa/Academics/Overview_PP.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/overview_pp",
+   "title": "Overview, The Preparatory Program :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "OVERVIEW"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "الصفحة المستهدفة تحوي روابط http:// غير مشفّرة: «http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/5»",
+     "action": "تحويلها إلى https"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F23.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F24",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "Campus Map",
+   "href": "../Life_PMU/Campus_Life.aspx",
+   "resolved": "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/life_pmu/campus_life",
+   "title": "Overview :: Campus Life :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "OVERVIEW – WHERE GROWTH MEETS PURPOSE"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    },
+    {
+     "severity": "M",
+     "note": "«Campus Map» يفتح صفحة «Campus Life» (نظرة عامة) وليس خريطة؛ الخريطة الفعلية على about/maps (F31)",
+     "action": "ربطه بصفحة الخرائط"
+    }
+   ],
+   "severity": "M",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F24.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F25",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "Directory",
+   "href": "#",
+   "resolved": "https://pmu.edu.sa/admission/admission#",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": null,
+   "tested": true,
+   "observations": [
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «Visting» (F-17)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "«Directory» برابط «#» (لا يعمل)",
+     "action": "ربطه بدليل فعلي أو إزالته"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-17"
+   ],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F26",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "EAIP",
+   "href": "../resources_services/engineering_technical_affairs.aspx",
+   "resolved": "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/engineering_technical_affairs",
+   "title": "Engineering and Infrastructure Projects (EAIP) and Operation & Maintenance :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "Engineering and Infrastructure Projects (EAIP) and Operation & Maintenance"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F26.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F27",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "IT Services",
+   "href": "../resources_services/sections_it_dept.aspx",
+   "resolved": "https://pmu.edu.sa/resources_services/sections_it_dept.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/sections_it_dept",
+   "title": "IT Services :: Resources",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F27.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F28",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "Library Services",
+   "href": "../resources_services/library_services_lrc.aspx",
+   "resolved": "https://pmu.edu.sa/resources_services/library_services_lrc.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/library_services_lrc",
+   "title": "Library Services :: Learning Resource Center :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "Research Consultation",
+    "Interlibrary loan (ILL)",
+    "Citing Sources",
+    "Professional Associations",
+    "Writing and Research Center (WRC)"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F28.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F29",
+   "region": "footer",
+   "group": "RESOURCES",
+   "text": "SiteMap",
+   "href": "#",
+   "resolved": "https://pmu.edu.sa/admission/admission#",
+   "visible": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": null,
+   "tested": true,
+   "observations": [
+    {
+     "severity": "M",
+     "note": "نص معيب موثّق في الصفحة المستهدفة: «Visting» (F-17)",
+     "action": "تصحيح المحتوى وفق سجل الملاحظات"
+    },
+    {
+     "severity": "M",
+     "note": "«SiteMap» برابط «#» (لا يعمل)",
+     "action": "نشر خريطة موقع فعلية"
+    }
+   ],
+   "severity": "M",
+   "findings": [
+    "F-17"
+   ],
+   "blueprint": null,
+   "screenshot": null,
+   "screenshot_note": null
+  },
+  {
+   "id": "F30",
+   "region": "footer",
+   "group": "GET IN TOUCH",
+   "text": "EMPLOYMENT",
+   "href": "../hr/hr.aspx",
+   "resolved": "https://pmu.edu.sa/hr/hr.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/hr/hr",
+   "title": "Human Resources (HR) :: PMU, Prince Mohammad Bin Fahd University",
+   "h1": [
+    "HUMAN RESOURCES"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F30.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F31",
+   "region": "footer",
+   "group": "GET IN TOUCH",
+   "text": "MAPS & LOCATIONS",
+   "href": "../about/maps.aspx",
+   "resolved": "https://pmu.edu.sa/about/maps.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/maps",
+   "title": "Map :: PMU :: Prince Mohammad Bin Fahd University",
+   "h1": [
+    "MAP"
+   ],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (1): 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F31.jpg",
+   "screenshot_note": null
+  },
+  {
+   "id": "F32",
+   "region": "footer",
+   "group": "GET IN TOUCH",
+   "text": "CONTACT",
+   "href": "../About/Contact_Us.aspx",
+   "resolved": "https://pmu.edu.sa/About/Contact_Us.aspx",
+   "visible": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/about/contact_us",
+   "title": "Contact us : PMU, Prince Mohammad Bin Fahd University",
+   "h1": [],
+   "tested": true,
+   "observations": [
+    {
+     "severity": "L",
+     "note": "سلسلة تحويل (2): 301 → 301 → 200",
+     "action": "الربط بالعنوان النهائي مباشرة"
+    }
+   ],
+   "severity": "L",
+   "findings": [],
+   "blueprint": null,
+   "screenshot": "shots/F32.jpg",
+   "screenshot_note": null
+  }
+ ],
+ "header": [
+  {
+   "id": "H01",
+   "text": "",
+   "href": "https://www.pmu.edu.sa/",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://www.pmu.edu.sa/",
+   "tested": true
+  },
+  {
+   "id": "H02",
+   "text": "",
+   "href": "",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "tested": true
+  },
+  {
+   "id": "H03",
+   "text": "PMU",
+   "href": "/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/",
+   "tested": true
+  },
+  {
+   "id": "H04",
+   "text": "",
+   "href": "#",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "tested": true
+  },
+  {
+   "id": "H05",
+   "text": "",
+   "href": "#",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "tested": true
+  },
+  {
+   "id": "H06",
+   "text": "ABOUT",
+   "href": "../about/about.aspx",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/about",
+   "tested": true
+  },
+  {
+   "id": "H07",
+   "text": "Vision & Mission",
+   "href": "../about/uni-vision-mission.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/uni-vision-mission",
+   "tested": true
+  },
+  {
+   "id": "H08",
+   "text": "Objectives",
+   "href": "#",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "tested": true
+  },
+  {
+   "id": "H09",
+   "text": "Values",
+   "href": "../about/uni-values.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/uni-values",
+   "tested": true
+  },
+  {
+   "id": "H10",
+   "text": "Governance",
+   "href": "../about/Governance.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/governance",
+   "tested": true
+  },
+  {
+   "id": "H11",
+   "text": "Deanships",
+   "href": "../about/deanships.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/deanships",
+   "tested": true
+  },
+  {
+   "id": "H12",
+   "text": "Publications & Presentations",
+   "href": "../about/puplications_presntations.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/about/puplications_presntations",
+   "tested": true
+  },
+  {
+   "id": "H13",
+   "text": "STUDY AT PMU",
+   "href": "../admission/admission-registration.aspx",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission-registration",
+   "tested": true
+  },
+  {
+   "id": "H14",
+   "text": "Admission Office",
+   "href": "../admission/Admission.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "tested": true
+  },
+  {
+   "id": "H15",
+   "text": "Apply to PMU",
+   "href": "../apply.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/apply",
+   "tested": true
+  },
+  {
+   "id": "H16",
+   "text": "Financial Aid",
+   "href": "../admission/financial_aid_ro.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/financial_aid_ro",
+   "tested": true
+  },
+  {
+   "id": "H17",
+   "text": "Registration",
+   "href": "../admission/registration_office.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/registration_office",
+   "tested": true
+  },
+  {
+   "id": "H18",
+   "text": "Tuition & Fees",
+   "href": "../admission/tuition_fees_ro.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/tuition_fees_ro",
+   "tested": true
+  },
+  {
+   "id": "H19",
+   "text": "ACADEMICS",
+   "href": "../academics/academics.aspx",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/academics",
+   "tested": true
+  },
+  {
+   "id": "H20",
+   "text": "College of Engineering",
+   "href": "../academics/college_of_engineering_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+   "tested": true
+  },
+  {
+   "id": "H21",
+   "text": "College of Computer Engineering & Sciences",
+   "href": "../academics/college_computer_engineering_science_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+   "tested": true
+  },
+  {
+   "id": "H22",
+   "text": "College of Business Administration",
+   "href": "../academics/college_business_administration_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+   "tested": true
+  },
+  {
+   "id": "H23",
+   "text": "College of LAW",
+   "href": "../academics/law_dept_cshs_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+   "tested": true
+  },
+  {
+   "id": "H24",
+   "text": "College of Architecture and Design",
+   "href": "../Academics/College_of_Architecture_Design_UDP.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_of_architecture_design_udp",
+   "tested": true
+  },
+  {
+   "id": "H25",
+   "text": "College of Sciences & Human Studies",
+   "href": "../academics/college_sciences_human_studies_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+   "tested": true
+  },
+  {
+   "id": "H26",
+   "text": "College of Medicine",
+   "href": "../academics/college_of_medicine_udp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/college_of_medicine_udp",
+   "tested": true
+  },
+  {
+   "id": "H27",
+   "text": "Preparatory Program",
+   "href": "../academics/overview_pp.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/academics/overview_pp",
+   "tested": true
+  },
+  {
+   "id": "H28",
+   "text": "PMU Logo",
+   "href": "/",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/",
+   "tested": true
+  },
+  {
+   "id": "H29",
+   "text": "RESEARCH",
+   "href": "https://pmu.edu.sa/research/",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/research/",
+   "tested": true
+  },
+  {
+   "id": "H30",
+   "text": "Research Centers",
+   "href": "https://pmu.edu.sa/research/research_center",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/research/research_center",
+   "tested": true
+  },
+  {
+   "id": "H31",
+   "text": "Center for Future Studies",
+   "href": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "tested": true
+  },
+  {
+   "id": "H32",
+   "text": "Center for Artificial Intelligence",
+   "href": "https://pmu.edu.sa/ai/default",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/ai/default",
+   "tested": true
+  },
+  {
+   "id": "H33",
+   "text": "Center for Cyber Security",
+   "href": "https://pmu.edu.sa/cybersecurity/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/cybersecurity/",
+   "tested": true
+  },
+  {
+   "id": "H34",
+   "text": "Patent Center",
+   "href": "https://pmu.edu.sa/Patent-Center/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/patent-center/",
+   "tested": true
+  },
+  {
+   "id": "H35",
+   "text": "Center of Environment & Water Solutions",
+   "href": "https://pmu.edu.sa/cews/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/cews/",
+   "tested": true
+  },
+  {
+   "id": "H36",
+   "text": "Space Research Center",
+   "href": "https://pmu.edu.sa/sarc/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/sarc/",
+   "tested": true
+  },
+  {
+   "id": "H37",
+   "text": "Centre for Sustainable Business & Innovation",
+   "href": "https://pmu.edu.sa/csbi/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/csbi/",
+   "tested": true
+  },
+  {
+   "id": "H38",
+   "text": "Centre for Sustainable Infrastructure Materials",
+   "href": "https://pmu.edu.sa/sim/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/sim/",
+   "tested": true
+  },
+  {
+   "id": "H39",
+   "text": "Research Centers",
+   "href": "https://pmu.edu.sa/research/research_center",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/research/research_center",
+   "tested": true
+  },
+  {
+   "id": "H40",
+   "text": "Center for Future Studies",
+   "href": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "tested": true
+  },
+  {
+   "id": "H41",
+   "text": "Center for Artificial Intelligence",
+   "href": "https://pmu.edu.sa/ai/default",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/ai/default",
+   "tested": true
+  },
+  {
+   "id": "H42",
+   "text": "Center for Cyber Security",
+   "href": "https://pmu.edu.sa/cybersecurity/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/cybersecurity/",
+   "tested": true
+  },
+  {
+   "id": "H43",
+   "text": "Patent Center",
+   "href": "https://pmu.edu.sa/Patent-Center/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/patent-center/",
+   "tested": true
+  },
+  {
+   "id": "H44",
+   "text": "Center of Environment & Water Solutions",
+   "href": "https://pmu.edu.sa/cews/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/cews/",
+   "tested": true
+  },
+  {
+   "id": "H45",
+   "text": "Space Research Center",
+   "href": "https://pmu.edu.sa/sarc/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/sarc/",
+   "tested": true
+  },
+  {
+   "id": "H46",
+   "text": "Additive Manufacturing Research & Innovation Center",
+   "href": "https://pmu.edu.sa/amric/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/amric/",
+   "tested": true
+  },
+  {
+   "id": "H47",
+   "text": "Centre for Sustainable Business & Innovation",
+   "href": "https://pmu.edu.sa/csbi/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/csbi/",
+   "tested": true
+  },
+  {
+   "id": "H48",
+   "text": "Centre for Sustainable Infrastructure Materials",
+   "href": "https://pmu.edu.sa/sim/",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/sim/",
+   "tested": true
+  },
+  {
+   "id": "H49",
+   "text": "STUDENTS LIFE",
+   "href": "../life_pmu/life_pmu.aspx",
+   "visible": true,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/life_pmu/life_pmu",
+   "tested": true
+  },
+  {
+   "id": "H50",
+   "text": "Campus Life",
+   "href": "../life_pmu/campus_life.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/life_pmu/campus_life",
+   "tested": true
+  },
+  {
+   "id": "H51",
+   "text": "Health Care & Counseling Services",
+   "href": "../life_pmu/health_care_counseling_services.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/life_pmu/health_care_counseling_services",
+   "tested": true
+  },
+  {
+   "id": "H52",
+   "text": "Office of Special Needs",
+   "href": "../life_pmu/office_special_needs.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/life_pmu/office_special_needs",
+   "tested": true
+  },
+  {
+   "id": "H53",
+   "text": "SIGN IN",
+   "href": "javascript:void(0);",
+   "visible": true,
+   "status": null,
+   "final_url": null,
+   "tested": null
+  },
+  {
+   "id": "H54",
+   "text": "BlackBoard",
+   "href": "https://blackboard.pmu.edu.sa",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://blackboard.pmu.edu.sa/",
+   "tested": true
+  },
+  {
+   "id": "H55",
+   "text": "Banner Self Service",
+   "href": "https://www.pmu.edu.sa/login/banner-login.html",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://www.pmu.edu.sa/login/banner-login",
+   "tested": true
+  },
+  {
+   "id": "H56",
+   "text": "Finance TicketingSystem",
+   "href": "https://financehelpdesk.pmu.edu.sa/login",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://financehelpdesk.pmu.edu.sa/login",
+   "tested": true
+  },
+  {
+   "id": "H57",
+   "text": "Web Mail",
+   "href": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "tested": true
+  },
+  {
+   "id": "H58",
+   "text": "Library",
+   "href": "../resources_services/e_resources_lrc.aspx",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/resources_services/e_resources_lrc",
+   "tested": true
+  },
+  {
+   "id": "H59",
+   "text": "Employee Self Services",
+   "href": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "tested": true
+  },
+  {
+   "id": "H60",
+   "text": "Banner Workflow",
+   "href": "https://workflow.pmu.edu.sa/wfprod",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://esso.pmu.edu.sa/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do&tenantDomain=carbon.super&sessionDataKey=3d1eaa35-edc8-4020-9ed1-6383cf2e67ad&relyingParty=Prod_WorkFlow&type=cas&sp=Prod_WorkFlow&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL",
+   "tested": true
+  },
+  {
+   "id": "H61",
+   "text": "On Campus IT HelpDesk",
+   "href": "https://ithelpdesk.pmu.edu.sa/",
+   "visible": false,
+   "status": 0,
+   "final_url": "https://ithelpdesk.pmu.edu.sa/",
+   "tested": true
+  },
+  {
+   "id": "H62",
+   "text": "",
+   "href": "#sidebar",
+   "visible": false,
+   "status": 200,
+   "final_url": "https://pmu.edu.sa/admission/admission#sidebar",
+   "tested": true
+  }
+ ]
+}
