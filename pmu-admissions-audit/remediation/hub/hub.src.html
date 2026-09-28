@@ -208,7 +208,7 @@ const T = {
   eng:"متطلبات الإنجليزية للقبول المباشر",
   s3lead:"تقدير للرسوم الدراسية لكل فصل ولكل سنة (فصلان). الضريبة وفق بيان المالية المنشور.",
   group:"الكلية", nat:"الجنسية", saudi:"سعودي", nonsaudi:"غير سعودي",
-  perSem:"الرسوم لكل فصل", perYear:"تقدير السنة (فصلان)", vatNote:"للسعوديين: الرسوم الدراسية معفاة من الضريبة وتتحملها الدولة، وتُطبّق 15% على الرسوم الأخرى. لغير السعوديين: 15% على الكل.",
+  perSem:"الرسوم لكل فصل", perYear:"تقدير السنة (فصلان)", vatNote:"للسعوديين: لا تُحصَّل ضريبة القيمة المضافة على الرسوم الدراسية وتتحملها الدولة، وتُطبّق 15% على الرسوم الأخرى. لغير السعوديين: 15% على الكل.",
   appFee:"رسم التقديم", medFees:"رسوم برنامج الطب (لكل سنة)", medPrep:"السنة التحضيرية الطبية", medProg:"البرنامج الطبي", seat:"حجز المقعد (غير مسترد، جزء من الرسوم)",
   refund:"سياسة الاسترداد",
   s4lead:"القناة الصحيحة تُحدَّد من فئتك وجنسيتك. زر التقديم واحد، ويوجّهك إلى المكان الصحيح.",
@@ -258,7 +258,7 @@ const T = {
   eng:"English requirements for direct entry",
   s3lead:"Estimated tuition per semester and per year (two semesters). VAT per the published Finance statement.",
   group:"College", nat:"Nationality", saudi:"Saudi", nonsaudi:"Non-Saudi",
-  perSem:"Tuition per semester", perYear:"Year estimate (2 semesters)", vatNote:"Saudi: tuition is VAT-exempt (borne by the State); 15% applies to other fees. Non-Saudi: 15% on everything.",
+  perSem:"Tuition per semester", perYear:"Year estimate (2 semesters)", vatNote:"Saudi: VAT on tuition is not collected from the student; the State bears it. 15% applies to other fees. Non-Saudi: 15% on everything.",
   appFee:"Application fee", medFees:"Medicine programme fees (per year)", medPrep:"Medical preparatory year", medProg:"Medical programme", seat:"Seat reservation (non-refundable, part of tuition)",
   refund:"Refund policy",
   s4lead:"The right channel is set by your category and nationality. One apply button sends you to the right place.",
@@ -341,7 +341,7 @@ function statusChip(r){
 }
 function gov(r, extraSources){
   const src = extraSources || r.published_values.flatMap(v => v.sources);
-  return `<div class="gov">${t("owner")}: ${esc(r.owner_role)} · ${t("decision")}: ${esc(r.decision_ref)} · ${t("sources")}: <span class="mono">${esc([...new Set(src)].join(", "))}</span> · ${t("askVerified")}: <span class="mono">${esc(r.last_verified)}</span></div>`;
+  return `<div class="gov">${t("owner")}: ${esc(ownerTxt(r))} · ${t("decision")}: ${esc(r.decision_ref)} · ${t("sources")}: <span class="mono">${esc([...new Set(src)].join(", "))}</span> · ${t("askVerified")}: <span class="mono">${esc(r.last_verified)}</span></div>`;
 }
 function valuesList(r){
   return `<ul class="small">` + r.published_values.map(v => `<li><span lang="en" dir="ltr">${esc(v.value)}</span> <span class="mono muted">(${esc(v.sources.join(", "))})</span></li>`).join("") + `</ul>`;
@@ -507,22 +507,43 @@ function renderStd(){
     `<tr><td><a href="${s.url}" rel="noopener" target="_blank">${esc(s.ref[lang])}</a></td><td>${esc(s.req[lang])}</td><td>${esc(s.how[lang])}</td><td class="small">${esc(s.kind[lang])}</td></tr>`).join("");
 }
 
+// Arabic-aware matching: drop diacritics and tatweel, unify alef/ya/ta-marbuta forms
+function norm(x){
+  return x.toLowerCase().replace(/[\u064B-\u0652\u0670\u0640]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه").replace(/\s+/g," ").trim();
+}
+// Owner roles are stored in English in the canonical record; show them in Arabic in the Arabic UI
+const OWNER_AR = {
+  "Admissions Committee":"لجنة القبول",
+  "Admissions Committee -> Academic Council":"لجنة القبول ← المجلس الأكاديمي",
+  "English/Prep Program Director -> Admissions Committee":"مدير برنامج اللغة الإنجليزية / السنة التحضيرية ← لجنة القبول",
+  "Graduate Studies -> Admissions Committee":"الدراسات العليا ← لجنة القبول",
+  "English/Prep Program Director":"مدير برنامج اللغة الإنجليزية / السنة التحضيرية",
+  "Finance":"المالية",
+  "Finance + Legal":"المالية + الشؤون القانونية",
+  "Dean, College of Medicine + Finance":"عميد كلية الطب + المالية",
+  "Executive Sponsor + Admissions Director":"الراعي التنفيذي + مدير القبول",
+  "Admissions Director":"مدير القبول",
+  "Admissions Director + IT (portal)":"مدير القبول + تقنية المعلومات (البوابة)",
+  "Vice President for Academic Affairs":"وكيل الجامعة للشؤون الأكاديمية"
+};
+const ownerTxt = r => (lang === "ar" && OWNER_AR[r.owner_role]) ? OWNER_AR[r.owner_role] : r.owner_role;
+
 function answer(){
-  const q = ($("#ask").value || "").trim().toLowerCase();
+  const q = norm($("#ask").value || "");
   const out = $("#answer");
   if (!q){ out.innerHTML = `<p class="small muted">${t("assistNote")}</p>`; return; }
   let best = null, bestScore = 0;
   for (const [id, kws] of Object.entries(CFG.faq_keywords)){
     const r = REC[id]; if (!r) continue;
-    let s = kws.reduce((a,k) => a + (q.includes(k.toLowerCase()) ? k.length : 0), 0);
-    if (q.includes(r.label.ar) || q.includes(r.label.en.toLowerCase())) s += 20;
+    let s = kws.reduce((a,k) => a + (q.includes(norm(k)) ? norm(k).length : 0), 0);
+    if (q.includes(norm(r.label.ar)) || q.includes(norm(r.label.en))) s += 20;
     if (s > bestScore){ bestScore = s; best = r; }
   }
   if (!best){ out.innerHTML = `<p>${t("askNone")}</p>`; return; }
   const body = best.approved_value
-    ? `<p><b>${t("askApproved")}:</b> <span dir="ltr" lang="en">${esc(best.approved_value)}</span></p>`
+    ? `<p><b>${t("askApproved")}:</b> <span dir="ltr" lang="en">${esc(best.published_values[0].value)}</span> <span class="mono muted">(${esc(best.published_values[0].sources.join(", "))})</span></p><p class="small muted" dir="ltr" lang="en">${esc(best.approved_value)}</p>`
     : `<p>${t("askPending")}</p>${valuesList(best)}`;
-  out.innerHTML = `<div class="card"><b>${esc(best.label[lang])}</b> ${statusChip(best)}${body}<p class="small muted">${t("askOwner")}: ${esc(best.owner_role)} · ${t("askDecision")}: ${esc(best.decision_ref)} · ${t("askVerified")}: <span class="mono">${esc(best.last_verified)}</span></p><p class="small muted">${t("assistNote")}</p></div>`;
+  out.innerHTML = `<div class="card"><b>${esc(best.label[lang])}</b> ${statusChip(best)}${body}<p class="small muted">${t("askOwner")}: ${esc(ownerTxt(best))} · ${t("askDecision")}: ${esc(best.decision_ref)} · ${t("askVerified")}: <span class="mono">${esc(best.last_verified)}</span></p><p class="small muted">${t("assistNote")}</p></div>`;
 }
 $("#ask").oninput = answer;
 

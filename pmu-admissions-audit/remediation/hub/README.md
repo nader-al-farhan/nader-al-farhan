@@ -18,3 +18,12 @@
 **Build:** `python3 build_hub.py`. It injects `../canonical/admissions-canonical.json` and `hub-config.json`, and refuses unknown record IDs. Once a decision is signed, fill `approved_value` in the canonical record and rebuild; the hub switches that value to **Approved** automatically.
 
 **Checked on 2026-09-27:** rendered in Chromium at 1280 px and 390 px. No console errors and no horizontal overflow. Language and direction switch fully. Keyboard operation of the tabs works. A manual WCAG audit and user testing have not been done.
+
+**Review on 2026-09-28:** every interaction was exercised in Chromium (routes, the 7 steps, the simulator, 9 assistant questions in Arabic and English, and the language switch). The simulator arithmetic was re-computed by hand (A 75.6, B 74.4, C 73.8, M 72.4 for 78/72/70/75). There were no console errors. Fixed:
+- The suggested question «أين أقدّم؟» returned "no match" because of the shadda. Arabic matching now ignores diacritics and unifies the alef, ya and ta-marbuta forms.
+- «متى يفتح القبول؟» was routed to the channel record. The generic keyword «قبول» was removed from the channel keywords, and opening-date keywords were added to the intake record.
+- Approved answers showed an internal governance note. They now show the approved value with its sources, and the note beneath it.
+- The Arabic interface showed owner roles in English. They are now shown in Arabic.
+- The VAT note said Saudi tuition is "exempt". It now says what ZATCA states: the tax is not collected from the citizen and the State bears it.
+
+The standards links could not be opened from the audit environment and remain unverified.

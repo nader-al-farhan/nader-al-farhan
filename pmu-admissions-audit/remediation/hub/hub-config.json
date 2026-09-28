@@ -544,12 +544,16 @@
     "application_channel": [
       "اين اقدم",
       "أين أقدم",
-      "قبول",
       "منصة",
       "apply",
       "portal",
       "qabool",
-      "study in saudi"
+      "study in saudi",
+      "منصة قبول",
+      "qabool",
+      "وين اقدم",
+      "كيف اقدم",
+      "التقديم"
     ],
     "intake_status": [
       "موعد",
@@ -559,7 +563,12 @@
       "deadline",
       "when",
       "calendar",
-      "open"
+      "open",
+      "يفتح",
+      "فتح",
+      "متى يفتح",
+      "يبدا",
+      "open date"
     ],
     "required_documents": [
       "وثائق",
