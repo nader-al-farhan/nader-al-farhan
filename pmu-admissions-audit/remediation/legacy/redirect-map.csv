@@ -1,0 +1,16 @@
+legacy_url,finding,dependency_and_seo_risk,replacement_target,action,noindex_before_redirect,verify_by,terminal_state,status
+https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro,F-12,Indexed; outside nav; linked from placement-sample viewer (ID=202),/admission/requirements (canonical "Requirements & formula" component),301,yes,re-crawl + site: search + G3 forbidden check,Retired,pending D7
+https://www.pmu.edu.sa/admission/freshman_admission,F-01/F-04,Linked from new-template sidebars; bookmarked,/admission/route/saudi-high-school,301 after merge with Direct Admissions,no,G3 consistency groups,Redirected,pending D1/D2/D7
+https://pmu.edu.sa/admission/direct-admissions-from-secondary-school,F-01,Main UG route; many internal links,/admission/route/saudi-high-school,301,no,internal-link crawl,Redirected,pending D1/D7
+https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx,F-02,Every sidebar,/admission/apply (routing step),301,no,CTA href audit,Redirected,pending D4
+http://admissions.pmu.edu.sa/,F-02/F-16,Linked over http from P17/P19,https://pmu.edu.sa/admission/apply,update links (https) + 301,no,link checker (0 http),Updated,pending D4
+https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx,F-12,Footer of every page,/admission/academic-calendar (current),template fix + 301,yes,footer href audit,Redirected,ready (no decision needed)
+https://pmu.edu.sa/Admission/Academic_Calendar_2023_2024_RO.aspx,F-12,Study at PMU hub link,/admission/academic-calendar (current),hub link fix + 301,yes,hub href audit,Redirected,ready
+https://pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf,F-24,Linked from all sidebars via viewer ID=203; indexed PDF,/admission/applicant-portal-guide (AR/EN),replace + 301 + X-Robots-Tag noindex,yes,G3 forbidden check,Retired,pending new guide
+https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp,F-21,Linked from hub; third-party text,rewritten EMGMS page,immediate content withdrawal then rewrite,n/a,G3 forbidden check (CESL),Rewritten,urgent (no D needed to withdraw)
+https://pmu.edu.sa/admission/fees_tf_ro_2025_2026,F-10,Needed by students admitted 2025/26,same URL with banner "for students admitted in 2025/26",archive banner + noindex,yes,visual check,Archived,pending Finance
+https://pmu.edu.sa/admission/fees_tf_ro_2024_2025,F-10,Needed by continuing students,same URL with banner,archive banner + noindex,yes,visual check,Archived,pending Finance
+https://pmu.edu.sa/Attachments/Admission/PDF/Appendix%203.3%20(Aptis%20Candidate%20Guide).pdf,F-12,Linked from Aptis page,British Council official Aptis page,replace link + 410,yes,link check,Retired,ready
+https://www.pmu.edu.sa/attachments/admission/images/registrar_office/student-handbook-2019-2020-002.pdf,F-12,Indexed PDF; personal phone numbers,current handbook,410 or archive,yes,site: search,Retired,pending Registrar
+https://www.pmu.edu.sa/attachments/admission/pdf/mohe_2.pdf,F-12,Indexed Arabic PDF (corrupted text; MOHE era),none,410,yes,site: search,Retired,ready
+https://www.pmu.edu.sa/academics/admission_registration_dp,F-12,Appears for Arabic admissions searches; undated,owning deanship decision,confirm owner then archive or update,yes,site: search,Archived/Updated,pending owner

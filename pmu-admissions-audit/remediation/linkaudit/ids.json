@@ -1,0 +1,1190 @@
+[
+{
+"id": "H01",
+"i": 0,
+"abs": "https://www.pmu.edu.sa/",
+"href": "https://www.pmu.edu.sa/",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H02",
+"i": 1,
+"abs": "https://pmu.edu.sa/admission/admission",
+"href": "",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H03",
+"i": 2,
+"abs": "https://pmu.edu.sa/",
+"href": "/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H04",
+"i": 3,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "header",
+"visible": false,
+"flag": true
+},
+{
+"id": "H05",
+"i": 4,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "header",
+"visible": false,
+"flag": true
+},
+{
+"id": "H06",
+"i": 5,
+"abs": "https://pmu.edu.sa/about/about.aspx",
+"href": "../about/about.aspx",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H07",
+"i": 6,
+"abs": "https://pmu.edu.sa/about/uni-vision-mission.aspx",
+"href": "../about/uni-vision-mission.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H08",
+"i": 7,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "header",
+"visible": false,
+"flag": true
+},
+{
+"id": "H09",
+"i": 8,
+"abs": "https://pmu.edu.sa/about/uni-values.aspx",
+"href": "../about/uni-values.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H10",
+"i": 9,
+"abs": "https://pmu.edu.sa/about/Governance.aspx",
+"href": "../about/Governance.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H11",
+"i": 10,
+"abs": "https://pmu.edu.sa/about/deanships.aspx",
+"href": "../about/deanships.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H12",
+"i": 11,
+"abs": "https://pmu.edu.sa/about/puplications_presntations.aspx",
+"href": "../about/puplications_presntations.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H13",
+"i": 12,
+"abs": "https://pmu.edu.sa/admission/admission-registration.aspx",
+"href": "../admission/admission-registration.aspx",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H14",
+"i": 13,
+"abs": "https://pmu.edu.sa/admission/Admission.aspx",
+"href": "../admission/Admission.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H15",
+"i": 14,
+"abs": "https://pmu.edu.sa/apply.aspx",
+"href": "../apply.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H16",
+"i": 15,
+"abs": "https://pmu.edu.sa/admission/financial_aid_ro.aspx",
+"href": "../admission/financial_aid_ro.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H17",
+"i": 16,
+"abs": "https://pmu.edu.sa/admission/registration_office.aspx",
+"href": "../admission/registration_office.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H18",
+"i": 17,
+"abs": "https://pmu.edu.sa/admission/tuition_fees_ro.aspx",
+"href": "../admission/tuition_fees_ro.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H19",
+"i": 18,
+"abs": "https://pmu.edu.sa/academics/academics.aspx",
+"href": "../academics/academics.aspx",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H20",
+"i": 19,
+"abs": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx",
+"href": "../academics/college_of_engineering_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H21",
+"i": 20,
+"abs": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx",
+"href": "../academics/college_computer_engineering_science_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H22",
+"i": 21,
+"abs": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx",
+"href": "../academics/college_business_administration_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H23",
+"i": 22,
+"abs": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx",
+"href": "../academics/law_dept_cshs_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H24",
+"i": 23,
+"abs": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+"href": "../Academics/College_of_Architecture_Design_UDP.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H25",
+"i": 24,
+"abs": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx",
+"href": "../academics/college_sciences_human_studies_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H26",
+"i": 25,
+"abs": "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx",
+"href": "../academics/college_of_medicine_udp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H27",
+"i": 26,
+"abs": "https://pmu.edu.sa/academics/overview_pp.aspx",
+"href": "../academics/overview_pp.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H28",
+"i": 27,
+"abs": "https://pmu.edu.sa/",
+"href": "/",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H29",
+"i": 28,
+"abs": "https://pmu.edu.sa/research/",
+"href": "https://pmu.edu.sa/research/",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H30",
+"i": 29,
+"abs": "https://pmu.edu.sa/research/research_center",
+"href": "https://pmu.edu.sa/research/research_center",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H31",
+"i": 30,
+"abs": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+"href": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H32",
+"i": 31,
+"abs": "https://pmu.edu.sa/ai/default",
+"href": "https://pmu.edu.sa/ai/default",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H33",
+"i": 32,
+"abs": "https://pmu.edu.sa/cybersecurity/",
+"href": "https://pmu.edu.sa/cybersecurity/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H34",
+"i": 33,
+"abs": "https://pmu.edu.sa/Patent-Center/",
+"href": "https://pmu.edu.sa/Patent-Center/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H35",
+"i": 34,
+"abs": "https://pmu.edu.sa/cews/",
+"href": "https://pmu.edu.sa/cews/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H36",
+"i": 35,
+"abs": "https://pmu.edu.sa/sarc/",
+"href": "https://pmu.edu.sa/sarc/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H37",
+"i": 36,
+"abs": "https://pmu.edu.sa/csbi/",
+"href": "https://pmu.edu.sa/csbi/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H38",
+"i": 37,
+"abs": "https://pmu.edu.sa/sim/",
+"href": "https://pmu.edu.sa/sim/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H39",
+"i": 38,
+"abs": "https://pmu.edu.sa/research/research_center",
+"href": "https://pmu.edu.sa/research/research_center",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H40",
+"i": 39,
+"abs": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+"href": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H41",
+"i": 40,
+"abs": "https://pmu.edu.sa/ai/default",
+"href": "https://pmu.edu.sa/ai/default",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H42",
+"i": 41,
+"abs": "https://pmu.edu.sa/cybersecurity/",
+"href": "https://pmu.edu.sa/cybersecurity/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H43",
+"i": 42,
+"abs": "https://pmu.edu.sa/Patent-Center/",
+"href": "https://pmu.edu.sa/Patent-Center/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H44",
+"i": 43,
+"abs": "https://pmu.edu.sa/cews/",
+"href": "https://pmu.edu.sa/cews/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H45",
+"i": 44,
+"abs": "https://pmu.edu.sa/sarc/",
+"href": "https://pmu.edu.sa/sarc/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H46",
+"i": 45,
+"abs": "https://pmu.edu.sa/amric/",
+"href": "https://pmu.edu.sa/amric/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H47",
+"i": 46,
+"abs": "https://pmu.edu.sa/csbi/",
+"href": "https://pmu.edu.sa/csbi/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H48",
+"i": 47,
+"abs": "https://pmu.edu.sa/sim/",
+"href": "https://pmu.edu.sa/sim/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H49",
+"i": 48,
+"abs": "https://pmu.edu.sa/life_pmu/life_pmu.aspx",
+"href": "../life_pmu/life_pmu.aspx",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H50",
+"i": 49,
+"abs": "https://pmu.edu.sa/life_pmu/campus_life.aspx",
+"href": "../life_pmu/campus_life.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H51",
+"i": 50,
+"abs": "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx",
+"href": "../life_pmu/health_care_counseling_services.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H52",
+"i": 51,
+"abs": "https://pmu.edu.sa/life_pmu/office_special_needs.aspx",
+"href": "../life_pmu/office_special_needs.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H53",
+"i": 52,
+"abs": "javascript:void(0);",
+"href": "javascript:void(0);",
+"region": "header",
+"visible": true,
+"flag": false
+},
+{
+"id": "H54",
+"i": 53,
+"abs": "https://blackboard.pmu.edu.sa/",
+"href": "https://blackboard.pmu.edu.sa",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H55",
+"i": 54,
+"abs": "https://www.pmu.edu.sa/login/banner-login.html",
+"href": "https://www.pmu.edu.sa/login/banner-login.html",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H56",
+"i": 55,
+"abs": "https://financehelpdesk.pmu.edu.sa/login",
+"href": "https://financehelpdesk.pmu.edu.sa/login",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H57",
+"i": 56,
+"abs": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+"href": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H58",
+"i": 57,
+"abs": "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx",
+"href": "../resources_services/e_resources_lrc.aspx",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H59",
+"i": 58,
+"abs": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+"href": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H60",
+"i": 59,
+"abs": "https://workflow.pmu.edu.sa/wfprod",
+"href": "https://workflow.pmu.edu.sa/wfprod",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "H61",
+"i": 60,
+"abs": "https://ithelpdesk.pmu.edu.sa/",
+"href": "https://ithelpdesk.pmu.edu.sa/",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "B1",
+"i": 61,
+"abs": "https://pmu.edu.sa/Default.aspx",
+"href": "../Default.aspx",
+"region": "breadcrumb",
+"visible": true,
+"flag": false
+},
+{
+"id": "B2",
+"i": 62,
+"abs": "https://pmu.edu.sa/admission/Admission-Registration.aspx",
+"href": "Admission-Registration.aspx",
+"region": "breadcrumb",
+"visible": true,
+"flag": false
+},
+{
+"id": "H62",
+"i": 63,
+"abs": "https://pmu.edu.sa/admission/admission#sidebar",
+"href": "#sidebar",
+"region": "header",
+"visible": false,
+"flag": false
+},
+{
+"id": "C01",
+"i": 64,
+"abs": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+"href": "../Admission/Future_Students_RO.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C02",
+"i": 65,
+"abs": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+"href": "../Admission/Degrees_Programs_FS_RO.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C03",
+"i": 66,
+"abs": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+"href": "../Admission/Admission_Calendar_FS_RO.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C04",
+"i": 67,
+"abs": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+"href": "../Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C05",
+"i": 68,
+"abs": "https://pmu.edu.sa/Admission/admissions_queries",
+"href": "../Admission/admissions_queries",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C06",
+"i": 69,
+"abs": "https://www.pmu.edu.sa/apply",
+"href": "https://www.pmu.edu.sa/apply",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C07",
+"i": 70,
+"abs": "https://pmu.edu.sa/Admission/International_Students.aspx",
+"href": "../Admission/International_Students.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C08",
+"i": 71,
+"abs": "https://www.pmu.edu.sa/apply",
+"href": "https://www.pmu.edu.sa/apply",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C09",
+"i": 72,
+"abs": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+"href": "../Admission/Admission_Graduate_Degree_Programs.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C10",
+"i": 73,
+"abs": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+"href": "../Admission/application_form_deme_gdp.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C11",
+"i": 74,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+"href": "../Admission/Admissions_Requirements_phdba_gdp.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C12",
+"i": 75,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_EMBA_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C13",
+"i": 76,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_MBA_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C14",
+"i": 77,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C15",
+"i": 78,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_MSME_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C16",
+"i": 79,
+"abs": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+"href": "../Admission/application_form_msee_gdp.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C17",
+"i": 80,
+"abs": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+"href": "../Admission/application_form_MSCE_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C18",
+"i": 81,
+"abs": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+"href": "../Admission/application_form_MSID_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C19",
+"i": 82,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_emgms_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C20",
+"i": 83,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+"href": "../Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": true
+},
+{
+"id": "C21",
+"i": 84,
+"abs": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+"href": "../Admission/Post_Graduate_Fees_TF_RO.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C22",
+"i": 85,
+"abs": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+"href": "../Admission/Admission_Contact_GDP.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C23",
+"i": 86,
+"abs": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+"href": "../Admission/Undergraduate_Programs_Admission.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C24",
+"i": 87,
+"abs": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+"href": "../admission/college_of_medicine_admission",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C25",
+"i": 88,
+"abs": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+"href": "../Admission/Admission-to-the-Preparatory-Program.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C26",
+"i": 89,
+"abs": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+"href": "../Admission/Direct-Admissions-from-Secondary-School.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C27",
+"i": 90,
+"abs": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+"href": "../Admission/Admission-from-Other-Universities.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C28",
+"i": 91,
+"abs": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+"href": "../Admission/Visiting-Student-Admission.aspx",
+"region": "main",
+"visible": true,
+"flag": true
+},
+{
+"id": "C29",
+"i": 92,
+"abs": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+"href": "../Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C30",
+"i": 93,
+"abs": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+"href": "../Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C31",
+"i": 94,
+"abs": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+"href": "../Admission/Fees_TF_RO.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C32",
+"i": 95,
+"abs": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+"href": "../Admission/Overview-Undergraduate-Placement-Tests.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C33",
+"i": 96,
+"abs": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+"href": "../Admission/Aptis-Placement-Test.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C34",
+"i": 97,
+"abs": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+"href": "../Admission/IELTS-Admission.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C35",
+"i": 98,
+"abs": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+"href": "../Admission/TOEFL-Admission.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "C36",
+"i": 99,
+"abs": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+"href": "../Admission/SAT-Admission.aspx",
+"region": "main",
+"visible": true,
+"flag": false
+},
+{
+"id": "F01",
+"i": 101,
+"abs": "https://twitter.com/PMU_KSA",
+"href": "https://twitter.com/PMU_KSA",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F02",
+"i": 102,
+"abs": "https://twitter.com/pmuofficial",
+"href": "https://twitter.com/pmuofficial",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F03",
+"i": 103,
+"abs": "https://www.facebook.com/pmuofficial",
+"href": "https://www.facebook.com/pmuofficial",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F04",
+"i": 104,
+"abs": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+"href": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F05",
+"i": 105,
+"abs": "https://www.youtube.com/user/PMUOfficial",
+"href": "https://www.youtube.com/user/PMUOfficial",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F06",
+"i": 106,
+"abs": "https://www.instagram.com/pmu_official/",
+"href": "https://www.instagram.com/pmu_official/",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F07",
+"i": 107,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "footer",
+"visible": true,
+"flag": true
+},
+{
+"id": "F08",
+"i": 108,
+"abs": "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+"href": "../Admission/academic_calendar_2021_2022_ro.aspx",
+"region": "footer",
+"visible": true,
+"flag": true
+},
+{
+"id": "F09",
+"i": 109,
+"abs": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+"href": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F10",
+"i": 110,
+"abs": "https://pmu.edu.sa/global-engagement/",
+"href": "../global-engagement/",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F11",
+"i": 111,
+"abs": "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx",
+"href": "../life_pmu/sportscenterschedule.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F12",
+"i": 112,
+"abs": "https://pmu.edu.sa/About/Welcome_Rector.aspx",
+"href": "../About/Welcome_Rector.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F13",
+"i": 113,
+"abs": "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx",
+"href": "../Life_Pmu/Dining_CL.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F14",
+"i": 114,
+"abs": "https://pmu.edu.sa/news/more_news.aspx",
+"href": "../news/more_news.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F15",
+"i": 115,
+"abs": "https://pmu.edu.sa/news/more_events.aspx",
+"href": "../news/more_events.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F16",
+"i": 116,
+"abs": "https://pmu.edu.sa/gallary.aspx",
+"href": "../gallary.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F17",
+"i": 117,
+"abs": "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx",
+"href": "../Academics/College_of_Engineering_UDP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F18",
+"i": 118,
+"abs": "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx",
+"href": "../Academics/College_Computer_Engineering_Science_UDP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F19",
+"i": 119,
+"abs": "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx",
+"href": "../Academics/College_Business_Administration_UDP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F20",
+"i": 120,
+"abs": "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx",
+"href": "../Academics/law_dept_cshs_udp.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F21",
+"i": 121,
+"abs": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+"href": "../Academics/College_of_Architecture_Design_UDP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F22",
+"i": 122,
+"abs": "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx",
+"href": "../Academics/College_Sciences_Human_Studies_UDP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F23",
+"i": 123,
+"abs": "https://pmu.edu.sa/Academics/Overview_PP.aspx",
+"href": "../Academics/Overview_PP.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F24",
+"i": 124,
+"abs": "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx",
+"href": "../Life_PMU/Campus_Life.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F25",
+"i": 125,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "footer",
+"visible": true,
+"flag": true
+},
+{
+"id": "F26",
+"i": 126,
+"abs": "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx",
+"href": "../resources_services/engineering_technical_affairs.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F27",
+"i": 127,
+"abs": "https://pmu.edu.sa/resources_services/sections_it_dept.aspx",
+"href": "../resources_services/sections_it_dept.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F28",
+"i": 128,
+"abs": "https://pmu.edu.sa/resources_services/library_services_lrc.aspx",
+"href": "../resources_services/library_services_lrc.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F29",
+"i": 129,
+"abs": "https://pmu.edu.sa/admission/admission#",
+"href": "#",
+"region": "footer",
+"visible": true,
+"flag": true
+},
+{
+"id": "F30",
+"i": 130,
+"abs": "https://pmu.edu.sa/hr/hr.aspx",
+"href": "../hr/hr.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F31",
+"i": 131,
+"abs": "https://pmu.edu.sa/about/maps.aspx",
+"href": "../about/maps.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+},
+{
+"id": "F32",
+"i": 132,
+"abs": "https://pmu.edu.sa/About/Contact_Us.aspx",
+"href": "../About/Contact_Us.aspx",
+"region": "footer",
+"visible": true,
+"flag": false
+}
+]

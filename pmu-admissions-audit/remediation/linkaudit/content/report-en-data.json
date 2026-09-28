@@ -1,0 +1,2781 @@
+{
+ "date": "28 September 2026",
+ "hub": "https://pmu.edu.sa/admission/admission",
+ "summary": {
+  "links": 36,
+  "obs": 80,
+  "H": 15,
+  "M": 39,
+  "L": 26,
+  "quotes": 91,
+  "shots": 70,
+  "new_findings": 15,
+  "register_total": 45
+ },
+ "links": [
+  {
+   "id": "C01",
+   "label": "Overview",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/admission/future_students_ro",
+   "purpose": "General introduction to the University for prospective students",
+   "data": [
+    "No admission data; links to undergraduate and graduate admissions"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "home",
+    "title": "Admissions (home)",
+    "path": "/admissions"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Claim requiring verification",
+     "quotes": [
+      "PMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA",
+      "reviewed and verified by around 70 multinational academic and industrial experts"
+     ],
+     "note": "Numerical claims carry no date or source, and the phrase 'accredited by prestigious national and international organizations' names no accrediting body.",
+     "action": "Name each accreditation (body, scope, date) or remove unsourced figures.",
+     "ref": "F-37",
+     "shot": "content/shots/C01-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "label": "Degrees & Programs",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+   "purpose": "List of undergraduate and graduate programmes, with availability for male and female students",
+   "data": [
+    "Undergraduate programmes in five colleges (Architecture & Design, Engineering, Computer Engineering & Science, Business Administration, Law)",
+    "Graduate programmes in Engineering, Business Administration, Sciences & Human Studies, Architecture & Design and Law"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "programs",
+    "title": "Programme finder",
+    "path": "/admissions/programs"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "B.S. in Chemical Engineering",
+      "B.S. in Cybersecurity"
+     ],
+     "note": "The list omits the College of Medicine and the College of Sciences and Human Studies (undergraduate), while it adds programmes (Chemical Engineering, Cybersecurity) that the major-specific requirement pages (C30, C36) do not mention.",
+     "action": "Publish one programme list from a single programme register, with admission status per programme.",
+     "ref": "F-25",
+     "shot": "content/shots/C02-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Undergraduate Programs",
+      "Graduate Programs"
+     ],
+     "note": "The programmes sit inside two collapsed lists; a visitor initially sees two headings only. The page code also keeps a hidden 'Master of LAW' entry.",
+     "action": "Show the list openly, with each programme linked to its requirements; remove leftover code.",
+     "ref": "F-44",
+     "shot": "content/shots/C02-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "label": "Admissions Calendar",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "purpose": "Admission dates for the current intake",
+   "data": [
+    "Fall 2026-2027 (undergraduate and graduate)",
+    "First day of classes: 2026-08-30",
+    "Saudi applicants via Qabool; non-Saudi applicants via Study in Saudi (marked Closed)"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "dates",
+    "title": "Dates & cycle status",
+    "path": "/admissions/dates"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Out of date",
+     "quotes": [
+      "Fall 2026-2027",
+      "First day of classes\t2026-08-30"
+     ],
+     "note": "On the audit date (28 September 2026) every date of the published intake has passed, and there is no information on the next intake or on whether admission is open.",
+     "action": "Add an 'admission status now' component and the next intake's dates, or state explicitly that admission is closed until a given date.",
+     "ref": "F-08",
+     "shot": "content/shots/C03-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Announcement of admission results through Qabool platform\tFrom July 19 to July 21, 2026",
+      "Last day to submit IELTS or TOEFL iBT\t2026-07-20",
+      "Last day for Transfer applicants to submit documents in person\t2026-07-20"
+     ],
+     "note": "Results are announced from 19 July, before the 20 July deadline for IELTS/TOEFL scores and for transfer documents.",
+     "action": "Re-sequence the dates or state which applicant groups the early results cover.",
+     "ref": "F-08",
+     "shot": "content/shots/C03-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar\tClosed"
+     ],
+     "note": "The calendar states that non-Saudi applications via Study in Saudi are 'Closed', while C07 states that international applicants apply entirely online through the PMU portal.",
+     "action": "Define one channel per applicant category and show it identically on both pages.",
+     "ref": "F-02",
+     "shot": "content/shots/C03-3.jpg",
+     "spelling": []
+    },
+    {
+     "n": 4,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Orientation for new applicants\tTBA"
+     ],
+     "note": "Orientation is still 'TBA' although classes have started.",
+     "action": "Update or remove the entry once it has passed.",
+     "ref": "F-43",
+     "shot": "content/shots/C03-4.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "label": "Contact Us",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "purpose": "Contact with the Admissions Office",
+   "data": [
+    "Opens a staff list with personal names (not reproduced)"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "contact",
+    "title": "Contact & enquiries",
+    "path": "/admissions/contact"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "The target gives no Admissions Office telephone number, shared mailbox or office hours; applicants are directed to named individuals.",
+     "action": "Link to a single admissions contact page (role mailbox, telephone, hours, enquiry form).",
+     "ref": "F-11",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "label": "Admission Query",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/admission/admissions_queries",
+   "purpose": "Enquiry form for applicants",
+   "data": [
+    "Fields: name, email, mobile, query, preferred contact method"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "contact",
+    "title": "Contact & enquiries",
+    "path": "/admissions/contact"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "Name [الأسم]",
+      "مكتب القبول يسعد بالإجابة على إستفساراتكم",
+      "Email [البريد الإللكتروني]",
+      "Enter Verifaction Code"
+     ],
+     "note": "Spelling errors in four Arabic labels and one English label of the form (published and correct spellings are listed in the table below).",
+     "action": "Proof-read both languages and apply the corrections.",
+     "ref": "F-17",
+     "shot": "content/shots/C05-1.jpg",
+     "spelling": [
+      [
+       "الأسم",
+       "الاسم"
+      ],
+      [
+       "إستفساراتكم",
+       "استفساراتكم"
+      ],
+      [
+       "الإستفسار",
+       "الاستفسار"
+      ],
+      [
+       "الإللكتروني",
+       "الإلكتروني"
+      ],
+      [
+       "Verifaction",
+       "Verification"
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "The form states no expected response time and offers no direct alternative channel.",
+     "action": "State the service standard and link the admissions contact component.",
+     "ref": "F-45",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "label": "Apply Now",
+   "group": "Future Students",
+   "url": "https://admissions.pmu.edu.sa/welcome",
+   "purpose": "Apply button (Future Students)",
+   "data": [
+    "Opens the application portal (admissions.pmu.edu.sa)"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "apply",
+    "title": "Apply now (channel router)",
+    "path": "/admissions/apply"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [],
+     "note": "'Apply Now' sends every applicant to the same portal, while the calendar (C03) sends Saudi applicants to Qabool and non-Saudi applicants to Study in Saudi — three channels for one step.",
+     "action": "Replace the button with an application router by applicant category.",
+     "ref": "F-02",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "label": "International Students without Saudi Residence",
+   "group": "International Students’ Office",
+   "url": "https://pmu.edu.sa/admission/international_students",
+   "purpose": "Admission of international students without Saudi residence (freshman, transfer, visiting, graduate, fees, housing)",
+   "data": [
+    "Freshman: secondary GPA 80%, SAT I, IELTS 6.0 (5.5 writing), online interview",
+    "Application fee: SAR 950 incl. VAT (freshman); SAR 500 excl. VAT (transfer and visiting)"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_intl",
+    "title": "International (no Saudi residence)",
+    "path": "/admissions/undergraduate/international"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents"
+     ],
+     "note": "The application fee for international transfer and visiting students is SAR 500 excluding VAT, while C27 (transfer) and C28 (visiting) state SAR 950 including VAT for the same applicants.",
+     "action": "Finance to confirm one fee per category, published from the fee record.",
+     "ref": "F-31",
+     "shot": "content/shots/C07-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "H",
+     "kind": "Incorrect information",
+     "quotes": [
+      "SAT II 30%"
+     ],
+     "note": "SAT II (Subject Tests) is required for Engineering and Computer Science; College Board discontinued these tests internationally in 2021.",
+     "action": "Replace with the approved requirement (Tahseely or its approved equivalent).",
+     "ref": "F-05",
+     "shot": "content/shots/C07-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "M",
+     "kind": "Incorrect information",
+     "quotes": [
+      "Copy of National ID"
+     ],
+     "note": "A 'National ID' is requested from an international applicant without Saudi residence — a document such applicants do not hold.",
+     "action": "Request the passport only.",
+     "ref": "F-13",
+     "shot": "content/shots/C07-3.jpg",
+     "spelling": []
+    },
+    {
+     "n": 4,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Acceptable SAT I"
+     ],
+     "note": "No minimum SAT I score is stated, whereas the SAT page (C36) sets 1200.",
+     "action": "State the numerical minimum.",
+     "ref": "F-09",
+     "shot": "content/shots/C07-4.jpg",
+     "spelling": []
+    },
+    {
+     "n": 5,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "MBA",
+      "MSHD",
+      "MSME"
+     ],
+     "note": "The graduate section for international applicants lists three programmes, out of eleven linked from the Admissions Office page.",
+     "action": "Link to the full programme list and state which programmes accept international applicants.",
+     "ref": "F-38",
+     "shot": "content/shots/C07-5.jpg",
+     "spelling": []
+    },
+    {
+     "n": 6,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Transportation"
+     ],
+     "note": "The 'Transportation' section is a heading without content, and the housing text is written in the future tense ('will be located').",
+     "action": "Publish current transport and housing information.",
+     "ref": "F-43",
+     "shot": "content/shots/C07-6.jpg",
+     "spelling": []
+    },
+    {
+     "n": 7,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Get Information on Tuition and Fees"
+     ],
+     "note": "Payment instructions for international students exist in the page code but are not displayed (not reproduced here because they contain bank details).",
+     "action": "Decide whether to publish the official payment method; remove leftover code.",
+     "ref": "F-44",
+     "shot": "content/shots/C07-7.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "label": "Apply",
+   "group": "International Students’ Office",
+   "url": "https://admissions.pmu.edu.sa/welcome",
+   "purpose": "Apply button (International Students' Office)",
+   "data": [
+    "Opens the same general application portal"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "apply",
+    "title": "Apply now (channel router)",
+    "path": "/admissions/apply"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [],
+     "note": "The button does not indicate the correct channel for non-residents, whose channel the calendar marks as 'Closed'.",
+     "action": "As for C06.",
+     "ref": "F-02",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "label": "Home",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "purpose": "Graduate admissions home and programme list",
+   "data": [
+    "Ten programmes, each with 'Application Form' and 'Admissions Requirements' entries"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad",
+    "title": "Graduate",
+    "path": "/admissions/graduate"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Admissions to the Master of Arts (MA) in International Business Law Program"
+     ],
+     "note": "The list omits EMGMS (linked from the Admissions Office page as C19 and priced in C21) and the Master of Engineering in Innovation, Sustainability, and Entrepreneurship priced in C21.",
+     "action": "Generate the list from the programme register.",
+     "ref": "F-25",
+     "shot": "content/shots/C09-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Admission to the Master of Human Development",
+      "Admissions to the Doctorate in Mechanical Engineering Program"
+     ],
+     "note": "Programme names differ between pages: 'Master of Human Development' here, 'MSHD' on the Admissions Office page, 'Master of Science in Human Development' in C14 and 'Master of Science in Education and Human Development' in C21; 'Doctorate' here, 'PhD' in C10 and 'Doctoral program' in C21.",
+     "action": "Adopt one official name per programme, in Arabic and English.",
+     "ref": "F-25",
+     "shot": "content/shots/C09-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Admissions to the Master of Science in Civil Engineering (MSCE) Program"
+     ],
+     "note": "MSCE, MSEE and MSID show 'Application Form' without a link, while the other programmes have one.",
+     "action": "Provide a working form link for every programme.",
+     "ref": "F-38",
+     "shot": "content/shots/C09-3.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "label": "Admissions to the PhD in Mechanical Engineering Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+   "purpose": "Admission requirements: PhD in Mechanical Engineering",
+   "data": [
+    "Bachelor's and master's in Mechanical Engineering",
+    "GPA 3.00/4.00",
+    "IELTS 6.0 (5.5 each skill) or TOEFL iBT 83 (19 each)",
+    "Two references, statement of purpose, interview"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)"
+     ],
+     "note": "The descriptor 'Very Good' is attached here to 3.00, and on six other pages to 2.50.",
+     "action": "Registrar to publish one grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C10-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "The page states no credit hours, duration, fees or deadlines (C21 gives 72 credits and SAR 150,000).",
+     "action": "Add a 'programme facts' block.",
+     "ref": "F-40",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "label": "Admissions to the PhD in Business Administration Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+   "purpose": "Admission requirements: PhD in Business Administration",
+   "data": [
+    "Two tracks: Management and Finance",
+    "Master's in Business Administration, Finance or a related field",
+    "Three recommendation letters"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Wording / language",
+     "quotes": [
+      "Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA"
+     ],
+     "note": "A double negative reverses the intended meaning (the intended condition is a master's degree from another discipline), and it is unclear to whom each GPA condition (3.00 or 3.20) applies.",
+     "action": "Rewrite the rule as a table: background → bridging courses → minimum GPA.",
+     "ref": "F-36",
+     "shot": "content/shots/C11-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Claim requiring verification",
+     "quotes": [
+      "The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide."
+     ],
+     "note": "AACSB accredits business schools (institution level), not individual programmes, and 'fewer than 6%' describes the share of accredited schools, not a ranking ('top').",
+     "action": "Use precise wording once the College confirms: 'The College of Business Administration holds AACSB accreditation, held by fewer than 6% of business schools worldwide.'",
+     "ref": "F-37",
+     "shot": "content/shots/C11-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "label": "Admissions to the EMBA Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+   "purpose": "Admission requirements: Executive MBA",
+   "data": [
+    "33 credit hours over two years, weekend delivery",
+    "GPA 2.50",
+    "Three to five years' experience",
+    "Employer letter and three references"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "2.50 is described as 'Very Good', while 3.00 carries the same descriptor in C10.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C12-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Successful candidates should have from three to five years of professional work experience",
+      "Participants are required to have several years of work experience"
+     ],
+     "note": "Experience is 'from three to five years' (are candidates with six or more years excluded?) but 'several years' in the same page.",
+     "action": "State 'at least three years'.",
+     "ref": "F-42",
+     "shot": "content/shots/C12-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "label": "Admissions to the MBA Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+   "purpose": "Admission requirements: MBA",
+   "data": [
+    "36 credit hours, evening delivery, six concentrations",
+    "GPA 2.50",
+    "IELTS 6.0 or TOEFL iBT 83"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "As for C12.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C13-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "No supporting documents are listed (references, statement, CV), unlike every other graduate programme; it should be confirmed that none are required.",
+     "action": "College to confirm the document list.",
+     "ref": "F-42",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "label": "Admissions to the MSHD Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+   "purpose": "Admission requirements: MS in Human Development",
+   "data": [
+    "Relevant bachelor's degree with GPA 2.50",
+    "Two references, statement of purpose, interview"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Work Experience"
+     ],
+     "note": "A 'Work Experience' heading has no requirement under it (the CV item follows directly).",
+     "action": "State the experience requirement or remove the heading.",
+     "ref": "F-26",
+     "shot": "content/shots/C14-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "No credit hours or duration are stated (the fee table in C21 implies 42 credits: 50,000 ÷ 1,191).",
+     "action": "Add a 'programme facts' block.",
+     "ref": "F-40",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "label": "Admissions to the MSME Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+   "purpose": "Admission requirements: MS in Mechanical Engineering",
+   "data": [
+    "Minimum 30 credit hours, two tracks, thesis or non-thesis",
+    "GPA 2.50",
+    "Two references"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "As for C12.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C15-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C16",
+   "label": "Admissions to the MSEE Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+   "purpose": "Admission requirements: MS in Electrical Engineering",
+   "data": [
+    "Two tracks",
+    "Bachelor's in any engineering discipline",
+    "GPA 2.50"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Out of date",
+     "quotes": [
+      "The program will be offered under the College of Engineering."
+     ],
+     "note": "'will be offered' suggests the programme has not launched — is it open for admission?",
+     "action": "Show programme status (open / not open) and update the wording.",
+     "ref": "F-41",
+     "shot": "content/shots/C16-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "As for C12.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C16-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C17",
+   "label": "Admissions to the MSCE Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+   "purpose": "Admission requirements: MS in Civil Engineering",
+   "data": [
+    "Two tracks",
+    "Bachelor's in Civil Engineering",
+    "GPA 2.50"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Out of date",
+     "quotes": [
+      "The program will be offered under the College of Engineering."
+     ],
+     "note": "As for C16.",
+     "action": "As for C16.",
+     "ref": "F-41",
+     "shot": "content/shots/C17-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "As for C12.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C17-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C18",
+   "label": "Admissions to the MSID Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+   "purpose": "Admission requirements: MS in Interior Design",
+   "data": [
+    "Bachelor's in Interior Design",
+    "GPA 2.50"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Out of date",
+     "quotes": [
+      "The Department of Interior Design at PMU will educate tomorrow’s interior design leaders"
+     ],
+     "note": "The whole introduction is in the future tense ('will educate', 'will be to provide').",
+     "action": "Update the wording.",
+     "ref": "F-41",
+     "shot": "content/shots/C18-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "As for C12.",
+     "action": "One grade-conversion table.",
+     "ref": "F-27",
+     "shot": "content/shots/C18-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C19",
+   "label": "Admissions to the EMGMS Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+   "purpose": "Admission requirements: MS in Engineering Management (EMGMS)",
+   "data": [
+    "GPA 3.00",
+    "IELTS 7 / TOEFL iBT 79 / PTE 60"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Incorrect information",
+     "quotes": [
+      "Graduate English Language Endorsement from UA Center for English as Second Language (CESL)"
+     ],
+     "note": "Content copied from another university (University of Arizona); a pathway that does not apply to PMU applicants.",
+     "action": "Withdraw the page and rewrite it from PMU's requirements.",
+     "ref": "F-21",
+     "shot": "content/shots/C19-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "IELTS – minimum composite score of 7, with no subject area below a 6",
+      "TOEFL – minimum of 79 iBT"
+     ],
+     "note": "IELTS 7 is higher than every other PMU programme (6.0) while TOEFL 79 is lower (83) — the equivalence contradicts itself within the page.",
+     "action": "Adopt PMU's single graduate threshold.",
+     "ref": "F-21",
+     "shot": "content/shots/C19-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "No programme description, duration or interview, unlike every other graduate programme.",
+     "action": "Use the standard programme-page template.",
+     "ref": "F-21",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C20",
+   "label": "Admissions to the MIBL",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+   "purpose": "Admission requirements: MA in International Business Law",
+   "data": [
+    "Thesis and non-thesis tracks",
+    "Bachelor's in Law with a 'Very Good' grade",
+    "IELTS 6.5",
+    "Weights: GPA 50%, written test 30%, interview 20%"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "grad_prog",
+    "title": "Programme page (one template × 11)",
+    "path": "/admissions/graduate/{programme}"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)"
+     ],
+     "note": "The programme has 36 credits (C21); a maximum of 6 credits per semester means six semesters (three years), not two years.",
+     "action": "Correct the duration or the per-semester maximum.",
+     "ref": "F-32",
+     "shot": "content/shots/C20-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "30% for the written test."
+     ],
+     "note": "A 30% weight is given to a 'written test' that is neither listed among the admission criteria nor described.",
+     "action": "Describe the test (content, date, minimum score).",
+     "ref": "F-26",
+     "shot": "content/shots/C20-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall"
+     ],
+     "note": "IELTS 6.5 is paired with TOEFL iBT 83, whereas TOEFL 83 is paired with IELTS 6.0 in the other programmes.",
+     "action": "One concordance table.",
+     "ref": "F-33",
+     "shot": "content/shots/C20-3.jpg",
+     "spelling": []
+    },
+    {
+     "n": 4,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "A minimum (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "The 'Very Good' grade has no numerical value (other programmes state a number).",
+     "action": "State the numerical GPA.",
+     "ref": "F-27",
+     "shot": "content/shots/C20-4.jpg",
+     "spelling": []
+    },
+    {
+     "n": 5,
+     "sev": "L",
+     "kind": "Out of date",
+     "quotes": [
+      "The year 2025 marks another milestone"
+     ],
+     "note": "A statement tied to the year 2025.",
+     "action": "Use time-independent wording.",
+     "ref": "F-41",
+     "shot": "content/shots/C20-5.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C21",
+   "label": "Tuition & Fees",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+   "purpose": "Graduate tuition and fees",
+   "data": [
+    "13 programmes priced in total and per credit hour, for PMU alumni and others",
+    "VAT: 15% on tuition and fees for non-Saudi students; Saudi students pay VAT on fees only"
+   ],
+   "verified": [
+    "Arithmetic check: total price = rate per credit hour × credit hours for EMBA (33), MBA (36), PhD (72), MSME/MSEE/MSCE/MSID (30), EMGMS (30), M.Eng (33) and MA IBL (36) — consistent."
+   ],
+   "dest": {
+    "id": "costs",
+    "title": "Costs & scholarships",
+    "path": "/admissions/costs"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33)",
+      "PRE-Master for Master of Education"
+     ],
+     "note": "Two priced programmes have no admission page among the 36 links.",
+     "action": "Add admission pages or remove the rows if the programmes are not open.",
+     "ref": "F-25",
+     "shot": "content/shots/C21-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Master of Science in Human Development\tSAR 50,000",
+      "Master of Science in Education and Human Development\t1,191 SAR /Credit hour"
+     ],
+     "note": "The same programme appears under two names in the two tables.",
+     "action": "One official name.",
+     "ref": "F-25",
+     "shot": "content/shots/C21-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C22",
+   "label": "Contact Info",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+   "purpose": "Graduate admissions contact",
+   "data": [
+    "Graduate Study Admission Coordinator, office G-017, graduateadm@pmu.edu.sa"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "contact",
+    "title": "Contact & enquiries",
+    "path": "/admissions/contact"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "Only an email address and an office number; no telephone or office hours.",
+     "action": "Single admissions contact component.",
+     "ref": "F-11",
+     "shot": null,
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C23",
+   "label": "Home",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+   "purpose": "Undergraduate admissions home",
+   "data": [
+    "Secondary GPA 80% and Qudrat 60% (or SAT 1)",
+    "60/40 weighting for lower scores",
+    "Application fee SAR 950 incl. VAT",
+    "Day students up to 20 credits; evening students up to 12"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug",
+    "title": "Undergraduate",
+    "path": "/admissions/undergraduate"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "PMU offers various degrees under the College of Architecture and Design, College of Computer Engineering and Science, College of Business Administration, College of Law and College of Engineering."
+     ],
+     "note": "Lists five colleges only, omitting the College of Medicine (described on the same page) and the College of Sciences and Human Studies.",
+     "action": "Generate the list of colleges from the programme register.",
+     "ref": "F-25",
+     "shot": "content/shots/C23-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "College of Medical Admissions"
+     ],
+     "note": "'College of Medical' is incorrect (College of Medicine).",
+     "action": "Correct.",
+     "ref": "F-17",
+     "shot": "content/shots/C23-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Visiting students are students registered in other local or international recognized universities"
+     ],
+     "note": "Here visiting students come from 'local or international' universities; C07 says 'international' only. It should be clear whether local visiting students are accepted.",
+     "action": "One definition.",
+     "ref": "F-35",
+     "shot": "content/shots/C23-3.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C24",
+   "label": "Admission to the College of Medicine",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "purpose": "Admission to the College of Medicine",
+   "data": [
+    "Seven-year programme",
+    "Composite: (20% secondary + 40% Qudrat + 40% Tahseely) × 60% + interview 40%; minimum 86",
+    "Minimums: secondary 95%, Qudrat 80, Tahseely 80",
+    "Application fee SAR 1000 incl. VAT"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_med",
+    "title": "College of Medicine",
+    "path": "/admissions/undergraduate/medicine"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score",
+      "Copy of secondary school certificate or equivalent (95%)"
+     ],
+     "note": "An applicant who meets every published minimum (95/80/80) scores 83, below the stated minimum of 86.",
+     "action": "Publish consistent minimums or a worked example.",
+     "ref": "F-20",
+     "shot": "content/shots/C24-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "The PMU College of Medical curriculum is based on a 7-year hybrid model"
+     ],
+     "note": "The programme is described as seven years, but the curriculum shown stops at Year 6, and the College's academic page states six years.",
+     "action": "College to confirm the duration and publish the total cost.",
+     "ref": "F-23",
+     "shot": "content/shots/C24-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "H",
+     "kind": "Wording / language",
+     "quotes": [
+      "the process typically involves understanding the weighting and criteria that the medical college uses to evaluate applicants",
+      "Population Health (to be developed in launch phase)"
+     ],
+     "note": "Unedited draft text (generic explanatory style) and 'to be developed' placeholders.",
+     "action": "Rewrite the page.",
+     "ref": "F-07",
+     "shot": "content/shots/C24-3.jpg",
+     "spelling": []
+    },
+    {
+     "n": 4,
+     "sev": "M",
+     "kind": "Wording / language",
+     "quotes": [
+      "Biology: One full year (2 courses) of general biology with laboratory."
+     ],
+     "note": "Years 1–2 are described as a list of US-style prerequisites, not as a PMU study plan.",
+     "action": "Describe the curriculum as actually taught.",
+     "ref": "F-39",
+     "shot": "content/shots/C24-4.jpg",
+     "spelling": []
+    },
+    {
+     "n": 5,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [],
+     "note": "The page states neither the English requirement, nor the SAR 20,000 non-refundable seat reservation, nor the programme cost.",
+     "action": "Add complete requirements and a cost block.",
+     "ref": "F-07",
+     "shot": null,
+     "spelling": []
+    },
+    {
+     "n": 6,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 1000 (incl. VAT)"
+     ],
+     "note": "The Medicine application fee is SAR 1000 here and SAR 1,150 on the Medicine fees page.",
+     "action": "One value from Finance.",
+     "ref": "F-03",
+     "shot": "content/shots/C24-6.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C25",
+   "label": "Admissions to the Preparatory Program",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+   "purpose": "Admission to the Preparatory Program",
+   "data": [
+    "Secondary GPA 80% and Qudrat 60%",
+    "Aptis placement test and interview",
+    "Application fee SAR 950 incl. VAT",
+    "Study-skills courses by English level"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_prep",
+    "title": "Preparatory Program",
+    "path": "/admissions/undergraduate/preparatory"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "If employed, a letter of no objection from the employer is required"
+     ],
+     "note": "Content is broadly sound; the duration and cost of the Preparatory Program are not stated.",
+     "action": "Add duration and cost.",
+     "ref": "F-40",
+     "shot": "content/shots/C25-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C26",
+   "label": "Direct Admissions from Secondary School",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+   "purpose": "Direct admission from secondary school",
+   "data": [
+    "Secondary GPA 80%, Qudrat 60%, IELTS 6.0 (5.5 writing)",
+    "60/40 weighting"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_hs",
+    "title": "High-school graduate in KSA",
+    "path": "/admissions/undergraduate/high-school"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Copy of Saudi ID"
+     ],
+     "note": "Only a 'Saudi ID' is requested, without the Iqama option available on the Preparatory and Transfer pages — non-Saudi residents cannot see themselves in this route.",
+     "action": "'National ID or Iqama'.",
+     "ref": "F-13",
+     "shot": "content/shots/C26-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "equivalent TOEFL iBT (Learn more)"
+     ],
+     "note": "The required TOEFL score is not stated on the page (it is in C35: 83/19).",
+     "action": "State the number in place.",
+     "ref": "F-09",
+     "shot": "content/shots/C26-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C27",
+   "label": "Admissions from Other Universities",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+   "purpose": "Transfer admission from another university",
+   "data": [
+    "Cumulative GPA 2.0/4.0",
+    "Last course passed within five years",
+    "Credit-transfer review of at least five weeks",
+    "Application fee SAR 950 incl. VAT"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_transfer",
+    "title": "Transfer",
+    "path": "/admissions/undergraduate/transfer"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents"
+     ],
+     "note": "SAR 950 including VAT here, and SAR 500 excluding VAT on the international page (C07).",
+     "action": "One value per category.",
+     "ref": "F-31",
+     "shot": "content/shots/C27-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "In order to be consider as a transfer candidate"
+     ],
+     "note": "Grammatical error ('to be consider').",
+     "action": "Correct to 'considered'.",
+     "ref": "F-17",
+     "shot": "content/shots/C27-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C28",
+   "label": "Visting Students",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/visiting-student-admission",
+   "purpose": "Visiting-student admission",
+   "data": [
+    "Home-institution approval and college approval",
+    "Application fee SAR 950 incl. VAT"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_visit",
+    "title": "Visiting student",
+    "path": "/admissions/undergraduate/visiting"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "H",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents"
+     ],
+     "note": "SAR 950 including VAT here, and SAR 500 excluding VAT in C07.",
+     "action": "One value per category.",
+     "ref": "F-31",
+     "shot": "content/shots/C28-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Copy of secondary school certificate or equivalent",
+      "Copy of General Aptitude Test score report (Qudrat) or equivalent (SAT 1) - if available"
+     ],
+     "note": "A visiting university student is asked for a secondary-school certificate and an aptitude test — necessity should be confirmed.",
+     "action": "Review the document list.",
+     "ref": "F-35",
+     "shot": "content/shots/C28-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C29",
+   "label": "Admissions from the Preparatory Program",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+   "purpose": "Progression from the Preparatory Program to degree programmes",
+   "data": [
+    "Complete the Preparatory Program, pass the EXIT exam, meet college requirements",
+    "Mathematics courses by college"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_prep",
+    "title": "Preparatory Program",
+    "path": "/admissions/undergraduate/preparatory"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Incorrect information",
+     "quotes": [
+      "* Department of Information Technology is excluded from PRPM 0022",
+      "** Department of Architecture is excluded from PRPM 0012"
+     ],
+     "note": "Footnote markers are swapped: (*) sits on Engineering and Architecture but concerns Information Technology; (**) sits on Computer Engineering & Science but concerns Architecture.",
+     "action": "Correct the footnotes.",
+     "ref": "F-28",
+     "shot": "content/shots/C29-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Successfully pass the EXIT exam"
+     ],
+     "note": "The 'EXIT exam' is not defined (content and passing standard).",
+     "action": "Define the exam.",
+     "ref": "F-28",
+     "shot": "content/shots/C29-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C30",
+   "label": "Computer Science and Engineering Majors Admission Requirements",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+   "purpose": "Specific requirements for Computer Science and Engineering majors",
+   "data": [
+    "General: secondary ≥80 (60%) + Qudrat ≥60 (40%)",
+    "Specific: secondary ≥85 (40%) + Qudrat ≥65 (30%) + Tahseely ≥65 (30%)",
+    "SAT 1 (1200) as the Tahseely alternative"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "ug_hs",
+    "title": "High-school graduate in KSA",
+    "path": "/admissions/undergraduate/high-school"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering."
+     ],
+     "note": "Seven majors carry specific requirements here; the SAT page (C36) adds 'Artificial Intelligence … etc.', and the programme list (C02) includes Chemical Engineering and Cybersecurity without stating their requirements.",
+     "action": "One closed list of majors with specific requirements.",
+     "ref": "F-34",
+     "shot": "content/shots/C30-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "the minimum weighted total, defined by the Admissions Office, should be met."
+     ],
+     "note": "The minimum weighted total is not published.",
+     "action": "Publish the number or state that it varies by intake.",
+     "ref": "F-09",
+     "shot": "content/shots/C30-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Copy of Standard Achievement Admission Test score report (SAAT – Tahseely) or SAT 1 (1200)"
+     ],
+     "note": "The Tahseely alternative is SAT 1200 here and 1300 on the Medicine page.",
+     "action": "Set the official equivalence.",
+     "ref": "F-05",
+     "shot": "content/shots/C30-3.jpg",
+     "spelling": []
+    },
+    {
+     "n": 4,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "may wave one or more"
+     ],
+     "note": "'wave' should read 'waive'.",
+     "action": "Correct.",
+     "ref": "F-17",
+     "shot": "content/shots/C30-4.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C31",
+   "label": "Tuition & Fees",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+   "purpose": "Undergraduate fees (index page)",
+   "data": [
+    "Links to Medical Program fees, Fall 2026/2027, Fall 2025/2026 and Continuing Students 2024–2025"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "costs",
+    "title": "Costs & scholarships",
+    "path": "/admissions/costs"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Out of date",
+     "quotes": [
+      "Fall Semester 2025/2026",
+      "Continuing Students 2024–2025"
+     ],
+     "note": "Three generations of fee schedules are shown with no indication of which is current.",
+     "action": "One current schedule plus a clearly labelled archive.",
+     "ref": "F-10",
+     "shot": "content/shots/C31-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C32",
+   "label": "Overview",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "purpose": "Overview of English-language tests",
+   "data": [
+    "Aptis for placement; IELTS and TOEFL for exemption"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "req",
+    "title": "English & tests",
+    "path": "/admissions/requirements/english-and-tests"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "L",
+     "kind": "Missing information",
+     "quotes": [
+      "Candidates with PMU recognized proficiency English language test certificates"
+     ],
+     "note": "'PMU recognized' is undefined; the page names only IELTS and TOEFL while C19 accepts PTE.",
+     "action": "Publish the list of recognised tests.",
+     "ref": "F-33",
+     "shot": "content/shots/C32-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C33",
+   "label": "Aptis",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+   "purpose": "Aptis placement test",
+   "data": [
+    "Test duration about four hours",
+    "Four placement levels"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "req",
+    "title": "English & tests",
+    "path": "/admissions/requirements/english-and-tests"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Missing information",
+     "quotes": [
+      "Based on candidates overall and writing scores, they will be placed on one of the following levels:"
+     ],
+     "note": "No Aptis score bands are published for the placement levels, whereas IELTS and TOEFL have published tables.",
+     "action": "Publish the Aptis score table.",
+     "ref": "F-09",
+     "shot": "content/shots/C33-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "direct entry into the Core Program"
+     ],
+     "note": "'Core Program' is undefined (other pages say 'degree program').",
+     "action": "Use one term.",
+     "ref": "F-15",
+     "shot": "content/shots/C33-2.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C34",
+   "label": "IELTS",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/admission/ielts-admission",
+   "purpose": "IELTS requirements",
+   "data": [
+    "Core 6.0/5.5; Advanced 5.0/4.5; Intermediate 4.5/4.0; Beginner 4.0/3.5",
+    "Valid for two years to the start of the applied semester"
+   ],
+   "verified": [
+    "Consistent with C26 and C07 (IELTS 6.0 overall, 5.5 writing for direct entry)."
+   ],
+   "dest": {
+    "id": "req",
+    "title": "English & tests",
+    "path": "/admissions/requirements/english-and-tests"
+   },
+   "obs": []
+  },
+  {
+   "id": "C35",
+   "label": "TOEFL",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/admission/toefl-admission",
+   "purpose": "TOEFL iBT requirements",
+   "data": [
+    "Core 83/19; Advanced 63/15; Intermediate 54/13; Beginner 42/11",
+    "ETS institution code 6993"
+   ],
+   "verified": [
+    "The ETS code (6993) was not verified against an ETS source; confirmation is recommended."
+   ],
+   "dest": {
+    "id": "req",
+    "title": "English & tests",
+    "path": "/admissions/requirements/english-and-tests"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Out of date",
+     "quotes": [
+      "TOEFL iBT Overall"
+     ],
+     "note": "The table uses the 0–120 scale only. Since 21 January 2026 ETS reports TOEFL iBT on a 1–6 band scale; the comparable 0–120 score is shown only through January 2028. The page gives no 1–6 thresholds.",
+     "action": "Add the new-scale column once the concordance is approved.",
+     "ref": "F-04",
+     "shot": "content/shots/C35-1.jpg",
+     "spelling": []
+    }
+   ]
+  },
+  {
+   "id": "C36",
+   "label": "Scholastic Aptitude Test (SAT)",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/admission/sat-admission",
+   "purpose": "SAT requirements",
+   "data": [
+    "SAT 1200 instead of Qudrat and Tahseely for international certificates",
+    "Mathematics course waivers by SAT Math score",
+    "College Board code 7647"
+   ],
+   "verified": [],
+   "dest": {
+    "id": "req",
+    "title": "English & tests",
+    "path": "/admissions/requirements/english-and-tests"
+   },
+   "obs": [
+    {
+     "n": 1,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Artificial Intelligence, Mechanical Engineering, Electrical Engineering and Civil Engineering etc."
+     ],
+     "note": "An open list ('etc.') that differs from C30.",
+     "action": "One closed list.",
+     "ref": "F-34",
+     "shot": "content/shots/C36-1.jpg",
+     "spelling": []
+    },
+    {
+     "n": 2,
+     "sev": "M",
+     "kind": "Cross-page conflict",
+     "quotes": [
+      "Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests."
+     ],
+     "note": "1200 replaces both tests here; 1300 replaces Tahseely on the Medicine page; C07 requires SAT I and SAT II.",
+     "action": "One SAT rule per applicant category.",
+     "ref": "F-05",
+     "shot": "content/shots/C36-2.jpg",
+     "spelling": []
+    },
+    {
+     "n": 3,
+     "sev": "L",
+     "kind": "Wording / language",
+     "quotes": [
+      "Introductory Algebra\tWave\tWave"
+     ],
+     "note": "'Wave' should read 'Waive'.",
+     "action": "Correct.",
+     "ref": "F-17",
+     "shot": "content/shots/C36-3.jpg",
+     "spelling": []
+    }
+   ]
+  }
+ ],
+ "matrix": [
+  {
+   "topic": "Application fee",
+   "values": [
+    [
+     "C23, C25, C26, C27, C28, C30",
+     "SAR 950 (incl. VAT)"
+    ],
+    [
+     "C24 (Medicine)",
+     "SAR 1000 (incl. VAT)"
+    ],
+    [
+     "C07 (international transfer/visiting)",
+     "SAR 500 (excl. VAT)"
+    ]
+   ],
+   "sev": "H",
+   "ref": "F-31 + F-03"
+  },
+  {
+   "topic": "GPA descriptor 'Very Good'",
+   "values": [
+    [
+     "C12, C13, C15, C16, C17, C18",
+     "2.50 / 4.00"
+    ],
+    [
+     "C10",
+     "3.00 / 4.00"
+    ],
+    [
+     "C20",
+     "no number"
+    ]
+   ],
+   "sev": "M",
+   "ref": "F-27"
+  },
+  {
+   "topic": "English — graduate",
+   "values": [
+    [
+     "Nine programmes",
+     "IELTS 6.0 (5.5 each skill) or TOEFL iBT 83 (19)"
+    ],
+    [
+     "C20 MA IBL",
+     "IELTS 6.5 or TOEFL iBT 83"
+    ],
+    [
+     "C19 EMGMS",
+     "IELTS 7, TOEFL iBT 79, PTE 60 or CESL"
+    ]
+   ],
+   "sev": "H",
+   "ref": "F-21 + F-33"
+  },
+  {
+   "topic": "SAT alternative",
+   "values": [
+    [
+     "C36",
+     "1200 instead of Qudrat and Tahseely"
+    ],
+    [
+     "C30",
+     "SAT 1 (1200) instead of Tahseely"
+    ],
+    [
+     "C24",
+     "SAT 1 1300 instead of Tahseely"
+    ],
+    [
+     "C07",
+     "SAT I + SAT II"
+    ]
+   ],
+   "sev": "H",
+   "ref": "F-05"
+  },
+  {
+   "topic": "Identity document",
+   "values": [
+    [
+     "C26, C30",
+     "Saudi ID only"
+    ],
+    [
+     "C24, C25, C27, C28",
+     "Saudi ID or Iqama"
+    ],
+    [
+     "C07",
+     "National ID for an applicant without residence"
+    ]
+   ],
+   "sev": "M",
+   "ref": "F-13"
+  },
+  {
+   "topic": "Majors with specific requirements",
+   "values": [
+    [
+     "C30",
+     "seven majors"
+    ],
+    [
+     "C36",
+     "eight + 'etc.'"
+    ],
+    [
+     "C02",
+     "Chemical Engineering and Cybersecurity listed, requirements not stated"
+    ]
+   ],
+   "sev": "M",
+   "ref": "F-34"
+  },
+  {
+   "topic": "Application channel",
+   "values": [
+    [
+     "C03",
+     "Qabool (Saudi) / Study in Saudi — Closed (non-Saudi)"
+    ],
+    [
+     "C06, C08",
+     "PMU portal for all"
+    ],
+    [
+     "C07",
+     "'completed entirely online'"
+    ]
+   ],
+   "sev": "H",
+   "ref": "F-02"
+  },
+  {
+   "topic": "Graduate programme names",
+   "values": [
+    [
+     "C09",
+     "Master of Human Development · Doctorate in ME"
+    ],
+    [
+     "C14",
+     "Master of Science in Human Development"
+    ],
+    [
+     "C21",
+     "… Education and Human Development · Doctoral program"
+    ]
+   ],
+   "sev": "M",
+   "ref": "F-25"
+  },
+  {
+   "topic": "Graduate programme list",
+   "values": [
+    [
+     "Admissions Office page",
+     "11 links"
+    ],
+    [
+     "C09",
+     "10 — without EMGMS"
+    ],
+    [
+     "C21",
+     "12 + Pre-Master"
+    ],
+    [
+     "C07",
+     "3 for international applicants"
+    ]
+   ],
+   "sev": "M",
+   "ref": "F-25"
+  }
+ ],
+ "register": {
+  "F-02": {
+   "id": "F-02",
+   "severity": "Critical",
+   "type": "Verified Conflict",
+   "finding": "The application channel is contradictory. The calendar sends Saudi applicants to Qabool and non-Saudis to Study in Saudi, while other pages send everyone to the PMU portal.",
+   "where": "P14 /admission/admission_calendar_fs_ro · P02 · P04 · P17 · P18 · P19 · P15 portal",
+   "current": "P14: \"For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/\" · \"For non Saudi Students: Apply online through Study in Saudi platform … Closed\". The same page carries two \"Apply Now\" buttons to https://pmu.edu.sa/Apply.",
+   "conflicting": "P18: \"The application process can be completed entirely online\" → pmu.edu.sa/apply. P17 and P19 → http://admissions.pmu.edu.sa/ (“Complete online application”). P03, P04, P06, P07, P09, P14, P17, P19, P28 → ../Admission/Apply_Now_ADS.aspx (→ /admission/apply_now_ads). The hub → https://www.pmu.edu.sa/apply; P02 and P18 → https://pmu.edu.sa/apply. The Medicine academic page (P54) “Apply Now” → the Medicine admission information page, not an application channel. P09 → uap.sa. Live DOM probe 2026-09-27: at least 4 different endpoints behind the same “Apply” label (../evidence/dom-probes-2026-09-27.md).",
+   "screenshot": "S14: \"Apply Now\" button next to the Qabool instruction on the same page. S15: portal \"Register\" with no routing guidance.",
+   "impact": "Applicants may apply on the wrong platform and miss the decision cycle. International applicants are told an online route exists that the calendar marks Closed.",
+   "treatment": "Define one channel per applicant type. Make every Apply CTA a routing step (Saudi / non-Saudi / transfer / graduate).",
+   "owner": "Admissions Director + VP (MoE platform liaison)"
+  },
+  "F-03": {
+   "id": "F-03",
+   "severity": "Critical",
+   "type": "Verified Conflict",
+   "finding": "The Medicine application fee differs by SAR 150 between two official pages.",
+   "where": "P09 /admission/college_of_medicine_admission vs P12 /admission/medical_program_studies_fees_tf_ro",
+   "current": "P09: \"Pay a non-refundable application fee of SAR 1000 (incl. VAT)\".",
+   "conflicting": "P12: \"Medical Application Fee — SAR 1,150 (VAT inclusive)\". P13 (Other Fees) omits a Medicine fee.",
+   "screenshot": "S12 shows \"SAR 1,150 (VAT inclusive)\" directly. The SAR 1000 value is quoted from P09 text (below the screenshot fold).",
+   "impact": "Money charged differs from money advertised, a consumer-protection risk.",
+   "treatment": "Finance confirms the value. Render it from one fee record on both pages.",
+   "owner": "Finance (with Admissions)"
+  },
+  "F-04": {
+   "id": "F-04",
+   "severity": "High",
+   "type": "Verified Conflict + Verified Error",
+   "finding": "English-proficiency thresholds conflict, and one uses a test format retired about 20 years ago.",
+   "where": "P03 vs P04, P06, P07, P17, P20",
+   "current": "P03: exempt with \"TOEFL score of 513 (CBT 183, iBT 65) … or IELTS Band of 5.5 … (5.5 writing)\".",
+   "conflicting": "P04/P06: IELTS 6.0 overall / 5.5 writing for Core/direct entry. P07: TOEFL iBT 83 / writing 19 for Core. P20: \"TOEFL or IELTS of 550\" (no IELTS 550 exists). CBT retired 2006 (X02). TOEFL moved to a 1–6 scale on 21 Jan 2026 (X01).",
+   "screenshot": "S03 (Freshman page identity). Threshold text quoted from P03, P06 and P07.",
+   "impact": "The same applicant is exempt on one page and placed in Prep on another. Prep adds cost (SAR 30,000 per semester, P11).",
+   "treatment": "Publish one threshold table with a 1–6 TOEFL mapping and an effective date. Delete CBT/PBT references.",
+   "owner": "English/Prep Program Director + Admissions Committee"
+  },
+  "F-05": {
+   "id": "F-05",
+   "severity": "High",
+   "type": "Verified Conflict + Verified Error",
+   "finding": "Tahseely equivalence for SAT applicants is stated three ways, one of them impossible.",
+   "where": "P09 · P19 · P18 · P03",
+   "current": "P09: \"Tahseely (80) or equivalent (SAT 1) 1300\".",
+   "conflicting": "P19: \"(SAAT – Tahseely) or SAT 1 (1200)\". P18: \"SAT II 30%\" (Subject Tests discontinued 2021, X06). P28 SAT page: \"SAT with minimum score of 1200 instead of Qudrat and Tahseely tests\". P03 does not mention Tahseely.",
+   "screenshot": "None. Text quoted.",
+   "impact": "International and SAT applicants cannot satisfy or interpret the rule.",
+   "treatment": "Decide the valid Tahseely equivalent and publish it once.",
+   "owner": "Admissions Committee"
+  },
+  "F-07": {
+   "id": "F-07",
+   "severity": "High",
+   "type": "Verified Gap",
+   "finding": "The Medicine admission page omits material commitments and contains unedited draft prose.",
+   "where": "P09 vs P12",
+   "current": "P09 does not mention the SAR 20,000 non-refundable seat reservation, the SAR 75,000 Medical Preparatory year, or any English requirement. It contains: \"the process typically involves understanding the weighting and criteria … Here's how each factor can contribute …\". It also carries \"(to be developed in launch phase)\" twice and the typos \"were 86\" and \"College of Medical\".",
+   "conflicting": "P12 lists the seat reservation (SAR 20,000, non-refundable) and the Medical Prep tuition (SAR 75,000/yr).",
+   "screenshot": "S09 (page identity, \"College of Medical\" wording visible).",
+   "impact": "A high-stakes applicant decision (a non-refundable SAR 20k payment) is made without disclosure on the admission page. The draft text damages institutional credibility.",
+   "treatment": "Rewrite the page from the canonical record. Add a cost-of-attendance block and the English rule.",
+   "owner": "Dean, College of Medicine + Admissions + Finance"
+  },
+  "F-08": {
+   "id": "F-08",
+   "severity": "High",
+   "type": "Verified Gap / Conflict",
+   "finding": "The calendar is stale for the audit date and does not match the portal.",
+   "where": "P14 · P15 · every page footer",
+   "current": "On 2026-09-27, P14 shows only \"Fall 2026-2027\" (classes began 2026-08-30). There is no next-intake status. Results (Jul 19–21) overlap the IELTS/TOEFL and transfer deadline (Jul 20).",
+   "conflicting": "P15 portal: \"No events are currently published.\" Portal banner advertises graduate admission for \"الفصل الدراسي الثاني 2026/2025\" (past, year order reversed). Footer \"Academic Calendar\" → academic_calendar_2021_2022_ro.aspx.",
+   "screenshot": "S14 (calendar), S15 (portal \"No events\" and the banner).",
+   "impact": "Applicants cannot tell whether admissions are open. They get conflicting signals from the site and the portal.",
+   "treatment": "Add an \"intake status\" component driven by the canonical calendar and shown on the site and the portal. Fix the footer link.",
+   "owner": "Admissions Director + IT (portal)"
+  },
+  "F-09": {
+   "id": "F-09",
+   "severity": "High",
+   "type": "Verified Gap",
+   "finding": "Decisive cut-offs are not published.",
+   "where": "P19 · P18 · P04 · P17",
+   "current": "P19: \"the minimum weighted total, defined by the Admissions Office, should be met\". P18: \"Acceptable SAT I\". P04/P17: \"equivalent TOEFL iBT with acceptable scores\".",
+   "conflicting": "P07 gives TOEFL numbers but P04/P17 do not link to them in context.",
+   "screenshot": "None. Text quoted.",
+   "impact": "The admission decision rests on an unpublished number. This is a transparency and appeal risk.",
+   "treatment": "Publish the minimum composite per program, or state explicitly that it varies by cycle, with a date.",
+   "owner": "Admissions Committee"
+  },
+  "F-10": {
+   "id": "F-10",
+   "severity": "Medium",
+   "type": "Structural (SSOT)",
+   "finding": "Fee information is fragmented across generations and entry points.",
+   "where": "P10 · P11 · P12 · P13 · P01/P03",
+   "current": "P10 lists \"Fall Semester 2026/2027\", \"Fall Semester 2025/2026\" and \"Continuing Students 2024–2025\" side by side with no \"current\" label. The hub links Fees_TF_RO.aspx while the Freshman page links Tuition_Fees_RO.aspx.",
+   "conflicting": "P13 has no effective date and omits the Medicine fee. Fees live under the Registration Office breadcrumb, outside the admissions journey.",
+   "screenshot": "None. Text quoted.",
+   "impact": "Applicants may read an outdated schedule.",
+   "treatment": "One fee page per intake, labelled current and past. Archive expired schedules with a clear banner.",
+   "owner": "Finance + Registrar"
+  },
+  "F-11": {
+   "id": "F-11",
+   "severity": "Medium",
+   "type": "Verified Gap",
+   "finding": "Contact routing is broken or misdirected.",
+   "where": "P01 · P02–P20 sidebars · P15 · all footers",
+   "current": "Undergraduate sidebars \"Contact Info\" → Admission_Contact_GDP.aspx (the graduate contact page). Hub \"Contact Us\" → staff directory. Portal \"Contact Admissions\" → the hub, which has no contact details. Footer \"Directory\" and \"SiteMap\" → \"#\".",
+   "conflicting": "P21 and the Web Admission Guide (P55) publish named individual staff phone numbers and emails instead of role mailboxes. The hub \"Contact Us\" opens a Student Affairs staff list with no admissions role (P63). Contact Us lists \"financal_aid@pmu.edu.sa\" (misspelt), while the MOHE PDF uses \"financial_aid@pmu.edu.sa\" (P64/P66). No mailbox is labelled Admissions.",
+   "screenshot": "S01 (hub list).",
+   "impact": "Undergraduate applicants reach graduate staff or dead ends.",
+   "treatment": "One admissions contact component (role mailboxes, phone, hours, query form).",
+   "owner": "Admissions Director + IT"
+  },
+  "F-13": {
+   "id": "F-13",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "Required documents differ by page for the same route.",
+   "where": "P03 · P04 · P17 · P18 · P19 · P09",
+   "current": "P03: \"Original Secondary School Certificate\", \"Saudi ID or Iqama\". P04: \"Copy of secondary school certificate\", \"Copy of Saudi ID\" (no Iqama path). P18: \"Copy of National ID\", certificate \"certified by the Saudi Cultural Mission and Saudi Embassy\".",
+   "conflicting": "P02: international-school transcripts must be MoE-attested, plus an equivalency letter.",
+   "screenshot": "None. Text quoted.",
+   "impact": "Incomplete files and wasted visits.",
+   "treatment": "One document checklist per applicant type, generated from the canonical record.",
+   "owner": "Admissions Director"
+  },
+  "F-15": {
+   "id": "F-15",
+   "severity": "Medium",
+   "type": "UX / IA",
+   "finding": "The information architecture is fragmented.",
+   "where": "P01 · P03 · P04 · P19 · P08",
+   "current": "The hub is a list of about 40 links with no introduction, status or routing. Two templates coexist. Freshman (P03) and Direct Admissions (P04) describe the same route with different rules. The \"Core\" level is never defined. P19 is titled \"CS & Engineering\" but also covers Architecture. P08 prints six raw URLs.",
+   "conflicting": "Breadcrumbs vary (P04 ends \"> Freshman\"; P03 and P20 lack \"Home\").",
+   "screenshot": "S01, S03, S04.",
+   "impact": "Excess navigation, and applicants pick the wrong route.",
+   "treatment": "Restructure (plan §Proposed Structure).",
+   "owner": "Admissions + Communications + IT/Web"
+  },
+  "F-17": {
+   "id": "F-17",
+   "severity": "Low",
+   "type": "Copy quality",
+   "finding": "Typos and grammar errors on policy pages.",
+   "where": "P01 \"Visting Students\" · P19 \"wave\" · P09 \"were 86\", \"College of Medical\" · P17 \"to be consider\" · hub URL \"MIlBL\"",
+   "current": "—",
+   "conflicting": "—",
+   "screenshot": "S01, S09.",
+   "impact": "Reduced credibility.",
+   "treatment": "Editorial QA step in the publishing workflow.",
+   "owner": "Communications"
+  },
+  "F-20": {
+   "id": "F-20",
+   "severity": "High",
+   "type": "Arithmetic contradiction (internal)",
+   "finding": "The Medicine composite minimum cannot be reached at the published component minimums.",
+   "where": "P09 /admission/college_of_medicine_admission",
+   "current": "\"*20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score\". The document list states the minimums \"(95%)\", \"(80)\", \"(80)\".",
+   "conflicting": "Recomputed: 0.2×95 + 0.4×80 + 0.4×80 = 83.0 < 86. A candidate who meets every published minimum still fails the stated composite. To reach 86 with HS 95, Qudrat and Tahseely must average at least 83.75.",
+   "screenshot": "None. Arithmetic on quoted text.",
+   "impact": "Applicants read the component minimums as sufficient when they are not. This misleads eligibility self-assessment.",
+   "treatment": "Publish consistent minimums, or publish the composite as the only binding rule with a worked example.",
+   "owner": "Dean, College of Medicine + Admissions Committee"
+  },
+  "F-21": {
+   "id": "F-21",
+   "severity": "High",
+   "type": "Third-party content + Verified Conflict",
+   "finding": "The EMGMS requirements page contains another university's checklist.",
+   "where": "P43 /admission/admissions_requirements_emgms_gdp",
+   "current": "\"Graduate English Language Endorsement from UA Center for English as Second Language (CESL)\" · \"TOEFL – minimum of 79 iBT (or 60 on the revised PBT…)\" · \"IELTS – minimum composite score of 7, with no subject area below a 6\" · \"Pearson PTE Academic – minimum of 60\".",
+   "conflicting": "X09: CESL is at the University of Arizona, and its endorsement \"is for UA admission only\". Every other PMU graduate page (P34–P42): \"IELTS 6.0 overall and 5.5 in each skill … TOEFL iBT 83 overall and 19 in each skill\".",
+   "screenshot": "None. Text quoted.",
+   "impact": "Wrong thresholds (IELTS 7 vs 6), a pathway PMU applicants cannot use, and reputational exposure.",
+   "treatment": "Withdraw the page, rewrite it from PMU's graduate rule, and confirm program-specific thresholds.",
+   "owner": "Dean, College of Engineering + Graduate Admissions"
+  },
+  "F-23": {
+   "id": "F-23",
+   "severity": "High",
+   "type": "Verified Conflict",
+   "finding": "The Medicine programme duration is stated as 7 years in one place and 6 in another.",
+   "where": "P09 vs P54 /academics/college_of_medicine_udp · P12",
+   "current": "P09: \"The PMU College of Medical curriculum is based on a 7-year hybrid model between the US and KSA medical school structures.\"",
+   "conflicting": "P54: \"Developed in strategic collaboration with the University of Illinois Chicago (UIC), the college features a globally-aligned, 6-year integrated curriculum\". P12 prices a separate \"Medical Preparatory Program\" (SAR 75,000/yr) and \"Medical Program\" (SAR 90,000/yr).",
+   "screenshot": "S09 (P09 identity). P54 text quoted.",
+   "impact": "Duration drives total cost (about SAR 90,000 per year) and the family's decision.",
+   "treatment": "College confirms \"Prep year + 6-year MD/MBBS\" (or otherwise) and publishes the total programme cost.",
+   "owner": "Dean, College of Medicine + Finance"
+  },
+  "F-25": {
+   "id": "F-25",
+   "severity": "Medium",
+   "type": "Catalogue inconsistency",
+   "finding": "The programme catalogue differs across four surfaces.",
+   "where": "P61 Degrees & Programs · P60 List of Majors · P45 Graduate Fees · P01/P33 hubs",
+   "current": "P61 lists no College of Medicine, no EMGMS, no Engineering Innovation/Sustainability/Entrepreneurship programme, and no Pre-Master M.Ed.",
+   "conflicting": "P45 prices \"Master of Engineering in Innovation, Sustainability, and Entrepreneurship\" and \"PRE-Master for Master of Education\". P60 names it \"Master of Science in Engineering Innovation…\" and also omits Medicine. The page footer \"Colleges / Programs\" omits Medicine. MSHD / MSEHD / \"Master of Science in Education and Human Development\" naming drift.",
+   "screenshot": "None.",
+   "impact": "Applicants cannot confirm which programmes are open for admission.",
+   "treatment": "One canonical programme register (status, names AR/EN, college, admission page, fee row).",
+   "owner": "Vice President for Academic Affairs (programme owner) + Admissions"
+  },
+  "F-26": {
+   "id": "F-26",
+   "severity": "Medium",
+   "type": "Verified Gap",
+   "finding": "Admission pages have empty required sections.",
+   "where": "P36 EMBA · P35 PhD-BA · P39 MSME · P44 MA IBL · P25 Prep",
+   "current": "EMBA \"Educational Background:\" and \"Personal Interview:\" are empty. PhD-BA \"Personal Interview:\" is empty. MSME \"Educational Background:\" has only a footnote. MA IBL \"Educational Background:\" and \"English Language Proficiency Test:\" are empty, while it weights \"30% for the written test\" without describing the test. Prep \"Admission Criteria\" list and \"Admission Process\" are empty.",
+   "conflicting": "—",
+   "screenshot": "None. Text quoted.",
+   "impact": "Eligibility cannot be determined for 5 programmes.",
+   "treatment": "Fill these sections from the canonical record. Add a publishing check that blocks empty required fields.",
+   "owner": "Colleges + Graduate Admissions"
+  },
+  "F-27": {
+   "id": "F-27",
+   "severity": "Medium",
+   "type": "Internal inconsistency",
+   "finding": "The same GPA descriptor is attached to different thresholds.",
+   "where": "P37 MBA · P40 MSEE · P41 MSCE · P42 MSID vs P34 PhD-ME",
+   "current": "\"A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good)\"",
+   "conflicting": "P34: \"A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)\"",
+   "screenshot": "None.",
+   "impact": "Ambiguous equivalence for applicants holding 5-point or percentage transcripts.",
+   "treatment": "The Registrar confirms the grading-scale descriptors. Publish a conversion table.",
+   "owner": "Registrar + Graduate Studies"
+  },
+  "F-28": {
+   "id": "F-28",
+   "severity": "Low",
+   "type": "Copy / consistency",
+   "finding": "Prep→UG page: mismatched footnotes and an undefined exit exam.",
+   "where": "P26 /admission/admission-from-the-prep-to-ug-programs",
+   "current": "\"* Department of Information Technology is excluded from PRPM 0022\" (asterisk attached to Engineering and to Architecture & Design) · \" Department of Architecture is excluded from PRPM 0012\" (attached to CCES) · \"Successfully pass the EXIT exam\".",
+   "conflicting": "The EXIT exam is not described anywhere reviewed.",
+   "screenshot": "None.",
+   "impact": "Students misread which maths courses apply.",
+   "treatment": "Correct the footnotes. Define the exit exam and its passing standard.",
+   "owner": "Preparatory Program Director"
+  },
+  "F-31": {
+   "id": "F-31",
+   "severity": "High",
+   "type": "Verified Conflict (money)",
+   "finding": "International transfer and visiting students are quoted two different application fees.",
+   "where": "C07 /admission/international_students (Transfer Students, Visitor Students) vs C27 /admission/admission-from-other-universities · C28 /admission/visiting-student-admission",
+   "current": "C07 (transfer and visitor): \"Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents\".",
+   "conflicting": "C27 and C28: \"Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents\".",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-1.jpg, ../remediation/linkaudit/content/shots/C27-1.jpg, ../remediation/linkaudit/content/shots/C28-1.jpg: each fee line highlighted in place.",
+   "impact": "The same applicant is told two amounts (SAR 500 + VAT vs SAR 950 incl. VAT) and cannot tell which will be charged.",
+   "treatment": "Finance confirms one fee per applicant category. Publish it from the canonical fee record on every route page.",
+   "owner": "Finance + Admissions Director"
+  },
+  "F-32": {
+   "id": "F-32",
+   "severity": "High",
+   "type": "Arithmetic contradiction (internal)",
+   "finding": "The MA in International Business Law cannot be completed in the stated time at the stated load.",
+   "where": "C20 /admission/admissions_requirements_milbl_gdp · C21 /admission/post_graduate_fees_tf_ro",
+   "current": "C20: \"Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)\".",
+   "conflicting": "C21: \"Master of Arts in International Business Law (36)\". 36 credits at a maximum of 6 per semester = 6 semesters (3 academic years), not two.",
+   "screenshot": "../remediation/linkaudit/content/shots/C20-1.jpg: the sentence highlighted.",
+   "impact": "Applicants plan time, employment and cost on a duration the programme cannot deliver.",
+   "treatment": "College of Law confirms the credit total, per-semester maximum and normal duration. Publish consistent figures.",
+   "owner": "Dean, College of Law + Graduate Studies"
+  },
+  "F-33": {
+   "id": "F-33",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "The English-test equivalence and the list of recognised tests are not defined consistently.",
+   "where": "C20 (MA IBL) vs the other graduate pages · C32 /admission/overview-undergraduate-placement-tests vs C19 (EMGMS)",
+   "current": "C20: \"minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall\".",
+   "conflicting": "Nine other graduate pages treat TOEFL iBT 83 as equivalent to IELTS 6.0. C32 refers to \"PMU recognized proficiency English language test certificates\" and names only IELTS and TOEFL, while C19 also accepts Pearson PTE (see F-21).",
+   "screenshot": "../remediation/linkaudit/content/shots/C20-3.jpg, ../remediation/linkaudit/content/shots/C32-1.jpg.",
+   "impact": "The same TOEFL score is equivalent to two different IELTS bands. Applicants cannot tell which tests are accepted.",
+   "treatment": "Publish one concordance table (IELTS / TOEFL iBT 1–6 and 0–120 / others) and a closed list of recognised tests, with an effective date.",
+   "owner": "English/Prep Program Director + Graduate Studies"
+  },
+  "F-34": {
+   "id": "F-34",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "The majors that carry specific (higher) admission requirements are listed differently.",
+   "where": "C30 /admission/admissions_requirements_cs_eng_majors · C36 /admission/sat-admission · C02 /admission/degrees_programs_fs_ro",
+   "current": "C30: \"These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering.\"",
+   "conflicting": "C36 adds \"Artificial Intelligence\" and ends the list with \"etc.\". C02 lists \"B.S. in Chemical Engineering\" and \"B.S. in Cybersecurity\", which neither list mentions.",
+   "screenshot": "../remediation/linkaudit/content/shots/C30-1.jpg, ../remediation/linkaudit/content/shots/C36-1.jpg.",
+   "impact": "Applicants to AI, Chemical Engineering or Cybersecurity cannot tell whether Tahseely and the higher thresholds apply.",
+   "treatment": "Publish one closed list of majors with specific requirements, generated from the programme register.",
+   "owner": "Admissions Committee + Colleges"
+  },
+  "F-35": {
+   "id": "F-35",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "Visiting-student eligibility and documents are defined inconsistently.",
+   "where": "C23 /admission/undergraduate_programs_admission · C28 /admission/visiting-student-admission · C07",
+   "current": "C23 and C28: \"Visiting students are students registered in other local or international recognized universities\".",
+   "conflicting": "C07: \"registered in other international recognized universities\". C28 also asks a university student for \"Copy of secondary school certificate or equivalent\" and \"Copy of General Aptitude Test score report (Qudrat) or equivalent (SAT 1) - if available\".",
+   "screenshot": "../remediation/linkaudit/content/shots/C23-3.jpg, ../remediation/linkaudit/content/shots/C28-2.jpg.",
+   "impact": "Local visiting students may assume they are excluded. Applicants gather documents that may not be needed.",
+   "treatment": "Define visiting-student eligibility once. Confirm the minimum document set.",
+   "owner": "Registrar + Admissions Director"
+  },
+  "F-36": {
+   "id": "F-36",
+   "severity": "Medium",
+   "type": "Wording error (eligibility)",
+   "finding": "The PhD in Business Administration eligibility rule says the opposite of what it intends.",
+   "where": "C11 /admission/admissions_requirements_phdba_gdp",
+   "current": "\"Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA\"",
+   "conflicting": "The context (a bridging requirement for non-business master's holders) requires *is from another discipline*. The two GPA conditions (3.00 cumulative vs 3.20 in \"an applicable master's degree program\") are not assigned to cases.",
+   "screenshot": "../remediation/linkaudit/content/shots/C11-1.jpg.",
+   "impact": "An eligibility rule for a SAR 150,000 programme can be read two ways.",
+   "treatment": "Rewrite the rule as a table: applicant background → bridging courses → minimum GPA.",
+   "owner": "Dean, College of Business Administration"
+  },
+  "F-37": {
+   "id": "F-37",
+   "severity": "Medium",
+   "type": "Claim needing verification",
+   "finding": "Accreditation and quality claims are imprecise or unsourced.",
+   "where": "C11 · C01 /admission/future_students_ro",
+   "current": "C11: \"The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide.\"",
+   "conflicting": "AACSB accredits business schools (institution level), and fewer than 6% of business schools hold it (AACSB’s own wording); it is not a programme ranking (X10, aacsb.edu). C01: \"Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA\" and \"reviewed and verified by around 70 multinational academic and industrial experts\". No date or source is given, and the accrediting \"prestigious national and international organizations\" are not named.",
+   "screenshot": "../remediation/linkaudit/content/shots/C11-2.jpg, ../remediation/linkaudit/content/shots/C01-1.jpg.",
+   "impact": "Overstated or unverifiable claims expose the University to credibility and consumer-protection risk.",
+   "treatment": "State accreditations precisely (body, scope, date) with a link to the accreditor's register. Remove unsourced figures.",
+   "owner": "Quality Assurance + College of Business Administration + Communications"
+  },
+  "F-38": {
+   "id": "F-38",
+   "severity": "Medium",
+   "type": "Verified Gap",
+   "finding": "Graduate programme coverage is incomplete on the entry pages.",
+   "where": "C07 (Graduate Studies section) · C09 /admission/admission_graduate_degree_programs",
+   "current": "C07 lists only \"MBA\", \"MSHD\" and \"MSME\" for international graduate applicants.",
+   "conflicting": "The hub links 11 graduate programmes. On C09, MSCE, MSEE and MSID show \"Application Form\" without a link, while the other programmes have one.",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-5.jpg, ../remediation/linkaudit/content/shots/C09-3.jpg.",
+   "impact": "International applicants may conclude that only three programmes are open to them. Some applicants have no form link.",
+   "treatment": "Generate both lists from the programme register, including status and eligibility for international applicants.",
+   "owner": "Graduate Studies + International Admissions"
+  },
+  "F-39": {
+   "id": "F-39",
+   "severity": "Medium",
+   "type": "Content accuracy",
+   "finding": "The Medicine curriculum for Years 1–2 is written as a list of US pre-medical prerequisites, not as a PMU curriculum.",
+   "where": "C24 /admission/college_of_medicine_admission",
+   "current": "\"Biology: One full year (2 courses) of general biology with laboratory.\" (similar lines for chemistry, organic chemistry, physics and behavioural science)",
+   "conflicting": "The phrasing (*One full year (2 courses) of …*) describes prerequisites for entering a medical school. It does not describe courses taken at PMU (see also F-07 and F-23).",
+   "screenshot": "../remediation/linkaudit/content/shots/C24-4.jpg.",
+   "impact": "Applicants cannot tell what they will study in Years 1–2 or whether prior coursework is expected.",
+   "treatment": "College of Medicine rewrites the curriculum section from its approved study plan.",
+   "owner": "Dean, College of Medicine"
+  },
+  "F-40": {
+   "id": "F-40",
+   "severity": "Low",
+   "type": "Verified Gap",
+   "finding": "Programme and route pages omit core facts: credit hours, duration, cost and deadlines.",
+   "where": "C10 (PhD-ME) · C14 (MSHD) · C25 (Preparatory Program)",
+   "current": "C10 and C14 give no credit total, duration, fee or deadline. C25 states no duration or cost of the Preparatory Program.",
+   "conflicting": "C21 prices the PhD-ME at \"(72)\" credits and SAR 150,000; the MSHD fee implies 42 credits (SAR 50,000 ÷ 1,191), but no page states it.",
+   "screenshot": "— (absence)",
+   "impact": "Applicants must combine several pages to learn basic facts.",
+   "treatment": "Add a standard \"programme facts\" block (credits, duration, mode, cost, next intake) to every programme page.",
+   "owner": "Graduate Studies + Preparatory Program"
+  },
+  "F-41": {
+   "id": "F-41",
+   "severity": "Low",
+   "type": "Stale / launch-era wording",
+   "finding": "Launch-era and time-bound wording leaves the programme status unclear.",
+   "where": "C16 (MSEE) · C17 (MSCE) · C18 (MSID) · C20 (MA IBL)",
+   "current": "C16 and C17: \"The program will be offered under the College of Engineering.\" C18: \"The Department of Interior Design at PMU will educate tomorrow’s interior design leaders\". C20: \"The year 2025 marks another milestone\".",
+   "conflicting": "C21 prices all four programmes as current.",
+   "screenshot": "../remediation/linkaudit/content/shots/C16-1.jpg, ../remediation/linkaudit/content/shots/C17-1.jpg, ../remediation/linkaudit/content/shots/C18-1.jpg, ../remediation/linkaudit/content/shots/C20-5.jpg.",
+   "impact": "Applicants cannot tell whether these programmes are open for admission.",
+   "treatment": "Show the admission status per programme. Rewrite the text in the present tense.",
+   "owner": "Graduate Studies + Colleges"
+  },
+  "F-42": {
+   "id": "F-42",
+   "severity": "Low",
+   "type": "Consistency",
+   "finding": "Graduate requirement wording is inconsistent within and across pages.",
+   "where": "C12 (EMBA) · C13 (MBA)",
+   "current": "C12: \"Successful candidates should have from three to five years of professional work experience\" and, on the same page, \"Participants are required to have several years of work experience\".",
+   "conflicting": "C13 lists no supporting documents (no references, statement or CV), unlike every other graduate page. It is unconfirmed whether none are required.",
+   "screenshot": "../remediation/linkaudit/content/shots/C12-2.jpg.",
+   "impact": "Candidates with more than five years' experience may think they are excluded. MBA applicants may submit incomplete files.",
+   "treatment": "State *at least three years*. Confirm the MBA document list.",
+   "owner": "College of Business Administration"
+  },
+  "F-43": {
+   "id": "F-43",
+   "severity": "Low",
+   "type": "Verified Gap",
+   "finding": "Placeholder and empty sections remain on applicant pages.",
+   "where": "C07 · C03 /admission/admission_calendar_fs_ro",
+   "current": "C07: the \"Transportation\" section has a heading and no content. Its Housing text is in the future tense (\"will be located\"). C03: \"Orientation for new applicants\tTBA\", although classes began on 2026-08-30.",
+   "conflicting": "—",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-6.jpg, ../remediation/linkaudit/content/shots/C03-4.jpg.",
+   "impact": "Applicants see unfinished information on relocation and orientation.",
+   "treatment": "Complete these sections or remove them. Add a pre-publication check for empty sections.",
+   "owner": "International Admissions + Student Affairs"
+  },
+  "F-44": {
+   "id": "F-44",
+   "severity": "Low",
+   "type": "Content visibility",
+   "finding": "Information is hidden from applicants or left in page code.",
+   "where": "C02 /admission/degrees_programs_fs_ro · C07",
+   "current": "C02 shows only \"Undergraduate Programs\" and \"Graduate Programs\" until the collapsed lists are opened, and the page code keeps a hidden Master of LAW entry. C07 holds international payment instructions, including bank details, only inside page code that is not displayed (not reproduced in this audit).",
+   "conflicting": "—",
+   "screenshot": "../remediation/linkaudit/content/shots/C02-2.jpg, ../remediation/linkaudit/content/shots/C07-7.jpg.",
+   "impact": "Applicants do not see the programme list or the payment method. Hidden legacy entries can resurface.",
+   "treatment": "Show the programme list openly. Decide whether to publish official payment instructions, and remove leftover code.",
+   "owner": "Admissions + IT/Web + Finance"
+  },
+  "F-45": {
+   "id": "F-45",
+   "severity": "Low",
+   "type": "Service information",
+   "finding": "The admission query form sets no response-time expectation and offers no alternative channel.",
+   "where": "C05 /admission/admissions_queries",
+   "current": "The form collects name, email, mobile and query. It does not state when a reply can be expected or give a direct phone or email alternative.",
+   "conflicting": "—",
+   "screenshot": "— (absence)",
+   "impact": "Applicants cannot tell when to follow up, especially near deadlines.",
+   "treatment": "State the service standard (e.g. reply within N working days) and link the admissions contact component (F-11).",
+   "owner": "Admissions Director"
+  }
+ },
+ "new": [
+  {
+   "id": "F-31",
+   "severity": "High",
+   "type": "Verified Conflict (money)",
+   "finding": "International transfer and visiting students are quoted two different application fees.",
+   "where": "C07 /admission/international_students (Transfer Students, Visitor Students) vs C27 /admission/admission-from-other-universities · C28 /admission/visiting-student-admission",
+   "current": "C07 (transfer and visitor): \"Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents\".",
+   "conflicting": "C27 and C28: \"Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents\".",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-1.jpg, ../remediation/linkaudit/content/shots/C27-1.jpg, ../remediation/linkaudit/content/shots/C28-1.jpg: each fee line highlighted in place.",
+   "impact": "The same applicant is told two amounts (SAR 500 + VAT vs SAR 950 incl. VAT) and cannot tell which will be charged.",
+   "treatment": "Finance confirms one fee per applicant category. Publish it from the canonical fee record on every route page.",
+   "owner": "Finance + Admissions Director"
+  },
+  {
+   "id": "F-32",
+   "severity": "High",
+   "type": "Arithmetic contradiction (internal)",
+   "finding": "The MA in International Business Law cannot be completed in the stated time at the stated load.",
+   "where": "C20 /admission/admissions_requirements_milbl_gdp · C21 /admission/post_graduate_fees_tf_ro",
+   "current": "C20: \"Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)\".",
+   "conflicting": "C21: \"Master of Arts in International Business Law (36)\". 36 credits at a maximum of 6 per semester = 6 semesters (3 academic years), not two.",
+   "screenshot": "../remediation/linkaudit/content/shots/C20-1.jpg: the sentence highlighted.",
+   "impact": "Applicants plan time, employment and cost on a duration the programme cannot deliver.",
+   "treatment": "College of Law confirms the credit total, per-semester maximum and normal duration. Publish consistent figures.",
+   "owner": "Dean, College of Law + Graduate Studies"
+  },
+  {
+   "id": "F-33",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "The English-test equivalence and the list of recognised tests are not defined consistently.",
+   "where": "C20 (MA IBL) vs the other graduate pages · C32 /admission/overview-undergraduate-placement-tests vs C19 (EMGMS)",
+   "current": "C20: \"minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall\".",
+   "conflicting": "Nine other graduate pages treat TOEFL iBT 83 as equivalent to IELTS 6.0. C32 refers to \"PMU recognized proficiency English language test certificates\" and names only IELTS and TOEFL, while C19 also accepts Pearson PTE (see F-21).",
+   "screenshot": "../remediation/linkaudit/content/shots/C20-3.jpg, ../remediation/linkaudit/content/shots/C32-1.jpg.",
+   "impact": "The same TOEFL score is equivalent to two different IELTS bands. Applicants cannot tell which tests are accepted.",
+   "treatment": "Publish one concordance table (IELTS / TOEFL iBT 1–6 and 0–120 / others) and a closed list of recognised tests, with an effective date.",
+   "owner": "English/Prep Program Director + Graduate Studies"
+  },
+  {
+   "id": "F-34",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "The majors that carry specific (higher) admission requirements are listed differently.",
+   "where": "C30 /admission/admissions_requirements_cs_eng_majors · C36 /admission/sat-admission · C02 /admission/degrees_programs_fs_ro",
+   "current": "C30: \"These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering.\"",
+   "conflicting": "C36 adds \"Artificial Intelligence\" and ends the list with \"etc.\". C02 lists \"B.S. in Chemical Engineering\" and \"B.S. in Cybersecurity\", which neither list mentions.",
+   "screenshot": "../remediation/linkaudit/content/shots/C30-1.jpg, ../remediation/linkaudit/content/shots/C36-1.jpg.",
+   "impact": "Applicants to AI, Chemical Engineering or Cybersecurity cannot tell whether Tahseely and the higher thresholds apply.",
+   "treatment": "Publish one closed list of majors with specific requirements, generated from the programme register.",
+   "owner": "Admissions Committee + Colleges"
+  },
+  {
+   "id": "F-35",
+   "severity": "Medium",
+   "type": "Verified Conflict",
+   "finding": "Visiting-student eligibility and documents are defined inconsistently.",
+   "where": "C23 /admission/undergraduate_programs_admission · C28 /admission/visiting-student-admission · C07",
+   "current": "C23 and C28: \"Visiting students are students registered in other local or international recognized universities\".",
+   "conflicting": "C07: \"registered in other international recognized universities\". C28 also asks a university student for \"Copy of secondary school certificate or equivalent\" and \"Copy of General Aptitude Test score report (Qudrat) or equivalent (SAT 1) - if available\".",
+   "screenshot": "../remediation/linkaudit/content/shots/C23-3.jpg, ../remediation/linkaudit/content/shots/C28-2.jpg.",
+   "impact": "Local visiting students may assume they are excluded. Applicants gather documents that may not be needed.",
+   "treatment": "Define visiting-student eligibility once. Confirm the minimum document set.",
+   "owner": "Registrar + Admissions Director"
+  },
+  {
+   "id": "F-36",
+   "severity": "Medium",
+   "type": "Wording error (eligibility)",
+   "finding": "The PhD in Business Administration eligibility rule says the opposite of what it intends.",
+   "where": "C11 /admission/admissions_requirements_phdba_gdp",
+   "current": "\"Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA\"",
+   "conflicting": "The context (a bridging requirement for non-business master's holders) requires *is from another discipline*. The two GPA conditions (3.00 cumulative vs 3.20 in \"an applicable master's degree program\") are not assigned to cases.",
+   "screenshot": "../remediation/linkaudit/content/shots/C11-1.jpg.",
+   "impact": "An eligibility rule for a SAR 150,000 programme can be read two ways.",
+   "treatment": "Rewrite the rule as a table: applicant background → bridging courses → minimum GPA.",
+   "owner": "Dean, College of Business Administration"
+  },
+  {
+   "id": "F-37",
+   "severity": "Medium",
+   "type": "Claim needing verification",
+   "finding": "Accreditation and quality claims are imprecise or unsourced.",
+   "where": "C11 · C01 /admission/future_students_ro",
+   "current": "C11: \"The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide.\"",
+   "conflicting": "AACSB accredits business schools (institution level), and fewer than 6% of business schools hold it (AACSB’s own wording); it is not a programme ranking (X10, aacsb.edu). C01: \"Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA\" and \"reviewed and verified by around 70 multinational academic and industrial experts\". No date or source is given, and the accrediting \"prestigious national and international organizations\" are not named.",
+   "screenshot": "../remediation/linkaudit/content/shots/C11-2.jpg, ../remediation/linkaudit/content/shots/C01-1.jpg.",
+   "impact": "Overstated or unverifiable claims expose the University to credibility and consumer-protection risk.",
+   "treatment": "State accreditations precisely (body, scope, date) with a link to the accreditor's register. Remove unsourced figures.",
+   "owner": "Quality Assurance + College of Business Administration + Communications"
+  },
+  {
+   "id": "F-38",
+   "severity": "Medium",
+   "type": "Verified Gap",
+   "finding": "Graduate programme coverage is incomplete on the entry pages.",
+   "where": "C07 (Graduate Studies section) · C09 /admission/admission_graduate_degree_programs",
+   "current": "C07 lists only \"MBA\", \"MSHD\" and \"MSME\" for international graduate applicants.",
+   "conflicting": "The hub links 11 graduate programmes. On C09, MSCE, MSEE and MSID show \"Application Form\" without a link, while the other programmes have one.",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-5.jpg, ../remediation/linkaudit/content/shots/C09-3.jpg.",
+   "impact": "International applicants may conclude that only three programmes are open to them. Some applicants have no form link.",
+   "treatment": "Generate both lists from the programme register, including status and eligibility for international applicants.",
+   "owner": "Graduate Studies + International Admissions"
+  },
+  {
+   "id": "F-39",
+   "severity": "Medium",
+   "type": "Content accuracy",
+   "finding": "The Medicine curriculum for Years 1–2 is written as a list of US pre-medical prerequisites, not as a PMU curriculum.",
+   "where": "C24 /admission/college_of_medicine_admission",
+   "current": "\"Biology: One full year (2 courses) of general biology with laboratory.\" (similar lines for chemistry, organic chemistry, physics and behavioural science)",
+   "conflicting": "The phrasing (*One full year (2 courses) of …*) describes prerequisites for entering a medical school. It does not describe courses taken at PMU (see also F-07 and F-23).",
+   "screenshot": "../remediation/linkaudit/content/shots/C24-4.jpg.",
+   "impact": "Applicants cannot tell what they will study in Years 1–2 or whether prior coursework is expected.",
+   "treatment": "College of Medicine rewrites the curriculum section from its approved study plan.",
+   "owner": "Dean, College of Medicine"
+  },
+  {
+   "id": "F-40",
+   "severity": "Low",
+   "type": "Verified Gap",
+   "finding": "Programme and route pages omit core facts: credit hours, duration, cost and deadlines.",
+   "where": "C10 (PhD-ME) · C14 (MSHD) · C25 (Preparatory Program)",
+   "current": "C10 and C14 give no credit total, duration, fee or deadline. C25 states no duration or cost of the Preparatory Program.",
+   "conflicting": "C21 prices the PhD-ME at \"(72)\" credits and SAR 150,000; the MSHD fee implies 42 credits (SAR 50,000 ÷ 1,191), but no page states it.",
+   "screenshot": "— (absence)",
+   "impact": "Applicants must combine several pages to learn basic facts.",
+   "treatment": "Add a standard \"programme facts\" block (credits, duration, mode, cost, next intake) to every programme page.",
+   "owner": "Graduate Studies + Preparatory Program"
+  },
+  {
+   "id": "F-41",
+   "severity": "Low",
+   "type": "Stale / launch-era wording",
+   "finding": "Launch-era and time-bound wording leaves the programme status unclear.",
+   "where": "C16 (MSEE) · C17 (MSCE) · C18 (MSID) · C20 (MA IBL)",
+   "current": "C16 and C17: \"The program will be offered under the College of Engineering.\" C18: \"The Department of Interior Design at PMU will educate tomorrow’s interior design leaders\". C20: \"The year 2025 marks another milestone\".",
+   "conflicting": "C21 prices all four programmes as current.",
+   "screenshot": "../remediation/linkaudit/content/shots/C16-1.jpg, ../remediation/linkaudit/content/shots/C17-1.jpg, ../remediation/linkaudit/content/shots/C18-1.jpg, ../remediation/linkaudit/content/shots/C20-5.jpg.",
+   "impact": "Applicants cannot tell whether these programmes are open for admission.",
+   "treatment": "Show the admission status per programme. Rewrite the text in the present tense.",
+   "owner": "Graduate Studies + Colleges"
+  },
+  {
+   "id": "F-42",
+   "severity": "Low",
+   "type": "Consistency",
+   "finding": "Graduate requirement wording is inconsistent within and across pages.",
+   "where": "C12 (EMBA) · C13 (MBA)",
+   "current": "C12: \"Successful candidates should have from three to five years of professional work experience\" and, on the same page, \"Participants are required to have several years of work experience\".",
+   "conflicting": "C13 lists no supporting documents (no references, statement or CV), unlike every other graduate page. It is unconfirmed whether none are required.",
+   "screenshot": "../remediation/linkaudit/content/shots/C12-2.jpg.",
+   "impact": "Candidates with more than five years' experience may think they are excluded. MBA applicants may submit incomplete files.",
+   "treatment": "State *at least three years*. Confirm the MBA document list.",
+   "owner": "College of Business Administration"
+  },
+  {
+   "id": "F-43",
+   "severity": "Low",
+   "type": "Verified Gap",
+   "finding": "Placeholder and empty sections remain on applicant pages.",
+   "where": "C07 · C03 /admission/admission_calendar_fs_ro",
+   "current": "C07: the \"Transportation\" section has a heading and no content. Its Housing text is in the future tense (\"will be located\"). C03: \"Orientation for new applicants\tTBA\", although classes began on 2026-08-30.",
+   "conflicting": "—",
+   "screenshot": "../remediation/linkaudit/content/shots/C07-6.jpg, ../remediation/linkaudit/content/shots/C03-4.jpg.",
+   "impact": "Applicants see unfinished information on relocation and orientation.",
+   "treatment": "Complete these sections or remove them. Add a pre-publication check for empty sections.",
+   "owner": "International Admissions + Student Affairs"
+  },
+  {
+   "id": "F-44",
+   "severity": "Low",
+   "type": "Content visibility",
+   "finding": "Information is hidden from applicants or left in page code.",
+   "where": "C02 /admission/degrees_programs_fs_ro · C07",
+   "current": "C02 shows only \"Undergraduate Programs\" and \"Graduate Programs\" until the collapsed lists are opened, and the page code keeps a hidden Master of LAW entry. C07 holds international payment instructions, including bank details, only inside page code that is not displayed (not reproduced in this audit).",
+   "conflicting": "—",
+   "screenshot": "../remediation/linkaudit/content/shots/C02-2.jpg, ../remediation/linkaudit/content/shots/C07-7.jpg.",
+   "impact": "Applicants do not see the programme list or the payment method. Hidden legacy entries can resurface.",
+   "treatment": "Show the programme list openly. Decide whether to publish official payment instructions, and remove leftover code.",
+   "owner": "Admissions + IT/Web + Finance"
+  },
+  {
+   "id": "F-45",
+   "severity": "Low",
+   "type": "Service information",
+   "finding": "The admission query form sets no response-time expectation and offers no alternative channel.",
+   "where": "C05 /admission/admissions_queries",
+   "current": "The form collects name, email, mobile and query. It does not state when a reply can be expected or give a direct phone or email alternative.",
+   "conflicting": "—",
+   "screenshot": "— (absence)",
+   "impact": "Applicants cannot tell when to follow up, especially near deadlines.",
+   "treatment": "State the service standard (e.g. reply within N working days) and link the admissions contact component (F-11).",
+   "owner": "Admissions Director"
+  }
+ ],
+ "sitemap": [
+  {
+   "id": "home",
+   "title": "Admissions (home)",
+   "path": "/admissions",
+   "links": [
+    "C01"
+   ]
+  },
+  {
+   "id": "ug",
+   "title": "Undergraduate",
+   "path": "/admissions/undergraduate",
+   "links": [
+    "C23"
+   ]
+  },
+  {
+   "id": "ug_hs",
+   "title": "High-school graduate in KSA",
+   "path": "/admissions/undergraduate/high-school",
+   "links": [
+    "C26",
+    "C30"
+   ]
+  },
+  {
+   "id": "ug_intl",
+   "title": "International (no Saudi residence)",
+   "path": "/admissions/undergraduate/international",
+   "links": [
+    "C07"
+   ]
+  },
+  {
+   "id": "ug_transfer",
+   "title": "Transfer",
+   "path": "/admissions/undergraduate/transfer",
+   "links": [
+    "C27"
+   ]
+  },
+  {
+   "id": "ug_med",
+   "title": "College of Medicine",
+   "path": "/admissions/undergraduate/medicine",
+   "links": [
+    "C24"
+   ]
+  },
+  {
+   "id": "ug_prep",
+   "title": "Preparatory Program",
+   "path": "/admissions/undergraduate/preparatory",
+   "links": [
+    "C25",
+    "C29"
+   ]
+  },
+  {
+   "id": "ug_visit",
+   "title": "Visiting student",
+   "path": "/admissions/undergraduate/visiting",
+   "links": [
+    "C28"
+   ]
+  },
+  {
+   "id": "grad",
+   "title": "Graduate",
+   "path": "/admissions/graduate",
+   "links": [
+    "C09"
+   ]
+  },
+  {
+   "id": "grad_prog",
+   "title": "Programme page (one template × 11)",
+   "path": "/admissions/graduate/{programme}",
+   "links": [
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+   ]
+  },
+  {
+   "id": "req",
+   "title": "English & tests",
+   "path": "/admissions/requirements/english-and-tests",
+   "links": [
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36"
+   ]
+  },
+  {
+   "id": "costs",
+   "title": "Costs & scholarships",
+   "path": "/admissions/costs",
+   "links": [
+    "C21",
+    "C31"
+   ]
+  },
+  {
+   "id": "dates",
+   "title": "Dates & cycle status",
+   "path": "/admissions/dates",
+   "links": [
+    "C03"
+   ]
+  },
+  {
+   "id": "apply",
+   "title": "Apply now (channel router)",
+   "path": "/admissions/apply",
+   "links": [
+    "C06",
+    "C08"
+   ]
+  },
+  {
+   "id": "programs",
+   "title": "Programme finder",
+   "path": "/admissions/programs",
+   "links": [
+    "C02"
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact & enquiries",
+   "path": "/admissions/contact",
+   "links": [
+    "C04",
+    "C05",
+    "C22"
+   ]
+  },
+  {
+   "id": "archive",
+   "title": "Archive (not indexed)",
+   "path": "/admissions/archive",
+   "links": []
+  }
+ ],
+ "sources": [
+  [
+   "X01",
+   "ETS — TOEFL iBT score scale update (1–6 band scale from 21 January 2026)",
+   "https://www.ets.org/toefl/institutions/ibt/score-scale-update.html"
+  ],
+  [
+   "X06",
+   "College Board — SAT Subject Tests discontinued (January 2021)",
+   "https://blog.collegeboard.org/what-were-sat-subject-tests"
+  ],
+  [
+   "X09",
+   "University of Arizona CESL — Graduate English Endorsement ('for UA admission only')",
+   "https://cesl.arizona.edu/endorsement"
+  ],
+  [
+   "X10",
+   "AACSB — The value of accreditation (fewer than 6% of business schools)",
+   "https://www.aacsb.edu/educators/accreditation/value-of-accreditation"
+  ]
+ ]
+}

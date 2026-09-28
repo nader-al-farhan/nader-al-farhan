@@ -1,0 +1,1975 @@
+{
+ "scope": "content only — 36 links on https://pmu.edu.sa/admission/admission",
+ "run_at": "2026-09-28",
+ "summary": {
+  "links": 36,
+  "issues": 80,
+  "severity": {
+   "منخفضة": 26,
+   "متوسطة": 39,
+   "عالية": 15
+  },
+  "new": 30,
+  "existing_refs": [
+   "F-02",
+   "F-03",
+   "F-04",
+   "F-05",
+   "F-07",
+   "F-08",
+   "F-09",
+   "F-10",
+   "F-11",
+   "F-13",
+   "F-15",
+   "F-17",
+   "F-20",
+   "F-21",
+   "F-23",
+   "F-25",
+   "F-26",
+   "F-27",
+   "F-28",
+   "F-31",
+   "F-32",
+   "F-33",
+   "F-34",
+   "F-35",
+   "F-36",
+   "F-37",
+   "F-38",
+   "F-39",
+   "F-40",
+   "F-41",
+   "F-42",
+   "F-43",
+   "F-44",
+   "F-45"
+  ],
+  "verbatim_quotes": 91
+ },
+ "matrix": [
+  {
+   "topic": "رسوم طلب القبول",
+   "values": [
+    {
+     "where": "C23,C25,C26,C27,C28,C30",
+     "value": "SAR 950 (incl. VAT)"
+    },
+    {
+     "where": "C24 (الطب)",
+     "value": "SAR 1000 (incl. VAT)"
+    },
+    {
+     "where": "C07 (محوّل/زائر دولي)",
+     "value": "SAR 500 (excl. VAT)"
+    }
+   ],
+   "severity": "H",
+   "ref": "F-31 + F-03"
+  },
+  {
+   "topic": "وصف «Very Good» للمعدل",
+   "values": [
+    {
+     "where": "C12,C13,C15,C16,C17,C18",
+     "value": "2.50 / 4.00"
+    },
+    {
+     "where": "C10",
+     "value": "3.00 / 4.00"
+    },
+    {
+     "where": "C20",
+     "value": "بلا رقم"
+    }
+   ],
+   "severity": "M",
+   "ref": "F-27"
+  },
+  {
+   "topic": "اللغة الإنجليزية — الدراسات العليا",
+   "values": [
+    {
+     "where": "9 برامج",
+     "value": "IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)"
+    },
+    {
+     "where": "C20 MA IBL",
+     "value": "IELTS 6.5 أو TOEFL 83"
+    },
+    {
+     "where": "C19 EMGMS",
+     "value": "IELTS 7 أو TOEFL 79 أو PTE 60 أو CESL"
+    }
+   ],
+   "severity": "H",
+   "ref": "F-21 + F-33"
+  },
+  {
+   "topic": "بديل SAT",
+   "values": [
+    {
+     "where": "C36",
+     "value": "1200 بدل القدرات والتحصيلي"
+    },
+    {
+     "where": "C30",
+     "value": "SAT 1 (1200) بدل التحصيلي"
+    },
+    {
+     "where": "C24",
+     "value": "SAT 1 1300 بدل التحصيلي"
+    },
+    {
+     "where": "C07",
+     "value": "SAT I + SAT II"
+    }
+   ],
+   "severity": "H",
+   "ref": "F-05"
+  },
+  {
+   "topic": "مستند الهوية",
+   "values": [
+    {
+     "where": "C26,C30",
+     "value": "Saudi ID فقط"
+    },
+    {
+     "where": "C24,C25,C27,C28",
+     "value": "Saudi ID أو Iqama"
+    },
+    {
+     "where": "C07",
+     "value": "National ID لطالب بلا إقامة"
+    }
+   ],
+   "severity": "M",
+   "ref": "F-13"
+  },
+  {
+   "topic": "التخصصات ذات الشروط الخاصة",
+   "values": [
+    {
+     "where": "C30",
+     "value": "7 تخصصات"
+    },
+    {
+     "where": "C36",
+     "value": "8 + «etc.»"
+    },
+    {
+     "where": "C02",
+     "value": "الهندسة الكيميائية والأمن السيبراني دون شروط"
+    }
+   ],
+   "severity": "M",
+   "ref": "F-34"
+  },
+  {
+   "topic": "قناة التقديم",
+   "values": [
+    {
+     "where": "C03",
+     "value": "قبول (سعوديون) / ادرس في السعودية — Closed (غير سعوديين)"
+    },
+    {
+     "where": "C06,C08",
+     "value": "بوابة PMU للجميع"
+    },
+    {
+     "where": "C07",
+     "value": "«completed entirely online»"
+    }
+   ],
+   "severity": "H",
+   "ref": "F-02"
+  },
+  {
+   "topic": "أسماء برامج الدراسات العليا",
+   "values": [
+    {
+     "where": "C09",
+     "value": "Master of Human Development · Doctorate in ME"
+    },
+    {
+     "where": "C14",
+     "value": "Master of Science in Human Development"
+    },
+    {
+     "where": "C21",
+     "value": "…Education and Human Development · Doctoral program"
+    }
+   ],
+   "severity": "M",
+   "ref": "F-25"
+  },
+  {
+   "topic": "قائمة برامج الدراسات العليا",
+   "values": [
+    {
+     "where": "الصفحة الرئيسية",
+     "value": "11 رابطًا"
+    },
+    {
+     "where": "C09",
+     "value": "10 — دون EMGMS"
+    },
+    {
+     "where": "C21",
+     "value": "12 + Pre-Master"
+    },
+    {
+     "where": "C07",
+     "value": "3 للدوليين"
+    }
+   ],
+   "severity": "M",
+   "ref": "F-25"
+  }
+ ],
+ "corrections": [
+  {
+   "finding": "F-26",
+   "note": "لم تُعَد إنتاجها في 2026-09-28: أقسام «Educational Background» و«Personal Interview» في EMBA (C12)، و«Personal Interview» في PhD-BA (C11)، و«Educational Background» في MSME (C15) و MA IBL (C20)، وقائمة معايير وإجراءات التحضيرية (C25) — كلها موجودة الآن وظاهرة للزائر وفي HTML الخادم. لا يمكن من هنا تحديد إن كانت PMU أضافتها بعد 2026-09-27 أم أن القراءة السابقة أخطأت. الجزء الذي ما زال قائمًا: «30% for the written test» غير موصوف (C20)، وعنوان «Work Experience» الفارغ في MSHD (C14) جديد."
+  }
+ ],
+ "links": [
+  {
+   "id": "C01",
+   "label": "Overview",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+   "final_url": "https://pmu.edu.sa/admission/future_students_ro",
+   "purpose": "تعريف عام بالجامعة لمن يبحث عن برنامج",
+   "key_data": [
+    "لا بيانات قبول؛ روابط للبكالوريوس والدراسات العليا"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "home",
+    "title": "القبول",
+    "path": "/admissions",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "claim",
+     "quotes": [
+      "PMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA",
+      "reviewed and verified by around 70 multinational academic and industrial experts"
+     ],
+     "note": "ادعاءات رقمية بلا تاريخ أو مصدر، وعبارة «accredited by prestigious national and international organizations» لا تسمّي أي جهة اعتماد",
+     "action": "ذكر جهات الاعتماد بأسمائها وتواريخها، أو حذف الأرقام غير الموثّقة",
+     "ref": "F-37",
+     "screenshot": "content/shots/C01-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "label": "Degrees & Programs",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+   "final_url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+   "purpose": "قائمة البرامج المتاحة (بكالوريوس ودراسات عليا) مع توفرها للطلاب/الطالبات",
+   "key_data": [
+    "6 كليات للبكالوريوس (العمارة والتصميم، الهندسة، الحاسب، إدارة الأعمال، القانون)",
+    "برامج دراسات عليا في الهندسة، إدارة الأعمال، العلوم والدراسات الإنسانية، العمارة والتصميم، القانون"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "programs",
+    "title": "دليل البرامج",
+    "path": "/admissions/programs",
+    "action": "rebuild"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "B.S. in Chemical Engineering",
+      "B.S. in Cybersecurity"
+     ],
+     "note": "القائمة لا تتضمن كلية الطب ولا كلية العلوم والدراسات الإنسانية (بكالوريوس)، ولا برامج EMGMS و MSEE/MSCE في مكانها الكامل، بينما تضيف برامج (الهندسة الكيميائية، الأمن السيبراني) لا تذكرها صفحات شروط التخصصات (C30/C36)",
+     "action": "قائمة برامج واحدة من سجل البرامج الموحّد، مع حالة القبول لكل برنامج",
+     "ref": "F-25",
+     "screenshot": "content/shots/C02-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Undergraduate Programs",
+      "Graduate Programs"
+     ],
+     "note": "البرامج مخفية داخل قائمتين مطويتين؛ من يفتح الصفحة يرى عنوانين فقط. وتوجد في كود الصفحة بقايا برنامج «Master of LAW» مخفي",
+     "action": "عرض البرامج مباشرة مع رابط لكل برنامج إلى شروطه",
+     "ref": "F-44",
+     "screenshot": "content/shots/C02-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "label": "Admissions Calendar",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "purpose": "مواعيد القبول للدورة الحالية",
+   "key_data": [
+    "Fall 2026-2027 (بكالوريوس ودراسات عليا)",
+    "بدء الدراسة 2026-08-30",
+    "السعوديون عبر «قبول»؛ غير السعوديين عبر «ادرس في السعودية» (Closed)"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "dates",
+    "title": "المواعيد وحالة الدورة",
+    "path": "/admissions/dates",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "stale",
+     "quotes": [
+      "Fall 2026-2027",
+      "First day of classes\t2026-08-30"
+     ],
+     "note": "في تاريخ التدقيق (2026-09-28) كل مواعيد الدورة انتهت، ولا توجد أي معلومة عن الدورة القادمة (الفصل الثاني) أو حالة القبول الآن",
+     "action": "مكوّن «حالة القبول الآن» + مواعيد الدورة القادمة أو عبارة صريحة «القبول مغلق حتى …»",
+     "ref": "F-08",
+     "screenshot": "content/shots/C03-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Announcement of admission results through Qabool platform\tFrom July 19 to July 21, 2026",
+      "Last day to submit IELTS or TOEFL iBT\t2026-07-20",
+      "Last day for Transfer applicants to submit documents in person\t2026-07-20"
+     ],
+     "note": "إعلان النتائج يبدأ 19 يوليو قبل آخر موعد لتقديم IELTS/TOEFL ووثائق المحوّلين (20 يوليو)",
+     "action": "إعادة ترتيب المواعيد أو توضيح أن النتائج لفئات محددة",
+     "ref": "F-08",
+     "screenshot": "content/shots/C03-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar\tClosed"
+     ],
+     "note": "التقويم يقول إن تقديم غير السعوديين «مغلق» عبر «ادرس في السعودية»، بينما صفحة الطلاب الدوليين (C07) تقول إن التقديم يتم بالكامل أونلاين عبر بوابة الجامعة",
+     "action": "تحديد قناة واحدة لكل فئة وإظهارها في الصفحتين",
+     "ref": "F-02",
+     "screenshot": "content/shots/C03-3.jpg"
+    },
+    {
+     "n": 4,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Orientation for new applicants\tTBA"
+     ],
+     "note": "موعد التوجيه ما زال «TBA» رغم بدء الدراسة",
+     "action": "تحديثه أو حذفه بعد انقضائه",
+     "ref": "F-43",
+     "screenshot": "content/shots/C03-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "label": "Contact Us",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "final_url": null,
+   "purpose": "التواصل مع مكتب القبول",
+   "key_data": [
+    "يفتح قائمة موظفين بأسمائهم (لم تُنسخ هنا)"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "contact",
+    "title": "التواصل والاستفسار",
+    "path": "/admissions/contact",
+    "action": "replace"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا يوجد في الصفحة رقم هاتف أو بريد موحّد لمكتب القبول أو ساعات عمل؛ يُحال المتقدم إلى أسماء أفراد",
+     "action": "صفحة تواصل موحّدة (بريد وهاتف مكتب القبول، ساعات العمل، نموذج الاستفسار)",
+     "ref": "F-11",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "label": "Admission Query",
+   "group": "Future Students",
+   "url": "https://pmu.edu.sa/Admission/admissions_queries",
+   "final_url": "https://pmu.edu.sa/admission/admissions_queries",
+   "purpose": "نموذج استفسار للمتقدمين",
+   "key_data": [
+    "الاسم، البريد، الجوال، الاستفسار، طريقة التواصل المفضّلة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "contact",
+    "title": "التواصل والاستفسار",
+    "path": "/admissions/contact",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "Name [الأسم]",
+      "مكتب القبول يسعد بالإجابة على إستفساراتكم",
+      "Email [البريد الإللكتروني]",
+      "Enter Verifaction Code"
+     ],
+     "note": "أخطاء إملائية في النص العربي والإنجليزي: «الأسم» (الاسم)، «إستفساراتكم/الإستفسار» (استفسار)، «الإللكتروني» (لام زائدة)، «Verifaction»",
+     "action": "تدقيق لغوي",
+     "ref": "F-17",
+     "screenshot": "content/shots/C05-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا يذكر النموذج مدة الرد المتوقعة ولا بديل تواصل مباشر",
+     "action": "إضافة زمن الرد المتوقع وقناة بديلة",
+     "ref": "F-45",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "label": "Apply Now",
+   "group": "Future Students",
+   "url": "https://www.pmu.edu.sa/apply",
+   "final_url": "https://admissions.pmu.edu.sa/welcome",
+   "purpose": "زر التقديم",
+   "key_data": [
+    "يفتح بوابة التقديم admissions.pmu.edu.sa"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "apply",
+    "title": "قدّم الآن (موجّه القنوات)",
+    "path": "/admissions/apply",
+    "action": "replace"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [],
+     "note": "زر «Apply Now» يرسل الجميع للبوابة نفسها، بينما التقويم (C03) يوجّه السعوديين إلى منصة «قبول» وغير السعوديين إلى «ادرس في السعودية» — ثلاث قنوات لنفس الخطوة",
+     "action": "موجّه تقديم حسب فئة المتقدم",
+     "ref": "F-02",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "label": "International Students without Saudi Residence",
+   "group": "International Students’ Office",
+   "url": "https://pmu.edu.sa/Admission/International_Students.aspx",
+   "final_url": "https://pmu.edu.sa/admission/international_students",
+   "purpose": "القبول للطلاب الدوليين غير المقيمين (مستجد، محوّل، زائر، دراسات عليا، رسوم، سكن)",
+   "key_data": [
+    "مستجد: معدل 80% + SAT I + IELTS 6.0/5.5 كتابة + مقابلة أونلاين",
+    "رسوم الطلب: 950 شامل الضريبة (مستجد) / 500 غير شامل (محوّل وزائر)"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_intl",
+    "title": "طالب دولي دون إقامة",
+    "path": "/admissions/undergraduate/international",
+    "action": "rewrite"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents"
+     ],
+     "note": "رسوم طلب المحوّل والزائر الدولي 500 ريال غير شاملة الضريبة، بينما صفحتا المحوّلين (C27) والزائرين (C28) تذكران 950 ريالًا شاملة الضريبة للفئة نفسها",
+     "action": "قرار مالي بقيمة واحدة لكل فئة ونشرها من سجل الرسوم",
+     "ref": "F-31",
+     "screenshot": "content/shots/C07-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "H",
+     "kind": "error",
+     "quotes": [
+      "SAT II 30%"
+     ],
+     "note": "يشترط SAT II (اختبارات المواد) للهندسة والحاسب، وقد أوقفتها College Board دوليًا في 2021",
+     "action": "استبدالها بالشرط المعتمد (تحصيلي أو ما يعادله)",
+     "ref": "F-05",
+     "screenshot": "content/shots/C07-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "M",
+     "kind": "error",
+     "quotes": [
+      "Copy of National ID"
+     ],
+     "note": "يطلب «الهوية الوطنية» من طالب دولي بلا إقامة سعودية — مستند لا يملكه",
+     "action": "استبدالها بجواز السفر فقط",
+     "ref": "F-13",
+     "screenshot": "content/shots/C07-3.jpg"
+    },
+    {
+     "n": 4,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Acceptable SAT I"
+     ],
+     "note": "لا يذكر الحد الأدنى لـ SAT I، بينما صفحة SAT (C36) تحدده 1200",
+     "action": "ذكر الحد الرقمي",
+     "ref": "F-09",
+     "screenshot": "content/shots/C07-4.jpg"
+    },
+    {
+     "n": 5,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "MBA",
+      "MSHD",
+      "MSME"
+     ],
+     "note": "قسم الدراسات العليا للدوليين يعرض 3 برامج فقط من أصل 11 برنامجًا في الصفحة الرئيسية",
+     "action": "ربطه بقائمة البرامج الكاملة وتوضيح المتاح للدوليين",
+     "ref": "F-38",
+     "screenshot": "content/shots/C07-5.jpg"
+    },
+    {
+     "n": 6,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Transportation"
+     ],
+     "note": "قسم «Transportation» عنوان بلا محتوى، وقسم السكن بصيغة المستقبل «will be located»",
+     "action": "كتابة معلومات النقل والسكن الفعلية",
+     "ref": "F-43",
+     "screenshot": "content/shots/C07-6.jpg"
+    },
+    {
+     "n": 7,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Get Information on Tuition and Fees"
+     ],
+     "note": "تعليمات الدفع للطلاب الدوليين موجودة في كود الصفحة لكنها مخفية عن الزائر (لم تُنسخ هنا لأنها بيانات بنكية)",
+     "action": "قرار: نشر طريقة الدفع الرسمية أو حذف البقايا",
+     "ref": "F-44",
+     "screenshot": "content/shots/C07-7.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "label": "Apply",
+   "group": "International Students’ Office",
+   "url": "https://www.pmu.edu.sa/apply",
+   "final_url": "https://admissions.pmu.edu.sa/welcome",
+   "purpose": "زر التقديم للطلاب الدوليين",
+   "key_data": [
+    "يفتح البوابة العامة نفسها"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "apply",
+    "title": "قدّم الآن (موجّه القنوات)",
+    "path": "/admissions/apply",
+    "action": "replace"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [],
+     "note": "لا يوضح القناة الصحيحة لغير المقيم، والتقويم يقول إن قناتهم «مغلقة»",
+     "action": "كما في C06",
+     "ref": "F-02",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "label": "Home",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "purpose": "الصفحة الرئيسية للدراسات العليا وقائمة البرامج",
+   "key_data": [
+    "10 برامج مع روابط «Application Form» و«Admissions Requirements»"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad",
+    "title": "الدراسات العليا",
+    "path": "/admissions/graduate",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Admissions to the Master of Arts (MA) in International Business Law Program"
+     ],
+     "note": "القائمة لا تتضمن برنامج EMGMS (الموجود في صفحة القبول الرئيسية C19 وفي جدول الرسوم C21)، ولا «Master of Engineering in Innovation, Sustainability, and Entrepreneurship» المسعّر في C21",
+     "action": "قائمة البرامج من السجل الموحّد",
+     "ref": "F-25",
+     "screenshot": "content/shots/C09-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Admission to the Master of Human Development",
+      "Admissions to the Doctorate in Mechanical Engineering Program"
+     ],
+     "note": "أسماء البرامج تختلف بين الصفحات: «Master of Human Development» هنا، و«MSHD» في صفحة القبول، و«Master of Science in Human Development» في C14، و«Master of Science in Education and Human Development» في C21؛ و«Doctorate» هنا مقابل «PhD» في C10 و«Doctoral program» في C21",
+     "action": "اسم رسمي واحد لكل برنامج (عربي/إنجليزي)",
+     "ref": "F-25",
+     "screenshot": "content/shots/C09-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Admissions to the Master of Science in Civil Engineering (MSCE) Program"
+     ],
+     "note": "برامج MSCE و MSEE و MSID تعرض «Application Form» دون رابط، بينما بقية البرامج لها رابط",
+     "action": "توحيد روابط نموذج الطلب",
+     "ref": "F-38",
+     "screenshot": "content/shots/C09-3.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "label": "Admissions to the PhD in Mechanical Engineering Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+   "final_url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+   "purpose": "شروط قبول الدكتوراه في الهندسة الميكانيكية",
+   "key_data": [
+    "بكالوريوس وماجستير هندسة ميكانيكية",
+    "معدل 3.00/4.00",
+    "IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)",
+    "خطابا توصية + بيان غرض + مقابلة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)"
+     ],
+     "note": "الوصف «Very Good» مقرون هنا بـ 3.00، وفي ست صفحات أخرى بـ 2.50",
+     "action": "جدول تحويل تقديرات موحّد من عمادة القبول والتسجيل",
+     "ref": "F-27",
+     "screenshot": "content/shots/C10-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا تذكر الصفحة عدد الساعات أو مدة البرنامج أو الرسوم أو مواعيد التقديم (الرسوم موجودة في C21: 72 ساعة، 150,000 ريال)",
+     "action": "إضافة بطاقة «حقائق البرنامج»",
+     "ref": "F-40",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "label": "Admissions to the PhD in Business Administration Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+   "purpose": "شروط قبول الدكتوراه في إدارة الأعمال",
+   "key_data": [
+    "مساران: الإدارة والتمويل",
+    "ماجستير إدارة أعمال/تمويل أو تخصص قريب",
+    "3 خطابات توصية"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "wording",
+     "quotes": [
+      "Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA"
+     ],
+     "note": "صياغة بنفي مزدوج تعكس المعنى (المقصود: إذا كان الماجستير من تخصص آخر)، وشرطا المعدل (3.00 أو 3.20) غير واضحين لمن ينطبق كل منهما",
+     "action": "إعادة صياغة الشرط بجدول واضح",
+     "ref": "F-36",
+     "screenshot": "content/shots/C11-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "claim",
+     "quotes": [
+      "The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide."
+     ],
+     "note": "اعتماد AACSB يُمنح للكلية/المؤسسة وليس لبرنامج منفرد، ونسبة 6% تخص عدد الكليات المعتمدة لا ترتيبًا («top»)",
+     "action": "صياغة دقيقة: «كلية إدارة الأعمال معتمدة من AACSB، وهو اعتماد تحمله أقل من 6% من كليات الأعمال عالميًا» بعد تأكيد الكلية",
+     "ref": "F-37",
+     "screenshot": "content/shots/C11-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "label": "Admissions to the EMBA Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+   "purpose": "شروط قبول EMBA",
+   "key_data": [
+    "33 ساعة، سنتان، عطلة نهاية الأسبوع",
+    "معدل 2.50",
+    "خبرة 3–5 سنوات",
+    "خطاب من جهة العمل + 3 توصيات"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "2.50 موصوفة بـ «Very Good» بينما 3.00 موصوفة بالوصف نفسه في C10",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C12-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "conflict",
+     "quotes": [
+      "Successful candidates should have from three to five years of professional work experience",
+      "Participants are required to have several years of work experience"
+     ],
+     "note": "الخبرة «من 3 إلى 5 سنوات» (هل تُستبعد 6 سنوات فأكثر؟) مقابل «several years» في الفقرة نفسها",
+     "action": "صياغة «3 سنوات على الأقل»",
+     "ref": "F-42",
+     "screenshot": "content/shots/C12-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "label": "Admissions to the MBA Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+   "purpose": "شروط قبول MBA",
+   "key_data": [
+    "36 ساعة، مسائي، 6 تركيزات",
+    "معدل 2.50",
+    "IELTS 6.0 / TOEFL 83"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "كما في C12",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C13-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا تذكر أي مستندات داعمة (توصيات، بيان غرض، سيرة ذاتية) خلافًا لبقية برامج الدراسات العليا — يحتاج تأكيد أنها غير مطلوبة فعلًا",
+     "action": "تأكيد القائمة من الكلية",
+     "ref": "F-42",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "label": "Admissions to the MSHD Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+   "purpose": "شروط قبول ماجستير التنمية البشرية",
+   "key_data": [
+    "بكالوريوس بمعدل 2.50 في تخصص ذي صلة",
+    "خطابا توصية + بيان غرض + مقابلة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Work Experience"
+     ],
+     "note": "عنوان «Work Experience» بلا أي شرط تحته (يليه مباشرة بند السيرة الذاتية)",
+     "action": "تحديد شرط الخبرة أو حذف العنوان",
+     "ref": "F-26",
+     "screenshot": "content/shots/C14-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا تذكر عدد الساعات أو المدة (جدول الرسوم C21 يوحي بـ 42 ساعة: 50,000 ÷ 1,191)",
+     "action": "إضافة بطاقة حقائق البرنامج",
+     "ref": "F-40",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "label": "Admissions to the MSME Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+   "purpose": "شروط قبول ماجستير الهندسة الميكانيكية",
+   "key_data": [
+    "30 ساعة على الأقل، مساران، رسالة/بدون رسالة",
+    "معدل 2.50",
+    "خطابا توصية"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "كما في C12",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C15-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C16",
+   "label": "Admissions to the MSEE Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+   "final_url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+   "purpose": "شروط قبول ماجستير الهندسة الكهربائية",
+   "key_data": [
+    "مساران",
+    "بكالوريوس هندسة (أي تخصص هندسي)",
+    "معدل 2.50"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "stale",
+     "quotes": [
+      "The program will be offered under the College of Engineering."
+     ],
+     "note": "صيغة المستقبل «will be offered» توحي بأن البرنامج لم يُطلق — هل هو متاح للقبول الآن؟",
+     "action": "إظهار حالة البرنامج (متاح/غير متاح) وتحديث الصياغة",
+     "ref": "F-41",
+     "screenshot": "content/shots/C16-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "كما في C12",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C16-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C17",
+   "label": "Admissions to the MSCE Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+   "purpose": "شروط قبول ماجستير الهندسة المدنية",
+   "key_data": [
+    "مساران",
+    "بكالوريوس هندسة مدنية",
+    "معدل 2.50"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "stale",
+     "quotes": [
+      "The program will be offered under the College of Engineering."
+     ],
+     "note": "كما في C16",
+     "action": "كما في C16",
+     "ref": "F-41",
+     "screenshot": "content/shots/C17-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "كما في C12",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C17-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C18",
+   "label": "Admissions to the MSID Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+   "purpose": "شروط قبول ماجستير التصميم الداخلي",
+   "key_data": [
+    "بكالوريوس تصميم داخلي",
+    "معدل 2.50"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "stale",
+     "quotes": [
+      "The Department of Interior Design at PMU will educate tomorrow’s interior design leaders"
+     ],
+     "note": "النص التعريفي كله بصيغة المستقبل (will educate / will be to provide)",
+     "action": "تحديث الصياغة",
+     "ref": "F-41",
+     "screenshot": "content/shots/C18-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "كما في C12",
+     "action": "جدول تحويل موحّد",
+     "ref": "F-27",
+     "screenshot": "content/shots/C18-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C19",
+   "label": "Admissions to the EMGMS Program",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+   "purpose": "شروط قبول ماجستير إدارة الهندسة (EMGMS)",
+   "key_data": [
+    "معدل 3.00",
+    "IELTS 7 / TOEFL 79 / PTE 60"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "rewrite"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "error",
+     "quotes": [
+      "Graduate English Language Endorsement from UA Center for English as Second Language (CESL)"
+     ],
+     "note": "محتوى منسوخ من جامعة أخرى (University of Arizona)؛ مسار لا ينطبق على متقدمي PMU",
+     "action": "سحب الصفحة وإعادة كتابتها من شروط PMU",
+     "ref": "F-21",
+     "screenshot": "content/shots/C19-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "IELTS – minimum composite score of 7, with no subject area below a 6",
+      "TOEFL – minimum of 79 iBT"
+     ],
+     "note": "IELTS 7 أعلى من كل برامج PMU (6.0) بينما TOEFL 79 أقل منها (83) — المعادلة نفسها متناقضة داخل الصفحة",
+     "action": "اعتماد عتبة PMU الموحّدة",
+     "ref": "F-21",
+     "screenshot": "content/shots/C19-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا وصف للبرنامج ولا مدة ولا مقابلة، خلافًا لكل برامج الدراسات العليا الأخرى",
+     "action": "قالب صفحة البرنامج الموحّد",
+     "ref": "F-21",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C20",
+   "label": "Admissions to the MIBL",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+   "purpose": "شروط قبول ماجستير القانون التجاري الدولي",
+   "key_data": [
+    "مساران",
+    "بكالوريوس قانون بتقدير «جيد جدًا»",
+    "IELTS 6.5",
+    "الأوزان: المعدل 50% + اختبار تحريري 30% + مقابلة 20%"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "grad_prog",
+    "title": "صفحة البرنامج (قالب واحد × 11)",
+    "path": "/admissions/graduate/{programme}",
+    "action": "template"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)"
+     ],
+     "note": "البرنامج 36 ساعة (حسب C21)، و6 ساعات كحد أقصى لكل فصل تعني 6 فصول (3 سنوات) لا سنتين",
+     "action": "تصحيح المدة أو الحد الأقصى للساعات",
+     "ref": "F-32",
+     "screenshot": "content/shots/C20-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "30% for the written test."
+     ],
+     "note": "وزن 30% لـ«اختبار تحريري» غير مذكور ضمن شروط القبول ولا موصوف",
+     "action": "وصف الاختبار (المحتوى، الموعد، الحد الأدنى)",
+     "ref": "F-26",
+     "screenshot": "content/shots/C20-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall"
+     ],
+     "note": "IELTS 6.5 تُعادَل بـ TOEFL 83، بينما TOEFL 83 يُعادَل بـ IELTS 6.0 في بقية البرامج",
+     "action": "توحيد جدول المعادلة",
+     "ref": "F-33",
+     "screenshot": "content/shots/C20-3.jpg"
+    },
+    {
+     "n": 4,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "A minimum (Very Good) in Bachelor’s Degree"
+     ],
+     "note": "التقدير «Very Good» بلا رقم (بقية البرامج تذكر رقمًا)",
+     "action": "ذكر المعدل الرقمي",
+     "ref": "F-27",
+     "screenshot": "content/shots/C20-4.jpg"
+    },
+    {
+     "n": 5,
+     "severity": "L",
+     "kind": "stale",
+     "quotes": [
+      "The year 2025 marks another milestone"
+     ],
+     "note": "عبارة مرتبطة بسنة 2025",
+     "action": "صياغة غير مؤقتة",
+     "ref": "F-41",
+     "screenshot": "content/shots/C20-5.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C21",
+   "label": "Tuition & Fees",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "final_url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+   "purpose": "رسوم الدراسات العليا",
+   "key_data": [
+    "13 برنامجًا بسعر إجمالي وسعر للساعة، للخريجين وغيرهم",
+    "الضريبة: 15% على غير السعوديين (رسوم دراسية ورسوم أخرى)، والسعوديون يدفعون الضريبة على الرسوم الأخرى فقط"
+   ],
+   "verified": [
+    "تحقق حسابي: السعر الإجمالي = سعر الساعة × عدد الساعات لـ EMBA (33) و MBA (36) و PhD (72) و MSME/MSEE/MSCE/MSID (30) و EMGMS (30) و M.Eng (33) و MA IBL (36) — متسق"
+   ],
+   "proposed_page": {
+    "id": "costs",
+    "title": "التكاليف والمنح",
+    "path": "/admissions/costs",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33)",
+      "PRE-Master for Master of Education"
+     ],
+     "note": "برنامجان مسعّران لا توجد لهما صفحة قبول بين الروابط الـ36",
+     "action": "إما إضافة صفحتي قبول أو حذف السطرين إن لم يكونا متاحين",
+     "ref": "F-25",
+     "screenshot": "content/shots/C21-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "conflict",
+     "quotes": [
+      "Master of Science in Human Development\tSAR 50,000",
+      "Master of Science in Education and Human Development\t1,191 SAR /Credit hour"
+     ],
+     "note": "البرنامج نفسه باسمين مختلفين في الجدولين",
+     "action": "اسم رسمي واحد",
+     "ref": "F-25",
+     "screenshot": "content/shots/C21-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C22",
+   "label": "Contact Info",
+   "group": "Graduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+   "purpose": "تواصل الدراسات العليا",
+   "key_data": [
+    "منسق القبول للدراسات العليا، مكتب G-017، بريد graduateadm@pmu.edu.sa"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "contact",
+    "title": "التواصل والاستفسار",
+    "path": "/admissions/contact",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [],
+     "note": "بريد ومكتب فقط؛ لا هاتف ولا ساعات عمل",
+     "action": "مكوّن تواصل موحّد",
+     "ref": "F-11",
+     "screenshot": null
+    }
+   ]
+  },
+  {
+   "id": "C23",
+   "label": "Home",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+   "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+   "purpose": "الصفحة الرئيسية لقبول البكالوريوس",
+   "key_data": [
+    "معدل 80% + قدرات 60% (أو SAT 1)",
+    "المعادلة 60/40 لمن هم أقل",
+    "رسوم الطلب 950 شاملة الضريبة",
+    "صباحي 20 ساعة / مسائي 12"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug",
+    "title": "البكالوريوس",
+    "path": "/admissions/undergraduate",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "PMU offers various degrees under the College of Architecture and Design, College of Computer Engineering and Science, College of Business Administration, College of Law and College of Engineering."
+     ],
+     "note": "تذكر 5 كليات فقط وتُسقط كلية الطب (المذكورة في الصفحة نفسها) وكلية العلوم والدراسات الإنسانية",
+     "action": "قائمة الكليات من السجل الموحّد",
+     "ref": "F-25",
+     "screenshot": "content/shots/C23-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "College of Medical Admissions"
+     ],
+     "note": "«College of Medical» خطأ (College of Medicine)",
+     "action": "تصحيح",
+     "ref": "F-17",
+     "screenshot": "content/shots/C23-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Visiting students are students registered in other local or international recognized universities"
+     ],
+     "note": "هنا الزائر من جامعات «محلية أو دولية»، وفي C07 «international» فقط — يحتاج توضيح هل الزائر المحلي مقبول",
+     "action": "توحيد التعريف",
+     "ref": "F-35",
+     "screenshot": "content/shots/C23-3.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C24",
+   "label": "Admission to the College of Medicine",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "purpose": "القبول في كلية الطب",
+   "key_data": [
+    "برنامج 7 سنوات",
+    "المعادلة: (20% ثانوي + 40% قدرات + 40% تحصيلي) × 60% + مقابلة 40%، والحد الأدنى 86",
+    "الحد الأدنى: ثانوي 95%، قدرات 80، تحصيلي 80",
+    "رسوم الطلب 1000 شاملة الضريبة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_med",
+    "title": "كلية الطب",
+    "path": "/admissions/undergraduate/medicine",
+    "action": "rewrite"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score",
+      "Copy of secondary school certificate or equivalent (95%)"
+     ],
+     "note": "من يحقق الحدود الدنيا المنشورة (95/80/80) يحصل على 83 فقط وهو أقل من 86",
+     "action": "نشر حدود متسقة أو مثال محسوب",
+     "ref": "F-20",
+     "screenshot": "content/shots/C24-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "The PMU College of Medical curriculum is based on a 7-year hybrid model"
+     ],
+     "note": "البرنامج «7 سنوات» لكن الخطة المعروضة تتوقف عند السنة السادسة (Year 6)، وصفحة الكلية الأكاديمية تقول 6 سنوات",
+     "action": "اعتماد المدة الصحيحة من الكلية ونشر التكلفة الإجمالية",
+     "ref": "F-23",
+     "screenshot": "content/shots/C24-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "H",
+     "kind": "wording",
+     "quotes": [
+      "the process typically involves understanding the weighting and criteria that the medical college uses to evaluate applicants",
+      "Population Health (to be developed in launch phase)"
+     ],
+     "note": "نص مسودة غير محرّر (أسلوب شرح عام) وعبارات «to be developed»",
+     "action": "إعادة كتابة الصفحة",
+     "ref": "F-07",
+     "screenshot": "content/shots/C24-3.jpg"
+    },
+    {
+     "n": 4,
+     "severity": "M",
+     "kind": "wording",
+     "quotes": [
+      "Biology: One full year (2 courses) of general biology with laboratory."
+     ],
+     "note": "وصف السنتين 1–2 مكتوب كقائمة «متطلبات سابقة» على النمط الأمريكي، لا كخطة دراسية في PMU",
+     "action": "صياغة الخطة كما تُدرّس فعليًا",
+     "ref": "F-39",
+     "screenshot": "content/shots/C24-4.jpg"
+    },
+    {
+     "n": 5,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [],
+     "note": "لا تذكر الصفحة شرط اللغة الإنجليزية ولا دفعة حجز المقعد (20,000 غير مستردة) ولا تكلفة البرنامج",
+     "action": "بطاقة تكلفة وشروط كاملة",
+     "ref": "F-07",
+     "screenshot": null
+    },
+    {
+     "n": 6,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 1000 (incl. VAT)"
+     ],
+     "note": "رسوم طلب الطب 1000 هنا، و1,150 في صفحة رسوم الطب",
+     "action": "قيمة واحدة من المالية",
+     "ref": "F-03",
+     "screenshot": "content/shots/C24-6.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C25",
+   "label": "Admissions to the Preparatory Program",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+   "purpose": "القبول في السنة التحضيرية",
+   "key_data": [
+    "معدل 80% + قدرات 60%",
+    "اختبار Aptis + مقابلة",
+    "رسوم 950 شاملة الضريبة",
+    "مقررات مهارات التعلّم حسب المستوى"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_prep",
+    "title": "السنة التحضيرية",
+    "path": "/admissions/undergraduate/preparatory",
+    "action": "rewrite"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "If employed, a letter of no objection from the employer is required"
+     ],
+     "note": "الصفحة سليمة المحتوى عمومًا؛ لا تذكر مدة التحضيرية ولا تكلفتها",
+     "action": "إضافة المدة والتكلفة",
+     "ref": "F-40",
+     "screenshot": "content/shots/C25-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C26",
+   "label": "Direct Admissions from Secondary School",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+   "purpose": "القبول المباشر من الثانوية",
+   "key_data": [
+    "معدل 80% + قدرات 60% + IELTS 6.0/5.5 كتابة",
+    "المعادلة 60/40"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_hs",
+    "title": "خريج الثانوية في المملكة",
+    "path": "/admissions/undergraduate/high-school",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Copy of Saudi ID"
+     ],
+     "note": "يطلب «الهوية السعودية» فقط دون «الإقامة»، بينما التحضيرية والتحويل تقبل الإقامة — المقيم غير السعودي لا يجد نفسه",
+     "action": "«هوية وطنية أو إقامة»",
+     "ref": "F-13",
+     "screenshot": "content/shots/C26-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "equivalent TOEFL iBT (Learn more)"
+     ],
+     "note": "لا يذكر درجة TOEFL المطلوبة في الصفحة (موجودة في C35: 83/19)",
+     "action": "ذكر الرقم مباشرة",
+     "ref": "F-09",
+     "screenshot": "content/shots/C26-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C27",
+   "label": "Admissions from Other Universities",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+   "purpose": "القبول بالتحويل من جامعة أخرى",
+   "key_data": [
+    "معدل تراكمي 2.0/4.0",
+    "آخر مقرر خلال 5 سنوات",
+    "مراجعة المعادلة 5 أسابيع على الأقل",
+    "رسوم 950 شاملة الضريبة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_transfer",
+    "title": "التحويل من جامعة أخرى",
+    "path": "/admissions/undergraduate/transfer",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents"
+     ],
+     "note": "رسوم المحوّل 950 شاملة الضريبة هنا، و500 غير شاملة في صفحة الدوليين (C07)",
+     "action": "قيمة واحدة لكل فئة",
+     "ref": "F-31",
+     "screenshot": "content/shots/C27-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "In order to be consider as a transfer candidate"
+     ],
+     "note": "خطأ لغوي (considered)",
+     "action": "تصحيح",
+     "ref": "F-17",
+     "screenshot": "content/shots/C27-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C28",
+   "label": "Visting Students",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+   "final_url": "https://pmu.edu.sa/admission/visiting-student-admission",
+   "purpose": "قبول الطالب الزائر",
+   "key_data": [
+    "موافقة الجامعة الأم + موافقة الكلية",
+    "رسوم 950 شاملة الضريبة"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_visit",
+    "title": "طالب زائر",
+    "path": "/admissions/undergraduate/visiting",
+    "action": "move"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "H",
+     "kind": "conflict",
+     "quotes": [
+      "Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents"
+     ],
+     "note": "رسوم الزائر 950 شاملة هنا، و500 غير شاملة في C07",
+     "action": "قيمة واحدة لكل فئة",
+     "ref": "F-31",
+     "screenshot": "content/shots/C28-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Copy of secondary school certificate or equivalent",
+      "Copy of General Aptitude Test score report (Qudrat) or equivalent (SAT 1) - if available"
+     ],
+     "note": "يطلب من طالب جامعي زائر شهادة الثانوية واختبار القدرات — يحتاج تأكيد الضرورة",
+     "action": "مراجعة قائمة المستندات",
+     "ref": "F-35",
+     "screenshot": "content/shots/C28-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C29",
+   "label": "Admissions from the Preparatory Program",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+   "purpose": "الانتقال من التحضيرية إلى البكالوريوس",
+   "key_data": [
+    "إكمال التحضيرية + اجتياز EXIT exam + شروط الكلية",
+    "جدول مقررات الرياضيات حسب الكلية"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_prep",
+    "title": "السنة التحضيرية",
+    "path": "/admissions/undergraduate/preparatory",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "error",
+     "quotes": [
+      "* Department of Information Technology is excluded from PRPM 0022",
+      "** Department of Architecture is excluded from PRPM 0012"
+     ],
+     "note": "علامات الحواشي معكوسة: (*) موضوعة على الهندسة والعمارة لكنها تخص تقنية المعلومات، و(**) على كلية الحاسب لكنها تخص العمارة",
+     "action": "تصحيح الحواشي",
+     "ref": "F-28",
+     "screenshot": "content/shots/C29-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Successfully pass the EXIT exam"
+     ],
+     "note": "«EXIT exam» غير معرّف (محتواه ودرجة النجاح)",
+     "action": "تعريف الاختبار",
+     "ref": "F-28",
+     "screenshot": "content/shots/C29-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C30",
+   "label": "Computer Science and Engineering Majors Admission Requirements",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+   "purpose": "شروط تخصصات الحاسب والهندسة",
+   "key_data": [
+    "عام: ثانوي ≥80 (60%) + قدرات ≥60 (40%)",
+    "تخصصي: ثانوي ≥85 (40%) + قدرات ≥65 (30%) + تحصيلي ≥65 (30%)",
+    "SAT 1 (1200) بديل التحصيلي"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "ug_hs",
+    "title": "خريج الثانوية في المملكة",
+    "path": "/admissions/undergraduate/high-school",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering."
+     ],
+     "note": "قائمة التخصصات ذات الشروط الخاصة هنا 7 تخصصات؛ صفحة SAT (C36) تضيف «Artificial Intelligence … etc.»، وقائمة البرامج (C02) فيها الهندسة الكيميائية والأمن السيبراني دون ذكر شروطهما",
+     "action": "قائمة مغلقة واحدة للتخصصات ذات الشروط الخاصة",
+     "ref": "F-34",
+     "screenshot": "content/shots/C30-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "the minimum weighted total, defined by the Admissions Office, should be met."
+     ],
+     "note": "الحد الأدنى للمجموع الموزون غير منشور",
+     "action": "نشر الرقم أو توضيح أنه يتغير كل دورة",
+     "ref": "F-09",
+     "screenshot": "content/shots/C30-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Copy of Standard Achievement Admission Test score report (SAAT – Tahseely) or SAT 1 (1200)"
+     ],
+     "note": "بديل التحصيلي SAT 1200 هنا، و1300 في صفحة الطب",
+     "action": "تحديد المعادلة الرسمية",
+     "ref": "F-05",
+     "screenshot": "content/shots/C30-3.jpg"
+    },
+    {
+     "n": 4,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "may wave one or more"
+     ],
+     "note": "«wave» خطأ (waive)",
+     "action": "تصحيح",
+     "ref": "F-17",
+     "screenshot": "content/shots/C30-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C31",
+   "label": "Tuition & Fees",
+   "group": "Undergraduate Admissions",
+   "url": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+   "final_url": "https://pmu.edu.sa/admission/fees_tf_ro",
+   "purpose": "رسوم البكالوريوس (فهرس)",
+   "key_data": [
+    "روابط لـ: رسوم الطب، Fall 2026/2027، Fall 2025/2026، المستمرون 2024–2025"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "costs",
+    "title": "التكاليف والمنح",
+    "path": "/admissions/costs",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "stale",
+     "quotes": [
+      "Fall Semester 2025/2026",
+      "Continuing Students 2024–2025"
+     ],
+     "note": "ثلاثة أجيال من جداول الرسوم معروضة بلا تمييز للجدول الساري",
+     "action": "جدول ساري واحد + أرشيف واضح",
+     "ref": "F-10",
+     "screenshot": "content/shots/C31-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C32",
+   "label": "Overview",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "final_url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "purpose": "نظرة عامة على اختبارات اللغة",
+   "key_data": [
+    "Aptis للتسكين، و IELTS/TOEFL للإعفاء"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "req",
+    "title": "الإنجليزية والاختبارات",
+    "path": "/admissions/requirements/english-and-tests",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "L",
+     "kind": "gap",
+     "quotes": [
+      "Candidates with PMU recognized proficiency English language test certificates"
+     ],
+     "note": "عبارة «PMU recognized» غير معرّفة؛ الصفحة تذكر IELTS و TOEFL فقط بينما C19 يقبل PTE",
+     "action": "قائمة الاختبارات المعتمدة",
+     "ref": "F-33",
+     "screenshot": "content/shots/C32-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C33",
+   "label": "Aptis",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+   "final_url": "https://pmu.edu.sa/admission/aptis-placement-test",
+   "purpose": "اختبار Aptis للتسكين",
+   "key_data": [
+    "مدة الاختبار ~4 ساعات",
+    "4 مستويات"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "req",
+    "title": "الإنجليزية والاختبارات",
+    "path": "/admissions/requirements/english-and-tests",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "gap",
+     "quotes": [
+      "Based on candidates overall and writing scores, they will be placed on one of the following levels:"
+     ],
+     "note": "لا توجد درجات Aptis لكل مستوى، بينما IELTS و TOEFL لهما جدول درجات منشور",
+     "action": "نشر جدول درجات Aptis",
+     "ref": "F-09",
+     "screenshot": "content/shots/C33-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "direct entry into the Core Program"
+     ],
+     "note": "مصطلح «Core Program» غير معرّف (باقي الصفحات: degree program)",
+     "action": "توحيد المصطلح",
+     "ref": "F-15",
+     "screenshot": "content/shots/C33-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C34",
+   "label": "IELTS",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+   "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+   "purpose": "متطلبات IELTS",
+   "key_data": [
+    "Core 6.0/5.5، Advanced 5.0/4.5، Intermediate 4.5/4.0، Beginner 4.0/3.5",
+    "صلاحية سنتان حتى بدء الفصل"
+   ],
+   "verified": [
+    "متسق مع C26 و C07 (6.0 / 5.5 كتابة للقبول المباشر)"
+   ],
+   "proposed_page": {
+    "id": "req",
+    "title": "الإنجليزية والاختبارات",
+    "path": "/admissions/requirements/english-and-tests",
+    "action": "merge"
+   },
+   "issues": []
+  },
+  {
+   "id": "C35",
+   "label": "TOEFL",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+   "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+   "purpose": "متطلبات TOEFL iBT",
+   "key_data": [
+    "Core 83/19، Advanced 63/15، Intermediate 54/13، Beginner 42/11",
+    "رمز المؤسسة 6993"
+   ],
+   "verified": [
+    "رمز ETS (6993) لم يُتحقق منه من مصدر ETS — يُنصح بتأكيده"
+   ],
+   "proposed_page": {
+    "id": "req",
+    "title": "الإنجليزية والاختبارات",
+    "path": "/admissions/requirements/english-and-tests",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "stale",
+     "quotes": [
+      "TOEFL iBT Overall"
+     ],
+     "note": "الجدول بمقياس 0–120 فقط؛ منذ 21 يناير 2026 تُصدر ETS نتائج TOEFL iBT بمقياس 1–6، ويُعرض المقياس المقارن 0–120 مؤقتًا حتى يناير 2028 فقط، ولا تذكر الصفحة حدودًا بالمقياس الجديد",
+     "action": "إضافة عمود المقياس الجديد بعد اعتماد المعادلة",
+     "ref": "F-04",
+     "screenshot": "content/shots/C35-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "C36",
+   "label": "Scholastic Aptitude Test (SAT)",
+   "group": "Undergraduate Placement Tests",
+   "url": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+   "final_url": "https://pmu.edu.sa/admission/sat-admission",
+   "purpose": "متطلبات SAT",
+   "key_data": [
+    "SAT 1200 بدلًا من القدرات والتحصيلي لخريجي الشهادات الدولية",
+    "إعفاء من مقررات الرياضيات حسب درجة الرياضيات",
+    "رمز College Board 7647"
+   ],
+   "verified": [],
+   "proposed_page": {
+    "id": "req",
+    "title": "الإنجليزية والاختبارات",
+    "path": "/admissions/requirements/english-and-tests",
+    "action": "merge"
+   },
+   "issues": [
+    {
+     "n": 1,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Artificial Intelligence, Mechanical Engineering, Electrical Engineering and Civil Engineering etc."
+     ],
+     "note": "قائمة مفتوحة («etc.») وتختلف عن C30",
+     "action": "قائمة مغلقة واحدة",
+     "ref": "F-34",
+     "screenshot": "content/shots/C36-1.jpg"
+    },
+    {
+     "n": 2,
+     "severity": "M",
+     "kind": "conflict",
+     "quotes": [
+      "Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests."
+     ],
+     "note": "1200 هنا بديل للاختبارين معًا، وفي صفحة الطب 1300 بديل للتحصيلي، وفي C07 يُطلب SAT I و SAT II",
+     "action": "قاعدة SAT واحدة لكل فئة",
+     "ref": "F-05",
+     "screenshot": "content/shots/C36-2.jpg"
+    },
+    {
+     "n": 3,
+     "severity": "L",
+     "kind": "wording",
+     "quotes": [
+      "Introductory Algebra\tWave\tWave"
+     ],
+     "note": "«Wave» خطأ (Waive)",
+     "action": "تصحيح",
+     "ref": "F-17",
+     "screenshot": "content/shots/C36-3.jpg"
+    }
+   ]
+  }
+ ]
+}

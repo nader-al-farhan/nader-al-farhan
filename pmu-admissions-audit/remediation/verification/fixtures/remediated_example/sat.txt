@@ -1,0 +1,1 @@
+SAT with minimum score of 1200 instead of Qudrat and Tahseely tests.

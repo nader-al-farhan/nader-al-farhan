@@ -1,0 +1,885 @@
+<title>PMU Admissions Project Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Readex+Pro:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#1c2b3d; --ink-2:#44536a; --muted:#6a778a;
+  --paper:#f6f7f9; --sheet:#ffffff; --line:#dfe3ea; --line-2:#c9d0db;
+  --navy:#243a52; --navy-soft:#e8edf4;
+  --accent:#d9621c; --accent-soft:#fbeadf;
+  --crit:#b3261e; --crit-soft:#fbe4e2;
+  --high:#b35c00; --high-soft:#fcecd9;
+  --med:#8a6d00; --med-soft:#f7efcf;
+  --low:#2f6386; --low-soft:#e0edf6;
+  --ok:#2e7a4d; --ok-soft:#e1f2e8;
+  --svg-box:#ffffff; --svg-fill:#eef2f7;
+  --f-body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
+  --f-disp:"Readex Pro","IBM Plex Sans Arabic","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ink:#e7ecf3; --ink-2:#bcc6d4; --muted:#93a0b3;
+    --paper:#10161f; --sheet:#171f2b; --line:#2a3545; --line-2:#3a475a;
+    --navy:#9fb8d6; --navy-soft:#1f2b3b;
+    --accent:#f08a4b; --accent-soft:#3a2517;
+    --crit:#ff8a80; --crit-soft:#3d1c1a;
+    --high:#ffb766; --high-soft:#3b2a14;
+    --med:#e7cc62; --med-soft:#353015;
+    --low:#8fc3e8; --low-soft:#172b3a;
+    --ok:#7fd3a0; --ok-soft:#15301f;
+    --svg-box:#1c2635; --svg-fill:#223044;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#e7ecf3; --ink-2:#bcc6d4; --muted:#93a0b3;
+  --paper:#10161f; --sheet:#171f2b; --line:#2a3545; --line-2:#3a475a;
+  --navy:#9fb8d6; --navy-soft:#1f2b3b;
+  --accent:#f08a4b; --accent-soft:#3a2517;
+  --crit:#ff8a80; --crit-soft:#3d1c1a;
+  --high:#ffb766; --high-soft:#3b2a14;
+  --med:#e7cc62; --med-soft:#353015;
+  --low:#8fc3e8; --low-soft:#172b3a;
+  --ok:#7fd3a0; --ok-soft:#15301f;
+  --svg-box:#1c2635; --svg-fill:#223044;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15.5px;line-height:1.75;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
+[lang="en"],.ltr{direction:ltr;unicode-bidi:isolate}
+a{color:var(--navy);text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:3px}
+h1,h2,h3,h4{font-family:var(--f-disp);color:var(--ink);text-wrap:balance;line-height:1.35;margin:0}
+h2{font-size:1.5rem;font-weight:700}
+h3{font-size:1.12rem;font-weight:600}
+h4{font-size:1rem;font-weight:600}
+p{margin:0;max-width:72ch}
+.mono,code{font-family:var(--f-mono);font-size:.86em}
+.eyebrow{font-family:var(--f-disp);font-size:.78rem;letter-spacing:.06em;color:var(--accent);font-weight:600}
+.muted{color:var(--muted)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.stack-lg{display:flex;flex-direction:column;gap:22px}
+
+/* cover */
+.cover{background:var(--sheet);border:1px solid var(--line);border-top:6px solid var(--navy);border-radius:4px;padding:34px 30px;display:grid;gap:22px}
+.cover h1{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:700;direction:ltr;text-align:left}
+.cover .sub{font-size:1.15rem;color:var(--ink-2);font-family:var(--f-disp);font-weight:500}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 22px;border-top:1px solid var(--line);padding-top:18px}
+.meta div{display:flex;flex-direction:column;gap:2px}
+.meta dt{font-size:.78rem;color:var(--muted);letter-spacing:.03em}
+.meta dd{margin:0;font-weight:600}
+.verdict{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:3px;font-family:var(--f-mono);font-weight:500;font-size:.9rem;direction:ltr}
+.verdict.notmet{background:var(--crit-soft);color:var(--crit);border:1px solid var(--crit)}
+.verdict.pass{background:var(--ok-soft);color:var(--ok);border:1px solid var(--ok)}
+
+/* toc */
+nav.toc{background:var(--sheet);border:1px solid var(--line);border-radius:4px;padding:18px 22px}
+nav.toc ol{margin:8px 0 0;padding-inline-start:22px;columns:2 260px;column-gap:28px}
+nav.toc li{break-inside:avoid;padding-block:2px}
+
+/* section */
+section.s{background:var(--sheet);border:1px solid var(--line);border-radius:4px;padding:28px 26px;display:flex;flex-direction:column;gap:18px}
+.s-head{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:12px;flex-wrap:wrap}
+.s-num{font-family:var(--f-mono);color:var(--accent);font-size:.95rem}
+.s-en{font-family:var(--f-disp);color:var(--muted);font-size:.9rem;direction:ltr;margin-inline-start:auto}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{border:1px solid var(--line);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:2px;background:var(--paper)}
+.stat b{font-family:var(--f-disp);font-size:1.9rem;line-height:1.1;font-variant-numeric:tabular-nums;color:var(--ink)}
+.stat span{font-size:.86rem;color:var(--ink-2)}
+.stat.c b{color:var(--crit)}
+
+/* callout */
+.callout{border-inline-start:4px solid var(--accent);background:var(--accent-soft);padding:14px 18px;border-radius:0 4px 4px 0}
+.callout.navy{border-color:var(--navy);background:var(--navy-soft)}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:4px}
+table{border-collapse:collapse;width:100%;font-size:.9rem;min-width:640px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:start}
+thead th{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem;color:var(--ink);position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td q,td .q{font-family:var(--f-body);direction:ltr;unicode-bidi:isolate;display:inline;background:var(--paper);border:1px solid var(--line);padding:0 5px;border-radius:3px;font-size:.88em;quotes:none}
+
+/* pills */
+.pill{display:inline-block;font-family:var(--f-mono);font-size:.74rem;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap;direction:ltr}
+.p-crit{color:var(--crit);background:var(--crit-soft)}
+.p-high{color:var(--high);background:var(--high-soft)}
+.p-med{color:var(--med);background:var(--med-soft)}
+.p-low{color:var(--low);background:var(--low-soft)}
+.p-ok{color:var(--ok);background:var(--ok-soft)}
+.p-enh{color:var(--navy);background:var(--navy-soft)}
+
+/* scorecard */
+.score{display:grid;grid-template-columns:minmax(150px,1.1fr) 110px 3fr;gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.score>div{padding:10px 14px;border-bottom:1px solid var(--line)}
+.score>div:nth-last-child(-n+3){border-bottom:0}
+.score .h{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem}
+@media (max-width:640px){.score{grid-template-columns:1fr}.score .h{display:none}.score>div{border-bottom:0}.score>div:nth-child(3n){border-bottom:1px solid var(--line)}}
+
+/* workstreams */
+.ws-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.ws{border:1px solid var(--line);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;background:var(--paper)}
+.ws h3{display:flex;gap:10px;align-items:baseline}
+.ws h3 .mono{color:var(--accent)}
+.ws dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:.9rem}
+.ws dt{color:var(--muted)}
+.ws dd{margin:0}
+.ws ul{margin:0;padding-inline-start:18px;font-size:.92rem}
+
+/* figures */
+figure{margin:0;display:flex;flex-direction:column;gap:8px}
+figcaption{font-size:.86rem;color:var(--ink-2)}
+.fig{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:var(--sheet);padding:10px}
+svg text{font-family:var(--f-body)}
+.sv-box{fill:var(--svg-box);stroke:var(--line-2);stroke-width:1.2}
+.sv-fill{fill:var(--svg-fill);stroke:var(--line-2);stroke-width:1}
+.sv-navy{fill:var(--navy)}
+.sv-accent{fill:var(--accent)}
+.sv-t{fill:var(--ink);font-size:13px}
+.sv-t2{fill:var(--ink-2);font-size:11.5px}
+.sv-th{fill:var(--ink);font-size:14px;font-weight:600}
+.sv-inv{fill:var(--sheet);font-size:13px;font-weight:600}
+.sv-line{stroke:var(--line-2);stroke-width:1.4;fill:none}
+.sv-arrow{stroke:var(--ink-2);stroke-width:1.5;fill:none}
+.sv-grid{stroke:var(--line);stroke-width:1}
+.sv-bar{fill:var(--navy)}
+.sv-bar2{fill:var(--accent)}
+.sv-bar3{fill:var(--low)}
+.sv-crit{fill:var(--crit)}
+.sv-ok{fill:var(--ok)}
+
+/* evidence */
+.ev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.ev{border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--paper);display:flex;flex-direction:column}
+.ev img{display:block;width:100%;height:auto;border-bottom:1px solid var(--line)}
+.ev-grid.tall{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.ev .shot{max-height:620px;overflow-y:auto;border-bottom:1px solid var(--line)}
+.ev .shot img{border-bottom:0}
+.ev .cap{padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:.88rem}
+.ev .cap .url{font-family:var(--f-mono);font-size:.76rem;color:var(--muted);direction:ltr;word-break:break-all}
+
+details{border:1px solid var(--line);border-radius:4px;background:var(--paper)}
+details>summary{cursor:pointer;padding:12px 16px;font-family:var(--f-disp);font-weight:600}
+details>div{padding:0 16px 16px}
+
+.gate{display:grid;grid-template-columns:64px 1fr 120px;gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.gate>div{padding:10px 12px;border-bottom:1px solid var(--line)}
+.gate>div:nth-last-child(-n+3){border-bottom:0}
+.gate .gid{font-family:var(--f-mono);font-weight:500;color:var(--accent)}
+.gate .h{background:var(--navy-soft);font-family:var(--f-disp);font-weight:600;font-size:.84rem}
+@media (max-width:640px){.gate{grid-template-columns:52px 1fr}.gate>div:nth-child(3n){grid-column:1/-1;border-bottom:1px solid var(--line)}.gate .h:nth-child(3){display:none}}
+
+ul.clean{margin:0;padding-inline-start:20px;display:flex;flex-direction:column;gap:6px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+footer.end{color:var(--muted);font-size:.84rem;text-align:center;padding-top:10px}
+
+@media print{
+  body{background:#fff}
+  section.s,.cover,nav.toc{break-inside:auto;border-color:#bbb}
+  .ev{break-inside:avoid}
+  details{border:0}details>summary{display:none}details>div{padding:0}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.evq td:nth-child(4),.evq td:nth-child(5){direction:ltr;text-align:left;unicode-bidi:isolate}
+.meta dd{overflow-wrap:anywhere;min-width:0}
+</style>
+
+<div class="wrap" dir="ltr" lang="en">
+<div class="stack-lg">
+
+<!-- ============ COVER ============ -->
+<header class="cover">
+  <span class="eyebrow">Prince Mohammad Bin Fahd University · Admissions Office</span>
+  <h1 lang="en">PMU Admissions — Executive Project High-Level Plan</h1>
+  <p class="sub">A project to create one source of truth for admissions data and to restructure the applicant experience. The plan rests on an independent field audit of the live website.</p>
+  <dl class="meta">
+    <div><dt>Prepared for</dt><dd>Direct manager <bdi dir="ltr" lang="en">(Associate Director for Enrollment)</bdi> · Admissions · Senior leadership</dd></div>
+    <div><dt>Partners</dt><dd>Colleges · Finance · IT and Web · Corporate Communications</dd></div>
+    <div><dt>Evidence verified on</dt><dd class="mono ltr">2026-09-27</dd></div>
+    <div><dt>Official starting point</dt><dd class="mono ltr" style="font-size:.8rem">pmu.edu.sa/admission/admission</dd></div>
+  </dl>
+  <div><span class="verdict notmet">Current status: FULL PROJECT CLOSURE — NOT MET</span> <span class="muted" style="font-size:.86rem">(baseline before the project starts; closure criteria in section 14)</span> <span class="muted" style="font-size:.85rem">· <a href="PMU-Admissions-Executive-Plan.html" lang="ar">النسخة العربية</a></span></div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <strong class="eyebrow">Contents</strong>
+  <ol>
+    <li><a href="#s1">Executive summary</a></li>
+    <li><a href="#s2">Current-state assessment</a></li>
+    <li><a href="#s3">Why management action is required now</a></li>
+    <li><a href="#s4">Evidence baseline</a></li>
+    <li><a href="#s5">Target state</a></li>
+    <li><a href="#s6">Project scope</a></li>
+    <li><a href="#s7">Workstreams</a></li>
+    <li><a href="#s8">Governance and decision rights</a></li>
+    <li><a href="#s9">Proposed admissions structure</a></li>
+    <li><a href="#s10">Legacy content strategy</a></li>
+    <li><a href="#s11">Executive roadmap</a></li>
+    <li><a href="#s12">Decisions required from management</a></li>
+    <li><a href="#s13">KPIs and risks</a></li>
+    <li><a href="#s14">Full closure framework</a></li>
+    <li><a href="#s15">Method, coverage and limitations</a></li>
+    <li><a href="#s16">Self-correction and verified passes</a></li>
+    <li><a href="#s17">Ready-made toolkit and gate status</a></li>
+    <li><a href="#appA">Appendix A: visual evidence</a></li>
+    <li><a href="#appB">Appendix B: registers and sources</a></li>
+  </ol>
+</nav>
+
+<!-- ============ 1 EXEC SUMMARY ============ -->
+<section class="s" id="s1">
+  <div class="s-head"><span class="s-num">01</span><h2>Executive summary</h2><span class="s-en">Executive Summary</span></div>
+  <div class="stats">
+    <div class="stat"><b>72</b><span>live pages and resources read in full</span></div>
+    <div class="stat"><b>30</b><span>documented findings</span></div>
+    <div class="stat c"><b>4</b><span>critical: eligibility, money, refunds and the application route</span></div>
+    <div class="stat"><b>11</b><span>confirmed conflicts between university pages, plus two contradictions within a single page</span></div>
+    <div class="stat c"><b>4</b><span>different weighting schemes for undergraduate admission</span></div>
+    <div class="stat"><b>0</b><span>rule pages showing an owner or an effective date</span></div>
+  </div>
+  <div class="stack">
+    <p><strong>Bottom line:</strong> The audit covered 72 live resources, including every graduate, fees and refund page. It was then re-verified live on the same day: the G3 verifier found all 21 of its issues unchanged on 21 core surfaces, the university had fixed none of them, and a full review re-matched every quoted line in the registers against the live text. The problem is not a set of isolated errors. The root cause, proven by the evidence, is that there is <strong>no single source of truth</strong> for admission rules, fees and dates. Each rule is copied by hand onto several pages from different content generations, with no owner and no effective date. So applicants see contradictory values for the same decision.</p>
+    <ul class="clean">
+      <li><strong>Eligibility:</strong> Four different weighting schemes. For the general high-school applicant alone, two conflicting formulas are published, 60/40 and 30/50/20 with an interview, plus a third legacy rule that is still published (P20: an 80% threshold, or 70% with an interview and a battery test). English thresholds also conflict: IELTS 5.5 vs 6.0, and TOEFL 65 vs 83. The SAT equivalent is stated three different ways.</li>
+      <li><strong>Money:</strong> The Medicine application fee is SAR 1,000 on the admission page and SAR 1,150 on the fees page. The SAR 20,000 non-refundable seat reservation is not mentioned on the admission page. The payment policy says “All tuition payments are non-refundable” and then publishes a refund table on the same page.</li><li><strong>Medicine programme:</strong> Its duration is “<bdi dir="ltr" lang="en">7-year hybrid model</bdi>” on the admission page and “<bdi dir="ltr" lang="en">6-year integrated curriculum</bdi>” on the college page. The composite minimum (86) cannot be reached at the published component minimums, which give 83.</li><li><strong>Copied and outdated content:</strong> The Engineering Management master's requirements page contains an English-language route that belongs to the University of Arizona. The “Web Admission Guide”, linked from every admissions page, is dated 2018 and describes a retired system.</li>
+      <li><strong>Application route:</strong> The admissions calendar sends Saudi applicants to the Qabool platform and non-Saudis to Study in Saudi, while six other pages send everyone to the university portal. The portal itself shows “No events are currently published”.</li>
+      <li><strong>Language and accessibility:</strong> No Arabic version of the binding admission rules was found, and no admissions page on <span class="mono ltr">pmu.edu.sa</span> declares its language (the <span class="mono ltr">lang</span> attribute is missing on 20 of 20). On the positive side, no page overflows horizontally on mobile. Arabic appears only in the direct-entry block of the apply page and in the query-form introduction.</li>
+    </ul>
+    <div class="callout navy"><p><strong>Recommendation:</strong> approve an executive project of <strong>6 workstreams over 22 weeks</strong> from approval, ending before the Fall 2027 admission cycle opens. The opening date is an assumption based on the Fall 2026 cycle having opened on 2026-05-03. The decisive item on the critical path is <strong>ten institutional decisions</strong> (section 12); no technical team can correct the content before they are made.</p></div>
+  </div>
+</section>
+
+<!-- ============ 2 CURRENT STATE ============ -->
+<section class="s" id="s2">
+  <div class="s-head"><span class="s-num">02</span><h2>Current-state assessment</h2><span class="s-en">Current-State Assessment</span></div>
+  <p>This assessment is derived directly from the findings register. The rating is qualitative and evidence-based, not a statistical sample.</p>
+  <div class="score" role="table" aria-label="Current-state scorecard">
+    <div class="h" role="columnheader">Dimension</div><div class="h" role="columnheader">Rating</div><div class="h" role="columnheader">Evidence in brief</div>
+    <div role="cell">Data accuracy and consistency</div><div role="cell"><span class="pill p-crit">Critical</span></div><div role="cell">11 confirmed conflicts and two internal contradictions across formulas, thresholds, fees, refunds, Medicine duration and the application route</div>
+    <div role="cell">Single source of truth (SSOT)</div><div role="cell"><span class="pill p-crit">Absent</span></div><div role="cell">The same rule is copied by hand onto 6 to 8 pages, and a legacy criteria page is still published (P20)</div>
+    <div role="cell">Applicant journey and routing</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">5 divergent application entry points (three on the university site, two national channels), an application guide for a retired system, and undergraduate “Contact” links pointing to the graduate page</div>
+    <div role="cell">Content currency</div><div role="cell"><span class="pill p-high">High</span></div><div role="cell">A calendar for a cycle that has already started, a footer linking to the 2021–2022 calendar, and retired tests (CBT and SAT II)</div>
+    <div role="cell">Arabic–English parity</div><div role="cell"><span class="pill p-med">Medium–High</span></div><div role="cell">No language switch and no Arabic equivalent for the rule pages reviewed</div>
+    <div role="cell">Technology and accessibility</div><div role="cell"><span class="pill p-med">Medium</span></div><div role="cell">http and “#” links, two co-existing templates, headings used as buttons (limited check, not a full WCAG audit)</div>
+    <div role="cell">Governance and ownership</div><div role="cell"><span class="pill p-crit">Absent</span></div><div role="cell">No owner, effective date or review date on any rule page</div>
+  </div>
+</section>
+
+<!-- ============ 3 WHY ACTION ============ -->
+<section class="s" id="s3">
+  <div class="s-head"><span class="s-num">03</span><h2>Why management action is required now</h2><span class="s-en">Why Management Action Is Required</span></div>
+  <div class="two">
+    <div class="stack">
+      <h3>Impact on the university</h3>
+      <ul class="clean">
+        <li><strong>Defensibility of admission decisions:</strong> when the university publishes conflicting criteria, any rejection or acceptance becomes open to challenge.</li>
+        <li><strong>Financial commitments:</strong> collecting an amount different from the one announced, and not disclosing a SAR 20,000 non-refundable fee in advance.</li>
+        <li><strong>Alignment with national platforms:</strong> the university states the Qabool and Study in Saudi routes, then shows another route that bypasses them.</li>
+        <li><strong>Reputation:</strong> unedited draft text, “launch phase” wording and spelling errors on published policy pages.</li>
+      </ul>
+    </div>
+    <div class="stack">
+      <h3>Why the web team alone is not enough</h3>
+      <p>Most of the 11 conflicts require <strong>deciding the correct value</strong>, which is an academic or financial decision, not an editorial one. We did not resolve any conflict ourselves. Every conflict without a decisive official source is classified in this plan as <em>Owner Decision Required</em>.</p>
+      <p>Without a governance model, contradictions will return with the next fee or threshold update. This has already happened: three generations of undergraduate fee tables are shown side by side (2026/2027 intake, 2025/2026 intake, and continuing students 2024–2025).</p>
+      <p class="muted" style="font-size:.9rem">Frame of reference: transparency and digital transformation of services under <a href="https://www.vision2030.gov.sa/" lang="en">Saudi Vision 2030</a>, and the <a href="https://www.w3.org/TR/WCAG22/" lang="en">W3C WCAG 2.2</a> accessibility standard. The frame was used as guiding context only; we did not measure compliance with either.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 EVIDENCE BASELINE ============ -->
+<section class="s" id="s4">
+  <div class="s-head"><span class="s-num">04</span><h2>Evidence baseline</h2><span class="s-en">Evidence Baseline</span></div>
+  <p>The most important confirmed conflicts. Text is quoted verbatim from the live pages on <span class="mono ltr">2026-09-27</span>. The full register (30 findings) is in <span class="mono ltr">registers/findings-register.md</span>.</p>
+  <div class="tbl"><table class="evq">
+    <thead><tr><th>ID</th><th>Severity</th><th>Rule</th><th>Source value (A)</th><th>Source value (B)</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">F-01</td><td><span class="pill p-crit">Critical</span></td><td>Weighted formula</td><td>P02/P04: <q>Secondary School 60% · General Aptitude Test 40%</q></td><td>P03: <q>High school 30% · Aptitude Test 50% · Personal Interview 20%</q> · P19: 40/30/30 <bdi>with Tahseely</bdi></td><td>S03, S04 + text</td></tr>
+      <tr><td class="mono">F-02</td><td><span class="pill p-crit">Critical</span></td><td>Application channel</td><td>P14: <q>For Saudi Students: Apply online through Qabool platform</q></td><td>P18: <q>The application process can be completed entirely online</q> → pmu.edu.sa/apply</td><td><strong>S14</strong>, S15</td></tr>
+      <tr><td class="mono">F-03</td><td><span class="pill p-crit">Critical</span></td><td>Medicine application fee</td><td>P09: <q>SAR 1000 (incl. VAT)</q></td><td>P12: <q>SAR 1,150 (VAT inclusive)</q></td><td><strong>S12</strong></td></tr>
+      <tr><td class="mono">F-04</td><td><span class="pill p-high">High</span></td><td>English threshold</td><td>P03: <q>iBT 65 … IELTS Band of 5.5</q></td><td>P07: <q>Core 83 / 19</q> · P04/P06: IELTS 6.0</td><td>S03 + text</td></tr>
+      <tr><td class="mono">F-05</td><td><span class="pill p-high">High</span></td><td>Tahseely equivalent</td><td>P09: <q>(SAT 1) 1300</q></td><td>P19: <q>SAT 1 (1200)</q> · P18: <q>SAT II 30%</q> <bdi>(discontinued&nbsp;since&nbsp;2021)</bdi></td><td>text + X06</td></tr>
+      <tr><td class="mono">F-06</td><td><span class="pill p-high">High</span></td><td>Placement test fee</td><td>P03: <q>S.R.950 Admission and English Placement Test Fee</q></td><td>P13: <q>APTIS Exam Fees — SAR 575</q></td><td>text</td></tr>
+      <tr><td class="mono">F-22</td><td><span class="pill p-crit">Critical</span></td><td>Fee refunds</td><td>P49: <q>All tuition payments are non-refundable.</q></td><td>P49 <bdi>(same page)</bdi>: <q>Two weeks before the first day of classes — 25%</q></td><td>text</td></tr>
+      <tr><td class="mono">F-23</td><td><span class="pill p-high">High</span></td><td>Medicine programme duration</td><td>P09: <q>7-year hybrid model</q></td><td>P54: <q>6-year integrated curriculum</q></td><td>S09 + text</td></tr>
+      <tr><td class="mono">F-20</td><td><span class="pill p-high">High</span></td><td>Medicine formula arithmetic</td><td>P09: <q>86 is the minimum acceptable score</q></td><td>0.2×95 + 0.4×80 + 0.4×80 = <strong>83</strong></td><td>calculation on quoted text</td></tr>
+      <tr><td class="mono">F-21</td><td><span class="pill p-high">High</span></td><td>Another university's content</td><td>P43: <q>UA Center for English as Second Language (CESL)</q> · IELTS 7</td><td>IELTS 6.0 / TOEFL 83 <bdi>(other graduate pages)</bdi></td><td>text + X09</td></tr>
+      <tr><td class="mono">F-24</td><td><span class="pill p-high">High</span></td><td>Application guide</td><td>P55: <q>Copyright © 2011</q> · <q>Login ID … PIN</q></td><td><bdi>current portal is a different system (P15)</bdi></td><td>text + S15</td></tr>
+      <tr><td class="mono">F-08</td><td><span class="pill p-high">High</span></td><td>Intake status</td><td>P14: <bdi>Fall 2026 calendar only (classes began 2026-08-30)</bdi></td><td>P15: <q>No events are currently published.</q></td><td>S14, <strong>S15</strong></td></tr>
+    </tbody>
+  </table></div>
+  <details>
+    <summary>What we verified externally (official sources)</summary>
+    <div class="tbl"><table>
+      <thead><tr><th>ID</th><th>External fact</th><th>Source</th><th>Effect on university content</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">X01</td><td>TOEFL iBT moved to a 1–6 scale on 21 January 2026, with a comparable 0–120 score shown for two years</td><td><a href="https://www.ets.org/toefl/institutions/ibt/score-scale-update.html" lang="en">ETS</a></td><td>University tables use the 0–120 scale only</td></tr>
+        <tr><td class="mono">X02</td><td>TOEFL CBT was discontinued in 2006</td><td><a href="https://www.ets.org/Media/Research/pdf/TOEFL-SUM-0506-CBT.pdf" lang="en">ETS</a></td><td>“CBT 183” on P03 is obsolete</td></tr>
+        <tr><td class="mono">X04</td><td>IELTS recommends that results be considered valid for two years</td><td><a href="https://ielts.org/organisations/ielts-for-organisations/verifying-ielts-results" lang="en">IELTS</a></td><td>The university rule is consistent but worded two ways</td></tr>
+        <tr><td class="mono">X06</td><td>College Board discontinued SAT Subject Tests in 2021</td><td><a href="https://blog.collegeboard.org/what-were-sat-subject-tests" lang="en">College Board</a></td><td>The “SAT II” requirement on P18 cannot be met</td></tr>
+        <tr><td class="mono">X09</td><td>CESL belongs to the University of Arizona; its endorsement is valid for that university's admission only</td><td><a href="https://cesl.arizona.edu/endorsement" lang="en">University of Arizona CESL</a></td><td>EMGMS page text is copied from an external party</td></tr>
+        <tr><td class="mono">X07</td><td>The State bears VAT on private education for citizens</td><td><a href="https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx" lang="en">ZATCA</a></td><td>The 2026/27 fee table is consistent; VAT wording on the application fee needs one Finance statement</td></tr>
+        <tr><td class="mono">X05/X08</td><td>Qabool for Saudi applicants; Study in Saudi for non-Saudi applicants</td><td><a href="https://www.moe.gov.sa/en/knowledgecenter/eservices/pages/unified-admission.aspx" lang="en">MoE</a> · <a href="https://studyinsaudi.sa/en" lang="en">Study in Saudi</a></td><td>The calendar matches the national model; the conflict is internal to the university site</td></tr>
+      </tbody>
+    </table></div>
+  </details>
+</section>
+
+<!-- ============ 5 TARGET STATE ============ -->
+<section class="s" id="s5">
+  <div class="s-head"><span class="s-num">05</span><h2>Target state</h2><span class="s-en">Target State · Admissions Canonical Data</span></div>
+  <p>Every rule, number and date is stored <strong>once</strong> in an admissions canonical record, each with an owner, an effective date and Arabic and English labels. Every surface (the website in both languages, the portal, the calendar, the files) shows the value from that same record; hand-typing values into pages is not allowed.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 300" width="100%" style="min-width:720px" role="img" aria-labelledby="ssotT">
+        <title id="ssotT">Single-source-of-truth model for admissions data</title>
+        <!-- owners -->
+        <g>
+          <rect class="sv-fill" x="740" y="20" width="200" height="260" rx="4"/>
+          <text class="sv-th" x="840" y="46" text-anchor="middle">Data owners</text>
+          <text class="sv-t" x="840" y="80" text-anchor="middle">Admissions Committee · formulas</text>
+          <text class="sv-t" x="840" y="108" text-anchor="middle">Finance · fees and VAT</text>
+          <text class="sv-t" x="840" y="136" text-anchor="middle">English Programme · thresholds</text>
+          <text class="sv-t" x="840" y="164" text-anchor="middle">Colleges · major requirements</text>
+          <text class="sv-t" x="840" y="192" text-anchor="middle">Admissions · dates and channels</text>
+          <text class="sv-t" x="840" y="220" text-anchor="middle">Registrar · documents</text>
+          <text class="sv-t2" x="840" y="258" text-anchor="middle">decide and approve values</text>
+        </g>
+        <path class="sv-arrow" d="M738 150 H672" marker-end="url(#ah)"/>
+        <!-- canonical -->
+        <g>
+          <rect x="470" y="70" width="200" height="160" rx="4" class="sv-navy"/>
+          <text class="sv-inv" x="570" y="112" text-anchor="middle">Admissions canonical record</text>
+          <text class="sv-inv" x="570" y="134" text-anchor="middle" style="font-weight:400;font-size:12px" direction="ltr">Admissions Canonical Record</text>
+          <text class="sv-inv" x="570" y="166" text-anchor="middle" style="font-weight:400;font-size:12px">14 data domains</text>
+          <text class="sv-inv" x="570" y="188" text-anchor="middle" style="font-weight:400;font-size:12px">value · owner · effective · AR/EN</text>
+        </g>
+        <path class="sv-arrow" d="M468 150 H402" marker-end="url(#ah)"/>
+        <!-- approval -->
+        <g>
+          <rect class="sv-box" x="260" y="100" width="140" height="100" rx="4"/>
+          <text class="sv-th" x="330" y="136" text-anchor="middle">Approval workflow</text>
+          <text class="sv-t2" x="330" y="160" text-anchor="middle">Language review</text>
+          <text class="sv-t2" x="330" y="180" text-anchor="middle">Independent check</text>
+        </g>
+        <path class="sv-arrow" d="M258 150 H200" marker-end="url(#ah)"/>
+        <!-- surfaces -->
+        <g>
+          <rect class="sv-box" x="20" y="20" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="49" text-anchor="middle">Website · Arabic</text>
+          <rect class="sv-box" x="20" y="78" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="107" text-anchor="middle">Website · English</text>
+          <rect class="sv-box" x="20" y="136" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="165" text-anchor="middle">Application portal</text>
+          <rect class="sv-box" x="20" y="194" width="178" height="48" rx="4"/><text class="sv-t" x="109" y="223" text-anchor="middle">Calendar and intake status</text>
+          <rect class="sv-box" x="20" y="252" width="178" height="36" rx="4"/><text class="sv-t2" x="109" y="275" text-anchor="middle">Guides and PDF files</text>
+        </g>
+        <path class="sv-line" d="M570 232 V290 H330" stroke-dasharray="4 4"/>
+        <text class="sv-t2" x="450" y="284" text-anchor="middle">Drift and expiry monitoring (monthly and before each cycle)</text>
+        <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+      </svg>
+    </div>
+    <figcaption>Figure 1: each data domain flows from its owner to the canonical record, then through the approval workflow, then to every surface. Monitoring returns any drift to the owner.</figcaption>
+  </figure>
+  <div class="two">
+    <div class="stack"><h3>Target-state principles</h3>
+      <ul class="clean">
+        <li>One value per rule, per applicant category, per admission cycle.</li>
+        <li>Every rule component shows: “Effective for intake X · Owner · Last verified”.</li>
+        <li>Arabic and English come from the same value; no manual translation of numbers.</li>
+        <li>“Apply now” is a routing step, not one link for every applicant.</li>
+        <li>No legacy page is deleted before a replacement, a redirect and verification exist.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>Canonical data domains (14)</h3>
+      <p style="font-size:.92rem">GPA threshold · Qudrat threshold · Tahseely rule and equivalents · weighted formula and minimum · English tests and thresholds (with the TOEFL 1–6 scale) · test validity · application fees by programme · placement-test fee · seat reservation and refund terms · tuition by college and cycle · VAT statement · application channel by category · documents by category · calendar, intake status and contacts.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6 SCOPE ============ -->
+<section class="s" id="s6">
+  <div class="s-head"><span class="s-num">06</span><h2>Project scope</h2><span class="s-en">Project Objective · Scope · Out of Scope</span></div>
+  <div class="callout"><p><strong>Project objective:</strong> every applicant, in Arabic or English, finds one correct, approved and dated value for every rule that affects their eligibility, cost, deadline and application channel, on every surface the university publishes, with a governance model that stops contradictions from returning.</p></div>
+  <div class="two">
+    <div class="stack"><h3>In scope</h3>
+      <ul class="clean">
+        <li>All undergraduate, international, transfer, visiting, Medicine and preparatory-year admission pages.</li>
+        <li>The 11 graduate pages audited, plus two priced programmes that have no admission page.</li>
+        <li>Fees, payment and refund pages relevant to new applicants.</li>
+        <li>The public face of the application portal (welcome page, calendar and routing).</li>
+        <li>Linked PDF files and guides, and indexed legacy pages.</li>
+        <li>Arabic–English parity for every core component.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>Out of scope</h3>
+      <ul class="clean">
+        <li>Changing admission policies themselves. The project records decisions; it does not make them.</li>
+        <li>Redesigning the whole university website beyond the admissions section.</li>
+        <li>Internal changes to the portal's logic after login, except intake dates and routing.</li>
+        <li>Student information systems (SIS) and internal billing.</li>
+        <li>Marketing campaigns and paid advertising.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7 WORKSTREAMS ============ -->
+<section class="s" id="s7">
+  <div class="s-head"><span class="s-num">07</span><h2>Workstreams</h2><span class="s-en">Workstreams · Deliverables · Dependencies</span></div>
+  <div class="ws-grid">
+    <article class="ws"><h3><span class="mono">WS1</span>Canonical rules and decisions</h3>
+      <dl><dt>Lead</dt><dd>Admissions Director (Admissions Committee secretariat)</dd><dt>Addresses</dt><dd>F-01, F-03 to F-06, F-09, F-13, F-18</dd></dl>
+      <ul><li>A decision pack per conflict, with evidence and options</li><li><strong>Admission Rules Book v1</strong> approved, with an effective date</li><li>English threshold table with the TOEFL 1–6 scale</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: decisions D1 to D5</p></article>
+    <article class="ws"><h3><span class="mono">WS2</span>Canonical data and governance</h3>
+      <dl><dt>Lead</dt><dd>Quality / Institutional Effectiveness + IT</dd><dt>Addresses</dt><dd>F-10, F-19 and the root cause</dd></dl>
+      <ul><li>A canonical record of 14 domains (owner, value, effective date, AR/EN)</li><li>Publishing and approval workflow with an agreed service level</li><li>A drift-check tool (surfaces compared with the record)</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: WS1 and platform decision D8</p></article>
+    <article class="ws"><h3><span class="mono">WS3</span>Admissions experience restructure</h3>
+      <dl><dt>Lead</dt><dd>Corporate Communications + web team</dd><dt>Addresses</dt><dd>F-07, F-11, F-14, F-15, F-17</dd></dl>
+      <ul><li>New information architecture and admissions home page with an intake-status component</li><li>Shared components fed from the record</li><li>An equivalent Arabic version of every core component</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: WS1 and WS2, and language decision D6</p></article>
+    <article class="ws"><h3><span class="mono">WS4</span>Portal and channel alignment</h3>
+      <dl><dt>Lead</dt><dd>IT (portal) + Admissions</dd><dt>Addresses</dt><dd>F-02, F-08</dd></dl>
+      <ul><li>Channel map per category (Qabool, Study in Saudi, portal)</li><li>Portal calendar and status fed from the canonical record</li><li>Replacing expired banners and routing registration</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: channel decision D4</p></article>
+    <article class="ws"><h3><span class="mono">WS5</span>Legacy content and search optimisation</h3>
+      <dl><dt>Lead</dt><dd>Web team</dd><dt>Addresses</dt><dd>F-12, F-16 (links)</dd></dl>
+      <ul><li>Legacy URL register with the state of each</li><li>301 redirect maps, noindex and archiving</li><li>Footer and internal-link updates</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: replacement pages ready (WS3) and decision D7</p></article>
+    <article class="ws"><h3><span class="mono">WS6</span>Quality, verification and handover</h3>
+      <dl><dt>Lead</dt><dd>Quality / Institutional Effectiveness (independent verification)</dd><dt>Addresses</dt><dd>All findings (proof of closure)</dd></dl>
+      <ul><li>Full re-crawl compared with the record</li><li>Journey tests for six applicant personas, and a WCAG 2.2 AA test</li><li>Closure pack and handover to operations</li></ul>
+      <p class="muted" style="font-size:.86rem">Depends on: WS1 to WS5</p></article>
+  </div>
+</section>
+
+<!-- ============ 8 GOVERNANCE ============ -->
+<section class="s" id="s8">
+  <div class="s-head"><span class="s-num">08</span><h2>Governance and decision rights</h2><span class="s-en">Governance · Decision Rights · RACI</span></div>
+  <p>The model is built on roles and functions. No personal names. <strong>D</strong>=decides · <strong>O</strong>=owns the data · <strong>A</strong>=approves publishing · <strong>P</strong>=publishes · <strong>V</strong>=verifies in production · <strong>M</strong>=monitors drift and expiry · <strong>C</strong>=consulted.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Data domain</th><th>Admissions Committee / Academic Council</th><th>Admissions Director</th><th>Finance</th><th>Colleges</th><th>English Programme</th><th>IT / Web</th><th>Corporate Communications</th><th>Quality</th></tr></thead>
+    <tbody>
+      <tr><td>Academic formulas and thresholds</td><td>D</td><td>O · A</td><td>—</td><td>C</td><td>C</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>English test thresholds</td><td>D</td><td>A</td><td>—</td><td>C</td><td>O</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>Major requirements (Medicine, Engineering, Computing, Architecture)</td><td>D</td><td>A</td><td>—</td><td>O</td><td>C</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>Fees, VAT and refunds</td><td>C</td><td>A</td><td>D · O</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>Application channels and dates</td><td>C</td><td>D · O</td><td>—</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V · M</td></tr>
+      <tr><td>Required documents</td><td>C</td><td>D · O</td><td>—</td><td>C</td><td>—</td><td>P</td><td>C</td><td>V</td></tr>
+      <tr><td>Arabic and English text</td><td>—</td><td>A</td><td>—</td><td>—</td><td>—</td><td>P</td><td>O</td><td>V</td></tr>
+    </tbody>
+  </table></div>
+  <div class="two">
+    <div class="stack"><h3>The six governance answers</h3>
+      <ul class="clean">
+        <li><strong>Who decides?</strong> The Admissions Committee or Academic Council for rules, Finance for money, the project sponsor for channels.</li>
+        <li><strong>Who owns the data?</strong> One named functional owner for each of the 14 domains.</li>
+        <li><strong>Who approves?</strong> The Admissions Director and the domain owner together, before any publishing.</li>
+        <li><strong>Who publishes?</strong> The web team only, and only from the canonical record.</li>
+        <li><strong>Who verifies in production?</strong> Quality or Institutional Effectiveness, independent of the publisher.</li>
+        <li><strong>Who monitors drift and expiry?</strong> Content operations, with a monthly check and a check before each cycle opens.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>Meeting structure</h3>
+      <ul class="clean">
+        <li><strong>Steering committee</strong> (executive sponsor, Admissions Director, Finance, IT and Quality) every two weeks; decides at the closure gates.</li>
+        <li><strong>Project team</strong> weekly, with the six workstream leads.</li>
+        <li><strong>Escalation:</strong> any decision more than 5 working days late goes to the executive sponsor.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9 PROPOSED STRUCTURE ============ -->
+<section class="s" id="s9">
+  <div class="s-head"><span class="s-num">09</span><h2>Proposed admissions structure</h2><span class="s-en">Proposed Information Architecture</span></div>
+  <p>Today: a home page of about 40 links with no introduction, status or routing, and two routes (Freshman and Direct) for the same category with different rules. The proposal starts by asking the applicant “Who are you?” and then shows the same shared components, filled with their category's values from the canonical record.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 470" width="100%" style="min-width:760px" role="img" aria-labelledby="iaT">
+        <title id="iaT">Proposed information architecture for admissions</title>
+        <defs><marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+        <!-- home -->
+        <rect x="280" y="14" width="400" height="74" rx="4" class="sv-navy"/>
+        <text class="sv-inv" x="480" y="42" text-anchor="middle">Admissions · home page (AR | EN)</text>
+        <text class="sv-inv" x="480" y="66" text-anchor="middle" style="font-weight:400;font-size:12px">Intake-status bar: open / closed · deadline · correct channel</text>
+        <!-- router -->
+        <rect x="380" y="108" width="200" height="40" rx="20" class="sv-accent"/>
+        <text class="sv-inv" x="480" y="133" text-anchor="middle">“Who are you?” route selection</text>
+        <path class="sv-arrow" d="M480 88 V106"/>
+        <!-- routes -->
+        <g>
+          <path class="sv-line" d="M80 172 H880"/>
+          <path class="sv-arrow" d="M480 148 V170"/>
+          <rect class="sv-box" x="20" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="90" y="206" text-anchor="middle">High-school graduate</text><text class="sv-t2" x="90" y="228" text-anchor="middle">Saudi / resident</text>
+          <rect class="sv-box" x="176" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="246" y="206" text-anchor="middle">International student</text><text class="sv-t2" x="246" y="228" text-anchor="middle">no residence</text>
+          <rect class="sv-box" x="332" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="402" y="206" text-anchor="middle">Transfer</text><text class="sv-t2" x="402" y="228" text-anchor="middle">from another university</text>
+          <rect class="sv-box" x="488" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="558" y="206" text-anchor="middle">College of Medicine</text><text class="sv-t2" x="558" y="228" text-anchor="middle">special track</text>
+          <rect class="sv-box" x="644" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="714" y="206" text-anchor="middle">Graduate studies</text><text class="sv-t2" x="714" y="228" text-anchor="middle">11 programmes</text>
+          <rect class="sv-box" x="800" y="182" width="140" height="62" rx="4"/><text class="sv-th" x="870" y="206" text-anchor="middle">Visiting</text><text class="sv-t2" x="870" y="228" text-anchor="middle">one or more terms</text>
+          <path class="sv-line" d="M90 172 V182 M246 172 V182 M402 172 V182 M558 172 V182 M714 172 V182 M870 172 V182"/>
+        </g>
+        <!-- shared components -->
+        <rect class="sv-fill" x="20" y="268" width="920" height="138" rx="4"/>
+        <text class="sv-th" x="920" y="292" text-anchor="end">Shared components, all fed from the canonical record, the same for every route</text>
+        <g>
+          <rect class="sv-box" x="36" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="88" y="340" text-anchor="middle">Requirements</text><text class="sv-t2" x="88" y="362" text-anchor="middle">& formula</text>
+          <rect class="sv-box" x="150" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="202" y="340" text-anchor="middle">English</text><text class="sv-t2" x="202" y="362" text-anchor="middle">& tests</text>
+          <rect class="sv-box" x="264" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="316" y="340" text-anchor="middle">Costs</text><text class="sv-t2" x="316" y="362" text-anchor="middle">& funding</text>
+          <rect class="sv-box" x="378" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="430" y="340" text-anchor="middle">Dates</text><text class="sv-t2" x="430" y="362" text-anchor="middle">Intake status</text>
+          <rect class="sv-box" x="492" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="544" y="340" text-anchor="middle">Documents</text><text class="sv-t2" x="544" y="362" text-anchor="middle">checklist</text>
+          <rect class="sv-box" x="606" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="658" y="340" text-anchor="middle">How to apply</text><text class="sv-t2" x="658" y="362" text-anchor="middle">the correct channel</text>
+          <rect class="sv-box" x="720" y="306" width="104" height="84" rx="4"/><text class="sv-t" x="772" y="340" text-anchor="middle">Tracking</text><text class="sv-t2" x="772" y="362" text-anchor="middle">& decision</text>
+          <rect class="sv-box" x="834" y="306" width="90" height="84" rx="4"/><text class="sv-t" x="879" y="340" text-anchor="middle">Contact</text><text class="sv-t2" x="879" y="362" text-anchor="middle">& enquiries</text>
+        </g>
+        <path class="sv-arrow" d="M480 246 V266" marker-end="url(#ah2)"/>
+        <!-- footer rows -->
+        <rect class="sv-box" x="20" y="420" width="450" height="38" rx="4"/><text class="sv-t" x="245" y="444" text-anchor="middle">Programme guide (active programmes, linked to rules and fees)</text>
+        <rect class="sv-box" x="490" y="420" width="450" height="38" rx="4"/><text class="sv-t" x="715" y="444" text-anchor="middle">Archive: rules and tables of past cycles (noindex, with a banner)</text>
+      </svg>
+    </div>
+    <figcaption>Figure 2: one home page, then six routes, then eight shared components. The Freshman and Direct Admissions pages merge into one route, and the legacy criteria page (P20) moves to the archive.</figcaption>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>Component</th><th>What it shows the applicant</th><th>Feeding record domains</th><th>Addresses</th></tr></thead>
+    <tbody>
+      <tr><td>Intake-status bar</td><td>Open or closed, the next cycle, the deadline and the correct channel. Shown on the website and the portal</td><td>Calendar · channels</td><td>F-02, F-08</td></tr>
+      <tr><td>Requirements & formula</td><td>Minimums, the weighted formula and the composite minimum, with a worked example</td><td>GPA · Qudrat · Tahseely · formula</td><td>F-01, F-05, F-09</td></tr>
+      <tr><td>English & tests</td><td>One table for IELTS, TOEFL (0–120 and 1–6) and Aptis, with validity</td><td>English · validity</td><td>F-04, F-18</td></tr>
+      <tr><td>Costs & funding</td><td>Application fee, test fee, seat reservation, tuition, VAT and refunds for a specific cycle</td><td>The five fee domains</td><td>F-03, F-06, F-07, F-10</td></tr>
+      <tr><td>Documents</td><td>A checklist by category and nationality, printable</td><td>Documents</td><td>F-13</td></tr>
+      <tr><td>How to apply</td><td>The steps of the correct channel for the category, with one button</td><td>Channels</td><td>F-02</td></tr>
+      <tr><td>Contact</td><td>Email and phone with role names, opening hours, an enquiry form and a response time</td><td>Contacts</td><td>F-11</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout navy"><p><strong>Interactive prototype of this structure:</strong> <span class="mono ltr">remediation/hub/admissions-hub-prototype.html</span>. It applies the six routes and the seven-step journey to the same canonical-record data, in both languages, and shows every unapproved value as “Pending decision”. It includes a management simulator that shows the effect of decision D1 on the same applicant, and an assistant that answers only from the record and cites its source. A concept for discussion, not an official page.</p></div>
+</section>
+
+<!-- ============ 10 LEGACY ============ -->
+<section class="s" id="s10">
+  <div class="s-head"><span class="s-num">10</span><h2>Legacy content strategy</h2><span class="s-en">Legacy Strategy</span></div>
+  <p>No content is deleted outright. Every item goes through a lifecycle that preserves indexed links and applicants' saved bookmarks, and moves state only after verification.</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 110" width="100%" style="min-width:680px" role="img" aria-labelledby="lcT">
+        <title id="lcT">Legacy content lifecycle</title>
+        <defs><marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--ink-2)"/></marker></defs>
+        <g>
+          <rect class="sv-box" x="20" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="105" y="50" text-anchor="middle">Replace</text><text class="sv-t2" x="105" y="70" text-anchor="middle" direction="ltr">new page first</text>
+          <rect class="sv-box" x="210" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="295" y="50" text-anchor="middle">Redirect / noindex</text><text class="sv-t2" x="295" y="70" text-anchor="middle" direction="ltr">301 / noindex</text>
+          <rect class="sv-box" x="400" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="485" y="50" text-anchor="middle">Verify</text><text class="sv-t2" x="485" y="70" text-anchor="middle" direction="ltr">crawl + search</text>
+          <rect class="sv-box" x="590" y="24" width="170" height="62" rx="4"/><text class="sv-th" x="675" y="50" text-anchor="middle">Archive</text><text class="sv-t2" x="675" y="70" text-anchor="middle" direction="ltr">with a banner</text>
+          <rect x="780" y="24" width="160" height="62" rx="4" class="sv-navy"/><text class="sv-inv" x="860" y="50" text-anchor="middle">Retire</text><text class="sv-inv" x="860" y="70" text-anchor="middle" style="font-weight:400;font-size:11.5px" direction="ltr">410 / remove</text>
+          <path class="sv-arrow" d="M192 55 H208" marker-end="url(#ah3)"/><path class="sv-arrow" d="M382 55 H398" marker-end="url(#ah3)"/><path class="sv-arrow" d="M572 55 H588" marker-end="url(#ah3)"/><path class="sv-arrow" d="M762 55 H778" marker-end="url(#ah3)"/>
+        </g>
+      </svg>
+    </div>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>Legacy item</th><th>Dependency and search risk</th><th>Replacement</th><th>Proposed treatment</th></tr></thead>
+    <tbody>
+      <tr><td>P20 Admission Procedures &amp; Criteria</td><td>Indexed in search, outside the navigation</td><td>“Requirements & formula” component</td><td>301 redirect, then verify, then retire</td></tr>
+      <tr><td>P03 Freshman Admission (CBT and 30/50/20 rules)</td><td>Linked from newer pages and users' bookmarks</td><td>“High-school graduate” route</td><td>Replace, then 301 redirect</td></tr>
+      <tr><td>2024–2025 and 2025–2026 fee tables</td><td>Needed by continuing students</td><td>Current-cycle fees page</td><td>Archive with a “For students admitted in…” banner, plus noindex</td></tr>
+      <tr><td>Footer link: 2021–2022 calendar</td><td>On every page of the site</td><td>Current calendar</td><td>Fix the template, then 301 the old link</td></tr>
+      <tr><td>Apply_Now_ADS.aspx and http links to the portal</td><td>Many internal links</td><td>“How to apply” component</td><td>301 redirect to the routing page</td></tr>
+      <tr><td>Aptis guide 2017, Student Handbook 2019–2020 and the MOHE letter</td><td>Indexed PDF files</td><td>Updated editions, or nothing</td><td>Replace or archive, with X-Robots-Tag: noindex</td></tr>
+      <tr><td>Web Admission Guide 2018 (P55)</td><td>Linked from every sidebar</td><td>A guide to the current portal in Arabic and English</td><td>Replace, then 301 the old file</td></tr>
+      <tr><td>2023–2024 calendar (“Study at PMU” link)</td><td>Linked from a hub page</td><td>Current calendar</td><td>301 redirect</td></tr>
+      <tr><td>EMGMS page (third-party text)</td><td>Linked from the admissions home page</td><td>A rewritten page</td><td>Withdraw immediately, then rewrite, without waiting for the lifecycle</td></tr>
+      <tr><td>P21 diploma announcement (Arabic, undated)</td><td>Appears when searching for “<bdi lang="ar" dir="rtl">القبول والتسجيل</bdi>” (Admission & Registration)</td><td>As the relevant deanship decides</td><td>Owner confirmation, then archive or update</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 11 ROADMAP ============ -->
+<section class="s" id="s11">
+  <div class="s-head"><span class="s-num">11</span><h2>Executive roadmap</h2><span class="s-en">Executive Roadmap · 22 weeks</span></div>
+  <p>The duration reflects what was proven: 30 findings, 14 data domains, 72 pages and files, and ten decisions. Week 0 is the date management approves. If approval comes in mid-October 2026, closure falls around mid-March 2027, about 6 to 7 weeks before the expected opening of the Fall 2027 cycle (an assumption based on the 2026 pattern).</p>
+  <figure>
+    <div class="fig">
+      <svg viewBox="0 0 960 470" width="100%" style="min-width:820px" role="img" aria-labelledby="gT" direction="ltr">
+        <title id="gT">22-week project timeline with decision points and gates</title>
+        <!-- grid: x0=250, week width=30 -> 22 weeks = 660 -> 910 -->
+        <g>
+          <text class="sv-t2" x="250" y="22">W0</text><text class="sv-t2" x="400" y="22">W5</text><text class="sv-t2" x="550" y="22">W10</text><text class="sv-t2" x="700" y="22">W15</text><text class="sv-t2" x="850" y="22">W20</text><text class="sv-t2" x="902" y="22">W22</text>
+          <path class="sv-grid" d="M250 30 V420 M400 30 V420 M550 30 V420 M700 30 V420 M850 30 V420 M910 30 V420"/>
+        </g>
+        <!-- rows: y start 40, step 36 -->
+        <g>
+          <text class="sv-t" x="240" y="56" text-anchor="end">Mobilize, charter, owners</text>
+          <rect class="sv-bar" x="250" y="44" width="60" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="92" text-anchor="end">WS1 Rules &amp; decisions</text>
+          <rect class="sv-bar2" x="280" y="80" width="150" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="128" text-anchor="end">Containment hotfixes</text>
+          <rect class="sv-bar3" x="310" y="116" width="90" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="164" text-anchor="end">WS2 Canonical record</text>
+          <rect class="sv-bar2" x="340" y="152" width="210" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="200" text-anchor="end">WS4 Portal &amp; channels</text>
+          <rect class="sv-bar" x="430" y="188" width="240" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="236" text-anchor="end">WS3 IA &amp; content (EN)</text>
+          <rect class="sv-bar2" x="430" y="224" width="270" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="272" text-anchor="end">WS3 Arabic parity</text>
+          <rect class="sv-bar2" x="520" y="260" width="240" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="308" text-anchor="end">WS5 Legacy &amp; redirects</text>
+          <rect class="sv-bar" x="610" y="296" width="180" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="344" text-anchor="end">WS6 Validation, UAT, a11y</text>
+          <rect class="sv-bar2" x="730" y="332" width="120" height="16" rx="2"/>
+          <text class="sv-t" x="240" y="380" text-anchor="end">Handover &amp; hypercare</text>
+          <rect class="sv-bar" x="820" y="368" width="90" height="16" rx="2"/>
+        </g>
+        <!-- decisions and gates -->
+        <g>
+          <path class="sv-crit" d="M310 404 l7 -9 l7 9 z"/><text class="sv-t2" x="317" y="418" text-anchor="middle">G0</text>
+          <path class="sv-crit" d="M370 404 l7 -9 l7 9 z"/><text class="sv-t2" x="377" y="418" text-anchor="middle">D1–D5</text>
+          <path class="sv-crit" d="M430 404 l7 -9 l7 9 z"/><text class="sv-t2" x="437" y="418" text-anchor="middle">G1</text>
+          <path class="sv-crit" d="M550 404 l7 -9 l7 9 z"/><text class="sv-t2" x="557" y="418" text-anchor="middle">G2</text>
+          <path class="sv-crit" d="M760 404 l7 -9 l7 9 z"/><text class="sv-t2" x="767" y="418" text-anchor="middle">G3–G6</text>
+          <path class="sv-crit" d="M903 404 l7 -9 l7 9 z"/><text class="sv-t2" x="905" y="418" text-anchor="end">G7</text>
+        </g>
+        <!-- legend -->
+        <g>
+          <rect class="sv-bar2" x="250" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="270" y="447">Critical path</text>
+          <rect class="sv-bar" x="370" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="390" y="447">Parallel work</text>
+          <rect class="sv-bar3" x="490" y="438" width="14" height="10" rx="2"/><text class="sv-t2" x="510" y="447">Containment</text>
+          <path class="sv-crit" d="M610 448 l6 -9 l6 9 z"/><text class="sv-t2" x="628" y="447">Decision point / closure gate</text>
+        </g>
+      </svg>
+    </div>
+    <figcaption>Figure 3: the orange bars are the critical path: decisions, then the canonical record, then English content, then Arabic parity, then verification, then closure. Any delay in D1 to D5 delays closure by the same amount.</figcaption>
+  </figure>
+  <div class="tbl"><table>
+    <thead><tr><th>Phase</th><th class="num">Weeks</th><th>Deliverables</th><th>Exit criterion</th></tr></thead>
+    <tbody>
+      <tr><td>Mobilise and charter</td><td class="num">0–2</td><td>Approved charter, an owner for each of the 14 domains, and the project team</td><td>G0</td></tr>
+      <tr><td>Urgent containment</td><td class="num">2–5</td><td>Correct the Medicine fee and the refund policy after Finance decides, withdraw the copied EMGMS page, noindex P20 and the 2018 guide, fix the undergraduate “Contact” link, and add a “Rules being unified” banner on conflicting pages</td><td>Decision D5 on the fee</td></tr>
+      <tr><td>Canonical rules</td><td class="num">1–6</td><td>Decision packs, Admission Rules Book v1, and the English table with the 1–6 scale</td><td>D1 to D5, then G1</td></tr>
+      <tr><td>Canonical record and governance</td><td class="num">3–10</td><td>A 14-domain record, a unified programme register, an approval workflow, and completing what the audit did not test (the Arabic version and manual WCAG testing)</td><td>G2</td></tr>
+      <tr><td>Build: structure, content and portal</td><td class="num">6–17</td><td>Admissions home page, the six routes, the eight components, the Arabic version and the portal calendar</td><td>Content accepted by every owner</td></tr>
+      <tr><td>Legacy content</td><td class="num">12–18</td><td>Redirect maps, noindex, archive and footer update</td><td>G6 (after verification)</td></tr>
+      <tr><td>Verification</td><td class="num">16–20</td><td>Re-crawl, journey tests, WCAG 2.2 AA and parity check</td><td>G3 to G5</td></tr>
+      <tr><td>Handover and closure</td><td class="num">19–22</td><td>Operating manual, two drift-check runs and the closure pack</td><td>G7 and final verdict</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 12 DECISIONS ============ -->
+<section class="s" id="s12">
+  <div class="s-head"><span class="s-num">12</span><h2>Decisions required from management</h2><span class="s-en">Executive Decisions Required</span></div>
+  <p>The audit made none of these decisions. Each decision below holds up a specific workstream until it is made.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>Decision required</th><th>Why</th><th>Decision owner</th><th>Blocks</th><th>Due</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">D0</td><td>Approve the project, the executive sponsor and the charter</td><td>Without a mandate, colleges and Finance cannot be held to deadlines</td><td>Senior leadership</td><td>The whole project</td><td class="num">W0</td></tr>
+      <tr><td class="mono">D1</td><td>The official weighted formula and composite minimum for each category (general; Engineering, Computing and Architecture; Medicine; international)</td><td>F-01 and F-09: four weighting schemes, three conflicting rules for the general high-school applicant, and an unpublished minimum</td><td>Admissions Committee, then Academic Council</td><td>WS1, WS3</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D2</td><td>The official English thresholds and accepted tests (IELTS, TOEFL on the 1–6 scale, Aptis, home edition) and the validity rule</td><td>F-04 and F-18: 5.5 vs 6.0, and 65 vs 83</td><td>Admissions Committee on the English Programme's recommendation</td><td>WS1, WS3</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D3</td><td>The approved Tahseely equivalent for SAT holders and international certificates after SAT Subject Tests ended</td><td>F-05: three versions, one of them impossible</td><td>Admissions Committee and the colleges concerned</td><td>International-student route</td><td class="num">W4</td></tr>
+      <tr><td class="mono">D4</td><td>The official application channel per category, and the university portal's role versus Qabool and Study in Saudi</td><td>F-02: contradictory routes on the same page</td><td>Executive sponsor and Admissions Director</td><td>WS4 and every apply button</td><td class="num">W3</td></tr>
+      <tr><td class="mono">D5</td><td>The Medicine application fee, whether the SAR 950 fee includes the Aptis test, the VAT wording, and disclosure of the seat reservation</td><td>F-03, F-06 and F-07: a direct financial commitment</td><td>Finance</td><td>Urgent containment, and the costs component</td><td class="num">W2</td></tr>
+      <tr><td class="mono">D6</td><td>Arabic as a binding, equivalent publishing language for admission rules, and the parity standard</td><td>F-14: no Arabic version of the rules</td><td>Senior leadership</td><td>WS3 (Arabic parity)</td><td class="num">W2</td></tr>
+      <tr><td class="mono">D7</td><td>Authority to retire and archive legacy content (P20, P21, old tables and files)</td><td>F-12: indexed legacy generations</td><td>Admissions Director and the owning deanships</td><td>WS5</td><td class="num">W8</td></tr>
+      <tr><td class="mono">D8</td><td>Platform for the canonical record and publishing: extend the current CMS or replace it</td><td>Two co-existing templates and legacy .aspx pages</td><td>IT with the sponsor's approval</td><td>WS2, WS3</td><td class="num">W3</td></tr>
+      <tr><td class="mono">D9</td><td>One dated refund policy for new and continuing students, and publication of the acceptance-letter terms</td><td>F-22: the page denies refunds, then publishes a refund table</td><td>Finance and Legal Affairs</td><td>Costs component and urgent containment</td><td class="num">W2</td></tr>
+      <tr><td class="mono">D10</td><td>The official Medicine programme duration (preparatory year + 6, or 7), the total cost, and admission minimums consistent with the composite minimum</td><td>F-23 and F-20</td><td>College of Medicine deanship, Finance and the Admissions Committee</td><td>Medicine route</td><td class="num">W4</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 13 KPIs & RISKS ============ -->
+<section class="s" id="s13">
+  <div class="s-head"><span class="s-num">13</span><h2>KPIs and risks</h2><span class="s-en">KPIs · Risks</span></div>
+  <h3>KPIs (derived from proven problems)</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Indicator</th><th class="num">Baseline (2026-09-27)</th><th class="num">Target at closure</th><th>How measured</th></tr></thead>
+    <tbody>
+      <tr><td>Confirmed conflicts between surfaces for the same rule, including internal contradictions</td><td class="num">13</td><td class="num">0</td><td>Re-crawl and automated comparison with the canonical record</td></tr>
+      <tr><td>Published admission rules for the general high-school applicant (two weighted formulas and one legacy rule)</td><td class="num">3</td><td class="num">1</td><td>Text match against the requirements component</td></tr>
+      <tr><td>Divergent application entry points (Apply, Apply_Now_ADS, http://admissions, Qabool and Study in Saudi)</td><td class="num">5</td><td class="num">1</td><td>Check of every apply link and button</td></tr>
+      <tr><td>Share of published values linked to a record with an owner and effective date</td><td class="num">0%</td><td class="num">100%</td><td>Component audit against the record</td></tr>
+      <tr><td>Days the page shows an ended cycle or “no events”</td><td class="num">Ongoing</td><td class="num">0</td><td>Daily monitor on the intake-status component</td></tr>
+      <tr><td>Core rule pages with an equivalent Arabic version</td><td class="num">0</td><td class="num">100% of the approved list</td><td>Field-and-value parity check</td></tr>
+      <tr><td>Indexed legacy items without an archive banner</td><td class="num">≥ 12</td><td class="num">0</td><td>Crawl, search console and site: check</td></tr>
+      <tr><td>Admission pages with empty required sections (F-26)</td><td class="num">5</td><td class="num">0</td><td>Automated check of required fields before publishing</td></tr>
+      <tr><td>Programmes that do not match across the catalogue, list of majors and fee tables</td><td class="num">5</td><td class="num">0</td><td>Match against the unified programme register</td></tr>
+      <tr><td>http and “#” links in admissions templates</td><td class="num">Present on every page</td><td class="num">0</td><td>Automated link checker</td></tr>
+      <tr><td>Critical and serious WCAG 2.2 AA issues in templates</td><td class="num">Not measured</td><td class="num">0</td><td>Automated scan, then manual keyboard and screen-reader test</td></tr>
+      <tr><td>Journey tests passed (6 personas, correct channel within 3 clicks or fewer)</td><td class="num">Not measured</td><td class="num">6 of 6</td><td>Recorded user test</td></tr>
+      <tr><td>Volume of repeated admissions enquiries (fees, thresholds, channel)</td><td class="num">Measured in W0–W2</td><td class="num">Reduction set after measurement</td><td>Classification of enquiry-form tickets. We did not assume a number</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Risks</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Risk</th><th>Likelihood</th><th>Impact</th><th>Mitigation</th><th>Owner</th></tr></thead>
+    <tbody>
+      <tr><td>Delay in decisions D1 to D5 (critical path)</td><td><span class="pill p-high">High</span></td><td><span class="pill p-crit">Critical</span></td><td>Binding decision dates in the charter, a ready decision pack with options, and escalation after 5 days</td><td>Executive sponsor</td></tr>
+      <tr><td>Current CMS limits on shared components</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-high">High</span></td><td>Technical assessment in W2 and decision D8, with an interim solution using embedded components</td><td>IT</td></tr>
+      <tr><td>Further conflicts found in what was not opened (payment-schedule tabs, unopened PDF files, the logged-in portal)</td><td><span class="pill p-high">High</span></td><td><span class="pill p-med">Medium</span></td><td>Audit them in the first phase and absorb them into the record before building</td><td>Admissions Director</td></tr>
+      <tr><td>Loss of search ranking because of redirects</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-med">Medium</span></td><td>A 301 for every link, a sitemap, and post-launch monitoring</td><td>Web team</td></tr>
+      <tr><td>Weak or late Arabic text</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-high">High</span></td><td>A specialist Arabic editor, an approved glossary, and values from the record</td><td>Corporate Communications</td></tr>
+      <tr><td>National platforms change their rules during the project</td><td><span class="pill p-low">Low</span></td><td><span class="pill p-high">High</span></td><td>The application channel is its own domain in the record, updated in one place</td><td>Admissions Director</td></tr>
+      <tr><td>Scope creep into a full website redesign</td><td><span class="pill p-med">Medium</span></td><td><span class="pill p-med">Medium</span></td><td>An “out of scope” clause in the charter and a formal change request for any expansion</td><td>Steering committee</td></tr>
+      <tr><td>Drift returns after handover</td><td><span class="pill p-high">High</span></td><td><span class="pill p-high">High</span></td><td>Gate G7: two successful monitoring runs and a publishing workflow that blocks manual entry</td><td>Quality</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 14 CLOSURE ============ -->
+<section class="s" id="s14">
+  <div class="s-head"><span class="s-num">14</span><h2>Full closure framework</h2><span class="s-en">Full Project Closure Framework</span></div>
+  <p>Publishing alone is not closure, and neither is fixing links or updating content. Closure proves that the root cause has been fixed on <strong>every surface</strong>. Every gate requires evidence from the independent verifier, and <span class="mono ltr">PASS</span> is not declared if any gate cannot be proven.</p>
+  <div class="gate" role="table" aria-label="Closure gates">
+    <div class="h">Gate</div><div class="h">Pass criterion and evidence required</div><div class="h">Status now</div>
+    <div class="gid">G0</div><div><strong>Mandate:</strong> an approved charter, an executive sponsor, and a named functional owner for each of the 14 domains</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G1</div><div><strong>Canonical rules:</strong> decisions D1 to D10 signed and recorded in Admission Rules Book v1 with an effective date</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G2</div><div><strong>Canonical data:</strong> 100% of domains in the record, a unified programme register, and the remaining unopened PDF files audited and treated</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G3</div><div><strong>Surface conformance:</strong> zero conflicts in a full re-crawl covering the website in both languages, the portal, the calendar and PDF files, compared automatically with the record</div><div><span class="pill p-crit">Not met (21 live)</span></div>
+    <div class="gid">G4</div><div><strong>Journey and routing:</strong> 6 of 6 journey tests passed. Every category reaches the correct channel within 3 clicks or fewer from the admissions home page, and the intake status matches between the website and the portal</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G5</div><div><strong>Quality:</strong> WCAG 2.2 AA with zero critical or serious issues, including a manual check; zero http or “#” links; 100% Arabic parity for core components</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G6</div><div><strong>Legacy content:</strong> every item in the legacy register in a terminal state (redirected, noindexed or archived with a banner), verified by crawl and search console</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G7</div><div><strong>Operations:</strong> governance active, two consecutive drift-check runs with zero unresolved drift, and a signed handover to content operations</div><div><span class="pill p-crit">Not met</span></div>
+  </div>
+  <div class="callout" style="border-color:var(--crit);background:var(--crit-soft)">
+    <p><strong>Current verdict (baseline):</strong> <span class="verdict notmet">FULL PROJECT CLOSURE — NOT MET</span></p>
+    <p style="margin-top:8px">Verdict rule: <span class="mono ltr">FULL PROJECT CLOSURE — PASS</span> is declared only when G0 to G7 all pass with documented evidence. Any gate that cannot be proven means <span class="mono ltr">NOT MET</span>.</p>
+  </div>
+</section>
+
+<!-- ============ 15 METHOD ============ -->
+<section class="s" id="s15">
+  <div class="s-head"><span class="s-num">15</span><h2>Method, coverage and limitations</h2><span class="s-en">Method · Coverage · Limitations</span></div>
+  <div class="two">
+    <div class="stack"><h3>What was actually done</h3>
+      <ul class="clean">
+        <li>Discovery started from <span class="mono ltr">pmu.edu.sa/admission/admission</span> and followed the navigation and sidebar links, then web search to find isolated pages.</li>
+        <li>Phase 1: the text of 22 pages was read in full through the accessibility tree in the user's browser (Opera), and 9 screenshots were taken. Phase 2: 48 more resources were read through a remote fetcher that renders the page after JavaScript runs (TinyFish), including every graduate, fees, refund and guide page.</li>
+        <li><strong>Live verification (2026-09-27, 19:09–19:20 UTC):</strong> after <span class="mono ltr">pmu.edu.sa</span> was allowed in the audit environment, 21 core surfaces were re-fetched by the G3 verifier (all HTTP 200) and measured with a read-only automated Chromium browser (Playwright) at two widths, 390×844 and 1366×768; 6 full-length mobile screenshots were taken (S30 to S35). No button was clicked and no form was filled.</li>
+        <li>Data points were extracted and compared across pages (data-point matrix), the published formulas were recomputed, and 9 external facts were verified against their official sources.</li>
+        <li>Every conflict was classified without choosing the correct value, unless a decisive official source existed.</li>
+        <li><strong>Full review from the first step:</strong> 70 live resources were re-fetched and every quote was matched against them, the canonical record and decision packs were regenerated (byte-identical), the 15 legacy URLs were checked (14 are still published), and the external facts were re-checked through their official sites. Details in <span class="mono ltr">REVIEW-2026-09-27.md</span>.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>Declared limitations</h3>
+      <ul class="clean">
+        <li>In phases 1 and 2 the audit environment blocked <span class="mono ltr">pmu.edu.sa</span>, so pages were read through the user's browser and a remote tool. The block was later lifted for that domain only: the 21 surfaces were fetched first, then 70 of the 72 resources were re-fetched in the full review (all HTTP 200). External sources stayed blocked, so they were re-checked by searching their official sites. Plain <span class="mono ltr">http://</span> requests are still refused by the network proxy, so nothing is claimed about how unencrypted links behave on the server.</li>
+        <li>Phase 1 screenshots (S01 to S22) show the top of the page only because scrolling was not possible; S30 to S35 are full length. Text quoted from lower on the page is documented as text, and every screenshot states exactly what it proves.</li>
+        <li>Phase 3 (connector sweep): the Aptis guide (August 2017) and the Student Handbook (May 2019) were opened, and legacy page metadata was checked: no noindex and no canonical. Remote Desktop Commander is connected to your computer, but this session's permission policy blocked running commands on it. Ahrefs is installed but not fully connected. The Opera browser was offline. Not yet opened: the payment-schedule tab content. The logged-in portal is outside the bounds of a read-only audit.</li><li>DOM measurements were taken on the English version of 21 surfaces only. The Arabic version, colour contrast, keyboard operation and screen-reader output were not tested, so no WCAG compliance is claimed.</li>
+        <li>No earlier report or findings were used. The portal admin tab open in the browser was not opened, and no personal data was recorded.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 16 SELF-CORRECTION ============ -->
+<section class="s" id="s16">
+  <div class="s-head"><span class="s-num">16</span><h2>Self-correction and verified passes</h2><span class="s-en">Self-Correction · Verified Passes</span></div>
+  <div class="two">
+    <div class="stack"><h3>Corrected or withdrawn before publication</h3>
+      <ul class="clean">
+        <li><strong>Number of formulas:</strong> the first version said “five formulas for the same stage”. On re-reading: four weighting schemes, and the same-category conflict is three rules for the general high-school applicant. The wording was corrected; severity stays Critical.</li>
+        <li><strong>The uap.sa link on the Medicine page:</strong> looked like an error at first, then it turned out the university's own calendar relies on the Qabool platform. <strong>Withdrawn</strong> as an error and reclassified as an internal routing conflict.</li>
+        <li><strong>Programme catalogue:</strong> the first read showed “only 6 Business programmes” because of the extraction method; the full fetch showed the whole list. <strong>Withdrawn</strong> and replaced by the real gap: Medicine and three priced programmes are missing.</li>
+        <li><strong>Arabic:</strong> Arabic was found on the apply page and the query form, so the wording was refined. The finding stands because Arabic is absent from every rule page.</li>
+        <li><strong>Destination of the apply button on the home page (F-02):</strong> the first version said it was <span class="mono ltr">Apply_Now_ADS.aspx</span>. The live measurement showed it is <span class="mono ltr">www.pmu.edu.sa/apply</span>. The wording was corrected; the finding stays Critical: at least four different destinations sit behind the word “Apply”.</li>
+        <li><strong>The first live G3 run</strong> did not flag F-08 and F-24. The cause was the tool, not the site: the portal is built with JavaScript, and the old admission guide's name sits inside an <span class="mono ltr">iframe src</span>. <strong>The tool was fixed</strong> and two tests were added (5 of 5 pass); both findings stand. A parallel session without a browser counted 20 issues because it could not render the portal; after the two sessions were reconciled, the confirmed count is 21. No finding was withdrawn after live verification.</li>
+        <li><strong>Full review (2026-09-27, after live verification):</strong> 209 quotes in the field notes and 110 in the findings register were matched against the live text of 70 resources, and all hold in substance. Four condensed quotes were made verbatim (F-05, F-06, F-10 and F-18), the scope of F-29 was corrected to 20 of 20 pages, the number of pages with empty sections to 5, the number of fee-table generations to three, and the direct manager's title was added. No severity changed and no finding was withdrawn.</li>
+      </ul>
+    </div>
+    <div class="stack"><h3>Verified as consistent (passes)</h3>
+      <ul class="clean">
+        <li>The graduate English rule is the same on 9 of 10 pages: IELTS 6.0 and 5.5 per skill, or TOEFL 83 and 19.</li>
+        <li>The credit-transfer policy matches the transfer page.</li>
+        <li>VAT treatment on every fee page matches ZATCA, and non-Saudi instalments equal the base amount × 1.15.</li>
+        <li>Credit hours × price per credit match the total for every graduate programme.</li>
+        <li>The 2025–2026 academic calendar matches the admissions calendar on the start of classes (2026-08-30).</li>
+        <li>The graduate contact page uses a role mailbox.</li>
+        <li>No horizontal overflow and no tables wider than the screen on any of the 21 surfaces, on mobile (390) and desktop (1366).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 17 REMEDIATION KIT ============ -->
+<section class="s" id="s17">
+  <div class="s-head"><span class="s-num">17</span><h2>Ready-made toolkit and gate status</h2><span class="s-en">Remediation Toolkit · Gate Status</span></div>
+  <p>Everything that does not need an institutional decision has already been done, so the project starts on day one with ready tools. Nothing was changed on the university website; publishing belongs to the web team after the decisions are signed.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Deliverable</th><th>Content</th><th>Gate</th><th>Repository path</th></tr></thead>
+    <tbody>
+      <tr><td>Canonical data record (seed)</td><td>19 records: published values and their sources, the owning role and the linked decision. Status: 16 in conflict, one gap, two consistent</td><td>G1, G2</td><td class="mono ltr">remediation/canonical/</td></tr>
+      <tr><td>Decision packs D0 to D10</td><td>Evidence, neutral options and a signature record for each decision</td><td>G0, G1</td><td class="mono ltr">remediation/decisions/</td></tr>
+      <tr><td>AR/EN content components</td><td>8 components bound to record fields, with a publishing rule that prevents a repeat of F-20</td><td>G4, G5</td><td class="mono ltr">remediation/content/</td></tr>
+      <tr><td>Legacy redirect map</td><td>15 URLs, each with its risk, replacement, lifecycle action and verification method</td><td>G6</td><td class="mono ltr">remediation/legacy/redirect-map.csv</td></tr>
+      <tr><td>Automated verifier (G3)</td><td>Re-fetches pages and detects legacy text, contradictions and multiple values. Passes 5 of 5 tests. Baseline 21 issues; live run 2026-09-27: 21 matching issues</td><td>G3, G7</td><td class="mono ltr">remediation/verification/</td></tr>
+      <tr><td>Mobile DOM probe (G5)</td><td>Read-only automated measurement: lang/dir, horizontal overflow, headings, alt text, http and “#” links, and apply-button destinations</td><td>G4, G5</td><td class="mono ltr">remediation/verification/dom_probe.js</td></tr>
+      <tr><td>D0 approval request memo (Arabic)</td><td>One page for the direct manager <bdi dir="ltr" lang="en">(Associate Director for Enrollment)</bdi>, with the urgent actions that need no academic decision</td><td>G0</td><td class="mono ltr">remediation/content/memo-D0-request-AR.md</td></tr>
+      <tr><td>Admissions Hub and applicant-journey prototype</td><td>A bilingual interactive prototype built from the canonical record: six routes, a seven-step journey, a D1 decision simulator, an assistant that answers from the record with its source, and alignment with local and international standards</td><td>G4, G5</td><td class="mono ltr">remediation/hub/</td></tr>
+    </tbody>
+  </table></div>
+  <div class="gate" role="table" aria-label="Gate status now">
+    <div class="h">Gate</div><div class="h">What it needs to pass</div><div class="h">Status</div>
+    <div class="gid">G0</div><div>Sign D0 and name the sponsor and owners</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G1</div><div>Sign D1 to D10 (0 of 10 signed)</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G2</div><div>Approve 17 of 19 records</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G3</div><div>Zero issues on the live site. <strong>Live run 2026-09-27: 21 issues</strong> (14 legacy strings, one contradiction and 6 value conflicts), identical to the baseline</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G4</div><div>Unify apply destinations (live measurement: at least 4 destinations behind the word “Apply”, and an “Apply Now” button that opens an information page), plus journey tests for six personas</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G5</div><div>Measured baseline (21 surfaces): <span class="mono ltr">lang</span> missing on every <span class="mono ltr">pmu.edu.sa</span> page (20 of 20), 8 http links on 4 pages, 114 “#” links on 19 pages, 79 images without alt, and skipped heading levels on 16. Pass: zero horizontal overflow. Arabic parity on rule pages: 0%. Manual WCAG test not yet done</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G6</div><div>Bring the 15 legacy URLs to their terminal state</div><div><span class="pill p-crit">Not met</span></div>
+    <div class="gid">G7</div><div>Two monthly check runs with zero issues, and a signed handover</div><div><span class="pill p-crit">Not met</span></div>
+  </div>
+  <div class="callout" style="border-color:var(--crit);background:var(--crit-soft)"><p><strong>Current verdict:</strong> <span class="verdict notmet">FULL PROJECT CLOSURE — NOT MET</span>. Final closure requires university decisions and changes to its website, both outside the audit's authority. All the tools to prove closure are ready; the verdict turns to <span class="mono ltr">PASS</span> when the verifier returns zero issues on the live site in two consecutive runs and the other gates pass.</p></div>
+</section>
+
+<!-- ============ APPENDIX A ============ -->
+<section class="s" id="appA">
+  <div class="s-head"><span class="s-num">A</span><h2>Appendix A: visual evidence</h2><span class="s-en">Representative Evidence Appendix</span></div>
+  <p>All screenshots were taken on <span class="mono ltr">2026-09-27</span>: S01 to S22 from the user's browser, and S30 to S35 full length at a 390 px mobile width from the audit environment. Under each screenshot: exactly what it proves, and what is proven by quoted text instead.</p>
+  <div class="ev-grid">
+    <figure class="ev"><img src="{{S12}}" alt="Medicine programme fees page showing Medical Application Fee SAR 1,150 VAT inclusive"><figcaption class="cap"><strong>S12 · F-03 <span class="pill p-crit">Critical</span></strong><span>Proves directly: “Medical Application Fee — SAR 1,150 (VAT inclusive)”. The conflicting value (SAR 1000) is quoted as text from P09.</span><span class="url">pmu.edu.sa/admission/medical_program_studies_fees_tf_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S14}}" alt="Admissions calendar showing an Apply Now button next to the instruction to apply through Qabool"><figcaption class="cap"><strong>S14 · F-02 / F-08 <span class="pill p-crit">Critical</span></strong><span>Proves: an “Apply Now” button to pmu.edu.sa/Apply next to “For Saudi Students: Apply online through Qabool platform”, and that only the “Fall 2026-2027” calendar is shown.</span><span class="url">pmu.edu.sa/admission/admission_calendar_fs_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S15}}" alt="Application portal welcome page showing no events published and a banner for a past semester"><figcaption class="cap"><strong>S15 · F-08 / F-02 <span class="pill p-high">High</span></strong><span>Proves: “No events are currently published” on the portal, a graduate admission banner for “Second Semester 2025/2026” (<bdi lang="ar" dir="rtl">الفصل الدراسي الثاني 2026/2025</bdi>), and a register button with no channel routing.</span><span class="url">admissions.pmu.edu.sa/welcome (from pmu.edu.sa/apply)</span></figcaption></figure>
+    <figure class="ev"><img src="{{S09}}" alt="College of Medicine admission page titled College of Medical"><figcaption class="cap"><strong>S09 · F-07 <span class="pill p-high">High</span></strong><span>Proves: the page identity and the phrase “The PMU College of Medical curriculum”. The unedited text and the missing seat-reservation fee are documented as text.</span><span class="url">pmu.edu.sa/admission/college_of_medicine_admission</span></figcaption></figure>
+    <figure class="ev"><img src="{{S03}}" alt="Freshman Admission page in the sidebar template"><figcaption class="cap"><strong>S03 · F-01 / F-04</strong><span>Proves: a separate “Freshman Admission” page exists (the 30/50/20 formula and TOEFL 65/CBT 183 are quoted as text from lower on the page).</span><span class="url">www.pmu.edu.sa/admission/freshman_admission</span></figcaption></figure>
+    <figure class="ev"><img src="{{S04}}" alt="Direct Admissions from Secondary School page with a breadcrumb ending in Freshman"><figcaption class="cap"><strong>S04 · F-01 / F-15</strong><span>Proves: a second page for the same route, with a breadcrumb ending in “Freshman” (the 60/40 formula and IELTS 6.0 are quoted as text).</span><span class="url">pmu.edu.sa/admission/direct-admissions-from-secondary-school</span></figcaption></figure>
+    <figure class="ev"><img src="{{S20}}" alt="Legacy Admission Procedures and Criteria page"><figcaption class="cap"><strong>S20 · F-12 / F-01</strong><span>Proves: the legacy page is still published. The 70% floor, “IELTS of 550” and “PMU Standard Battery Test” are quoted as text.</span><span class="url">www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro</span></figcaption></figure>
+    <figure class="ev"><img src="{{S22}}" alt="Homepage header with no language switch"><figcaption class="cap"><strong>S22 · F-14</strong><span>Proves: no language switch in the homepage header. The same header repeats on every admissions page reviewed.</span><span class="url">www.pmu.edu.sa/</span></figcaption></figure>
+    <figure class="ev"><img src="{{S01}}" alt="Admissions Office home page made of link lists"><figcaption class="cap"><strong>S01 · F-15 / F-11</strong><span>Proves: the home page is lists of links with no introduction and no intake status. The “Contact Us” link goes to the staff directory (documented as text).</span><span class="url">pmu.edu.sa/admission/admission</span></figcaption></figure>
+  </div>
+  <h3>Full-length mobile screenshots (390×844, 2026-09-27)</h3>
+  <p class="muted" style="font-size:.88rem">Each screenshot sits in a scrollable frame. The original files are in <span class="mono ltr">evidence/screenshots/S30–S35</span>.</p>
+  <div class="ev-grid tall">
+    <figure class="ev"><div class="shot"><img src="{{S30}}" alt="Medicine programme fees page on mobile, full length"></div><figcaption class="cap"><strong>S30 · F-03 <span class="pill p-crit">Critical</span></strong><span>Proves on mobile: “Medical Application Fee — SAR 1,150 (VAT inclusive)” and “Medical Seat Reservation Fee … SAR 20,000”. The table fits the screen width.</span><span class="url">pmu.edu.sa/admission/medical_program_studies_fees_tf_ro</span></figcaption></figure>
+    <figure class="ev"><div class="shot"><img src="{{S31}}" alt="Tuition payment policy page on mobile, full length"></div><figcaption class="cap"><strong>S31 · F-22 <span class="pill p-crit">Critical</span></strong><span>Shows the full page: “All tuition payments are non-refundable” and the refund-percentage table on the same page. The page has two H1 headings (F-30).</span><span class="url">pmu.edu.sa/admission/payment_method_tf_ro</span></figcaption></figure>
+    <figure class="ev"><div class="shot"><img src="{{S32}}" alt="EMGMS requirements page on mobile, full length"></div><figcaption class="cap"><strong>S32 · F-21 <span class="pill p-high">High</span></strong><span>Proves: “IELTS – minimum composite score of 7” and “Graduate English Language Endorsement from UA Center for English as Second Language (CESL)”.</span><span class="url">pmu.edu.sa/admission/admissions_requirements_emgms_gdp</span></figcaption></figure>
+    <figure class="ev"><div class="shot"><img src="{{S33}}" alt="College of Medicine admission page on mobile, full length"></div><figcaption class="cap"><strong>S33 · F-07 / F-23 <span class="pill p-high">High</span></strong><span>Shows the full page, including the unedited text and the phrase “<bdi dir="ltr" lang="en">7-year hybrid model</bdi>”. The text is quoted verbatim in the register.</span><span class="url">pmu.edu.sa/admission/college_of_medicine_admission</span></figcaption></figure>
+    <figure class="ev"><div class="shot"><img src="{{S34}}" alt="Admissions calendar on mobile, full length"></div><figcaption class="cap"><strong>S34 · F-02 / F-08 <span class="pill p-crit">Critical</span></strong><span>Shows: instructions for the Qabool and Study in Saudi platforms with “Apply Now” buttons to pmu.edu.sa/Apply, and only the “Fall 2026-2027” calendar.</span><span class="url">pmu.edu.sa/admission/admission_calendar_fs_ro</span></figcaption></figure>
+    <figure class="ev"><div class="shot"><img src="{{S35}}" alt="Freshman Admission page on mobile, full length"></div><figcaption class="cap"><strong>S35 · F-04 / F-01 <span class="pill p-high">High</span></strong><span>Shows the full page, including the exemption line “TOEFL score of 513 (CBT 183, iBT 65) … IELTS Band of 5.5” and the 30/50/20 formula.</span><span class="url">www.pmu.edu.sa/admission/freshman_admission</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ APPENDIX B ============ -->
+<section class="s" id="appB">
+  <div class="s-head"><span class="s-num">B</span><h2>Appendix B: supporting registers and sources</h2><span class="s-en">Supporting Registers · Sources</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Register</th><th>Content</th><th>Repository path</th></tr></thead>
+    <tbody>
+      <tr><td>Findings register</td><td>All 30 findings, the self-correction log and verified passes, with URL, text, conflict, impact, treatment and owner</td><td class="mono ltr">pmu-admissions-audit/registers/findings-register.md</td></tr>
+      <tr><td>Coverage register</td><td>72 resources audited in three phases, then live verification of 21 surfaces, with what was not opened and why</td><td class="mono ltr">pmu-admissions-audit/registers/crawl-coverage.md</td></tr>
+      <tr><td>Data-point matrix</td><td>The same data points across pages, and canonical-record candidates</td><td class="mono ltr">pmu-admissions-audit/registers/data-point-matrix.md</td></tr>
+      <tr><td>External verification</td><td>X01 to X09 with official links</td><td class="mono ltr">pmu-admissions-audit/evidence/external-verification.md</td></tr>
+      <tr><td>Field notes</td><td>Verbatim extracts for every page (P01 to P72)</td><td class="mono ltr">pmu-admissions-audit/evidence/field-notes.md</td></tr>
+      <tr><td>Mobile DOM measurements</td><td>Results for 21 surfaces at two widths, and apply-button destinations</td><td class="mono ltr">pmu-admissions-audit/evidence/dom-probes-2026-09-27.md</td></tr>
+      <tr><td>Live G3 report</td><td>21 issues, identical to the baseline</td><td class="mono ltr">pmu-admissions-audit/remediation/verification/report-live-2026-09-27.md</td></tr>
+      <tr><td>Screenshots</td><td>15 original PNG files (6 of them full-length mobile)</td><td class="mono ltr">pmu-admissions-audit/evidence/screenshots/</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted" style="font-size:.88rem">Official external sources: <a href="https://www.ets.org/toefl/institutions/ibt/score-scale-update.html" lang="en">ETS TOEFL score scale</a> · <a href="https://ielts.org/organisations/ielts-for-organisations/verifying-ielts-results" lang="en">IELTS results validity</a> · <a href="https://blog.collegeboard.org/what-were-sat-subject-tests" lang="en">College Board SAT Subject Tests</a> · <a href="https://etec.gov.sa/en/qiyas" lang="en">ETEC Qiyas</a> · <a href="https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx" lang="en">ZATCA VAT on education</a> · <a href="https://www.moe.gov.sa/en/knowledgecenter/eservices/pages/unified-admission.aspx" lang="en">MoE Unified Admission</a> · <a href="https://studyinsaudi.sa/en" lang="en">Study in Saudi</a> · <a href="https://www.w3.org/TR/WCAG22/" lang="en">W3C WCAG 2.2</a> · <a href="https://www.vision2030.gov.sa/" lang="en">Saudi Vision 2030</a></p>
+</section>
+
+<footer class="end">Independent audit · evidence dated 2026-09-27 · this document contains no personal names; all roles are functional</footer>
+</div>
+</div>

@@ -1,0 +1,60 @@
+{
+  "_about": "Closure Gate G3 checks. 'forbidden' strings are decision-independent legacy/defect markers that must disappear. 'contradiction' flags a page that contains both strings. 'consistency' groups extract the same rule from several pages; more than one distinct value = conflict. 'expected' values are taken from ../canonical/admissions-canonical.json once approved.",
+  "pages": {
+    "hub": "https://pmu.edu.sa/admission/admission",
+    "ug_home": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+    "freshman": "https://www.pmu.edu.sa/admission/freshman_admission",
+    "direct": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+    "ielts": "https://pmu.edu.sa/admission/ielts-admission",
+    "toefl": "https://pmu.edu.sa/admission/toefl-admission",
+    "sat": "https://pmu.edu.sa/admission/sat-admission",
+    "medicine": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+    "medicine_academic": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+    "medical_fees": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+    "other_fees": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+    "payment_policy": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+    "calendar": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+    "international": "https://pmu.edu.sa/admission/international_students",
+    "cs_eng": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+    "transfer": "https://pmu.edu.sa/admission/admission-from-other-universities",
+    "emgms": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+    "legacy_criteria": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+    "apply": "https://pmu.edu.sa/apply",
+    "portal": "https://admissions.pmu.edu.sa/welcome",
+    "guide_viewer": "https://pmu.edu.sa/pdf/viewer?ID=203"
+  },
+  "render": ["portal"],
+  "forbidden": [
+    {"finding": "F-04", "page": "freshman", "text": "CBT 183"},
+    {"finding": "F-05", "page": "international", "text": "SAT II"},
+    {"finding": "F-21", "page": "emgms", "text": "CESL"},
+    {"finding": "F-12", "page": "legacy_criteria", "text": "IELTS of 550"},
+    {"finding": "F-12", "page": "legacy_criteria", "text": "Standard Battery Test"},
+    {"finding": "F-07", "page": "medicine", "text": "the process typically involves"},
+    {"finding": "F-07", "page": "medicine", "text": "to be developed in launch phase"},
+    {"finding": "F-17", "page": "medicine", "text": "College of Medical"},
+    {"finding": "F-17", "page": "hub", "text": "Visting"},
+    {"finding": "F-08", "page": "portal", "text": "No events are currently published"},
+    {"finding": "F-12", "page": "hub", "text": "academic_calendar_2021_2022"},
+    {"finding": "F-24", "page": "guide_viewer", "text": "Web-Admission-Guide-v2-2_20-12-18"},
+    {"finding": "F-16", "page": "transfer", "text": "http://admissions.pmu.edu.sa"},
+    {"finding": "F-16", "page": "cs_eng", "text": "http://admissions.pmu.edu.sa"}
+  ],
+  "contradiction": [
+    {"finding": "F-22", "page": "payment_policy", "a": "All tuition payments are non-refundable", "b": "Deduction Percentage"}
+  ],
+  "consistency": [
+    {"finding": "F-04", "rule": "english_ug_direct.ielts_overall", "pages": ["freshman", "direct", "ielts", "transfer", "international", "apply"],
+     "regex": "IELTS[^.]{0,60}?(?:Band of |Overall |minimum scores of |Core\\s+)(\\d\\.\\d)"},
+    {"finding": "F-04", "rule": "english_ug_direct.toefl_ibt", "pages": ["freshman", "toefl", "apply"],
+     "regex": "(?:iBT |Core\\s+|TOEFL iBT: Overall )(\\d{2,3})\\b"},
+    {"finding": "F-03", "rule": "application_fee.medicine", "pages": ["medicine", "medical_fees"],
+     "regex": "(?:application fee of SAR |Medical Application Fee\\s*SAR )([\\d,]+)"},
+    {"finding": "F-05", "rule": "tahseely_rule.sat_score", "pages": ["sat", "cs_eng", "medicine"],
+     "regex": "SAT(?: 1)?[^\\d]{0,40}?(1[0-9]{3})"},
+    {"finding": "F-23", "rule": "tuition_medicine.duration_years", "pages": ["medicine", "medicine_academic"],
+     "regex": "(\\d)-year (?:hybrid|integrated)"},
+    {"finding": "F-01", "rule": "composite_formula.hs_weight_general", "pages": ["ug_home", "freshman", "direct"],
+     "regex": "(?:Secondary School|High school)\\s*(\\d{2})%"}
+  ]
+}

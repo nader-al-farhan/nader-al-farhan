@@ -1,0 +1,65 @@
+C03 | Admissions Calendar
+https://pmu.edu.sa/admission/admission_calendar_fs_ro
+Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University
+
+ADMISSIONS CALENDARS
+
+Fall 2026-2027
+Undergraduate Admission Calendar
+Apply Now
+Event	Date
+For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/	2026-05-03
+For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar	Closed
+Start of English Placement Test and personal Interviews	2026-05-17
+Last day for Freshman and Re-Admitting applicants to Apply Online	2026-06-24
+End of Placement Test & Retake	2026-07-05
+Last day to submit IELTS or TOEFL iBT	2026-07-20
+Last day for Transfer applicants to submit documents in person	2026-07-20
+First day of classes	2026-08-30
+Announcement of admission results through Qabool platform	From July 19 to July 21, 2026
+Orientation for new applicants	TBA
+
+Fall 2026-2027
+Graduate Admission Calendar
+Apply Now
+Event	Date
+Apply Online	2026-05-03
+Start of interviews	2026-05-17
+Last day to apply for graduate studies	2026-07-16
+Last day to submit documents in person or online	2026-07-19
+End of interviews	2026-07-23
+Release of Results	2026-08-02
+First day of classes	2026-08-30
+
+Fall 2026-2027
+Undergraduate Admission Calendar
+Apply Now
+Event	Date
+For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/	2026-05-03
+Start of English Placement Test and personal Interviews	2026-05-17
+Last day for Freshman and Re-Admitting applicants to Apply Online	2026-06-24
+End of Placement Test & Retake	2026-07-05
+Last day to submit IELTS or TOEFL iBT	2026-07-20
+Last day for Transfer applicants to submit documents in person	2026-07-20
+First day of classes	2026-08-30
+For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar	Closed
+Announcement of admission results through Qabool platform	From July 19 to July 21, 2026
+Orientation for new applicants	TBA
+
+Fall 2026-2027
+Graduate Admission Calendar
+Apply Now
+Event	Date
+Apply Online	2026-05-03
+Start of interviews	2026-05-17
+Last day to apply for graduate studies	2026-07-16
+Last day to submit documents in person or online	2026-07-19
+End of interviews	2026-07-23
+Release of Results	2026-08-02
+First day of classes	2026-08-30
+
+--- links ---
+ | https://pmu.edu.sa/admission/admission_calendar_fs_ro#sidebar
+Apply Now | https://pmu.edu.sa/Apply
+Apply Now | javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ContentPlaceHolder_ContentArea$ctl03", "", false, "", "https://pmu.edu.sa/admission/Apply_Now_ADS", false, true))
+Apply Now | javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ContentPlaceHolder_ContentArea$ctl09", "", false, "", "https://pmu.edu.sa/admission/Apply_Now_ADS", false, true))

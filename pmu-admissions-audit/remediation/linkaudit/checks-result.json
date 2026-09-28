@@ -1,0 +1,2722 @@
+{
+ "run_at": "2026-09-28T04:36:14+00:00",
+ "user_agent": "PMU-Admissions-LinkAudit/1.0 (read-only)",
+ "results": {
+  "https://blackboard.pmu.edu.sa/": {
+   "url": "https://blackboard.pmu.edu.sa/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://blackboard.pmu.edu.sa/",
+   "hops": [
+    {
+     "url": "https://blackboard.pmu.edu.sa/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 81566,
+   "title": null,
+   "error": null,
+   "issue_strings": []
+  },
+  "https://financehelpdesk.pmu.edu.sa/login": {
+   "url": "https://financehelpdesk.pmu.edu.sa/login",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://financehelpdesk.pmu.edu.sa/login",
+   "hops": [
+    {
+     "url": "https://financehelpdesk.pmu.edu.sa/login",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 4810,
+   "title": "PMU Finance Ticketing System",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://iconnect.pmu.edu.sa/?login=Login+Portal": {
+   "url": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "hops": [
+    {
+     "url": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 5494,
+   "title": "E-Business Suite Home Page Redirect",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://ithelpdesk.pmu.edu.sa/": {
+   "url": "https://ithelpdesk.pmu.edu.sa/",
+   "tested": true,
+   "status": 0,
+   "redirects": 0,
+   "final_url": "https://ithelpdesk.pmu.edu.sa/",
+   "hops": [
+    {
+     "url": "https://ithelpdesk.pmu.edu.sa/",
+     "status": 502,
+     "location": null
+    }
+   ],
+   "bytes": 0,
+   "title": null,
+   "error": "curl: (56) CONNECT tunnel failed, response 502",
+   "issue_strings": []
+  },
+  "https://pmfcfs.pmu.edu.sa/Default.aspx": {
+   "url": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "hops": [
+    {
+     "url": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 32481,
+   "title": "",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/": {
+   "url": "https://pmu.edu.sa/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 85977,
+   "title": "PMU, Prince Mohammad Bin Fahd University.",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/About/Contact_Us.aspx": {
+   "url": "https://pmu.edu.sa/About/Contact_Us.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/about/contact_us",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/About/Contact_Us.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/contact_us.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/contact_us.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/contact_us"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/contact_us",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 52051,
+   "title": "Contact us : PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/About/Welcome_Rector.aspx": {
+   "url": "https://pmu.edu.sa/About/Welcome_Rector.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/about/welcome_rector",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/About/Welcome_Rector.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/welcome_rector.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/welcome_rector.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/welcome_rector"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/welcome_rector",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 38211,
+   "title": "Welcome from the President, President's Office, Administration :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_business_administration_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46275,
+   "title": "College of Business Administration :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 43902,
+   "title": "College of Computer Engineering &amp; Sciences :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45744,
+   "title": "College of Sciences and Human Studies(CSHS) :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_of_architecture_design_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_architecture_design_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_architecture_design_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_architecture_design_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_architecture_design_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 40400,
+   "title": "College of Architecture and Design :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_engineering_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42753,
+   "title": "College of Engineering :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/Overview_PP.aspx": {
+   "url": "https://pmu.edu.sa/Academics/Overview_PP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/overview_pp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/Overview_PP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/overview_pp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/overview_pp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/overview_pp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/overview_pp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 43982,
+   "title": "Overview, The Preparatory Program :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx": {
+   "url": "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/law_dept_cshs_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47900,
+   "title": "College of LAW :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-from-other-universities.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-from-other-universities.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-from-other-universities"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53243,
+   "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-16",
+     "text": "http://admissions.pmu.edu.sa"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 55154,
+   "title": "Admission from the Preparatory Program to Undergraduate Programs :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53683,
+   "title": "Admission to the Preparatory Program :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_calendar_fs_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_calendar_fs_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 58679,
+   "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_contact_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_contact_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_contact_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 49234,
+   "title": "Contact Info :: Graduate Degree Programs :: Admissions Office ::Study @ PMU:: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_graduate_degree_programs.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission_graduate_degree_programs"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 48076,
+   "title": "Graduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53872,
+   "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-16",
+     "text": "http://admissions.pmu.edu.sa"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42962,
+   "title": "Admissions Requirements , Executive MBA Program (EMBA) :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 41718,
+   "title": "Admissions Requirements, MBA Program (MBA) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42538,
+   "title": "Admissions to the Master of Arts (MA) in International Business Law Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42222,
+   "title": "Admissions Requirements for MSHD :: Graduate Degree Programs :: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42503,
+   "title": "Admissions to the Master of Science in Mechanical Engineering (MSME) Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42198,
+   "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-21",
+     "text": "CESL"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42551,
+   "title": "Admissions Requirements , Admissions to the PhD in Business Administration :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/aptis-placement-test",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/aptis-placement-test.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/aptis-placement-test.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/aptis-placement-test"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 52792,
+   "title": "Aptis Placement Test :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/degrees_programs_fs_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/degrees_programs_fs_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 60952,
+   "title": "Degrees & Programs :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 52693,
+   "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/fees_tf_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/fees_tf_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/fees_tf_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/fees_tf_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45777,
+   "title": "Undergraduate Fees :: Tuition & Fees ::Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Future_Students_RO.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/future_students_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/future_students_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/future_students_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/future_students_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/future_students_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 50382,
+   "title": "Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/IELTS-Admission.aspx": {
+   "url": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/ielts-admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/ielts-admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/ielts-admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/ielts-admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 51166,
+   "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/International_Students.aspx": {
+   "url": "https://pmu.edu.sa/Admission/International_Students.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/international_students",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/International_Students.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/international_students.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/international_students.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/international_students"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/international_students",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 56386,
+   "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-05",
+     "text": "SAT II"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 49617,
+   "title": "Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 49896,
+   "title": "Post Graduate Fees :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/SAT-Admission.aspx": {
+   "url": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/sat-admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/sat-admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/sat-admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/sat-admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/sat-admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 51071,
+   "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx": {
+   "url": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/toefl-admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/toefl-admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/toefl-admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/toefl-admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 50879,
+   "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/undergraduate_programs_admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/undergraduate_programs_admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47634,
+   "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-17",
+     "text": "College of Medical"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx": {
+   "url": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/visiting-student-admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/visiting-student-admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/visiting-student-admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/visiting-student-admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/visiting-student-admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 52827,
+   "title": "Visiting Student Admission :: Undergraduate :: Admission Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-16",
+     "text": "http://admissions.pmu.edu.sa"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx": {
+   "url": "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 59140,
+   "title": "Academic Year 2021/2022 :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/admissions_queries": {
+   "url": "https://pmu.edu.sa/Admission/admissions_queries",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/admissions_queries",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/admissions_queries",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admissions_queries"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admissions_queries",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44392,
+   "title": "Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msce_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msce_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msce_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42331,
+   "title": "MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx": {
+   "url": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msid_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msid_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msid_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42858,
+   "title": "MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx": {
+   "url": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_deme_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_deme_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_deme_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42575,
+   "title": "Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx": {
+   "url": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msee_gdp.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msee_gdp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/application_form_msee_gdp"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42323,
+   "title": "MSEE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Default.aspx": {
+   "url": "https://pmu.edu.sa/Default.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/default",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Default.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/default.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/default.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/default"
+    },
+    {
+     "url": "https://pmu.edu.sa/default",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 85975,
+   "title": "PMU, Prince Mohammad Bin Fahd University.",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx": {
+   "url": "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/life_pmu/campus_life",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/campus_life.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/campus_life.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/campus_life"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/campus_life",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46155,
+   "title": "Overview :: Campus Life :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx": {
+   "url": "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/life_pmu/dining_cl",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/dining_cl.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/dining_cl.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/dining_cl"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/dining_cl",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44582,
+   "title": "Dining :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Patent-Center/": {
+   "url": "https://pmu.edu.sa/Patent-Center/",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/patent-center/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Patent-Center/",
+     "status": 301,
+     "location": "https://pmu.edu.sa/patent-center/"
+    },
+    {
+     "url": "https://pmu.edu.sa/patent-center/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 33869,
+   "title": "Patent Center",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name": {
+   "url": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "tested": true,
+   "status": 200,
+   "redirects": 3,
+   "final_url": "https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+     "status": 301,
+     "location": "https://pmu.edu.sa/staff_profile/staff_list.aspx?&DEpt=4&Name=Staff%20Name"
+    },
+    {
+     "url": "https://pmu.edu.sa/staff_profile/staff_list.aspx?&DEpt=4&Name=Staff%20Name",
+     "status": 301,
+     "location": "https://pmu.edu.sa/staff_profile/staff_list?&DEpt=4&Name=Staff%20Name"
+    },
+    {
+     "url": "https://pmu.edu.sa/staff_profile/staff_list?&DEpt=4&Name=Staff%20Name",
+     "status": 302,
+     "location": "http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4"
+    },
+    {
+     "url": "http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 43108,
+   "title": "Staff List :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/Governance.aspx": {
+   "url": "https://pmu.edu.sa/about/Governance.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/about/governance",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/Governance.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/governance.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/governance.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/governance"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/governance",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 51513,
+   "title": "Governance :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/about.aspx": {
+   "url": "https://pmu.edu.sa/about/about.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/about",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/about.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/about"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/about",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47775,
+   "title": "About",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/deanships.aspx": {
+   "url": "https://pmu.edu.sa/about/deanships.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/deanships",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/deanships.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/deanships"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/deanships",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47595,
+   "title": "\"Deanships, About :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/maps.aspx": {
+   "url": "https://pmu.edu.sa/about/maps.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/maps",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/maps.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/maps"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/maps",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 41181,
+   "title": "Map :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/puplications_presntations.aspx": {
+   "url": "https://pmu.edu.sa/about/puplications_presntations.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/puplications_presntations",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/puplications_presntations.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/puplications_presntations"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/puplications_presntations",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 38768,
+   "title": "Printed Material :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/uni-values.aspx": {
+   "url": "https://pmu.edu.sa/about/uni-values.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/uni-values",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/uni-values.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/uni-values"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/uni-values",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 38716,
+   "title": "University Values :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/about/uni-vision-mission.aspx": {
+   "url": "https://pmu.edu.sa/about/uni-vision-mission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/about/uni-vision-mission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/about/uni-vision-mission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/about/uni-vision-mission"
+    },
+    {
+     "url": "https://pmu.edu.sa/about/uni-vision-mission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 38672,
+   "title": "University Vision & Mission :: About :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/academics.aspx": {
+   "url": "https://pmu.edu.sa/academics/academics.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/academics",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/academics.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/academics"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/academics",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53215,
+   "title": "Academics",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/college_business_administration_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_business_administration_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_business_administration_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46275,
+   "title": "College of Business Administration :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 43898,
+   "title": "College of Computer Engineering &amp; Sciences :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_engineering_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42752,
+   "title": "College of Engineering :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/college_of_medicine_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_of_medicine_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_of_medicine_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 59892,
+   "title": "College of Medicine :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45743,
+   "title": "College of Sciences and Human Studies(CSHS) :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx": {
+   "url": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/law_dept_cshs_udp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47899,
+   "title": "College of LAW :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/academics/overview_pp.aspx": {
+   "url": "https://pmu.edu.sa/academics/overview_pp.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/academics/overview_pp",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/academics/overview_pp.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/academics/overview_pp"
+    },
+    {
+     "url": "https://pmu.edu.sa/academics/overview_pp",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 43985,
+   "title": "Overview, The Preparatory Program :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/admission/Admission-Registration.aspx": {
+   "url": "https://pmu.edu.sa/admission/Admission-Registration.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission-registration",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/Admission-Registration.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-registration.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-registration.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-registration"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-registration",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45652,
+   "title": "Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/admission/Admission.aspx": {
+   "url": "https://pmu.edu.sa/admission/Admission.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 2,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/Admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission.aspx"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44805,
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-17",
+     "text": "Visting"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/admission/admission": {
+   "url": "https://pmu.edu.sa/admission/admission",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44803,
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-17",
+     "text": "Visting"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/admission/admission#": {
+   "url": "https://pmu.edu.sa/admission/admission#",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/admission#",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44802,
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-17",
+     "text": "Visting"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/admission/admission#sidebar": {
+   "url": "https://pmu.edu.sa/admission/admission#sidebar",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/admission#sidebar",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/admission#sidebar",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 44803,
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-17",
+     "text": "Visting"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/admission/admission-registration.aspx": {
+   "url": "https://pmu.edu.sa/admission/admission-registration.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/admission-registration",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/admission-registration.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/admission-registration"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/admission-registration",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45656,
+   "title": "Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission": {
+   "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 58237,
+   "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": [
+    {
+     "finding": "F-07",
+     "text": "the process typically involves"
+    },
+    {
+     "finding": "F-07",
+     "text": "to be developed in launch phase"
+    },
+    {
+     "finding": "F-17",
+     "text": "College of Medical"
+    }
+   ]
+  },
+  "https://pmu.edu.sa/admission/financial_aid_ro.aspx": {
+   "url": "https://pmu.edu.sa/admission/financial_aid_ro.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/financial_aid_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/financial_aid_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/financial_aid_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/financial_aid_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 47314,
+   "title": "Financial Aid :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/admission/registration_office.aspx": {
+   "url": "https://pmu.edu.sa/admission/registration_office.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/registration_office",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/registration_office.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/registration_office"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/registration_office",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 49880,
+   "title": "Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/admission/tuition_fees_ro.aspx": {
+   "url": "https://pmu.edu.sa/admission/tuition_fees_ro.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/admission/tuition_fees_ro",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/admission/tuition_fees_ro.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/admission/tuition_fees_ro"
+    },
+    {
+     "url": "https://pmu.edu.sa/admission/tuition_fees_ro",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 48278,
+   "title": "Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/ai/default": {
+   "url": "https://pmu.edu.sa/ai/default",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/ai/default",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/ai/default",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 22648,
+   "title": "The Center for Artificial Intelligence :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/amric/": {
+   "url": "https://pmu.edu.sa/amric/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/amric/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/amric/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 19469,
+   "title": "Home | AMRIC | PMU Research Center",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/apply.aspx": {
+   "url": "https://pmu.edu.sa/apply.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/apply",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/apply.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/apply"
+    },
+    {
+     "url": "https://pmu.edu.sa/apply",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 79918,
+   "title": "Admissions :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/cews/": {
+   "url": "https://pmu.edu.sa/cews/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/cews/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/cews/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 24681,
+   "title": "Home | CEWS | PMU Research Center",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/csbi/": {
+   "url": "https://pmu.edu.sa/csbi/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/csbi/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/csbi/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 24138,
+   "title": "CSBI – Centre for Sustainable Business and Innovation",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/cybersecurity/": {
+   "url": "https://pmu.edu.sa/cybersecurity/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/cybersecurity/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/cybersecurity/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 27237,
+   "title": "Mission Vision :: CyberSecurity :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/gallary.aspx": {
+   "url": "https://pmu.edu.sa/gallary.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/gallary",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/gallary.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/gallary"
+    },
+    {
+     "url": "https://pmu.edu.sa/gallary",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45070,
+   "title": "PMU Gallary",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/global-engagement/": {
+   "url": "https://pmu.edu.sa/global-engagement/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/global-engagement/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/global-engagement/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 29667,
+   "title": "",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/hr/hr.aspx": {
+   "url": "https://pmu.edu.sa/hr/hr.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/hr/hr",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/hr/hr.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/hr/hr"
+    },
+    {
+     "url": "https://pmu.edu.sa/hr/hr",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 40141,
+   "title": "Human Resources (HR) :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/life_pmu/campus_life.aspx": {
+   "url": "https://pmu.edu.sa/life_pmu/campus_life.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/campus_life",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/life_pmu/campus_life.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/campus_life"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/campus_life",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46154,
+   "title": "Overview :: Campus Life :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx": {
+   "url": "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/health_care_counseling_services",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/health_care_counseling_services"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/health_care_counseling_services",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 48017,
+   "title": "Health Care & Counseling Services Center :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/life_pmu/life_pmu.aspx": {
+   "url": "https://pmu.edu.sa/life_pmu/life_pmu.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/life_pmu",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/life_pmu/life_pmu.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/life_pmu"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/life_pmu",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53796,
+   "title": "Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/life_pmu/office_special_needs.aspx": {
+   "url": "https://pmu.edu.sa/life_pmu/office_special_needs.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/office_special_needs",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/life_pmu/office_special_needs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/office_special_needs"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/office_special_needs",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42689,
+   "title": "Overview :: Office of Special Needs :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx": {
+   "url": "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/life_pmu/sportscenterschedule",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/life_pmu/sportscenterschedule"
+    },
+    {
+     "url": "https://pmu.edu.sa/life_pmu/sportscenterschedule",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 119022,
+   "title": "SportsSports Center Schedule For 2024, Life @ PMU",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/news/more_events.aspx": {
+   "url": "https://pmu.edu.sa/news/more_events.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/news/more_events",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/news/more_events.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/news/more_events"
+    },
+    {
+     "url": "https://pmu.edu.sa/news/more_events",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 53338,
+   "title": "More Events, PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/news/more_news.aspx": {
+   "url": "https://pmu.edu.sa/news/more_news.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/news/more_news",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/news/more_news.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/news/more_news"
+    },
+    {
+     "url": "https://pmu.edu.sa/news/more_news",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 60038,
+   "title": "More News, PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/research/": {
+   "url": "https://pmu.edu.sa/research/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/research/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/research/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46415,
+   "title": "Research :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/research/research_center": {
+   "url": "https://pmu.edu.sa/research/research_center",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/research/research_center",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/research/research_center",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 46803,
+   "title": "Research :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx": {
+   "url": "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/e_resources_lrc",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/resources_services/e_resources_lrc"
+    },
+    {
+     "url": "https://pmu.edu.sa/resources_services/e_resources_lrc",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 73951,
+   "title": "E-Resources :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx": {
+   "url": "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/engineering_technical_affairs",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/resources_services/engineering_technical_affairs"
+    },
+    {
+     "url": "https://pmu.edu.sa/resources_services/engineering_technical_affairs",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 45383,
+   "title": "Engineering and Infrastructure Projects (EAIP) and Operation & Maintenance :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/resources_services/library_services_lrc.aspx": {
+   "url": "https://pmu.edu.sa/resources_services/library_services_lrc.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/library_services_lrc",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/resources_services/library_services_lrc.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/resources_services/library_services_lrc"
+    },
+    {
+     "url": "https://pmu.edu.sa/resources_services/library_services_lrc",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 48467,
+   "title": "Library Services :: Learning Resource Center :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/resources_services/sections_it_dept.aspx": {
+   "url": "https://pmu.edu.sa/resources_services/sections_it_dept.aspx",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://pmu.edu.sa/resources_services/sections_it_dept",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/resources_services/sections_it_dept.aspx",
+     "status": 301,
+     "location": "https://pmu.edu.sa/resources_services/sections_it_dept"
+    },
+    {
+     "url": "https://pmu.edu.sa/resources_services/sections_it_dept",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 42877,
+   "title": "IT Services :: Resources",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/sarc/": {
+   "url": "https://pmu.edu.sa/sarc/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/sarc/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/sarc/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 55834,
+   "title": "Space and Aerospace Research Center - PMU",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.edu.sa/sim/": {
+   "url": "https://pmu.edu.sa/sim/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://pmu.edu.sa/sim/",
+   "hops": [
+    {
+     "url": "https://pmu.edu.sa/sim/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 20335,
+   "title": "Home | SIM | PMU Research Center",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://pmu.taleo.net/careersection/ex/jobsearch.ftl": {
+   "url": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://twitter.com/PMU_KSA": {
+   "url": "https://twitter.com/PMU_KSA",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://twitter.com/pmuofficial": {
+   "url": "https://twitter.com/pmuofficial",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://workflow.pmu.edu.sa/wfprod": {
+   "url": "https://workflow.pmu.edu.sa/wfprod",
+   "tested": true,
+   "status": 200,
+   "redirects": 5,
+   "final_url": "https://esso.pmu.edu.sa/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do&tenantDomain=carbon.super&sessionDataKey=3d1eaa35-edc8-4020-9ed1-6383cf2e67ad&relyingParty=Prod_WorkFlow&type=cas&sp=Prod_WorkFlow&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL",
+   "hops": [
+    {
+     "url": "https://workflow.pmu.edu.sa/wfprod",
+     "status": 302,
+     "location": "/wfprod/"
+    },
+    {
+     "url": "https://workflow.pmu.edu.sa/wfprod/",
+     "status": 302,
+     "location": "/wfprod/home/redirect.do"
+    },
+    {
+     "url": "https://workflow.pmu.edu.sa/wfprod/home/redirect.do",
+     "status": 302,
+     "location": "https://esso.pmu.edu.sa/cas/login?service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do"
+    },
+    {
+     "url": "https://esso.pmu.edu.sa/cas/login?service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do",
+     "status": 302,
+     "location": "https://esso.pmu.edu.sa/commonauth?commonAuthCallerPath=%2Fcas%2Flogin&sessionDataKey=5bbabb12-c5a4-4377-8c68-a1b785bc9a86&type=PreLoginRequestProcessor&Name=PreLoginRequestProcessor&relyingParty=Prod_WorkFlow"
+    },
+    {
+     "url": "https://esso.pmu.edu.sa/commonauth?commonAuthCallerPath=%2Fcas%2Flogin&sessionDataKey=5bbabb12-c5a4-4377-8c68-a1b785bc9a86&type=PreLoginRequestProcessor&Name=PreLoginRequestProcessor&relyingParty=Prod_WorkFlow",
+     "status": 302,
+     "location": "https://esso.pmu.edu.sa/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do&tenantDomain=carbon.super&sessionDataKey=3d1eaa35-edc8-4020-9ed1-6383cf2e67ad&relyingParty=Prod_WorkFlow&type=cas&sp=Prod_WorkFlow&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL"
+    },
+    {
+     "url": "https://esso.pmu.edu.sa/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fworkflow.pmu.edu.sa%2Fwfprod%2Fj_spring_cas_security_check%3Fspring-security-redirect%3D%2Fhome%2Fredirect.do&tenantDomain=carbon.super&sessionDataKey=3d1eaa35-edc8-4020-9ed1-6383cf2e67ad&relyingParty=Prod_WorkFlow&type=cas&sp=Prod_WorkFlow&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 20157,
+   "title": "PMU: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://www.facebook.com/pmuofficial": {
+   "url": "https://www.facebook.com/pmuofficial",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://www.instagram.com/pmu_official/": {
+   "url": "https://www.instagram.com/pmu_official/",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university": {
+   "url": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  },
+  "https://www.pmu.edu.sa/": {
+   "url": "https://www.pmu.edu.sa/",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://www.pmu.edu.sa/",
+   "hops": [
+    {
+     "url": "https://www.pmu.edu.sa/",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 85980,
+   "title": "PMU, Prince Mohammad Bin Fahd University.",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://www.pmu.edu.sa/apply": {
+   "url": "https://www.pmu.edu.sa/apply",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://www.pmu.edu.sa/apply",
+   "hops": [
+    {
+     "url": "https://www.pmu.edu.sa/apply",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 79922,
+   "title": "Admissions :: PMU :: Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://www.pmu.edu.sa/login/banner-login.html": {
+   "url": "https://www.pmu.edu.sa/login/banner-login.html",
+   "tested": true,
+   "status": 200,
+   "redirects": 1,
+   "final_url": "https://www.pmu.edu.sa/login/banner-login",
+   "hops": [
+    {
+     "url": "https://www.pmu.edu.sa/login/banner-login.html",
+     "status": 301,
+     "location": "https://www.pmu.edu.sa/login/banner-login"
+    },
+    {
+     "url": "https://www.pmu.edu.sa/login/banner-login",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 31498,
+   "title": "Banner Login : PMU : Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://www.pmu.edu.sa/login/index?Login=Login+Portal": {
+   "url": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "tested": true,
+   "status": 200,
+   "redirects": 0,
+   "final_url": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "hops": [
+    {
+     "url": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "bytes": 39350,
+   "title": "Login to E-Services: PMU : Prince Mohammad Bin Fahd University",
+   "error": null,
+   "issue_strings": []
+  },
+  "https://www.youtube.com/user/PMUOfficial": {
+   "url": "https://www.youtube.com/user/PMUOfficial",
+   "tested": false,
+   "why": "host outside pmu.edu.sa is not reachable from this environment",
+   "issue_strings": []
+  }
+ }
+}

@@ -1,0 +1,262 @@
+{
+  "verdict": "NOT MET",
+  "issues": [
+    {
+      "type": "forbidden",
+      "finding": "F-04",
+      "page": "freshman",
+      "detail": "still contains: 'CBT 183'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-05",
+      "page": "international",
+      "detail": "still contains: 'SAT II'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-21",
+      "page": "emgms",
+      "detail": "still contains: 'CESL'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-12",
+      "page": "legacy_criteria",
+      "detail": "still contains: 'IELTS of 550'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-12",
+      "page": "legacy_criteria",
+      "detail": "still contains: 'Standard Battery Test'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-07",
+      "page": "medicine",
+      "detail": "still contains: 'the process typically involves'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-07",
+      "page": "medicine",
+      "detail": "still contains: 'to be developed in launch phase'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-17",
+      "page": "medicine",
+      "detail": "still contains: 'College of Medical'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-17",
+      "page": "hub",
+      "detail": "still contains: 'Visting'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-08",
+      "page": "portal",
+      "detail": "still contains: 'No events are currently published'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-12",
+      "page": "hub",
+      "detail": "still contains: 'academic_calendar_2021_2022'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-24",
+      "page": "guide_viewer",
+      "detail": "still contains: 'Web-Admission-Guide-v2-2_20-12-18'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-16",
+      "page": "transfer",
+      "detail": "still contains: 'http://admissions.pmu.edu.sa'"
+    },
+    {
+      "type": "forbidden",
+      "finding": "F-16",
+      "page": "cs_eng",
+      "detail": "still contains: 'http://admissions.pmu.edu.sa'"
+    },
+    {
+      "type": "contradiction",
+      "finding": "F-22",
+      "page": "payment_policy",
+      "detail": "contains both 'All tuition payments are non-refundable' and 'Deduction Percentage'"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-04",
+      "page": "freshman,direct,ielts,transfer,international,apply",
+      "detail": "english_ug_direct.ielts_overall: ['5.5', '6.0']"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-04",
+      "page": "freshman,toefl,apply",
+      "detail": "english_ug_direct.toefl_ibt: ['65', '83']"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-03",
+      "page": "medicine,medical_fees",
+      "detail": "application_fee.medicine: ['1000', '1150']"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-05",
+      "page": "sat,cs_eng,medicine",
+      "detail": "tahseely_rule.sat_score: ['1200', '1300']"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-23",
+      "page": "medicine,medicine_academic",
+      "detail": "tuition_medicine.duration_years: ['6', '7']"
+    },
+    {
+      "type": "conflict",
+      "finding": "F-01",
+      "page": "ug_home,freshman,direct",
+      "detail": "composite_formula.hs_weight_general: ['30', '60']"
+    }
+  ],
+  "groups": [
+    {
+      "rule": "english_ug_direct.ielts_overall",
+      "finding": "F-04",
+      "values_by_page": {
+        "freshman": [
+          "5.5"
+        ],
+        "direct": [
+          "6.0"
+        ],
+        "ielts": [
+          "6.0"
+        ],
+        "transfer": [
+          "6.0"
+        ],
+        "international": [
+          "6.0"
+        ],
+        "apply": [
+          "6.0"
+        ]
+      },
+      "distinct": [
+        "5.5",
+        "6.0"
+      ],
+      "expected": null,
+      "ok": false
+    },
+    {
+      "rule": "english_ug_direct.toefl_ibt",
+      "finding": "F-04",
+      "values_by_page": {
+        "freshman": [
+          "65"
+        ],
+        "toefl": [
+          "83"
+        ],
+        "apply": [
+          "83"
+        ]
+      },
+      "distinct": [
+        "65",
+        "83"
+      ],
+      "expected": null,
+      "ok": false
+    },
+    {
+      "rule": "application_fee.medicine",
+      "finding": "F-03",
+      "values_by_page": {
+        "medicine": [
+          "1000"
+        ],
+        "medical_fees": [
+          "1150"
+        ]
+      },
+      "distinct": [
+        "1000",
+        "1150"
+      ],
+      "expected": null,
+      "ok": false
+    },
+    {
+      "rule": "tahseely_rule.sat_score",
+      "finding": "F-05",
+      "values_by_page": {
+        "sat": [
+          "1200"
+        ],
+        "cs_eng": [
+          "1200"
+        ],
+        "medicine": [
+          "1300"
+        ]
+      },
+      "distinct": [
+        "1200",
+        "1300"
+      ],
+      "expected": null,
+      "ok": false
+    },
+    {
+      "rule": "tuition_medicine.duration_years",
+      "finding": "F-23",
+      "values_by_page": {
+        "medicine": [
+          "7"
+        ],
+        "medicine_academic": [
+          "6"
+        ]
+      },
+      "distinct": [
+        "6",
+        "7"
+      ],
+      "expected": null,
+      "ok": false
+    },
+    {
+      "rule": "composite_formula.hs_weight_general",
+      "finding": "F-01",
+      "values_by_page": {
+        "ug_home": [
+          "60"
+        ],
+        "freshman": [
+          "30"
+        ],
+        "direct": [
+          "60"
+        ]
+      },
+      "distinct": [
+        "30",
+        "60"
+      ],
+      "expected": null,
+      "ok": false
+    }
+  ]
+}

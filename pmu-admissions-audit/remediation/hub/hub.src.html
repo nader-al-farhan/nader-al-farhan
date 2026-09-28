@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admissions Hub · Applicant Journey — Concept</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#16263a; --ink-2:#3f4e63; --muted:#5f6d80;
+  --paper:#f4f6f9; --sheet:#fff; --line:#dce2ea; --line-2:#c5cedb;
+  --navy:#1f3a5a; --navy-soft:#e7edf5;
+  --accent:#c2551a; --accent-soft:#fbeadf;
+  --ok:#1f7a4d; --ok-soft:#e3f3ea;
+  --warn:#8a5a00; --warn-soft:#fff3d6;
+  --crit:#a3262a; --crit-soft:#fbe4e4;
+  --focus:#1d6fd6;
+  --r:12px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#e7edf5; --ink-2:#c3cedb; --muted:#9aa8ba;
+    --paper:#0f1824; --sheet:#162232; --line:#27374b; --line-2:#34485f;
+    --navy:#9cc0ea; --navy-soft:#1c2c41;
+    --accent:#f0915a; --accent-soft:#3a2518;
+    --ok:#6fcf9b; --ok-soft:#153324; --warn:#f2c46b; --warn-soft:#3a2e12; --crit:#f08a8d; --crit-soft:#3b1b1d;
+    --focus:#7fb3ff;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 "IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+a{color:var(--navy)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+.skip{position:absolute;inset-inline-start:-999px;top:8px;background:var(--sheet);padding:8px 12px;z-index:9}
+.skip:focus{inset-inline-start:8px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header.top{background:var(--sheet);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.top .wrap{display:flex;align-items:center;gap:12px;min-height:64px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.05rem;margin-inline-end:auto}
+.brand small{display:block;font-weight:500;color:var(--muted);font-size:.78rem}
+.btn{min-height:44px;min-width:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--line-2);background:var(--sheet);color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);color:var(--sheet);border-color:var(--navy)}
+.btn[aria-pressed="true"]{background:var(--navy-soft);border-color:var(--navy)}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.concept{background:var(--warn-soft);color:var(--ink);border-bottom:1px solid var(--line)}
+.concept .wrap{padding-block:8px;font-size:.88rem}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 8px}
+nav.tabs button{background:transparent;border:1px solid transparent}
+nav.tabs button[aria-selected="true"]{background:var(--sheet);border-color:var(--line-2);box-shadow:0 1px 0 var(--line)}
+section.panel{background:var(--sheet);border:1px solid var(--line);border-radius:var(--r);padding:22px;margin:12px 0 22px}
+h1{font-size:1.6rem;line-height:1.35;margin:18px 0 4px}
+h2{font-size:1.25rem;margin:0 0 10px}
+h3{font-size:1.02rem;margin:18px 0 8px}
+p{margin:6px 0}
+.lead{color:var(--ink-2)}
+.status{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-inline-start:5px solid var(--warn);background:var(--sheet);border-radius:var(--r);padding:14px 16px;margin:14px 0}
+.status b{display:block}
+.grid{display:grid;gap:12px}
+.routes{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.route{text-align:start;display:flex;flex-direction:column;gap:4px;padding:14px;min-height:96px}
+.route .ic{font-size:1.4rem}
+.route small{color:var(--muted);font-weight:500}
+.route[aria-pressed="true"]{outline:2px solid var(--navy)}
+ol.steps{list-style:none;padding:0;margin:14px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:6px;counter-reset:s}
+ol.steps li button{width:100%;text-align:start;display:flex;gap:8px;align-items:center;padding:8px 10px;font-size:.88rem}
+ol.steps li button .n{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--navy-soft);color:var(--navy);font-weight:700;flex:none}
+ol.steps li button[aria-current="step"]{background:var(--navy);color:var(--sheet);border-color:var(--navy)}
+ol.steps li button[aria-current="step"] .n{background:var(--sheet)}
+.two{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:900px){.two{grid-template-columns:1.1fr .9fr}}
+.card{border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--sheet)}
+.muted{color:var(--muted)}
+.small{font-size:.86rem}
+label{display:block;font-weight:600;margin:10px 0 4px}
+input[type=number],select,input[type=search]{width:100%;min-height:44px;padding:8px 10px;border-radius:8px;border:1px solid var(--line-2);background:var(--sheet);color:var(--ink);font:inherit}
+.row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid;white-space:nowrap}
+.chip.ok{color:var(--ok);background:var(--ok-soft);border-color:currentColor}
+.chip.pend{color:var(--warn);background:var(--warn-soft);border-color:currentColor}
+.chip.crit{color:var(--crit);background:var(--crit-soft);border-color:currentColor}
+.gov{display:none;margin-top:6px;font-size:.8rem;color:var(--muted);border-top:1px dashed var(--line-2);padding-top:6px}
+body.govon .gov{display:block}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{border-bottom:1px solid var(--line);padding:8px;text-align:start;vertical-align:top}
+th{background:var(--navy-soft);font-weight:600}
+.tbl{overflow-x:auto}
+.res{font-size:1.05rem}
+.big{font-size:1.6rem;font-weight:700}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;direction:ltr;unicode-bidi:isolate}
+ul.check{list-style:none;padding:0;margin:0}
+ul.check li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line)}
+ul.check input{width:22px;height:22px;margin-top:4px;flex:none}
+.answer{margin-top:10px}
+.diagram svg{width:100%;height:auto;display:block}
+.diagram text{font-family:inherit}
+.note{border-inline-start:4px solid var(--navy);background:var(--navy-soft);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0}
+[dir=ltr] .note{border-radius:8px 0 0 8px}
+footer{color:var(--muted);font-size:.82rem;padding:20px 0 40px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+[hidden]{display:none!important}
+</style>
+
+<a class="skip" href="#main" data-i18n="skip"></a>
+<header class="top"><div class="wrap">
+  <div class="brand"><span data-i18n="brand"></span><small data-i18n="brandSub"></small></div>
+  <button class="btn" id="govBtn" aria-pressed="false" data-i18n="govBtn"></button>
+  <button class="btn" id="langBtn" lang="en">English</button>
+</div></header>
+<div class="concept" role="note"><div class="wrap" data-i18n="concept"></div></div>
+
+<main id="main" class="wrap">
+  <h1 data-i18n="h1"></h1>
+  <p class="lead" data-i18n="lead"></p>
+  <div class="status" role="status" id="statusBanner"></div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="btn" role="tab" id="t-hub" aria-controls="p-hub" aria-selected="true" data-i18n="tabHub"></button>
+    <button class="btn" role="tab" id="t-journey" aria-controls="p-journey" aria-selected="false" data-i18n="tabJourney"></button>
+    <button class="btn" role="tab" id="t-sim" aria-controls="p-sim" aria-selected="false" data-i18n="tabSim"></button>
+    <button class="btn" role="tab" id="t-arch" aria-controls="p-arch" aria-selected="false" data-i18n="tabArch"></button>
+    <button class="btn" role="tab" id="t-std" aria-controls="p-std" aria-selected="false" data-i18n="tabStd"></button>
+  </nav>
+
+  <!-- HUB -->
+  <section class="panel" role="tabpanel" id="p-hub" aria-labelledby="t-hub">
+    <h2 data-i18n="whoTitle"></h2>
+    <p class="muted" data-i18n="whoLead"></p>
+    <div class="grid routes" id="routes"></div>
+    <h3 data-i18n="askTitle"></h3>
+    <label for="ask" data-i18n="askLabel"></label>
+    <input type="search" id="ask" autocomplete="off">
+    <div class="answer" id="answer" aria-live="polite"></div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="panel" role="tabpanel" id="p-journey" aria-labelledby="t-journey" hidden>
+    <h2 id="jTitle"></h2>
+    <p class="muted" id="jRoute"></p>
+    <ol class="steps" id="steps"></ol>
+    <div id="stepBody" aria-live="polite"></div>
+  </section>
+
+  <!-- DECISION SIMULATOR -->
+  <section class="panel" role="tabpanel" id="p-sim" aria-labelledby="t-sim" hidden>
+    <h2 data-i18n="simTitle"></h2>
+    <p class="muted" data-i18n="simLead"></p>
+    <div class="row">
+      <div><label for="sHs" data-i18n="hs"></label><input type="number" id="sHs" min="0" max="100" step="0.1" value="78"></div>
+      <div><label for="sGat" data-i18n="gat"></label><input type="number" id="sGat" min="0" max="100" value="72"></div>
+      <div><label for="sTah" data-i18n="tah"></label><input type="number" id="sTah" min="0" max="100" value="70"></div>
+      <div><label for="sInt" data-i18n="interview"></label><input type="number" id="sInt" min="0" max="100" value="75"></div>
+    </div>
+    <div class="tbl" style="margin-top:14px"><table id="simTable"></table></div>
+    <div class="note" id="simVerdict" aria-live="polite"></div>
+  </section>
+
+  <!-- ARCHITECTURE -->
+  <section class="panel" role="tabpanel" id="p-arch" aria-labelledby="t-arch" hidden>
+    <h2 data-i18n="archTitle"></h2>
+    <p class="muted" data-i18n="archLead"></p>
+    <div class="diagram" id="diagram"></div>
+    <div class="tbl"><table id="archTable"></table></div>
+  </section>
+
+  <!-- STANDARDS -->
+  <section class="panel" role="tabpanel" id="p-std" aria-labelledby="t-std" hidden>
+    <h2 data-i18n="stdTitle"></h2>
+    <p class="muted" data-i18n="stdLead"></p>
+    <div class="tbl"><table id="stdTable"></table></div>
+  </section>
+
+  <footer data-i18n="footer"></footer>
+</main>
+
+<script>
+const CANON = /*CANON*/null;
+const CFG = /*CFG*/null;
+const REC = Object.fromEntries(CANON.map(r => [r.id, r]));
+
+const T = {
+ ar:{
+  skip:"انتقل إلى المحتوى", brand:"مركز القبول", brandSub:"جامعة الأمير محمد بن فهد · نموذج مفاهيمي",
+  govBtn:"إظهار الحوكمة والمصادر", concept:"نموذج مفاهيمي للنقاش الداخلي، وليس صفحة رسمية للجامعة. القيم مصدرها سجل التدقيق بتاريخ 2026-09-27. ما لم يُعتمد يظهر «بانتظار القرار» ولا يُعرض كحقيقة.",
+  h1:"مركز القبول ← رحلة المتقدم", lead:"نقطة دخول واحدة: يختار المتقدم فئته، فيرى رحلة من سبع خطوات، وكل قيمة فيها تأتي من السجل المرجعي مع مالكها وتاريخ سريانها.",
+  tabHub:"المركز", tabJourney:"رحلة المتقدم", tabSim:"محاكي القرار (للإدارة)", tabArch:"البنية", tabStd:"المعايير",
+  whoTitle:"من أنت؟", whoLead:"اختيار واحد يحدد الشروط والتكاليف والقناة والوثائق الخاصة بك.",
+  askTitle:"اسأل عن القبول", askLabel:"اكتب سؤالك (مثال: كم رسم التقديم؟ ما حد الآيلتس؟ أين أقدّم؟)",
+  askNone:"لم أجد سجلًا مطابقًا. جرّب كلمات مثل: معدل، قدرات، آيلتس، رسوم، استرداد، موعد، وثائق.",
+  askApproved:"الإجابة المعتمدة", askPending:"لا توجد إجابة معتمدة بعد. هذا ما تنشره الجامعة حاليًا:",
+  askOwner:"الجهة المالكة", askDecision:"القرار", askVerified:"آخر تحقق",
+  assistNote:"المساعد يجيب من السجل المرجعي فقط، ويذكر المصدر، ولا يخمّن. عند غياب قيمة معتمدة يحيل إلى مكتب القبول.",
+  routes:{saudi_hs:["🎓","خريج ثانوية سعودي أو مقيم","القبول الجامعي المباشر"],international:["🌍","طالب دولي","دون إقامة في المملكة"],transfer:["🔁","محوّل من جامعة أخرى","معادلة المواد"],medicine:["🩺","كلية الطب","مسار خاص"],graduate:["📚","الدراسات العليا","ماجستير ودكتوراه"],visiting:["🧭","طالب زائر","فصل أو أكثر"]},
+  jTitle:"رحلة المتقدم", jFor:"المسار المختار: ", jPick:"اختر فئتك من تبويب «المركز» أولًا.",
+  steps:["اكتشف البرامج","تحقق من الأهلية","احسب التكاليف","المواعيد والقناة","جهّز الوثائق","قدّم","تابع القرار"],
+  status:"حالة دورة القبول", statusMsg:"لا توجد دورة قبول مفتوحة منشورة. التقويم يعرض خريف 2026–2027 فقط (بدأت الدراسة 2026-08-30)، والبوابة تقول «لا توجد أحداث منشورة». الدورة القادمة لم تُعلن بعد.",
+  pending:"بانتظار القرار", approved:"معتمد", conflict:"قيم متعارضة", consistent:"متسق", gap:"فجوة",
+  sources:"المصادر", owner:"المالك", decision:"القرار",
+  s1:"سجل البرامج الموحّد لم يُعتمد بعد: الكتالوج وقائمة التخصصات وجدول الرسوم تختلف (مثلًا: كلية الطب غائبة عن الكتالوج). بعد القرار يظهر هنا دليل برامج واحد مرتبط بالشروط والرسوم.",
+  s2lead:"أدخل درجاتك لترى النتيجة. الحساب يتم على جهازك فقط، ولا تُرسل أي بيانات.",
+  hs:"معدل الثانوية (%)", gat:"القدرات", tah:"التحصيلي", interview:"المقابلة (تقدير)",
+  s2wait:"لا يمكن إعلان نتيجة للمتقدم قبل اعتماد المعادلة (D1): الجامعة تنشر حاليًا أكثر من معادلة لنفس الفئة. هذه قاعدة النشر: المكوّن محجوب حتى الاعتماد.",
+  s2seeSim:"اعرض أثر كل معادلة منشورة في «محاكي القرار».",
+  minCheck:"فحص الحدود الدنيا المنشورة", pass:"يستوفي", fail:"لا يستوفي",
+  eng:"متطلبات الإنجليزية للقبول المباشر",
+  s3lead:"تقدير للرسوم الدراسية لكل فصل ولكل سنة (فصلان). الضريبة وفق بيان المالية المنشور.",
+  group:"الكلية", nat:"الجنسية", saudi:"سعودي", nonsaudi:"غير سعودي",
+  perSem:"الرسوم لكل فصل", perYear:"تقدير السنة (فصلان)", vatNote:"للسعوديين: لا تُحصَّل ضريبة القيمة المضافة على الرسوم الدراسية وتتحملها الدولة، وتُطبّق 15% على الرسوم الأخرى. لغير السعوديين: 15% على الكل.",
+  appFee:"رسم التقديم", medFees:"رسوم برنامج الطب (لكل سنة)", medPrep:"السنة التحضيرية الطبية", medProg:"البرنامج الطبي", seat:"حجز المقعد (غير مسترد، جزء من الرسوم)",
+  refund:"سياسة الاسترداد",
+  s4lead:"القناة الصحيحة تُحدَّد من فئتك وجنسيتك. زر التقديم واحد، ويوجّهك إلى المكان الصحيح.",
+  calRule:"ما يقوله تقويم القبول (P14)", portalRule:"ما تقوله صفحات أخرى",
+  chSaudi:"منصة «قبول» الوطنية", chIntl:"منصة «ادرس في السعودية» (مغلقة حاليًا)", chPortal:"بوابة الجامعة",
+  s4wait:"القناة الرسمية لكل فئة بانتظار القرار D4، لأن الصفحات الحالية متعارضة. بعد القرار يصبح الزر أدناه موجّهًا تلقائيًا.",
+  s5lead:"قائمة تحقق شخصية لفئتك. العلامات تبقى على جهازك فقط.",
+  variant:"الصيغة المنشورة",
+  s6lead:"زر واحد يوجّهك إلى القناة الصحيحة بعد اعتماد القرار D4. حتى ذلك الحين يبقى الزر معطلًا عمدًا، حتى لا نوجّه أحدًا إلى القناة الخطأ.",
+  applyBtn:"قدّم الآن",
+  s7lead:"بعد التقديم: إشعارات بكل مرحلة، وموعد المقابلة أو الاختبار، وخطاب القرار، وشروط الاسترداد المنشورة مسبقًا.",
+  s7items:["تأكيد استلام فوري بالبريد والرسائل النصية","إشعار عند نقص وثيقة، مع رابط الرفع","موعد المقابلة أو اختبار التحديد","خطاب القرار مع التكاليف وشروط الاسترداد المعتمدة (D9)","خطوات القبول النهائي والتسجيل"],
+  simTitle:"محاكي القرار: متقدم واحد ومعادلات منشورة متعددة", simLead:"للإدارة فقط. يحسب النتيجة لنفس المتقدم بكل معادلة تنشرها الجامعة اليوم، ليظهر أثر القرار D1 قبل توقيعه.",
+  formula:"المعادلة المنشورة", score:"النتيجة", mins:"الحدود الدنيا", result:"الحكم",
+  admitLike:"مؤهل حسب هذه الصفحة", notLike:"غير مؤهل حسب هذه الصفحة", condLike:"مشروط: القرار للمقابلة", orWith:"أو", composite:"المركّب", noMin:"لا حد أدنى منشور", spread:"الدرجة الموزونة لنفس المتقدم تتراوح بين {a} و{b} حسب المعادلة، ولا يوجد حد أدنى مركّب منشور للمسار العام (<bdi dir=\"ltr\">F-09</bdi>).",
+  simSame:"النتيجة واحدة في كل المعادلات لهذا المتقدم.", simDiff:"نفس المتقدم يحصل على نتائج مختلفة حسب الصفحة التي يقرؤها. هذا هو أثر غياب القرار D1.",
+  archTitle:"البنية المقترحة: من مصدر واحد إلى كل الواجهات", archLead:"كل قيمة تُكتب مرة واحدة في السجل المرجعي، ثم تتدفق إلى الموقع بلغتيه والبوابة والتقويم والمساعد. المراقبة الشهرية تعيد أي انحراف إلى مالكه.",
+  archCols:["الطبقة","المسؤولية","ما يضمنه"],
+  arch:[["مالكو البيانات","لجنة القبول، المالية، الكليات، برنامج الإنجليزية، القبول، التسجيل","كل قيمة لها مالك واحد مسمّى وظيفيًا"],["السجل المرجعي","قيمة، مالك، تاريخ سريان، تسمية عربية وإنجليزية، سير اعتماد","لا نشر لقيمة غير معتمدة؛ القيم المتعارضة محجوبة"],["واجهة البيانات (JSON)","يقدّم القيم المعتمدة لكل الواجهات","لا قيم مكتوبة يدويًا داخل الصفحات"],["مركز القبول والرحلة","المكوّنات الثمانية، الحاسبات، قائمة الوثائق، زر التقديم الموجّه","تجربة واحدة بالعربية والإنجليزية، على الجوال أولًا"],["المساعد الذكي","يجيب من السجل فقط مع المصدر، ويحيل إلى موظف عند الحاجة","لا تخمين، ولا بيانات شخصية دون موافقة"],["القنوات الخارجية","«قبول»، «ادرس في السعودية»، بوابة الجامعة","توجيه صحيح لكل فئة"],["المراقبة والتحقق","أداة G3 للانحراف، فحص الروابط والوصول، مؤشرات الرحلة","إغلاق مثبت بالأدلة، ودورتا فحص بلا انحراف"]],
+  stdTitle:"المواءمة مع المعايير المحلية والعالمية", stdLead:"الجامعة أهلية، فبعض المراجع أدناه إلزامية عليها (مثل نظام حماية البيانات الشخصية)، وبعضها مرجع مقارن طوعي (مثل معايير المنصات الحكومية). العمود الأخير يوضح ذلك.",
+  stdCols:["المرجع","ما يتطلبه أو يوجّه إليه","كيف يطبّقه المركز","الصفة"],
+  footer:"نموذج مفاهيمي مبني على تدقيق مستقل بتاريخ 2026-09-27. ليس موقعًا رسميًا، ولا يمثل قرارًا من الجامعة. لا يجمع أي بيانات شخصية."
+ },
+ en:{
+  skip:"Skip to content", brand:"Admissions Hub", brandSub:"Prince Mohammad Bin Fahd University · concept prototype",
+  govBtn:"Show governance & sources", concept:"Concept prototype for internal discussion, not an official university page. Values come from the audit record dated 2026-09-27. Anything not approved shows as “Pending decision” and is never presented as fact.",
+  h1:"Admissions Hub → Applicant Journey", lead:"One entry point: the applicant picks their category and gets a seven-step journey. Every value comes from the canonical record, with its owner and effective date.",
+  tabHub:"Hub", tabJourney:"Applicant journey", tabSim:"Decision simulator (management)", tabArch:"Architecture", tabStd:"Standards",
+  whoTitle:"Who are you?", whoLead:"One choice sets your requirements, costs, channel and documents.",
+  askTitle:"Ask about admissions", askLabel:"Type your question (e.g. application fee? IELTS minimum? where do I apply?)",
+  askNone:"No matching record. Try words like: GPA, Qudrat, IELTS, fees, refund, deadline, documents.",
+  askApproved:"Approved answer", askPending:"No approved answer yet. This is what the university currently publishes:",
+  askOwner:"Owner", askDecision:"Decision", askVerified:"Last verified",
+  assistNote:"The assistant answers only from the canonical record, cites the source and never guesses. Without an approved value it refers you to the Admissions Office.",
+  routes:{saudi_hs:["🎓","Saudi or resident high-school graduate","Direct undergraduate entry"],international:["🌍","International applicant","No Saudi residence"],transfer:["🔁","Transfer student","Credit transfer"],medicine:["🩺","College of Medicine","Special track"],graduate:["📚","Graduate studies","Master's and PhD"],visiting:["🧭","Visiting student","One or more semesters"]},
+  jTitle:"Applicant journey", jFor:"Selected route: ", jPick:"Pick your category in the “Hub” tab first.",
+  steps:["Discover programmes","Check eligibility","Estimate costs","Dates & channel","Prepare documents","Apply","Track decision"],
+  status:"Intake status", statusMsg:"No open intake is published. The calendar shows only Fall 2026–2027 (classes began 2026-08-30) and the portal says “No events are currently published”. The next intake has not been announced.",
+  pending:"Pending decision", approved:"Approved", conflict:"Conflicting values", consistent:"Consistent", gap:"Gap",
+  sources:"Sources", owner:"Owner", decision:"Decision",
+  s1:"The unified programme register is not yet approved: the catalogue, list of majors and fee tables differ (e.g. the College of Medicine is missing from the catalogue). After the decision, one programme guide linked to requirements and fees appears here.",
+  s2lead:"Enter your scores to see the result. The calculation runs on your device only; no data is sent.",
+  hs:"High-school average (%)", gat:"Qudrat (GAT)", tah:"Tahseely", interview:"Interview (estimate)",
+  s2wait:"No result can be announced to applicants until the formula is approved (D1): the university currently publishes more than one formula for the same category. Publishing rule: this component stays blocked until approval.",
+  s2seeSim:"See the effect of each published formula in the “Decision simulator”.",
+  minCheck:"Published minimums check", pass:"Meets", fail:"Does not meet",
+  eng:"English requirements for direct entry",
+  s3lead:"Estimated tuition per semester and per year (two semesters). VAT per the published Finance statement.",
+  group:"College", nat:"Nationality", saudi:"Saudi", nonsaudi:"Non-Saudi",
+  perSem:"Tuition per semester", perYear:"Year estimate (2 semesters)", vatNote:"Saudi: VAT on tuition is not collected from the student; the State bears it. 15% applies to other fees. Non-Saudi: 15% on everything.",
+  appFee:"Application fee", medFees:"Medicine programme fees (per year)", medPrep:"Medical preparatory year", medProg:"Medical programme", seat:"Seat reservation (non-refundable, part of tuition)",
+  refund:"Refund policy",
+  s4lead:"The right channel is set by your category and nationality. One apply button sends you to the right place.",
+  calRule:"What the admissions calendar says (P14)", portalRule:"What other pages say",
+  chSaudi:"National “Qabool” platform", chIntl:"“Study in Saudi” platform (currently closed)", chPortal:"University portal",
+  s4wait:"The official channel per category awaits decision D4, because current pages conflict. After the decision, the button below routes automatically.",
+  s5lead:"A personal checklist for your category. Ticks stay on your device only.",
+  variant:"Published wording",
+  s6lead:"One button that routes you to the right channel once decision D4 is approved. Until then it is deliberately disabled, so nobody is sent to the wrong channel.",
+  applyBtn:"Apply now",
+  s7lead:"After applying: a notice at each stage, the interview or test date, the decision letter, and refund terms published in advance.",
+  s7items:["Instant receipt by email and SMS","Notice when a document is missing, with an upload link","Interview or placement-test appointment","Decision letter with costs and approved refund terms (D9)","Final acceptance and registration steps"],
+  simTitle:"Decision simulator: one applicant, several published formulas", simLead:"Management only. Computes the same applicant's result under every formula the university publishes today, to show the effect of decision D1 before it is signed.",
+  formula:"Published formula", score:"Score", mins:"Minimums", result:"Outcome",
+  admitLike:"Eligible per this page", notLike:"Not eligible per this page", condLike:"Conditional: interview decides", orWith:"or", composite:"Composite", noMin:"No published minimum", spread:"The same applicant's weighted score ranges from {a} to {b} depending on the formula, and no composite minimum is published for the general route (F-09).",
+  simSame:"The outcome is the same under every formula for this applicant.", simDiff:"The same applicant gets different outcomes depending on which page they read. This is the effect of the missing decision D1.",
+  archTitle:"Proposed architecture: one source to every surface", archLead:"Each value is written once in the canonical record, then flows to the website in both languages, the portal, the calendar and the assistant. A monthly check returns any drift to its owner.",
+  archCols:["Layer","Responsibility","Guarantee"],
+  arch:[["Data owners","Admissions Committee, Finance, Colleges, English Programme, Admissions, Registrar","Every value has one named functional owner"],["Canonical record","Value, owner, effective date, AR/EN labels, approval workflow","No publishing of unapproved values; conflicting values stay blocked"],["Data API (JSON)","Serves approved values to every surface","No hand-typed values inside pages"],["Hub & journey","The eight components, calculators, document checklist, routed apply button","One experience in Arabic and English, mobile first"],["Smart assistant","Answers only from the record with the source; hands off to staff when needed","No guessing; no personal data without consent"],["External channels","Qabool, Study in Saudi, university portal","Correct routing per category"],["Monitoring & verification","G3 drift tool, link and accessibility checks, journey KPIs","Evidence-based closure; two drift runs with zero issues"]],
+  stdTitle:"Alignment with local and international standards", stdLead:"The university is private, so some references below are binding on it (e.g. the Personal Data Protection Law) and some are voluntary benchmarks (e.g. government platform standards). The last column says which.",
+  stdCols:["Reference","What it requires or guides","How the hub applies it","Status"],
+  footer:"Concept prototype based on an independent audit dated 2026-09-27. Not an official website and not a university decision. Collects no personal data."
+ }
+};
+
+const STD = [
+ {ref:{ar:"رؤية المملكة 2030 · برنامج تنمية القدرات البشرية",en:"Saudi Vision 2030 · Human Capability Development Program"},url:"https://www.vision2030.gov.sa/en/explore/programs/human-capability-development-program",
+  req:{ar:"من أهدافه: تحسين عدالة الوصول إلى التعليم، ومواءمة مخرجات التعليم مع سوق العمل، وتحسين تصنيف الجامعات",en:"Objectives include equity of access to education, aligning outputs with labour-market needs, and improving university rankings"},
+  how:{ar:"معلومات قبول واضحة وموحّدة بالعربية والإنجليزية لكل فئة، ومسار واضح للتخصصات ذات الأولوية",en:"Clear, single-source admissions information in Arabic and English for every category, with a clear path to priority majors"},
+  kind:{ar:"توجّه وطني",en:"National direction"}},
+ {ref:{ar:"هيئة الحكومة الرقمية · كود المنصات (نظام التصميم الموحد)",en:"Digital Government Authority · Platforms Code (unified design system)"},url:"https://www.spa.gov.sa/en/N2209319",
+  req:{ar:"مرجع وطني لتصميم واجهات المنصات الحكومية وتوحيد التجربة الرقمية",en:"National reference for designing government platform interfaces and unifying the digital experience"},
+  how:{ar:"مكوّنات موحّدة، ونمط «سؤال واحد في كل خطوة»، وتجربة متسقة على الجوال",en:"Shared components, one-question-per-step pattern, consistent mobile experience"},
+  kind:{ar:"مرجع مقارن (الجامعة أهلية)",en:"Benchmark (private university)"}},
+ {ref:{ar:"هيئة الحكومة الرقمية · دليل إتاحة المواقع الحكومية",en:"DGA · Guideline for Web Accessibility of Government Websites"},url:"https://dga.gov.sa/en/Web_Accessibility_of_Government_Websites",
+  req:{ar:"المستوى AA من WCAG حدًّا أدنى، ومحتوى بالعربية والإنجليزية بجودة متكافئة",en:"WCAG level AA as the minimum; Arabic and English content of equal quality"},
+  how:{ar:"تبديل كامل للغة والاتجاه، وتسمية كل حقل، وتركيز مرئي، ونصوص بديلة",en:"Full language and direction switch, labelled fields, visible focus, text alternatives"},
+  kind:{ar:"مرجع مقارن",en:"Benchmark"}},
+ {ref:{ar:"W3C · معايير WCAG 2.2",en:"W3C · WCAG 2.2"},url:"https://www.w3.org/TR/WCAG22/",
+  req:{ar:"توصية W3C (2023، حُدّثت 2024) تضيف 9 معايير، منها وضوح التركيز وحجم أهداف اللمس والمساعدة المتسقة",en:"W3C Recommendation (2023, updated 2024) adding 9 criteria, incl. focus visibility, target size and consistent help"},
+  how:{ar:"أهداف لمس لا تقل عن 44 بكسل، وتركيز مرئي، وسمة lang، وترتيب عناوين سليم، ومساعدة في المكان نفسه",en:"Touch targets of at least 44px, visible focus, lang attribute, sound heading order, help in the same place"},
+  kind:{ar:"معيار دولي؛ هدف البوابة G5",en:"International standard; gate G5 target"}},
+ {ref:{ar:"سدايا · نظام حماية البيانات الشخصية ولوائحه",en:"SDAIA · Personal Data Protection Law and regulations"},url:"https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx",
+  req:{ar:"سياسة خصوصية قبل الجمع، وأساس نظامي للمعالجة، وموافقة صريحة عند الحاجة، وجمع الحد الأدنى من البيانات",en:"Privacy notice before collection, a lawful basis, explicit consent where needed, data minimisation"},
+  how:{ar:"الحاسبات وقائمة الوثائق تعمل على الجهاز فقط ولا تجمع بيانات؛ والجمع يبدأ في البوابة بعد إشعار الخصوصية",en:"Calculators and checklist run on-device and collect nothing; collection starts in the portal after the privacy notice"},
+  kind:{ar:"إلزامي",en:"Binding"}},
+ {ref:{ar:"سدايا · مبادئ أخلاقيات الذكاء الاصطناعي",en:"SDAIA · AI Ethics Principles"},url:"https://sdaia.gov.sa/en/SDAIA/about/Documents/ai-principles.pdf",
+  req:{ar:"العدالة، والشفافية، والمساءلة، وقابلية التدقيق في أنظمة الذكاء الاصطناعي",en:"Fairness, transparency, accountability and auditability of AI systems"},
+  how:{ar:"المساعد يجيب من السجل المعتمد فقط، ويذكر المصدر والقرار، ولا يتخذ قرار قبول، ويحيل إلى موظف",en:"The assistant answers only from the approved record, cites source and decision, never makes admission decisions, hands off to staff"},
+  kind:{ar:"توجيه وطني",en:"National guidance"}},
+ {ref:{ar:"الهيئة الوطنية للأمن السيبراني · الضوابط الأساسية ECC-2:2024",en:"NCA · Essential Cybersecurity Controls ECC-2:2024"},url:"https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
+  req:{ar:"الحد الأدنى من ضوابط الأمن السيبراني للجهات الوطنية",en:"Minimum cybersecurity controls for national entities"},
+  how:{ar:"روابط HTTPS فقط (إزالة روابط http الحالية)، ولا نماذج خارج البوابة المؤمّنة",en:"HTTPS-only links (removing today's http links); no forms outside the secured portal"},
+  kind:{ar:"مرجع مقارن؛ يُحدَّد انطباقه مع تقنية المعلومات",en:"Benchmark; applicability to be confirmed with IT"}},
+ {ref:{ar:"وزارة التعليم · القبول الموحد «قبول» ومنصة «ادرس في السعودية»",en:"Ministry of Education · Unified Admission (Qabool) and Study in Saudi"},url:"https://www.moe.gov.sa/en/knowledgecenter/eservices/pages/unified-admission.aspx",
+  req:{ar:"قنوات وطنية للتقديم حسب الفئة",en:"National application channels by applicant category"},
+  how:{ar:"زر تقديم واحد يوجّه كل فئة إلى قناتها بعد القرار D4",en:"One apply button that routes each category to its channel after decision D4"},
+  kind:{ar:"قناة وطنية",en:"National channel"}},
+ {ref:{ar:"هيئة تقويم التعليم والتدريب · المركز الوطني للتقويم والاعتماد الأكاديمي",en:"ETEC · National Center for Academic Accreditation and Evaluation (NCAAA)"},url:"https://etec.gov.sa/en/centers/ncaaa/p/p-277e192e-0edd-4825-88db-619b5f8bae2b",
+  req:{ar:"جهة الاعتماد المؤسسي والبرامجي",en:"Institutional and programme accreditation body"},
+  how:{ar:"سجل مرجعي مؤرّخ بمالكين وأدلة تحقق، يدعم جاهزية الأدلة عند الاعتماد (قراءتنا، لا نص معيار محدد)",en:"A dated canonical record with owners and verification evidence supports evidence readiness (our reading, not a specific standard clause)"},
+  kind:{ar:"جهة اعتماد",en:"Accreditation body"}},
+ {ref:{ar:"نظام تصميم GOV.UK · صفحات الأسئلة",en:"GOV.UK Design System · Question pages"},url:"https://design-system.service.gov.uk/patterns/question-pages/",
+  req:{ar:"سؤال واحد في كل صفحة، ولا يُطلب الشيء نفسه مرتين، ولا يُسأل إلا عما يلزم",en:"One question per page; never ask twice; ask only what you need"},
+  how:{ar:"اختيار الفئة مرة واحدة يغذّي كل الخطوات السبع",en:"Choosing the category once feeds all seven steps"},
+  kind:{ar:"أفضل ممارسة دولية",en:"International good practice"}}
+];
+
+let lang = "ar", route = null, step = 0;
+const $ = s => document.querySelector(s);
+const t = k => T[lang][k];
+const fmt = n => new Intl.NumberFormat(lang === "ar" ? "ar-SA-u-nu-latn" : "en-US").format(Math.round(n));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function statusChip(r){
+  if (r.approved_value) return `<span class="chip ok">✓ ${t("approved")}</span>`;
+  const cls = r.status === "consistent" ? "ok" : (r.status === "gap" ? "crit" : "pend");
+  const txt = r.status === "consistent" ? t("consistent") : (r.status === "gap" ? t("gap") : t("pending") + " · " + esc(r.decision_ref || ""));
+  return `<span class="chip ${cls}">${txt}</span>`;
+}
+function gov(r, extraSources){
+  const src = extraSources || r.published_values.flatMap(v => v.sources);
+  return `<div class="gov">${t("owner")}: ${esc(ownerTxt(r))} · ${t("decision")}: ${esc(r.decision_ref)} · ${t("sources")}: <span class="mono">${esc([...new Set(src)].join(", "))}</span> · ${t("askVerified")}: <span class="mono">${esc(r.last_verified)}</span></div>`;
+}
+function valuesList(r){
+  return `<ul class="small">` + r.published_values.map(v => `<li><span lang="en" dir="ltr">${esc(v.value)}</span> <span class="mono muted">(${esc(v.sources.join(", "))})</span></li>`).join("") + `</ul>`;
+}
+
+function applyLang(){
+  const html = document.documentElement;
+  html.lang = lang; html.dir = lang === "ar" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  const lb = $("#langBtn"); lb.textContent = lang === "ar" ? "English" : "العربية"; lb.lang = lang === "ar" ? "en" : "ar";
+  $("#statusBanner").innerHTML = `<div><b>${t("status")} ${statusChip(REC.intake_status)}</b>${t("statusMsg")}${gov(REC.intake_status)}</div>`;
+  renderRoutes(); renderJourney(); renderSim(); renderArch(); renderStd(); answer();
+}
+
+function renderRoutes(){
+  $("#routes").innerHTML = Object.entries(t("routes")).map(([k,[ic,name,sub]]) =>
+    `<button class="btn route" data-route="${k}" aria-pressed="${route===k}"><span class="ic" aria-hidden="true">${ic}</span>${name}<small>${sub}</small></button>`).join("");
+  document.querySelectorAll(".route").forEach(b => b.onclick = () => { route = b.dataset.route; step = 0; renderRoutes(); openTab("journey"); renderJourney(); });
+}
+
+function renderJourney(){
+  $("#jTitle").textContent = t("jTitle");
+  $("#jRoute").textContent = route ? t("jFor") + t("routes")[route][1] : t("jPick");
+  $("#steps").innerHTML = t("steps").map((s,i) => `<li><button class="btn" data-step="${i}" ${i===step?'aria-current="step"':''}><span class="n">${i+1}</span>${s}</button></li>`).join("");
+  document.querySelectorAll("#steps button").forEach(b => b.onclick = () => { step = +b.dataset.step; renderJourney(); });
+  $("#stepBody").innerHTML = route ? stepBody() : "";
+  wireStep();
+}
+
+function stepBody(){
+  const h = `<h3>${step+1}. ${t("steps")[step]}</h3>`;
+  if (step === 0) return h + `<div class="card"><p>${statusChip(REC.programme_register)}</p><p>${t("s1")}</p>${gov(REC.programme_register)}</div>`;
+  if (step === 1){
+    const f = CFG.formulas.filter(x => x.routes.includes(route === "medicine" ? "medicine" : "saudi_hs"));
+    const needTah = f.some(x => x.weights.tah);
+    let calc = "";
+    if (["saudi_hs","medicine","international"].includes(route)){
+      calc = `<div class="card"><p class="muted small">${t("s2lead")}</p><div class="row">
+        <div><label for="jHs">${t("hs")}</label><input type="number" id="jHs" min="0" max="100" step="0.1" value="84"></div>
+        <div><label for="jGat">${t("gat")}</label><input type="number" id="jGat" min="0" max="100" value="72"></div>
+        ${needTah?`<div><label for="jTah">${t("tah")}</label><input type="number" id="jTah" min="0" max="100" value="70"></div>`:""}
+        </div><div id="jMin" aria-live="polite" style="margin-top:10px"></div>
+        <div class="note"><p>${statusChip(REC.composite_formula)} ${t("s2wait")}</p><p><button class="btn" id="goSim">${t("s2seeSim")}</button></p></div>${gov(REC.composite_formula)}</div>`;
+    }
+    const eng = `<div class="card" style="margin-top:12px"><b>${t("eng")}</b> ${statusChip(REC.english_ug_direct)}${valuesList(REC.english_ug_direct)}<p class="small muted">${esc(REC.english_ug_direct.note||"")}</p>${gov(REC.english_ug_direct)}</div>`;
+    const grad = route === "graduate" ? `<div class="card" style="margin-top:12px"><b>${esc(REC.english_grad.label[lang])}</b> ${statusChip(REC.english_grad)}${valuesList(REC.english_grad)}${gov(REC.english_grad)}</div>` : "";
+    return h + calc + (route === "graduate" ? grad : eng);
+  }
+  if (step === 2){
+    const vat = CFG.vat.rate;
+    const fee = route === "medicine"
+      ? `<p><b>${t("appFee")}</b> ${statusChip(REC.application_fee)} <span class="mono">SAR ${CFG.application_fee.options.filter(o=>o.route==="medicine").map(o=>fmt(o.value)+" ("+o.sources.join(",")+")").join(" / ")}</span></p>`
+      : `<p><b>${t("appFee")}</b> ${statusChip(REC.application_fee)}</p>${valuesList(REC.application_fee)}`;
+    if (route === "medicine"){
+      const m = CFG.medicine_fees;
+      return h + `<div class="two"><div class="card"><b>${t("medFees")}</b> ${statusChip(REC.tuition_medicine)}
+        <table><tr><th>${t("medPrep")}</th><td class="mono">SAR ${fmt(m.prep_per_year)}</td></tr><tr><th>${t("medProg")}</th><td class="mono">SAR ${fmt(m.program_per_year)}</td></tr><tr><th>${t("seat")}</th><td class="mono">SAR ${fmt(m.seat_reservation)}</td></tr></table>
+        ${valuesList(REC.tuition_medicine)}${gov(REC.tuition_medicine)}</div>
+        <div class="card">${fee}${gov(REC.application_fee)}<p><b>${t("refund")}</b> ${statusChip(REC.refund_policy)}</p>${valuesList(REC.refund_policy)}${gov(REC.refund_policy)}</div></div>`;
+    }
+    if (route === "graduate" || route === "visiting") return h + `<div class="card">${fee}${gov(REC.application_fee)}<p><b>${t("refund")}</b> ${statusChip(REC.refund_policy)}</p>${valuesList(REC.refund_policy)}</div>`;
+    const g = CFG.tuition_2026_27.groups;
+    return h + `<div class="two"><div class="card"><p class="muted small">${t("s3lead")}</p>
+      <label for="cGroup">${t("group")}</label><select id="cGroup">${Object.entries(g).map(([k,v])=>`<option value="${k}">${v[lang]}</option>`).join("")}</select>
+      <label for="cNat">${t("nat")}</label><select id="cNat"><option value="sa">${t("saudi")}</option><option value="int" ${route==="international"?"selected":""}>${t("nonsaudi")}</option></select>
+      <div id="cOut" aria-live="polite" style="margin-top:12px"></div><p class="small muted">${t("vatNote")}</p>${gov(REC.tuition_ug, CFG.tuition_2026_27.sources)}${gov(REC.vat_statement)}</div>
+      <div class="card">${fee}${gov(REC.application_fee)}<p><b>${t("refund")}</b> ${statusChip(REC.refund_policy)}</p>${valuesList(REC.refund_policy)}${gov(REC.refund_policy)}</div></div>`;
+  }
+  if (step === 3){
+    const c = CFG.channels.calendar_rule;
+    const intl = route === "international";
+    const cal = route === "saudi_hs" || route === "medicine" ? t("chSaudi") : (intl ? t("chIntl") : t("chPortal"));
+    return h + `<div class="card"><p class="muted small">${t("s4lead")}</p>
+      <table><tr><th>${t("calRule")}</th><td>${cal}</td></tr><tr><th>${t("portalRule")}</th><td>${t("chPortal")} <span class="mono muted">(${CFG.channels.portal.sources.join(", ")})</span></td></tr></table>
+      <div class="note">${statusChip(REC.application_channel)} ${t("s4wait")}</div>${gov(REC.application_channel)}
+      <p style="margin-top:12px"><b>${t("status")}</b> ${statusChip(REC.intake_status)}</p><p>${t("statusMsg")}</p></div>`;
+  }
+  if (step === 4){
+    const docs = CFG.documents.filter(d => d.routes.includes(route));
+    return h + `<div class="card"><p class="muted small">${t("s5lead")} ${statusChip(REC.required_documents)}</p><ul class="check">` +
+      docs.map(d => `<li><input type="checkbox" id="d-${d.id}"><label for="d-${d.id}" style="margin:0;font-weight:500">${d[lang]}${d.variants.filter(v=>v[lang]).map(v=>`<br><span class="small muted">${t("variant")}: ${v[lang]} <span class="mono">(${v.sources.join(", ")})</span></span>`).join("")}</label></li>`).join("") +
+      `</ul>${gov(REC.required_documents)}</div>`;
+  }
+  if (step === 5) return h + `<div class="card"><p>${t("s6lead")}</p><p><button class="btn primary" disabled aria-describedby="applyWhy">${t("applyBtn")}</button></p><p id="applyWhy" class="small">${statusChip(REC.application_channel)} ${t("s4wait")}</p>${gov(REC.application_channel)}</div>`;
+  return h + `<div class="card"><p>${t("s7lead")}</p><ol>${t("s7items").map(x=>`<li>${x}</li>`).join("")}</ol><p class="small">${statusChip(REC.contacts)} ${esc(REC.contacts.label[lang])}</p>${valuesList(REC.contacts)}${gov(REC.contacts)}</div>`;
+}
+
+function wireStep(){
+  const gs = $("#goSim"); if (gs) gs.onclick = () => openTab("sim");
+  ["jHs","jGat","jTah"].forEach(id => { const e = document.getElementById(id); if (e) e.oninput = minCheck; });
+  if ($("#jHs")) minCheck();
+  ["cGroup","cNat"].forEach(id => { const e = document.getElementById(id); if (e) e.onchange = cost; });
+  if ($("#cGroup")) cost();
+}
+function num(id){ const e = document.getElementById(id); return e ? parseFloat(e.value) : NaN; }
+function minCheck(){
+  const key = route === "medicine" ? "medicine" : "saudi_hs";
+  const m = CFG.minimums[key];
+  const vals = {hs: num("jHs"), gat: num("jGat"), tah: num("jTah")};
+  const rows = Object.entries(m).filter(([k]) => !isNaN(vals[k])).map(([k,v]) => {
+    const ok = vals[k] >= v.value;
+    return `<li>${t(k)}: <span class="mono">${vals[k]} ≥ ${v.value}</span> — <span class="chip ${ok?"ok":"crit"}">${ok?t("pass"):t("fail")}</span> ${statusChip(REC[v.canon])}</li>`;
+  });
+  $("#jMin").innerHTML = `<b>${t("minCheck")}</b><ul class="small">${rows.join("")}</ul>`;
+}
+function cost(){
+  const g = $("#cGroup").value, sa = $("#cNat").value === "sa";
+  const base = CFG.tuition_2026_27.per_semester[g];
+  const sem = sa ? base : base * (1 + CFG.vat.rate);
+  $("#cOut").innerHTML = `<div>${t("perSem")} ${statusChip(REC.tuition_ug)}</div><div class="big mono">SAR ${fmt(sem)}</div><div class="muted">${t("perYear")}: <span class="mono">SAR ${fmt(sem*2)}</span></div>`;
+}
+
+function renderSim(){
+  const v = {hs: num("sHs"), gat: num("sGat"), tah: num("sTah"), interview: num("sInt")};
+  const rows = CFG.formulas.map(f => {
+    const mkey = f.routes.includes("medicine") ? "medicine" : "saudi_hs";
+    const mins = CFG.minimums[mkey];
+    let s = null, out, minTxt, fails = [];
+    if (f.rule === "legacy_p20"){
+      out = (v.gat >= 60 && v.hs >= 80) ? "ok" : (v.gat >= 60 && v.hs >= 70 ? "cond" : "no");
+      minTxt = `${t("hs")} 80 (${t("orWith")} 70 + ${t("interview")}) · ${t("gat")} 60`;
+    } else {
+      s = Object.entries(f.weights).reduce((a,[k,w]) => a + w * (v[k]||0), 0);
+      fails = Object.entries(mins).filter(([k,m]) => f.weights[k] !== undefined && v[k] < m.value).map(([k]) => t(k));
+      out = (fails.length === 0 && (!f.minimum || s >= f.minimum)) ? "ok" : "no";
+      minTxt = [f.minimum ? `${t("composite")} ${f.minimum}` : "", Object.entries(mins).filter(([k])=>f.weights[k]!==undefined).map(([k,m])=>`${t(k)} ${m.value}`).join(" · ")].filter(Boolean).join(" · ") || t("noMin");
+    }
+    const chip = out === "ok" ? `<span class="chip ok">${t("admitLike")}</span>` : out === "cond" ? `<span class="chip pend">${t("condLike")}</span>` : `<span class="chip crit">${t("notLike")}</span>`;
+    return {f, s, out, row: `<tr><td><b>${f.id}</b> · ${f.label[lang]}<br><span class="mono small muted">${f.sources.join(", ")}</span></td><td class="mono">${s === null ? "—" : s.toFixed(1)}</td><td class="small">${minTxt}</td><td>${chip}${fails.length?`<br><span class="small muted">${fails.join(lang==="ar"?"، ":", ")}</span>`:""}</td></tr>`};
+  });
+  $("#simTable").innerHTML = `<tr><th>${t("formula")}</th><th>${t("score")}</th><th>${t("mins")}</th><th>${t("result")}</th></tr>` + rows.map(r=>r.row).join("");
+  const general = rows.filter(r => r.f.routes.includes("saudi_hs"));
+  const outs = new Set(general.map(r => r.out));
+  const scores = general.filter(r => r.s !== null).map(r => r.s);
+  const spread = t("spread").replace("{a}", `<bdi dir="ltr">${Math.min(...scores).toFixed(1)}</bdi>`).replace("{b}", `<bdi dir="ltr">${Math.max(...scores).toFixed(1)}</bdi>`);
+  $("#simVerdict").innerHTML = `<p>${statusChip(REC.composite_formula)} <b>${outs.size > 1 ? t("simDiff") : t("simSame")}</b></p><p>${spread}</p>${gov(REC.composite_formula)}`;
+}
+["sHs","sGat","sTah","sInt"].forEach(id => document.getElementById(id).oninput = renderSim);
+
+function renderArch(){
+  const L = t("arch");
+  const C = {line:"currentColor", acc:"#c2551a"};
+  const W = 1000, bw = 620, bh = 64, x = (W-bw)/2;
+  const box = (x,y,w,h,title,sub,col) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="${col}" fill-opacity=".13" stroke="${col}"/><text x="${x+w/2}" y="${y+27}" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor">${esc(title)}</text><text x="${x+w/2}" y="${y+49}" text-anchor="middle" font-size="12.5" fill="currentColor" fill-opacity=".8">${esc(sub)}</text>`;
+  const arrow = (x1,y1,x2,y2) => `<path d="M${x1} ${y1} L${x2} ${y2}" stroke="currentColor" stroke-width="2" marker-end="url(#ah)"/>`;
+  let y = 10, svg = "";
+  svg += box(x,y,bw,bh,L[0][0],L[0][2],"#1f3a5a"); svg += arrow(W/2,y+bh,W/2,y+bh+26); y += bh+30;
+  svg += box(x,y,bw,bh,L[1][0],L[1][2],"#1f7a4d"); svg += arrow(W/2,y+bh,W/2,y+bh+26); y += bh+30;
+  svg += box(x,y,bw,bh,L[2][0],L[2][2],"#3f4e63"); const yApi = y+bh; y += bh+44;
+  const sw = 300, sg = 20, sx = (W - (3*sw + 2*sg))/2;
+  [[3,"#c2551a"],[4,"#6b4fa0"],[5,"#1f3a5a"]].forEach(([k,col],i) => { const bx = sx + i*(sw+sg); svg += arrow(W/2, yApi, bx+sw/2, y-4); svg += box(bx,y,sw,bh+10,L[k][0],L[k][2],col); });
+  const ySurf = y+bh+10; y += bh+50;
+  [0,1,2].forEach(i => { const bx = sx + i*(sw+sg); svg += arrow(bx+sw/2, ySurf, W/2, y-4); });
+  svg += box(x,y,bw,bh,L[6][0],L[6][2],"#8a5a00");
+  const yTop = 10+bh/2, yMon = y+bh/2;
+  svg += `<path d="M${x+bw} ${yMon} H${W-20} V${yTop} H${x+bw+6}" fill="none" stroke="${C.acc}" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ah2)"/>`;
+  const H = y+bh+14;
+  $("#diagram").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t("archTitle"))}"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="currentColor"/></marker><marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="${C.acc}"/></marker></defs>${svg}</svg>`;
+  $("#archTable").innerHTML = `<tr>${t("archCols").map(c=>`<th>${c}</th>`).join("")}</tr>` + L.map(r=>`<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join("");
+}
+function renderStd(){
+  $("#stdTable").innerHTML = `<tr>${t("stdCols").map(c=>`<th>${c}</th>`).join("")}</tr>` + STD.map(s =>
+    `<tr><td><a href="${s.url}" rel="noopener" target="_blank">${esc(s.ref[lang])}</a></td><td>${esc(s.req[lang])}</td><td>${esc(s.how[lang])}</td><td class="small">${esc(s.kind[lang])}</td></tr>`).join("");
+}
+
+// Arabic-aware matching: drop diacritics and tatweel, unify alef/ya/ta-marbuta forms
+function norm(x){
+  return x.toLowerCase().replace(/[\u064B-\u0652\u0670\u0640]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه").replace(/\s+/g," ").trim();
+}
+// Owner roles are stored in English in the canonical record; show them in Arabic in the Arabic UI
+const OWNER_AR = {
+  "Admissions Committee":"لجنة القبول",
+  "Admissions Committee -> Academic Council":"لجنة القبول ← المجلس الأكاديمي",
+  "English/Prep Program Director -> Admissions Committee":"مدير برنامج اللغة الإنجليزية / السنة التحضيرية ← لجنة القبول",
+  "Graduate Studies -> Admissions Committee":"الدراسات العليا ← لجنة القبول",
+  "English/Prep Program Director":"مدير برنامج اللغة الإنجليزية / السنة التحضيرية",
+  "Finance":"المالية",
+  "Finance + Legal":"المالية + الشؤون القانونية",
+  "Dean, College of Medicine + Finance":"عميد كلية الطب + المالية",
+  "Executive Sponsor + Admissions Director":"الراعي التنفيذي + مدير القبول",
+  "Admissions Director":"مدير القبول",
+  "Admissions Director + IT (portal)":"مدير القبول + تقنية المعلومات (البوابة)",
+  "Vice President for Academic Affairs":"وكيل الجامعة للشؤون الأكاديمية"
+};
+const ownerTxt = r => (lang === "ar" && OWNER_AR[r.owner_role]) ? OWNER_AR[r.owner_role] : r.owner_role;
+
+function answer(){
+  const q = norm($("#ask").value || "");
+  const out = $("#answer");
+  if (!q){ out.innerHTML = `<p class="small muted">${t("assistNote")}</p>`; return; }
+  let best = null, bestScore = 0;
+  for (const [id, kws] of Object.entries(CFG.faq_keywords)){
+    const r = REC[id]; if (!r) continue;
+    let s = kws.reduce((a,k) => a + (q.includes(norm(k)) ? norm(k).length : 0), 0);
+    if (q.includes(norm(r.label.ar)) || q.includes(norm(r.label.en))) s += 20;
+    if (s > bestScore){ bestScore = s; best = r; }
+  }
+  if (!best){ out.innerHTML = `<p>${t("askNone")}</p>`; return; }
+  const body = best.approved_value
+    ? `<p><b>${t("askApproved")}:</b> <span dir="ltr" lang="en">${esc(best.published_values[0].value)}</span> <span class="mono muted">(${esc(best.published_values[0].sources.join(", "))})</span></p><p class="small muted" dir="ltr" lang="en">${esc(best.approved_value)}</p>`
+    : `<p>${t("askPending")}</p>${valuesList(best)}`;
+  out.innerHTML = `<div class="card"><b>${esc(best.label[lang])}</b> ${statusChip(best)}${body}<p class="small muted">${t("askOwner")}: ${esc(ownerTxt(best))} · ${t("askDecision")}: ${esc(best.decision_ref)} · ${t("askVerified")}: <span class="mono">${esc(best.last_verified)}</span></p><p class="small muted">${t("assistNote")}</p></div>`;
+}
+$("#ask").oninput = answer;
+
+function openTab(id){
+  document.querySelectorAll('[role="tab"]').forEach(b => b.setAttribute("aria-selected", b.id === "t-"+id));
+  document.querySelectorAll('[role="tabpanel"]').forEach(p => p.hidden = p.id !== "p-"+id);
+  const panel = document.getElementById("p-"+id); if (panel) panel.querySelector("h2").focus?.();
+}
+document.querySelectorAll('[role="tab"]').forEach(b => {
+  b.onclick = () => openTab(b.id.slice(2));
+  b.onkeydown = e => {
+    const tabs = [...document.querySelectorAll('[role="tab"]')]; const i = tabs.indexOf(b);
+    const fwd = (lang === "ar") ? "ArrowLeft" : "ArrowRight", back = (lang === "ar") ? "ArrowRight" : "ArrowLeft";
+    if (e.key === fwd) { tabs[(i+1)%tabs.length].focus(); tabs[(i+1)%tabs.length].click(); }
+    if (e.key === back) { tabs[(i-1+tabs.length)%tabs.length].focus(); tabs[(i-1+tabs.length)%tabs.length].click(); }
+  };
+});
+document.querySelectorAll("section.panel h2").forEach(h => h.tabIndex = -1);
+$("#langBtn").onclick = () => { lang = lang === "ar" ? "en" : "ar"; applyLang(); };
+$("#govBtn").onclick = () => { const on = document.body.classList.toggle("govon"); $("#govBtn").setAttribute("aria-pressed", on); };
+applyLang();
+</script>
+</html>

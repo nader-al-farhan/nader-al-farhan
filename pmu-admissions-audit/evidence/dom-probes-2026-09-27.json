@@ -1,0 +1,2318 @@
+{
+  "run_utc": "2026-09-27T19:12:19.445Z",
+  "tool": "Playwright 1.56.1 / Chromium headless",
+  "method": "read-only: page.goto + DOM reads; no clicks, no form input",
+  "pages": {
+    "hub": {
+      "url": "https://pmu.edu.sa/admission/admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS OFFICE"
+          ],
+          "heading_outline": "h1 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 132,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://www.pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply",
+              "href": "https://www.pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS OFFICE"
+          ],
+          "heading_outline": "h1 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 132,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://www.pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply",
+              "href": "https://www.pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "ug_home": {
+      "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "UNDERGRADUATE ADMISSIONS"
+          ],
+          "heading_outline": "h1 h3 h4 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"New Applicant:\")"
+          ],
+          "images_total": 7,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../Attachments/Admission/Images/admission-banner.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 107,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "UNDERGRADUATE ADMISSIONS"
+          ],
+          "heading_outline": "h1 h3 h4 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"New Applicant:\")"
+          ],
+          "images_total": 7,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../Attachments/Admission/Images/admission-banner.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 107,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "freshman": {
+      "url": "https://www.pmu.edu.sa/admission/freshman_admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/admission/freshman_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Freshman Admission:: Undergraduate Programs Admission :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "FRESHMAN ADMISSION"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Freshman Admission Requirements\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 109,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ],
+          "screenshot": "evidence/screenshots/S35-freshman-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/admission/freshman_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Freshman Admission:: Undergraduate Programs Admission :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "FRESHMAN ADMISSION"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Freshman Admission Requirements\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 109,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "direct": {
+      "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "DIRECT ADMISSIONS FROM SECONDARY SCHOOL"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Freshman Admissions\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 148,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "DIRECT ADMISSIONS FROM SECONDARY SCHOOL"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Freshman Admissions\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 148,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "ielts": {
+      "url": "https://pmu.edu.sa/admission/ielts-admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"(IELTS)\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 143,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Apply for IELTS",
+              "href": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply for IELTS",
+              "href": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/ielts-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"(IELTS)\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 143,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Apply for IELTS",
+              "href": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply for IELTS",
+              "href": "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "toefl": {
+      "url": "https://pmu.edu.sa/admission/toefl-admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "TEST OF ENGLISH AS A FOREIGN LANGUAGE"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"TOEFL iBT\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 142,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/toefl-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "TEST OF ENGLISH AS A FOREIGN LANGUAGE"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"TOEFL iBT\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 142,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "sat": {
+      "url": "https://pmu.edu.sa/admission/sat-admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/sat-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "SCHOLASTIC APTITUDE TEST"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Scholastic Aptitude Test (SAT)\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 144,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/sat-admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "SCHOLASTIC APTITUDE TEST"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Scholastic Aptitude Test (SAT)\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 144,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "medicine": {
+      "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS TO THE COLLEGE OF MEDICINE"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Curriculum Structure\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 144,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ],
+          "screenshot": "evidence/screenshots/S33-medicine-admission-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS TO THE COLLEGE OF MEDICINE"
+          ],
+          "heading_outline": "h2 h1 h3 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Curriculum Structure\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 144,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "medicine_academic": {
+      "url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "College of Medicine :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h3 h3 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 8,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 107,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../admission/college_of_medicine_admission.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "College of Medicine :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h3 h3 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 8,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 107,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../admission/college_of_medicine_admission.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "medical_fees": {
+      "url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Medical Program Studies :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "MEDICAL PROGRAM STUDIES"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Undergraduate Fees\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 115,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [],
+          "screenshot": "evidence/screenshots/S30-medical-fees-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Medical Program Studies :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "MEDICAL PROGRAM STUDIES"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Undergraduate Fees\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 115,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "other_fees": {
+      "url": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Student Fees :: Tuition & Fees :: Registration Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "OTHER FEES"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Admission Application Fees- Undergraduate Programs\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 114,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/student_fees_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Student Fees :: Tuition & Fees :: Registration Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "OTHER FEES"
+          ],
+          "heading_outline": "h2 h1 h4 h4 h4 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h4 (\"Admission Application Fees- Undergraduate Programs\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 114,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "payment_policy": {
+      "url": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Tuition Fee Payment :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 2,
+          "h1_count_visible": 2,
+          "h1_texts": [
+            "TUITION FEE PAYMENT",
+            "Tuition and Fee Payment Policy"
+          ],
+          "heading_outline": "h2 h1 h1 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 115,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [],
+          "screenshot": "evidence/screenshots/S31-payment-policy-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/payment_method_tf_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Tuition Fee Payment :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 2,
+          "h1_count_visible": 2,
+          "h1_texts": [
+            "TUITION FEE PAYMENT",
+            "Tuition and Fee Payment Policy"
+          ],
+          "heading_outline": "h2 h1 h1 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 115,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "calendar": {
+      "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS CALENDARS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"STAY CONNECTED\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 146,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/Apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/Apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl03\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl09\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+              "onclick": null,
+              "visible": false
+            }
+          ],
+          "screenshot": "evidence/screenshots/S34-admissions-calendar-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS CALENDARS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"STAY CONNECTED\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 146,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/Apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "https://pmu.edu.sa/Apply",
+              "onclick": null,
+              "visible": true
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl03\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentPlaceHolder_ContentArea$ctl09\", \"\", false, \"\", \"https://pmu.edu.sa/admission/Apply_Now_ADS\", false, true))",
+              "onclick": null,
+              "visible": false
+            }
+          ]
+        }
+      }
+    },
+    "international": {
+      "url": "https://pmu.edu.sa/admission/international_students",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/international_students",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 0,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 124,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply",
+              "href": "https://pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": false
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/international_students",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 0,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 124,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply",
+              "href": "https://pmu.edu.sa/apply",
+              "onclick": null,
+              "visible": false
+            }
+          ]
+        }
+      }
+    },
+    "cs_eng": {
+      "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "COMPUTER SCIENCE AND ENGINEERING MAJORS ADMISSION REQUIREMENTS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"General Requirements:\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 147,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Complete online application",
+              "href": "http://admissions.pmu.edu.sa/"
+            },
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            },
+            {
+              "text": "if available",
+              "href": "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+            },
+            {
+              "text": "read more...",
+              "href": "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "COMPUTER SCIENCE AND ENGINEERING MAJORS ADMISSION REQUIREMENTS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"General Requirements:\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 147,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Complete online application",
+              "href": "http://admissions.pmu.edu.sa/"
+            },
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            },
+            {
+              "text": "if available",
+              "href": "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+            },
+            {
+              "text": "read more...",
+              "href": "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "transfer": {
+      "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS FROM OTHER UNIVERSITIES"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Transfer Admissions\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 148,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Complete online application",
+              "href": "http://admissions.pmu.edu.sa/"
+            },
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSIONS FROM OTHER UNIVERSITIES"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h4 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Transfer Admissions\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 148,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [
+            {
+              "text": "Complete online application",
+              "href": "http://admissions.pmu.edu.sa/"
+            },
+            {
+              "text": "Submit documents before due date",
+              "href": "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+            }
+          ],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Applying for Aid",
+              "href": "#menu11",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply Now",
+              "href": "../Admission/Apply_Now_ADS.aspx",
+              "onclick": null,
+              "visible": true
+            }
+          ]
+        }
+      }
+    },
+    "emgms": {
+      "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "EMGMS ADMISSIONS REQUIREMENTS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Master of Science in Engineering Management Application(EMGMS) Checklist\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 110,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply for EMBA",
+              "href": "../Admission/Application_Form_EMBA_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MBA",
+              "href": "../Admission/Application_Form_MBA_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MSHD",
+              "href": "../Admission/Application_Form_MSEHD_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MSME",
+              "href": "../Admission/Application_Form_MSME_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            }
+          ],
+          "screenshot": "evidence/screenshots/S32-emgms-mobile.png"
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "EMGMS ADMISSIONS REQUIREMENTS"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Master of Science in Engineering Management Application(EMGMS) Checklist\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 110,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": [
+            {
+              "tag": "a",
+              "text": "Apply for EMBA",
+              "href": "../Admission/Application_Form_EMBA_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MBA",
+              "href": "../Admission/Application_Form_MBA_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MSHD",
+              "href": "../Admission/Application_Form_MSEHD_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            },
+            {
+              "tag": "a",
+              "text": "Apply for MSME",
+              "href": "../Admission/Application_Form_MSME_GDP.aspx",
+              "onclick": null,
+              "visible": false
+            }
+          ]
+        }
+      }
+    },
+    "legacy_criteria": {
+      "url": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admission Procedures & Criteria :: Future Students :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSION PROCEDURES & CRITERIA"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Student Categories\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 103,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Admission Procedures & Criteria :: Future Students :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "ADMISSION PROCEDURES & CRITERIA"
+          ],
+          "heading_outline": "h2 h1 h3 h3 h3 h3 h3 h3 h3",
+          "heading_skips": [
+            "h1→h3 (\"Student Categories\")"
+          ],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 103,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "apply": {
+      "url": "https://pmu.edu.sa/apply",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://admissions.pmu.edu.sa/welcome",
+          "redirected_to_login": false,
+          "lang": "en",
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "PMU Student Application",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "Creative minds …\nTransform the world"
+          ],
+          "heading_outline": "h1 h5",
+          "heading_skips": [
+            "h1→h5 (\"Admission Calendar\")"
+          ],
+          "images_total": 1,
+          "images_missing_alt_attr": [
+            "https://pmu.edu.sa/banner/admissions-banner.jpg"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 4,
+          "links_hash_only": 0,
+          "links_hash_texts": [],
+          "links_http": [],
+          "apply_controls": []
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://admissions.pmu.edu.sa/welcome",
+          "redirected_to_login": false,
+          "lang": "en",
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "PMU Student Application",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "Creative minds …\nTransform the world"
+          ],
+          "heading_outline": "h1 h5",
+          "heading_skips": [
+            "h1→h5 (\"Admission Calendar\")"
+          ],
+          "images_total": 1,
+          "images_missing_alt_attr": [
+            "https://pmu.edu.sa/banner/admissions-banner.jpg"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 4,
+          "links_hash_only": 0,
+          "links_hash_texts": [],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "portal": {
+      "url": "https://admissions.pmu.edu.sa/welcome",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://admissions.pmu.edu.sa/welcome",
+          "redirected_to_login": false,
+          "lang": "en",
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "PMU Student Application",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "Creative minds …\nTransform the world"
+          ],
+          "heading_outline": "h1 h5",
+          "heading_skips": [
+            "h1→h5 (\"Admission Calendar\")"
+          ],
+          "images_total": 1,
+          "images_missing_alt_attr": [
+            "https://pmu.edu.sa/banner/admissions-banner.jpg"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 4,
+          "links_hash_only": 0,
+          "links_hash_texts": [],
+          "links_http": [],
+          "apply_controls": []
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://admissions.pmu.edu.sa/welcome",
+          "redirected_to_login": false,
+          "lang": "en",
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "PMU Student Application",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 1,
+          "h1_count_visible": 1,
+          "h1_texts": [
+            "Creative minds …\nTransform the world"
+          ],
+          "heading_outline": "h1 h5",
+          "heading_skips": [
+            "h1→h5 (\"Admission Calendar\")"
+          ],
+          "images_total": 1,
+          "images_missing_alt_attr": [
+            "https://pmu.edu.sa/banner/admissions-banner.jpg"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 4,
+          "links_hash_only": 0,
+          "links_hash_texts": [],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    },
+    "guide_viewer": {
+      "url": "https://pmu.edu.sa/pdf/viewer?ID=203",
+      "viewports": {
+        "390x844": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/pdf/viewer?ID=203",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Web Admission Guide :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 390,
+          "scroll_width": 390,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 0,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 97,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        },
+        "1366x768": {
+          "status": 200,
+          "final_url": "https://pmu.edu.sa/pdf/viewer?ID=203",
+          "redirected_to_login": false,
+          "lang": null,
+          "dir": null,
+          "body_dir": null,
+          "computed_direction": "ltr",
+          "title": "Web Admission Guide :: PMU, Prince Mohammad Bin Fahd University",
+          "viewport_width": 1366,
+          "scroll_width": 1366,
+          "horizontal_overflow": false,
+          "overflowing_elements_sample": [],
+          "tables_wider_than_viewport": [],
+          "h1_count_dom": 0,
+          "h1_count_visible": 0,
+          "h1_texts": [],
+          "heading_outline": "h3 h3 h3 h3 h3",
+          "heading_skips": [],
+          "images_total": 6,
+          "images_missing_alt_attr": [
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo-PMU-1.png",
+            "../web-resources/home/images/logo-name.png",
+            "../web-resources/home/images/logo_new_r.png"
+          ],
+          "images_empty_alt": 0,
+          "links_total": 97,
+          "links_hash_only": 6,
+          "links_hash_texts": [
+            "",
+            "Directory",
+            "SiteMap"
+          ],
+          "links_http": [],
+          "apply_controls": []
+        }
+      }
+    }
+  }
+}

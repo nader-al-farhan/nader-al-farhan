@@ -1,0 +1,1098 @@
+{
+ "B1": {
+  "final": "https://pmu.edu.sa/default",
+  "title": "PMU, Prince Mohammad Bin Fahd University.",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 5,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/pmufaculties/"
+  ],
+  "hash_links": 11,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/B1.jpg"
+ },
+ "B2": {
+  "final": "https://pmu.edu.sa/admission/admission-registration",
+  "title": "Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "STUDY AT PMU"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Financial Aid",
+   "Registration Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/B2.jpg"
+ },
+ "C01": {
+  "final": "https://pmu.edu.sa/admission/future_students_ro",
+  "title": "Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "OVERVIEW"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C01.jpg"
+ },
+ "C02": {
+  "final": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "title": "Degrees & Programs :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "DEGREES & PROGRAMS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Undergraduate Programs",
+   "Graduate Programs"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C02.jpg"
+ },
+ "C03": {
+  "final": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS CALENDARS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C03.jpg"
+ },
+ "C04": {
+  "skipped": "staff list shows personal names; not captured"
+ },
+ "C05": {
+  "final": "https://pmu.edu.sa/admission/admissions_queries",
+  "title": "Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSION QUERY"
+  ],
+  "h2": [],
+  "imgs_no_alt": 5,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C05.jpg"
+ },
+ "C06": {
+  "final": "https://admissions.pmu.edu.sa/welcome",
+  "title": "PMU Student Application",
+  "lang": "en",
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 0,
+  "http_links": [],
+  "hash_links": 0,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C06.jpg"
+ },
+ "C07": {
+  "final": "https://pmu.edu.sa/admission/international_students",
+  "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "International Admissions Office",
+   "Transfer Students",
+   "Visitor Students"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C07.jpg"
+ },
+ "C08": {
+  "final": "https://admissions.pmu.edu.sa/welcome",
+  "title": "PMU Student Application",
+  "lang": "en",
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 0,
+  "http_links": [],
+  "hash_links": 0,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C08.jpg"
+ },
+ "C09": {
+  "final": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "title": "Graduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "GRADUATE ADMISSIONS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Admissions to the PhD in Business Administration",
+   "Admission to the Executive MBA Program"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C09.jpg"
+ },
+ "C10": {
+  "final": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "title": "Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "PHD IN MECHANICAL ENGINEERING ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Admission Criteria"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C10.jpg"
+ },
+ "C11": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "title": "Admissions Requirements , Admissions to the PhD in Business Administration :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "PHD-BA ADMISSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C11.jpg"
+ },
+ "C12": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "title": "Admissions Requirements , Executive MBA Program (EMBA) :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "EMBA ADMISSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C12.jpg"
+ },
+ "C13": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+  "title": "Admissions Requirements, MBA Program (MBA) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MBA ADMISSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C13.jpg"
+ },
+ "C14": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "title": "Admissions Requirements for MSHD :: Graduate Degree Programs :: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C14.jpg"
+ },
+ "C15": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+  "title": "Admissions to the Master of Science in Mechanical Engineering (MSME) Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MSME ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C15.jpg"
+ },
+ "C16": {
+  "final": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+  "title": "MSEE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MSEE ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Admissions to the Master of Science in Electrical Engineering (MSEE) Program",
+   "Admission Criteria"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C16.jpg"
+ },
+ "C17": {
+  "final": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+  "title": "MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MSCE ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Admissions to the Master of Science in Civil Engineering (MSCE) Program",
+   "Admission Criteria"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C17.jpg"
+ },
+ "C18": {
+  "final": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+  "title": "MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MSID ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office",
+   "Admissions to the Master of Science in Interior Design (MSID) Program",
+   "Admission Criteria"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C18.jpg"
+ },
+ "C19": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "EMGMS ADMISSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [
+   "CESL"
+  ],
+  "shot": "shots/C19.jpg"
+ },
+ "C20": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "title": "Admissions to the Master of Arts (MA) in International Business Law Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MIBL ADMISSSIONS REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C20.jpg"
+ },
+ "C21": {
+  "final": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "title": "Post Graduate Fees :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "POST GRADUATE FEES"
+  ],
+  "h2": [
+   "Study @ PMU"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C21.jpg"
+ },
+ "C22": {
+  "final": "https://pmu.edu.sa/admission/admission_contact_gdp",
+  "title": "Contact Info :: Graduate Degree Programs :: Admissions Office ::Study @ PMU:: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "CONTACT INFO"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C22.jpg"
+ },
+ "C23": {
+  "final": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "UNDERGRADUATE ADMISSIONS"
+  ],
+  "h2": [],
+  "imgs_no_alt": 5,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [
+   "College of Medical"
+  ],
+  "shot": "shots/C23.jpg"
+ },
+ "C24": {
+  "final": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS TO THE COLLEGE OF MEDICINE"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [
+   "the process typically involves",
+   "to be developed in launch phase",
+   "College of Medical"
+  ],
+  "shot": "shots/C24.jpg"
+ },
+ "C25": {
+  "final": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+  "title": "Admission to the Preparatory Program :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS TO THE PREPARATORY PROGRAM"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C25.jpg"
+ },
+ "C26": {
+  "final": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "DIRECT ADMISSIONS FROM SECONDARY SCHOOL"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C26.jpg"
+ },
+ "C27": {
+  "final": "https://pmu.edu.sa/admission/admission-from-other-universities",
+  "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS FROM OTHER UNIVERSITIES"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://admissions.pmu.edu.sa/",
+   "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C27.jpg"
+ },
+ "C28": {
+  "final": "https://pmu.edu.sa/admission/visiting-student-admission",
+  "title": "Visiting Student Admission :: Undergraduate :: Admission Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "VISITING STUDENT ADMISSIONS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://admissions.pmu.edu.sa/"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C28.jpg"
+ },
+ "C29": {
+  "final": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "title": "Admission from the Preparatory Program to Undergraduate Programs :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS FROM THE PREPARATORY PROGRAM TO UNDERGRADUATE PROGRAMS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C29.jpg"
+ },
+ "C30": {
+  "final": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "COMPUTER SCIENCE AND ENGINEERING MAJORS ADMISSION REQUIREMENTS"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://admissions.pmu.edu.sa/",
+   "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C30.jpg"
+ },
+ "C31": {
+  "final": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "title": "Undergraduate Fees :: Tuition & Fees ::Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "UNDERGRADUATE FEES"
+  ],
+  "h2": [
+   "Study @ PMU"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C31.jpg"
+ },
+ "C32": {
+  "final": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+  "title": "Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "OVERVIEW"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C32.jpg"
+ },
+ "C33": {
+  "final": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "title": "Aptis Placement Test :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "APTIS PLACEMENT TEST"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 1,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C33.jpg"
+ },
+ "C34": {
+  "final": "https://pmu.edu.sa/admission/ielts-admission",
+  "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C34.jpg"
+ },
+ "C35": {
+  "final": "https://pmu.edu.sa/admission/toefl-admission",
+  "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "TEST OF ENGLISH AS A FOREIGN LANGUAGE"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C35.jpg"
+ },
+ "C36": {
+  "final": "https://pmu.edu.sa/admission/sat-admission",
+  "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "SCHOLASTIC APTITUDE TEST"
+  ],
+  "h2": [
+   "Admissions Office"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/C36.jpg"
+ },
+ "F07": {
+  "final": "https://pmu.edu.sa/admission/admission#",
+  "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ADMISSIONS OFFICE"
+  ],
+  "h2": [
+   "Future Students",
+   "International Students’ Office",
+   "Graduate Admissions"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [
+   "Visting"
+  ],
+  "shot": "shots/F07.jpg"
+ },
+ "F08": {
+  "final": "https://pmu.edu.sa/admission/academic_calendar_2021_2022_ro",
+  "title": "Academic Year 2021/2022 :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "ACADEMIC CALENDAR 2021 / 2022"
+  ],
+  "h2": [
+   "Study @ PMU",
+   "FALL SEMESTER 2021-2022",
+   "SPRING SEMESTER 2021-2022"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://web1:8066/Online_Room_Reservation_Form.aspx"
+  ],
+  "hash_links": 7,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F08.jpg"
+ },
+ "F10": {
+  "final": "https://pmu.edu.sa/global-engagement/",
+  "title": "",
+  "lang": null,
+  "h1": [
+   "GLOBAL ENGAGEMENT"
+  ],
+  "h2": [
+   "Global Engagement"
+  ],
+  "imgs_no_alt": 1,
+  "http_links": [],
+  "hash_links": 26,
+  "pdf_links": 1,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F10.jpg"
+ },
+ "F11": {
+  "final": "https://pmu.edu.sa/life_pmu/sportscenterschedule",
+  "title": "SportsSports Center Schedule For 2024, Life @ PMU",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "Student Affairs DivisionJanuary 2026",
+   "Sports Center Schedules",
+   "Student Affairs DivisionFebruary 2026"
+  ],
+  "imgs_no_alt": 38,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F11.jpg"
+ },
+ "F12": {
+  "final": "https://pmu.edu.sa/about/welcome_president",
+  "title": "",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 0,
+  "http_links": [],
+  "hash_links": 0,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F12.jpg"
+ },
+ "F13": {
+  "final": "https://pmu.edu.sa/life_pmu/dining_cl",
+  "title": "Dining :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "DINING"
+  ],
+  "h2": [
+   "Campus Life"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 7,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F13.jpg"
+ },
+ "F14": {
+  "final": "https://pmu.edu.sa/news/more_news",
+  "title": "More News, PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F14.jpg"
+ },
+ "F15": {
+  "final": "https://pmu.edu.sa/news/more_events",
+  "title": "More Events, PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F15.jpg"
+ },
+ "F16": {
+  "final": "https://pmu.edu.sa/gallary",
+  "title": "PMU Gallary",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F16.jpg"
+ },
+ "F17": {
+  "final": "https://pmu.edu.sa/academics/college_of_engineering_udp",
+  "title": "College of Engineering :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "College of Engineering",
+   "College of Engineering (COE)"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F17.jpg"
+ },
+ "F18": {
+  "final": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp",
+  "title": "College of Computer Engineering & Sciences :: Undergraduate Degree Programs :: Academics :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "College of Computer Engineering and Science",
+   "College of Computer Engineering and Science (CCES)"
+  ],
+  "imgs_no_alt": 5,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/3"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F18.jpg"
+ },
+ "F19": {
+  "final": "https://pmu.edu.sa/academics/college_business_administration_udp",
+  "title": "College of Business Administration :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "COBA Departments",
+   "College of Business Administration (COBA)",
+   "COBA Facts"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/1"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F19.jpg"
+ },
+ "F20": {
+  "final": "https://pmu.edu.sa/academics/law_dept_cshs_udp",
+  "title": "College of LAW :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "College of LAW",
+   "Master of Arts (MA) in International Business Law",
+   "PMU Law Blog"
+  ],
+  "h2": [],
+  "imgs_no_alt": 5,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/14"
+  ],
+  "hash_links": 8,
+  "pdf_links": 1,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F20.jpg"
+ },
+ "F21": {
+  "final": "https://pmu.edu.sa/academics/college_of_architecture_design_udp",
+  "title": "College of Architecture and Design :: Undergraduate Degree Programs :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [
+   "COAD Departments",
+   "College of Architecture and Design (COAD)"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F21.jpg"
+ },
+ "F22": {
+  "final": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp",
+  "title": "College of Sciences and Human Studies(CSHS) :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "College of Sciences and Human Studies (CSHS)"
+  ],
+  "h2": [],
+  "imgs_no_alt": 5,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/4"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F22.jpg"
+ },
+ "F23": {
+  "final": "https://pmu.edu.sa/academics/overview_pp",
+  "title": "Overview, The Preparatory Program :: Academics :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "OVERVIEW"
+  ],
+  "h2": [
+   "Academics",
+   "Gateway to College"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [
+   "http://faculty.pmu.edu.sa/PMUFaculties/CollegeFacultyList/5"
+  ],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F23.jpg"
+ },
+ "F24": {
+  "final": "https://pmu.edu.sa/life_pmu/campus_life",
+  "title": "Overview :: Campus Life :: Life @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "OVERVIEW – WHERE GROWTH MEETS PURPOSE"
+  ],
+  "h2": [
+   "Campus Life"
+  ],
+  "imgs_no_alt": 5,
+  "http_links": [],
+  "hash_links": 7,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F24.jpg"
+ },
+ "F26": {
+  "final": "https://pmu.edu.sa/resources_services/engineering_technical_affairs",
+  "title": "Engineering and Infrastructure Projects (EAIP) and Operation & Maintenance :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "Engineering and Infrastructure Projects (EAIP) and Operation & Maintenance"
+  ],
+  "h2": [],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F26.jpg"
+ },
+ "F27": {
+  "final": "https://pmu.edu.sa/resources_services/sections_it_dept",
+  "title": "IT Services :: Resources",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F27.jpg"
+ },
+ "F28": {
+  "final": "https://pmu.edu.sa/resources_services/library_services_lrc",
+  "title": "Library Services :: Learning Resource Center :: Resources :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "Research Consultation",
+   "Interlibrary loan (ILL)",
+   "Citing Sources",
+   "Professional Associations",
+   "Writing and Research Center (WRC)"
+  ],
+  "h2": [],
+  "imgs_no_alt": 16,
+  "http_links": [],
+  "hash_links": 8,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F28.jpg"
+ },
+ "F30": {
+  "final": "https://pmu.edu.sa/hr/hr",
+  "title": "Human Resources (HR) :: PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "HUMAN RESOURCES"
+  ],
+  "h2": [
+   "HR",
+   "Legal Procedures"
+  ],
+  "imgs_no_alt": 5,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F30.jpg"
+ },
+ "F31": {
+  "final": "https://pmu.edu.sa/about/maps",
+  "title": "Map :: PMU :: Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [
+   "MAP"
+  ],
+  "h2": [
+   "Location & Facilities"
+  ],
+  "imgs_no_alt": 4,
+  "http_links": [],
+  "hash_links": 6,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F31.jpg"
+ },
+ "F32": {
+  "final": "https://pmu.edu.sa/about/contact_us#",
+  "title": "Contact us : PMU, Prince Mohammad Bin Fahd University",
+  "lang": null,
+  "h1": [],
+  "h2": [],
+  "imgs_no_alt": 9,
+  "http_links": [],
+  "hash_links": 25,
+  "pdf_links": 0,
+  "overflow": false,
+  "marked": [],
+  "shot": "shots/F32.jpg"
+ }
+}

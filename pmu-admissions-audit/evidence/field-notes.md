@@ -1,0 +1,229 @@
+# Field notes (raw) — captured via user's Opera browser (Browser Connector), 2026-09-27
+Method: accessibility-tree text extraction (tab-content) + viewport screenshots. Container egress to pmu.edu.sa blocked; all live reads via Opera.
+
+## P01 https://pmu.edu.sa/admission/admission — Admissions Office hub
+- Link-list hub only (6 groups: Future Students, International, Graduate, Undergraduate, Placement Tests). No intro text, no deadline/status, no Arabic toggle visible.
+- "Contact Us" -> Staff_Profile/Staff_List.aspx?&DEpt=4 (staff directory, not admissions contact page)
+- "Apply Now" and International "Apply" -> https://www.pmu.edu.sa/apply
+- Typo: "Visting Students"
+- Graduate: 11 program links, mixed URL patterns (application_form_*_gdp vs Admissions_Requirements_*_GDP); "MIlBL" typo in URL.
+- Footer: "Academic Calendar" -> academic_calendar_2021_2022_ro.aspx ; "2021 © PMU" ; Directory/SiteMap -> "#" (dead); social icon "#" ; two Twitter accounts (PMU_KSA, pmuofficial)
+- Footer colleges list: Engineering, CCES, Business, Law (URL law_dept_cshs_udp), Architecture & Design, Sciences & Human Studies, Prep. **No College of Medicine** in footer.
+- Screenshot S01.
+
+## P02 https://pmu.edu.sa/admission/undergraduate_programs_admission — UG Admissions home
+- GPA *80% or equivalent; Qudrat *60% or equivalent (SAT 1); fee "non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents"
+- Lower %: composite "Secondary School 60% / General Aptitude Test 40%" (no Tahseely)
+- Day up to 20 credits; Evening 12 max
+- "College of Medical Admissions" / "PMU College of Medical curriculum ... 7-year hybrid"
+- "Undergraduate Program" para lists colleges: Arch & Design, CCES, Business Admin, Law, Engineering — omits Medicine and Sciences & Human Studies
+- Links go to .aspx legacy URLs (Direct-Admissions-from-Secondary-School.aspx etc.)
+
+## P03 https://www.pmu.edu.sa/admission/freshman_admission — Freshman Admission (newer template, left side-menu)
+- Side menu: Freshman / Transfer (#anchors), Apply Now -> Apply_Now_ADS.aspx, Tuition & Fees -> Tuition_Fees_RO.aspx (DIFFERENT fees URL than hub's Fees_TF_RO.aspx), "Web Admission Guide" -> PDF/Viewer.aspx?ID=203
+- Req: "completed high school within the last 5 years"; placement test + interview on stated date
+- Submit: e-form, original sec. certificate, "Recent Score of the Aptitude Test" (NCTE), ID/Iqama, passport, 2 photos, employer NOC, "A S.R.950 Admission and English Placement Test Fee (Non-refundable)" (no VAT mention; described as admission+placement fee vs P02 "application fee incl. VAT")
+- Exemption: "TOEFL score of 513 (CBT 183, iBT 65) or more, or IELTS Band 5.5 (min 5.5 writing)", scores < 2 years old. (CBT retired by ETS ~2006.)
+- **Weighted criteria: High school 30% / Aptitude Test 50% / Personal Interview 20%** — CONFLICTS with P02 (Secondary 60% / GAT 40%). No Tahseely in either.
+- No minimum GPA/Qudrat thresholds stated here (P02: 80% / 60%).
+- Breadcrumb lacks Home.
+
+## P04 https://pmu.edu.sa/admission/direct-admissions-from-secondary-school — Direct Admissions (legacy .aspx redirects to extensionless)
+- Breadcrumb ends "> Freshman" though page is "Direct Admissions" (label drift). Side menu "Contact Info" -> Admission_Contact_GDP.aspx (GRADUATE contact page) from an UNDERGRADUATE page.
+- Criteria: GPA *80%, Qudrat *60% (SAT 1), **IELTS Academic 6.0 overall / 5.5 writing** ("or equivalent TOEFL iBT" — no number given here)
+- Lower %: Secondary 60% / GAT 40% (same as P02, conflicts with P03 30/50/20)
+- Docs: photos, sec cert copy, Qudrat copy, Saudi ID, Family ID card (female, if available), passport, employer NOC. (P03 asks ORIGINAL certificate + Iqama for non-Saudis; P04 asks COPY and Saudi ID only → no non-Saudi path)
+- Fee "non-refundable application fee of SAR 950 (incl. VAT)"
+- Process: interview appointment; decision via Admissions Office (no timeline/SLA)
+- "Submit documents before due date" link uses http:// (non-HTTPS)
+- CONFLICT vs P03: IELTS 5.5 (P03 exemption) vs 6.0 (P04 direct entry). Both claim to be freshman/direct-entry routes.
+
+## P05 https://pmu.edu.sa/admission/overview-undergraduate-placement-tests — Placement Tests overview
+- Thin: one paragraph; "Read more about the current technology used..." — "Read more" is plain text (not a link); names Aptis, IELTS, TOEFL. No SAT/Duolingo/other tests; no fee; no dates for placement test sessions.
+
+## P06 https://pmu.edu.sa/admission/ielts-admission — IELTS
+- Table: LEVEL / Overall / Writing: Core 6.0/5.5; Advanced 5.0/4.5; Intermediate 4.5/4.0; Beginner 4.0/3.5; Pre-Beginner N/A. Validity: 2 years to commencement date of applied semester.
+- "Core" is unexplained jargon (= direct entry to degree?). Bypass/placement text.
+- "Apply for IELTS" -> http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx (http, separate subdomain)
+- CONFIRMS CONFLICT: P03 exemption at IELTS 5.5 (writing 5.5) vs P04/P06 6.0 (writing 5.5).
+- Validity rule wording differs: P03 "less than two years old" vs P06 "two years from test date to commencement of applied semester".
+
+## P07 https://pmu.edu.sa/admission/toefl-admission — TOEFL
+- Table (0–120 scale only): Core 83 / Writing 19; Advanced 63/15; Intermediate 54/13; Beginner 42/11; Pre-Beginner N/A. Validity 2 yrs to semester start.
+- "(online or home edition is not accepted)"; score sent from ETS; "PMU DI code: 6993"
+- No 1–6 band equivalents (ETS scale changed 21 Jan 2026 — see X01).
+- CONFLICT: P03 exemption TOEFL iBT 65 (and PBT 513, CBT 183) vs P07 Core iBT 83 / W19. ~18-point gap on the same "bypass Prep" decision.
+
+## P08 https://pmu.edu.sa/admission/aptis-placement-test — Aptis
+- Levels listed (Pre Beginner, Beginner, Intermediate, Advanced) with NO score thresholds (IELTS/TOEFL pages give thresholds; Aptis does not) → applicant cannot self-assess.
+- Test ~4 hours. Aptis cannot place into Core: "If a candidate feels eligible for direct entry into the Core Program, he/she will be required to take the IELTS" (TOEFL not mentioned as alternative here, though TOEFL page offers Core route).
+- Candidate guide PDF: Attachments/Admission/PDF/Appendix 3.3 (Aptis Candidate Guide).pdf — "August 2017" edition (per search title).
+- Links out to britishcouncil.org Aptis pages (6 URLs printed as raw link text – poor UX/accessibility).
+
+## P09 https://pmu.edu.sa/admission/college_of_medicine_admission — College of Medicine
+- Mostly curriculum description (Years 1–6); "College of Medical" (grammar) ; "Population Health (to be developed in launch phase)" x2 — launch-phase text still live.
+- Admission Criteria paragraph contains generic explanatory/boilerplate prose: "the process typically involves understanding the weighting and criteria that the medical college uses to evaluate applicants. Here’s how each factor can contribute to the overall acceptance percentage:" — reads as unedited draft text, not policy.
+- Formula: Total weighted score 60% + Interview 40%; *"20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score" (typo "were"→"where").
+- Document list embeds thresholds: HS "(95%)"; Qudrat "(80)"; "Standard Achievement Admission Test score report (SAAT – Tahseely) (80) or equivalent (SAT 1) 1300" — Tahseely equivalence given as SAT 1 (=SAT Reasoning, i.e., Qudrat equivalent), and same "SAT 1" listed for Qudrat → internally inconsistent; search-engine snippet of same page previously read "(SAT 2)" → content has been edited without clear control.
+- "Complete online application" -> https://www.uap.sa/ (external platform; DIFFERENT channel from all other UG pages which use pmu.edu.sa/apply)
+- Fee: "non-refundable application fee of SAR 1000 (incl. VAT)" (vs SAR 950 elsewhere) — medicine-specific fee not reflected on fees pages (to verify).
+- NO English-language requirement stated for Medicine.
+- No deadlines, seats, tuition for MBBS/MD, or accreditation status stated on this page.
+- Page is 2 pages long in a11y tree (very long curriculum content before admission criteria → criteria buried at bottom).
+
+## P10 https://pmu.edu.sa/admission/fees_tf_ro — Undergraduate Fees index (Registration Office section)
+- Index of 4 generations live side-by-side: "Medical Program Fees", "Fall Semester 2026/2027", "Fall Semester 2025/2026", "Continuing Students 2024–2025". No "current" label; applicant must infer which applies.
+- Fees sit under "Registration Office" breadcrumb, while hub/sidebars link to TWO different entry URLs (Fees_TF_RO.aspx vs Tuition_Fees_RO.aspx).
+
+## P11 https://pmu.edu.sa/admission/fees_tf_ro_2026_2027 — UG Fees 2026/2027 (admitted/readmitted from Fall 2026/27)
+- Prep: SAR 30,000 / semester
+- CAD, CCES, COE: SAR 32,500 / semester flat for 12–18 credits; >18 at SAR 2,708.3 per credit hour
+- COBA, Law: SAR 30,000 / semester flat (12–18); >18 at SAR 2,500.00
+- Part-time (≤11 hrs): 2,708.3 / 2,500.00 per credit hour
+- VAT: Non-Saudi 15% on tuition and fees; Saudi 15% on fees only (no VAT on tuition)
+- No Medicine row (separate page); no College of Sciences & Human Studies row.
+- "2,708.3" = unrounded (32,500/12) — presentation issue.
+
+## P12 https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro — Medical Program Fees (Fall 2026/27)
+- **Medical Application Fee: SAR 1,150 (VAT inclusive)** — CONFLICT with P09 "SAR 1000 (incl. VAT)". Screenshot S12 shows 1,150 directly.
+- Medical Seat Reservation Fee (part of tuition): SAR 20,000, non-refundable
+- Medical Preparatory Program Tuition: SAR 75,000 / year
+- Medical Program Tuition: SAR 90,000 / year
+- VAT: non-Saudi 15% on tuition and all fees; Saudi 15% on fees only
+- Admission page (P09) mentions neither the SAR 20,000 non-refundable seat reservation nor a "Medical Preparatory Program" year — applicant making a SAR 20k commitment cannot see it on the admission page.
+
+## P13 https://pmu.edu.sa/admission/student_fees_tf_ro — Other Fees
+- UG application fee: "Non-refundable SAR 950" (includes VAT 15%); Graduate application fee: same SAR 950.
+- Medical application fee (SAR 1,150 per P12 / SAR 1,000 per P09) NOT listed here → third surface without medicine.
+- **APTIS Exam Fees: SAR 575** listed as optional fee — CONFLICT with P03 "S.R.950 Admission and English Placement Test Fee" (implies placement test included in 950). Applicant cannot tell if Aptis costs extra.
+- Late registration SAR 750; late payment SAR 750/installment; returned cheque SAR 2,300; transcript SAR 115; grade appeal SAR 575 (refunded as credit if approved); bus Khobar 5,522 / Dammam 6,003 per semester; daycare monthly 2,300.
+- No effective date on this page.
+
+## P14 https://pmu.edu.sa/admission/admission_calendar_fs_ro — Admissions Calendar (viewed 2026-09-27)
+- Shows ONLY Fall 2026-2027 (UG + Grad). Classes began 2026-08-30 → on audit date the only calendar published is for an intake already started; no Spring 2027 / Fall 2027 status, no "applications closed/open" banner.
+- UG table: "For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/" (2026-05-03); "For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar" (Closed); EPT & interviews start 2026-05-17; last day Freshman/Re-admit apply online 2026-06-24; end of placement/retake 2026-07-05; last day submit IELTS/TOEFL 2026-07-20; last day Transfer docs in person 2026-07-20; first day of classes 2026-08-30; admission results via Qabool July 19–21 2026; orientation TBA.
+- Grad table: apply 2026-05-03; interviews 2026-05-17; last day apply 2026-07-16; docs 2026-07-19; end interviews 2026-07-23; results 2026-08-02; classes 2026-08-30.
+- Two "Apply Now" buttons → https://pmu.edu.sa/Apply sitting directly beside the instruction that Saudi students must apply via Qabool (uap.sa) → **route conflict on the same page** (screenshot S14).
+- Sequencing: results announced Jul 19–21 while IELTS/TOEFL + transfer-document deadline is Jul 20 (results overlap deadlines). Table rows not chronological (classes listed before results).
+- Resolves X05 partially: PMU itself states Saudi UG applicants apply via Qabool/uap.sa → the Medicine page link is consistent with the calendar, but INCONSISTENT with P02/P03/P04/hub which route to pmu.edu.sa/apply or Apply_Now_ADS.aspx.
+
+## P15 https://pmu.edu.sa/apply → 302 to https://admissions.pmu.edu.sa/welcome — Applicant portal landing (public view; no login, no interaction)
+- "Admission Calendar — No events are currently published. Please check back later." → portal says nothing published while website calendar (P14) publishes Fall 2026-27 dates → **site/portal mismatch**.
+- Banner image (Arabic) advertises graduate-studies admission for "الفصل الدراسي الثاني 2026/2025" — year order reversed and refers to a past semester → stale campaign asset (screenshot S15).
+- "Student Login" and "New Student? Register!" active — no guidance that Saudi UG applicants must use Qabool (per P14) or non-Saudis Study in Saudi.
+- Footer "2022 ©"; "(visit Degrees & Programs webpage)" is plain text, not a link; "Contact Admissions" links back to hub which itself has no contact details.
+- English-only landing (no Arabic toggle observed in a11y tree).
+
+## P16 https://pmu.edu.sa/admission/apply_now_ads (legacy Apply_Now_ADS.aspx) — renders same portal landing content as P15 (No events published; Register). So at least 3 distinct "apply" entry points exist: pmu.edu.sa/apply → portal; Apply_Now_ADS → portal content; uap.sa (Qabool) and studyinsaudi.sa per calendar/medicine page.
+
+## P17 https://pmu.edu.sa/admission/admission-from-other-universities — Transfer
+- Eligibility: prior institution MoE-recognized; regular (not online/distance); cumulative GPA 2.0/4.0; not dismissed; last course ≤5 years old; meet current PMU criteria; link to Transfer-Student-Admission-and-Credit-Transfer-Policy.aspx.
+- Apply link: http://admissions.pmu.edu.sa/ (non-HTTPS; 4th variant of apply link). No mention of Qabool although P14 says Saudi UG apply via Qabool.
+- Docs incl. original sealed transcript (English) + all syllabi (English). Fee SAR 950 incl. VAT. Direct entry IELTS 6.0/5.5 "or equivalent TOEFL iBT with acceptable scores" (no number).
+- Process: Aptis + interview; credit transfer review "minimum 5 weeks" after acceptance.
+- Grammar: "In order to be consider".
+
+## P18 https://pmu.edu.sa/admission/international_students — International Students without Saudi Residence
+- "As an international student, you'll begin the application process just like all other applicants. The application process can be completed entirely online." Apply → pmu.edu.sa/apply. **CONFLICT with P14** (non-Saudis apply via Study in Saudi platform; status "Closed").
+- Criteria: HS 80%; "Acceptable SAT I" (no threshold); IELTS 6.0/5.5; online interview.
+- Lower-% composite: Non-Engineering: Secondary 60% / SAT I 40%. **CS & Engineering: Secondary 40% / SAT I 30% / SAT II 30%** — SAT II (Subject Tests) discontinued 2021 (X06) → requirement impossible to satisfy.
+- Docs: certificate certified by Saudi Cultural Mission and Saudi Embassy; "Copy of National ID"; passport. No Iqama/visa-specific documents; visa support mentioned.
+- Breadcrumb "International Students' Office" → International_Students_Office.aspx (another page).
+- Accordion headings (Transfer, Visitor, Graduate, Tuition, Housing...) are click-only headings (role=heading with click action) — keyboard/semantics risk.
+
+## P19 https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors — CS & Engineering Majors requirements
+- Page title says CS & Engineering but applies also to **Architecture** (listed: Architecture, CS, CE, SE, ME, EE, CivE).
+- General: HS ≥80 (60%) + Qudrat ≥60 (40%). Major-specific: **HS ≥85 (40%) + Qudrat ≥65 (30%) + Tahseely ≥65 (30%)**.
+- "*Students with lower marks may apply, however, the minimum weighted total, defined by the Admissions Office, should be met." → the decisive cut-off is not published.
+- Tahseely equivalent: "SAT 1 (1200)" — vs Medicine page "SAT 1 1300" (P09) and International "SAT II 30%" (P18). Three different equivalence statements for the same Tahseely component.
+- SAT Math ≥400 may waive Prep math courses ("wave" typo) → link to sat-admission.
+- Apply link http://admissions.pmu.edu.sa (http); several http:// links.
+- Step IV/V duplicated/confusing ("if available ... or ... For direct entry ...").
+- Freshman page (P03) omits Tahseely entirely and gives 30/50/20 formula; UG home/direct (P02/P04) 60/40; International CS/Eng 40/30/30 with SAT II; Medicine 20/40/40 then 60/40 with interview → **five distinct published weighting schemes**.
+
+## P20 https://www.pmu.edu.sa/admission/admission_procedures_criteria_fs_ro — Admission Procedures & Criteria (NOT in hub navigation; reachable, indexed by search)
+- Legacy-generation criteria page still public. Categories incl. "Two Year College Graduates", "Part Time Students".
+- Fresh students: fee SR 950 (non refundable; no VAT mention); GPA ≥80% — "**Students with a lower GPA, 70% as a minimum, can apply but acceptance depends on the interview results**" (a 70% floor appears nowhere else); GAT ≥60%; "Successful Interview and **PMU Standard Battery Test**" (test not mentioned elsewhere; current placement is Aptis).
+- Transfer: GPA 2.0; "**TOEFL or IELTS of 550** or PMU Math and English Placement Test" — IELTS has no 550 score (band 0–9); 550 is a retired TOEFL PBT figure → factually wrong for IELTS and conflicts with P06/P07/P17.
+- Links "PMU PLACEMENT TEST – SAMPLE" PDF/Viewer.aspx?ID=202.
+- Breadcrumb lacks Home; side menu shows only "Future Students".
+- Screenshot S20 (page identity + headings).
+
+## P21 https://www.pmu.edu.sa/academics/admission_registration_dp — "Admission & Registration" (Diploma Program, Deanship of Business Development & Community Service)
+- Title "Admission & Registration" (same label as admissions) but content = Arabic, undated announcement that PMU "intends to offer" (نيتها لطرح) diploma programs with a social charity fund; eligibility incl. Saudi nationality, HS ≤5 years, guardian income < SAR 8,000/month.
+- Undated, "intention" wording → likely legacy campaign still public under an admissions-like title; appears in search for "القبول والتسجيل". Publishes named individual staff phone/email (personal contacts rather than role mailboxes). [Names deliberately not reproduced in audit outputs.]
+- Only Arabic-language admissions-type content found in the crawl → illustrates parity gap (Arabic content exists for a legacy diploma, not for the main admissions rules).
+
+## P22 https://www.pmu.edu.sa/ — Homepage (viewport only)
+- Header shows search, main nav, SIGN IN; **no Arabic/English language switch visible** in the header (S22). Same header on every admissions page crawled (P01–P20): no language switch in any a11y tree.
+- Tiles: "UNDERGRADUATE PROGRAMS", "GRADUATE PROGRAMS", "APPLY TO PMU"; chat widget "May I Help You!".
+- Arabic parity conclusion (bounded): no Arabic equivalents of the admissions rule pages were found via navigation or search (search for Arabic admissions terms returned only Arabic news items and a legacy MOHE PDF). Not asserted that no Arabic site exists anywhere; asserted that the applicant-facing admissions rules are published in English only on the surfaces reviewed.
+
+---
+# Phase 2 crawl (continuation, 2026-09-27) — via TinyFish fetch_content (remote fetch, JS-rendered, header/footer/nav excluded)
+
+## P23 /admission/future_students_ro — Overview: generic marketing text; "(visit Degrees & Programs webpage)" plain text. No requirements, no dates, no status.
+## P24 /admission/degrees_programs_fs_ro — Degrees & Programs: rendered content lists ONLY 6 College of Business programs (Accounting, Business Admin, Finance, MIS, HRM, Marketing & Digital Media) each "Male / Female". No Engineering, CCES, Architecture & Design, Law, Medicine, Prep. (If other colleges sit behind JS tabs, the fetcher did not render them → treat as Owner confirmation; as rendered, catalogue is incomplete.)
+## P25 /admission/admission-to-the-preparatory-program — Prep admission: "Admission Criteria" heading followed by EMPTY list (only the "*lower percentage" note 60/40); "Admission Process" heading with no content. Fee SAR 950 incl. VAT. English cert "(if available)".
+## P26 /admission/admission-from-the-prep-to-ug-programs — Prep→UG: requires "Successfully pass the EXIT exam" (not described anywhere else). Maths table footnotes mismatched: "* Department of Information Technology is excluded from PRPM 0022" and "** Department of Architecture is excluded from PRPM 0012" but * is attached to College of Engineering & College of Architecture & Design and ** to CCES. Table lists College of Sciences & Human Studies; no Law, no Medicine rows.
+## P27 /admission/visiting-student-admission — Visiting: IELTS 6.0/5.5 or TOEFL iBT (no number); fee SAR 950 incl. VAT; consistent with P04.
+## P28 /admission/sat-admission — SAT: "Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests." Lists majors incl. "Artificial Intelligence" (not listed on P19). SAT Math ≥400 waives Prep maths ("Wave"). "SAT score report must be sent directly from the College Board to Prince Mohammad Bin Fahd University (7647)". CONFLICT: Medicine P09 "SAT 1 1300"; International P18 requires "SAT II".
+## P29 /admission/admissions_queries — Query form: bilingual intro "Welcome to PMU, the Admissions Office is glad to answer your inquiries… / مرحباً بكم بجامعة الأمير محمد بن فهد…". (Form not submitted — read-only.) Only bilingual admissions surface found. No response-time commitment.
+## P30 /admission/admission_contact_gdp — Graduate Contact: "Graduate Study Admission Coordinator · Office: G-017 Admin Bld · Email: graduateadm@pmu.edu.sa" (role mailbox – good practice). Its sidebar is a DIFFERENT (older) generation: lists "New Applicant/Freshman/Transfer", graduate = only EMBA, MBA, MSEHD; Financial Aid section incl. "MOHE Scholarships" (MOHE merged into MoE in 2015).
+## P31 /admission/tuition_fees_ro — Registration Office index: academic calendars listed 2014/15 → 2026/27 (13 years), plus Student Handbook link.
+## P32 /admission/academic_calendar_2021_2022_ro — Footer target: Spring 2021-2022 calendar (Jan–Jun 2022) — 4+ years stale, linked from every page footer.
+## P33 /admission/admission_graduate_degree_programs — Graduate hub: link list; sidebar shows only EMBA, MBA, MSHD, MSME; main list shows PhD-BA, EMBA, MBA, MSHD, MSME, PhD-ME, MSCE, MSEE, MSID, MA International Business Law. EMGMS (on P01) absent here.
+## P34 /admission/application_form_deme_gdp — PhD ME: BSc+MSc ME, GPA ≥3.00/4.00 "(Very Good)"; IELTS 6.0 & 5.5 each skill or TOEFL iBT 83 & 19 each skill; no home edition; SOP, 2 refs, interview. "ADMISSSIONS" (typo, also MSEE/MSCE/MSID titles).
+## P35 /admission/admissions_requirements_phdba_gdp — PhD-BA: "if the master degree is not from another discipline they must … complete … 12 credit hours of MBA" (logic inverted); GPA 3.00, or 3.20 in applicable master's (unclear); "internationally accredited by AACSB as top 6% of business schools" (AACSB accredits schools, not individual programs — wording); "Personal Interview:" heading EMPTY.
+## P36 /admission/admissions_requirements_emba_gdp — EMBA: 33 cr, weekends; "Educational Background:" heading EMPTY; 3–5 yrs experience; IELTS 6.0/5.5 each or TOEFL 83/19; "Personal Interview:" EMPTY.
+## P37 /admission/admissions_requirements_mba_gdp — MBA: 36 cr; Bachelor + "minimum GPA of 2.50 out of 4.00 or equivalent (Very Good)"; same English.
+## P38 /admission/admissions_requirements_msehd_gdp — MSHD: GPA 2.50/4.00; English same; naming drift: MSHD / MSEHD (URL) / "Master of Science in Education and Human Development" (fees) / "Master of Human Development" (grad hub).
+## P39 /admission/admissions_requirements_msme_gdp — MSME: "Educational Background:" has ONLY the footnote about related disciplines – no degree/GPA requirement stated; English same.
+## P40 /admission/application_form_msee_gdp — MSEE: GPA 2.50 "(Very Good)"; "The program will be offered" (future tense, launch-era).
+## P41 /admission/application_form_msce_gdp — MSCE: same pattern; "will be offered".
+## P42 /admission/application_form_msid_gdp — MSID: GPA 2.50 "(Very Good)"; "will educate… will be to provide" future tense.
+## P43 /admission/admissions_requirements_emgms_gdp — **EMGMS**: "TOEFL – minimum of 79 iBT (or 60 on the revised PBT with no section score lower than 15)"; "IELTS – minimum composite score of 7, with no subject area below a 6"; "Pearson PTE Academic – minimum of 60"; "**Graduate English Language Endorsement from UA Center for English as Second Language (CESL)**"; Bachelor min 3.00/4.00; "Must be in original native language AND be accompanied by officially verified English translation." → third-party checklist text (UA CESL is another university's centre) + English thresholds conflicting with every other PMU graduate page (IELTS 6.0/5.5, TOEFL 83/19). No interview, no fee, no deadline.
+## P44 /admission/admissions_requirements_milbl_gdp — MA International Business Law: "The year 2025 marks … approval … by the Ministry of Education"; "Educational Background:" EMPTY; "English Language Proficiency Test:" EMPTY; selection weights "50% GPA · 30% written test · 20% interview" (written test not described anywhere).
+## P45 /admission/post_graduate_fees_tf_ro — Graduate fees (program totals, Alumni/Non-alumni): EMBA 60,000/75,000; MBA 65,000/80,000; PhD-BA 150,000; MSHD 50,000/60,000; MSME/MSEE/MSCE/MSID 65,000/80,000; EMGMS 80,000; "Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33)" 80,000; MA IBL 80,000/100,000; "PRE-Master for Master of Education" NA/30,000. Per-credit tables reconcile arithmetically (e.g., 33×1,818.18≈60,000; 36×2,777.77≈100,000; 72×2,083.3≈150,000). **Two programs priced here have no admissions page** (MEng ISE; Pre-Master for M.Ed.). No application-fee line (graduate application fee only on P13: SAR 950).
+## P46 /admission/fees_tf_ro_2025_2026 — UG fees (admitted from Fall 2025/26): "Tuition Fee – All Programs SAR 29,000 / semester" (12–18 hrs; >18 at SAR 2,416); "Artificial Intelligence & Cybersecurity Majors SAR 32,500". Part-time 2,416.7 / 2,708.3. → pricing model changed in 2026/27 (college-based 30,000/32,500). Two different structures live, correctly dated, but no "current" label on index.
+## P47 /admission/fees_tf_ro_2024_2025 — Continuing (admitted before Fall 2025/26): 29,000 / 32,500 covering "12 and above" hours (no cap) — differs from 2025/26 "12 to 18".
+## P48 /admission/payment_schedule_tf_ro — Payment schedule: headings only (Spring 2025/26, Summer 2025/26, Fall 2026/27) — no schedule content rendered (likely JS tabs/images). Owner check.
+## P49 /admission/payment_method_tf_ro — Tuition & Fee Payment Policy (undated): "SAR 30,000 per semester for College of Business Administration, College of Law and preparatory program"; "SAR 32,500 … CAD, CCES, COE". **"All tuition payments are non-refundable."** then **Refund table**: "Two weeks before the first day of classes 25%" deduction; "One week before 50%"; "Before end of Add/Drop 75%"; "After Add/Drop Non-refundable". Also "Students will be charged for full tuition even if they fail to attend classes or following the complete withdrawal procedure." → internal contradiction on refundability (money). Refund request goes "to the Admissions Office" (finance process routed to Admissions). "⚠️ Cash payments are not accepted."
+## P50 /admission/faq_tf_ro — FAQ: new students pay full semester in advance before registration; installment plan for continuing students (Saudi 10,000+10,000+9,000=29,000; non-Saudi 12,000+12,000+9,350=33,350 = 29,000×1.15 ✓; AI Saudi 32,500; AI non-Saudi 37,375 = 32,500×1.15 ✓). "New students may be eligible for a partial refund … as per the terms and conditions of the acceptance letter" (terms not published). "Where can I pay? Men’s Campus: Admin Building – Counter 9" (no women's campus location). finance@pmu.edu.sa.
+## P51 /admission/summer_semester_tuition_tf_ro — Summer: PREP SAR 14,000 (English only); UG SAR 2,708/credit; AI & Cyber SAR 3,000/credit; graduate per credit table. No refund after add/drop.
+## P52 /admission/international_students_office — Intl Office: 2 links (with Iqama / without residence); "Saudi&nbspresidence" — raw HTML entity rendered as text (visible encoding defect).
+
+## P53 https://pmu.edu.sa/apply (as rendered remotely; in a real browser (Opera) the same URL ends at admissions.pmu.edu.sa/welcome) — bilingual block: "For Direct Entry … IELTS Academic: Overall 6.0, Writing 5.5 · TOEFL iBT: Overall 83, Writing 19 · Note: TOEFL Home Edition is not accepted. Or the applicant will be scheduled for our placement test." + Arabic mirror "القبول المباشر … الآيلتس الأكاديمي: بدرجة إجمالية 6.0، ودرجة الكتابة 5.5 · التوفل iBT: بدرجة إجمالية 83، ودرجة الكتابة 19". International certificates: embassy stamp + MoE equivalency. → newest generation content; bilingual; contradicts P03 (iBT 65 / IELTS 5.5).
+## P54 /academics/college_of_medicine_udp — "Developed in strategic collaboration with the University of Illinois Chicago (UIC), the college features a globally-aligned, **6-year integrated curriculum** … SaudiMED Framework and NCAAA standards." CONFLICT with P09 "The PMU College of Medical curriculum is based on a **7-year hybrid model** between the US and KSA medical school structures." (P12 lists a separate "Medical Preparatory Program Tuition Fee SAR 75,000 per year" + "Medical Program Tuition Fee SAR 90,000 per year" — duration/cost basis unclear.)
+## P55 Web Admission Guide PDF — https://pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf (linked as "Web Admission Guide" from every admissions sidebar via PDF/Viewer.aspx?ID=203). "Copyright © 2011"; file stamp 20-12-18; describes a retired Banner web-admission flow: "login identification (Login ID) and a personal identification number (PIN)", "PIN (must be 6 digits)", application types only "Undergraduate Freshman/Undergraduate Transfer", test fields "SAT valid range is from 50.00 to 99.99" (SAT is reported on 400–1600 → wrong), "TOEFL Computer valid range is from 040 to 300", "You must print the Signature Page … visit the Admission Office". Lists named individual staff with phone numbers (names not reproduced). Current portal (admissions.pmu.edu.sa) is a different system (Student Login / Register).
+## P56 /admission/academic_calendar_2023_2024_ro — Fall 2023-24 calendar; this is the target of "Academic Calendar" on the "Study at PMU" hub (/admission/admission-registration). Footer targets 2021-22; Registrar sidebar lists up to 2026/27 → three different "Academic Calendar" targets.
+## P57 /admission/welcome_fa_ro — Financial Aid: "Prince Mohammad Bin Fahd Global Scholarship Program" tracks (Academic Excellence, International Distinguished, Disabilities, Need-Based, Adult Learners 50+, "Gifted & Talented K–12 Scholarships", Rehabilitation, Exchange, Graduate). No eligibility thresholds, amounts, deadlines, or application link on the page. Not linked from any admissions requirement page reviewed.
+## P58 /admission/tips_smoother_application_process_fa_ro — Tips: "THE INTERVIEW IS A MUST." No deadline dates given ("DO NOT WAIT UNTIL THE DEADLINE").
+## P59 /admission/financial_aid_ro — FA index (carousel + 3 links).
+## P60 /admission/list_majors_ro — Registrar "List of Majors": includes "Master of Science in Engineering Management", "Master of Science in Engineering Innovation, Sustainability, and Entrepreneurship" (fees P45 name it "Master of **Engineering** in Innovation, Sustainability, and Entrepreneurship"); **no College of Medicine**; "Doctorate in Business Administration" (vs "PhD in Business Administration" elsewhere).
+## P61 /admission/degrees_programs_fs_ro (full render, body) — UG: CAD (Architecture, Graphic Design, Interior Design [Female only]); COE (EE, ME, CE, Chemical); CCES (IT, CS, CE, SE, AI, Cybersecurity); COBA (6); Law (BA Law). Graduate: PhD ME, MSME, MSEE, MSCE; PhD BA, EMBA, MBA; MSHD; MS Interior Design; MA IBL. **No College of Medicine; no EMGMS; no MEng/MS ISE; no Pre-Master M.Ed.** (all four have admission and/or fee pages elsewhere).
+## P62 /admission/transfer-student-admission-and-credit-transfer-policy — consistent with P17 (GPA 2.0/4.0, MoE recognition, no online study, ≤5 yrs); credit transfer: min grade C, ≥80% content match, ≤70% of credits transferable, no PREP courses (except PREP Math ≥C). PASS (consistent).
+## P63 Staff directory (hub "Contact Us") → https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4 — a **Student Affairs** department list (registration, career services, campus life, alumni…). No role titled Admissions; one entry duplicated. Personal names not reproduced.
+## P64 /about/contact_us — Call center "+966 13 849 8880 (Operator)"; mailboxes incl. "Enrollment: enrollment@pmu.edu.sa", "Finance: finance@pmu.edu.sa", "**Financial Aid: financal_aid@pmu.edu.sa**" (misspelt; the MOHE PDF uses "financial_aid@pmu.edu.sa"). No mailbox labelled "Admissions".
+## P65 Academic calendar 2025-26 PDF — https://www.pmu.edu.sa/attachments/admission/pdf/academic_calendar_2025-2026.pdf : "Fall Semester 2026/2027 begins … August 30, 2026" — consistent with P14. PASS. (PDF metadata exposes an individual staff author email — hygiene.)
+## P66 Legacy MOHE scholarship PDF — https://www.pmu.edu.sa/attachments/admission/pdf/mohe_2.pdf : Arabic notice for a scholarship window in the 1434–1435H era for graduates of "١٤٣٢/١٤٣٣" etc.; text extraction shows corrupted Arabic glyph mapping (e.g., "يبدأ التقديم لبرنامج المنح الدراسيي  لجااماياا…"); link "grants.mohe.gov.sa" (MOHE merged into MoE 2015); English thresholds incl. "Computer TOEFL". Still public and indexed.
+## P67 /admission/registration_office — Registrar welcome text; signed by a named executive (not reproduced).
+## P68 /admission/admission-registration — "Study at PMU" hub: yet another navigation generation (Financial Aid, Registration: Academic Calendar→2023-24, Grading, Re-instatement, GPA calculator…). Header now also carries a newer global menu ("Apply to PMU" → /apply.aspx; Academics incl. "College of Medicine") while the page footer "Colleges / Programs" list still omits Medicine.
+## P69 /pdf/viewer?ID=202 — "PMU PLACEMENT TEST – SAMPLE" viewer, breadcrumb "Admissions & Registration > Registration Office > Future Students > Admission Procedures & Criteria" (legacy chain to P20).
+## P70 /pdf/viewer?ID=179 — Student Handbook viewer (html + PDF links). Not opened further.
+
+## Measured / tool observations
+- Remote renderer reported `language: null` for every pmu.edu.sa page fetched (no document language detected); the portal reported `language: en`. Not a DOM probe → treated as indicative only.
+- https://pmu.edu.sa/ar → 404 (no /ar language path). 
+- Guessed URLs that returned 404 (/admission/international_students_iqama, list_of_majors_ro, Financial_Aid.aspx, tips_smoother_application_process) were auditor guesses, NOT site links → no finding.
+- DOM/mobile probes (overflow, headings, alt) could NOT be run: container egress blocks pmu.edu.sa; remote browser session unavailable (TinyFish wallet balance $0). Stated as limitation.
+
+## Self-correction during phase 2
+- P24 first reading ("Degrees & Programs lists only 6 Business programs") was an extraction artefact of excluding page regions; full-body fetch (P61) shows the complete catalogue. **Withdrawn** before becoming a finding; replaced by the real gap (Medicine and 3 priced graduate programmes absent).
+- F-14 (Arabic) wording refined: Arabic does exist on two applicant surfaces (/apply direct-entry block P53; query-form intro P29) but not on any rule page (requirements, formulas, fees, calendar, documents).
+
+## Phase 3 (connector sweep, 2026-09-27)
+## P71 Aptis Candidate Guide PDF — https://pmu.edu.sa/Attachments/Admission/PDF/Appendix%203.3%20(Aptis%20Candidate%20Guide).pdf : "Aptis Candidate Guide August 2017" / "© British Council 2017" — third-party guide, 9 years old, filename "Appendix 3.3" (internal accreditation-appendix naming) served as applicant material from P08.
+## P72 Student Handbook 2019/2020 PDF — https://www.pmu.edu.sa/attachments/admission/images/registrar_office/student-handbook-2019-2020-002.pdf : "Student Hand Book 2019/2020 · Last update: May 2019" — still public in the admission attachments folder; names individual staff with phone numbers (not reproduced).
+## Metadata probe (remote renderer, page_metadata) on legacy pages P03 and P20: no `robots` directive (no noindex) and no canonical URL reported → legacy pages are indexable; og:title / meta description are the same generic strings ("PMU, Prince Mohammad Bin Fahd University." / "Creative Minds, Transform The World") on every page fetched; og:type value "pmu.edu.sa" (not a valid Open Graph type).
+## Connector availability during phase 3: Opera (connected but browser connector offline), Remote Desktop Commander (user's Windows PC online; running commands on it was blocked by this session's permission policy — not used), TinyFish (fetch works; browser sessions unavailable, wallet $0), Ahrefs (installed but connection incomplete — not usable), Google Drive (available; not used — no approval to upload).

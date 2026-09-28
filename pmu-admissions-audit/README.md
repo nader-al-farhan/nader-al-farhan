@@ -1,0 +1,28 @@
+# PMU Admissions — Independent Audit & Executive Project Plan
+
+Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, phases 2–3 via a remote renderer), starting from https://pmu.edu.sa/admission/admission. The 21 core surfaces were re-verified live the same day (G3 verifier + Playwright DOM/mobile probes, 19:09–19:20 UTC).
+
+- **Main deliverable:** [`PMU-Admissions-Executive-Plan.html`](PMU-Admissions-Executive-Plan.html) (Arabic) and [`PMU-Admissions-Executive-Plan-EN.html`](PMU-Admissions-Executive-Plan-EN.html) (English).
+- **Admissions Hub prototype:** [`remediation/hub/admissions-hub-prototype.html`](remediation/hub/admissions-hub-prototype.html) (concept, bilingual). Single file, Arabic with English terms, print-ready, screenshots embedded.
+- **Content audit of the 36 Admissions Office links (English report):** [`remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.pdf`](remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.pdf) and its [Word version](remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.docx). The Arabic interactive edition is `remediation/linkaudit/content/PMU-Admissions-Content-Audit.html`.
+- Findings register: [`registers/findings-register.md`](registers/findings-register.md) — 45 findings: 4 Critical, 12 High, 18 Medium, 10 Low, 1 Enhancement, plus a self-correction log and verified passes. F-31 to F-45 were added on 2026-09-28 from the content audit. The executive plans (AR/EN) still cite the 2026-09-27 baseline of 30 findings.
+- Crawl coverage: [`registers/crawl-coverage.md`](registers/crawl-coverage.md)
+- Data-point matrix: [`registers/data-point-matrix.md`](registers/data-point-matrix.md)
+- External verification: [`evidence/external-verification.md`](evidence/external-verification.md)
+- Field notes (verbatim page text): [`evidence/field-notes.md`](evidence/field-notes.md)
+- Screenshots: [`evidence/screenshots/`](evidence/screenshots/) (S30–S35 are full-page mobile captures)
+- DOM / mobile probes: [`evidence/dom-probes-2026-09-27.md`](evidence/dom-probes-2026-09-27.md)
+- Live G3 report: [`remediation/verification/report-live-2026-09-27.md`](remediation/verification/report-live-2026-09-27.md)
+- Page source (image placeholders): `src/plan.src.html`
+
+- **UX / IA Blueprint (main design deliverable):** [`PMU-Admissions-UX-IA-Blueprint.html`](PMU-Admissions-UX-IA-Blueprint.html). It covers the future admissions structure (17 pages), a map for all 36 current links, working page templates, applicant journeys and the apply-routing engine with its tests. See [`remediation/blueprint/`](remediation/blueprint/README.md).
+- **Full review (2026-09-27):** [`REVIEW-2026-09-27.md`](REVIEW-2026-09-27.md). Every commit was re-checked, and every quote was re-matched against the live site (70/70 resources, HTTP 200). There are 11 wording, count and addressee corrections. No finding was withdrawn and no severity changed.
+
+Current project verdict: **FULL PROJECT CLOSURE — NOT MET** (baseline, before the project starts).
+
+**Live re-verification (2026-09-27, audit container):**
+- **G3 verifier:** NOT MET on 21/21 reachable pages, with **21 issues**, identical to the baseline. No finding was resolved or overturned. (A parallel static-only run counted 20 because it could not render the portal: `report-live-2026-09-27-static.md`.) See [`remediation/verification/report-live-2026-09-27.md`](remediation/verification/report-live-2026-09-27.md).
+- **Static DOM cross-check:** [`evidence/dom-static-probe-2026-09-27.md`](evidence/dom-static-probe-2026-09-27.md).
+- **Rebuilding the plan:** `python3 src/build_plan.py`.
+
+- **Remediation toolkit (ready to use):** [`remediation/`](remediation/README.md). Contains the canonical record seed, decision packs D0–D10, bilingual components, the legacy redirect map, the G3 verifier with tests, and the closure gate tracker.
