@@ -164,7 +164,7 @@ PAGES = {
  ]),
  "C34": dict(purpose="متطلبات IELTS", data=["Core 6.0/5.5، Advanced 5.0/4.5، Intermediate 4.5/4.0، Beginner 4.0/3.5", "صلاحية سنتان حتى بدء الفصل"], issues=[], verified=["متسق مع C26 و C07 (6.0 / 5.5 كتابة للقبول المباشر)"]),
  "C35": dict(purpose="متطلبات TOEFL iBT", data=["Core 83/19، Advanced 63/15، Intermediate 54/13، Beginner 42/11", "رمز المؤسسة 6993"], issues=[
-   ("M", "stale", ["TOEFL iBT Overall"], "الجدول بمقياس 0–120 فقط؛ غيّرت ETS مقياس TOEFL iBT إلى 1–6 اعتبارًا من 21 يناير 2026 ولا توجد معادلة بالمقياس الجديد", "إضافة عمود المقياس الجديد بعد اعتماد المعادلة", "F-04"),
+   ("M", "stale", ["TOEFL iBT Overall"], "الجدول بمقياس 0–120 فقط؛ منذ 21 يناير 2026 تُصدر ETS نتائج TOEFL iBT بمقياس 1–6، ويُعرض المقياس المقارن 0–120 مؤقتًا حتى يناير 2028 فقط، ولا تذكر الصفحة حدودًا بالمقياس الجديد", "إضافة عمود المقياس الجديد بعد اعتماد المعادلة", "F-04"),
  ], verified=["رمز ETS (6993) لم يُتحقق منه من مصدر ETS — يُنصح بتأكيده"]),
  "C36": dict(purpose="متطلبات SAT", data=["SAT 1200 بدلًا من القدرات والتحصيلي لخريجي الشهادات الدولية", "إعفاء من مقررات الرياضيات حسب درجة الرياضيات", "رمز College Board 7647"], issues=[
    ("M", "conflict", ["These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Artificial Intelligence, Mechanical Engineering, Electrical Engineering and Civil Engineering etc."], "قائمة مفتوحة («etc.») وتختلف عن C30", "قائمة مغلقة واحدة", "NEW"),
@@ -175,12 +175,12 @@ PAGES = {
 
 # Cross-page data points: the same fact stated differently across the 36 links
 MATRIX = [
- ("رسوم طلب القبول", [("C23,C25,C26,C27,C28,C30", "SAR 950 (incl. VAT)"), ("C24 (الطب)", "SAR 1000 (incl. VAT)"), ("C07 (محوّل/زائر دولي)", "SAR 500 (excl. VAT)")], "H", "NEW + F-03"),
+ ("رسوم طلب القبول", [("C23,C25,C26,C27,C28,C30", "SAR 950 (incl. VAT)"), ("C24 (الطب)", "SAR 1000 (incl. VAT)"), ("C07 (محوّل/زائر دولي)", "SAR 500 (excl. VAT)")], "H", "F-31 + F-03"),
  ("وصف «Very Good» للمعدل", [("C12,C13,C15,C16,C17,C18", "2.50 / 4.00"), ("C10", "3.00 / 4.00"), ("C20", "بلا رقم")], "M", "F-27"),
- ("اللغة الإنجليزية — الدراسات العليا", [("9 برامج", "IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)"), ("C20 MA IBL", "IELTS 6.5 أو TOEFL 83"), ("C19 EMGMS", "IELTS 7 أو TOEFL 79 أو PTE 60 أو CESL")], "H", "F-21 + NEW"),
+ ("اللغة الإنجليزية — الدراسات العليا", [("9 برامج", "IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)"), ("C20 MA IBL", "IELTS 6.5 أو TOEFL 83"), ("C19 EMGMS", "IELTS 7 أو TOEFL 79 أو PTE 60 أو CESL")], "H", "F-21 + F-33"),
  ("بديل SAT", [("C36", "1200 بدل القدرات والتحصيلي"), ("C30", "SAT 1 (1200) بدل التحصيلي"), ("C24", "SAT 1 1300 بدل التحصيلي"), ("C07", "SAT I + SAT II")], "H", "F-05"),
  ("مستند الهوية", [("C26,C30", "Saudi ID فقط"), ("C24,C25,C27,C28", "Saudi ID أو Iqama"), ("C07", "National ID لطالب بلا إقامة")], "M", "F-13"),
- ("التخصصات ذات الشروط الخاصة", [("C30", "7 تخصصات"), ("C36", "8 + «etc.»"), ("C02", "الهندسة الكيميائية والأمن السيبراني دون شروط")], "M", "NEW"),
+ ("التخصصات ذات الشروط الخاصة", [("C30", "7 تخصصات"), ("C36", "8 + «etc.»"), ("C02", "الهندسة الكيميائية والأمن السيبراني دون شروط")], "M", "F-34"),
  ("قناة التقديم", [("C03", "قبول (سعوديون) / ادرس في السعودية — Closed (غير سعوديين)"), ("C06,C08", "بوابة PMU للجميع"), ("C07", "«completed entirely online»")], "H", "F-02"),
  ("أسماء برامج الدراسات العليا", [("C09", "Master of Human Development · Doctorate in ME"), ("C14", "Master of Science in Human Development"), ("C21", "…Education and Human Development · Doctoral program")], "M", "F-25"),
  ("قائمة برامج الدراسات العليا", [("الصفحة الرئيسية", "11 رابطًا"), ("C09", "10 — دون EMGMS"), ("C21", "12 + Pre-Master"), ("C07", "3 للدوليين")], "M", "F-25"),
@@ -190,3 +190,36 @@ MATRIX = [
 CORRECTIONS = [
  ("F-26", "لم تُعَد إنتاجها في 2026-09-28: أقسام «Educational Background» و«Personal Interview» في EMBA (C12)، و«Personal Interview» في PhD-BA (C11)، و«Educational Background» في MSME (C15) و MA IBL (C20)، وقائمة معايير وإجراءات التحضيرية (C25) — كلها موجودة الآن وظاهرة للزائر وفي HTML الخادم. لا يمكن من هنا تحديد إن كانت PMU أضافتها بعد 2026-09-27 أم أن القراءة السابقة أخطأت. الجزء الذي ما زال قائمًا: «30% for the written test» غير موصوف (C20)، وعنوان «Work Experience» الفارغ في MSHD (C14) جديد."),
 ]
+
+# 2026-09-28 — the owner approved adding the new observations to the findings register.
+# The 31 "NEW" observations are consolidated into 15 register findings (F-31–F-45); the MSHD
+# empty "Work Experience" heading joins F-26 (same defect type). Applied here so every output
+# (HTML, MD, JSON, EN report) cites the register ID.
+REGISTER_MAP = {
+ ("C07", 1): "F-31", ("C27", 1): "F-31", ("C28", 1): "F-31",
+ ("C20", 1): "F-32",
+ ("C20", 3): "F-33", ("C32", 1): "F-33",
+ ("C30", 1): "F-34", ("C36", 1): "F-34",
+ ("C23", 3): "F-35", ("C28", 2): "F-35",
+ ("C11", 1): "F-36",
+ ("C11", 2): "F-37", ("C01", 1): "F-37",
+ ("C07", 5): "F-38", ("C09", 3): "F-38",
+ ("C24", 4): "F-39",
+ ("C10", 2): "F-40", ("C14", 2): "F-40", ("C25", 1): "F-40",
+ ("C16", 1): "F-41", ("C17", 1): "F-41", ("C18", 1): "F-41", ("C20", 5): "F-41",
+ ("C12", 2): "F-42", ("C13", 2): "F-42",
+ ("C07", 6): "F-43", ("C03", 4): "F-43",
+ ("C02", 2): "F-44", ("C07", 7): "F-44",
+ ("C05", 2): "F-45",
+ ("C14", 1): "F-26",
+}
+_left = []
+for _k, _p in PAGES.items():
+    for _n, _i in enumerate(_p["issues"], 1):
+        if _i[5] == "NEW":
+            if (_k, _n) not in REGISTER_MAP:
+                _left.append((_k, _n))
+            else:
+                _p["issues"][_n - 1] = _i[:5] + (REGISTER_MAP[(_k, _n)],)
+assert not _left, f"unmapped NEW observations: {_left}"
+assert len(REGISTER_MAP) == 31

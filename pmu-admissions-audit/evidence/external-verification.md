@@ -24,3 +24,9 @@ The audit container can reach only `pmu.edu.sa`, so the external sites could not
 | X07 | **Confirmed.** Royal Decree A/86: the State bears VAT for citizens on covered private education. | https://zatca.gov.sa/en/MediaCenter/News/Pages/news_600.aspx |
 | X09 | **Confirmed.** CESL's endorsement "is for UA admission only". | https://cesl.arizona.edu/endorsement |
 | X03, X04, X05, X08 | Not re-checked in this review. They are unchanged from the original check. | as above |
+
+## Added 2026-09-28
+
+| ID | Result | Source |
+|---|---|---|
+| X10 | **Confirmed.** AACSB accreditation is granted to business schools (institution level) and is held by fewer than 6% of business schools worldwide. It is not a ranking of a single programme. Whether PMU's own college is accredited was **not** checked here. | https://www.aacsb.edu/educators/accreditation/value-of-accreditation |

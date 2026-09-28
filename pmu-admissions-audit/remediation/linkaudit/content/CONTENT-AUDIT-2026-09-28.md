@@ -2,19 +2,19 @@
 
 النطاق: محتوى الصفحات (بيانات، شروط، أرقام، تواريخ) — لا الجوانب التقنية. كل اقتباس حرفي ومتحقق منه آليًا.
 
-- ملاحظات: **80** (عالية 15 · متوسطة 39 · منخفضة 26) — جديدة مقترحة: 31
+- ملاحظات: **80** (عالية 15 · متوسطة 39 · منخفضة 26) — أُضيفت للسجل: 30 (F-31–F-45)
 - اقتباسات حرفية: 91
 
 ## المعلومة نفسها بقيم مختلفة
 
 | المعلومة | القيم | الخطورة | المرجع |
 |---|---|---|---|
-| رسوم طلب القبول | C23,C25,C26,C27,C28,C30: SAR 950 (incl. VAT)<br>C24 (الطب): SAR 1000 (incl. VAT)<br>C07 (محوّل/زائر دولي): SAR 500 (excl. VAT) | عالية | NEW + F-03 |
+| رسوم طلب القبول | C23,C25,C26,C27,C28,C30: SAR 950 (incl. VAT)<br>C24 (الطب): SAR 1000 (incl. VAT)<br>C07 (محوّل/زائر دولي): SAR 500 (excl. VAT) | عالية | F-31 + F-03 |
 | وصف «Very Good» للمعدل | C12,C13,C15,C16,C17,C18: 2.50 / 4.00<br>C10: 3.00 / 4.00<br>C20: بلا رقم | متوسطة | F-27 |
-| اللغة الإنجليزية — الدراسات العليا | 9 برامج: IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)<br>C20 MA IBL: IELTS 6.5 أو TOEFL 83<br>C19 EMGMS: IELTS 7 أو TOEFL 79 أو PTE 60 أو CESL | عالية | F-21 + NEW |
+| اللغة الإنجليزية — الدراسات العليا | 9 برامج: IELTS 6.0 (5.5 لكل مهارة) أو TOEFL 83 (19)<br>C20 MA IBL: IELTS 6.5 أو TOEFL 83<br>C19 EMGMS: IELTS 7 أو TOEFL 79 أو PTE 60 أو CESL | عالية | F-21 + F-33 |
 | بديل SAT | C36: 1200 بدل القدرات والتحصيلي<br>C30: SAT 1 (1200) بدل التحصيلي<br>C24: SAT 1 1300 بدل التحصيلي<br>C07: SAT I + SAT II | عالية | F-05 |
 | مستند الهوية | C26,C30: Saudi ID فقط<br>C24,C25,C27,C28: Saudi ID أو Iqama<br>C07: National ID لطالب بلا إقامة | متوسطة | F-13 |
-| التخصصات ذات الشروط الخاصة | C30: 7 تخصصات<br>C36: 8 + «etc.»<br>C02: الهندسة الكيميائية والأمن السيبراني دون شروط | متوسطة | NEW |
+| التخصصات ذات الشروط الخاصة | C30: 7 تخصصات<br>C36: 8 + «etc.»<br>C02: الهندسة الكيميائية والأمن السيبراني دون شروط | متوسطة | F-34 |
 | قناة التقديم | C03: قبول (سعوديون) / ادرس في السعودية — Closed (غير سعوديين)<br>C06,C08: بوابة PMU للجميع<br>C07: «completed entirely online» | عالية | F-02 |
 | أسماء برامج الدراسات العليا | C09: Master of Human Development · Doctorate in ME<br>C14: Master of Science in Human Development<br>C21: …Education and Human Development · Doctoral program | متوسطة | F-25 |
 | قائمة برامج الدراسات العليا | الصفحة الرئيسية: 11 رابطًا<br>C09: 10 — دون EMGMS<br>C21: 12 + Pre-Master<br>C07: 3 للدوليين | متوسطة | F-25 |
@@ -28,7 +28,7 @@ https://pmu.edu.sa/Admission/Future_Students_RO.aspx → الصفحة المقت
 
 - لا بيانات قبول؛ روابط للبكالوريوس والدراسات العليا
 
-- **منخفضة · ادعاء يحتاج تحقق · جديد (مقترح)** — ادعاءات رقمية بلا تاريخ أو مصدر، وعبارة «accredited by prestigious national and international organizations» لا تسمّي أي جهة اعتماد
+- **منخفضة · ادعاء يحتاج تحقق · F-37** — ادعاءات رقمية بلا تاريخ أو مصدر، وعبارة «accredited by prestigious national and international organizations» لا تسمّي أي جهة اعتماد
   > PMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA
   > reviewed and verified by around 70 multinational academic and industrial experts
   - المعالجة: ذكر جهات الاعتماد بأسمائها وتواريخها، أو حذف الأرقام غير الموثّقة
@@ -47,7 +47,7 @@ https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx → الصفحة الم
   > B.S. in Cybersecurity
   - المعالجة: قائمة برامج واحدة من سجل البرامج الموحّد، مع حالة القبول لكل برنامج
   - الدليل: [C02-1](../content/shots/C02-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — البرامج مخفية داخل قائمتين مطويتين؛ من يفتح الصفحة يرى عنوانين فقط. وتوجد في كود الصفحة بقايا برنامج «Master of LAW» مخفي
+- **منخفضة · معلومة ناقصة · F-44** — البرامج مخفية داخل قائمتين مطويتين؛ من يفتح الصفحة يرى عنوانين فقط. وتوجد في كود الصفحة بقايا برنامج «Master of LAW» مخفي
   > Undergraduate Programs
   > Graduate Programs
   - المعالجة: عرض البرامج مباشرة مع رابط لكل برنامج إلى شروطه
@@ -77,7 +77,7 @@ https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx → الصفحة ال
   > For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar	Closed
   - المعالجة: تحديد قناة واحدة لكل فئة وإظهارها في الصفحتين
   - الدليل: [C03-3](../content/shots/C03-3.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — موعد التوجيه ما زال «TBA» رغم بدء الدراسة
+- **منخفضة · معلومة ناقصة · F-43** — موعد التوجيه ما زال «TBA» رغم بدء الدراسة
   > Orientation for new applicants	TBA
   - المعالجة: تحديثه أو حذفه بعد انقضائه
   - الدليل: [C03-4](../content/shots/C03-4.jpg)
@@ -106,7 +106,7 @@ https://pmu.edu.sa/Admission/admissions_queries → الصفحة المقترح�
   > Enter Verifaction Code
   - المعالجة: تدقيق لغوي
   - الدليل: [C05-1](../content/shots/C05-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — لا يذكر النموذج مدة الرد المتوقعة ولا بديل تواصل مباشر
+- **منخفضة · معلومة ناقصة · F-45** — لا يذكر النموذج مدة الرد المتوقعة ولا بديل تواصل مباشر
   - المعالجة: إضافة زمن الرد المتوقع وقناة بديلة
 
 ### C06 — Apply Now
@@ -127,7 +127,7 @@ https://pmu.edu.sa/Admission/International_Students.aspx → الصفحة الم
 - مستجد: معدل 80% + SAT I + IELTS 6.0/5.5 كتابة + مقابلة أونلاين
 - رسوم الطلب: 950 شامل الضريبة (مستجد) / 500 غير شامل (محوّل وزائر)
 
-- **عالية · تعارض بين الصفحات · جديد (مقترح)** — رسوم طلب المحوّل والزائر الدولي 500 ريال غير شاملة الضريبة، بينما صفحتا المحوّلين (C27) والزائرين (C28) تذكران 950 ريالًا شاملة الضريبة للفئة نفسها
+- **عالية · تعارض بين الصفحات · F-31** — رسوم طلب المحوّل والزائر الدولي 500 ريال غير شاملة الضريبة، بينما صفحتا المحوّلين (C27) والزائرين (C28) تذكران 950 ريالًا شاملة الضريبة للفئة نفسها
   > Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents
   - المعالجة: قرار مالي بقيمة واحدة لكل فئة ونشرها من سجل الرسوم
   - الدليل: [C07-1](../content/shots/C07-1.jpg)
@@ -143,17 +143,17 @@ https://pmu.edu.sa/Admission/International_Students.aspx → الصفحة الم
   > Acceptable SAT I
   - المعالجة: ذكر الحد الرقمي
   - الدليل: [C07-4](../content/shots/C07-4.jpg)
-- **متوسطة · معلومة ناقصة · جديد (مقترح)** — قسم الدراسات العليا للدوليين يعرض 3 برامج فقط من أصل 11 برنامجًا في الصفحة الرئيسية
+- **متوسطة · معلومة ناقصة · F-38** — قسم الدراسات العليا للدوليين يعرض 3 برامج فقط من أصل 11 برنامجًا في الصفحة الرئيسية
   > MBA
   > MSHD
   > MSME
   - المعالجة: ربطه بقائمة البرامج الكاملة وتوضيح المتاح للدوليين
   - الدليل: [C07-5](../content/shots/C07-5.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — قسم «Transportation» عنوان بلا محتوى، وقسم السكن بصيغة المستقبل «will be located»
+- **منخفضة · معلومة ناقصة · F-43** — قسم «Transportation» عنوان بلا محتوى، وقسم السكن بصيغة المستقبل «will be located»
   > Transportation
   - المعالجة: كتابة معلومات النقل والسكن الفعلية
   - الدليل: [C07-6](../content/shots/C07-6.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — تعليمات الدفع للطلاب الدوليين موجودة في كود الصفحة لكنها مخفية عن الزائر (لم تُنسخ هنا لأنها بيانات بنكية)
+- **منخفضة · معلومة ناقصة · F-44** — تعليمات الدفع للطلاب الدوليين موجودة في كود الصفحة لكنها مخفية عن الزائر (لم تُنسخ هنا لأنها بيانات بنكية)
   > Get Information on Tuition and Fees
   - المعالجة: قرار: نشر طريقة الدفع الرسمية أو حذف البقايا
   - الدليل: [C07-7](../content/shots/C07-7.jpg)
@@ -184,7 +184,7 @@ https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx → الص�
   > Admissions to the Doctorate in Mechanical Engineering Program
   - المعالجة: اسم رسمي واحد لكل برنامج (عربي/إنجليزي)
   - الدليل: [C09-2](../content/shots/C09-2.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — برامج MSCE و MSEE و MSID تعرض «Application Form» دون رابط، بينما بقية البرامج لها رابط
+- **منخفضة · معلومة ناقصة · F-38** — برامج MSCE و MSEE و MSID تعرض «Application Form» دون رابط، بينما بقية البرامج لها رابط
   > Admissions to the Master of Science in Civil Engineering (MSCE) Program
   - المعالجة: توحيد روابط نموذج الطلب
   - الدليل: [C09-3](../content/shots/C09-3.jpg)
@@ -203,7 +203,7 @@ https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx → الصفحة ا�
   > A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)
   - المعالجة: جدول تحويل تقديرات موحّد من عمادة القبول والتسجيل
   - الدليل: [C10-1](../content/shots/C10-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — لا تذكر الصفحة عدد الساعات أو مدة البرنامج أو الرسوم أو مواعيد التقديم (الرسوم موجودة في C21: 72 ساعة، 150,000 ريال)
+- **منخفضة · معلومة ناقصة · F-40** — لا تذكر الصفحة عدد الساعات أو مدة البرنامج أو الرسوم أو مواعيد التقديم (الرسوم موجودة في C21: 72 ساعة، 150,000 ريال)
   - المعالجة: إضافة بطاقة «حقائق البرنامج»
 
 ### C11 — Admissions to the PhD in Business Administration Program
@@ -215,11 +215,11 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx → الصف
 - ماجستير إدارة أعمال/تمويل أو تخصص قريب
 - 3 خطابات توصية
 
-- **متوسطة · صياغة/لغة · جديد (مقترح)** — صياغة بنفي مزدوج تعكس المعنى (المقصود: إذا كان الماجستير من تخصص آخر)، وشرطا المعدل (3.00 أو 3.20) غير واضحين لمن ينطبق كل منهما
+- **متوسطة · صياغة/لغة · F-36** — صياغة بنفي مزدوج تعكس المعنى (المقصود: إذا كان الماجستير من تخصص آخر)، وشرطا المعدل (3.00 أو 3.20) غير واضحين لمن ينطبق كل منهما
   > Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA
   - المعالجة: إعادة صياغة الشرط بجدول واضح
   - الدليل: [C11-1](../content/shots/C11-1.jpg)
-- **متوسطة · ادعاء يحتاج تحقق · جديد (مقترح)** — اعتماد AACSB يُمنح للكلية/المؤسسة وليس لبرنامج منفرد، ونسبة 6% تخص عدد الكليات المعتمدة لا ترتيبًا («top»)
+- **متوسطة · ادعاء يحتاج تحقق · F-37** — اعتماد AACSB يُمنح للكلية/المؤسسة وليس لبرنامج منفرد، ونسبة 6% تخص عدد الكليات المعتمدة لا ترتيبًا («top»)
   > The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide.
   - المعالجة: صياغة دقيقة: «كلية إدارة الأعمال معتمدة من AACSB، وهو اعتماد تحمله أقل من 6% من كليات الأعمال عالميًا» بعد تأكيد الكلية
   - الدليل: [C11-2](../content/shots/C11-2.jpg)
@@ -238,7 +238,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx → الصف�
   > A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree
   - المعالجة: جدول تحويل موحّد
   - الدليل: [C12-1](../content/shots/C12-1.jpg)
-- **منخفضة · تعارض بين الصفحات · جديد (مقترح)** — الخبرة «من 3 إلى 5 سنوات» (هل تُستبعد 6 سنوات فأكثر؟) مقابل «several years» في الفقرة نفسها
+- **منخفضة · تعارض بين الصفحات · F-42** — الخبرة «من 3 إلى 5 سنوات» (هل تُستبعد 6 سنوات فأكثر؟) مقابل «several years» في الفقرة نفسها
   > Successful candidates should have from three to five years of professional work experience
   > Participants are required to have several years of work experience
   - المعالجة: صياغة «3 سنوات على الأقل»
@@ -257,7 +257,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx → الصفح
   > A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree
   - المعالجة: جدول تحويل موحّد
   - الدليل: [C13-1](../content/shots/C13-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — لا تذكر أي مستندات داعمة (توصيات، بيان غرض، سيرة ذاتية) خلافًا لبقية برامج الدراسات العليا — يحتاج تأكيد أنها غير مطلوبة فعلًا
+- **منخفضة · معلومة ناقصة · F-42** — لا تذكر أي مستندات داعمة (توصيات، بيان غرض، سيرة ذاتية) خلافًا لبقية برامج الدراسات العليا — يحتاج تأكيد أنها غير مطلوبة فعلًا
   - المعالجة: تأكيد القائمة من الكلية
 
 ### C14 — Admissions to the MSHD Program
@@ -268,11 +268,11 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx → الصف
 - بكالوريوس بمعدل 2.50 في تخصص ذي صلة
 - خطابا توصية + بيان غرض + مقابلة
 
-- **متوسطة · معلومة ناقصة · جديد (مقترح)** — عنوان «Work Experience» بلا أي شرط تحته (يليه مباشرة بند السيرة الذاتية)
+- **متوسطة · معلومة ناقصة · F-26** — عنوان «Work Experience» بلا أي شرط تحته (يليه مباشرة بند السيرة الذاتية)
   > Work Experience
   - المعالجة: تحديد شرط الخبرة أو حذف العنوان
   - الدليل: [C14-1](../content/shots/C14-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — لا تذكر عدد الساعات أو المدة (جدول الرسوم C21 يوحي بـ 42 ساعة: 50,000 ÷ 1,191)
+- **منخفضة · معلومة ناقصة · F-40** — لا تذكر عدد الساعات أو المدة (جدول الرسوم C21 يوحي بـ 42 ساعة: 50,000 ÷ 1,191)
   - المعالجة: إضافة بطاقة حقائق البرنامج
 
 ### C15 — Admissions to the MSME Program
@@ -298,7 +298,7 @@ https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx → الصفحة ا�
 - بكالوريوس هندسة (أي تخصص هندسي)
 - معدل 2.50
 
-- **منخفضة · متقادم · جديد (مقترح)** — صيغة المستقبل «will be offered» توحي بأن البرنامج لم يُطلق — هل هو متاح للقبول الآن؟
+- **منخفضة · متقادم · F-41** — صيغة المستقبل «will be offered» توحي بأن البرنامج لم يُطلق — هل هو متاح للقبول الآن؟
   > The program will be offered under the College of Engineering.
   - المعالجة: إظهار حالة البرنامج (متاح/غير متاح) وتحديث الصياغة
   - الدليل: [C16-1](../content/shots/C16-1.jpg)
@@ -316,7 +316,7 @@ https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx → الصفحة ا�
 - بكالوريوس هندسة مدنية
 - معدل 2.50
 
-- **منخفضة · متقادم · جديد (مقترح)** — كما في C16
+- **منخفضة · متقادم · F-41** — كما في C16
   > The program will be offered under the College of Engineering.
   - المعالجة: كما في C16
   - الدليل: [C17-1](../content/shots/C17-1.jpg)
@@ -333,7 +333,7 @@ https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx → الصفحة ا�
 - بكالوريوس تصميم داخلي
 - معدل 2.50
 
-- **منخفضة · متقادم · جديد (مقترح)** — النص التعريفي كله بصيغة المستقبل (will educate / will be to provide)
+- **منخفضة · متقادم · F-41** — النص التعريفي كله بصيغة المستقبل (will educate / will be to provide)
   > The Department of Interior Design at PMU will educate tomorrow’s interior design leaders
   - المعالجة: تحديث الصياغة
   - الدليل: [C18-1](../content/shots/C18-1.jpg)
@@ -372,7 +372,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx → الصف
 - IELTS 6.5
 - الأوزان: المعدل 50% + اختبار تحريري 30% + مقابلة 20%
 
-- **عالية · تعارض بين الصفحات · جديد (مقترح)** — البرنامج 36 ساعة (حسب C21)، و6 ساعات كحد أقصى لكل فصل تعني 6 فصول (3 سنوات) لا سنتين
+- **عالية · تعارض بين الصفحات · F-32** — البرنامج 36 ساعة (حسب C21)، و6 ساعات كحد أقصى لكل فصل تعني 6 فصول (3 سنوات) لا سنتين
   > Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)
   - المعالجة: تصحيح المدة أو الحد الأقصى للساعات
   - الدليل: [C20-1](../content/shots/C20-1.jpg)
@@ -380,7 +380,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx → الصف
   > 30% for the written test.
   - المعالجة: وصف الاختبار (المحتوى، الموعد، الحد الأدنى)
   - الدليل: [C20-2](../content/shots/C20-2.jpg)
-- **متوسطة · تعارض بين الصفحات · جديد (مقترح)** — IELTS 6.5 تُعادَل بـ TOEFL 83، بينما TOEFL 83 يُعادَل بـ IELTS 6.0 في بقية البرامج
+- **متوسطة · تعارض بين الصفحات · F-33** — IELTS 6.5 تُعادَل بـ TOEFL 83، بينما TOEFL 83 يُعادَل بـ IELTS 6.0 في بقية البرامج
   > minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall
   - المعالجة: توحيد جدول المعادلة
   - الدليل: [C20-3](../content/shots/C20-3.jpg)
@@ -388,7 +388,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx → الصف
   > A minimum (Very Good) in Bachelor’s Degree
   - المعالجة: ذكر المعدل الرقمي
   - الدليل: [C20-4](../content/shots/C20-4.jpg)
-- **منخفضة · متقادم · جديد (مقترح)** — عبارة مرتبطة بسنة 2025
+- **منخفضة · متقادم · F-41** — عبارة مرتبطة بسنة 2025
   > The year 2025 marks another milestone
   - المعالجة: صياغة غير مؤقتة
   - الدليل: [C20-5](../content/shots/C20-5.jpg)
@@ -441,7 +441,7 @@ https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx → الصف�
   > College of Medical Admissions
   - المعالجة: تصحيح
   - الدليل: [C23-2](../content/shots/C23-2.jpg)
-- **متوسطة · تعارض بين الصفحات · جديد (مقترح)** — هنا الزائر من جامعات «محلية أو دولية»، وفي C07 «international» فقط — يحتاج توضيح هل الزائر المحلي مقبول
+- **متوسطة · تعارض بين الصفحات · F-35** — هنا الزائر من جامعات «محلية أو دولية»، وفي C07 «international» فقط — يحتاج توضيح هل الزائر المحلي مقبول
   > Visiting students are students registered in other local or international recognized universities
   - المعالجة: توحيد التعريف
   - الدليل: [C23-3](../content/shots/C23-3.jpg)
@@ -470,7 +470,7 @@ https://pmu.edu.sa/admission/college_of_medicine_admission → الصفحة ال
   > Population Health (to be developed in launch phase)
   - المعالجة: إعادة كتابة الصفحة
   - الدليل: [C24-3](../content/shots/C24-3.jpg)
-- **متوسطة · صياغة/لغة · جديد (مقترح)** — وصف السنتين 1–2 مكتوب كقائمة «متطلبات سابقة» على النمط الأمريكي، لا كخطة دراسية في PMU
+- **متوسطة · صياغة/لغة · F-39** — وصف السنتين 1–2 مكتوب كقائمة «متطلبات سابقة» على النمط الأمريكي، لا كخطة دراسية في PMU
   > Biology: One full year (2 courses) of general biology with laboratory.
   - المعالجة: صياغة الخطة كما تُدرّس فعليًا
   - الدليل: [C24-4](../content/shots/C24-4.jpg)
@@ -491,7 +491,7 @@ https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx → ال�
 - رسوم 950 شاملة الضريبة
 - مقررات مهارات التعلّم حسب المستوى
 
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — الصفحة سليمة المحتوى عمومًا؛ لا تذكر مدة التحضيرية ولا تكلفتها
+- **منخفضة · معلومة ناقصة · F-40** — الصفحة سليمة المحتوى عمومًا؛ لا تذكر مدة التحضيرية ولا تكلفتها
   > If employed, a letter of no objection from the employer is required
   - المعالجة: إضافة المدة والتكلفة
   - الدليل: [C25-1](../content/shots/C25-1.jpg)
@@ -523,7 +523,7 @@ https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx → الصف
 - مراجعة المعادلة 5 أسابيع على الأقل
 - رسوم 950 شاملة الضريبة
 
-- **عالية · تعارض بين الصفحات · جديد (مقترح)** — رسوم المحوّل 950 شاملة الضريبة هنا، و500 غير شاملة في صفحة الدوليين (C07)
+- **عالية · تعارض بين الصفحات · F-31** — رسوم المحوّل 950 شاملة الضريبة هنا، و500 غير شاملة في صفحة الدوليين (C07)
   > Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents
   - المعالجة: قيمة واحدة لكل فئة
   - الدليل: [C27-1](../content/shots/C27-1.jpg)
@@ -540,11 +540,11 @@ https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx → الصفحة ا
 - موافقة الجامعة الأم + موافقة الكلية
 - رسوم 950 شاملة الضريبة
 
-- **عالية · تعارض بين الصفحات · جديد (مقترح)** — رسوم الزائر 950 شاملة هنا، و500 غير شاملة في C07
+- **عالية · تعارض بين الصفحات · F-31** — رسوم الزائر 950 شاملة هنا، و500 غير شاملة في C07
   > Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents
   - المعالجة: قيمة واحدة لكل فئة
   - الدليل: [C28-1](../content/shots/C28-1.jpg)
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — يطلب من طالب جامعي زائر شهادة الثانوية واختبار القدرات — يحتاج تأكيد الضرورة
+- **منخفضة · معلومة ناقصة · F-35** — يطلب من طالب جامعي زائر شهادة الثانوية واختبار القدرات — يحتاج تأكيد الضرورة
   > Copy of secondary school certificate or equivalent
   > Copy of General Aptitude Test score report (Qudrat) or equivalent (SAT 1) - if available
   - المعالجة: مراجعة قائمة المستندات
@@ -577,7 +577,7 @@ https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx → ال
 - تخصصي: ثانوي ≥85 (40%) + قدرات ≥65 (30%) + تحصيلي ≥65 (30%)
 - SAT 1 (1200) بديل التحصيلي
 
-- **متوسطة · تعارض بين الصفحات · جديد (مقترح)** — قائمة التخصصات ذات الشروط الخاصة هنا 7 تخصصات؛ صفحة SAT (C36) تضيف «Artificial Intelligence … etc.»، وقائمة البرامج (C02) فيها الهندسة الكيميائية والأمن السيبراني دون ذكر شروطهما
+- **متوسطة · تعارض بين الصفحات · F-34** — قائمة التخصصات ذات الشروط الخاصة هنا 7 تخصصات؛ صفحة SAT (C36) تضيف «Artificial Intelligence … etc.»، وقائمة البرامج (C02) فيها الهندسة الكيميائية والأمن السيبراني دون ذكر شروطهما
   > These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering.
   - المعالجة: قائمة مغلقة واحدة للتخصصات ذات الشروط الخاصة
   - الدليل: [C30-1](../content/shots/C30-1.jpg)
@@ -614,7 +614,7 @@ https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx → ا�
 
 - Aptis للتسكين، و IELTS/TOEFL للإعفاء
 
-- **منخفضة · معلومة ناقصة · جديد (مقترح)** — عبارة «PMU recognized» غير معرّفة؛ الصفحة تذكر IELTS و TOEFL فقط بينما C19 يقبل PTE
+- **منخفضة · معلومة ناقصة · F-33** — عبارة «PMU recognized» غير معرّفة؛ الصفحة تذكر IELTS و TOEFL فقط بينما C19 يقبل PTE
   > Candidates with PMU recognized proficiency English language test certificates
   - المعالجة: قائمة الاختبارات المعتمدة
   - الدليل: [C32-1](../content/shots/C32-1.jpg)
@@ -655,7 +655,7 @@ https://pmu.edu.sa/Admission/TOEFL-Admission.aspx → الصفحة المقتر�
 - رمز المؤسسة 6993
 - ✓ رمز ETS (6993) لم يُتحقق منه من مصدر ETS — يُنصح بتأكيده
 
-- **متوسطة · متقادم · F-04** — الجدول بمقياس 0–120 فقط؛ غيّرت ETS مقياس TOEFL iBT إلى 1–6 اعتبارًا من 21 يناير 2026 ولا توجد معادلة بالمقياس الجديد
+- **متوسطة · متقادم · F-04** — الجدول بمقياس 0–120 فقط؛ منذ 21 يناير 2026 تُصدر ETS نتائج TOEFL iBT بمقياس 1–6، ويُعرض المقياس المقارن 0–120 مؤقتًا حتى يناير 2028 فقط، ولا تذكر الصفحة حدودًا بالمقياس الجديد
   > TOEFL iBT Overall
   - المعالجة: إضافة عمود المقياس الجديد بعد اعتماد المعادلة
   - الدليل: [C35-1](../content/shots/C35-1.jpg)
@@ -669,7 +669,7 @@ https://pmu.edu.sa/Admission/SAT-Admission.aspx → الصفحة المقترح�
 - إعفاء من مقررات الرياضيات حسب درجة الرياضيات
 - رمز College Board 7647
 
-- **متوسطة · تعارض بين الصفحات · جديد (مقترح)** — قائمة مفتوحة («etc.») وتختلف عن C30
+- **متوسطة · تعارض بين الصفحات · F-34** — قائمة مفتوحة («etc.») وتختلف عن C30
   > These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Artificial Intelligence, Mechanical Engineering, Electrical Engineering and Civil Engineering etc.
   - المعالجة: قائمة مغلقة واحدة
   - الدليل: [C36-1](../content/shots/C36-1.jpg)

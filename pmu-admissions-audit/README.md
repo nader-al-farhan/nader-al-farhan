@@ -4,7 +4,8 @@ Evidence verified on **2026-09-27** across 72 live resources (phase 1 in Opera, 
 
 - **Main deliverable:** [`PMU-Admissions-Executive-Plan.html`](PMU-Admissions-Executive-Plan.html) (Arabic) and [`PMU-Admissions-Executive-Plan-EN.html`](PMU-Admissions-Executive-Plan-EN.html) (English).
 - **Admissions Hub prototype:** [`remediation/hub/admissions-hub-prototype.html`](remediation/hub/admissions-hub-prototype.html) (concept, bilingual). Single file, Arabic with English terms, print-ready, screenshots embedded.
-- Findings register: [`registers/findings-register.md`](registers/findings-register.md) — 30 findings: 4 Critical, 10 High, 11 Medium, 4 Low, 1 Enhancement, plus a self-correction log and verified passes.
+- **Content audit of the 36 Admissions Office links (English report):** [`remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.pdf`](remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.pdf) and its [Word version](remediation/linkaudit/content/report_en/PMU-Admissions-Content-Audit-EN.docx). The Arabic interactive edition is `remediation/linkaudit/content/PMU-Admissions-Content-Audit.html`.
+- Findings register: [`registers/findings-register.md`](registers/findings-register.md) — 45 findings: 4 Critical, 12 High, 18 Medium, 10 Low, 1 Enhancement, plus a self-correction log and verified passes. F-31 to F-45 were added on 2026-09-28 from the content audit. The executive plans (AR/EN) still cite the 2026-09-27 baseline of 30 findings.
 - Crawl coverage: [`registers/crawl-coverage.md`](registers/crawl-coverage.md)
 - Data-point matrix: [`registers/data-point-matrix.md`](registers/data-point-matrix.md)
 - External verification: [`evidence/external-verification.md`](evidence/external-verification.md)

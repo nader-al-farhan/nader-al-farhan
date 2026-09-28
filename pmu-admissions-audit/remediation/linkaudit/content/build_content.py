@@ -34,8 +34,9 @@ assert set(PAGES) == {x["id"] for x in ids}, set(x["id"] for x in ids) ^ set(PAG
 
 issues = [(k, n, i) for k, p in PAGES.items() for n, i in enumerate(p["issues"], 1)]
 sevc = Counter(i[0] for _, _, i in issues)
-newc = sum(1 for _, _, i in issues if i[5] == "NEW")
-refs = sorted({i[5] for _, _, i in issues if i[5] != "NEW"}, key=lambda r: int(r[2:]))
+isnew = lambda r: int(r[2:]) >= 31
+newc = sum(1 for _, _, i in issues if isnew(i[5]))
+refs = sorted({i[5] for _, _, i in issues}, key=lambda r: int(r[2:]))
 quotes = sum(len(i[2]) for _, _, i in issues)
 run_at = "2026-09-28"
 
@@ -66,7 +67,7 @@ def thumb(path, w=420):
 
 def issue_html(k, it):
     q = "".join(f'<blockquote dir="ltr" lang="en">{e(s)}</blockquote>' for s in it["quotes"])
-    ref = '<span class="tag new">جديد — مقترح</span>' if it["ref"] == "NEW" else f'<span class="tag ref">{it["ref"]}</span>'
+    ref = f'<span class="tag new">{it["ref"]} · أُضيفت 2026-09-28</span>' if isnew(it["ref"]) else f'<span class="tag ref">{it["ref"]}</span>'
     sh = ""
     if it["screenshot"]:
         sh = f'<a class="ev" href="{GH}{it["screenshot"]}" target="_blank" rel="noopener"><img loading="lazy" alt="دليل {k}-{it["n"]}" src="{thumb(it["screenshot"])}"><span>الدليل مظلّل — اضغط للحجم الكامل</span></a>'
@@ -140,7 +141,7 @@ blockquote{{margin:6px 0;background:var(--q);border-left:3px solid var(--mut);pa
 <div><b>36</b><span>رابطًا راجعتُ محتواها</span></div>
 <div><b>{len(issues)}</b><span>ملاحظة على المحتوى</span></div>
 <div><b style="color:var(--H)">{sevc["H"]}</b><span>عالية</span></div><div><b style="color:var(--M)">{sevc["M"]}</b><span>متوسطة</span></div><div><b style="color:var(--L)">{sevc["L"]}</b><span>منخفضة</span></div>
-<div><b>{newc}</b><span>جديدة (مقترحة)</span></div><div><b>{quotes}</b><span>اقتباسًا حرفيًا تحققت منها آليًا</span></div>
+<div><b>{newc}</b><span>أُضيفت للسجل (F-31–F-45)</span></div><div><b>{quotes}</b><span>اقتباسًا حرفيًا تحققت منها آليًا</span></div>
 </div>
 
 <h2>القرارات ذات الأولوية (الملاحظات العالية)</h2>
@@ -166,7 +167,7 @@ blockquote{{margin:6px 0;background:var(--q);border-left:3px solid var(--mut);pa
 <li>C04 (قائمة موظفين) لم يُنسخ محتواها لأنها أسماء أشخاص. C06/C08 بوابة التقديم (تطبيق JavaScript) لم تُعرض بهذه الطريقة.</li>
 <li>تعليمات دفع ببيانات بنكية موجودة في كود C07 مخفية عن الزائر؛ لم تُنسخ في أي ملف.</li>
 <li>اعتماد AACSB: مصدر التحقق <a href="https://www.aacsb.edu/educators/accreditation/value-of-accreditation">{ltr("aacsb.edu — Value of Accreditation")}</a> (الاعتماد مؤسسي، وأقل من 6% من كليات الأعمال عالميًا). لم أتحقق من اعتماد كلية PMU نفسها ولا من رمزي ETS (6993) و College Board (7647).</li>
-<li>«جديد — مقترح» = ملاحظة غير موجودة في سجل الملاحظات؛ لا تُضاف إليه إلا بقرار صاحب التدقيق.</li>
+<li>بموافقة صاحب التدقيق (2026-09-28) أُضيفت الملاحظات الجديدة الـ31 إلى سجل الملاحظات مجمّعةً في 15 ملاحظة (F-31–F-45)، وضُمّت ملاحظة «Work Experience» الفارغة إلى F-26.</li>
 </ul>
 </div>
 <script>
@@ -180,7 +181,7 @@ document.querySelectorAll(".flt button").forEach(b=>b.onclick=()=>{{const f=b.da
 # ---------- Markdown ----------
 md = [f"# تدقيق محتوى صفحة Admissions Office — الروابط الـ36 ({run_at})", "",
       "النطاق: محتوى الصفحات (بيانات، شروط، أرقام، تواريخ) — لا الجوانب التقنية. كل اقتباس حرفي ومتحقق منه آليًا.", "",
-      f"- ملاحظات: **{len(issues)}** (عالية {sevc['H']} · متوسطة {sevc['M']} · منخفضة {sevc['L']}) — جديدة مقترحة: {newc}", f"- اقتباسات حرفية: {quotes}", "",
+      f"- ملاحظات: **{len(issues)}** (عالية {sevc['H']} · متوسطة {sevc['M']} · منخفضة {sevc['L']}) — أُضيفت للسجل: {newc} (F-31–F-45)", f"- اقتباسات حرفية: {quotes}", "",
       "## المعلومة نفسها بقيم مختلفة", "", "| المعلومة | القيم | الخطورة | المرجع |", "|---|---|---|---|"]
 md += [f"| {t} | " + "<br>".join(f"{w}: {v}" for w, v in vals) + f" | {SEV[s]} | {r} |" for t, vals, s, r in MATRIX]
 md += ["", "## الروابط", ""]
@@ -188,7 +189,7 @@ for r in rows:
     md += [f"### {r['id']} — {r['label']}", f"{r['url']} → الصفحة المقترحة: {r['proposed_page']['title']} (`{r['proposed_page']['path']}`)", "", f"**الغرض:** {r['purpose']}", ""]
     md += [f"- {d}" for d in r["key_data"]] + [f"- ✓ {v}" for v in r["verified"]] + [""]
     for it in r["issues"]:
-        md += [f"- **{SEV[it['severity']]} · {KIND[it['kind']]} · {'جديد (مقترح)' if it['ref'] == 'NEW' else it['ref']}** — {it['note']}"]
+        md += [f"- **{SEV[it['severity']]} · {KIND[it['kind']]} · {it['ref']}** — {it['note']}"]
         md += [f"  > {q}" for q in it["quotes"]]
         md += [f"  - المعالجة: {it['action']}"] + ([f"  - الدليل: [{r['id']}-{it['n']}](../{it['screenshot']})"] if it["screenshot"] else [])
     md.append("")
