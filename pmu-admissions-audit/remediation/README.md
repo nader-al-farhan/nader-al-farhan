@@ -10,6 +10,7 @@ This folder holds everything the project needs that does not depend on an instit
 | `legacy/redirect-map.csv` | 15 legacy URLs, each with its risk, replacement, lifecycle action and verification method | WS5, gate G6 |
 | `verification/` | `drift_check.py` G3 verifier (live or fixtures), `checks.json`, unit tests (5/5 pass), baseline report, live report 2026-09-27, `dom_probe.js` (G5 rendered DOM baseline), `static_probe.py` (static-HTML cross-check) | WS6, gates G3/G7 |
 | `hub/` | Admissions Hub → Applicant Journey concept prototype (bilingual, built from the canonical record; decision simulator; grounded assistant; standards alignment) | WS3/WS4, gates G4/G5 |
+| `blueprint/` | UX / IA Blueprint: sitemap, legacy link map, live templates, journeys, routing engine with tests (`build_blueprint.py`) | WS3, WS4, gates G4/G5/G6 |
 | `closure/gate-tracker.md` | G0–G7 status with evidence | Steering committee |
 
 Run the verifier against the live site from any network that can reach pmu.edu.sa:

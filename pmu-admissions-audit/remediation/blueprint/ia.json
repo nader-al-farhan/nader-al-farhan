@@ -1,0 +1,2188 @@
+{
+ "generated_from": "make_ia.py",
+ "verified": "2026-09-28",
+ "sitemap": [
+  {
+   "id": "home",
+   "parent": null,
+   "path": "/admissions",
+   "t": {
+    "ar": "القبول",
+    "en": "Admissions"
+   },
+   "type": "hub",
+   "does": {
+    "ar": "شريط حالة الدورة، و«من أنت؟» بستة مسارات، وأربعة إجراءات سريعة، والتواصل",
+    "en": "Cycle-status bar, “Who are you?” with six routes, four quick actions, contact"
+   },
+   "feeds": [
+    "intake_status",
+    "application_channel",
+    "contacts"
+   ],
+   "replaces": [
+    "P01",
+    "P23"
+   ],
+   "fixes": [
+    "F-15",
+    "F-08",
+    "F-11"
+   ]
+  },
+  {
+   "id": "ug",
+   "parent": "home",
+   "path": "/admissions/undergraduate",
+   "t": {
+    "ar": "البكالوريوس",
+    "en": "Undergraduate"
+   },
+   "type": "section",
+   "does": {
+    "ar": "اختيار المسار الجامعي ومقارنة سريعة بين المسارات",
+    "en": "Choose the undergraduate route, with a short comparison"
+   },
+   "feeds": [],
+   "replaces": [
+    "P02"
+   ],
+   "fixes": [
+    "F-15"
+   ]
+  },
+  {
+   "id": "ug_hs",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/high-school",
+   "t": {
+    "ar": "خريج الثانوية في المملكة",
+    "en": "High-school graduate in KSA"
+   },
+   "type": "route",
+   "does": {
+    "ar": "صفحة مسار واحدة تدمج Freshman وDirect ومتطلبات التخصصات، وتعرض المكوّنات الستة",
+    "en": "One route page merging Freshman, Direct and major requirements; shows the six components"
+   },
+   "feeds": [
+    "hs_gpa_min",
+    "gat_min",
+    "tahseely_rule",
+    "composite_formula",
+    "composite_minimum",
+    "english_ug_direct",
+    "test_validity",
+    "application_fee",
+    "tuition_ug",
+    "vat_statement",
+    "required_documents",
+    "application_channel"
+   ],
+   "replaces": [
+    "P03",
+    "P04",
+    "P19",
+    "P20"
+   ],
+   "fixes": [
+    "F-01",
+    "F-04",
+    "F-05",
+    "F-09",
+    "F-13",
+    "F-18"
+   ]
+  },
+  {
+   "id": "ug_intl",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/international",
+   "t": {
+    "ar": "طالب دولي دون إقامة",
+    "en": "International (no Saudi residence)"
+   },
+   "type": "route",
+   "does": {
+    "ar": "المسار الدولي مع قناة «ادرس في السعودية» ومعادلة الشهادات",
+    "en": "International route with Study in Saudi and certificate equivalency"
+   },
+   "feeds": [
+    "hs_gpa_min",
+    "tahseely_rule",
+    "english_ug_direct",
+    "application_fee",
+    "tuition_ug",
+    "vat_statement",
+    "required_documents",
+    "application_channel"
+   ],
+   "replaces": [
+    "P18",
+    "P52"
+   ],
+   "fixes": [
+    "F-02",
+    "F-05"
+   ]
+  },
+  {
+   "id": "ug_transfer",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/transfer",
+   "t": {
+    "ar": "التحويل من جامعة أخرى",
+    "en": "Transfer from another university"
+   },
+   "type": "route",
+   "does": {
+    "ar": "شروط التحويل ومعادلة المواد في صفحة واحدة",
+    "en": "Transfer conditions and credit transfer on one page"
+   },
+   "feeds": [
+    "english_ug_direct",
+    "application_fee",
+    "tuition_ug",
+    "required_documents",
+    "application_channel"
+   ],
+   "replaces": [
+    "P17",
+    "P62"
+   ],
+   "fixes": [
+    "F-02",
+    "F-16"
+   ]
+  },
+  {
+   "id": "ug_med",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/medicine",
+   "t": {
+    "ar": "كلية الطب",
+    "en": "College of Medicine"
+   },
+   "type": "route",
+   "does": {
+    "ar": "الشروط والمعادلة والمدة والتكلفة الإجمالية وحجز المقعد في مكان واحد",
+    "en": "Requirements, formula, duration, total cost and seat reservation in one place"
+   },
+   "feeds": [
+    "composite_minimum",
+    "tahseely_rule",
+    "application_fee",
+    "tuition_medicine",
+    "refund_policy",
+    "application_channel",
+    "required_documents"
+   ],
+   "replaces": [
+    "P09",
+    "P12"
+   ],
+   "fixes": [
+    "F-03",
+    "F-07",
+    "F-20",
+    "F-23"
+   ]
+  },
+  {
+   "id": "ug_prep",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/preparatory",
+   "t": {
+    "ar": "السنة التحضيرية",
+    "en": "Preparatory Program"
+   },
+   "type": "route",
+   "does": {
+    "ar": "القبول في التحضيرية والانتقال منها إلى البكالوريوس",
+    "en": "Admission to Prep and progression to the degree"
+   },
+   "feeds": [
+    "english_ug_direct",
+    "test_validity",
+    "tuition_ug"
+   ],
+   "replaces": [
+    "P25",
+    "P26"
+   ],
+   "fixes": [
+    "F-26",
+    "F-28"
+   ]
+  },
+  {
+   "id": "ug_visit",
+   "parent": "ug",
+   "path": "/admissions/undergraduate/visiting",
+   "t": {
+    "ar": "طالب زائر",
+    "en": "Visiting student"
+   },
+   "type": "route",
+   "does": {
+    "ar": "شروط الزيارة والمدة والرسوم",
+    "en": "Visiting conditions, duration and fees"
+   },
+   "feeds": [
+    "english_ug_direct",
+    "application_fee",
+    "application_channel"
+   ],
+   "replaces": [
+    "P27"
+   ],
+   "fixes": [
+    "F-17",
+    "F-16"
+   ]
+  },
+  {
+   "id": "grad",
+   "parent": "home",
+   "path": "/admissions/graduate",
+   "t": {
+    "ar": "الدراسات العليا",
+    "en": "Graduate"
+   },
+   "type": "section",
+   "does": {
+    "ar": "قائمة البرامج من سجل البرامج الموحّد، مع مقارنة الشروط والرسوم",
+    "en": "Programme list from the single programme register, with requirements and fees compared"
+   },
+   "feeds": [
+    "programme_register",
+    "english_grad",
+    "application_fee"
+   ],
+   "replaces": [
+    "P33"
+   ],
+   "fixes": [
+    "F-25"
+   ]
+  },
+  {
+   "id": "grad_prog",
+   "parent": "grad",
+   "path": "/admissions/graduate/{programme}",
+   "t": {
+    "ar": "صفحة البرنامج (قالب واحد × 11)",
+    "en": "Programme page (one template × 11)"
+   },
+   "type": "template",
+   "does": {
+    "ar": "قالب واحد لكل برامج الدراسات العليا؛ لا قسم فارغ يُنشر",
+    "en": "One template for all graduate programmes; no empty section can be published"
+   },
+   "feeds": [
+    "english_grad",
+    "application_fee",
+    "programme_register",
+    "required_documents"
+   ],
+   "replaces": [
+    "P34",
+    "P35",
+    "P36",
+    "P37",
+    "P38",
+    "P39",
+    "P40",
+    "P41",
+    "P42",
+    "P43",
+    "P44"
+   ],
+   "fixes": [
+    "F-21",
+    "F-26",
+    "F-27"
+   ]
+  },
+  {
+   "id": "req",
+   "parent": "home",
+   "path": "/admissions/requirements/english-and-tests",
+   "t": {
+    "ar": "الإنجليزية والاختبارات",
+    "en": "English & tests"
+   },
+   "type": "reference",
+   "does": {
+    "ar": "جدول واحد لـIELTS وTOEFL (0–120 و1–6) وAptis وSAT مع الصلاحية",
+    "en": "One table for IELTS, TOEFL (0–120 and 1–6), Aptis and SAT, with validity"
+   },
+   "feeds": [
+    "english_ug_direct",
+    "english_grad",
+    "test_validity",
+    "tahseely_rule",
+    "placement_fee"
+   ],
+   "replaces": [
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P28",
+    "P71"
+   ],
+   "fixes": [
+    "F-04",
+    "F-05",
+    "F-06",
+    "F-18"
+   ]
+  },
+  {
+   "id": "costs",
+   "parent": "home",
+   "path": "/admissions/costs",
+   "t": {
+    "ar": "التكاليف والمنح",
+    "en": "Costs & scholarships"
+   },
+   "type": "reference",
+   "does": {
+    "ar": "الرسوم للدورة الحالية فقط، والضريبة، والاسترداد، وطرق الدفع، والمنح؛ الجداول السابقة في الأرشيف",
+    "en": "Current-cycle fees only, VAT, refunds, payment and scholarships; previous tables in the archive"
+   },
+   "feeds": [
+    "tuition_ug",
+    "tuition_medicine",
+    "vat_statement",
+    "application_fee",
+    "placement_fee",
+    "refund_policy"
+   ],
+   "replaces": [
+    "P10",
+    "P11",
+    "P13",
+    "P31",
+    "P45",
+    "P46",
+    "P47",
+    "P48",
+    "P49",
+    "P50",
+    "P51",
+    "P57",
+    "P58",
+    "P59"
+   ],
+   "fixes": [
+    "F-10",
+    "F-22",
+    "F-06"
+   ]
+  },
+  {
+   "id": "dates",
+   "parent": "home",
+   "path": "/admissions/dates",
+   "t": {
+    "ar": "المواعيد وحالة الدورة",
+    "en": "Dates & cycle status"
+   },
+   "type": "reference",
+   "does": {
+    "ar": "الدورة الحالية والقادمة، مفتوحة أو مغلقة، وآخر موعد لكل فئة",
+    "en": "Current and next cycle, open or closed, and the deadline per category"
+   },
+   "feeds": [
+    "intake_status",
+    "application_channel"
+   ],
+   "replaces": [
+    "P14",
+    "P32",
+    "P56",
+    "P65"
+   ],
+   "fixes": [
+    "F-08",
+    "F-12"
+   ]
+  },
+  {
+   "id": "apply",
+   "parent": "home",
+   "path": "/admissions/apply",
+   "t": {
+    "ar": "قدّم الآن (موجّه القنوات)",
+    "en": "Apply now (channel router)"
+   },
+   "type": "router",
+   "does": {
+    "ar": "سؤالان على الأكثر ثم القناة الصحيحة لفئتك؛ يستبدل كل روابط التقديم الحالية",
+    "en": "At most two questions, then the right channel for your category; replaces every current apply link"
+   },
+   "feeds": [
+    "application_channel",
+    "intake_status"
+   ],
+   "replaces": [
+    "P53",
+    "P16",
+    "P15"
+   ],
+   "fixes": [
+    "F-02",
+    "F-08",
+    "F-16",
+    "F-24"
+   ]
+  },
+  {
+   "id": "programs",
+   "parent": "home",
+   "path": "/admissions/programs",
+   "t": {
+    "ar": "دليل البرامج",
+    "en": "Programme finder"
+   },
+   "type": "reference",
+   "does": {
+    "ar": "البرامج النشطة فقط من سجل البرامج الموحّد، مرتبطة بشروطها ورسومها",
+    "en": "Active programmes only, from the single register, linked to requirements and fees"
+   },
+   "feeds": [
+    "programme_register"
+   ],
+   "replaces": [
+    "P24",
+    "P61",
+    "P60"
+   ],
+   "fixes": [
+    "F-25"
+   ]
+  },
+  {
+   "id": "contact",
+   "parent": "home",
+   "path": "/admissions/contact",
+   "t": {
+    "ar": "التواصل والاستفسار",
+    "en": "Contact & enquiries"
+   },
+   "type": "reference",
+   "does": {
+    "ar": "بريد وهاتف بأسماء أدوار، وساعات العمل، ونموذج الاستفسار مع زمن الرد",
+    "en": "Role mailboxes and phone, hours, and the enquiry form with a response time"
+   },
+   "feeds": [
+    "contacts"
+   ],
+   "replaces": [
+    "P29",
+    "P30",
+    "P63",
+    "P64"
+   ],
+   "fixes": [
+    "F-11"
+   ]
+  },
+  {
+   "id": "archive",
+   "parent": "home",
+   "path": "/admissions/archive",
+   "t": {
+    "ar": "الأرشيف (غير مفهرس)",
+    "en": "Archive (noindex)"
+   },
+   "type": "archive",
+   "does": {
+    "ar": "قواعد وجداول الدورات السابقة بلافتة «للمقبولين في…»",
+    "en": "Previous-cycle rules and tables, bannered “for students admitted in…”"
+   },
+   "feeds": [],
+   "replaces": [
+    "P20",
+    "P32",
+    "P46",
+    "P47",
+    "P55",
+    "P66",
+    "P72"
+   ],
+   "fixes": [
+    "F-12",
+    "F-24"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Overview",
+   "url": "../Admission/Future_Students_RO.aspx",
+   "page": "P23",
+   "to": "home",
+   "action": "merge",
+   "findings": [
+    "F-15"
+   ],
+   "note": {
+    "ar": "نص تسويقي عام يُدمج في مقدمة الصفحة الرئيسية",
+    "en": "Generic marketing text merged into the home intro"
+   }
+  },
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Degrees & Programs",
+   "url": "../Admission/Degrees_Programs_FS_RO.aspx",
+   "page": "P24",
+   "to": "programs",
+   "action": "rebuild",
+   "findings": [
+    "F-25"
+   ],
+   "note": {
+    "ar": "يُعاد بناؤه من سجل البرامج الموحّد",
+    "en": "Rebuilt from the single programme register"
+   }
+  },
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Admissions Calendar",
+   "url": "../Admission/Admission_Calendar_FS_RO.aspx",
+   "page": "P14",
+   "to": "dates",
+   "action": "move",
+   "findings": [
+    "F-08",
+    "F-02"
+   ],
+   "note": {
+    "ar": "يصبح صفحة المواعيد، وتُغذّى حالة الدورة من السجل",
+    "en": "Becomes the dates page; cycle status fed by the record"
+   }
+  },
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Contact Us",
+   "url": "../Staff_Profile/Staff_List.aspx?&DEpt=4",
+   "page": "P63",
+   "to": "contact",
+   "action": "replace",
+   "findings": [
+    "F-11"
+   ],
+   "note": {
+    "ar": "قائمة موظفين لقسم آخر تُستبدل ببريد أدوار",
+    "en": "A staff list for another department, replaced by role mailboxes"
+   }
+  },
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Admission Query",
+   "url": "../Admission/admissions_queries",
+   "page": "P29",
+   "to": "contact",
+   "action": "move",
+   "findings": [],
+   "note": {
+    "ar": "ينتقل إلى صفحة التواصل مع زمن رد معلن",
+    "en": "Moves to the contact page with a stated response time"
+   }
+  },
+  {
+   "group": {
+    "ar": "الطلاب الجدد",
+    "en": "Future Students"
+   },
+   "label": "Apply Now",
+   "url": "https://www.pmu.edu.sa/apply",
+   "page": "P53",
+   "to": "apply",
+   "action": "replace",
+   "findings": [
+    "F-02"
+   ],
+   "note": {
+    "ar": "يُستبدل بموجّه القنوات",
+    "en": "Replaced by the channel router"
+   }
+  },
+  {
+   "group": {
+    "ar": "مكتب الطلاب الدوليين",
+    "en": "International Students’ Office"
+   },
+   "label": "International Students without Saudi Residence",
+   "url": "../Admission/International_Students.aspx",
+   "page": "P18",
+   "to": "ug_intl",
+   "action": "rewrite",
+   "findings": [
+    "F-02",
+    "F-05"
+   ],
+   "note": {
+    "ar": "إعادة كتابة: SAT II متوقف، والقناة متعارضة مع التقويم",
+    "en": "Rewrite: SAT II is discontinued and the channel conflicts with the calendar"
+   }
+  },
+  {
+   "group": {
+    "ar": "مكتب الطلاب الدوليين",
+    "en": "International Students’ Office"
+   },
+   "label": "Apply",
+   "url": "https://www.pmu.edu.sa/apply",
+   "page": "P53",
+   "to": "apply",
+   "action": "replace",
+   "findings": [
+    "F-02"
+   ],
+   "note": {
+    "ar": "موجّه القنوات بالمسار الدولي محدّدًا مسبقًا",
+    "en": "Router with the international route preselected"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Home",
+   "url": "../Admission/Admission_Graduate_Degree_Programs.aspx",
+   "page": "P33",
+   "to": "grad",
+   "action": "move",
+   "findings": [
+    "F-25"
+   ],
+   "note": {
+    "ar": "صفحة قسم الدراسات العليا",
+    "en": "Graduate section page"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the PhD in Mechanical Engineering",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P34",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the PhD in Business Administration",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P35",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-26"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the EMBA",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P36",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-26"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MBA",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P37",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-27"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MSHD",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P38",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MSME",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P39",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-26"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MSEE",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P40",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-27"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MSCE",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P41",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-27"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MSID",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P42",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-27"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the EMGMS",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P43",
+   "to": "grad_prog",
+   "action": "rewrite",
+   "findings": [
+    "F-21"
+   ],
+   "note": {
+    "ar": "سحب فوري ثم إعادة كتابة (نص جامعة أخرى)",
+    "en": "Withdraw now, then rewrite (another university’s text)"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Admissions to the MIBL",
+   "url": "../Admission/…_GDP.aspx",
+   "page": "P44",
+   "to": "grad_prog",
+   "action": "template",
+   "findings": [
+    "F-26",
+    "F-17"
+   ],
+   "note": {
+    "ar": "ينتقل إلى قالب البرنامج الموحّد",
+    "en": "Moves to the single programme template"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Tuition & Fees",
+   "url": "../Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "page": "P45",
+   "to": "costs",
+   "action": "merge",
+   "findings": [],
+   "note": {
+    "ar": "قسم الدراسات العليا في صفحة التكاليف",
+    "en": "Graduate section of the costs page"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للدراسات العليا",
+    "en": "Graduate Admissions"
+   },
+   "label": "Contact Info",
+   "url": "../Admission/Admission_Contact_GDP.aspx",
+   "page": "P30",
+   "to": "contact",
+   "action": "merge",
+   "findings": [
+    "F-11"
+   ],
+   "note": {
+    "ar": "بريد الدراسات العليا الوظيفي في صفحة التواصل",
+    "en": "Graduate role mailbox on the contact page"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Home",
+   "url": "../Admission/Undergraduate_Programs_Admission.aspx",
+   "page": "P02",
+   "to": "ug",
+   "action": "move",
+   "findings": [],
+   "note": {
+    "ar": "صفحة قسم البكالوريوس",
+    "en": "Undergraduate section page"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Admission to the College of Medicine",
+   "url": "../admission/college_of_medicine_admission",
+   "page": "P09",
+   "to": "ug_med",
+   "action": "rewrite",
+   "findings": [
+    "F-03",
+    "F-07",
+    "F-20",
+    "F-23"
+   ],
+   "note": {
+    "ar": "إعادة كتابة بعد القرارين D5 وD10",
+    "en": "Rewrite after decisions D5 and D10"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Admissions to the Preparatory Program",
+   "url": "../Admission/Admission-to-the-Preparatory-Program.aspx",
+   "page": "P25",
+   "to": "ug_prep",
+   "action": "rewrite",
+   "findings": [
+    "F-26"
+   ],
+   "note": {
+    "ar": "أقسام فارغة تُعبّأ من السجل",
+    "en": "Empty sections filled from the record"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Direct Admissions from Secondary School",
+   "url": "../Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "page": "P04",
+   "to": "ug_hs",
+   "action": "merge",
+   "findings": [
+    "F-01",
+    "F-04"
+   ],
+   "note": {
+    "ar": "يُدمج مع Freshman في مسار واحد",
+    "en": "Merged with Freshman into one route"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Admissions from Other Universities",
+   "url": "../Admission/Admission-from-Other-Universities.aspx",
+   "page": "P17",
+   "to": "ug_transfer",
+   "action": "move",
+   "findings": [
+    "F-16"
+   ],
+   "note": {
+    "ar": "مع سياسة التحويل (P62) ورابط HTTPS",
+    "en": "With the transfer policy (P62) and an HTTPS link"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Visting Students",
+   "url": "../Admission/Visiting-Student-Admission.aspx",
+   "page": "P27",
+   "to": "ug_visit",
+   "action": "move",
+   "findings": [
+    "F-17"
+   ],
+   "note": {
+    "ar": "تصحيح الإملاء «Visiting»",
+    "en": "Spelling fixed to “Visiting”"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Admissions from the Preparatory Program",
+   "url": "../Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "page": "P26",
+   "to": "ug_prep",
+   "action": "merge",
+   "findings": [
+    "F-28"
+   ],
+   "note": {
+    "ar": "قسم «الانتقال إلى البكالوريوس»",
+    "en": "“Progression to the degree” section"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Computer Science and Engineering Majors Admission Requirements",
+   "url": "../Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "page": "P19",
+   "to": "ug_hs",
+   "action": "merge",
+   "findings": [
+    "F-01",
+    "F-05"
+   ],
+   "note": {
+    "ar": "مكوّن «شروط التخصص» داخل المسار",
+    "en": "“Major requirements” component inside the route"
+   }
+  },
+  {
+   "group": {
+    "ar": "القبول للبكالوريوس",
+    "en": "Undergraduate Admissions"
+   },
+   "label": "Tuition & Fees",
+   "url": "../Admission/Fees_TF_RO.aspx",
+   "page": "P10",
+   "to": "costs",
+   "action": "merge",
+   "findings": [
+    "F-10"
+   ],
+   "note": {
+    "ar": "الدورة الحالية فقط؛ السابقة إلى الأرشيف",
+    "en": "Current cycle only; previous ones to the archive"
+   }
+  },
+  {
+   "group": {
+    "ar": "اختبارات تحديد المستوى",
+    "en": "Undergraduate Placement Tests"
+   },
+   "label": "Overview",
+   "url": "../Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "page": "P05",
+   "to": "req",
+   "action": "merge",
+   "findings": [],
+   "note": {
+    "ar": "مقدمة صفحة الإنجليزية والاختبارات",
+    "en": "Intro of the English & tests page"
+   }
+  },
+  {
+   "group": {
+    "ar": "اختبارات تحديد المستوى",
+    "en": "Undergraduate Placement Tests"
+   },
+   "label": "Aptis",
+   "url": "../Admission/Aptis-Placement-Test.aspx",
+   "page": "P08",
+   "to": "req",
+   "action": "merge",
+   "findings": [
+    "F-12"
+   ],
+   "note": {
+    "ar": "مع استبدال دليل 2017",
+    "en": "With the 2017 guide replaced"
+   }
+  },
+  {
+   "group": {
+    "ar": "اختبارات تحديد المستوى",
+    "en": "Undergraduate Placement Tests"
+   },
+   "label": "IELTS",
+   "url": "../Admission/IELTS-Admission.aspx",
+   "page": "P06",
+   "to": "req",
+   "action": "merge",
+   "findings": [
+    "F-04",
+    "F-18"
+   ],
+   "note": {
+    "ar": "صف في الجدول الموحّد",
+    "en": "A row in the single table"
+   }
+  },
+  {
+   "group": {
+    "ar": "اختبارات تحديد المستوى",
+    "en": "Undergraduate Placement Tests"
+   },
+   "label": "TOEFL",
+   "url": "../Admission/TOEFL-Admission.aspx",
+   "page": "P07",
+   "to": "req",
+   "action": "merge",
+   "findings": [
+    "F-04"
+   ],
+   "note": {
+    "ar": "مع سلّم 1–6 (X01)",
+    "en": "With the 1–6 scale (X01)"
+   }
+  },
+  {
+   "group": {
+    "ar": "اختبارات تحديد المستوى",
+    "en": "Undergraduate Placement Tests"
+   },
+   "label": "Scholastic Aptitude Test (SAT)",
+   "url": "../Admission/SAT-Admission.aspx",
+   "page": "P28",
+   "to": "req",
+   "action": "merge",
+   "findings": [
+    "F-05"
+   ],
+   "note": {
+    "ar": "مكافئ التحصيلي بعد القرار D3",
+    "en": "Tahseely equivalent after decision D3"
+   }
+  }
+ ],
+ "routes": [
+  {
+   "id": "saudi_hs",
+   "node": "ug_hs",
+   "icon": "🎓",
+   "t": {
+    "ar": "خريج ثانوية في المملكة",
+    "en": "High-school graduate in KSA"
+   },
+   "sub": {
+    "ar": "سعودي أو مقيم",
+    "en": "Saudi or resident"
+   },
+   "preset": {
+    "level": "ug",
+    "ug_type": "hs"
+   }
+  },
+  {
+   "id": "international",
+   "node": "ug_intl",
+   "icon": "🌍",
+   "t": {
+    "ar": "طالب دولي",
+    "en": "International student"
+   },
+   "sub": {
+    "ar": "دون إقامة في المملكة",
+    "en": "No Saudi residence"
+   },
+   "preset": {
+    "level": "ug",
+    "ug_type": "hs",
+    "residency": "intl"
+   }
+  },
+  {
+   "id": "transfer",
+   "node": "ug_transfer",
+   "icon": "🔁",
+   "t": {
+    "ar": "محوّل من جامعة أخرى",
+    "en": "Transfer student"
+   },
+   "sub": {
+    "ar": "معادلة المواد",
+    "en": "Credit transfer"
+   },
+   "preset": {
+    "level": "ug",
+    "ug_type": "transfer"
+   }
+  },
+  {
+   "id": "medicine",
+   "node": "ug_med",
+   "icon": "🩺",
+   "t": {
+    "ar": "كلية الطب",
+    "en": "College of Medicine"
+   },
+   "sub": {
+    "ar": "مسار خاص",
+    "en": "Dedicated route"
+   },
+   "preset": {
+    "level": "ug",
+    "ug_type": "hs",
+    "program": "medicine"
+   }
+  },
+  {
+   "id": "graduate",
+   "node": "grad",
+   "icon": "📚",
+   "t": {
+    "ar": "الدراسات العليا",
+    "en": "Graduate studies"
+   },
+   "sub": {
+    "ar": "ماجستير ودكتوراه",
+    "en": "Master’s and doctorate"
+   },
+   "preset": {
+    "level": "grad"
+   }
+  },
+  {
+   "id": "visiting",
+   "node": "ug_visit",
+   "icon": "🧭",
+   "t": {
+    "ar": "طالب زائر",
+    "en": "Visiting student"
+   },
+   "sub": {
+    "ar": "فصل أو أكثر",
+    "en": "One term or more"
+   },
+   "preset": {
+    "level": "visiting"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "level",
+   "q": {
+    "ar": "ما المرحلة؟",
+    "en": "Which level?"
+   },
+   "opts": [
+    [
+     "ug",
+     {
+      "ar": "بكالوريوس",
+      "en": "Undergraduate"
+     }
+    ],
+    [
+     "grad",
+     {
+      "ar": "دراسات عليا",
+      "en": "Graduate"
+     }
+    ],
+    [
+     "visiting",
+     {
+      "ar": "زائر",
+      "en": "Visiting"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "ug_type",
+   "when": {
+    "level": "ug"
+   },
+   "q": {
+    "ar": "ما وضعك؟",
+    "en": "Your situation?"
+   },
+   "opts": [
+    [
+     "hs",
+     {
+      "ar": "خريج ثانوية",
+      "en": "High-school graduate"
+     }
+    ],
+    [
+     "transfer",
+     {
+      "ar": "محوّل من جامعة",
+      "en": "Transfer"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "residency",
+   "when": {
+    "level": "ug",
+    "ug_type": "hs"
+   },
+   "q": {
+    "ar": "الجنسية والإقامة",
+    "en": "Nationality and residence"
+   },
+   "opts": [
+    [
+     "saudi",
+     {
+      "ar": "سعودي",
+      "en": "Saudi"
+     }
+    ],
+    [
+     "resident",
+     {
+      "ar": "غير سعودي مقيم (إقامة)",
+      "en": "Non-Saudi resident (Iqama)"
+     }
+    ],
+    [
+     "intl",
+     {
+      "ar": "غير سعودي دون إقامة",
+      "en": "Non-Saudi, no residence"
+     }
+    ]
+   ]
+  }
+ ],
+ "channels": {
+  "qabool": {
+   "t": {
+    "ar": "منصة «قبول» الوطنية",
+    "en": "National Qabool platform"
+   },
+   "url": "https://www.uap.sa/",
+   "owner": "MoE"
+  },
+  "sis": {
+   "t": {
+    "ar": "منصة «ادرس في السعودية»",
+    "en": "Study in Saudi platform"
+   },
+   "url": "https://studyinsaudi.sa/",
+   "owner": "MoE"
+  },
+  "portal": {
+   "t": {
+    "ar": "بوابة التقديم في الجامعة",
+    "en": "PMU application portal"
+   },
+   "url": "https://admissions.pmu.edu.sa/",
+   "owner": "PMU"
+  }
+ },
+ "rules": [
+  {
+   "id": "R1",
+   "when": {
+    "level": "ug",
+    "ug_type": "hs",
+    "residency": "saudi"
+   },
+   "channel": "qabool",
+   "basis": [
+    "P14",
+    "P09",
+    "X05"
+   ],
+   "status": "proposed",
+   "note": {
+    "ar": "مطابق للتقويم والنموذج الوطني، لكن صفحات أخرى تحيل إلى البوابة (F-02)",
+    "en": "Matches the calendar and the national model, but other pages send to the portal (F-02)"
+   }
+  },
+  {
+   "id": "R2",
+   "when": {
+    "level": "ug",
+    "ug_type": "hs",
+    "residency": "intl"
+   },
+   "channel": "sis",
+   "basis": [
+    "P14",
+    "X08"
+   ],
+   "status": "proposed",
+   "note": {
+    "ar": "التقويم يقول «ادرس في السعودية» (مغلق)، وصفحة الطلاب الدوليين P18 تحيل إلى البوابة",
+    "en": "The calendar says Study in Saudi (Closed); the international page P18 sends to the portal"
+   }
+  },
+  {
+   "id": "R3",
+   "when": {
+    "level": "ug",
+    "ug_type": "hs",
+    "residency": "resident"
+   },
+   "channel": null,
+   "basis": [],
+   "status": "gap",
+   "note": {
+    "ar": "لا تذكر أي صفحة قناة غير السعودي المقيم؛ يحتاج قرارًا صريحًا في D4",
+    "en": "No page states the channel for a non-Saudi resident; needs an explicit D4 ruling"
+   }
+  },
+  {
+   "id": "R4",
+   "when": {
+    "level": "ug",
+    "ug_type": "transfer"
+   },
+   "channel": "portal",
+   "basis": [
+    "P17"
+   ],
+   "status": "proposed",
+   "note": {
+    "ar": "منشور اليوم برابط http غير آمن (F-16)",
+    "en": "Published today as an insecure http link (F-16)"
+   }
+  },
+  {
+   "id": "R5",
+   "when": {
+    "level": "grad"
+   },
+   "channel": "portal",
+   "basis": [
+    "P33",
+    "P36",
+    "P16"
+   ],
+   "status": "proposed",
+   "note": {
+    "ar": "اليوم: صفحة البرنامج ← Application Form ← Apply_Now_ADS ← البوابة (أربع قفزات)",
+    "en": "Today: programme page → Application Form → Apply_Now_ADS → portal (four hops)"
+   }
+  },
+  {
+   "id": "R6",
+   "when": {
+    "level": "visiting"
+   },
+   "channel": "portal",
+   "basis": [
+    "P27"
+   ],
+   "status": "proposed",
+   "note": {
+    "ar": "منشور اليوم برابط http غير آمن (F-16)",
+    "en": "Published today as an insecure http link (F-16)"
+   }
+  }
+ ],
+ "tests": [
+  {
+   "id": "T1",
+   "persona": "saudi_hs",
+   "answers": {
+    "residency": "saudi"
+   },
+   "expect": "qabool"
+  },
+  {
+   "id": "T2",
+   "persona": "international",
+   "answers": {},
+   "expect": "sis"
+  },
+  {
+   "id": "T3",
+   "persona": "transfer",
+   "answers": {},
+   "expect": "portal"
+  },
+  {
+   "id": "T4",
+   "persona": "medicine",
+   "answers": {
+    "residency": "saudi"
+   },
+   "expect": "qabool"
+  },
+  {
+   "id": "T5",
+   "persona": "graduate",
+   "answers": {},
+   "expect": "portal"
+  },
+  {
+   "id": "T6",
+   "persona": "visiting",
+   "answers": {},
+   "expect": "portal"
+  },
+  {
+   "id": "T7",
+   "persona": "saudi_hs",
+   "answers": {
+    "residency": "resident"
+   },
+   "expect": null
+  }
+ ],
+ "stages": [
+  {
+   "id": "discover",
+   "t": {
+    "ar": "اكتشف",
+    "en": "Discover"
+   },
+   "q": {
+    "ar": "هل تقدّم الجامعة التخصص الذي أريده؟",
+    "en": "Does PMU offer the programme I want?"
+   },
+   "touch": "programs",
+   "feeds": [
+    "programme_register"
+   ]
+  },
+  {
+   "id": "eligible",
+   "t": {
+    "ar": "تحقق من الأهلية",
+    "en": "Check eligibility"
+   },
+   "q": {
+    "ar": "هل أنا مؤهل، وبأي معادلة؟",
+    "en": "Am I eligible, and under which formula?"
+   },
+   "touch": "route",
+   "feeds": [
+    "hs_gpa_min",
+    "gat_min",
+    "composite_formula",
+    "english_ug_direct"
+   ]
+  },
+  {
+   "id": "costs",
+   "t": {
+    "ar": "احسب التكاليف",
+    "en": "Plan costs"
+   },
+   "q": {
+    "ar": "كم سأدفع إجمالًا، وهل يُسترد؟",
+    "en": "What will it cost in total, and is it refundable?"
+   },
+   "touch": "costs",
+   "feeds": [
+    "application_fee",
+    "tuition_ug",
+    "vat_statement",
+    "refund_policy"
+   ]
+  },
+  {
+   "id": "dates",
+   "t": {
+    "ar": "المواعيد والقناة",
+    "en": "Dates & channel"
+   },
+   "q": {
+    "ar": "هل القبول مفتوح، وأين أقدّم؟",
+    "en": "Is admission open, and where do I apply?"
+   },
+   "touch": "dates",
+   "feeds": [
+    "intake_status",
+    "application_channel"
+   ]
+  },
+  {
+   "id": "docs",
+   "t": {
+    "ar": "جهّز الوثائق",
+    "en": "Prepare documents"
+   },
+   "q": {
+    "ar": "ما الذي أحتاجه بالضبط؟",
+    "en": "What exactly do I need?"
+   },
+   "touch": "route",
+   "feeds": [
+    "required_documents"
+   ]
+  },
+  {
+   "id": "apply",
+   "t": {
+    "ar": "قدّم",
+    "en": "Apply"
+   },
+   "q": {
+    "ar": "أين أضغط؟",
+    "en": "Where do I click?"
+   },
+   "touch": "apply",
+   "feeds": [
+    "application_channel"
+   ]
+  },
+  {
+   "id": "track",
+   "t": {
+    "ar": "تابع القرار",
+    "en": "Track the decision"
+   },
+   "q": {
+    "ar": "ماذا يحدث بعد التقديم، ومن أسأل؟",
+    "en": "What happens next, and whom do I ask?"
+   },
+   "touch": "contact",
+   "feeds": [
+    "contacts",
+    "refund_policy"
+   ]
+  }
+ ],
+ "pain": {
+  "saudi_hs": {
+   "discover": {
+    "f": [
+     "F-25"
+    ],
+    "t": {
+     "ar": "كتالوج ناقص (لا طب)",
+     "en": "Incomplete catalogue (no Medicine)"
+    }
+   },
+   "eligible": {
+    "f": [
+     "F-01",
+     "F-04"
+    ],
+    "t": {
+     "ar": "معادلتان وحدّا إنجليزية",
+     "en": "Two formulas, two English thresholds"
+    }
+   },
+   "costs": {
+    "f": [
+     "F-06",
+     "F-10"
+    ],
+    "t": {
+     "ar": "رسم 950 يشمل الاختبار أم لا؟ ثلاثة جداول",
+     "en": "Does the 950 fee include the test? Three tables"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-08",
+     "F-02"
+    ],
+    "t": {
+     "ar": "تقويم دورة بدأت، و«قبول» مقابل البوابة",
+     "en": "Calendar of a cycle already started; Qabool vs portal"
+    }
+   },
+   "docs": {
+    "f": [
+     "F-13"
+    ],
+    "t": {
+     "ar": "أصل أم نسخة؟",
+     "en": "Original or copy?"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-02"
+    ],
+    "t": {
+     "ar": "خمسة مداخل تقديم",
+     "en": "Five apply entry points"
+    }
+   },
+   "track": {
+    "f": [
+     "F-11"
+    ],
+    "t": {
+     "ar": "«تواصل» يفتح قائمة قسم آخر",
+     "en": "“Contact” opens another department’s list"
+    }
+   }
+  },
+  "international": {
+   "discover": {
+    "f": [
+     "F-25"
+    ],
+    "t": {
+     "ar": "كتالوج ناقص",
+     "en": "Incomplete catalogue"
+    }
+   },
+   "eligible": {
+    "f": [
+     "F-05"
+    ],
+    "t": {
+     "ar": "شرط SAT II المتوقف",
+     "en": "Discontinued SAT II requirement"
+    }
+   },
+   "costs": {
+    "f": [
+     "F-10"
+    ],
+    "t": {
+     "ar": "الضريبة 15% غير موضحة في صفحة المسار",
+     "en": "15% VAT not shown on the route page"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-02",
+     "F-08"
+    ],
+    "t": {
+     "ar": "«ادرس في السعودية» مغلق والبوابة تقول قدّم",
+     "en": "Study in Saudi closed while the portal says apply"
+    }
+   },
+   "docs": {
+    "f": [
+     "F-13"
+    ],
+    "t": {
+     "ar": "معادلة الشهادة في صفحة أخرى",
+     "en": "Equivalency on another page"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-02"
+    ],
+    "t": {
+     "ar": "قناتان متعارضتان",
+     "en": "Two conflicting channels"
+    }
+   },
+   "track": {
+    "f": [
+     "F-11"
+    ],
+    "t": {
+     "ar": "لا بريد وظيفي للقبول الجامعي",
+     "en": "No role mailbox for UG admissions"
+    }
+   }
+  },
+  "transfer": {
+   "discover": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "eligible": {
+    "f": [
+     "F-04"
+    ],
+    "t": {
+     "ar": "حد الإنجليزية غير واضح",
+     "en": "Unclear English threshold"
+    }
+   },
+   "costs": {
+    "f": [
+     "F-10"
+    ],
+    "t": {
+     "ar": "أي جدول رسوم ينطبق؟",
+     "en": "Which fee table applies?"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-08"
+    ],
+    "t": {
+     "ar": "لا موعد للتحويل",
+     "en": "No transfer deadline"
+    }
+   },
+   "docs": {
+    "f": [
+     "F-13"
+    ],
+    "t": {
+     "ar": "قائمة مختلفة عن غيرها",
+     "en": "A different document list"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-16"
+    ],
+    "t": {
+     "ar": "رابط http غير آمن",
+     "en": "Insecure http link"
+    }
+   },
+   "track": {
+    "f": [
+     "F-11"
+    ],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   }
+  },
+  "medicine": {
+   "discover": {
+    "f": [
+     "F-25"
+    ],
+    "t": {
+     "ar": "الطب غائب عن الكتالوج",
+     "en": "Medicine missing from the catalogue"
+    }
+   },
+   "eligible": {
+    "f": [
+     "F-20",
+     "F-05"
+    ],
+    "t": {
+     "ar": "الحد 86 لا يتحقق بالحدود الدنيا (83)",
+     "en": "The 86 floor is unreachable at the minimums (83)"
+    }
+   },
+   "costs": {
+    "f": [
+     "F-03",
+     "F-07"
+    ],
+    "t": {
+     "ar": "1,000 أم 1,150؟ وحجز 20,000 غير مذكور",
+     "en": "1,000 or 1,150? The 20,000 seat fee is not mentioned"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-23"
+    ],
+    "t": {
+     "ar": "7 سنوات أم 6؟",
+     "en": "Seven years or six?"
+    }
+   },
+   "docs": {
+    "f": [
+     "F-13"
+    ],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-02"
+    ],
+    "t": {
+     "ar": "«قبول» مذكور في صفحة الطب فقط",
+     "en": "Qabool mentioned only on the Medicine page"
+    }
+   },
+   "track": {
+    "f": [
+     "F-22"
+    ],
+    "t": {
+     "ar": "الاسترداد متناقض",
+     "en": "Contradictory refund policy"
+    }
+   }
+  },
+  "graduate": {
+   "discover": {
+    "f": [
+     "F-25"
+    ],
+    "t": {
+     "ar": "برنامجان مسعّران بلا صفحة",
+     "en": "Two priced programmes without a page"
+    }
+   },
+   "eligible": {
+    "f": [
+     "F-21",
+     "F-27"
+    ],
+    "t": {
+     "ar": "شروط EMGMS من جامعة أخرى",
+     "en": "EMGMS requirements from another university"
+    }
+   },
+   "costs": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-08"
+    ],
+    "t": {
+     "ar": "لافتة لفصل سابق في البوابة",
+     "en": "A past-term banner on the portal"
+    }
+   },
+   "docs": {
+    "f": [
+     "F-26"
+    ],
+    "t": {
+     "ar": "أقسام إلزامية فارغة",
+     "en": "Empty required sections"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-24"
+    ],
+    "t": {
+     "ar": "أربع قفزات ودليل لنظام متوقف",
+     "en": "Four hops and a guide for a retired system"
+    }
+   },
+   "track": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   }
+  },
+  "visiting": {
+   "discover": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "eligible": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "costs": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "dates": {
+    "f": [
+     "F-08"
+    ],
+    "t": {
+     "ar": "لا مواعيد للزائرين",
+     "en": "No dates for visitors"
+    }
+   },
+   "docs": {
+    "f": [],
+    "t": {
+     "ar": "—",
+     "en": "—"
+    }
+   },
+   "apply": {
+    "f": [
+     "F-16"
+    ],
+    "t": {
+     "ar": "رابط http غير آمن",
+     "en": "Insecure http link"
+    }
+   },
+   "track": {
+    "f": [
+     "F-17"
+    ],
+    "t": {
+     "ar": "«Visting» خطأ إملائي في العنوان",
+     "en": "“Visting” misspelt in the title"
+    }
+   }
+  }
+ },
+ "components": [
+  {
+   "id": "cycle",
+   "t": {
+    "ar": "شريط حالة الدورة",
+    "en": "Cycle-status bar"
+   },
+   "fields": [
+    "intake_status",
+    "application_channel"
+   ],
+   "where": [
+    "home",
+    "dates",
+    "apply",
+    "ug_hs",
+    "ug_intl",
+    "ug_med"
+   ]
+  },
+  {
+   "id": "reqs",
+   "t": {
+    "ar": "الشروط والمعادلة",
+    "en": "Requirements & formula"
+   },
+   "fields": [
+    "hs_gpa_min",
+    "gat_min",
+    "tahseely_rule",
+    "composite_formula",
+    "composite_minimum"
+   ],
+   "where": [
+    "ug_hs",
+    "ug_intl",
+    "ug_med"
+   ]
+  },
+  {
+   "id": "english",
+   "t": {
+    "ar": "الإنجليزية والاختبارات",
+    "en": "English & tests"
+   },
+   "fields": [
+    "english_ug_direct",
+    "english_grad",
+    "test_validity",
+    "placement_fee"
+   ],
+   "where": [
+    "req",
+    "ug_hs",
+    "ug_intl",
+    "ug_transfer",
+    "ug_prep",
+    "grad_prog"
+   ]
+  },
+  {
+   "id": "costs",
+   "t": {
+    "ar": "التكاليف",
+    "en": "Costs"
+   },
+   "fields": [
+    "application_fee",
+    "tuition_ug",
+    "tuition_medicine",
+    "vat_statement",
+    "refund_policy"
+   ],
+   "where": [
+    "costs",
+    "ug_hs",
+    "ug_intl",
+    "ug_med",
+    "grad_prog"
+   ]
+  },
+  {
+   "id": "docs",
+   "t": {
+    "ar": "قائمة الوثائق",
+    "en": "Document checklist"
+   },
+   "fields": [
+    "required_documents"
+   ],
+   "where": [
+    "ug_hs",
+    "ug_intl",
+    "ug_transfer",
+    "ug_med",
+    "grad_prog"
+   ]
+  },
+  {
+   "id": "howto",
+   "t": {
+    "ar": "طريقة التقديم",
+    "en": "How to apply"
+   },
+   "fields": [
+    "application_channel"
+   ],
+   "where": [
+    "apply",
+    "ug_hs",
+    "ug_intl",
+    "ug_transfer",
+    "ug_med",
+    "ug_visit",
+    "grad_prog"
+   ]
+  },
+  {
+   "id": "programs",
+   "t": {
+    "ar": "دليل البرامج",
+    "en": "Programme finder"
+   },
+   "fields": [
+    "programme_register"
+   ],
+   "where": [
+    "programs",
+    "grad"
+   ]
+  },
+  {
+   "id": "contact",
+   "t": {
+    "ar": "التواصل",
+    "en": "Contact"
+   },
+   "fields": [
+    "contacts"
+   ],
+   "where": [
+    "contact",
+    "home"
+   ]
+  }
+ ]
+}

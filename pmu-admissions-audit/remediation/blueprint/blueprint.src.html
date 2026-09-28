@@ -1,0 +1,511 @@
+<title>PMU Admissions — UX / IA Blueprint</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#16263a; --ink2:#44536a; --muted:#6b778a; --paper:#f4f6f9; --sheet:#fff; --line:#dde2ea; --line2:#c7cfdb;
+  --navy:#1f3a5a; --navy-soft:#e7edf5; --accent:#c9571a; --accent-soft:#fbeadf;
+  --ok:#1f7a4d; --ok-soft:#e3f3ea; --pend:#9a6400; --pend-soft:#fff3d6; --gap:#b3261e; --gap-soft:#fde8e6;
+  --r:12px; --focus:0 0 0 3px #ffbf47;
+  font-family:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.65;font-size:16px}
+a{color:var(--navy)}
+:focus-visible{outline:none;box-shadow:var(--focus);border-radius:6px}
+.mono,code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.86em}
+[dir=rtl] .mono,[dir=rtl] code{direction:ltr;unicode-bidi:isolate;display:inline-block}
+.skip{position:absolute;inset-inline-start:8px;top:-60px;background:#fff;padding:8px 12px;z-index:9}
+.skip:focus{top:8px}
+header.top{position:sticky;top:0;z-index:5;background:var(--sheet);border-bottom:1px solid var(--line)}
+.bar{max-width:1180px;margin:auto;display:flex;align-items:center;gap:12px;padding:10px 16px;flex-wrap:wrap}
+.brand b{display:block;font-size:1.02rem}
+.brand span{color:var(--muted);font-size:.82rem}
+.bar .sp{flex:1}
+.btn{font:inherit;border:1px solid var(--line2);background:#fff;color:var(--ink);padding:8px 14px;border-radius:10px;cursor:pointer;min-height:44px}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.note{background:var(--pend-soft);border-bottom:1px solid #f0dca5;font-size:.86rem}
+.note p{max-width:1180px;margin:auto;padding:8px 16px}
+nav.toc{max-width:1180px;margin:auto;padding:0 16px 8px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin}
+nav.toc a{white-space:nowrap;text-decoration:none;font-size:.88rem;padding:6px 10px;border-radius:8px;color:var(--ink2);border:1px solid transparent}
+nav.toc a:hover{border-color:var(--line2)}
+main{max-width:1180px;margin:auto;padding:16px}
+section.s{background:var(--sheet);border:1px solid var(--line);border-radius:var(--r);padding:22px;margin:0 0 18px;scroll-margin-top:120px}
+.sh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:14px}
+.sh .n{color:var(--accent);font-weight:700;font-family:"IBM Plex Mono",monospace}
+.sh h2{margin:0;font-size:1.32rem}
+.sh .en{color:var(--muted);font-size:.85rem}
+.lead{color:var(--ink2);margin-top:0}
+h3{font-size:1.06rem;margin:18px 0 8px}
+.grid{display:grid;gap:12px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.kpi{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:linear-gradient(180deg,#fff,#fafbfd)}
+.kpi b{font-size:1.6rem;color:var(--navy);display:block;line-height:1.2}
+.kpi span{font-size:.86rem;color:var(--ink2)}
+.two{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+ul.clean{margin:0;padding-inline-start:20px}
+ul.clean li{margin:4px 0}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:.76rem;border-radius:999px;padding:1px 9px;border:1px solid;white-space:nowrap;line-height:1.7;margin:2px}
+.c-ok{color:var(--ok);background:var(--ok-soft);border-color:#b9dfc9}
+.c-pend{color:var(--pend);background:var(--pend-soft);border-color:#ecd28f}
+.c-gap{color:var(--gap);background:var(--gap-soft);border-color:#f3b8b2}
+.c-f{color:#6b3aa0;background:#f2eafb;border-color:#d9c6f0;font-family:"IBM Plex Mono",monospace}
+.c-p{color:var(--ink2);background:#f1f3f7;border-color:var(--line2);font-family:"IBM Plex Mono",monospace}
+.c-type{color:var(--navy);background:var(--navy-soft);border-color:#c8d5e6}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{text-align:start;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{background:#f3f5f9;font-weight:600;font-size:.84rem;color:var(--ink2);position:sticky;top:0}
+tr:last-child td{border-bottom:0}
+.muted{color:var(--muted)} .small{font-size:.85rem}
+/* IA tree */
+.tree ul{list-style:none;margin:0;padding-inline-start:26px;border-inline-start:2px solid var(--line)}
+.tree>ul{padding-inline-start:0;border:0}
+.tree li{margin:10px 0;position:relative}
+.tree ul ul>li::before{content:"";position:absolute;inset-inline-start:-26px;top:22px;width:22px;border-top:2px solid var(--line)}
+.node{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff}
+.node.t-hub{border-color:var(--navy);box-shadow:inset 4px 0 0 var(--navy)}
+[dir=rtl] .node.t-hub{box-shadow:inset -4px 0 0 var(--navy)}
+.node.t-router{border-color:var(--accent)}
+.node.t-archive{background:#f7f7f7;border-style:dashed}
+.node h4{margin:0;font-size:1rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.node .path{color:var(--muted);word-break:break-all;white-space:normal;display:inline}
+.node p{margin:4px 0;font-size:.9rem;color:var(--ink2)}
+details.node>summary{cursor:pointer;list-style:none}
+details.node>summary::-webkit-details-marker{display:none}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+/* filters */
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px}
+/* device frame for live templates */
+.frame-wrap{display:flex;justify-content:center;background:repeating-linear-gradient(45deg,#eef1f6,#eef1f6 10px,#e8ecf2 10px,#e8ecf2 20px);border-radius:12px;padding:18px}
+.frame{container-type:inline-size;width:100%;max-width:1100px;background:#fff;border-radius:14px;box-shadow:0 10px 30px rgba(20,38,58,.18);overflow:hidden;border:1px solid var(--line2);transition:max-width .25s}
+.frame.mobile{max-width:390px;border-radius:30px;border:10px solid #1b2430}
+@media (prefers-reduced-motion:reduce){.frame{transition:none}}
+.site{font-size:15px}
+.site .sbar{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.site .logo{font-weight:700;color:var(--navy)}
+.site .snav{display:flex;gap:4px;flex-wrap:wrap;font-size:.86rem}
+.site .snav a{padding:6px 8px;border-radius:8px;text-decoration:none;color:var(--ink2)}
+.site .snav a[aria-current]{background:var(--navy-soft);color:var(--navy);font-weight:600}
+.site .hero{background:linear-gradient(135deg,var(--navy),#2f5680);color:#fff;padding:22px 18px}
+.site .hero h1{margin:0 0 4px;font-size:1.5rem}
+.site .hero p{margin:0;opacity:.9}
+.site .pad{padding:16px}
+.site .crumb{font-size:.8rem;color:var(--muted);padding:10px 16px 0}
+.site .status{display:flex;gap:10px;align-items:flex-start;border:1px solid #ecd28f;background:var(--pend-soft);border-radius:10px;padding:10px 12px;margin:14px 16px 0}
+.site .status.ok{background:var(--ok-soft);border-color:#b9dfc9}
+.site .routes{display:grid;gap:10px;grid-template-columns:repeat(3,1fr)}
+@container (max-width:560px){.site .routes{grid-template-columns:1fr 1fr}.site .hero h1{font-size:1.25rem}.site .snav{display:none}.site .cols{grid-template-columns:1fr!important}}
+.site .rcard{font:inherit;text-align:start;border:1px solid var(--line2);background:#fff;border-radius:12px;padding:12px;min-height:44px;cursor:pointer}
+.site .rcard:hover{border-color:var(--navy)}
+.site .rcard b{display:block}
+.site .rcard small{color:var(--muted)}
+.site .quick{display:grid;gap:8px;grid-template-columns:repeat(4,1fr)}
+@container (max-width:560px){.site .quick{grid-template-columns:1fr 1fr}}
+.site .qa{border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center;font-size:.88rem;background:#fafbfd}
+.site .cols{display:grid;gap:14px;grid-template-columns:2fr 1fr}
+.site .comp{border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:12px}
+.site .comp h3{margin:0 0 6px;font-size:1rem;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.site .gov{font-size:.74rem;color:var(--muted);border-top:1px dashed var(--line);margin-top:8px;padding-top:6px}
+.site .toc2 a{display:block;padding:6px 8px;border-radius:8px;text-decoration:none;font-size:.88rem}
+.site .toc2 a:hover{background:var(--navy-soft)}
+.site ul.vals{margin:4px 0;padding-inline-start:18px;font-size:.86rem}
+.site .foot{background:#f3f5f9;border-top:1px solid var(--line);padding:12px 16px;font-size:.78rem;color:var(--muted)}
+/* router */
+.router .q{margin:10px 0}
+.router .q legend{font-weight:600;margin-bottom:6px}
+.router .opts{display:flex;gap:8px;flex-wrap:wrap}
+.router .opts label{border:1px solid var(--line2);border-radius:10px;padding:8px 12px;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;gap:6px}
+.router .opts input{accent-color:var(--navy)}
+.router .result{border-radius:10px;padding:12px;margin-top:10px;border:1px solid var(--line)}
+.router .result.gap{background:var(--gap-soft);border-color:#f3b8b2}
+.router .result.prop{background:var(--navy-soft);border-color:#c8d5e6}
+/* journey */
+.jr th:first-child,.jr td:first-child{min-width:130px}
+.pass{color:var(--ok);font-weight:600} .fail{color:var(--gap);font-weight:600} .pendt{color:var(--pend);font-weight:600}
+.legend{display:flex;gap:8px;flex-wrap:wrap;font-size:.82rem;margin:6px 0 10px}
+footer.f{max-width:1180px;margin:0 auto 30px;padding:0 16px;color:var(--muted);font-size:.82rem}
+@media print{header.top,nav.toc,.filters,.frame-wrap .btn{display:none}section.s{break-inside:avoid-page}}
+</style>
+
+<a class="skip" href="#main" data-i18n="skip"></a>
+<header class="top">
+  <div class="bar">
+    <div class="brand"><b data-i18n="title"></b><span data-i18n="subtitle"></span></div>
+    <div class="sp"></div>
+    <button class="btn" id="langBtn" type="button"></button>
+    <button class="btn" type="button" onclick="window.print()" data-i18n="print"></button>
+  </div>
+  <div class="note"><p data-i18n="notOfficial"></p></div>
+  <nav class="toc" id="toc" aria-label="Sections"></nav>
+</header>
+
+<main id="main">
+  <section class="s" id="s1"></section>
+  <section class="s" id="s2"></section>
+  <section class="s" id="s3"></section>
+  <section class="s" id="s4"></section>
+  <section class="s" id="s5"></section>
+  <section class="s" id="s6"></section>
+  <section class="s" id="s7"></section>
+  <section class="s" id="s8"></section>
+  <section class="s" id="s9"></section>
+</main>
+<footer class="f" id="foot"></footer>
+
+<script>
+const CANON = /*CANON*/null;
+const CFG = /*CFG*/null;
+const IA = /*IA*/null;
+const REC = Object.fromEntries(CANON.map(r => [r.id, r]));
+const NODE = Object.fromEntries(IA.sitemap.map(n => [n.id, n]));
+const ROUTE = Object.fromEntries(IA.routes.map(r => [r.id, r]));
+let lang = "ar";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const L = o => (o && typeof o === "object" && "ar" in o) ? o[lang] : o;
+
+const UI = {
+  skip:{ar:"تخطَّ إلى المحتوى",en:"Skip to content"},
+  title:{ar:"مخطط تجربة المستخدم وبنية المعلومات — القبول",en:"Admissions — UX / Information Architecture Blueprint"},
+  subtitle:{ar:"جامعة الأمير محمد بن فهد · مكتب القبول · حل مستقبلي قابل للتنفيذ",en:"Prince Mohammad Bin Fahd University · Admissions Office · implementable future state"},
+  print:{ar:"طباعة",en:"Print"},
+  notOfficial:{ar:"مخطط تصميم مقترح للنقاش الداخلي، وليس صفحة رسمية للجامعة. كل قيمة مصدرها السجل المرجعي للتدقيق (2026-09-27)؛ ما لم يُعتمد يظهر «بانتظار القرار» ولا يُعرض كحقيقة.",en:"Proposed design blueprint for internal discussion, not an official PMU page. Every value comes from the audit’s canonical record (2026-09-27); anything unapproved is shown as “pending decision”, never as fact."},
+  toc:{ar:["الخلاصة","بنية المعلومات","من الحالي إلى الجديد","نماذج الصفحات","رحلة المتقدم","محرك التوجيه","الملاحة والروابط","نموذج المحتوى","معايير القبول"],
+       en:["Summary","Information architecture","Current → future","Page templates","Applicant journey","Routing engine","Navigation & URLs","Content model","Acceptance criteria"]},
+  approved:{ar:"معتمد",en:"Approved"}, pending:{ar:"بانتظار القرار",en:"Pending decision"}, gap:{ar:"فجوة: يحتاج قرارًا",en:"Gap: needs a decision"},
+  proposed:{ar:"مقترح — يحتاج توقيع D4",en:"Proposed — needs D4 sign-off"},
+  owner:{ar:"المالك",en:"Owner"}, decision:{ar:"القرار",en:"Decision"}, verified:{ar:"آخر تحقق",en:"Last verified"}, sources:{ar:"المصادر",en:"Sources"},
+};
+const t = k => L(UI[k]);
+const OWNER_AR = {"Admissions Committee":"لجنة القبول","Admissions Committee -> Academic Council":"لجنة القبول ← المجلس الأكاديمي","English/Prep Program Director -> Admissions Committee":"مدير برنامج الإنجليزية/التحضيرية ← لجنة القبول","Graduate Studies -> Admissions Committee":"الدراسات العليا ← لجنة القبول","English/Prep Program Director":"مدير برنامج الإنجليزية/التحضيرية","Finance":"المالية","Finance + Legal":"المالية + الشؤون القانونية","Dean, College of Medicine + Finance":"عميد كلية الطب + المالية","Executive Sponsor + Admissions Director":"الراعي التنفيذي + مدير القبول","Admissions Director":"مدير القبول","Admissions Director + IT (portal)":"مدير القبول + تقنية المعلومات","Vice President for Academic Affairs":"وكيل الجامعة للشؤون الأكاديمية"};
+const owner = r => lang === "ar" ? (OWNER_AR[r.owner_role] || r.owner_role) : r.owner_role;
+
+function statusChip(id){
+  const r = REC[id]; if (!r) return "";
+  return r.approved_value
+    ? `<span class="chip c-ok" title="${esc(r.label[lang])}">✓ ${esc(r.label[lang])}</span>`
+    : `<span class="chip c-pend" title="${esc(t("pending"))} · ${esc(r.decision_ref)}">⏳ ${esc(r.label[lang])} · ${esc(r.decision_ref)}</span>`;
+}
+const fChip = f => `<span class="chip c-f">${esc(f)}</span>`;
+const pChip = p => `<span class="chip c-p">${esc(p)}</span>`;
+const TYPE = {hub:{ar:"رئيسية",en:"hub"},section:{ar:"قسم",en:"section"},route:{ar:"صفحة مسار",en:"route page"},template:{ar:"قالب",en:"template"},reference:{ar:"مرجعية",en:"reference"},router:{ar:"موجّه",en:"router"},archive:{ar:"أرشيف",en:"archive"}};
+const ACTION = {merge:{ar:"دمج",en:"Merge"},move:{ar:"نقل",en:"Move"},rewrite:{ar:"إعادة كتابة",en:"Rewrite"},replace:{ar:"استبدال",en:"Replace"},rebuild:{ar:"إعادة بناء",en:"Rebuild"},template:{ar:"قالب موحّد",en:"Template"}};
+const sec = (id, n, ar, en, lead) => `<div class="sh"><span class="n">${n}</span><h2>${lang==="ar"?ar:en}</h2><span class="en" lang="${lang==="ar"?"en":"ar"}">${lang==="ar"?en:ar}</span></div>${lead?`<p class="lead">${lead}</p>`:""}`;
+
+/* ---------- routing engine (single source for router, templates and tests) ---------- */
+function nextQuestion(ans){
+  for (const q of IA.questions){
+    if (ans[q.id] !== undefined) continue;
+    if (q.when && !Object.entries(q.when).every(([k,v]) => ans[k] === v)) continue;
+    return q;
+  }
+  return null;
+}
+function resolve(ans){
+  const match = IA.rules.filter(r => Object.entries(r.when).every(([k,v]) => ans[k] === v));
+  return match.sort((a,b) => Object.keys(b.when).length - Object.keys(a.when).length)[0] || null;
+}
+function runTest(tc){
+  const route = ROUTE[tc.persona];
+  const ans = {...route.preset};
+  let clicks = 2; // route card on the home page + "Apply" on the route page
+  let q, guard = 0;
+  while ((q = nextQuestion(ans)) && guard++ < 5){
+    if (tc.answers[q.id] === undefined) return {ok:false, clicks, rule:null, why:"unanswered:"+q.id};
+    ans[q.id] = tc.answers[q.id]; clicks++;
+  }
+  const rule = resolve(ans);
+  const got = rule ? rule.channel : undefined;
+  return {ok: got === tc.expect, clicks, rule};
+}
+
+/* ---------- 1 summary ---------- */
+function s1(){
+  const nLegacy = IA.legacy.length, nNodes = IA.sitemap.length;
+  const approved = CANON.filter(r => r.approved_value).length;
+  const passLogic = IA.tests.filter(x => x.expect).map(runTest).filter(x => x.ok && x.clicks <= 3).length;
+  const P = lang==="ar" ? [
+    "سؤال واحد أولًا: «من أنت؟» ثم مسار واحد لكل فئة، بدل 36 رابطًا بلا ترتيب.",
+    "كل رقم يُكتب مرة واحدة في السجل المرجعي، وتعرضه كل الصفحات والقنوات من المصدر نفسه.",
+    "زر تقديم واحد يعمل كموجّه: يسأل سؤالين على الأكثر ثم يرسل المتقدم إلى القناة الصحيحة.",
+    "لا تُعرض قيمة غير معتمدة كحقيقة؛ تظهر «بانتظار القرار» مع مصدرها، والزر يبقى معطّلًا حتى القرار.",
+    "العربية والإنجليزية من القيمة نفسها، بعناوين مستقلة وسمة lang وdir صحيحة.",
+    "كل صفحة تعرض «سارية لدورة · المالك · آخر تحقق»، ولا يُحذف رابط قديم قبل تحويله والتحقق منه."
+  ] : [
+    "One question first — “Who are you?” — then one route per category, instead of 36 unordered links.",
+    "Every figure is written once in the canonical record; every page and channel shows it from that source.",
+    "A single Apply button works as a router: at most two questions, then the right channel.",
+    "No unapproved value is shown as fact: it appears as “pending decision” with its source, and the button stays disabled until the decision.",
+    "Arabic and English from the same value, with separate URLs and correct lang and dir.",
+    "Every page shows “effective for cycle · owner · last verified”; no old link is removed before it is redirected and verified."
+  ];
+  $("#s1").innerHTML = sec("s1","01","الخلاصة: الحل المستقبلي في صفحة واحدة","Summary: the future state on one page",
+    lang==="ar" ? "هذا المخطط هو التصميم نفسه، لا توصيات عنه: بنية معلومات كاملة بعناوين URL، وخريطة لكل رابط حالي، ونماذج صفحات تعمل، ورحلة لكل فئة، ومحرك توجيه باختبارات تُنفَّذ في الصفحة. كل ما يلي مولَّد من ملف بيانات واحد (ia.json) ومن السجل المرجعي."
+                : "This blueprint is the design itself, not advice about it: a full information architecture with URLs, a map for every current link, working page templates, a journey per category, and a routing engine whose tests run in the page. Everything below is generated from one data file (ia.json) and the canonical record.")
+  + `<div class="grid kpis">
+      <div class="kpi"><b>${nLegacy} → ${nNodes}</b><span>${lang==="ar"?"رابطًا في صفحة القبول اليوم ← صفحة في البنية الجديدة":"links on today’s admissions page → pages in the new structure"}</span></div>
+      <div class="kpi"><b>6</b><span>${lang==="ar"?"مسارات للمتقدمين تبدأ من سؤال واحد":"applicant routes from one question"}</span></div>
+      <div class="kpi"><b>5 → 1</b><span>${lang==="ar"?"مداخل تقديم متباينة ← موجّه واحد":"divergent apply entry points → one router"}</span></div>
+      <div class="kpi"><b>${passLogic}/${IA.tests.filter(x=>x.expect).length}</b><span>${lang==="ar"?"اختبارات رحلة تصل للقناة خلال 3 نقرات أو أقل (منطق التوجيه)":"journey tests reaching a channel in ≤3 clicks (routing logic)"}</span></div>
+      <div class="kpi"><b>${approved}/${CANON.length}</b><span>${lang==="ar"?"حقلًا مرجعيًا معتمدًا اليوم؛ الباقي ينتظر D1–D10":"canonical fields approved today; the rest await D1–D10"}</span></div>
+    </div>
+    <h3>${lang==="ar"?"مبادئ التصميم":"Design principles"}</h3><ul class="clean">${P.map(x=>`<li>${x}</li>`).join("")}</ul>
+    <p class="small muted">${lang==="ar"?"الإطار المرجعي: رؤية المملكة 2030 (برنامج تنمية القدرات البشرية)، وإرشادات هيئة الحكومة الرقمية لإمكانية الوصول، وWCAG 2.2، ونظام حماية البيانات الشخصية، وقنوات وزارة التعليم الوطنية («قبول» و«ادرس في السعودية»). استُخدمت مرجعًا للتصميم، ولا يُدّعى امتثال لم يُقَس.":"Reference frame: Saudi Vision 2030 (Human Capability Development Program), DGA accessibility guidance, WCAG 2.2, the Personal Data Protection Law, and the MoE national channels (Qabool, Study in Saudi). Used as design references; no unmeasured compliance is claimed."}</p>`;
+}
+
+/* ---------- 2 IA tree ---------- */
+function s2(){
+  const kids = p => IA.sitemap.filter(n => n.parent === p);
+  const card = n => `<details class="node t-${n.type}" ${n.type==="hub"?"open":""}><summary><h4>${esc(L(n.t))} <span class="chip c-type">${esc(L(TYPE[n.type]))}</span> <span class="mono path">${esc(n.path)}</span></h4><p>${esc(L(n.does))}</p></summary>
+      <div class="row small"><b>${lang==="ar"?"يتغذى من":"Fed by"}:</b> ${n.feeds.length?n.feeds.map(statusChip).join(""):"<span class='muted'>—</span>"}</div>
+      <div class="row small"><b>${lang==="ar"?"يستبدل":"Replaces"}:</b> ${n.replaces.map(pChip).join("")} <b>${lang==="ar"?"يعالج":"Fixes"}:</b> ${n.fixes.map(fChip).join("")||"—"}</div></details>`;
+  const tree = p => { const k = kids(p); return k.length ? `<ul>${k.map(n=>`<li>${card(n)}${tree(n.id)}</li>`).join("")}</ul>` : ""; };
+  const roots = IA.sitemap.filter(n => !n.parent);
+  $("#s2").innerHTML = sec("s2","02","بنية المعلومات (خريطة الموقع)","Information architecture (sitemap)",
+    lang==="ar"?"صفحة رئيسية واحدة، ثم قسمان (بكالوريوس ودراسات عليا) بستة مسارات، ثم صفحات مرجعية مشتركة، وموجّه تقديم واحد، وأرشيف غير مفهرس. افتح أي صفحة لترى الحقول المرجعية التي تغذيها وحالتها، والصفحات الحالية التي تستبدلها، والنتائج التي تعالجها."
+               :"One home page, two sections (undergraduate, graduate) with six routes, shared reference pages, one apply router, and a non-indexed archive. Open any page to see the canonical fields feeding it and their status, the current pages it replaces, and the findings it fixes.")
+    + `<div class="legend"><span class="chip c-ok">✓ ${t("approved")}</span><span class="chip c-pend">⏳ ${t("pending")}</span><span class="chip c-p">P.. ${lang==="ar"?"صفحة حالية":"current page"}</span><span class="chip c-f">F-.. ${lang==="ar"?"نتيجة":"finding"}</span></div>
+      <div class="tree"><ul>${roots.map(n=>`<li>${card(n)}${tree(n.id)}</li>`).join("")}</ul></div>`;
+}
+
+/* ---------- 3 legacy map ---------- */
+let actFilter = "all";
+function s3(){
+  const counts = {}; IA.legacy.forEach(x => counts[x.action] = (counts[x.action]||0)+1);
+  const rows = IA.legacy.filter(x => actFilter==="all" || x.action===actFilter);
+  const dest = new Set(IA.legacy.map(x=>x.to)).size;
+  $("#s3").innerHTML = sec("s3","03","من الحالي إلى الجديد: كل رابط في صفحة القبول","Current → future: every link on the admissions page",
+    lang==="ar"?`صفحة Admissions Office الحية (تحقق 2026-09-28) فيها ${IA.legacy.length} رابطًا في خمس مجموعات، دون مقدمة ولا حالة دورة ولا توجيه. هنا مكان كل رابط في البنية الجديدة والإجراء المطلوب. تذهب الروابط إلى ${dest} صفحة فقط.`
+               :`The live Admissions Office page (checked 2026-09-28) has ${IA.legacy.length} links in five groups, with no introduction, cycle status or routing. Here is where each link goes in the new structure and what happens to it. They land on only ${dest} pages.`)
+    + `<div class="filters" role="group" aria-label="${lang==="ar"?"تصفية حسب الإجراء":"Filter by action"}"><button class="btn" aria-pressed="${actFilter==="all"}" data-act="all">${lang==="ar"?"الكل":"All"} (${IA.legacy.length})</button>${Object.entries(counts).map(([a,c])=>`<button class="btn" aria-pressed="${actFilter===a}" data-act="${a}">${esc(L(ACTION[a]))} (${c})</button>`).join("")}</div>
+      <div class="tbl"><table><thead><tr><th>${lang==="ar"?"المجموعة الحالية":"Current group"}</th><th>${lang==="ar"?"الرابط الحالي":"Current link"}</th><th>${lang==="ar"?"الصفحة":"Page"}</th><th>${lang==="ar"?"الإجراء":"Action"}</th><th>${lang==="ar"?"المكان الجديد":"New location"}</th><th>${lang==="ar"?"السبب":"Why"}</th></tr></thead><tbody>
+      ${rows.map(x=>`<tr><td class="small">${esc(L(x.group))}</td><td><span lang="en" dir="ltr">${esc(x.label)}</span></td><td>${pChip(x.page)}</td><td><b>${esc(L(ACTION[x.action]))}</b></td><td>${esc(L(NODE[x.to].t))}<br><span class="mono muted">${esc(NODE[x.to].path)}</span></td><td class="small">${esc(L(x.note))} ${x.findings.map(fChip).join("")}</td></tr>`).join("")}
+      </tbody></table></div>
+      <p class="small muted">${lang==="ar"?"كل رابط قديم يمر بدورة: استبدال ← تحويل 301 ← تحقق بالزحف ← أرشفة أو إيقاف. تفاصيل الروابط المفهرسة في":"Every old URL goes through: replace → 301 redirect → crawl verification → archive or retire. Indexed legacy URLs are detailed in"} <span class="mono">remediation/legacy/redirect-map.csv</span>.</p>`;
+  document.querySelectorAll("#s3 [data-act]").forEach(b => b.onclick = () => { actFilter = b.dataset.act; s3(); });
+}
+
+/* ---------- 4 live templates ---------- */
+let tpl = "home", device = "desktop", tplRoute = "saudi_hs", tplAns = {};
+function govLine(ids){
+  const r = REC[ids[0]]; if (!r) return "";
+  return `<div class="gov">${t("owner")}: ${esc(owner(r))} · ${t("decision")}: ${esc(r.decision_ref)} · ${t("verified")}: <span class="mono">${esc(r.last_verified)}</span></div>`;
+}
+function valuesBlock(id){
+  const r = REC[id];
+  if (r.approved_value) return `<p class="small"><b>${t("approved")}:</b> <span lang="en" dir="ltr">${esc(r.published_values[0].value)}</span></p>`;
+  return `<p class="small"><b>${esc(r.label[lang])}:</b> ${lang==="ar"?"تُعلن بعد اعتماد القرار":"published once decision"} ${esc(r.decision_ref)}${lang==="ar"?".":" is signed."}</p><details class="small"><summary>${lang==="ar"?"للمراجعين: ما المنشور اليوم؟":"For reviewers: what is published today?"} (${r.published_values.length})</summary><ul class="vals">${r.published_values.map(v=>`<li><span lang="en" dir="ltr">${esc(v.value)}</span> <span class="mono muted">(${esc(v.sources.join(", "))})</span></li>`).join("")}</ul></details>`;
+}
+function comp(titleAr, titleEn, ids, extra=""){
+  const pend = ids.filter(i => REC[i] && !REC[i].approved_value);
+  const chip = pend.length ? `<span class="chip c-pend">⏳ ${t("pending")} · ${[...new Set(pend.map(i=>REC[i].decision_ref))].join(", ")}</span>` : `<span class="chip c-ok">✓ ${t("approved")}</span>`;
+  return `<div class="comp"><h3>${lang==="ar"?titleAr:titleEn} ${chip}</h3>${extra}${ids.map(valuesBlock).join("")}${govLine(ids)}</div>`;
+}
+function siteChrome(inner, active){
+  const nav = [["home","القبول","Admissions"],["ug","البكالوريوس","Undergraduate"],["grad","الدراسات العليا","Graduate"],["costs","التكاليف","Costs"],["dates","المواعيد","Dates"],["apply","قدّم","Apply"]];
+  return `<div class="site" lang="${lang}" dir="${lang==="ar"?"rtl":"ltr"}"><div class="sbar"><span class="logo">PMU · ${lang==="ar"?"القبول":"Admissions"}</span><nav class="snav" aria-label="${lang==="ar"?"تنقل القبول":"Admissions navigation"}">${nav.map(([id,a,e])=>`<a href="#" ${id===active?'aria-current="page"':""}>${lang==="ar"?a:e}</a>`).join("")}</nav><span style="flex:1"></span><span class="small muted">${lang==="ar"?"English":"العربية"}</span></div>${inner}<div class="foot">${lang==="ar"?"سارية لدورة: بانتظار القرار · المالك: مكتب القبول · آخر تحقق: 2026-09-27":"Effective for cycle: pending decision · Owner: Admissions Office · Last verified: 2026-09-27"}</div></div>`;
+}
+function cycleBar(){
+  const r = REC.intake_status;
+  return `<div class="status" role="status"><span aria-hidden="true">⏳</span><div><b>${lang==="ar"?"حالة دورة القبول":"Admission cycle status"}</b> <span class="chip c-pend">${t("pending")} · ${esc(r.decision_ref)}</span><div class="small">${lang==="ar"?"لا توجد دورة مفتوحة منشورة اليوم. بعد القرار يظهر هنا: مفتوح/مغلق، والدورة القادمة، وآخر موعد لكل فئة.":"No open cycle is published today. After the decision this shows: open/closed, next cycle, and the deadline per category."}</div></div></div>`;
+}
+function tplHome(){
+  return siteChrome(`<div class="hero"><h1>${lang==="ar"?"القبول في جامعة الأمير محمد بن فهد":"Admissions at Prince Mohammad Bin Fahd University"}</h1><p>${lang==="ar"?"اختر فئتك لترى الشروط والتكاليف والمواعيد والقناة الصحيحة لك فقط.":"Choose your category to see only your requirements, costs, dates and the right channel."}</p></div>
+    ${cycleBar()}
+    <div class="pad"><h2 style="font-size:1.1rem;margin:4px 0 10px">${lang==="ar"?"من أنت؟":"Who are you?"}</h2>
+    <div class="routes">${IA.routes.map(r=>`<button class="rcard" type="button" data-go="${r.id}"><span aria-hidden="true">${r.icon}</span> <b>${esc(L(r.t))}</b><small>${esc(L(r.sub))}</small></button>`).join("")}</div>
+    <h2 style="font-size:1.1rem;margin:18px 0 10px">${lang==="ar"?"إجراءات سريعة":"Quick actions"}</h2>
+    <div class="quick"><div class="qa">🔎 ${lang==="ar"?"دليل البرامج":"Find a programme"}</div><div class="qa">🧾 ${lang==="ar"?"احسب التكاليف":"Estimate costs"}</div><div class="qa">📅 ${lang==="ar"?"المواعيد":"Key dates"}</div><div class="qa">➡️ ${lang==="ar"?"قدّم الآن":"Apply now"}</div></div>
+    <div class="comp" style="margin-top:16px"><h3>${lang==="ar"?"تواصل مع القبول":"Contact Admissions"} ${statusChip("contacts")}</h3>${valuesBlock("contacts")}${govLine(["contacts"])}</div></div>`, "home");
+}
+function tplRoutePage(){
+  const r = ROUTE[tplRoute], n = NODE[r.node];
+  const ids = n.feeds;
+  const has = x => ids.includes(x);
+  const reqIds = ["hs_gpa_min","gat_min","tahseely_rule","composite_formula","composite_minimum"].filter(has);
+  const engIds = ["english_ug_direct","english_grad","test_validity"].filter(has);
+  const costIds = ["application_fee","tuition_ug","tuition_medicine","vat_statement","refund_policy"].filter(has);
+  const toc = [[reqIds,"الشروط والمعادلة","Requirements & formula"],[engIds,"الإنجليزية","English"],[costIds,"التكاليف","Costs"],[["required_documents"].filter(has),"الوثائق","Documents"],[["application_channel"],"طريقة التقديم","How to apply"]].filter(x=>x[0].length);
+  const body = toc.map(([idsx,a,e]) => idsx[0]==="application_channel"
+      ? `<div class="comp"><h3>${lang==="ar"?a:e} ${statusChip("application_channel")}</h3>${routerHTML(r.preset,"tr")}</div>`
+      : comp(a,e,idsx)).join("");
+  return siteChrome(`<div class="crumb">${lang==="ar"?"القبول":"Admissions"} › ${esc(L(NODE[n.parent].t))} › <b>${esc(L(n.t))}</b></div>
+    <div class="pad" style="padding-bottom:0"><h1 style="font-size:1.35rem;margin:6px 0">${esc(L(n.t))}</h1><p class="small muted" style="margin:0">${esc(L(n.does))}</p></div>
+    ${cycleBar()}
+    <div class="pad cols"><div>${body}</div><aside class="toc2" aria-label="${lang==="ar"?"في هذه الصفحة":"On this page"}"><b class="small">${lang==="ar"?"في هذه الصفحة":"On this page"}</b>${toc.map(([_,a,e])=>`<a href="#">${lang==="ar"?a:e}</a>`).join("")}<p class="small muted">${lang==="ar"?"الرابط":"URL"}: <span class="mono">${esc(n.path)}</span></p></aside></div>`, n.parent==="grad"||n.id==="grad"?"grad":"ug");
+}
+function tplCosts(){
+  const tu = CFG.tuition_2026_27;
+  const rows = Object.entries(tu.per_semester).map(([k,v]) => `<tr><td>${esc(L(tu.groups[k]))}</td><td class="mono">SAR ${v.toLocaleString("en")}</td><td class="mono">SAR ${(v*2).toLocaleString("en")}</td></tr>`).join("");
+  return siteChrome(`<div class="crumb">${lang==="ar"?"القبول":"Admissions"} › <b>${lang==="ar"?"التكاليف والمنح":"Costs & scholarships"}</b></div>
+    <div class="pad"><h1 style="font-size:1.35rem;margin:6px 0 12px">${lang==="ar"?"التكاليف — دورة 2026/2027":"Costs — 2026/2027 cycle"}</h1>
+    <div class="comp"><h3>${lang==="ar"?"الرسوم الدراسية للبكالوريوس":"Undergraduate tuition"} ${statusChip("tuition_ug")}</h3>
+      <div class="tbl"><table><thead><tr><th>${lang==="ar"?"الكليات":"Colleges"}</th><th>${lang==="ar"?"لكل فصل":"Per semester"}</th><th>${lang==="ar"?"تقدير السنة":"Year estimate"}</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="small muted">${lang==="ar"?"المصدر":"Source"}: ${tu.sources.map(pChip).join("")} · ${lang==="ar"?"جداول الدورات السابقة في الأرشيف بلافتة «للمقبولين في…»":"previous-cycle tables live in the archive, bannered “for students admitted in…”"}</p>${govLine(["tuition_ug"])}</div>
+    ${comp("ضريبة القيمة المضافة","VAT","vat_statement".split(","),`<p class="small">${lang==="ar"?"للسعوديين: لا تُحصَّل الضريبة على الرسوم الدراسية وتتحملها الدولة. لغير السعوديين: 15%.":"Saudi: VAT on tuition is not collected; the State bears it. Non-Saudi: 15%."}</p>`)}
+    ${comp("رسم التقديم","Application fee",["application_fee"])}
+    ${comp("الاسترداد وحجز المقعد","Refunds and seat reservation",["refund_policy"])}</div>`, "costs");
+}
+function routerHTML(preset, key){
+  const ans = {...preset, ...(tplAns[key]||{})};
+  const qs = []; let q, g=0; const tmp = {...ans};
+  // show every question still needed, in order
+  while ((q = nextQuestion(tmp)) && g++<5){ qs.push(q); break; }
+  const rule = nextQuestion(ans) ? null : resolve(ans);
+  const qHTML = qs.map(q => `<fieldset class="q" style="border:0;padding:0"><legend>${esc(L(q.q))}</legend><div class="opts">${q.opts.map(([v,l])=>`<label><input type="radio" name="${key}-${q.id}" value="${v}" data-rk="${key}" data-q="${q.id}"> ${esc(L(l))}</label>`).join("")}</div></fieldset>`).join("");
+  let res = "";
+  if (rule){
+    const ch = rule.channel ? IA.channels[rule.channel] : null;
+    res = ch
+      ? `<div class="result prop"><b>${lang==="ar"?"قناتك":"Your channel"}: ${esc(L(ch.t))}</b> <span class="chip c-pend">${t("proposed")}</span><p class="small">${esc(L(rule.note))}</p><p class="small muted">${lang==="ar"?"القاعدة":"Rule"} ${rule.id} · ${lang==="ar"?"الأساس":"Basis"}: ${rule.basis.map(pChip).join("")}</p><button class="btn primary" type="button" disabled>${lang==="ar"?"انتقل إلى":"Go to"} ${esc(L(ch.t))} ↗</button><p class="small muted">${lang==="ar"?"الزر معطّل عمدًا حتى توقيع D4 وفتح الدورة (OPS-2)، حتى لا يُوجَّه أحد إلى قناة خاطئة.":"The button is disabled on purpose until D4 is signed and the cycle opens (OPS-2), so no one is sent to the wrong channel."}</p></div>`
+      : `<div class="result gap"><b>${t("gap")}</b><p class="small">${esc(L(rule.note))}</p><p class="small muted">${lang==="ar"?"القاعدة":"Rule"} ${rule.id} · ${lang==="ar"?"يُحال المتقدم إلى التواصل حتى القرار.":"The applicant is sent to Contact until the decision."}</p></div>`;
+  }
+  const reset = Object.keys(tplAns[key]||{}).length ? `<button class="btn" type="button" data-reset="${key}">${lang==="ar"?"ابدأ من جديد":"Start again"}</button>` : "";
+  return `<div class="router">${qHTML}${res}${reset}</div>`;
+}
+function tplApply(){
+  const pre = {};
+  return siteChrome(`<div class="crumb">${lang==="ar"?"القبول":"Admissions"} › <b>${lang==="ar"?"قدّم الآن":"Apply now"}</b></div>
+    <div class="pad"><h1 style="font-size:1.35rem;margin:6px 0">${lang==="ar"?"قدّم الآن: نوجّهك إلى القناة الصحيحة":"Apply now: we route you to the right channel"}</h1><p class="small muted">${lang==="ar"?"يستبدل هذا الموجّه كل روابط التقديم الحالية: pmu.edu.sa/apply وApply_Now_ADS وhttp://admissions وصفحات Application Form.":"This router replaces every current apply link: pmu.edu.sa/apply, Apply_Now_ADS, http://admissions and the Application Form pages."}</p></div>
+    ${cycleBar()}<div class="pad">${routerHTML(pre,"ap")}</div>`, "apply");
+}
+function s4(){
+  const T = [["home","الصفحة الرئيسية للقبول","Admissions home"],["route","صفحة مسار","Route page"],["costs","التكاليف","Costs"],["apply","قدّم الآن (الموجّه)","Apply (router)"]];
+  const view = tpl==="home"?tplHome():tpl==="route"?tplRoutePage():tpl==="costs"?tplCosts():tplApply();
+  $("#s4").innerHTML = sec("s4","04","نماذج الصفحات الحية","Live page templates",
+    lang==="ar"?"صفحات تعمل الآن ببيانات السجل المرجعي، لا صور. بدّل بين الحاسوب والجوال، وجرّب «من أنت؟» والموجّه. التصميم مبني على مكوّنات تتكيف مع عرض الحاوية (container queries)."
+               :"Pages that work now with canonical data, not pictures. Switch between desktop and mobile, and try “Who are you?” and the router. Components adapt to their container width (container queries).")
+    + `<div class="filters" role="group" aria-label="${lang==="ar"?"اختر القالب":"Choose a template"}">${T.map(([id,a,e])=>`<button class="btn" aria-pressed="${tpl===id}" data-tpl="${id}">${lang==="ar"?a:e}</button>`).join("")}
+       <span style="flex:1"></span><button class="btn" aria-pressed="${device==="desktop"}" data-dev="desktop">🖥 ${lang==="ar"?"حاسوب":"Desktop"}</button><button class="btn" aria-pressed="${device==="mobile"}" data-dev="mobile">📱 ${lang==="ar"?"جوال 390":"Mobile 390"}</button></div>
+       ${tpl==="route"?`<div class="filters" role="group" aria-label="route">${IA.routes.map(r=>`<button class="btn" aria-pressed="${tplRoute===r.id}" data-rt="${r.id}">${r.icon} ${esc(L(r.t))}</button>`).join("")}</div>`:""}
+       <div class="frame-wrap"><div class="frame ${device}" aria-label="${lang==="ar"?"معاينة الصفحة":"Page preview"}">${view}</div></div>`;
+  const re = () => { s4(); };
+  document.querySelectorAll("#s4 [data-tpl]").forEach(b => b.onclick = () => { tpl = b.dataset.tpl; re(); });
+  document.querySelectorAll("#s4 [data-dev]").forEach(b => b.onclick = () => { device = b.dataset.dev; re(); });
+  document.querySelectorAll("#s4 [data-rt]").forEach(b => b.onclick = () => { tplRoute = b.dataset.rt; tplAns = {}; re(); });
+  document.querySelectorAll("#s4 [data-go]").forEach(b => b.onclick = () => { tpl = "route"; tplRoute = b.dataset.go; tplAns = {}; re(); });
+  document.querySelectorAll("#s4 input[data-rk]").forEach(i => i.onchange = () => { const k=i.dataset.rk; tplAns[k] = {...(tplAns[k]||{}), [i.dataset.q]: i.value}; re(); });
+  document.querySelectorAll("#s4 [data-reset]").forEach(b => b.onclick = () => { tplAns[b.dataset.reset] = {}; re(); });
+}
+
+/* ---------- 5 journeys ---------- */
+let persona = "saudi_hs";
+function s5(){
+  const r = ROUTE[persona], pn = IA.pain[persona];
+  const touch = st => st.touch==="route" ? NODE[r.node] : NODE[st.touch];
+  const tc = IA.tests.find(x => x.persona===persona && x.expect) || IA.tests.find(x=>x.persona===persona);
+  const res = runTest(tc);
+  $("#s5").innerHTML = sec("s5","05","رحلة المتقدم: سبع مراحل لكل فئة","Applicant journey: seven stages per category",
+    lang==="ar"?"لكل فئة: سؤال المتقدم في كل مرحلة، وما يواجهه اليوم (بأرقام النتائج)، والصفحة التي تجيبه في البنية الجديدة، والحقول التي تغذيها وحالتها."
+               :"For each category: the applicant’s question at every stage, what they hit today (with finding IDs), the page that answers it in the new structure, and the fields feeding it with their status.")
+    + `<div class="filters" role="group" aria-label="persona">${IA.routes.map(x=>`<button class="btn" aria-pressed="${persona===x.id}" data-p="${x.id}">${x.icon} ${esc(L(x.t))}</button>`).join("")}</div>
+      <p class="small">${lang==="ar"?"من الصفحة الرئيسية إلى القناة":"From the home page to the channel"}: <b>${res.clicks} ${lang==="ar"?"نقرات":"clicks"}</b> (${lang==="ar"?"الهدف ≤ 3":"target ≤ 3"}) · ${lang==="ar"?"اليوم":"today"}: ${persona==="graduate"?(lang==="ar"?"4 قفزات على الأقل":"at least 4 hops"):(lang==="ar"?"غير محدد (مداخل متعارضة)":"undefined (conflicting entry points)")}</p>
+      <div class="tbl"><table class="jr"><thead><tr><th>${lang==="ar"?"المرحلة":"Stage"}</th><th>${lang==="ar"?"سؤال المتقدم":"Applicant’s question"}</th><th>${lang==="ar"?"اليوم":"Today"}</th><th>${lang==="ar"?"الصفحة الجديدة":"New page"}</th><th>${lang==="ar"?"البيانات وحالتها":"Data and status"}</th></tr></thead><tbody>
+      ${IA.stages.map(st => { const p = pn[st.id]; const n = touch(st); return `<tr><td><b>${esc(L(st.t))}</b></td><td>${esc(L(st.q))}</td><td class="small">${esc(L(p.t))} ${p.f.map(fChip).join("")}</td><td>${esc(L(n.t))}<br><span class="mono muted small">${esc(n.path)}</span></td><td>${st.feeds.map(statusChip).join("")}</td></tr>`; }).join("")}
+      </tbody></table></div>`;
+  document.querySelectorAll("#s5 [data-p]").forEach(b => b.onclick = () => { persona = b.dataset.p; s5(); });
+}
+
+/* ---------- 6 routing engine ---------- */
+function s6(){
+  const results = IA.tests.map(tc => ({tc, ...runTest(tc)}));
+  $("#s6").innerHTML = sec("s6","06","محرك توجيه التقديم","Application routing engine",
+    lang==="ar"?"جدول قرار واحد يحدد قناة كل فئة. الأسئلة تُطرح فقط إذا لم يحددها المسار، فلا يرى المتقدم أكثر من سؤالين. القنوات مبنية على ما تنشره الجامعة اليوم (تحقق حي 2026-09-28)، وتبقى «مقترحة» حتى توقيع D4."
+               :"One decision table sets the channel for each category. Questions are asked only when the route has not already answered them, so no applicant sees more than two. Channels are based on what PMU publishes today (live check 2026-09-28) and stay “proposed” until D4 is signed.")
+    + `<h3>${lang==="ar"?"جدول القرار":"Decision table"}</h3><div class="tbl"><table><thead><tr><th>${lang==="ar"?"القاعدة":"Rule"}</th><th>${lang==="ar"?"الشرط":"When"}</th><th>${lang==="ar"?"القناة":"Channel"}</th><th>${lang==="ar"?"الأساس المنشور":"Published basis"}</th><th>${lang==="ar"?"الحالة":"Status"}</th></tr></thead><tbody>
+      ${IA.rules.map(r=>`<tr><td class="mono">${r.id}</td><td class="mono small">${esc(Object.entries(r.when).map(([k,v])=>k+"="+v).join(" ∧ "))}</td><td>${r.channel?esc(L(IA.channels[r.channel].t)):"—"}</td><td>${r.basis.map(pChip).join("")||"—"}<div class="small muted">${esc(L(r.note))}</div></td><td>${r.status==="gap"?`<span class="chip c-gap">${t("gap")}</span>`:`<span class="chip c-pend">${t("proposed")}</span>`}</td></tr>`).join("")}
+      </tbody></table></div>
+      <h3>${lang==="ar"?"اختبارات الرحلة (تُنفَّذ الآن في هذه الصفحة)":"Journey tests (executed now, in this page)"}</h3>
+      <div class="tbl"><table><thead><tr><th>ID</th><th>${lang==="ar"?"الفئة":"Category"}</th><th>${lang==="ar"?"المتوقع":"Expected"}</th><th>${lang==="ar"?"الناتج":"Result"}</th><th>${lang==="ar"?"النقرات":"Clicks"}</th><th>${lang==="ar"?"الحكم":"Verdict"}</th></tr></thead><tbody>
+      ${results.map(({tc,ok,clicks,rule})=>{
+         const got = rule ? (rule.channel ? L(IA.channels[rule.channel].t) : t("gap")) : "—";
+         const exp = tc.expect ? L(IA.channels[tc.expect].t) : t("gap");
+         const v = !tc.expect ? `<span class="pendt">${lang==="ar"?"فجوة مكتشفة ← D4":"Gap found → D4"}</span>` : (ok && clicks<=3 ? `<span class="pass">${lang==="ar"?"ناجح (المنطق)":"PASS (logic)"}</span>` : `<span class="fail">${lang==="ar"?"فاشل":"FAIL"}</span>`);
+         return `<tr><td class="mono">${tc.id}</td><td>${esc(L(ROUTE[tc.persona].t))}${Object.keys(tc.answers).length?` <span class="small muted">(${esc(Object.values(tc.answers).join(", "))})</span>`:""}</td><td>${esc(exp)}</td><td>${esc(got)}</td><td class="mono">${clicks}</td><td>${v}</td></tr>`; }).join("")}
+      </tbody></table></div>
+      <p class="small muted">${lang==="ar"?"«ناجح (المنطق)» يعني أن البنية توصل الفئة إلى قناتها خلال 3 نقرات أو أقل. لا يعني أن القناة معتمدة: بوابة G4 لا تُجتاز إلا بعد توقيع D4 واختبار مستخدمين مسجّل.":"“PASS (logic)” means the structure gets the category to its channel in ≤3 clicks. It does not mean the channel is approved: gate G4 passes only after D4 is signed and recorded user tests."}</p>
+      <h3>${lang==="ar"?"جرّب الموجّه":"Try the router"}</h3><div class="comp" style="border:1px solid var(--line);border-radius:10px;padding:12px" id="rtry">${routerHTML({}, "s6")}</div>`;
+  const bind = () => {
+    document.querySelectorAll("#rtry input[data-rk]").forEach(i => i.onchange = () => { tplAns.s6 = {...(tplAns.s6||{}), [i.dataset.q]: i.value}; $("#rtry").innerHTML = routerHTML({}, "s6"); bind(); });
+    document.querySelectorAll("#rtry [data-reset]").forEach(b => b.onclick = () => { tplAns.s6 = {}; $("#rtry").innerHTML = routerHTML({}, "s6"); bind(); });
+  };
+  bind();
+}
+
+/* ---------- 7 navigation & URLs ---------- */
+function s7(){
+  const A = lang==="ar";
+  $("#s7").innerHTML = sec("s7","07","الملاحة وعناوين URL","Navigation & URLs",
+    A?"قواعد ثابتة تجعل كل صفحة قابلة للتوقع والفهرسة، بلغتين، دون روابط مكسورة.":"Fixed rules that make every page predictable and indexable, in two languages, with no broken links.")
+  + `<div class="grid two">
+      <div><h3>${A?"التنقل":"Navigation"}</h3><ul class="clean">
+        <li>${A?"تنقل القبول الثابت: القبول · البكالوريوس · الدراسات العليا · التكاليف · المواعيد · قدّم.":"Persistent admissions nav: Admissions · Undergraduate · Graduate · Costs · Dates · Apply."}</li>
+        <li>${A?"مسار تنقّل (breadcrumb) يطابق بنية URL في كل صفحة.":"A breadcrumb that mirrors the URL structure on every page."}</li>
+        <li>${A?"«في هذه الصفحة» ثابت في صفحات المسار، ويصبح قائمة منسدلة على الجوال.":"“On this page” pinned on route pages, collapsing to a menu on mobile."}</li>
+        <li>${A?"زر «قدّم» واحد في كل الصفحات يفتح الموجّه مع تحديد المسار مسبقًا.":"One “Apply” button on every page, opening the router with the route preset."}</li>
+        <li>${A?"«تواصل» يفتح صفحة التواصل بأدوار القبول، لا قائمة موظفين.":"“Contact” opens the admissions roles page, not a staff list."}</li></ul></div>
+      <div><h3>${A?"عناوين URL":"URLs"}</h3><ul class="clean">
+        <li>${A?"صيغة ثابتة":"Pattern"}: <span class="mono">/{ar|en}/admissions/{section}/{route}</span></li>
+        <li>${A?"أحرف صغيرة وشرطات، بلا .aspx وبلا أرقام إصدار أو سنوات في العنوان.":"Lowercase with hyphens; no .aspx, no version numbers or years in the URL."}</li>
+        <li>${A?"زوج hreflang لكل صفحة (ar-SA وen) ووسم canonical، وlang وdir على عنصر html.":"An hreflang pair per page (ar-SA and en) plus canonical, and lang and dir on the html element."}</li>
+        <li>${A?"HTTPS فقط؛ لا روابط http ولا href=\"#\" في القوالب (G5).":"HTTPS only; no http links and no href=\"#\" in templates (G5)."}</li>
+        <li>${A?"الأرشيف تحت /admissions/archive مع noindex ولافتة الدورة.":"Archive under /admissions/archive, noindex, with a cycle banner."}</li></ul></div></div>
+    <h3>${A?"أمثلة":"Examples"}</h3>
+    <div class="tbl"><table><thead><tr><th>${A?"اليوم":"Today"}</th><th>${A?"الجديد (عربي)":"New (Arabic)"}</th><th>${A?"الجديد (إنجليزي)":"New (English)"}</th></tr></thead><tbody>
+      ${[["/admission/admission","/ar/admissions","/en/admissions"],["/admission/freshman_admission + /direct-admissions-from-secondary-school","/ar/admissions/undergraduate/high-school","/en/admissions/undergraduate/high-school"],["/admission/college_of_medicine_admission","/ar/admissions/undergraduate/medicine","/en/admissions/undergraduate/medicine"],["/apply · Apply_Now_ADS.aspx · http://admissions.pmu.edu.sa","/ar/admissions/apply","/en/admissions/apply"],["/admission/fees_tf_ro · fees_tf_ro_2026_2027","/ar/admissions/costs","/en/admissions/costs"],["/admission/admission_procedures_criteria_fs_ro","/ar/admissions/archive/…","/en/admissions/archive/…"]].map(r=>`<tr>${r.map(c=>`<td class="mono small">${esc(c)}</td>`).join("")}</tr>`).join("")}
+    </tbody></table></div>`;
+}
+
+/* ---------- 8 content model ---------- */
+function s8(){
+  const A = lang==="ar";
+  $("#s8").innerHTML = sec("s8","08","نموذج المحتوى والمكوّنات","Content model & components",
+    A?"ثمانية مكوّنات فقط تبني كل الصفحات. كل مكوّن يقرأ حقوله من السجل المرجعي، ولا يُكتب فيه رقم يدويًا.":"Only eight components build every page. Each reads its fields from the canonical record; no figure is typed by hand.")
+  + `<div class="tbl"><table><thead><tr><th>${A?"المكوّن":"Component"}</th><th>${A?"الحقول وحالتها":"Fields and status"}</th><th>${A?"يظهر في":"Used on"}</th></tr></thead><tbody>
+      ${IA.components.map(c=>`<tr><td><b>${esc(L(c.t))}</b></td><td>${c.fields.map(statusChip).join("")}</td><td class="small">${c.where.map(w=>esc(L(NODE[w].t))).join(" · ")}</td></tr>`).join("")}
+    </tbody></table></div>
+    <h3>${A?"حالات كل حقل وقواعد النشر":"Field states and publishing rules"}</h3>
+    <div class="grid two"><ul class="clean">
+      <li><span class="chip c-ok">✓ ${t("approved")}</span> ${A?"يُعرض كقيمة، مع «سارية لدورة · المالك · آخر تحقق».":"Shown as a value, with “effective for cycle · owner · last verified”."}</li>
+      <li><span class="chip c-pend">⏳ ${t("pending")}</span> ${A?"يُعرض كتنبيه مع القيم المنشورة ومصادرها؛ الحاسبات والأزرار المعتمدة عليه معطّلة.":"Shown as a notice with the published values and sources; calculators and buttons that depend on it are disabled."}</li>
+      <li><span class="chip c-gap">${A?"منتهي":"Expired"}</span> ${A?"إذا تجاوز «آخر تحقق» 30 يومًا قبل فتح الدورة، يُرفع تلقائيًا إلى المالك.":"If “last verified” is older than 30 days before a cycle opens, it is escalated to the owner automatically."}</li></ul>
+      <ul class="clean">
+      <li>${A?"لا يُنشر مكوّن فيه حقل إلزامي فارغ (يمنع تكرار F-26).":"A component with an empty required field cannot be published (prevents F-26)."}</li>
+      <li>${A?"الحد الأدنى المركّب يُفحص حسابيًا مقابل الحدود الدنيا قبل النشر (يمنع تكرار F-20).":"The composite minimum is checked arithmetically against the component minimums before publishing (prevents F-20)."}</li>
+      <li>${A?"العربية والإنجليزية تُنشران معًا أو لا تُنشران.":"Arabic and English publish together or not at all."}</li></ul></div>
+    <p class="small muted">${A?"حالة السجل اليوم":"Record today"}: ${CANON.filter(r=>r.approved_value).length} ${A?"معتمد من":"approved of"} ${CANON.length}.</p>`;
+}
+
+/* ---------- 9 acceptance ---------- */
+function s9(){
+  const A = lang==="ar";
+  const rows = [
+    ["G3",A?"صفر تعارض: كل حقل له قيمة واحدة في كل الصفحات":"Zero conflicts: each field has one value across all pages","drift_check.py",A?"21 مشكلة":"21 issues"],
+    ["G4",A?"6/6 فئات تصل لقناتها خلال ≤3 نقرات، مع اختبار مستخدمين مسجّل":"6/6 categories reach their channel in ≤3 clicks, with recorded user tests",A?"اختبارات القسم 06 + جلسات مستخدمين":"Section 06 tests + user sessions",A?`${IA.tests.filter(x=>x.expect).map(runTest).filter(x=>x.ok&&x.clicks<=3).length}/6 منطقيًا؛ D4 غير موقّع`:`${IA.tests.filter(x=>x.expect).map(runTest).filter(x=>x.ok&&x.clicks<=3).length}/6 by logic; D4 unsigned`],
+    ["G5",A?"lang وdir صحيحة، صفر روابط http و#، نص بديل، ترتيب عناوين، WCAG 2.2 AA يدويًا":"Correct lang and dir, zero http and # links, alt text, heading order, manual WCAG 2.2 AA","dom_probe.js + "+(A?"فحص يدوي":"manual audit"),A?"lang غائبة 20/20":"lang missing 20/20"],
+    ["G6",A?`كل الروابط الـ${IA.legacy.length} في حالتها النهائية ومتحقق منها بالزحف`:`All ${IA.legacy.length} links in their terminal state and crawl-verified`,"redirect-map.csv + crawl",A?"0 منتهٍ":"0 terminal"],
+  ];
+  $("#s9").innerHTML = sec("s9","09","معايير القبول: متى نقول إن التصميم نُفّذ","Acceptance criteria: when the design counts as delivered",
+    A?"كل معيار قابل للقياس بأداة موجودة في المستودع. الحكم يبقى NOT MET حتى تُثبت كل البوابات.":"Every criterion is measurable with a tool already in the repository. The verdict stays NOT MET until every gate is proven.")
+  + `<div class="tbl"><table><thead><tr><th>${A?"البوابة":"Gate"}</th><th>${A?"المعيار":"Criterion"}</th><th>${A?"أداة الإثبات":"Evidence tool"}</th><th>${A?"اليوم":"Today"}</th></tr></thead><tbody>${rows.map(r=>`<tr><td class="mono">${r[0]}</td><td>${r[1]}</td><td class="small mono">${esc(r[2])}</td><td class="small">${r[3]}</td></tr>`).join("")}</tbody></table></div>
+    <p><b>${A?"الحكم":"Verdict"}:</b> <span class="chip c-gap">FULL PROJECT CLOSURE — NOT MET</span></p>`;
+}
+
+function render(){
+  const html = document.documentElement;
+  html.lang = lang; html.dir = lang==="ar" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  const lb = $("#langBtn"); lb.textContent = lang==="ar" ? "English" : "العربية"; lb.lang = lang==="ar" ? "en" : "ar";
+  $("#toc").innerHTML = UI.toc[lang].map((x,i)=>`<a href="#s${i+1}">${String(i+1).padStart(2,"0")} ${x}</a>`).join("");
+  s1(); s2(); s3(); s4(); s5(); s6(); s7(); s8(); s9();
+  $("#foot").textContent = lang==="ar" ? "مخطط مستقل مبني على تدقيق 2026-09-27 وتحقق حي 2026-09-28. ليس صفحة رسمية، ولا يمثل قرارًا من الجامعة، ولا يجمع أي بيانات شخصية." : "Independent blueprint based on the 2026-09-27 audit and a live check on 2026-09-28. Not an official page; does not represent a PMU decision; collects no personal data.";
+}
+$("#langBtn").onclick = () => { lang = lang==="ar" ? "en" : "ar"; render(); };
+render();
+</script>
