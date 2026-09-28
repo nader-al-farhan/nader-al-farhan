@@ -1,0 +1,352 @@
+{
+ "C01-1": {
+  "shot": "content/shots/C01-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C02-1": {
+  "shot": "content/shots/C02-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C02-2": {
+  "shot": "content/shots/C02-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C03-1": {
+  "shot": "content/shots/C03-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C03-2": {
+  "shot": "content/shots/C03-2.jpg",
+  "found": 3,
+  "of": 3
+ },
+ "C03-3": {
+  "shot": "content/shots/C03-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C03-4": {
+  "shot": "content/shots/C03-4.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C05-1": {
+  "shot": "content/shots/C05-1.jpg",
+  "found": 4,
+  "of": 4
+ },
+ "C07-1": {
+  "shot": "content/shots/C07-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C07-2": {
+  "shot": "content/shots/C07-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C07-3": {
+  "shot": "content/shots/C07-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C07-4": {
+  "shot": "content/shots/C07-4.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C07-5": {
+  "shot": "content/shots/C07-5.jpg",
+  "found": 3,
+  "of": 3
+ },
+ "C07-6": {
+  "shot": "content/shots/C07-6.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C07-7": {
+  "shot": "content/shots/C07-7.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C09-1": {
+  "shot": "content/shots/C09-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C09-2": {
+  "shot": "content/shots/C09-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C09-3": {
+  "shot": "content/shots/C09-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C10-1": {
+  "shot": "content/shots/C10-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C11-1": {
+  "shot": "content/shots/C11-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C11-2": {
+  "shot": "content/shots/C11-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C12-1": {
+  "shot": "content/shots/C12-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C12-2": {
+  "shot": "content/shots/C12-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C13-1": {
+  "shot": "content/shots/C13-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C14-1": {
+  "shot": "content/shots/C14-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C15-1": {
+  "shot": "content/shots/C15-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C16-1": {
+  "shot": "content/shots/C16-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C16-2": {
+  "shot": "content/shots/C16-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C17-1": {
+  "shot": "content/shots/C17-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C17-2": {
+  "shot": "content/shots/C17-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C18-1": {
+  "shot": "content/shots/C18-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C18-2": {
+  "shot": "content/shots/C18-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C19-1": {
+  "shot": "content/shots/C19-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C19-2": {
+  "shot": "content/shots/C19-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C20-1": {
+  "shot": "content/shots/C20-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C20-2": {
+  "shot": "content/shots/C20-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C20-3": {
+  "shot": "content/shots/C20-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C20-4": {
+  "shot": "content/shots/C20-4.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C20-5": {
+  "shot": "content/shots/C20-5.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C21-1": {
+  "shot": "content/shots/C21-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C21-2": {
+  "shot": "content/shots/C21-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C23-1": {
+  "shot": "content/shots/C23-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C23-2": {
+  "shot": "content/shots/C23-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C23-3": {
+  "shot": "content/shots/C23-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C24-1": {
+  "shot": "content/shots/C24-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C24-2": {
+  "shot": "content/shots/C24-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C24-3": {
+  "shot": "content/shots/C24-3.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C24-4": {
+  "shot": "content/shots/C24-4.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C24-6": {
+  "shot": "content/shots/C24-6.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C25-1": {
+  "shot": "content/shots/C25-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C26-1": {
+  "shot": "content/shots/C26-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C26-2": {
+  "shot": "content/shots/C26-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C27-1": {
+  "shot": "content/shots/C27-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C27-2": {
+  "shot": "content/shots/C27-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C28-1": {
+  "shot": "content/shots/C28-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C28-2": {
+  "shot": "content/shots/C28-2.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C29-1": {
+  "shot": "content/shots/C29-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C29-2": {
+  "shot": "content/shots/C29-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C30-1": {
+  "shot": "content/shots/C30-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C30-2": {
+  "shot": "content/shots/C30-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C30-3": {
+  "shot": "content/shots/C30-3.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C30-4": {
+  "shot": "content/shots/C30-4.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C31-1": {
+  "shot": "content/shots/C31-1.jpg",
+  "found": 2,
+  "of": 2
+ },
+ "C32-1": {
+  "shot": "content/shots/C32-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C33-1": {
+  "shot": "content/shots/C33-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C33-2": {
+  "shot": "content/shots/C33-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C35-1": {
+  "shot": "content/shots/C35-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C36-1": {
+  "shot": "content/shots/C36-1.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C36-2": {
+  "shot": "content/shots/C36-2.jpg",
+  "found": 1,
+  "of": 1
+ },
+ "C36-3": {
+  "shot": "content/shots/C36-3.jpg",
+  "found": 1,
+  "of": 1
+ }
+}
