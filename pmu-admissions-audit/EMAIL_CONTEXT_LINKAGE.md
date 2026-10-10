@@ -68,6 +68,8 @@ INT --> SIS[Study in Saudi يفتح 1 يوليو<br/>إلزامي + موعد 30 
 | **F-56** | Medium | EML | تقويم البكالوريوس بلا موعد انتهاء للمقابلات؛ العمليات مستمرة بعد نافذة النتائج | Calendar UG: results "From July 19 to July 21, 2026" (no interview end date; Graduate has "End of interviews 2026-07-23"); internal email 23 Aug 2026: "call attached applicants to come tomorrow for interview" | إضافة تواريخ المقابلات/القبول المتأخر |
 | **F-57** | Low | EML | مبادرات قائمة بالفعل (تطوير نظام التقديم، الأسئلة الشائعة/الروبوت، شريك Webflow) — مرفقاتها غير متاحة | "Admissions Application System – Enhancement and Development Requirements" (10 Sep 2026; docx not accessible); "Common questions … Chatbot assignment … KnowledgeOps_AllTables_v1.xlsx"; vendor email re "PMU Admissions project"; homepage "PMUer Virtual Assistant" | مواءمة المحفظة مع المبادرات الجارية |
 
+> **تصحيح (10 أكتوبر 2026):** وثيقة Enhancement Requirements قُرئت لاحقًا؛ انظر `ADMISSION_PAGE_UPDATES_EMAIL_LINKAGE.md`.
+
 > `IN*` = ادعاء داخل النطاق الصارم يدعمه البريد · `EML` = مستمد من البريد ويؤثر على القرار لكنه خارج صفحات الموقع.
 
 ## 6. تصحيحات لعملي السابق بسبب البريد
