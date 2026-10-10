@@ -1,0 +1,262 @@
+[
+ {
+  "url": "https://www.pmu.edu.sa/default",
+  "labels": [
+   "Home"
+  ],
+  "in_register": false
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission-registration",
+  "labels": [
+   "Study @ PMU"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/future_students_ro",
+  "labels": [
+   "Overview"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "labels": [
+   "Degrees & Programs"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "labels": [
+   "Admissions Calendar"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/staff_profile/staff_list",
+  "labels": [
+   "Contact Us"
+  ],
+  "in_register": false
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_queries",
+  "labels": [
+   "Admission Query"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/apply",
+  "labels": [
+   "Apply Now",
+   "Apply"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/international_students",
+  "labels": [
+   "International Students without Saudi Residence"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "labels": [
+   "Home"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/application_form_deme_gdp",
+  "labels": [
+   "Admissions to the PhD in Mechanical Engineering Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "labels": [
+   "Admissions to the PhD in Business Administration Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "labels": [
+   "Admissions to the EMBA Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+  "labels": [
+   "Admissions to the MBA Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "labels": [
+   "Admissions to the MSHD Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+  "labels": [
+   "Admissions to the MSME Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/application_form_msee_gdp",
+  "labels": [
+   "Admissions to the MSEE Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/application_form_msce_gdp",
+  "labels": [
+   "Admissions to the MSCE Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/application_form_msid_gdp",
+  "labels": [
+   "Admissions to the MSID Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "labels": [
+   "Admissions to the EMGMS Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "labels": [
+   "Admissions to the MIBL"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "labels": [
+   "Tuition & Fees"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission_contact_gdp",
+  "labels": [
+   "Contact Info"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+  "labels": [
+   "Home"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/college_of_medicine_admission",
+  "labels": [
+   "Admission to the College of Medicine"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission-to-the-preparatory-program",
+  "labels": [
+   "Admissions to the Preparatory Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "labels": [
+   "Direct Admissions from Secondary School"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission-from-other-universities",
+  "labels": [
+   "Admissions from Other Universities"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/visiting-student-admission",
+  "labels": [
+   "Visting Students"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "labels": [
+   "Admissions from the Preparatory Program"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "labels": [
+   "Computer Science and Engineering Majors Admission Requirements"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/fees_tf_ro",
+  "labels": [
+   "Tuition & Fees"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+  "labels": [
+   "Overview"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "labels": [
+   "Aptis"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/ielts-admission",
+  "labels": [
+   "IELTS"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/toefl-admission",
+  "labels": [
+   "TOEFL"
+  ],
+  "in_register": true
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/sat-admission",
+  "labels": [
+   "Scholastic Aptitude Test (SAT)"
+  ],
+  "in_register": true
+ }
+]

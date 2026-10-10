@@ -1,0 +1,874 @@
+URL: https://www.pmu.edu.sa/admission/final_exam_schedule_ro
+FINAL: https://www.pmu.edu.sa/admission/final_exam_schedule_ro
+TITLE: Undergraduate Schedule :: Final Exam Schedule :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University
+
+Study @ PMU > Registration Office > Undergraduate Schedule
+Undergraduate Schedule
+Male Female
+ADVANCED SEARCH
+CRN:
+Choose CRN
+30035
+30036
+30039
+30041
+30044
+30052
+30056
+30060
+30064
+30065
+30070
+30072
+30073
+30075
+30076
+30078
+30079
+30081
+30083
+30084
+30086
+30087
+30088
+30091
+30092
+30095
+30097
+30098
+30100
+30101
+30103
+30106
+30107
+30109
+30111
+30112
+30114
+30115
+30119
+30122
+30124
+30127
+30131
+30134
+30135
+30137
+30150
+30151
+30152
+30153
+30156
+30157
+30158
+30159
+30160
+30167
+30168
+30169
+30170
+30171
+30172
+30173
+30174
+30191
+30193
+30194
+30197
+30199
+30202
+30207
+30212
+30213
+30217
+30218
+30220
+30222
+30224
+30226
+30228
+30233
+30234
+30237
+30239
+30243
+30248
+30252
+30255
+30260
+30262
+30266
+30268
+30274
+30276
+30278
+30280
+30287
+30288
+30289
+30332
+30334
+30335
+30336
+30337
+30338
+30339
+30340
+30341
+30343
+30345
+30347
+30348
+30349
+30350
+30351
+30352
+30354
+30357
+30358
+30360
+30362
+30363
+30364
+30365
+30366
+30368
+30369
+30370
+30372
+30373
+30374
+30375
+30376
+30377
+30379
+30380
+30381
+30382
+30383
+30385
+30386
+30387
+30388
+30389
+30390
+30391
+30392
+30393
+30395
+30397
+30399
+30400
+30404
+30405
+30406
+30410
+30411
+30412
+30413
+30414
+30424
+30428
+30429
+30478
+30479
+30485
+30487
+30491
+30492
+30500
+30501
+30502
+30513
+30516
+30522
+30528
+30530
+30537
+30538
+30539
+30540
+30544
+30545
+30547
+30548
+30557
+30570
+30582
+30585
+30586
+30587
+30588
+30590
+30593
+30597
+30598
+30604
+30607
+30609
+30613
+30615
+30633
+30637
+30638
+30642
+COURSE CODE:
+Choose Course Code
+ACCT 2311
+ACCT 2321
+ACCT 3301
+ACCT 3311
+AINT 3361
+AINT 4361
+AINT 4371
+ALIS 1211
+ALIS 1212
+ALIS 2211
+ALIS 2212
+BUSI 2311
+BUSI 3311
+BUSI 3312
+BUSI 3313
+BUSI 3321
+BUSI 3323
+BUSI 3331
+BUSI 3351
+BUSI 3361
+BUSI 4311
+BUSI 4362
+CHEM 1411
+CHEM 1421
+CHEN 2311
+CHEN 2312
+CHEN 2391
+CHEN 3315
+CHEN 3333
+CHEN 3494
+CHEN 4344
+COEN 2411
+COEN 3323
+COEN 3361
+COEN 3421
+COEN 4322
+COEN 4361
+COEN 4413
+COMM 1311
+COMM 1312
+COMM 2311
+COMM 2312
+COSC 3332
+COSC 3361
+COSC 3411
+COSC 4361
+COSC 4362
+COSC 4363
+COSC 4371
+COSC 4461
+CSEC 3355
+CSEC 3431
+CSEC 4361
+CVEN 2311
+CVEN 3341
+CVEN 3343
+CVEN 4313
+CVEN 4334
+ECON 1311
+ECON 1312
+EEEN 2312
+EEEN 2411
+EEEN 3341
+EEEN 3391
+EEEN 3432
+EEEN 4440
+EEEN 4451
+FINA 3311
+FINA 3312
+FINA 3314
+FINA 3321
+FINA 4313
+FINA 4314
+FINA 4351
+GEEN 1211
+GEEN 2211
+GEEN 2310
+GEEN 2311
+GEEN 2313
+GEEN 3311
+GEEN 3314
+GEEN 4311
+GEIT 1411
+GEIT 1412
+GEIT 2291
+GEIT 2331
+GEIT 2421
+GEIT 3331
+HIST 1311
+HRMT 3321
+HRMT 3334
+HRMT 3337
+ITAP 3315
+ITAP 3411
+ITAP 3431
+ITAP 4316
+ITAP 4361
+LAWB 2331
+LAWB 3326
+LAWB 3362
+LAWB 3363
+LAWB 4362
+LAWB 4371
+LAWE 4216
+MATH 1311
+MATH 1312
+MATH 1313
+MATH 1324
+MATH 1422
+MATH 1423
+MATH 2313
+MATH 2332
+MATH 3433
+MEEN 2311
+MEEN 2312
+MEEN 2313
+MEEN 3311
+MEEN 3322
+MEEN 3333
+MEEN 3391
+MEEN 3395
+MEEN 3432
+MEEN 4311
+MEEN 4322
+MEEN 4332
+MEEN 4341
+MEEN 4392
+MEEN 4393
+MISY 2311
+MISY 3311
+MISY 3312
+MISY 3322
+MISY 4331
+MISY 4333
+PHYS 1411
+PHYS 1421
+PHYS 1422
+PRPM 0011
+PRPM 0012
+PRPM 0022
+SOEN 2332
+SOEN 3311
+SOEN 3361
+SOEN 4311
+SOEN 4312
+SOEN 4313
+SOEN 4361
+SOEN 4371
+SOEN 4461
+SUST 1311
+UNIV 1211
+UNIV 1212
+UNIV 1213
+COURSE TITLE:
+Choose Course Title
+Air Pollution and Control
+Applied Linear Algebra for Eng
+Artificial Intelligence
+Automatic Control Systems
+Building Electronic Commerce
+Business Ethics
+Business Negotiations
+Business Psychology
+CAD for Civil Engineering
+Calculus for Students of Busi.
+Calculus I
+Calculus II
+Calculus III
+Chemistry for Engineers I
+Circuits I
+Circuits II
+Civil Enforcement Law
+Civil Procedure Law
+Communications Systems
+Computational Methods
+Computer Graphics
+Computer Networks
+Computer Organization
+Computer Science |
+Computer Science ||
+Constitutional Law
+Corrosion Engineering
+Criminal Procedure Law
+Crit. Think'g and Prob. Solv'g
+Data Structures
+Database for Info Sys
+Design of Mechanisms
+Design of Steel Structures
+Digital and Logic Design
+Digital Signal Processing
+Disc Struc & Combinatorial Ana
+Discrete Str. & Com. Ana
+e-Commerce
+Electric Circ. & Electronics
+Electronics |
+Embedded systems
+Eng'g Mechanics I : Statics
+Eng'g Mechanics II: Dynamics
+Eng'g Probability & Statistics
+Engineering Computing
+Engineering Economy
+Engineering Measurements
+Feedback Control
+Financial Institutions
+Financial Mgmt. Principles
+Financial Statement Analysis
+Finite Math. for Stu. of Busi.
+Fund of Financial Acct
+Fund. of Managerial Accounting
+Heat Transfer
+Human Resource Management
+Human Rights& Humanitarian Law
+Intermediate Acct 1
+Intermediate Algebra
+International Finance
+Intro to Manag Info Sys
+Intro. to Info. Assurance
+Intro. to Islamic Culture
+Intro. to Islamic Finance
+Intro. to Project Management
+Intro. to Telecommunications
+Introduction for Engineering
+Introduction to Fluid Mechanic
+Introduction to HRM
+Introduction to Macroeconomics
+Introduction to Microeconomics
+Introduction to Sustainability
+Introductory Algebra
+Introductory Chemistry
+Introductory Physics
+Investments
+Leadership & Teamwork
+Legal Environment of Business
+Linear Algebra&Diff. Equations
+Linguistic Comm. Skills
+Machine Design
+Manufacturing Processes
+Marketing Principles
+Materials Engineering
+Math. Reasoning &Alg. Thinking
+Mechanical Vibration
+Microcontroller Systems
+Negotiation & Conflict Managmt
+Network Security
+Operating Systems
+Operations Management
+Oral Communication
+Ordinary Differential Equation
+Organic Chemistry
+Organizational Behavior
+Organizational Psyc. for HRM
+Physical Chemistry
+Physics for Engineers I
+Physics for Engineers II
+Power Generation
+Pre- Calculus
+Prgramming Languages
+Principles of Chemical Engnr'g
+Principles of HVAC
+Principles of Management
+Private International Law
+Probability & Statistics
+Probability and Random Signal
+Prof. Dev. and Competencies
+Professional Ethics
+Programming Languages
+Property & Real Securities
+Requirements Engineering
+Scripting Languages
+Separation Process
+Signals and Systems
+Software Arch. & Design
+Software Project Management
+Software Testing & Qual Assu.
+Software Testing and QA
+Solid Mechanics
+Spec Top Acct - Tax& Zakat
+Spec Topics in Finance-FINTECH
+Statistical Methods
+Strategic Management
+Systems Analysis & Design
+Systems Programming
+Technical and Profe. Commun.
+The Bio. of Prophet Mohammad
+The Social System in Islam
+Theory of Computation
+Thermodynamics I
+Thermodynamics II
+Turbomachinery
+World Civilizations
+Writing and Research
+Written Communication
+SEC:
+Choose Sec
+101
+102
+103
+104
+INSTRUCTOR:
+Choose Instructor
+Abdelhak Ibnelfarouk
+Abdul Aziz Afzal
+Abumuhammad Moinuddeen
+Ahmad Baroutaji
+Ahmad Mohammad Ibrahim Saleh
+AHMAD NURIDDIN
+Ahmed Abul Hussain
+Ala Raef Al-Haj Hussein
+Amjad Khan
+Awadalla Salaheldin Awadalla
+Aws Mousa Ibrahim Alhares
+Azhar Iqbal
+Azzam Hazim
+Bachar Bernard Tarraf
+Bassel Seif El Dine
+Danish Ahmed
+Deepanraj Balakrishnan
+Enio Pedone Bandarra Filho
+Faisal Abdulaziz Almkhytah
+Faizan Ahmed
+Fanny Saruchera
+Farhan Ullah
+Feroz Shaik
+Ghayur Ahmad
+Gunner David Gunderson
+Ibrahim Khalil El Didi
+Imad Muhi
+Imtiaz Ali
+Izharul Haq
+Jawad Fawaz Farraj Al Asad
+Jawad Hasan Yasin Alkhateeb
+Joel Craig Richmond
+Kamran Ali
+Khaled S Fawagreh
+Khalid Abdullah Mohammed Al Sayah
+Khalid Saleh Alammari
+Khalid Saleh Aldhahri
+Lucas Willem van der Laan
+Maen Mohammad Mustafa Hammad
+Mahmoud Masud
+Maythem Mahmoud
+MD Aminul Islam
+MOHAMED ABDULLA ABDULLA
+Mohamed Husen Ali Elmagrhi
+Mohamed Rabigh Khodja
+Mohamed-El Arbi Aoka
+Mohammad Ali Khasawneh
+Mohammad Al-Talib
+Mohammad Bassam Abdul-Rahim
+Mohammed Dilsad Ahmed
+Mohammed Zikria
+Mohd Amin Mir
+MOHD NAYEEMUDDIN
+Mouhamad El Hassan
+MUAMAR HASSAN ABDEL RAHIM SALAMEH
+Muhammad Asad
+Muhammad Azhar Khan
+Muhammad Jamil
+Muhammad Muazzem Hossain
+Muhammad Rafiq
+MUHAMMAD WAQAR ASHRAF
+Mushtaq Khan
+Noor UL Hadi
+Paul Oluwaseun Awoyera
+Rashid Rushdi Rashid Abu-Dawwas
+Ratnasunil Buradagunta
+Sadiq Ali Alhuwaidi
+Sagheer Abbas
+Samer Yaseen Safa Al Imamy
+Samir El-Nakla
+Sani Isah Abba
+Shahabuddin Muhammad
+Shakir Muhammad Usman
+Sorena Artin
+Sougata Poddar
+Sten Langmann
+Suleiman Alabdallah
+Syam Sundar Lingala
+Syed Mabruk Billah
+Syed Muhammad Hasnain
+Taha Houda
+Taha Rajab
+Tariq Aziz
+Tynan Byrne Kelly
+Ubaid Hussain Tantary
+Vinayakumar Ravi
+Wael Yousif Mohamed Suliman
+Yazan Zaid Alnsour
+Yehia Oadtallah Saleim Al-Daaja
+Yousif Abdelrahim
+Zafar Abbas Kazimi
+Zeeshan Ahmed Rana
+BUILDING:
+Choose Building
+M-CCES
+M-COBA
+M-COE
+M-CORE
+ROOM:
+Choose Room
+F051
+F052
+F053
+F055
+F062
+F063
+F086
+F087
+F088
+F089
+F090
+F150
+F151
+F152
+F153
+F154
+F155
+F156
+F157
+G017
+G025
+G026
+G026/G207
+G027
+G029
+G030
+G032
+G034
+G048
+G049
+S047
+S048
+S050
+S055
+S057
+S058
+S085
+S086
+S087
+S135
+S144
+S146
+S147
+S148
+S149
+S150
+S151
+S152
+DATE:
+Choose Date
+Aug 16, 2026
+Aug 17, 2026
+Aug 18, 2026
+CRNCOURSE CODECOURSE TITLESECINSTRUCTORBUILDINGROOMDayDateHour
+30197 ACCT 2321 Fund. of Managerial Accounting101 Mohamed Husen Ali ElmagrhiM-COBAF087SundayAug 16, 2026 9:00AM
+30086 MEEN 2312 Eng'g Mechanics II: Dynamics101 Muhammad JamilM-CCESF052SundayAug 16, 2026 9:00AM
+30088 MEEN 2312 Eng'g Mechanics II: Dynamics103 Muhammad JamilM-CCESF053SundayAug 16, 2026 9:00AM
+30087 MEEN 2312 Eng'g Mechanics II: Dynamics102 Mushtaq KhanM-COE S057SundayAug 16, 2026 9:00AM
+30260 FINA 4351 Spec Topics in Finance-FINTECH101 Syed Mabruk BillahM-COBAG025SundayAug 16, 2026 9:00AM
+30072 GEEN 2311 Eng'g Mechanics I : Statics101 Muhammad Azhar KhanM-COE F063SundayAug 16, 2026 9:00AM
+30073 GEEN 2311 Eng'g Mechanics I : Statics102 Muhammad Azhar KhanM-COE F062SundayAug 16, 2026 9:00AM
+30372 GEIT 2291 Professional Ethics101 Zafar Abbas KazimiM-CCESS050SundayAug 16, 2026 9:00AM
+30411 PRPM 0012 Intermediate Algebra101 Abdelhak IbnelfaroukM-CORES148SundayAug 16, 2026 9:00AM
+30412 PRPM 0012 Intermediate Algebra102 Gunner David GundersonM-CORES150SundayAug 16, 2026 9:00AM
+30414 PRPM 0022 Pre- Calculus102 Gunner David GundersonM-CORES151SundayAug 16, 2026 9:00AM
+30413 PRPM 0022 Pre- Calculus101 Suleiman AlabdallahM-CORES152SundayAug 16, 2026 9:00AM
+30388 MATH 2313 Probability & Statistics101 Amjad KhanM-CORES152SundayAug 16, 2026 9:00AM
+30107 MEEN 3432 Computational Methods101 Sani Isah AbbaM-COE S058SundayAug 16, 2026 9:00AM
+30410 PRPM 0011 Introductory Algebra101 Abdelhak IbnelfaroukM-CORES148SundayAug 16, 2026 9:00AM
+30528 BUSI 4311 e-Commerce101 Yousif AbdelrahimM-COBAG029SundayAug 16, 2026 9:00AM
+30035 CHEN 2311 Principles of Chemical Engnr'g101 Feroz ShaikM-CCESF055SundayAug 16, 2026 9:00AM
+30083 GEEN 4311 Engineering Economy101 Deepanraj BalakrishnanM-CCESS048SundayAug 16, 2026 9:00AM
+30557 CVEN 3341 Engineering Measurements101 MOHD NAYEEMUDDINM-CCESF051SundayAug 16, 2026 9:00AM
+30397 PHYS 1421 Physics for Engineers I101 Izharul HaqM-COREF150SundayAug 16, 2026 12:00PM
+30400 PHYS 1421 Physics for Engineers I103 Syed Muhammad HasnainM-CORES150SundayAug 16, 2026 12:00PM
+30399 PHYS 1421 Physics for Engineers I102 Syed Muhammad HasnainM-CORES151SundayAug 16, 2026 12:00PM
+30530 MATH 1311 Finite Math. for Stu. of Busi.102 Bassel Seif El DineM-CORES148SundayAug 16, 2026 12:00PM
+30364 MATH 1311 Finite Math. for Stu. of Busi.101 Bassel Seif El DineM-CORES149SundayAug 16, 2026 12:00PM
+30078 GEEN 3311 Introduction to Fluid Mechanic101 Faizan AhmedM-COE S058SundayAug 16, 2026 12:00PM
+30079 GEEN 3311 Introduction to Fluid Mechanic102 Zeeshan Ahmed RanaM-COE F062SundayAug 16, 2026 12:00PM
+30405 PHYS 1422 Physics for Engineers II102 Ahmad Mohammad Ibrahim SalehM-COREF156SundayAug 16, 2026 12:00PM
+30406 PHYS 1422 Physics for Engineers II103 Syed Muhammad HasnainM-COREF157SundayAug 16, 2026 12:00PM
+30404 PHYS 1422 Physics for Engineers II101 Ubaid Hussain TantaryM-COREF156SundayAug 16, 2026 12:00PM
+30248 FINA 3314 Financial Statement Analysis101 Tariq AzizM-COBAF090SundayAug 16, 2026 12:00PM
+30224 BUSI 3331 Business Negotiations101 Yousif AbdelrahimM-COBAG029SundayAug 16, 2026 12:00PM
+30266 HRMT 3334 Negotiation & Conflict Managmt101 Yousif AbdelrahimM-COBAG030SundayAug 16, 2026 12:00PM
+30369 SOEN 4461 Prgramming Languages101 Mohammed ZikriaM-CCESF052SundayAug 16, 2026 12:00PM
+30377 COSC 4461 Programming Languages101 Mohammed ZikriaM-CCESF053SundayAug 16, 2026 12:00PM
+30159 COMM 2312 Technical and Profe. Commun.101 Joel Craig RichmondM-COREF153SundayAug 16, 2026 12:00PM
+30160 COMM 2312 Technical and Profe. Commun.102 Shakir Muhammad UsmanM-CORES135SundayAug 16, 2026 12:00PM
+30056 EEEN 4440 Communications Systems101 Jawad Fawaz Farraj Al AsadM-CCESF051SundayAug 16, 2026 12:00PM
+30609 FINA 3312 Financial Institutions102 Syed Mabruk BillahM-COBAG032SundayAug 16, 2026 12:00PM
+30642 COEN 4413 Embedded systems101 Wael Yousif Mohamed SulimanM-CCESF055SundayAug 16, 2026 12:00PM
+30613 COEN 3421 Electronics |101 Awadalla Salaheldin AwadallaM-CCESF062SundayAug 16, 2026 12:00PM
+30585 CSEC 3355 Scripting Languages101 Ibrahim Khalil El DidiM-CCESS050SundayAug 16, 2026 12:00PM
+30276 MISY 3311 Database for Info Sys101 Yazan Zaid AlnsourM-COBAF086SundayAug 16, 2026 12:00PM
+30350 GEIT 2331 Math. Reasoning &Alg. Thinking101 Vinayakumar RaviM-COREG048SundayAug 16, 2026 3:00PM
+30156 COMM 1312 Writing and Research102 Mohammed Dilsad AhmedM-COREF152SundayAug 16, 2026 3:00PM
+30153 COMM 1312 Writing and Research101 Shakir Muhammad UsmanM-CORES135SundayAug 16, 2026 3:00PM
+30101 MEEN 3333 Heat Transfer102 Imtiaz AliM-COE S057SundayAug 16, 2026 3:00PM
+30593 CHEN 3333 Heat Transfer101 Khalid Saleh AldhahriM-COE S058SundayAug 16, 2026 3:00PM
+30100 MEEN 3333 Heat Transfer101 Khalid Saleh AldhahriM-COE S058SundayAug 16, 2026 3:00PM
+30109 MEEN 4311 Principles of HVAC101 Syam Sundar LingalaM-CCESF051SundayAug 16, 2026 3:00PM
+30538 MEEN 4311 Principles of HVAC102 Syam Sundar LingalaM-CCESF052SundayAug 16, 2026 3:00PM
+30213 BUSI 3312 Organizational Behavior101 Ghayur AhmadM-COBAF090SundayAug 16, 2026 3:00PM
+30544 BUSI 3312 Organizational Behavior102 Sten LangmannM-COBAF088SundayAug 16, 2026 3:00PM
+30347 SOEN 2332 Disc Struc & Combinatorial Ana101 Shahabuddin MuhammadM-COBAG025SundayAug 16, 2026 3:00PM
+30348 COSC 3332 Discrete Str. & Com. Ana101 Shahabuddin MuhammadM-COBAG025SundayAug 16, 2026 3:00PM
+30357 CHEM 1421 Chemistry for Engineers I101 Maythem MahmoudM-COREF154SundayAug 16, 2026 3:00PM
+30358 CHEM 1421 Chemistry for Engineers I102 Maythem MahmoudM-COREF154SundayAug 16, 2026 3:00PM
+30485 LAWB 3326 Property & Real Securities101 Khalid Saleh AlammariM-CORES144SundayAug 16, 2026 3:00PM
+30638 CHEN 2312 Materials Engineering101 Abdul Aziz AfzalM-COBAG026SundayAug 16, 2026 3:00PM
+30084 MEEN 2311 Materials Engineering101 Abdul Aziz AfzalM-COBAG027SundayAug 16, 2026 3:00PM
+30280 MISY 3322 Systems Analysis & Design101 Samer Yaseen Safa Al ImamyM-COBAF086SundayAug 16, 2026 3:00PM
+30081 GEEN 3314 Electric Circ. & Electronics101 Kamran AliM-COE F063SundayAug 16, 2026 3:00PM
+30365 MATH 1312 Calculus for Students of Busi.101 Azzam HazimM-COREF155SundayAug 16, 2026 3:00PM
+30122 CVEN 4313 Design of Steel Structures101 Danish AhmedM-COE F062SundayAug 16, 2026 3:00PM
+30345 COEN 3323 Digital and Logic Design101 Sagheer AbbasM-CCESS047SundayAug 16, 2026 3:00PM
+30151 COMM 1311 Written Communication101 AHMAD NURIDDINM-COREF152SundayAug 16, 2026 6:00PM
+30152 COMM 1311 Written Communication102 Joel Craig RichmondM-COREF153SundayAug 16, 2026 6:00PM
+30615 MEEN 3391 Design of Mechanisms102 Ratnasunil BuradaguntaM-COBAG030SundayAug 16, 2026 6:00PM
+30103 MEEN 3391 Design of Mechanisms101 Ratnasunil BuradaguntaM-CCESS048SundayAug 16, 2026 6:00PM
+30513 GEIT 2421 Data Structures101 Khaled S FawagrehM-CCESS050SundayAug 16, 2026 6:00PM
+30262 HRMT 3321 Human Resource Management101 Yehia Oadtallah Saleim Al-DaajaM-COBAG026SundayAug 16, 2026 6:00PM
+30222 BUSI 3323 Introduction to HRM101 Yehia Oadtallah Saleim Al-DaajaM-COBAG026SundayAug 16, 2026 6:00PM
+30095 MEEN 3311 Manufacturing Processes101 Mushtaq KhanM-COBAG027SundayAug 16, 2026 6:00PM
+30127 CVEN 2311 CAD for Civil Engineering101 MOHD NAYEEMUDDINM-COE G017SundayAug 16, 2026 6:00PM
+30351 CSEC 3431 Network Security101 Ibrahim Khalil El DidiM-CCESF052SundayAug 16, 2026 6:00PM
+30352 ITAP 3431 Network Security101 Ibrahim Khalil El DidiM-CCESF052SundayAug 16, 2026 6:00PM
+30334 COSC 4362 Artificial Intelligence101 Vinayakumar RaviM-CCESF053SundayAug 16, 2026 6:00PM
+30252 FINA 3321 Intro. to Islamic Finance101 MD Aminul IslamM-COBAG029SundayAug 16, 2026 6:00PM
+30501 EEEN 3391 Probability and Random Signal101 Sadiq Ali AlhuwaidiM-CCESF051SundayAug 16, 2026 6:00PM
+30171 UNIV 1213 Leadership & Teamwork101 MOHAMED ABDULLA ABDULLAM-COREF155SundayAug 16, 2026 6:00PM
+30172 UNIV 1213 Leadership & Teamwork102 Mohammed Dilsad AhmedM-COREF156SundayAug 16, 2026 6:00PM
+30597 COSC 3411 Systems Programming101 Zafar Abbas KazimiM-CCESF055SundayAug 16, 2026 6:00PM
+30598 ITAP 3411 Systems Programming101 Zafar Abbas KazimiM-CCESF055SundayAug 16, 2026 6:00PM
+30111 MEEN 4322 Power Generation101 Enio Pedone Bandarra FilhoM-COE F062SundayAug 16, 2026 6:00PM
+30502 GEEN 1211 Introduction for Engineering102 Mohammad Ali KhasawnehM-CCESS048MondayAug 17, 2026 9:00AM
+30135 GEEN 1211 Introduction for Engineering101 Mohammad Ali KhasawnehM-COE F062MondayAug 17, 2026 9:00AM
+30478 LAWB 3363 Criminal Procedure Law101 Mohamed-El Arbi AokaM-CORES144MondayAug 17, 2026 9:00AM
+30637 CHEN 4344 Corrosion Engineering101 Feroz ShaikM-COBAS086MondayAug 17, 2026 9:00AM
+30548 MEEN 4341 Corrosion Engineering102 Feroz ShaikM-COBAS086MondayAug 17, 2026 9:00AM
+30114 MEEN 4341 Corrosion Engineering101 Mohd Amin MirM-COE F063MondayAug 17, 2026 9:00AM
+30036 CHEN 2391 Organic Chemistry101 Mohd Amin MirM-COE S058MondayAug 17, 2026 9:00AM
+30633 SOEN 4371 E-Commerce101 Vinayakumar RaviM-CCESF051MondayAug 17, 2026 9:00AM
+30173 HIST 1311 World Civilizations101 AHMAD NURIDDINM-COREF152MondayAug 17, 2026 9:00AM
+30500 EEEN 3341 Signals and Systems101 Sadiq Ali AlhuwaidiM-COBAG029MondayAug 17, 2026 9:00AM
+30199 ACCT 3301 Spec Top Acct - Tax& Zakat101 Mohamed Husen Ali ElmagrhiM-COBAF087MondayAug 17, 2026 9:00AM
+30335 COEN 2411 Circuits I101 Awadalla Salaheldin AwadallaM-CCESF052MondayAug 17, 2026 9:00AM
+30044 EEEN 2411 Circuits I101 Samir El-NaklaM-CCESF055MondayAug 17, 2026 9:00AM
+30274 MISY 2311 Intro to Manag Info Sys101 Yazan Zaid AlnsourM-COBAF086MondayAug 17, 2026 9:00AM
+30255 FINA 4313 Investments101 Syed Mabruk BillahM-COBAG027MondayAug 17, 2026 12:00PM
+30586 AINT 4371 Computer Graphics101 Jawad Hasan Yasin AlkhateebM-CCESF051MondayAug 17, 2026 12:00PM
+30336 COSC 4371 Computer Graphics101 Jawad Hasan Yasin AlkhateebM-CCESF051MondayAug 17, 2026 12:00PM
+30060 EEEN 4451 Automatic Control Systems101 Jawad Fawaz Farraj Al AsadM-COE S055MondayAug 17, 2026 12:00PM
+30380 SOEN 3311 Requirements Engineering101 Sagheer AbbasM-COBAF089MondayAug 17, 2026 12:00PM
+30424 LAWB 3362 Civil Procedure Law101 Mohamed-El Arbi AokaM-COREF155MondayAug 17, 2026 12:00PM
+30039 CHEN 3494 Separation Process101 Feroz ShaikM-CCESF052MondayAug 17, 2026 12:00PM
+30158 COMM 2311 Oral Communication102 Joel Craig RichmondM-COREF154MondayAug 17, 2026 12:00PM
+30157 COMM 2311 Oral Communication101 Shakir Muhammad UsmanM-CORES135MondayAug 17, 2026 12:00PM
+30540 COMM 2311 Oral Communication103 Taha RajabM-COREF153MondayAug 17, 2026 12:00PM
+30167 UNIV 1211 Prof. Dev. and Competencies101 Taha RajabM-COREF152MondayAug 17, 2026 12:00PM
+30168 UNIV 1211 Prof. Dev. and Competencies102 Taha RajabM-COREF151MondayAug 17, 2026 12:00PM
+30354 CHEM 1411 Introductory Chemistry101 MUHAMMAD WAQAR ASHRAFM-COREF150MondayAug 17, 2026 12:00PM
+30075 GEEN 2313 Thermodynamics I101 Enio Pedone Bandarra FilhoM-COE S055MondayAug 17, 2026 3:00PM
+30076 GEEN 2313 Thermodynamics I102 Khalid Saleh AldhahriM-COE S057MondayAug 17, 2026 3:00PM
+30194 ACCT 2311 Fund of Financial Acct102 Noor UL HadiM-COBAS085MondayAug 17, 2026 3:00PM
+30193 ACCT 2311 Fund of Financial Acct101 Tariq AzizM-COBAS086MondayAug 17, 2026 3:00PM
+30582 GEIT 3331 Computer Organization102 Taha HoudaM-CCESS047MondayAug 17, 2026 3:00PM
+30340 GEIT 3331 Computer Organization101 Taha HoudaM-CCESS048MondayAug 17, 2026 3:00PM
+30516 AINT 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30360 COEN 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30362 COSC 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30588 CSEC 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30363 ITAP 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30366 SOEN 4361 Operating Systems101 Jawad Hasan Yasin AlkhateebM-CCESF052MondayAug 17, 2026 3:00PM
+30343 GEIT 1412 Computer Science ||101 Khaled S FawagrehM-CCESF055MondayAug 17, 2026 3:00PM
+30341 GEIT 1411 Computer Science |101 Taha HoudaM-CCESF053MondayAug 17, 2026 3:00PM
+30070 GEEN 2310 Applied Linear Algebra for Eng101 Mohamed Rabigh KhodjaM-COBAG026/G207MondayAug 17, 2026 3:00PM
+30226 BUSI 3351 Business Ethics101 Yehia Oadtallah Saleim Al-DaajaM-COBAF090MondayAug 17, 2026 3:00PM
+30243 FINA 3311 Financial Mgmt. Principles101 Tariq AzizM-COBAF088MondayAug 17, 2026 3:00PM
+30587 CVEN 3343 Eng'g Probability & Statistics101 Mohammad Ali KhasawnehM-COE S058MondayAug 17, 2026 3:00PM
+30112 MEEN 4332 Turbomachinery101 Mouhamad El HassanM-COE F062MondayAug 17, 2026 3:00PM
+30539 MEEN 4393 Machine Design102 Ahmad BaroutajiM-COE F063MondayAug 17, 2026 6:00PM
+30119 MEEN 4393 Machine Design101 Ahmad BaroutajiM-COE F062MondayAug 17, 2026 6:00PM
+30212 BUSI 3311 Legal Environment of Business101 Yousif AbdelrahimM-COBAF087MondayAug 17, 2026 6:00PM
+30391 MATH 3433 Linear Algebra&Diff. Equations101 Rashid Rushdi Rashid Abu-DawwasM-CORES150MondayAug 17, 2026 6:00PM
+30349 ITAP 4316 Intro. to Project Management101 Farhan UllahM-CCESF051MondayAug 17, 2026 6:00PM
+30387 SOEN 4313 Software Project Management101 Farhan UllahM-CCESF051MondayAug 17, 2026 6:00PM
+30233 BUSI 4362 Strategic Management101 Lucas Willem van der LaanM-COBAF088MondayAug 17, 2026 6:00PM
+30234 BUSI 4362 Strategic Management102 Muhammad Muazzem HossainM-COBAG026MondayAug 17, 2026 6:00PM
+30395 COSC 4363 Theory of Computation101 Shahabuddin MuhammadM-CCESF053MondayAug 17, 2026 6:00PM
+30429 LAWB 4371 Private International Law101 Mohamed-El Arbi AokaM-CORES144MondayAug 17, 2026 6:00PM
+30207 BUSI 2311 Principles of Management102 Ghayur AhmadM-COBAF090MondayAug 17, 2026 6:00PM
+30092 MEEN 2313 Solid Mechanics102 Abdul Aziz AfzalM-CCESS047MondayAug 17, 2026 6:00PM
+30091 MEEN 2313 Solid Mechanics101 Paul Oluwaseun AwoyeraM-CCESS048MondayAug 17, 2026 6:00PM
+30590 MEEN 2313 Solid Mechanics103 Paul Oluwaseun AwoyeraM-CCESS050MondayAug 17, 2026 6:00PM
+30170 UNIV 1212 Crit. Think'g and Prob. Solv'g102 MOHAMED ABDULLA ABDULLAM-COREF155MondayAug 17, 2026 6:00PM
+30169 UNIV 1212 Crit. Think'g and Prob. Solv'g101 MOHAMED ABDULLA ABDULLAM-COREF156MondayAug 17, 2026 6:00PM
+30373 MATH 1422 Calculus I101 Azhar IqbalM-COREF154TuesdayAug 18, 2026 9:00AM
+30374 MATH 1422 Calculus I102 Azhar IqbalM-COREF155TuesdayAug 18, 2026 9:00AM
+30375 MATH 1422 Calculus I103 Bachar Bernard TarrafM-COREF156TuesdayAug 18, 2026 9:00AM
+30376 MATH 1422 Calculus I104 Sorena ArtinM-COREF157TuesdayAug 18, 2026 9:00AM
+30547 MEEN 3395 Mechanical Vibration103 Ahmad BaroutajiM-COBAS085TuesdayAug 18, 2026 9:00AM
+30537 MEEN 3395 Mechanical Vibration102 Muhammad AsadM-COBAS086TuesdayAug 18, 2026 9:00AM
+30106 MEEN 3395 Mechanical Vibration101 Muhammad AsadM-COBAS087TuesdayAug 18, 2026 9:00AM
+30382 MATH 1423 Calculus II103 Amjad KhanM-COREF150TuesdayAug 18, 2026 9:00AM
+30383 MATH 1423 Calculus II104 Bachar Bernard TarrafM-COREF156TuesdayAug 18, 2026 9:00AM
+30379 MATH 1423 Calculus II101 Mohammad Al-TalibM-COREF152TuesdayAug 18, 2026 9:00AM
+30381 MATH 1423 Calculus II102 Mohammad Al-TalibM-COREF153TuesdayAug 18, 2026 9:00AM
+30041 EEEN 2312 Circuits II101 Ala Raef Al-Haj HusseinM-COE F062TuesdayAug 18, 2026 9:00AM
+30492 MISY 4331 Building Electronic Commerce101 Yazan Zaid AlnsourM-COBAF086TuesdayAug 18, 2026 9:00AM
+30604 SOEN 4311 Software Arch. & Design102 Maen Mohammad Mustafa HammadM-COBAG034TuesdayAug 18, 2026 9:00AM
+30428 LAWB 4362 Civil Enforcement Law101 Khalid Saleh AlammariM-CORES144TuesdayAug 18, 2026 9:00AM
+30218 BUSI 3313 Marketing Principles102 Mohammad Bassam Abdul-RahimM-COBAF087TuesdayAug 18, 2026 9:00AM
+30217 BUSI 3313 Marketing Principles101 Mohammad Bassam Abdul-RahimM-COBAF090TuesdayAug 18, 2026 9:00AM
+30191 CHEN 3315 Physical Chemistry101 Imtiaz AliM-CCESF053TuesdayAug 18, 2026 9:00AM
+30545 BUSI 3321 Operations Management102 Fanny SarucheraM-COBAF088TuesdayAug 18, 2026 12:00PM
+30220 BUSI 3321 Operations Management101 Fanny SarucheraM-COBAF090TuesdayAug 18, 2026 12:00PM
+30368 MATH 1313 Statistical Methods101 Azzam HazimM-COREF157TuesdayAug 18, 2026 12:00PM
+30370 MATH 1313 Statistical Methods102 Sorena ArtinM-COREG049TuesdayAug 18, 2026 12:00PM
+30064 GEEN 2211 Engineering Computing101 Abumuhammad MoinuddeenM-COE F062TuesdayAug 18, 2026 12:00PM
+30065 GEEN 2211 Engineering Computing102 Abumuhammad MoinuddeenM-COE F062TuesdayAug 18, 2026 12:00PM
+30287 ALIS 1212 The Social System in Islam102 Faisal Abdulaziz AlmkhytahM-COREF150TuesdayAug 18, 2026 12:00PM
+30134 ALIS 1212 The Social System in Islam101 Khalid Abdullah Mohammed Al SayahM-COREF151TuesdayAug 18, 2026 12:00PM
+30522 AINT 3361 Computer Networks101 Zafar Abbas KazimiM-CCESS050TuesdayAug 18, 2026 12:00PM
+30337 COEN 3361 Computer Networks101 Zafar Abbas KazimiM-CCESS050TuesdayAug 18, 2026 12:00PM
+30338 COSC 3361 Computer Networks101 Zafar Abbas KazimiM-CCESS050TuesdayAug 18, 2026 12:00PM
+30339 SOEN 3361 Computer Networks101 Zafar Abbas KazimiM-CCESS050TuesdayAug 18, 2026 12:00PM
+30124 CVEN 4334 Air Pollution and Control101 Danish AhmedM-COE S055TuesdayAug 18, 2026 12:00PM
+30389 MATH 2332 Ordinary Differential Equation101 Imad MuhiM-CORES146TuesdayAug 18, 2026 12:00PM
+30607 MATH 2332 Ordinary Differential Equation102 Suleiman AlabdallahM-CORES147TuesdayAug 18, 2026 12:00PM
+30131 ALIS 1211 Intro. to Islamic Culture101 Faisal Abdulaziz AlmkhytahM-COREF152TuesdayAug 18, 2026 12:00PM
+30392 PHYS 1411 Introductory Physics101 Ahmad Mohammad Ibrahim SalehM-COREF156TuesdayAug 18, 2026 12:00PM
+30491 MISY 4333 Intro. to Info. Assurance101 Muhammad RafiqM-COBAG027TuesdayAug 18, 2026 12:00PM
+30098 MEEN 3322 Thermodynamics II102 Deepanraj BalakrishnanM-COE S058TuesdayAug 18, 2026 3:00PM
+30097 MEEN 3322 Thermodynamics II101 Syam Sundar LingalaM-COE S055TuesdayAug 18, 2026 3:00PM
+30278 MISY 3312 Intro. to Telecommunications101 Muhammad RafiqM-COBAG029TuesdayAug 18, 2026 3:00PM
+30386 MATH 1324 Calculus III102 Imad MuhiM-CORES148TuesdayAug 18, 2026 3:00PM
+30385 MATH 1324 Calculus III101 Rashid Rushdi Rashid Abu-DawwasM-CORES146TuesdayAug 18, 2026 3:00PM
+30174 SUST 1311 Introduction to Sustainability101 Tynan Byrne KellyM-COREF157TuesdayAug 18, 2026 3:00PM
+30332 COEN 4322 Digital Signal Processing101 Wael Yousif Mohamed SulimanM-CCESS047TuesdayAug 18, 2026 3:00PM
+30052 EEEN 3432 Microcontroller Systems101 Ahmed Abul HussainM-COE F063TuesdayAug 18, 2026 3:00PM
+30479 LAWB 2331 Constitutional Law101 MUAMAR HASSAN ABDEL RAHIM SALAMEHM-CORES147TuesdayAug 18, 2026 3:00PM
+30487 LAWE 4216 Human Rights& Humanitarian Law101 Mahmoud MasudM-COREF153TuesdayAug 18, 2026 3:00PM
+30239 ECON 1312 Introduction to Microeconomics101 Sougata PoddarM-COBAG025TuesdayAug 18, 2026 3:00PM
+30570 FINA 4314 International Finance102 MD Aminul IslamM-COBAG026TuesdayAug 18, 2026 3:00PM
+30237 ECON 1311 Introduction to Macroeconomics101 Sougata PoddarM-COBAG025TuesdayAug 18, 2026 6:00PM
+30288 ALIS 2211 Linguistic Comm. Skills102 Faisal Abdulaziz AlmkhytahM-COREF152TuesdayAug 18, 2026 6:00PM
+30137 ALIS 2211 Linguistic Comm. Skills101 Khalid Abdullah Mohammed Al SayahM-COREF153TuesdayAug 18, 2026 6:00PM
+30228 BUSI 3361 Business Psychology101 Yehia Oadtallah Saleim Al-DaajaM-COBAF089TuesdayAug 18, 2026 6:00PM
+30268 HRMT 3337 Organizational Psyc. for HRM101 Yehia Oadtallah Saleim Al-DaajaM-COBAF087TuesdayAug 18, 2026 6:00PM
+30289 ALIS 2212 The Bio. of Prophet Mohammad102 Faisal Abdulaziz AlmkhytahM-COREF154TuesdayAug 18, 2026 6:00PM
+30150 ALIS 2212 The Bio. of Prophet Mohammad101 Khalid Abdullah Mohammed Al SayahM-COREF155TuesdayAug 18, 2026 6:00PM
+30390 SOEN 4312 Software Testing & Qual Assu.101 Farhan UllahM-CCESF051TuesdayAug 18, 2026 6:00PM
+30393 ITAP 3315 Software Testing and QA101 Farhan UllahM-CCESF051TuesdayAug 18, 2026 6:00PM
+30202 ACCT 3311 Intermediate Acct 1101 Aws Mousa Ibrahim AlharesM-COBAF090TuesdayAug 18, 2026 6:00PM
+30115 MEEN 4392 Feedback Control101 Zeeshan Ahmed RanaM-CCESF052TuesdayAug 18, 2026 6:00PM

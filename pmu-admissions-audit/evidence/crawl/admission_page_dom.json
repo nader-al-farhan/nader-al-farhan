@@ -1,0 +1,1151 @@
+{
+ "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+ "url": "https://pmu.edu.sa/admission/admission",
+ "lang": "",
+ "anchors": [
+  {
+   "t": "",
+   "h": "https://www.pmu.edu.sa/",
+   "raw": "https://www.pmu.edu.sa/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "col-xs-12 col-sm-6 hidden-xs"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/admission/admission",
+   "raw": "",
+   "region": "header/nav",
+   "target": "",
+   "cls": "social-list"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/",
+   "raw": "/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "logo pull-left hidden visible-xs"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "header/nav",
+   "target": "",
+   "cls": "logo_add_mob"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "header/nav",
+   "target": "",
+   "cls": "col-xs-12"
+  },
+  {
+   "t": "about",
+   "h": "https://pmu.edu.sa/about/about.aspx",
+   "raw": "../about/about.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "Vision & Mission",
+   "h": "https://pmu.edu.sa/about/uni-vision-mission.aspx",
+   "raw": "../about/uni-vision-mission.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Objectives",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Values",
+   "h": "https://pmu.edu.sa/about/uni-values.aspx",
+   "raw": "../about/uni-values.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Governance",
+   "h": "https://pmu.edu.sa/about/Governance.aspx",
+   "raw": "../about/Governance.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Deanships",
+   "h": "https://pmu.edu.sa/about/deanships.aspx",
+   "raw": "../about/deanships.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Publications & Presentations",
+   "h": "https://pmu.edu.sa/about/puplications_presntations.aspx",
+   "raw": "../about/puplications_presntations.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Study at PMU",
+   "h": "https://pmu.edu.sa/admission/admission-registration.aspx",
+   "raw": "../admission/admission-registration.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "Admission Office",
+   "h": "https://pmu.edu.sa/admission/Admission.aspx",
+   "raw": "../admission/Admission.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Apply to PMU",
+   "h": "https://pmu.edu.sa/apply.aspx",
+   "raw": "../apply.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Financial Aid",
+   "h": "https://pmu.edu.sa/admission/financial_aid_ro.aspx",
+   "raw": "../admission/financial_aid_ro.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Registration",
+   "h": "https://pmu.edu.sa/admission/registration_office.aspx",
+   "raw": "../admission/registration_office.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Tuition & Fees",
+   "h": "https://pmu.edu.sa/admission/tuition_fees_ro.aspx",
+   "raw": "../admission/tuition_fees_ro.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "academics",
+   "h": "https://pmu.edu.sa/academics/academics.aspx",
+   "raw": "../academics/academics.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "College of Engineering",
+   "h": "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx",
+   "raw": "../academics/college_of_engineering_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of Computer Engineering & Sciences",
+   "h": "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx",
+   "raw": "../academics/college_computer_engineering_science_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of Business Administration",
+   "h": "https://pmu.edu.sa/academics/college_business_administration_udp.aspx",
+   "raw": "../academics/college_business_administration_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of LAW",
+   "h": "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx",
+   "raw": "../academics/law_dept_cshs_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of Architecture and Design",
+   "h": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+   "raw": "../Academics/College_of_Architecture_Design_UDP.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of Sciences & Human Studies",
+   "h": "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx",
+   "raw": "../academics/college_sciences_human_studies_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "College of Medicine",
+   "h": "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx",
+   "raw": "../academics/college_of_medicine_udp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Preparatory Program",
+   "h": "https://pmu.edu.sa/academics/overview_pp.aspx",
+   "raw": "../academics/overview_pp.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/",
+   "raw": "/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "research",
+   "h": "https://pmu.edu.sa/research/",
+   "raw": "https://pmu.edu.sa/research/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "Research Centers",
+   "h": "https://pmu.edu.sa/research/research_center",
+   "raw": "https://pmu.edu.sa/research/research_center",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Center for Future Studies",
+   "h": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "raw": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Center for Artificial Intelligence",
+   "h": "https://pmu.edu.sa/ai/default",
+   "raw": "https://pmu.edu.sa/ai/default",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Center for Cyber Security",
+   "h": "https://pmu.edu.sa/cybersecurity/",
+   "raw": "https://pmu.edu.sa/cybersecurity/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Patent Center",
+   "h": "https://pmu.edu.sa/Patent-Center/",
+   "raw": "https://pmu.edu.sa/Patent-Center/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Center of Environment & Water Solutions",
+   "h": "https://pmu.edu.sa/cews/",
+   "raw": "https://pmu.edu.sa/cews/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Space Research Center",
+   "h": "https://pmu.edu.sa/sarc/",
+   "raw": "https://pmu.edu.sa/sarc/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Centre for Sustainable Business & Innovation",
+   "h": "https://pmu.edu.sa/csbi/",
+   "raw": "https://pmu.edu.sa/csbi/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Centre for Sustainable Infrastructure Materials",
+   "h": "https://pmu.edu.sa/sim/",
+   "raw": "https://pmu.edu.sa/sim/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Research Centers",
+   "h": "https://pmu.edu.sa/research/research_center",
+   "raw": "https://pmu.edu.sa/research/research_center",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-top"
+  },
+  {
+   "t": "Center for Future Studies",
+   "h": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "raw": "https://pmfcfs.pmu.edu.sa/Default.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Center for Artificial Intelligence",
+   "h": "https://pmu.edu.sa/ai/default",
+   "raw": "https://pmu.edu.sa/ai/default",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Center for Cyber Security",
+   "h": "https://pmu.edu.sa/cybersecurity/",
+   "raw": "https://pmu.edu.sa/cybersecurity/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Patent Center",
+   "h": "https://pmu.edu.sa/Patent-Center/",
+   "raw": "https://pmu.edu.sa/Patent-Center/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Center of Environment & Water Solutions",
+   "h": "https://pmu.edu.sa/cews/",
+   "raw": "https://pmu.edu.sa/cews/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Space Research Center",
+   "h": "https://pmu.edu.sa/sarc/",
+   "raw": "https://pmu.edu.sa/sarc/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Additive Manufacturing Research & Innovation Center",
+   "h": "https://pmu.edu.sa/amric/",
+   "raw": "https://pmu.edu.sa/amric/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Centre for Sustainable Business & Innovation",
+   "h": "https://pmu.edu.sa/csbi/",
+   "raw": "https://pmu.edu.sa/csbi/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Centre for Sustainable Infrastructure Materials",
+   "h": "https://pmu.edu.sa/sim/",
+   "raw": "https://pmu.edu.sa/sim/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "mega-grid"
+  },
+  {
+   "t": "Students Life",
+   "h": "https://pmu.edu.sa/life_pmu/life_pmu.aspx",
+   "raw": "../life_pmu/life_pmu.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "Campus Life",
+   "h": "https://pmu.edu.sa/life_pmu/campus_life.aspx",
+   "raw": "../life_pmu/campus_life.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Health Care & Counseling Services",
+   "h": "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx",
+   "raw": "../life_pmu/health_care_counseling_services.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "Office of Special Needs",
+   "h": "https://pmu.edu.sa/life_pmu/office_special_needs.aspx",
+   "raw": "../life_pmu/office_special_needs.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown"
+  },
+  {
+   "t": "sign in",
+   "h": "javascript:void(0);",
+   "raw": "javascript:void(0);",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase menu-left"
+  },
+  {
+   "t": "BlackBoard",
+   "h": "https://blackboard.pmu.edu.sa/",
+   "raw": "https://blackboard.pmu.edu.sa",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Banner Self Service",
+   "h": "https://www.pmu.edu.sa/login/banner-login.html",
+   "raw": "https://www.pmu.edu.sa/login/banner-login.html",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Finance TicketingSystem",
+   "h": "https://financehelpdesk.pmu.edu.sa/login",
+   "raw": "https://financehelpdesk.pmu.edu.sa/login",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Web Mail",
+   "h": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "raw": "https://www.pmu.edu.sa/login/index?Login=Login+Portal",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Library",
+   "h": "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx",
+   "raw": "../resources_services/e_resources_lrc.aspx",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Employee Self Services",
+   "h": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "raw": "https://iconnect.pmu.edu.sa/?login=Login+Portal",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Banner Workflow",
+   "h": "https://workflow.pmu.edu.sa/wfprod",
+   "raw": "https://workflow.pmu.edu.sa/wfprod",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "On Campus IT HelpDesk",
+   "h": "https://ithelpdesk.pmu.edu.sa/",
+   "raw": "https://ithelpdesk.pmu.edu.sa/",
+   "region": "header/nav",
+   "target": "",
+   "cls": "list-unstyled text-uppercase dropdown signin"
+  },
+  {
+   "t": "Home",
+   "h": "https://pmu.edu.sa/Default.aspx",
+   "raw": "../Default.aspx",
+   "region": "content",
+   "target": "",
+   "cls": "bread-c"
+  },
+  {
+   "t": "Study @ PMU",
+   "h": "https://pmu.edu.sa/admission/Admission-Registration.aspx",
+   "raw": "Admission-Registration.aspx",
+   "region": "content",
+   "target": "",
+   "cls": "bread-c"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/admission/admission#sidebar",
+   "raw": "#sidebar",
+   "region": "content",
+   "target": "",
+   "cls": "side-menu-icon"
+  },
+  {
+   "t": "Overview",
+   "h": "https://pmu.edu.sa/Admission/Future_Students_RO.aspx",
+   "raw": "../Admission/Future_Students_RO.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Degrees & Programs",
+   "h": "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+   "raw": "../Admission/Degrees_Programs_FS_RO.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions Calendar",
+   "h": "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "raw": "../Admission/Admission_Calendar_FS_RO.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Contact Us",
+   "h": "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "raw": "../Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admission Query",
+   "h": "https://pmu.edu.sa/Admission/admissions_queries",
+   "raw": "../Admission/admissions_queries",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Apply Now",
+   "h": "https://www.pmu.edu.sa/apply",
+   "raw": "https://www.pmu.edu.sa/apply",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "International Students without Saudi Residence",
+   "h": "https://pmu.edu.sa/Admission/International_Students.aspx",
+   "raw": "../Admission/International_Students.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Apply",
+   "h": "https://www.pmu.edu.sa/apply",
+   "raw": "https://www.pmu.edu.sa/apply",
+   "region": "content",
+   "target": "_blank",
+   "cls": ""
+  },
+  {
+   "t": "Home",
+   "h": "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+   "raw": "../Admission/Admission_Graduate_Degree_Programs.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the PhD in Mechanical Engineering Program",
+   "h": "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+   "raw": "../Admission/application_form_deme_gdp.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the PhD in Business Administration Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "raw": "../Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the EMBA Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MBA Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MSHD Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MSME Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MSEE Program",
+   "h": "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+   "raw": "../Admission/application_form_msee_gdp.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MSCE Program",
+   "h": "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+   "raw": "../Admission/application_form_MSCE_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MSID Program",
+   "h": "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+   "raw": "../Admission/application_form_MSID_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the EMGMS Program",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the MIBL",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "raw": "../Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Tuition & Fees",
+   "h": "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "raw": "../Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Contact Info",
+   "h": "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+   "raw": "../Admission/Admission_Contact_GDP.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Home",
+   "h": "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+   "raw": "../Admission/Undergraduate_Programs_Admission.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admission to the College of Medicine",
+   "h": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "raw": "../admission/college_of_medicine_admission",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions to the Preparatory Program",
+   "h": "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+   "raw": "../Admission/Admission-to-the-Preparatory-Program.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Direct Admissions from Secondary School",
+   "h": "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "raw": "../Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions from Other Universities",
+   "h": "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+   "raw": "../Admission/Admission-from-Other-Universities.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Visting Students",
+   "h": "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+   "raw": "../Admission/Visiting-Student-Admission.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Admissions from the Preparatory Program",
+   "h": "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "raw": "../Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Computer Science and Engineering Majors Admission Requirements",
+   "h": "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "raw": "../Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Tuition & Fees",
+   "h": "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+   "raw": "../Admission/Fees_TF_RO.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Overview",
+   "h": "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "raw": "../Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Aptis",
+   "h": "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+   "raw": "../Admission/Aptis-Placement-Test.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "IELTS",
+   "h": "https://pmu.edu.sa/Admission/IELTS-Admission.aspx",
+   "raw": "../Admission/IELTS-Admission.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "TOEFL",
+   "h": "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+   "raw": "../Admission/TOEFL-Admission.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "Scholastic Aptitude Test (SAT)",
+   "h": "https://pmu.edu.sa/Admission/SAT-Admission.aspx",
+   "raw": "../Admission/SAT-Admission.aspx",
+   "region": "content",
+   "target": "",
+   "cls": ""
+  },
+  {
+   "t": "",
+   "h": "https://twitter.com/PMU_KSA",
+   "raw": "https://twitter.com/PMU_KSA",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://twitter.com/pmuofficial",
+   "raw": "https://twitter.com/pmuofficial",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://www.facebook.com/pmuofficial",
+   "raw": "https://www.facebook.com/pmuofficial",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+   "raw": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://www.youtube.com/user/PMUOfficial",
+   "raw": "https://www.youtube.com/user/PMUOfficial",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://www.instagram.com/pmu_official/",
+   "raw": "https://www.instagram.com/pmu_official/",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "footer",
+   "target": "",
+   "cls": "list-inline"
+  },
+  {
+   "t": "Academic Calendar",
+   "h": "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+   "raw": "../Admission/academic_calendar_2021_2022_ro.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Careers",
+   "h": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+   "raw": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Global Engagement",
+   "h": "https://pmu.edu.sa/global-engagement/",
+   "raw": "../global-engagement/",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Sports Center Schedule",
+   "h": "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx",
+   "raw": "../life_pmu/sportscenterschedule.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "President's Office",
+   "h": "https://pmu.edu.sa/About/Welcome_Rector.aspx",
+   "raw": "../About/Welcome_Rector.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Dining",
+   "h": "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx",
+   "raw": "../Life_Pmu/Dining_CL.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "News",
+   "h": "https://pmu.edu.sa/news/more_news.aspx",
+   "raw": "../news/more_news.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Events",
+   "h": "https://pmu.edu.sa/news/more_events.aspx",
+   "raw": "../news/more_events.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "PMU Album",
+   "h": "https://pmu.edu.sa/gallary.aspx",
+   "raw": "../gallary.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Engineering",
+   "h": "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx",
+   "raw": "../Academics/College_of_Engineering_UDP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Computer Engineering & Sciences",
+   "h": "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx",
+   "raw": "../Academics/College_Computer_Engineering_Science_UDP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Business",
+   "h": "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx",
+   "raw": "../Academics/College_Business_Administration_UDP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Law",
+   "h": "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx",
+   "raw": "../Academics/law_dept_cshs_udp.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Architecture and Design",
+   "h": "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx",
+   "raw": "../Academics/College_of_Architecture_Design_UDP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "College of Sciences and Human Studies",
+   "h": "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx",
+   "raw": "../Academics/College_Sciences_Human_Studies_UDP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Preparatory Program",
+   "h": "https://pmu.edu.sa/Academics/Overview_PP.aspx",
+   "raw": "../Academics/Overview_PP.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Campus Map",
+   "h": "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx",
+   "raw": "../Life_PMU/Campus_Life.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Directory",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "EAIP",
+   "h": "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx",
+   "raw": "../resources_services/engineering_technical_affairs.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "IT Services",
+   "h": "https://pmu.edu.sa/resources_services/sections_it_dept.aspx",
+   "raw": "../resources_services/sections_it_dept.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Library Services",
+   "h": "https://pmu.edu.sa/resources_services/library_services_lrc.aspx",
+   "raw": "../resources_services/library_services_lrc.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "SiteMap",
+   "h": "https://pmu.edu.sa/admission/admission#",
+   "raw": "#",
+   "region": "footer",
+   "target": "",
+   "cls": "c-links c-theme-ul"
+  },
+  {
+   "t": "Employment",
+   "h": "https://pmu.edu.sa/hr/hr.aspx",
+   "raw": "../hr/hr.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "col-md-3 col-sm-12 col-xs-12"
+  },
+  {
+   "t": "Maps & Locations",
+   "h": "https://pmu.edu.sa/about/maps.aspx",
+   "raw": "../about/maps.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "col-md-3 col-sm-12 col-xs-12"
+  },
+  {
+   "t": "Contact",
+   "h": "https://pmu.edu.sa/About/Contact_Us.aspx",
+   "raw": "../About/Contact_Us.aspx",
+   "region": "footer",
+   "target": "",
+   "cls": "col-md-3 col-sm-12 col-xs-12"
+  }
+ ],
+ "main": [
+  "H1: Admissions Office",
+  "H2: Future Students",
+  "LI: Overview",
+  "LI: Degrees & Programs",
+  "LI: Admissions Calendar",
+  "LI: Contact Us",
+  "LI: Admission Query",
+  "LI: Apply Now",
+  "H2: International Students’ Office",
+  "LI: International Students without Saudi Residence",
+  "LI: Apply",
+  "H2: Graduate Admissions",
+  "LI: Home",
+  "LI: Admissions to the PhD in Mechanical Engineering Program",
+  "LI: Admissions to the PhD in Business Administration Program",
+  "LI: Admissions to the EMBA Program",
+  "LI: Admissions to the MBA Program",
+  "LI: Admissions to the MSHD Program",
+  "LI: Admissions to the MSME Program",
+  "LI: Admissions to the MSEE Program",
+  "LI: Admissions to the MSCE Program",
+  "LI: Admissions to the MSID Program",
+  "LI: Admissions to the EMGMS Program",
+  "LI: Admissions to the MIBL",
+  "LI: Tuition & Fees",
+  "LI: Contact Info",
+  "H2: Undergraduate Admissions",
+  "LI: Home",
+  "LI: Admission to the College of Medicine",
+  "LI: Admissions to the Preparatory Program",
+  "LI: Direct Admissions from Secondary School",
+  "LI: Admissions from Other Universities",
+  "LI: Visting Students",
+  "LI: Admissions from the Preparatory Program",
+  "LI: Computer Science and Engineering Majors Admission Requirements",
+  "LI: Tuition & Fees",
+  "H2: Undergraduate Placement Tests",
+  "LI: Overview",
+  "LI: Aptis",
+  "LI: IELTS",
+  "LI: TOEFL",
+  "LI: Scholastic Aptitude Test (SAT)"
+ ],
+ "imgs": [
+  {
+   "src": "images/logo-name.png",
+   "alt": null,
+   "w": 119
+  },
+  {
+   "src": "images/logo-PMU-1.png",
+   "alt": null,
+   "w": 3325
+  },
+  {
+   "src": "images/c-logo-new.png",
+   "alt": "PMU",
+   "w": 130
+  },
+  {
+   "src": "images/logo-name.png",
+   "alt": null,
+   "w": 119
+  },
+  {
+   "src": "images/c-logo-new.png",
+   "alt": "PMU Logo",
+   "w": 130
+  },
+  {
+   "src": "images/logo_new_r.png",
+   "alt": null,
+   "w": 210
+  }
+ ],
+ "metaDesc": null,
+ "forms": 1,
+ "hasSkip": true,
+ "ariaLandmarks": [
+  "IFRAME[presentation]",
+  "HEADER",
+  "NAV",
+  "HEADER",
+  "NAV",
+  "FOOTER",
+  "FOOTER"
+ ]
+}
