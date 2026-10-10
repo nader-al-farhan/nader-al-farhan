@@ -234,7 +234,7 @@ SSOT وحوكمة :4, 4
 | G1 Coverage & Evidence | **PARTIAL** — 57.3% محتوى، 17.1% قياسات متصفح، لقطتا شاشة موبايل + JSON خام |
 | G2 Policies & Decisions | **FAIL** — 8 قرارات P1/P2 مفتوحة |
 | G3 Critical Remediation | **NOT STARTED** |
-| G4 QA & UAT | **PARTIAL** — 6 اختبارات متصفح منفَّذة (BT-01..09)، UAT غير منفَّذ |
+| G4 QA & UAT | **PARTIAL** — 9 اختبارات متصفح منفَّذة (BT-01..09؛ BT-10 وBT-11 غير منفَّذين)، UAT غير منفَّذ |
 | G5 Production Changes | **NOT APPLICABLE بعد** (لا تغييرات) |
 | G6 Security/Privacy/Compliance | **NOT TESTED** |
 | G7 Continuity & Rollback | **NOT TESTED** |
