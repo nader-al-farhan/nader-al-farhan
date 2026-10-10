@@ -1,0 +1,45 @@
+                                                 Study Plan
+
+                                         Preparatory Program
+           First Semester (Pre-Beginner Level)                       Second Semester (Beginner Level)
+
+  Course                                                    Course
+                             Course Title                                               Course Title
+   Code                                                      Code
+PRPC 0011      Pre-Beginning Communication Skills         PRPC 0021     Beginning Communication Skills
+PRPW 0011      Pre-Beginning Writing Skills               PRPW 0021     Beginning Writing Skills
+PRPE 0011      Pre-Beginning Enhanced Learning            PRPE 0021     Beginning Enhanced Learning
+
+        Third Semester (Intermediate Level)                          Fourth Semester (Advanced Level)
+
+  Course                                                    Course
+                             Course Title                                               Course Title
+   Code                                                      Code
+PRPC 0041      Intermediate Communication Skills          PRPC 0061     Advanced Communication Skills
+PRPW 0041      Intermediate Writing Skills                PRPW 0061     Advanced Writing Skills
+PRPE0041       Intermediate Enhanced Learning             PRPE 0061     Advanced Enhanced Learning
+PRPL 0011      Theories & Applications of Learning I       PRPL 0012    Theories & Applications of Learning II
+                                                          PRPM 0012     Intermediate Algebra*
+PRPM 0011      Introductory Algebra
+                                                          PRPM 0022     Pre-Calculus*
+                                                       * Students will take one course depending on their majors
+                                         Advanced Exit Exam
+                                                    PREE 0061
+
+
+Required Mathematics Courses Per College/Department
+                                                         PRPM           PRPM            PRPM
+College/Department
+                                                          0011           0012            0022
+
+College of Engineering*                                                               
+
+     Department of Interior Design                                                    
+College of Business Administration                                                    
+College of Computer Engineering & Science**                                           
+
+     Department of Information Technology                                             
+College of Sciences & Human Studies                                                   
+* Department of Interior Design is excluded from PRPM 0022
+** Department of Information Technology is excluded from PRPM 0022
+

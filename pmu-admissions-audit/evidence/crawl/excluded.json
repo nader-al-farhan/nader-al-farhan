@@ -1,0 +1,614 @@
+[
+ {
+  "url": "https://www.pmu.edu.sa",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/about",
+  "t": "about",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/uni-vision-mission",
+  "t": "Vision & Mission",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/uni-values",
+  "t": "Values",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/governance",
+  "t": "Governance",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/deanships",
+  "t": "Deanships",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/puplications_presntations",
+  "t": "Publications & Presentations",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/academics",
+  "t": "academics",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_of_engineering_udp",
+  "t": "College of Engineering",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_computer_engineering_science_udp",
+  "t": "College of Computer Engineering & Sciences",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_business_administration_udp",
+  "t": "College of Business Administration",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/law_dept_cshs_udp",
+  "t": "College of LAW",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_of_architecture_design_udp",
+  "t": "College of Architecture and Design",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_sciences_human_studies_udp",
+  "t": "College of Sciences & Human Studies",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/college_of_medicine_udp",
+  "t": "College of Medicine",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/overview_pp",
+  "t": "Preparatory Program",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/research",
+  "t": "research",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/research/research_center",
+  "t": "Research Centers",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/default",
+  "t": "Center for Future Studies",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/ai/default",
+  "t": "Center for Artificial Intelligence",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/cybersecurity",
+  "t": "Center for Cyber Security",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/patent-center",
+  "t": "Patent Center",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/cews",
+  "t": "Center of Environment & Water Solutions",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/sarc",
+  "t": "Space Research Center",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/csbi",
+  "t": "Centre for Sustainable Business & Innovation",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/sim",
+  "t": "Centre for Sustainable Infrastructure Materials",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/amric",
+  "t": "Additive Manufacturing Research & Innovation Center",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/life_pmu",
+  "t": "Students Life",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/campus_life",
+  "t": "Campus Life",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/health_care_counseling_services",
+  "t": "Health Care & Counseling Services",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/office_special_needs",
+  "t": "Office of Special Needs",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/login/banner-login.html",
+  "t": "Banner Self Service",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/login",
+  "t": "Finance TicketingSystem",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/login/index",
+  "t": "Web Mail",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/resources_services/e_resources_lrc",
+  "t": "Library",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/wfprod",
+  "t": "Banner Workflow",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/staff_profile/staff_list",
+  "t": "Contact Us",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://twitter.com/PMU_KSA",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://twitter.com/pmuofficial",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.facebook.com/pmuofficial",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.linkedin.com/school/prince-mohammad-bin-fahd-university",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.youtube.com/user/PMUOfficial",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.instagram.com/pmu_official/",
+  "t": "",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://pmu.taleo.net/careersection/ex/jobsearch.ftl",
+  "t": "Careers",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/global-engagement",
+  "t": "Global Engagement",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/sportscenterschedule",
+  "t": "Sports Center Schedule",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/welcome_rector",
+  "t": "President's Office",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/dining_cl",
+  "t": "Dining",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/news/more_news",
+  "t": "News",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/news/more_events",
+  "t": "Events",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/gallary",
+  "t": "PMU Album",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/resources_services/engineering_technical_affairs",
+  "t": "EAIP",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/resources_services/sections_it_dept",
+  "t": "IT Services",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/resources_services/library_services_lrc",
+  "t": "Library Services",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/hr/hr",
+  "t": "Employment",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/maps",
+  "t": "Maps & Locations",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/about/contact_us",
+  "t": "Contact",
+  "from": "https://www.pmu.edu.sa/admission/admission",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/pmustaffs/departmentstafflist/4",
+  "t": "Contact Us",
+  "from": "https://www.pmu.edu.sa/admission/admission-registration",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/pdf/viewer",
+  "t": "Student Registration- Quick Guide",
+  "from": "https://www.pmu.edu.sa/admission/admission-registration",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/prod/twbkwbis.p_wwwlogin",
+  "t": "Banner Self Service Log In",
+  "from": "https://www.pmu.edu.sa/admission/admission-registration",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/student/login",
+  "t": "Student Login",
+  "from": "https://www.pmu.edu.sa/apply",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/student/login/register",
+  "t": "New Student? Register!",
+  "from": "https://www.pmu.edu.sa/apply",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admin/login",
+  "t": "Admin Login Page",
+  "from": "https://www.pmu.edu.sa/apply",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/otr_info",
+  "t": "Transcript Information",
+  "from": "https://www.pmu.edu.sa/admission/registration_office",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/studentregistrationssb/ssb/term/termselection",
+  "t": "Course Offering",
+  "from": "https://www.pmu.edu.sa/admission/registration_office",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "http://web1:8066/Online_Room_Reservation_Form.aspx",
+  "t": "Room Reservation",
+  "from": "https://www.pmu.edu.sa/admission/registration_office",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/life_pmu/housing_residence_halls_cl",
+  "t": "Housing",
+  "from": "https://www.pmu.edu.sa/admission/international_students",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/hr/culture_of_saudi_arabia",
+  "t": "Culture of Saudi Arabia",
+  "from": "https://www.pmu.edu.sa/admission/international_students",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/resources_services/learning_enrichment_us",
+  "t": "Student\n Support Center",
+  "from": "https://www.pmu.edu.sa/admission/international_students",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/overview",
+  "t": "Curriculum (TIEC)",
+  "from": "https://www.pmu.edu.sa/admission/international_students",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.uap.sa/",
+  "t": "Complete online application",
+  "from": "https://www.pmu.edu.sa/admission/college_of_medicine_admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis",
+  "t": "Aptis webpage",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis/take",
+  "t": "https://www.britishcouncil.org/exam/aptis/take",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis/listening",
+  "t": "https://www.britishcouncil.org/exam/aptis/listening",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis/reading",
+  "t": "https://www.britishcouncil.org/exam/aptis/reading",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/aptis-speaking-video",
+  "t": "https://www.britishcouncil.org/aptis-speaking-video",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis/writing",
+  "t": "https://www.britishcouncil.org/exam/aptis/writing",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.britishcouncil.org/exam/aptis/take/aptis-grammar-and-vocabulary",
+  "t": "https://www.britishcouncil.org/exam/aptis/take/aptis-grammar-and-vocabulary",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/continuing-education/ielts-testing-centre",
+  "t": "Apply for IELTS",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/continuing-education/short-courses-and-workshops",
+  "t": "Click here..",
+  "from": "https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.etec.gov.sa/en/service/Generalabilitytest/servicegoal",
+  "t": "Qudrat",
+  "from": "https://www.pmu.edu.sa/admission/sat-admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.etec.gov.sa/en/service/theHumanitiesTrack/servicegoal",
+  "t": "Tahseely",
+  "from": "https://www.pmu.edu.sa/admission/sat-admission",
+  "reason": "external host"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/studentselfservice",
+  "t": "Change of Major ( Undergraduate )",
+  "from": "https://www.pmu.edu.sa/admission/registration_forms_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/study_plan_it_dept_cces_udp",
+  "t": "Old Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_it_dept_cces_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/study_plan_cs_dept_cces_udp",
+  "t": "Old Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_ce_dept_cces_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_cs_dept_cces_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_se_dept_cces_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_msme_gdp",
+  "t": "Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_arch_dept_coad_udp",
+  "t": "Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_coad_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_gdes_dept_coad_udp",
+  "t": "Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_ides_dept_coad_udp",
+  "t": "Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_hrm_dept_cob_udp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/new_degree_plan_emba_gdp",
+  "t": "Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_emba_gdp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_new_mba_gdp",
+  "t": "New Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/degree_plan_old_mba_gdp",
+  "t": "Old Degree Plan",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_descriptions_mba_gdp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/course_catalog_msehd_gdp",
+  "t": "Catalog",
+  "from": "https://www.pmu.edu.sa/admission/list_majors_ro",
+  "reason": "internal, outside admission scope"
+ },
+ {
+  "url": "https://www.pmu.edu.sa/academics/mba_program_gdp",
+  "t": "Learn More...",
+  "from": "https://www.pmu.edu.sa/admission/mba_international_students",
+  "reason": "internal, outside admission scope"
+ }
+]

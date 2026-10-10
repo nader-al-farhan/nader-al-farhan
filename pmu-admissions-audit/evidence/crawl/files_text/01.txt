@@ -1,0 +1,1522 @@
+        Aptis Candidate
+        Guide
+        August 2017
+
+
+
+
+www.britishcouncil.org/aptis
+                                                                                      Aptis Candidate Guide   1
+
+
+
+
+Introducing the Aptis test
+
+Aptis is an innovative global English assessment tool from the British
+Council. It is an English test for adults and young adults, which can be used
+to assess English language ability in all four skills – reading, writing, listening
+and speaking.
+
+Aptis doesn't test at a single level. Instead, it includes a range of questions,
+which are designed to allow you to show your best ability. The test results
+are reported either on a numerical scale (0–50) or as a Common European
+Framework of Reference for Languages (CEFR) level.
+
+There are two tests to choose from. Aptis tests from A1-C on the CEFR and
+is suitable for most test-takers. There is also an Aptis Advanced test which
+assesses English language ability from B1-C2 and is for higher level
+test-takers. If you are taking the Aptis Advanced test, you will ﬁnd further
+details on page 38 and onwards.
+
+It's usually taken on a computer or a tablet, but the core test, the reading
+test and the writing test can be taken using pen and paper. In some
+countries, it is possible to take the speaking and listening tests over the
+phone.
+
+The purpose of this guide is to help you prepare for these tests. There is an
+overview of the tests and each component is described. There is also
+advice on how to prepare for the test and information on how the test is
+marked.
+                                                                                                                                                                                                   Aptis Candidate Guide                                2
+
+
+
+
+Contents
+
+Test structure............................................................................................................................................................................................................. ........................3
+
+Aptis core test (grammar and vocabulary)..........................................................................................................................................................................5
+
+Aptis reading test.............................................................................................................................................................................................................................9
+
+Aptis listening test.........................................................................................................................................................................................................................15
+
+Aptis writing test............................................................................................................................................................................................................................17
+
+Aptis speaking test.......................................................................................................................................................................................................................27
+
+Aptis Advanced test.....................................................................................................................................................................................................................38
+
+How to take the online test.............................................................................................................................................................................. ........................45
+
+Accommodations and special needs..................................................................................................................................................................................47
+
+Final checklist..................................................................................................................................................................................................................................48
+                                                                                                 Aptis Candidate Guide      3
+
+
+
+
+Test structure
+Aptis consists of ﬁve components: core (grammar and vocabulary), reading, listening, writing and speaking. Clients decide
+which components are needed for their situation. You, the test-taker, will prepare for the core test (everyone takes the
+core test) and the skill components the client has chosen. You may be taking one skill component (for example, listening)
+or all four skill components (reading, listening, writing and speaking).
+
+
+
+
+   Reading                   Listening                   Writing               Speaking
+
+
+
+
+It is a good idea to take a practice test so that you fully understand what
+you need to do. You can ﬁnd a practice test on the Aptis website at:
+www.britishcouncil.org/exam/aptis/take
+                                                                                                Aptis Candidate Guide    4
+
+
+
+
+Here is the structure of the Aptis test:
+
+Test                Test design                       Activity                          Format
+Core                Part 1    Grammar                 Sentence completion.              3-option multiple choice.
+25 minutes
+                    Part 2    Vocabulary              Word matching (similar meaning). Sets of 5 target words with
+                                                                                       10 options.
+                                                      Match words to deﬁnitions.
+
+                                                      Sentence completion.
+
+                                                      Word pairs or word combinations
+                                                      (words commonly used together).
+Reading             Part 1    Sentence                Choose words to                   3-option multiple choice.
+30 minutes                    comprehension           complete sentences.
+                    Part 2    Text cohesion           Put sentences into the correct    7 sentences jumbled up.
+                                                      order to make a story.
+                    Part 3    Short text              Choose the best word from         10 options and 7 empty
+                              comprehension           a list to make a sentence.        spaces.
+                    Part 4    Long text               Match headings to                 7 paragraphs and
+                              comprehension           paragraphs.                       8 headings.
+Listening           Part 1    Word and number         Listen to a phone message to      4-option multiple choice.
+approximately                 recognition             identify speciﬁc information.
+55 minutes          Part 2    Identifying speciﬁc     Listen to monologues or
+                              information             conversation and identify
+                                                      speciﬁc information.
+                    Part 3    Inference               Listen to monologues and
+                                                      conversations and identify the
+                                                      attitude, opinion or intention.
+Writing             Part 1    Word-level writing      Respond to messages using         1-5 words for each question.
+50 minutes                                            individual words.
+
+                    Part 2    Short text writing      Write personal information.       20-30 words.
+                    Part 3    Three written responses Respond to written questions on   30-40 words for each question.
+                              to questions            a social network-type website.
+                    Part 4    Formal and informal     Write an informal email to a      40-50 words for the
+                              writing                 friend and a formal email to an   informal email.
+                                                      unknown person.
+                                                                                        120-150 words for the
+                                                                                        formal email.
+Speaking            Part 1    Personal                Respond to three personal         30 seconds for each
+12 minutes                    information             information questions.            response.
+                    Part 2    Describe, express       Describe a picture and answer     45 seconds for each response.
+                              opinion and provide     two additional questions
+                              reasons and             of increasing difﬁculty.
+                              explanations
+                    Part 3    Describe, compare and   Describe two contrasting pictures 45 seconds for each
+                              provide reasons and     and answer two additional          response.
+                              explanations            questions of increasing difﬁculty.
+                    Part 4    Discuss personal       Answer three questions             1-minute preparation time.
+                              experience and opinion on an abstract topic.
+                              on an abstract topic                                      2-minutes response time.
+                                                                                                    Aptis Candidate Guide     5
+
+
+
+
+Aptis Advanced test structure
+The Aptis Advanced test includes the Aptis core test, the more difﬁcult reading, listening, writing and speaking tasks from
+the Aptis test described above and additional tasks which are more demanding. More information about the Aptis
+Advanced test can be found towards the end of this guide.
+
+
+
+
+Aptis core test (grammar and vocabulary)
+The core test is the same for Aptis and Aptis Advanced. It consists of two parts. The ﬁrst part assesses your knowledge of
+English grammar. The second part assesses your knowledge of English vocabulary.
+
+
+Test design         Description                                          Preparation
+Part 1             In this part of the test, you will answer 25          To know which parts of grammar are
+Grammar            questions.                                            tested, see the British Council / EAQUALS
+                                                                         core inventory. This is free and available
+                   Most of the questions test formal written             online at:
+                   English. A small number of questions test             http://englishagenda.britishcouncil.org/
+                   spoken English such as knowing the                    sites/ec/ﬁles/books-british-council-eaquals-core-
+                   appropriate grammar to use in a particular            inventory.pdf
+                   situation (formal or informal situations,
+                   for example).                                         One great way to prepare for the grammar
+                                                                         test is to use the British Council's
+                   All 25 questions are in the format of                 LearnEnglish Grammar App:
+                   a 3-option multiple choice.                           http://learnenglish.britishcouncil.org/en/
+                   Complete a sentence by choosing                       grammar-and-vocabulary
+                   the correct word.
+
+Part 2             In this part of the test, you have 25 questions.      To help you prepare for this part of the test, the
+Vocabulary         These are presented in sets of                        LearnEnglish website has games and activities to
+                   ﬁve words (the words we are testing) with ten         help you improve your vocabulary.
+                   options from which to choose.                         http://learnenglish.britishcouncil.org/en/grammar
+                                                                         -and-vocabulary
+                   There are a number of question types:
+                                                                         There are also many useful websites, for example:
+                                                                         www.englishclub.com
+                   Word matching: ﬁnd a word with a meaning
+                   similar to the target word.                           Another useful tip is to take note of interesting
+                                                                         words or word combinations when you read
+                   Word deﬁnition: match a deﬁnition to the correct      English texts.
+                   word.
+
+                   Word usage: complete a sentence by
+                   choosing the correct word.
+
+                   Word pairs or word combinations: these are
+                   usually the most difﬁcult questions, as you need
+                   to know what word (from a list) is most commonly
+                   found with the target word (e.g. birthday card is
+                   common but blue card is not).
+                                                                                               Aptis Candidate Guide     6
+
+
+
+
+Sample grammar questions
+There are two question types. The ﬁrst focuses on written English grammar and the second focuses on the use of English
+grammar when speaking.
+
+Here are some examples:
+
+1. Written grammar
+He ______ me that the machine was broken.
+    told
+    spoke
+    said
+
+My boss says that I ______ to ﬁnish the report by Friday.
+   must
+   have
+   should
+
+My new computer works _____ faster than my old one.
+   many
+   more
+   much
+
+I have worked for this company _____ I left university.
+     since
+     after
+     from
+
+
+2. Spoken grammar
+John: She's French, isn't she?
+Ahmed: No, _______ she's from Belgium.
+    exactly
+    actually
+    anyway
+
+Zeynep: I really don't feel like going to see that movie tonight.
+Peter: Ok. __________ we can go next week instead.
+    Maybe
+    However
+    Nevertheless
+                                                                                                    Aptis Candidate Guide     7
+
+
+
+
+Sample vocabulary questions
+The ﬁrst question type tests your ability to match words with similar meanings from a list of options. You need to click on
+the arrows and choose the similar word.
+
+Here is an example:
+
+
+
+
+For the next question type you need to match a deﬁnition to a word. Click on the arrow and choose the word that
+matches the deﬁnition.
+
+Here is an example:
+                                                                                                  Aptis Candidate Guide   8
+
+
+
+
+The next question type asks you to identify a word from a list that is commonly used with the given word.
+
+
+
+
+There is a ﬁnal question type that asks you to complete a sentence using a word from a list.
+                                                                                                     Aptis Candidate Guide      9
+
+
+
+
+Aptis reading test
+The test assesses your reading ability. The tasks become more difﬁcult as the test progresses.
+
+Test design        Description                                            Preparation
+Part 1             In this part, you need to choose a word (choice of     Make sure you read each sentence fully and the
+                   three) to complete the sentence. There are ﬁve         options before trying to answer this question.
+Sentence           sentences to complete. Each sentence in the text
+                   is free-standing which means that it is not            The best way to become a better reader is to
+comprehension
+                   necessary to understand all of the sentences to        practise. A number of publishers produce graded
+                   complete individual sentences.                         readers that might be of use. For example, try:
+
+                                                                             Cambridge Bookworms Starter / Stage 1
+                   This part assesses your ability to read a sentence
+                                                                             Cambridge Readers – Level 1
+                   and to complete the sentence with an
+                                                                             Penguin Readers – Level 1
+                   appropriate word.
+                                                                             Macmillan Readers – Starter / Beginner
+                                                                             Headway Skills series.
+
+Part 2             In this part you will see seven sentences. They        Read all of the sentences carefully ﬁrst. Then,
+                   belong to a single story that has been jumbled up.     decide on the order (the ﬁrst sentence is
+Text cohesion      There is only one way that the sentences go            identiﬁed for you).
+                   together to form the story and your task is to click
+                   on the sentences and drag them to the correct          Appropriate readers for this level are:
+                   position in the story.                                    Cambridge Bookworms Stage 1 and 2
+                                                                             Cambridge Readers – Level 2
+                   This part assesses your knowledge of the
+                                                                             Penguin Readers – Level 3
+                   cohesion of a text. You are looking for clues in
+                                                                             Macmillan Readers – Elementary.
+                   each sentence that show how it links to other
+                   sentences.
+Part 3             In this part you will need to read a text (about 150   Read over the whole text before attempting the
+                   words). The task is to complete the text by            questions.
+Short text         selecting the appropriate words (from a list) to ﬁll
+comprehension      in the gaps. To complete all of the text you need      Appropriate readers for this level are:
+                   to understand more than just a sentence.                  Cambridge Bookworms Stage 2 and 3
+                                                                             Cambridge Readers – Level 3, 4 and 5
+                   This part tests your ability to read and understand
+                                                                             Penguin Readers – Level 4
+                   short texts.
+                                                                             Macmillan Readers – Pre Intermediate.
+Part 4             This part consists of a long text (about 750 words)    Read the main text carefully but as quickly as you
+                   with a series of headings. The task is to match the    can. Then carefully read the headings. Do all this
+Long text          headings to paragraphs in the text (there are          before starting the task. Look for clues to connect
+comprehension      seven to be done). There is always an extra            the headings to the paragraphs; these might be
+                   heading that does not ﬁt with any paragraph.           similar words, ideas or topics.
+
+                   This part is designed to test your ability to read     Appropriate readers for this level are:
+                   and understand a long text. In addition, you need
+                                                                             Cambridge Bookworms Stage 4, 5 and 6
+                   to be able to demonstrate an understanding of
+                                                                             Cambridge Readers – Level 4, 5 and 6
+                   how the headings reﬂect the paragraphs in
+                                                                             Penguin Readers – Level 5 and 6
+                   different ways (sometimes using similar words,
+                   sometimes similar ideas, or by sharing a topic).          Macmillan Readers – Intermediate and
+                                                                              Upper Intermediate.
+                                                                                                 Aptis Candidate Guide   10
+
+
+
+
+Sample reading questions
+
+Reading part 1
+In this part, you must select the appropriate word from a drop-down list. You should complete this part in about three
+minutes.
+                                                                                                 Aptis Candidate Guide      11
+
+
+
+
+Reading part 2
+In the second part, you must sort the sentences into the correct order to make a story. Do this by clicking on a sentence
+and dragging it to its correct position.
+                                                                                                       Aptis Candidate Guide     12
+
+
+
+
+Reading part 3
+In the third part, you must select the word from the group at the bottom of the screen and drag a word into each of the
+seven empty boxes. There are ten word options and only seven spaces.
+
+If you change your mind, that's not a problem as you can move the words around until you make you ﬁnal decision.
+
+
+
+
+Reading part 4
+For the ﬁnal part, it is necessary to scroll the reading text to see all of it. Do this by clicking on the side bar (as shown) and
+move the bar up and down.
+
+Select the appropriate heading from the drop-down list on the right-hand side.
+                     Aptis Candidate Guide   13
+
+
+
+
+Reading answer key
+
+Reading part 1
+
+
+
+
+Reading part 2
+                 Aptis Candidate Guide   14
+
+
+
+
+Reading part 3
+
+
+
+
+Reading part 4
+                                                                                                   Aptis Candidate Guide     15
+
+
+
+
+Aptis listening test
+The listening test has 25 questions. There are a number of things to remember about the listening test:
+
+1.   All 25 questions use the 4-option multiple choice format.
+2.   Each listening input has a single question.
+3.   You may listen to the question a second time if you want, but you don't have to.
+4.   The three types of questions are described below. In the test, these types of questions may not
+     appear in this sequence.
+
+
+
+Test design         Description                                         Preparation
+Part 1              In these questions you listen to a short phone       Visit the British Council's LearnEnglish website for
+                    message and you need to identify speciﬁc             lots of very useful activities, tips, Apps and
+Word and            information such as a number (e.g. phone number,     podcasts: http://learnenglish.britishcouncil.org/en
+number              time) or a word.
+                                                                         The elementary podcasts are useful preparation
+recognition
+                                                                         for these questions.
+
+Part 2              In these questions you listen to short               There are quite a few useful practice videos and
+                    conversations with two speakers or to a              podcasts on the LearnEnglish website, so that's a
+Identifying         monologue and you need to identify speciﬁc           very good starting point. In addition, it may be
+speciﬁc,            information. For example, where do they want to      useful to try to listen to as much English as
+factual             go? What do they want to buy?                        possible (e.g. ﬁlms, television or radio). If you have
+information                                                              access to the internet, you can easily ﬁnd
+                                                                         materials, for example the BBC World Service radio
+                                                                         (http://www.bbc.co.uk/worldserviceradio).
+
+Part 3              In these questions you again listen to short         There are a number of higher-level podcasts on
+                    conversations with two speakers or to a              the LearnEnglish website. Also try the BBC World
+Inference           monologue. The focus here is not on                  Service radio station.
+                    understanding the meaning of what the speakers
+                    are saying, but on identifying clues in their        The strategies you need include paying speciﬁc
+                    language or tone to help identify the attitude of    attention to intonation and stress when somebody
+                    the speaker, their intention or opinion.             is speaking. Listening to authentic speech such as
+                                                                         television soap operas or ﬁlms is a good way to
+                                                                         practise.
+                                                                                                  Aptis Candidate Guide     16
+
+
+
+
+Sample listening questions
+Remember that if you'd like to hear a question for a second time just click on the Play button. The system will not allow
+you to listen more than twice.
+
+
+Listening part 1
+
+
+
+
+Listening part 2
+
+
+
+
+Listening part 3
+                                                                                                      Aptis Candidate Guide       17
+
+
+
+
+Aptis writing test
+There are four parts to the writing test. You will ﬁll in forms, interact in a social media-type written conversation and write
+emails. All writing tasks are marked by an examiner.
+
+Make sure you fully understand the questions. Plan what you are going to write and then edit your writing before clicking
+to the next question. The most common mistakes are the following:
+
+    Not answering the questions (going off-topic). Read the question and understand what you need to do.
+    Writing too much but with poor grammar, spelling and punctuation. Keep to the word count and focus on accuracy.
+    Not using a variety of sentence structures.
+    Not writing in sentences or paragraphs.
+    Using SMS spelling.
+
+The total time allowed for the writing test is 50 minutes. The timings for each section below are recommendations only.
+
+
+Test design        Description                                              Preparation
+Part 1             In the ﬁrst part you have joined a club, course or       In this part, the focus is on communicative
+                   activity and must answer a series of ﬁve text            competence (i.e. spelling, capitalisation and
+Word-level         messages from other members of the club, course          grammar will not be considered).
+writing            or activity. There is no extended writing in this part
+                   (no sentence writing), just individual words.
+
+                   You should spend no more than three minutes on
+                   this part.
+
+
+Part 2             This part is again about form ﬁlling – but this time     You are asked to write 20-30 words. The focus is
+                   you need to write in sentences.                          on writing sentences that are on-topic and have
+Short text                                                                  accurate grammar, punctuation and spelling.
+writing            You should spend no more than seven minutes
+                   on this part.                                            A common error is to write more than 30 words
+                                                                            and make too many mistakes. Keep to the word
+                                                                            limit and focus on accuracy. Another common
+                                                                            error is to write in all capital letters.
+Part 3             In this part you will have a social network-type         Make sure you correctly answer all three questions
+                   interaction. You will receive three questions and        and don't go off-topic.
+Three written      need to respond.
+parts of text, all                                                          Focus on accurate spelling and punctuation and
+of which require You should spend no more than ten minutes on               write text that is cohesive and coherent.
+responses          this part.
+                                                                            Keep to the word count of 30-40 words per answer.
+Part 4             This part requires that you write an informal email      For this part, make sure you keep to the word
+                   to a friend and a more formal email to an                count of 40-50 words for the ﬁrst email and
+Formal and         unknown person. Both emails are in reaction to           120-150 words for the second email.
+informal writing   information about a change.
+                                                                            Make sure your answers are different. The ﬁrst
+                   You should spend no more than 20 minutes on              email should clearly be an informal email to a
+                   this part.                                               friend or close family member, while the second
+                                                                            should clearly be a formal email to a company.
+
+                                                                            You are also assessed on how broadly and
+                                                                            accurately you can write so use a wide range of
+                                                                            vocabulary, grammar and cohesive devices.
+                                                                                                Aptis Candidate Guide   18
+
+
+
+
+Sample writing questions
+
+Writing part 1
+
+You need to write ﬁve pieces of information. This part is not worth many marks so don't spend too much time on it.
+
+Example of a high-level answer (5/5) for Part 1:
+                                                                                                Aptis Candidate Guide   19
+
+
+
+
+You need to write ﬁve pieces of information. This part is not worth many marks so don't spend too much time on it.
+
+Example of a low-level answer (1/5) for Part 1:
+                                                                                                 Aptis Candidate Guide   20
+
+
+
+
+Writing part 2
+There may be one or two questions. The areas assessed are task fulﬁlment / topic relevance, grammatical range and
+accuracy, punctuation, vocabulary range and accuracy, and cohesion. Here is the marking scale:
+
+
+
+5           Likely to be above A2 level.
+B1 (or
+above)
+
+4            On-topic.
+             Uses simple grammatical structures to produce writing at the sentence level. Errors with
+A2.2
+              basic structures common. Errors do not impede understanding of the response.
+             Mostly accurate punctuation and spelling.
+             Vocabulary is sufﬁcient to respond to the question(s).
+             Some attempts at using simple connectors and cohesive devices to link sentences.
+
+
+3            On-topic.
+             Uses simple grammatical structures to produce writing at the sentence level. Errors with
+A2.1
+              basic structures common. Errors impede understanding in parts of the response.
+             Punctuation and spelling mistakes are noticeable.
+             Vocabulary is mostly sufﬁcient to respond to the question(s) but inappropriate lexical choices
+              are noticeable.
+             Response is a list of sentences with no use of connectors or cohesive devices to link sentences.
+
+
+2            Not fully on-topic.
+             Grammatical structure is limited to words and phrases. Errors in basic patterns and simple
+A1.2
+              grammar structures impede understanding.
+             Little or no use of accurate punctuation. Spelling mistakes common.
+             Vocabulary is limited to very basic words related to personal information and is not sufﬁcient to
+              respond to the question(s).
+             No use of cohesion.
+
+
+1            Response limited to a few words or phrases.
+             Grammar and vocabulary errors so serious and frequent that meaning is unintelligible.
+A1.1
+
+0           No meaningful language or all responses are completely off-topic (e.g. memorised script,
+            guessing).
+A0
+                                                                                                 Aptis Candidate Guide   21
+
+
+
+
+Example of a high-level (5/5) response for Part 2:
+
+
+
+
+ Keeps to the word count (20-30 words).
+ Clear sentences.
+ Answers on-topic. Replies fully to the input.
+ Accurate grammar, spelling and punctuation. It is acceptable to have grammar and spelling errors and still
+  score 5/5 if the errors are not serious (i.e. the writing can be understood and the errors are not basic).
+                                                                                             Aptis Candidate Guide   22
+
+
+
+
+Writing part 3
+In part 3, you will answer social media-type questions which will look like the following:
+                                                                                                Aptis Candidate Guide    23
+
+
+
+
+The areas assessed are task fulﬁlment / topic relevance, punctuation, grammatical range and accuracy, vocabulary range
+and accuracy and cohesion. Here is the marking scale:
+
+
+
+5           Likely to be above the B1 level.
+B2 (or
+above)
+
+4           Responses to all three questions are on-topic and show the following features:
+B1.2          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Punctuation and spelling mostly accurate. Errors do not impede understanding.
+              Vocabulary is sufﬁcient to respond to the questions.
+              Uses simple cohesive devices to organise responses as a linear sequence of sentences.
+
+
+3           Responses to two questions are on-topic and show the following features:
+B1.1          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Punctuation and spelling mostly accurate. Errors do not impede understanding.
+              Vocabulary is sufﬁcient to respond to the questions.
+              Uses simple cohesive devices to organise responses as a linear sequence of sentences.
+
+
+2           Responses to at least two questions are on-topic and show the following features:
+A2.2          Uses simple grammatical structures to produce writing at the sentence level. Errors with
+               simple structures common and sometimes impede understanding.
+              Punctuation and spelling mistakes are noticeable.
+              Vocabulary is not sufﬁcient to respond to the question(s). Inappropriate lexical choices are
+               noticeable and sometimes impede understanding.
+              Responses are lists of sentences and not organised as cohesive texts.
+
+1           Response to one question is on-topic and shows the following features:
+A2.1          Uses simple grammatical structures to produce writing at the sentence level. Errors with
+               simple structures common and sometimes impede understanding.
+              Punctuation and spelling mistakes are noticeable.
+              Vocabulary is not sufﬁcient to respond to the question(s). Inappropriate lexical choices are
+               noticeable and sometimes impede understanding.
+              Responses are lists of sentences and not organised as cohesive texts.
+
+
+0           Performance below A2, or no meaningful language or the responses are completely off-topic (e.g.
+            memorised script, guessing).
+                                                                                                 Aptis Candidate Guide   24
+
+
+
+
+Example of a high-level (5/5) response for Part 3:
+
+
+
+
+ Keeps to the word count (30-40 words for each answer).
+ Replies fully to each piece of input.
+ Sentences follow on from one another in a coherent manner.
+ Uses a range of grammar and vocabulary.
+ Accurate grammar, punctuation and spelling. It is ok to have errors but the writing must be understood.
+                                                                                                Aptis Candidate Guide   25
+
+
+
+
+Writing part 4
+The areas assessed are task fulﬁlment and register, grammatical range and accuracy, vocabulary range and accuracy,
+cohesion.
+
+
+6           Likely to be above C1 level.
+C2
+5           Response shows the following features:
+              Response on-topic and task fulﬁlled in terms of appropriateness of register. Two clearly
+C1
+               different registers.
+              Range of complex grammar constructions used accurately. Some minor errors occur but
+               do not impede understanding.
+              Range of vocabulary used to discuss the topics required by the task. Some awkward
+               usage or slightly inappropriate lexical choices.
+              A range of cohesive devices is used to clearly indicate the links between ideas.
+
+4           Response on-topic and task fulﬁlled in terms of appropriateness of register: appropriate register
+            used consistently in both responses. Response shows the following features:
+B2.2
+              Some complex grammar constructions used accurately. Errors do not lead to
+               misunderstanding.
+              Minor errors in punctuation and spelling occur but do not impede understanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not lead to misunderstanding.
+              A limited number of cohesive devices are used to indicate the links between ideas.
+
+3           Response partially on-topic and task partially fulﬁlled in terms of appropriateness of register:
+            appropriate register used consistently in one response. Response shows the following features:
+B2.1
+              Some complex grammar constructions used accurately. Errors do not lead to
+               misunderstanding.
+              Minor errors in punctuation and spelling occur but do not impede understanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not lead to misunderstanding.
+              A limited number of cohesive devices are used to indicate the links between ideas.
+
+2           Response partially on-topic and task not fulﬁlled in terms of appropriateness of register:
+            appropriate register not used consistently in either response. Response shows the following
+B1.2
+            features:
+               Control of simple grammatical structures. Errors occur when attempting complex structures.
+               Punctuation and spelling is mostly accurate. Errors do not impede understanding.
+               Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+                understanding in parts of the text.
+               Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+1           Response not on-topic and task not fulﬁlled in terms of appropriateness of register. No evidence
+            of awareness of register. Response shows the following features:
+B1.1
+              Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Punctuation and spelling is mostly accurate. Errors do not impede understanding.
+              Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+                understanding in most of the text.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+0           Performance below B1, or no meaningful language or the responses are completely off-topic
+A1/A2       (e.g. memorised script, guessing).
+                                                                                                    Aptis Candidate Guide     26
+
+
+
+
+'Register' means adapting your language to different situations. For example, your language should be different when you
+are writing professionally and when you are writing to a friend. The ﬁrst part is an intimate or casual register used among
+family members and close friends. The second part is a formal register used between strangers. You need to show that
+you understand the difference. In the second part you should write formally.
+
+
+
+Example of a high-level (5/5) response for Part 4:
+
+
+
+
+ Understands the difference in writing to a friend as opposed to writing to an authority. The ﬁrst text is
+  casual and the second text is formal.
+ Answers the input in a coherent manner. The text makes sense.
+ Writing is clear, assured and precise using a range of cohesive devices to make the writing ﬂow.
+ Grammar and vocabulary is broad and accurate.
+                                                                                                   Aptis Candidate Guide      27
+
+
+
+
+Aptis speaking test
+Each question has a maximum amount of time to speak but you can end the recording early by clicking on a stop button.
+If you ﬁnish early, you may not score at the highest levels.
+
+The most common mistakes are the following:
+
+    Not doing a proper sound check.
+    Not speaking clearly.
+    Not answering the questions.
+    Giving under-length answers – not using the full amount of time to speak.
+    Overusing words such as 'and' and 'so'.
+    Speaking in simple sentence lists.
+    Not using a variety of sentence structures.
+
+Test design        Description                                          Preparation
+Part 1             In this part, you are asked to answer three          To prepare for this task it is a good idea to
+                   questions on personal topics. You are expected       practise introducing yourself and talking about
+Personal           to talk for 30 seconds per question.                 your personal experiences. Think about familiar
+information                                                             topics (e.g. holidays, weekend activities, sports)
+                                                                        and practise giving general information.
+
+                                                                        At the highest levels, try not to talk in lists but
+                                                                        instead use connecting devices, complex
+                                                                        sentences and a wide range of grammar.
+
+Part 2            In this part you are asked to describe a              You should try to be ﬂuent and spontaneous,
+                  photograph and then answer two questions              showing little sign of effort. Make sure you
+Describe, express related to the topic illustrated in the photo. The    answer all three questions.
+opinion and       three questions increase in complexity (from
+provide reasons   description   to opinion). You are expected to talk
+and explanations for 45 seconds per question.
+Part 3             In this part you are asked to compare two            To prepare for this task, it is a good idea to
+                   pictures and then answer two questions related       practise comparing two different things (e.g. two
+Describe,          to the topic. The three questions increase in        cities or two houses). Focus on describing their
+compare and        complexity (from description to speculation). You    advantages and disadvantages.
+provide reasons    are expected to talk for 45 seconds for each
+                   question.                                            With speculation, it is important to make sure you
+and explanations
+                                                                        are using the correct grammatical structures.
+
+Part 4             In the ﬁnal part you will see a picture and be       A common error is to describe the photo. You will
+                   asked three questions about an abstract topic.       not receive a high score if you describe the
+Discuss            You are given one minute to prepare an answer        photo. The questions are more abstract (e.g. how
+personal           and can take notes. You are expected to talk for     do you feel about something).
+experience and     two minutes.
+                                                                        Another common error is to go off-topic. Focus
+opinion on an
+                                                                        on answering each question in a clear, smoothly
+abstract topic
+                                                                        ﬂowing, well-structured speech.
+
+                                                                        To prepare for this part it is a good idea to
+                                                                        practise speaking for two minutes on an abstract
+                                                                        topic (e.g. How do you feel about ___?).
+
+                                                                        Make sure you practise using your planning time
+                                                                        wisely to structure what you are going to say.
+                                                                                                  Aptis Candidate Guide   28
+
+
+
+
+Sample speaking questions
+Speaking part 1
+In this part you will answer some questions about yourself. Listen to the instructions and speak clearly into your
+microphone when you hear the signal.
+
+Each part of the test will appear automatically.
+
+
+
+
+When the time to record comes, the timer begins. This tells you the amount of time you have been recording for (in this
+case 14 seconds).
+                                                                Aptis Candidate Guide   29
+
+
+
+
+As each new question appears, the same procedure is followed.
+                                                                                               Aptis Candidate Guide   30
+
+
+
+
+The areas assessed are task fulﬁlment / topic relevance, grammatical range and accuracy, vocabulary range and
+accuracy, pronunciation and ﬂuency. Here is the marking scale.
+
+
+
+5           Likely to be above A2 level.
+
+B1 (or
+above)
+4           Responses to all three questions are on-topic and show the following features:
+A2.2          Some simple grammatical structures used correctly but basic mistakes systematically occur.
+              Vocabulary is sufﬁcient to respond to the questions, although inappropriate lexical
+               choices are noticeable.
+              Mispronunciations are noticeable and frequently place a strain on the listener.
+              Frequent pausing, false starts and reformulations but meaning is still clear.
+
+3           Responses to two questions are on-topic and show the following features:
+A2.1          Some simple grammatical structures used correctly but basic mistakes systematically occur.
+              Vocabulary is sufﬁcient to respond to the questions, although inappropriate lexical
+               choices are noticeable.
+              Mispronunciations are noticeable and frequently place a strain on the listener.
+              Frequent pausing, false starts and reformulations but meaning is still clear.
+
+2           Responses to at least two questions are on-topic and show the following features:
+A1.1          Grammatical structure is limited to words and phrases. Errors in basic patterns and simple
+               grammar structures impede understanding.
+              Vocabulary is limited to very basic words related to personal information.
+              Pronunciation is mostly unintelligible except for isolated words.
+              Frequent pausing, false starts and reformulations impede understanding.
+
+1           Response to one question is on-topic and shows the following features:
+A1.1          Grammatical structure is limited to words and phrases. Errors in basic patterns and simple
+               grammar structures impede understanding.
+              Vocabulary is limited to very basic words related to personal information.
+              Pronunciation is mostly unintelligible except for isolated words.
+              Frequent pausing, false starts and reformulations impede understanding.
+
+0           No meaningful language or all responses are completely off-topic (e.g. memorised script,
+            guessing).
+A0
+                                                                                               Aptis Candidate Guide   31
+
+
+
+
+Speaking part 2
+In this part you will see a photo and answer three questions. You have 45 seconds to respond to each question.
+                                                                                             Aptis Candidate Guide   32
+
+
+
+
+The areas assessed are task fulﬁlment / topic relevance, grammatical range and accuracy, vocabulary range and accuracy,
+pronunciation, ﬂuency and cohesion. Here is the marking scale.
+
+
+
+5           Likely to be above B1 level.
+B2 (or
+above)
+
+4           Responses to all three questions are on-topic and show the following features:
+B1.2          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Sufﬁcient range and control of vocabulary for the task. Errors occur when expressing
+               complex thoughts.
+              Pronunciation is intelligible but inappropriate mispronunciations put an occasional strain
+               on the listener.
+              Some pausing, false starts and reformulations.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+3           Responses to two questions are on-topic and show the following features:
+B1.1          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Sufﬁcient range and control of vocabulary for the task. Errors occur when expressing
+               complex thoughts.
+              Pronunciation is intelligible but inappropriate mispronunciations put an occasional strain
+               on the listener.
+              Some pausing, false starts and reformulations.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+2           Responses to at least two questions are on-topic and show the following features:
+A2.2          Uses some simple grammatical structures correctly but systematically makes basic mistakes.
+              Vocabulary will be limited to concrete topics and descriptions. Inappropriate lexical
+               choices for the task are noticeable.
+              Mispronunciations are noticeable and put a strain on the listener.
+              Noticeable pausing, false starts and reformulations.
+              Cohesion between ideas is limited. Responses tend to be a list of points.
+
+1           Response to one question is on-topic and shows the following features:
+A2.1          Uses some simple grammatical structures correctly but systematically makes basic mistakes.
+              Vocabulary will be limited to concrete topics and descriptions. Inappropriate lexical
+               choices for the task are noticeable.
+              Mispronunciations are noticeable and put a strain on the listener.
+              Noticeable pausing, false starts and reformulations.
+              Cohesion between ideas is limited. Responses tend to be a list of points.
+
+0           Performance below A2, or no meaningful language or the responses are completely off-topic
+            (e.g. memorised script, guessing).
+                                                                         Aptis Candidate Guide   33
+
+
+
+
+Speaking part 3
+In this part you will see two photos and again answer three questions.
+                                                                                              Aptis Candidate Guide   34
+
+
+
+
+The marking scale is the same as for part 2.
+
+
+
+5            Likely to be above B1 level.
+B2 (or
+above)
+
+4            Responses to all three questions are on-topic and show the following features:
+B1.2           Control of simple grammatical structures. Errors occur when attempting complex structures.
+               Sufﬁcient range and control of vocabulary for the task. Errors occur when expressing
+                complex thoughts.
+               Pronunciation is intelligible but inappropriate mispronunciations put an occasional strain
+                on the listener.
+               Some pausing, false starts and reformulations.
+               Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+3            Responses to two questions are on-topic and show the following features:
+B1.1           Control of simple grammatical structures. Errors occur when attempting complex structures.
+               Sufﬁcient range and control of vocabulary for the task. Errors occur when expressing
+                complex thoughts.
+               Pronunciation is intelligible but inappropriate mispronunciations put an occasional strain
+                on the listener.
+               Some pausing, false starts and reformulations.
+               Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+2            Responses to at least two questions are on-topic and show the following features:
+A2.2           Uses some simple grammatical structures correctly but systematically makes basic mistakes.
+               Vocabulary will be limited to concrete topics and descriptions. Inappropriate lexical
+                choices for the task are noticeable.
+               Mispronunciations are noticeable and put a strain on the listener.
+               Noticeable pausing, false starts and reformulations.
+               Cohesion between ideas is limited. Responses tend to be a list of points.
+1            Response to one question is on-topic and shows the following features:
+A2.1           Uses some simple grammatical structures correctly but systematically makes basic mistakes.
+               Vocabulary will be limited to concrete topics and descriptions. Inappropriate lexical
+                choices for the task are noticeable.
+               Mispronunciations are noticeable and put a strain on the listener.
+               Noticeable pausing, false starts and reformulations.
+               Cohesion between ideas is limited. Responses tend to be a list of points.
+
+0            Performance below A2, or no meaningful language or the responses are completely off-topic (e.g.
+             memorised script, guessing).
+                                                                                               Aptis Candidate Guide     35
+
+
+
+
+Speaking part 4
+In this part, you again need to answer three questions but this time you answer them all in one response. You have one
+minute to prepare a structured response. A timer on the screen will indicate how long you have left. When preparation
+time is over, the message at the bottom ('You now have two minutes to talk') appears and you may speak until the
+recording automatically stops after two minutes.
+                                                                                                 Aptis Candidate Guide    36
+
+
+
+
+During the preparation time, it is important to take notes, as it will help you organise and remember your response. Rather
+than writing out exactly what you want to say, make brief notes and use these to structure your speech. Here are some
+examples of note taking:
+
+1. Tell me about a personal achievement or award you have received.
+    exam certiﬁcate
+    at school
+    highest score in class
+    teacher very pleased
+    parents proud
+
+2. How did you feel about this achievement?
+    surprised
+    exam was very difﬁcult
+    feelings of satisfaction and relief
+
+3. Do awards encourage people to do their best?
+   awards: a good thing
+        encourage excellence
+        evidence/recognition of success
+   awards: a bad thing
+        make some people too competitive
+        can create disappointment if you don't win
+                                                                                                   Aptis Candidate Guide   37
+
+
+
+
+Areas assessed are task fulﬁlment / topic relevance, grammatical range and accuracy, vocabulary range and accuracy,
+pronunciation, ﬂuency and cohesion. Here is the marking scale:
+
+
+
+6           Likely to be above C1 level.
+C2
+
+5           Response addresses all three questions and is well-structured.
+C1            Uses a range of complex grammar constructions accurately. Some minor errors occur but
+               do not impede understanding.
+              Uses a range of vocabulary to discuss the topics required by the task. Some awkward
+               usage or slightly inappropriate lexical choices.
+              Pronunciation is clearly intelligible.
+              Backtracking and reformulations do not fully interrupt the ﬂow of speech.
+              A range of cohesive devices are used to clearly indicate the links between ideas.
+
+4           Responses to all three questions are on-topic and show the following features:
+B2.2          Some complex grammar constructions used accurately. Errors do not lead to
+               misunderstanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not lead to misunderstanding.
+              Pronunciation is intelligible. Mispronunciations do not put a strain on the listener or lead to
+               misunderstanding.
+              Some pausing while searching for vocabulary but this does not put a strain on the listener.
+              A limited number of cohesive devices are used to indicate the links between ideas.
+
+3           Responses to two questions are on-topic and show the following features:
+B2.1          Some complex grammar constructions used accurately. Errors do not lead to
+               misunderstanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not lead to misunderstanding.
+              Pronunciation is intelligible. Mispronunciations do not put a strain on the listener or lead to
+               misunderstanding
+              Some pausing while searching for vocabulary but this does not put a strain on the listener.
+              A limited number of cohesive devices are used to indicate the links between ideas.
+
+2           Responses to at least two questions are on-topic and show the following features:
+B1.2          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Limitations in vocabulary make it difﬁcult to deal fully with the task.
+              Pronunciation is intelligible but occasional mispronunciations put an occasional strain on the
+               listener.
+              Noticeable pausing, false starts, reformulations and repetition.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+1           Response to one question is on-topic and shows the following features:
+B1.1          Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Limitations in vocabulary make it difﬁcult to deal fully with the task.
+              Pronunciation is intelligible but occasional mispronunciations put an occasional strain on the
+               listener.
+              Noticeable pausing, false starts, reformulations and repetition.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+0           Performance not sufﬁcient for B1, or no meaningful language, or the responses are completely
+A1/A2       off-topic (memorised or guessing).
+                                                                                                   Aptis Candidate Guide   38
+
+
+
+
+Aptis Advanced test
+This section details the different tasks you will ﬁnd in the Aptis Advanced test. The layout of the test and the components
+tested are exactly the same as the Aptis test. The grammar and vocabulary is also exactly the same so we will not cover it
+here. All of the tips that we share in this guide are relevant for both tests and the marking system for the speaking and
+writing test is also the same.
+
+
+
+
+Aptis Advanced reading test
+In this test you have 60 minutes to complete the four parts. Three parts are different to those in the Aptis test.
+
+
+
+Test design        Description                                           Preparation
+Part 1             In this part, you have four people's opinions on      Make sure you read all four opinions before trying
+                   one topic. You need to read all their opinions and    to answer the questions. Remember, the same
+                   then choose who said what for 7 questions. You        person can be used for more than one answer.
+                   must answer each question.
+
+Part 2             Matching headings.
+
+                   This is the same as the Aptis test.
+
+Part 3             This is a short text of around 300 words with         Make sure you read the whole text before trying
+                   missing gaps. You must choose the right word or       to answer. This isn't a grammar test so all the
+                   phrase from the drop-down to complete the gap.        options can ﬁt grammatically into the sentence,
+                                                                         you need to understand the whole text to choose
+                                                                         the right one.
+
+Part 4             Here you have two short texts on the same topic.      You deﬁnitely need to read both texts before
+                   You need to ﬁll in the blank with the appropriate     answering as again all the options are
+                   phrase.                                               grammatically possible so you can only choose
+                                                                         the right one if you have read both texts.
+                                                                                                    Aptis Candidate Guide      39
+
+
+
+
+Aptis Advanced listening test
+There are three parts which are different to the Aptis test. These are aimed at the higher levels so there are more things
+you need to do in each part. You have 30 minutes to complete the three parts.
+
+
+Test design        Description                                            Preparation
+Part 1             This part is the same as the Aptis test. You will      Please refer to our previous listening tips for
+                   listen to ﬁve short recordings of monologues or        websites and ideas.
+                   dialogues and answer one question for each
+                   recording.
+
+Part 2             In this part, you will listen to three recordings of   Use the fact that you can listen twice to your
+                   monologues or dialogues and you will have to           advantage here. Read through the questions
+                   answer two questions for each recording.               before you listen and predict what someone
+                                                                          might say about these things. Then, on your ﬁrst
+                                                                          listen, select your answers and listen a second
+                                                                          time to conﬁrm.
+
+Part 3             In this part, you will hear a discussion between a     Use your time wisely. Read the options and make
+                   man and a woman. On the screen you will see a          notes on what you think you should listen for (e.g.
+                   number of opinions. You will need to identify who      numbers, synonyms.)
+                   expresses which opinion: the man, the woman, or
+                   both the man and the woman. You will only hear
+                   this once and you have 20 seconds to read
+                   through the options.
+
+Part 4             In this part, you will hear two separate               Make sure you use the time to read through all
+                   monologues. You will need to select the correct        the options. Use this time to predict what kind of
+                   answers from a table. You will only hear each          words you expect them to mention around these
+                   monologue once. You have 20 seconds to read            opinions so you can listen out for hints.
+                   the options in the table.
+                                                                                                    Aptis Candidate Guide     40
+
+
+
+
+Aptis Advanced writing test
+The duration of the Aptis Advanced writing test is 45 minutes.
+
+
+Test design       Description                                            Preparation
+Part 1            In this part you will have a social network-type       Make sure you correctly answer all three
+                  interaction. You will receive three questions and      questions and don't go off-topic.
+Three written     need to respond. This is the same task as the
+                  Aptis test part 3.                                     Focus on accurate spelling and punctuation and
+parts of text,
+                                                                         write text that is cohesive and coherent.
+all of which
+require                                                                  Keep to the word count of 30-40 words per
+responses                                                                answer.
+
+Part 2            In this part you will read an email from an            Make sure you are on-topic and that you use the
+                  authority. You need to respond to the email in         appropriate register for the situation (see the
+Email response    120 -150 words, using the notes provided,              Aptis writing test for information about correct
+                  expressing how you feel about the situation.           use of register).
+
+Part 3            In this part you will write an article for a website   Try to make your article informative and
+                  that is both informative and interesting. Notes        interesting and use original text (i.e. don't just
+Article for       about the topic are provided and you need to use       copy the notes).
+website           the information to help write the article. The
+publication       article needs to be between 180 and 220 words.
+                                                                                              Aptis Candidate Guide   41
+
+
+
+
+Aptis Advanced writing part 2
+The areas assessed are task fulﬁlment, register, grammatical range and accuracy, vocabulary range and accuracy,
+punctuation and spelling and cohesion.
+
+
+6           Response fully on-topic and appropriate register used.
+            Response shows the following features:
+C2
+              Range of complex grammar constructions used accurately. No grammar errors occur.
+              Range of vocabulary used. No awkward or inappropriate lexical choices.
+              No more than two minor punctuation or spelling errors occur.
+              Range of cohesive devices used to clearly indicate the links between ideas.
+
+5           Response fully on-topic and appropriate register used.
+            Response shows the following features:
+C1
+              Range of complex grammar constructions used accurately. Minor grammar errors occur.
+              Range of vocabulary used. Some awkward or slightly inappropriate lexical choices.
+              Minor errors in punctuation and spelling occur.
+              Range of cohesive devices used to clearly indicate the links between ideas.
+
+4           Response fully on-topic and appropriate register used.
+            Response shows the following features:
+B2.2
+              Some complex grammar constructions used accurately. Errors do not impede understanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not impede understanding.
+              Punctuation and spelling errors do not impede understanding.
+              Limited number of cohesive devices are used to indicate the links between ideas.
+
+3           Response partially on-topic and/or appropriate register partially used.
+            Response shows the following features:
+B2.1
+              Some complex grammar constructions used accurately. Errors do not impede understanding.
+              Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+               lexical choices do not impede understanding.
+              Punctuation and spelling errors do not impede understanding.
+              Limited number of cohesive devices are used to indicate the links between ideas.
+
+2           Response partially on-topic and/or appropriate register partially used.
+            Response shows the following features:
+B1.2
+              Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+               understanding in parts of the text.
+              Punctuation and spelling errors do not impede understanding.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+1           Response not on-topic and/or task not fulﬁlled in terms of appropriateness of register.
+B1.1        Response shows the following features:
+              Control of simple grammatical structures. Errors occur when attempting complex structures.
+              Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+               understanding in parts of the text.
+              Punctuation and spelling errors do not impede understanding.
+              Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+0           Performance below B1, or no meaningful language or the response is completely off-topic (e.g.
+A1/A2       memorised script, guessing).
+                                                                                                  Aptis Candidate Guide   42
+
+
+
+
+Aptis Advanced writing part 3
+The areas assessed are task fulﬁlment, grammatical range and accuracy, vocabulary range and accuracy, coherence and
+cohesion.
+
+
+6           Response is informative and interesting. Clever use of the input with mostly original text.
+            Response shows the following features:
+C2
+              Range of complex grammar constructions used accurately. Minor errors occur.
+              Range of vocabulary used accurately. No awkward or inappropriate lexical choices.
+              Minor errors in punctuation and spelling occur.
+              Range of cohesive devices used to clearly indicate the links between ideas.
+
+5           Response is not interesting. Correct use of the input with mostly original text.
+            Response shows the following features:
+C1
+              Range of complex grammar constructions used accurately. Minor errors occur.
+              Range of vocabulary used. Some awkward or slightly inappropriate lexical choices.
+              Minor errors in punctuation and spelling occur.
+              Range of cohesive devices used to clearly indicate the links between ideas.
+
+4           Response is not interesting. Correct use of the input with mostly original text.
+            Response shows the following features:
+B2.2
+              Some complex grammar constructions used accurately. Errors do not impede understanding.
+              Sufﬁcient range of vocabulary to discuss the topic required by the task. Inappropriate
+               lexical choices do not impede understanding.
+              Punctuation and spelling errors do not impede understanding.
+              Limited number of cohesive devices are used to indicate the links between ideas.
+
+3           Response is not interesting or informative. Key parts of the input are missing with mostly original
+            text.
+B2.1
+            Response shows the following features:
+               Some complex grammar constructions used accurately. Errors do not impede understanding.
+               Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+                lexical choices do not impede understanding.
+               Punctuation and spelling errors do not impede understanding.
+               Limited number of cohesive devices are used to indicate the links between ideas.
+
+2           Response is not interesting or informative. Key parts of the input are missing with mostly original
+            text.
+B1.2
+            Response shows the following features:
+               Control of simple grammatical structures. Errors occur when attempting complex structures.
+               Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+                understanding in parts of the text.
+               Punctuation and spelling errors do not impede understanding.
+               Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+1           Response is not interesting or informative. Input is not used correctly or text is mostly copied from
+            the input.
+B1.1
+            Response shows the following features:
+               Control of simple grammatical structures. Errors occur when attempting complex structures.
+               Limitations in vocabulary make it difﬁcult to deal fully with the task. Errors impede
+                understanding in most of the text.
+               Punctuation and spelling errors do not impede understanding.
+               Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+
+0           Performance below B1, or no meaningful language or the responses are completely off-topic
+A1/A2       (e.g. memorised script, guessing).
+                                                                                                  Aptis Candidate Guide       43
+
+
+
+
+Aptis Advanced speaking test
+The duration of the Aptis Advanced speaking test is 10 minutes.
+
+
+Test design       Description                                            Preparation
+Part 1             In this part you are asked to compare two             To prepare for this part, it is a good idea to
+                   pictures and then answer two questions related        practise comparing two different things (e.g. two
+Describe,          to the topic. The three questions increase in         cities or two houses). Focus on describing their
+compare and        complexity (from description to speculation). You     advantages and disadvantages.
+provide            are expected to talk for 45 seconds for each
+reasons and        question. This is the same as the Aptis speaking      With speculation, it is important to make sure you
+explanations       test part 3.                                          are using the correct grammatical structures.
+
+Part 2             In the part you will be asked three questions about   A common error is to go off-topic. Focus on
+                   an abstract topic. You are given one minute to        answering each question in a clear, smoothly
+Discuss            prepare an answer and can take notes. You are         ﬂowing, well-structured speech.
+personal           expected to talk for two minutes. This is the same
+                   as the Aptis speaking test part 4 but there is no     To prepare for this part it is a good idea to
+experience and
+                   picture.                                              practise speaking for two minutes on an abstract
+opinion in
+                                                                         topic (e.g. How do you feel about ___?).
+relation to an
+abstract topic                                                           Make sure you practise using your planning time
+                                                                         wisely to structure what you are going to say.
+
+Part 3             In this part you need to speak on a topic for one     Structure your presentation and make sure you
+                   and a half minutes. You will have one minute to       provide both sides of the argument. Try and
+Presentation       prepare. After your presentation, you will be asked   speak like you are speaking to an audience or a
+                   an additional question about the topic and asked      group so make it interesting.
+                   to speak for 45 seconds. There is no preparation
+                   time for this additional question.
+
+
+
+Aptis Advanced speaking part 1 is the same as the Aptis speaking test part 3. Aptis Advanced speaking part 2 is the same
+as the Aptis speaking test part 4.
+                                                                                                 Aptis Candidate Guide   44
+
+
+
+
+Aptis Advanced speaking part 3
+The areas assessed are task fulﬁlment / topic relevance, grammatical range and accuracy, vocabulary range and
+accuracy, pronunciation, ﬂuency and cohesion.
+
+6            Presentation is convincingly presented and well-structured, highlighting and expanding on
+C2            points from each section.
+             The follow-up question response is well-structured. There is a clear and coherent response.
+             Uses a range of complex grammar constructions accurately. Some very minor errors
+              occur but do not impede understanding.
+             Uses a range of vocabulary to discuss the topic required by the task. No awkward usage
+              or inappropriate lexical choices.
+             Pronunciation is clearly intelligible.
+             Backtracking and reformulations do not interrupt the ﬂow of speech.
+             A range of cohesive devices are used to clearly indicate the links between ideas.
+5            Presentation is clear, highlighting points from each section. Gives reasons in support of or
+C1            against particular points of view.
+             The follow-up question response is coherent.
+             Uses a range of complex grammar constructions accurately. Some minor errors occur but
+              do not impede understanding.
+             Uses a range of vocabulary to discuss the topic in the poster in his/her own words. Some
+              awkward usage or slightly inappropriate lexical choices.
+             Pronunciation is clearly intelligible.
+             Backtracking and reformulations do not fully interrupt the ﬂow of speech.
+             A range of cohesive devices are used to clearly indicate the links between ideas.
+4          Response addresses points from each section, the follow-up question is on-topic and the
+B2.2       response shows the features associated with B2 spoken production.
+3          Response does not address points from both sections, the follow-up question is on-topic and the
+B2.1       response shows the features associated with B2 spoken production.
+           Features associated with B2 spoken production:
+             Some complex grammar constructions used accurately. Errors do not lead to misunderstanding.
+             Sufﬁcient range of vocabulary to discuss the topics required by the task. Inappropriate
+              lexical choices do not lead to misunderstanding.
+             Pronunciation is intelligible. Mispronunciations do not put a strain on the listener or lead to
+              misunderstanding.
+             Some pausing while searching for vocabulary but this does not put a strain on the listener.
+             A limited number of cohesive devices are used to indicate the links between ideas.
+2          The candidate is unable to construct a coherent and sustained response, is heavily dependent on
+B1.2       the input prompts and is not able to address the follow-up question. The response shows the
+           features associated with B1 spoken production.
+1          The candidate is unable to construct a coherent and sustained response, reads directly from the
+B1.1       prompts and is not able to address the follow-up question. The response shows the features
+           associated with B1 spoken production.
+           Features associated with B1 spoken production:
+             Control of simple grammatical structures. Errors occur when attempting complex structures.
+             Limitations in vocabulary make it difﬁcult to deal fully with the task.
+             Pronunciation is intelligible but occasional mispronunciations put an occasional strain on
+              the listener.
+             Noticeable pausing, false starts, reformulations and repetition.
+             Uses only simple cohesive devices. Links between ideas are not always clearly indicated.
+0          Performance not sufﬁcient for B1, or no meaningful language, or the responses are completely
+A1/A2      off-topic (memorised or guessing).
+                                                                            Aptis Candidate Guide   45
+
+
+
+
+How to take the online test
+When you start every Aptis test, the introductory screen looks like this:
+
+
+
+
+On screen, the questions will appear like this:
+                                                                                              Aptis Candidate Guide    46
+
+
+
+
+Sound recording
+Make sure your test is taken in a quiet room.
+
+The following screen will appear. This allows you to check the sound recording system on you computer.
+
+
+
+
+Once you click Start Check, the screen below appears. You will now need to record a sample of speech.
+
+
+
+
+When you have ﬁnished your recording the following screen appears. You can replay the recorded sound. If you can hear
+it properly click on Yes (start my test), if not click on No (try again).
+
+
+
+
+During the microphone check, make sure you say a whole sentence and not just one or two words. Assessing the quality
+of the microphone needs more than a few words.
+                                                                                                 Aptis Candidate Guide      47
+
+
+
+
+Accommodations and special needs
+The British Council cares about candidates with special needs. Aptis has experience in delivering tests to candidates who
+have special needs so that English language ability can be assessed objectively, regardless of any disability.
+
+The following accommodations are currently available:
+    different delivery modes (e.g. pen and paper tests).
+    braille versions of the core and reading components.
+    different colour settings on the screen.
+    extra time.
+
+If you require a modiﬁed version of a test (e.g. braille or pen and paper tests) or modiﬁcations of the testing environment
+(e.g. extra time), or any other accommodation, contact us at least four weeks before your test so that we can discuss your
+needs and make suitable arrangements.
+                                                                                                 Aptis Candidate Guide   48
+
+
+
+
+Final checklist
+We hope that these notes have helped you prepare for your Aptis or Aptis Advanced test. Here is a checklist to make sure
+you are fully prepared:
+
+    Review the different grammar parts:
+     http://englishagenda.britishcouncil.org/sites/ec/ﬁles/books-british-council-eaquals-core-
+     inventory.pdf.
+    Visit the LearnEnglish website to prepare for the grammar and vocabulary test:
+     http://learnenglish.britishcouncil.org/en.
+    Visit the English Club to prepare for the vocabulary test:
+     www.englishclub.com.
+    Review the section 'How to take an online test' and pay particular attention to the section on the
+     sound recording.
+    Do a practice test so that you are familiar with the test structure and software:
+     www.britishcouncil.org/exams/aptis.
+    Practise your English skills at every opportunity. Listen to English radio (e.g. BBC World Service),
+     watch English-language television and ﬁlms and read the graded readers (e.g. Cambridge, Penguin,
+     Macmillan and Headway).
+    Read the tips in this booklet on how to prepare for each test.
+For more information, please visit www.britishcouncil.org/aptis
+
+© British Council 2017
+The British Council creates international opportunities for the people of the UK and other countries and builds trust between them worldwide.
+A registered charity: 209131 (England and Wales) SC037733 (Scotland).
+

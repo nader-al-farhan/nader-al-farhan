@@ -1,0 +1,17 @@
+URL: https://www.pmu.edu.sa/admission/admissions_queries
+FINAL: https://www.pmu.edu.sa/admission/admissions_queries
+TITLE: Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University
+CAPTURED: 2026-10-10T03:25:26.192Z
+
+Admission Query
+ Welcome to PMU, the Admissions Office is glad to answer your inquiries. Please fill the below request:
+:مرحباً بكم بجامعة الأمير محمد بن فهد، مكتب القبول يسعد بالإجابة على إستفساراتكم. الرجاء ملء الطلب أدناه
+ Name [الأسم]:
+ *
+ Email [البريد الإلكتروني]:*
+ Mobile number [رقم الجوال]:*
+ Query [الإستفسار]:*
+ Preferred way to communicate with you [الطريقة المفضلة للتواصل معكم]:*
+ Email [البريد الإللكتروني]Mobile [جوال]
+ Verification Code[رمز التحقق]:*
+ Enter Verifaction Code[أدخل رمز التحقق]:*
