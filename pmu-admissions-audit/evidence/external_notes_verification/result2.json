@@ -1,0 +1,389 @@
+[
+ {
+  "id": "C052",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"Have the certificate stamped by the Saudi Embassy in their country\" vs P24.txt: \"attested, in advance, by the Saudi Consulate and other authorized organizations\"",
+  "reason": "Both wordings exist; P08 names the Saudi Embassy only while P24 names the Saudi Consulate plus other authorized bodies (P09 adds 'Saudi Cultural Mission and Saudi Embassy').",
+  "en_comment": "The attestation requirement for international secondary-school certificates is worded differently across pages (Saudi Embassy on /apply, Saudi Consulate and other authorized organizations on the Undergraduate Admissions page, Saudi Cultural Mission and Saudi Embassy on the International Students page).",
+  "en_fix": "Use one standard sentence for certificate attestation on all pages, e.g. 'attested by the Saudi Embassy/Consulate (Cultural Mission) in the country of study, plus an MoE equivalency letter'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C053",
+  "verdict": "CONFIRMED",
+  "evidence": "browser/result2_mobile_probes.json (P10, P20, P21 hrefs): \"https://www.pmu.edu.sa/Admission/Tuition_Fees_RO.aspx\"; crawl/admission_page_dom.json (P00 graduate menu): \"Tuition & Fees | .../Admission/Post_Graduate_Fees_TF_RO.aspx\"",
+  "reason": "The graduate sidebar 'Tuition & Fees' on graduate pages targets the general Tuition_Fees_RO page, whereas the same label in P00's graduate menu targets Post_Graduate_Fees_TF_RO.",
+  "en_comment": "In the graduate-programme sidebar, the 'Tuition & Fees' link opens the general tuition page rather than the Post Graduate Fees page, while the same label in the Admissions Office graduate menu links directly to Post Graduate Fees.",
+  "en_fix": "Point the graduate sidebar 'Tuition & Fees' link to /admission/post_graduate_fees_tf_ro.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C054",
+  "verdict": "CONFIRMED",
+  "evidence": "P15.txt: \"Graduate Programs > MSHD Admissions\"; P10 href \"Admissions_Requirements_MSEHD_GDP.aspx\"; P23 source: \"Application Form for MSEHD\"; P11 title: \"Application Form for MSDH\"; P22: \"Master of Science in Education and Human Development\"",
+  "reason": "All the cited variants (MSHD, MSEHD, MSDH, 'Education and Human Development') are present across the pages.",
+  "en_comment": "The Human Development master's programme appears under several names and abbreviations (MSHD, MSEHD, MSDH, 'Master of Science in Education and Human Development'), across menu labels, URLs, page titles and the fee table.",
+  "en_fix": "Adopt one official name and abbreviation and apply it to all labels, page titles, contact links and the fee table.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C055",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt (also P12, P14, P16, P17, P18, P19): \"Candidates will be personally interviewed by committee of the program administrators and faculty\"",
+  "reason": "The sentence with the missing article appears on 7 graduate requirement pages (it is page body text, not a menu item); P13 uses the correct 'by a committee of program administrators'.",
+  "en_comment": "The interview sentence 'personally interviewed by committee of the program administrators and faculty' is missing the article 'a' on seven graduate requirement pages.",
+  "en_fix": "Change to 'Candidates will be interviewed by a committee of program administrators and faculty.'",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C056",
+  "verdict": "PARTIAL",
+  "evidence": "P05.txt: \"Graduate Admission Calendar ... Last day to apply for graduate studies | 2026-07-16\"; no deadline/date text in P10–P21",
+  "reason": "The graduate pages indeed show no deadlines, but the claim that the only calendar (P05) is undergraduate-only is wrong: P05 publishes a Fall 2026-2027 Graduate Admission Calendar.",
+  "en_comment": "The graduate programme pages (Graduate Admissions and each programme's requirements page) do not show or link to application deadlines, although a Graduate Admission Calendar is published on the Admissions Calendar page.",
+  "en_fix": "Add a link to the Graduate Admission Calendar (or the key deadlines) on the Graduate Admissions page and each programme requirements page.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C057",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_application_form_mba_gdp.txt (also EMBA, PhD-BA, MSHD, MSME, MIBL forms and application_form_gr): \"Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents\"",
+  "reason": "No fee appears on P10–P23 themselves, but the graduate application fee (SAR 950 incl. VAT) is published on the graduate application-form pages linked from P10, so no decision is needed—only cross-linking/inclusion.",
+  "en_comment": "The graduate application fee (SAR 950 incl. VAT) is stated only on the graduate application-form pages and is not shown on the Graduate Admissions page, the programme requirements pages or the Post Graduate Fees page.",
+  "en_fix": "Add 'Application fee: SAR 950 (incl. VAT), non-refundable' to the Post Graduate Fees page and the graduate requirements pages.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C061",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_international_students.txt: \"Non-Engineering Majors: Secondary School 60% SAT I 40% Computer Science & Engineering Majors:\"; P31.txt: \"These majors are Architecture, Computer Science, ... Civil Engineering\"",
+  "reason": "P09 uses labels that do not name Architecture or AI, while P31/P37 place them in the specific-requirements group; P09 does not explicitly assign Architecture to 60/40, so the misclassification is implied by ambiguous labels rather than stated.",
+  "en_comment": "The International Students page groups majors as 'Non-Engineering' versus 'Computer Science & Engineering' without listing them, whereas other pages place Architecture (and Artificial Intelligence) in the specific-requirements group, so international applicants could apply the wrong weighting to these majors.",
+  "en_fix": "Rename the group to match P31/P37 (AI, Computer Science, Architecture and Engineering majors) and list the majors in each group.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C062",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Acceptable SAT I\"; P37.txt: \"Students with international high school certificate might submit SAT with minimum score of 1200\"",
+  "reason": "P09 gives no SAT threshold while P37 (and /apply) state 1200 for international-certificate holders.",
+  "en_comment": "The International Students page lists 'Acceptable SAT I' without a minimum score, while the SAT page states a minimum of 1200 for applicants with international high-school certificates.",
+  "en_fix": "State the SAT minimum (1200, if confirmed) on the International Students page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C063",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_international_students.txt: \"Acceptable secondary school GPA *80% or equivalent\"; P31.txt: \"HS GPA out of 100 | ≥ 85 | 40% / Qudrat | ≥ 65 | 30% / Tahseely | ≥ 65 | 30%\"",
+  "reason": "The 85% secondary-school minimum for specific majors is indeed missing on P09, but the Qudrat/Tahseely minimums are Saudi tests that international applicants replace with SAT, so they do not transfer directly.",
+  "en_comment": "The International Students page does not state the higher secondary-school minimum (85%) or the SAT alternative that applies to Computer Science, Engineering, Architecture and AI majors.",
+  "en_fix": "Add the major-specific minimums for international applicants (e.g. secondary school ≥85% and SAT ≥1200) or link to the CS & Engineering requirements page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C064",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"minimum scores of 6.0 overall and 5.5 in writing or equivalent TOEFL iBT\"; pages_v5/apply_raw_text.txt: \"TOEFL iBT: Overall 83, Writing 19\"",
+  "reason": "P09 never gives a TOEFL iBT score while /apply states 83 overall / 19 writing.",
+  "en_comment": "The International Students page refers to an 'equivalent TOEFL iBT' score without stating it, while the application page specifies TOEFL iBT 83 overall and 19 in writing.",
+  "en_fix": "Replace 'equivalent TOEFL iBT' with 'TOEFL iBT 83 overall, 19 in writing (Home Edition not accepted)'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C065",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Graduate Studies MBA MSHD MSME\"; P10.txt lists 10 programmes plus EMGMS on P00",
+  "reason": "Only MBA, MSHD and MSME are linked for international students, out of 11 graduate programmes listed on P10/P00.",
+  "en_comment": "The Graduate Studies section of the International Students page links only to MBA, MSHD and MSME, omitting the other eight graduate programmes (PhD-BA, EMBA, PhD ME, MSEE, MSCE, MSID, EMGMS, MIBL).",
+  "en_fix": "Add the missing programmes or link to the Graduate Admissions page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C066",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Transportation\\n Transportation\\n Campus Life\\n Campus Life\"",
+  "reason": "The Transportation tab contains only its heading, with no body text.",
+  "en_comment": "The 'Transportation' section of the International Students page is empty; it shows only its heading.",
+  "en_fix": "Add transportation information or remove the section.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C067",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt contains no email/phone; only CTA 'Contact' -> https://www.pmu.edu.sa/About/Contact_Us.aspx (browser/result2_mobile_probes.json)",
+  "reason": "No email, phone or location of the International Admissions Office appears on the page; only the generic footer contact link exists.",
+  "en_comment": "The International Students page gives no email address, phone number or location for the International Admissions Office.",
+  "en_fix": "Add the office's email, phone and location (or a link to its contact page).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C068",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Copy of National ID\\n Copy of passport\"",
+  "reason": "The item appears in all three lists on a page for applicants without Saudi residence, and does not say which country's ID is meant (P31 says 'Copy of Saudi ID').",
+  "en_comment": "The document list for international applicants without Saudi residence asks for a 'Copy of National ID' without saying whether a home-country ID is meant.",
+  "en_fix": "Change to 'Copy of national ID from home country (if applicable)'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C069",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"The total GPA is 2.0 out of 4.0 from the previous institution\"",
+  "reason": "The sentence states a value rather than a minimum.",
+  "en_comment": "The transfer criterion 'The total GPA is 2.0 out of 4.0' reads as a fixed value rather than a minimum requirement.",
+  "en_fix": "Change to 'Minimum cumulative GPA of 2.0 out of 4.0 at the previous institution'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C070",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"In order to be consider as a transfer candidate\"",
+  "reason": "Grammatical error present; the Visitor section correctly uses 'considered'.",
+  "en_comment": "The Transfer Students section reads 'In order to be consider as a transfer candidate' (should be 'considered').",
+  "en_fix": "Change to 'To be considered as a transfer candidate'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C071",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"acceptable scores (if available) or For direct entry, submit original IELTS (Academic version) certificate\"",
+  "reason": "The run-on item with mid-sentence capital 'For' appears in both the Transfer and Visitor lists.",
+  "en_comment": "The English-proficiency item in the Transfer and Visitor document lists is a single run-on sentence with a stray capital 'For', making the two IELTS/TOEFL options unclear.",
+  "en_fix": "Split into two items: (a) without a test score, sit the placement test; (b) for direct entry, IELTS 6.0 overall / 5.5 writing or TOEFL iBT 83 / 19.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C072",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Acceptable SAT I\" ... \"Copy of SAT 1 - if available\"",
+  "reason": "Both 'SAT I' and 'SAT 1' are used on the same page.",
+  "en_comment": "The page names the same test as both 'SAT I' and 'SAT 1'.",
+  "en_fix": "Use one form consistently (e.g. 'SAT').",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C073",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"From choosing a program to applying to accept Admission Offer to issuing student visa to housing to start the study\"",
+  "reason": "The introductory sentence is grammatically garbled.",
+  "en_comment": "The introductory sentence of the International Admissions Office section is grammatically garbled.",
+  "en_fix": "Rewrite as a short list: choosing a programme, applying, accepting the offer, student visa, housing and starting studies.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C074",
+  "verdict": "PARTIAL",
+  "evidence": "P09.txt: \"International Students' Office > International Students without Saudi residence\" then heading \"International Students without Saudi Residence\"",
+  "reason": "The capitalisation inconsistency (residence/Residence) is real, but the captured breadcrumb has a space before '>', so the missing-space claim is not supported.",
+  "en_comment": "The breadcrumb reads 'Saudi residence' while the page heading reads 'Saudi Residence'.",
+  "en_fix": "Use the same capitalisation ('Saudi Residence') in the breadcrumb and heading.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C075",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"various academic support elements will be located in the residence halls for the convenience of students\"",
+  "reason": "The Housing text uses future tense for existing facilities; whether it is launch-era text is inference, but the wording is outdated.",
+  "en_comment": "The Housing section describes academic support in residence halls in the future tense ('will be located'), which reads as outdated launch text.",
+  "en_fix": "Rewrite in the present tense and update with current housing details.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C076",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_international_students.txt: \"Curriculum (TIEC)\"",
+  "reason": "The unexplained abbreviation is confirmed; the exact target of this link cannot be isolated in the evidence (the page links to /academics/overview but link-text mapping is not captured).",
+  "en_comment": "The 'Why PMU' section has a link labelled 'Curriculum (TIEC)' with an unexplained abbreviation.",
+  "en_fix": "Spell out TIEC or relabel the link to describe its destination (e.g. 'Academics overview').",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C077",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_international_students.txt: \"Life @ pmu\"",
+  "reason": "The lowercase 'pmu' is confirmed; the duplicate-link claim cannot be verified because link targets are not mapped to labels in the evidence.",
+  "en_comment": "The 'Why PMU' section shows the link label 'Life @ pmu' with the university abbreviation in lowercase.",
+  "en_fix": "Change to 'Life @ PMU' and remove it if it duplicates another link in the same section.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C078",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_international_students.txt: \"Issuing IQAMA\" ... \"All registration’s functions\"",
+  "reason": "Both the all-caps 'IQAMA' and the wrong possessive appear.",
+  "en_comment": "The International Students Services list uses 'Issuing IQAMA' (all caps) and 'All registration’s functions' (incorrect apostrophe).",
+  "en_fix": "Change to 'Issuing Iqama' and 'All registration functions'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C079",
+  "verdict": "CONFIRMED",
+  "evidence": "P10.txt lists 10 programmes ending \"Admissions to the Master of Arts (MA) in International Business Law Program\" (no EMGMS); admission_page_dom.json: \"Admissions to the EMGMS Program\"; P22.txt: \"Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33) | SAR 80,000\"",
+  "reason": "EMGMS is missing from P10 though linked from P00, and the MEISE programme has fees on P22 but no admission page in the evidence.",
+  "en_comment": "The Graduate Admissions page omits the EMGMS programme (which has its own requirements page linked from the Admissions Office page), and the Master of Engineering in Innovation, Sustainability and Entrepreneurship appears in the fee table but has no admissions page.",
+  "en_fix": "Add EMGMS (and MEISE, if offered) to the Graduate Admissions page, or remove discontinued programmes from the fee table.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C080",
+  "verdict": "CONFIRMED",
+  "evidence": "browser/result2_mobile_probes.json (P10 hrefs, in order): \"...Admissions_Requirements_PHDBA_GDP.aspx\", \"https://www.pmu.edu.sa/Admission/application_form_gr.aspx\", \"...Application_Form_DEME_GDP.aspx\", \"...application_form_msce_gdp.aspx\"; P10.txt: unlabeled \"Application Form\" for PhD ME, MSCE, MSEE, MSID",
+  "reason": "P10 links a generic application_form_gr page for the four unnamed 'Application Form' items while other programmes have programme-specific forms; the generic page has no programme selection (it lists steps only).",
+  "en_comment": "On the Graduate Admissions page, the 'Application Form' links for the PhD in Mechanical Engineering, MSCE, MSEE and MSID go to one generic graduate application page, while other programmes have their own application pages.",
+  "en_fix": "Give these programmes their own application pages or make the generic page name them and link to the portal option for each.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C081",
+  "verdict": "CONFIRMED",
+  "evidence": "P10.txt: \"Admissions to the Doctorate in Mechanical Engineering Program\"; P11.txt: \"PhD in Mechanical Engineering\"; P22.txt: \"Doctoral program in Mechanical Engineering (72)\"",
+  "reason": "Three different names are used for the same programme.",
+  "en_comment": "The mechanical-engineering doctorate is named 'Doctorate in Mechanical Engineering', 'PhD in Mechanical Engineering' and 'Doctoral program in Mechanical Engineering' on different pages.",
+  "en_fix": "Use one official name (e.g. 'PhD in Mechanical Engineering') everywhere.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C082",
+  "verdict": "CONFIRMED",
+  "evidence": "P10.txt: \"Admission to the Master of Human Development\"; P15.txt: \"Admissions to the Master of Science in Human Development (MSHD) program\"",
+  "reason": "P10 drops 'of Science' from the programme name.",
+  "en_comment": "The Graduate Admissions page calls the programme 'Master of Human Development', while its requirements page calls it 'Master of Science in Human Development'.",
+  "en_fix": "Use the full official programme name.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C083",
+  "verdict": "CONFIRMED",
+  "evidence": "P10.txt: \"Admissions to the PhD in Business Administration\" / \"Admission to the Executive MBA Program\" / \"Admission to the MBA\"",
+  "reason": "Headings mix 'Admission'/'Admissions' and inconsistently include 'Program'.",
+  "en_comment": "Programme headings on the Graduate Admissions page alternate between 'Admission' and 'Admissions' and inconsistently include the word 'Program'.",
+  "en_fix": "Standardise headings, e.g. 'Admissions to the [Programme Name] Program'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C084",
+  "verdict": "CONFIRMED",
+  "evidence": "P10 href: \"Admission/admissions_Requirements_MILBL_GDP.aspx\"; admission_page_dom.json: \"Admissions to the MIBL | .../Admissions_Requirements_MIlBL_GDP.aspx\"; P21.txt: \"MIBL ADMISSSIONS REQUIREMENTS\"",
+  "reason": "The abbreviation appears as MILBL, MIlBL and MIBL.",
+  "en_comment": "The International Business Law master's is abbreviated as MIBL in labels but MILBL/MIlBL in its page URLs.",
+  "en_fix": "Standardise the abbreviation (labels and, where feasible, URLs with redirects).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C085",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_application_form_deme_gdp.txt: \"TITLE: Application Form for MSDH :: Graduate Degree Programs\"; P11.txt heading: \"PHD IN MECHANICAL ENGINEERING ADMISSSIONS REQUIREMENTS\"",
+  "reason": "The browser title names a different programme (misspelt MSDH) and page type than the PhD ME requirements content.",
+  "en_comment": "The PhD in Mechanical Engineering requirements page has the browser title 'Application Form for MSDH', which names a different (and misspelt) programme and page type.",
+  "en_fix": "Set the page title to 'PhD in Mechanical Engineering Admissions Requirements :: Graduate Programs :: Admissions Office'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C086",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: \"PhD in Mechanical Engineering ADMISSSIONS REQUIREMENTS\"",
+  "reason": "The triple-s misspelling appears in the breadcrumb and heading (also on P17–P19, P21).",
+  "en_comment": "The breadcrumb and heading misspell 'ADMISSSIONS' (three s's).",
+  "en_fix": "Change to 'Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C087",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt has no credit hours/duration/apply link; P22.txt: \"Doctoral program in Mechanical Engineering (72) | SAR 150,000\"",
+  "reason": "P11 lacks credit hours, duration, study mode and an apply link (sidebar offers only EMBA/MBA/MSHD/MSME apply links); P22 states 72 credit hours explicitly.",
+  "en_comment": "The PhD in Mechanical Engineering requirements page gives no credit hours, duration, study mode or application link, although the fee page lists the programme at 72 credit hours.",
+  "en_fix": "Add credit hours (72), duration, study mode and an 'Apply' link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C088",
+  "verdict": "PARTIAL",
+  "evidence": "P11.txt: \"A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)\"; P13.txt: \"A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good)\"",
+  "reason": "The thresholds differ by programme (PhD vs master's), which is legitimate; the real issue is only that the same 'Very Good' label is attached to two different GPA values.",
+  "en_comment": "The descriptor '(Very Good)' is attached to a 3.00/4.00 minimum on the PhD in Mechanical Engineering page and to a 2.50/4.00 minimum on several master's pages, so the grade label is defined inconsistently.",
+  "en_fix": "Remove the '(Very Good)' descriptor or define the grade bands once.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C089",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: \"widen the horizons of engineer professionals. The PhD program provides employees with the skills\"",
+  "reason": "Both phrases are present.",
+  "en_comment": "The PhD ME introduction uses 'engineer professionals' (should be 'engineering professionals') and assumes applicants are 'employees'.",
+  "en_fix": "Edit to 'engineering professionals' and 'provides participants with the skills'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C090",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: \"Work experience: Successful candidates are preferred to have industrial experience.\"",
+  "reason": "The awkward and ambiguous sentence is present.",
+  "en_comment": "The work-experience item 'Successful candidates are preferred to have industrial experience' is awkward and does not say whether experience is required.",
+  "en_fix": "Change to 'Industrial experience is preferred but not required' (or state the requirement).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C092",
+  "verdict": "CONFIRMED",
+  "evidence": "P12.txt contains no credit hours/duration/apply link; P22.txt: \"Doctor of Philosophy (Ph.D.) In Business Administration (72) | SAR 150,000\"",
+  "reason": "P12 lacks these details and its sidebar has no PhD-BA apply link, while P22 shows 72 credit hours.",
+  "en_comment": "The PhD in Business Administration requirements page gives no credit hours, duration, study mode or application link, although the fee page lists 72 credit hours.",
+  "en_fix": "Add credit hours (72), duration, study mode and an 'Apply for PhD-BA' link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C093",
+  "verdict": "CONFIRMED",
+  "evidence": "P12.txt: \"Doctor of Philosophy (Ph.D.) in Business Administration program is to develop scholars\"",
+  "reason": "The opening sentence lacks an article and a verb such as 'aims'.",
+  "en_comment": "The PhD-BA introduction 'Doctor of Philosophy (Ph.D.) in Business Administration program is to develop scholars' is ungrammatical.",
+  "en_fix": "Change to 'The PhD in Business Administration program aims to develop scholars…'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C094",
+  "verdict": "PARTIAL",
+  "evidence": "P12.txt: \"The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide.\"",
+  "reason": "The sentence is present and internally conflates a programme with a business school; the AACSB scope and the 'top 6%' figure are external facts not verifiable from the evidence.",
+  "en_comment": "The PhD-BA page states that 'the Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide', describing a programme as if it were an accredited school.",
+  "en_fix": "Reword to 'PMU's College of Business is AACSB-accredited' and cite or remove the 'top 6%' figure.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C095",
+  "verdict": "CONFIRMED",
+  "evidence": "P12.txt: \"(scale is 4.00 = \\\"A”)\"",
+  "reason": "Mismatched straight/curly quotation marks are present.",
+  "en_comment": "The GPA scale note '(scale is 4.00 = \"A”)' uses mismatched quotation marks.",
+  "en_fix": "Use matching quotation marks.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C097",
+  "verdict": "PARTIAL",
+  "evidence": "P13.txt: \"A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good)\"; P11.txt: \"3.00 out of 4.00 or equivalent (Very Good)\"",
+  "reason": "Different programmes legitimately have different thresholds; only the shared 'Very Good' label is inconsistent (same issue as C088).",
+  "en_comment": "The EMBA page labels a 2.50/4.00 minimum as '(Very Good)', the same descriptor the PhD ME page uses for 3.00/4.00.",
+  "en_fix": "Remove the '(Very Good)' descriptor or define it consistently (same fix as P11).",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C098",
+  "verdict": "PARTIAL",
+  "evidence": "P13.txt content has no apply link or dates; pages/admission_admissions_requirements_emba_gdp.txt sidebar: \"Apply for EMBA\"; P05.txt: \"Graduate Admission Calendar\"",
+  "reason": "The content area indeed lacks an apply button and dates, but the sidebar includes 'Apply for EMBA' and graduate deadlines exist on P05.",
+  "en_comment": "The EMBA requirements page has no application button or cohort/start-date information in its main content (an 'Apply for EMBA' link exists only in the sidebar and deadlines only on the Admissions Calendar page).",
+  "en_fix": "Add an 'Apply for EMBA' button and the cohort start term/deadline (or a link to the Graduate Admission Calendar) in the page body.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C099",
+  "verdict": "CONFIRMED",
+  "evidence": "P13.txt: \"Three reference letters from supervisors and others in superior positions within the employing organization\"",
+  "reason": "The wording is present and verbose (stylistic).",
+  "en_comment": "The EMBA reference-letter requirement is worded verbosely ('supervisors and others in superior positions').",
+  "en_fix": "Change to 'Three reference letters from supervisors or senior colleagues'.",
+  "severity_check": "OK"
+ }
+]

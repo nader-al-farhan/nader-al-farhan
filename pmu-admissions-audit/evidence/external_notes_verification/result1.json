@@ -1,0 +1,389 @@
+[
+ {
+  "id": "C001",
+  "verdict": "CONFIRMED",
+  "evidence": "browser/result2_mobile_probes.json (P04/P05 sidebar): {\"t\": \"Contact Info\", \"h\": \".../Admission/Admission_Contact_GDP.aspx\"}; rendered/pages/P23.txt: \"CONTACT INFO | Graduate Study Admission Coordinator | Email: graduateadm@pmu.edu.sa\"",
+  "reason": "The Future Students sidebar 'Contact Info' link resolves to the graduate contact page, which lists only the Graduate Study Admission Coordinator.",
+  "en_comment": "The 'Contact Info' link in the Future Students menu (Overview, Degrees & Programs, Admissions Calendar pages) leads to a graduate-only contact page, so undergraduate applicants are given no undergraduate admissions contact.",
+  "en_fix": "Point the link to a general/undergraduate admissions contact (email and phone), or rename it 'Graduate Admissions Contact'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C002",
+  "verdict": "PARTIAL",
+  "evidence": "admission_page_dom.json (P00): 'Contact Us' -> https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name; excluded.json (P02): \"pmustaffs/departmentstafflist/4\", \"t\": \"Contact Us\"",
+  "reason": "The link targets the Department 4 staff list as stated, but the staff list content (absence of admissions contacts) and the http:// protocol cannot be checked in local evidence (P06 text not stored; URLs normalised).",
+  "en_comment": "The 'Contact Us' link on the Admissions Office and Study at PMU pages points to a generic departmental staff list rather than to an admissions contact page.",
+  "en_fix": "Link 'Contact Us' to a dedicated admissions contact page with email, phone and office hours, served over https.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C003",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_future_students_ro.txt: \" Admission Calendar\" (sidebar); rendered/pages/P00.txt: \"Admissions Calendar\"; P05.txt: \"ADMISSIONS CALENDARS\"",
+  "reason": "The Future Students sidebar uses 'Admission Calendar' while the main menu and page heading use 'Admissions Calendar'.",
+  "en_comment": "The same page is labelled 'Admission Calendar' in the Future Students menu but 'Admissions Calendar' in the main menu and page title.",
+  "en_fix": "Use 'Admissions Calendar' everywhere.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C004",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_future_students_ro.txt: \"Application Form for MSEHD\"; P00.txt: \"Admissions to the MSHD Program\"; pages/admission_application_form_deme_gdp.txt: \"TITLE: Application Form for MSDH ::\"",
+  "reason": "Three abbreviations (MSEHD, MSHD, MSDH) are used for the same programme; MSDH even appears as the browser title of the PhD in Mechanical Engineering page (P11).",
+  "en_comment": "The Human Development master's programme appears under three different abbreviations (MSEHD, MSHD, MSDH), and the PhD in Mechanical Engineering page carries the browser title 'Application Form for MSDH'.",
+  "en_fix": "Adopt one official abbreviation (the programme name 'Master of Science in Human Development (MSHD)' suggests MSHD) and correct the P11 page title.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C005",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P00.txt: \"ADMISSIONS OFFICE | Future Students | Overview | Degrees & Programs | ... Scholastic Aptitude Test (SAT) | STAY CONNECTED\"",
+  "reason": "The Admissions Office main page consists only of a heading and link lists with no introduction, current-cycle dates, status or admissions contact details.",
+  "en_comment": "The Admissions Office landing page contains only navigation links, with no introductory text, current application deadlines, application status or admissions contact details.",
+  "en_fix": "Add a short introduction with current-cycle key dates, a prominent Apply button and an admissions contact.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C007",
+  "verdict": "CONFIRMED",
+  "evidence": "admission_page_dom.json: 'Admissions to the MIBL' -> ../Admission/Admissions_Requirements_MIlBL_GDP.aspx; P21.txt: \"Admissions to the Master of Arts (MA) in International Business Law Program\"",
+  "reason": "The link text lacks 'Program' unlike sibling items, the URL contains 'MIlBL', and the target page names the programme MA in International Business Law.",
+  "en_comment": "The menu item 'Admissions to the MIBL' omits 'Program' (unlike all sibling items) and its URL contains the misspelling 'MIlBL'.",
+  "en_fix": "Rename to 'Admissions to the MIBL Program' and correct the URL slug (with a redirect from the old one).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C008",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P00.txt: \"Admission to the College of Medicine\" vs \"Admissions to the Preparatory Program\", \"Admissions from Other Universities\"",
+  "reason": "Only the Medicine item uses singular 'Admission'.",
+  "en_comment": "The menu item 'Admission to the College of Medicine' uses 'Admission' while all sibling items use 'Admissions'.",
+  "en_fix": "Change to 'Admissions to the College of Medicine'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C009",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P00.txt: \"Visting Students\"",
+  "reason": "The menu label is misspelled.",
+  "en_comment": "The menu item 'Visting Students' is misspelled.",
+  "en_fix": "Correct to 'Visiting Students'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C010",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P22.txt: \"Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33) | SAR 80,000 | SAR 80,000\"; no such entry in P00.txt Graduate Admissions list",
+  "reason": "The programme is priced on the graduate fees page but has no admissions entry on the Admissions Office page.",
+  "en_comment": "The Master of Engineering in Innovation, Sustainability, and Entrepreneurship is listed with fees on the Post Graduate Fees page but has no entry under Graduate Admissions.",
+  "en_fix": "Add an admissions entry for the programme, or remove it from the fees page if it is not open for admission.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C011",
+  "verdict": "CONFIRMED",
+  "evidence": "register.json: \"url\": \".../academic_calendar_2023_2024_ro\" \"foundOn\": \".../admission/admission-registration\" title \"Academic Year 2023/2024\"",
+  "reason": "The Study at PMU page's Academic Calendar link leads to the 2023/2024 calendar although a 2026/2027 calendar page exists.",
+  "en_comment": "The 'Academic Calendar' link on the Study at PMU page opens the 2023/2024 calendar, although the 2026/2027 calendar is already published.",
+  "en_fix": "Point the link to the current (2026/2027) academic calendar or to a 'current calendar' URL that does not need yearly edits.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C012",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P02.txt: \"STUDY AT PMU | Previous | Next | Admissions Office | Home | Future Students ...\" (no 'Apply' text)",
+  "reason": "The Study at PMU page text contains only a carousel control and menus, with no Apply link or current-cycle information (carousel image content not captured).",
+  "en_comment": "The Study at PMU landing page has no 'Apply Now' link and no information on the current admission cycle.",
+  "en_fix": "Add an 'Apply Now' button and current admission dates.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C013",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P02.txt: \"Student Registration- Quick Guide\"",
+  "reason": "The hyphen is attached to the preceding word with no space.",
+  "en_comment": "The menu item 'Student Registration- Quick Guide' has inconsistent spacing around the dash.",
+  "en_fix": "Use 'Student Registration – Quick Guide'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C014",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P03.txt: \"When you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you ... wherever you go.\"",
+  "reason": "The sentence is a subordinate 'When...' clause with no main clause.",
+  "en_comment": "The opening sentence of the Future Students overview is incomplete (a 'When…' clause with no main clause).",
+  "en_fix": "Rewrite as a complete sentence, e.g. 'If you are looking for an institution that…, PMU is the place for you.'",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C015",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_future_students_ro.txt: \"We offer different programs accredited by prestigious national and international organizations.\"",
+  "reason": "The accrediting bodies are not named and no link is provided.",
+  "en_comment": "The overview states that programmes are 'accredited by prestigious national and international organizations' without naming the bodies or linking to accreditation details.",
+  "en_fix": "Name the accrediting bodies per programme or link to the accreditation page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C016",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_future_students_ro.txt: \"To explore the opportunities and the admission requirements more please visit the below links:\"",
+  "reason": "The phrasing is non-idiomatic.",
+  "en_comment": "The overview uses the awkward phrase 'please visit the below links'.",
+  "en_fix": "Use 'please visit the links below'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C017",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_degrees_programs_fs_ro.txt: Undergraduate Programs list ends \"College of Law | Degree Program | B.A. in Law | Graduate Programs\" (no Medicine); P24.txt: \"College of Medical curriculum is based on a 7-year hybrid model\"",
+  "reason": "The Degrees & Programs page lists no medical degree although Medicine admissions are linked from the Admissions Office page.",
+  "en_comment": "The Degrees & Programs page lists no College of Medicine programme, although the admissions pages link to College of Medicine admissions and describe a 7-year curriculum.",
+  "en_fix": "Add the medical degree with its male/female availability.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C018",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_degrees_programs_fs_ro.txt Graduate Programs: no 'Engineering Management' entry; P00.txt: \"Admissions to the EMGMS Program\"; P22.txt: \"Master of Science in Engineering Management (30) | SAR 80,000\"",
+  "reason": "Both programmes appear in admissions/fees pages but not in the Degrees & Programs list.",
+  "en_comment": "The Graduate Programs list omits the MS in Engineering Management (EMGMS) and the Master of Engineering in Innovation, Sustainability, and Entrepreneurship, which appear on the admissions and fees pages.",
+  "en_fix": "Add both programmes or remove them from the other pages if discontinued.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C019",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_degrees_programs_fs_ro.txt: \"PhD. in Mechanical Engineering\", \"PhD. in Business Administration\"; P22.txt: \"Doctor of Philosophy (Ph.D.)\"",
+  "reason": "'PhD.' is non-standard and differs from 'Ph.D.' on the fees page.",
+  "en_comment": "The degree abbreviation is written 'PhD.' (non-standard), while the fees page uses 'Ph.D.'.",
+  "en_fix": "Use 'Ph.D.' or 'PhD' consistently.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C020",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_degrees_programs_fs_ro.txt: \"Executive Master in Business Administration (EMBA)\" / \"Masters in Business Administration (MBA)\"",
+  "reason": "'Masters in' is non-standard and inconsistent with the EMBA entry.",
+  "en_comment": "The degree is listed as 'Masters in Business Administration (MBA)' instead of the standard 'Master of Business Administration (MBA)'.",
+  "en_fix": "Use 'Master of Business Administration (MBA)'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C021",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_degrees_programs_fs_ro.txt: \"College of Computer Engineering and Science\"; P07.txt footer: \"College of Computer Engineering & Sciences\"",
+  "reason": "The college name differs from the site-wide footer name.",
+  "en_comment": "The college is called 'College of Computer Engineering and Science' on the Degrees & Programs page but 'College of Computer Engineering & Sciences' in the site footer.",
+  "en_fix": "Use the official college name consistently.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C023",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P05.txt: \"Last day to submit IELTS or TOEFL iBT | 2026-07-20\", \"Last day for Transfer applicants to submit documents in person | 2026-07-20\", \"Announcement of admission results through Qabool platform | From July 19 to July 21, 2026\"",
+  "reason": "The results window (19-21 July) does overlap the 20 July deadlines, but those deadlines concern specific sub-groups (direct-entry English scores, transfer applicants) and the window extends past them, so it is an ordering ambiguity rather than a clear contradiction.",
+  "en_comment": "In the Fall 2026-2027 undergraduate calendar, the results announcement window (19-21 July) opens one day before the 20 July deadlines for IELTS/TOEFL scores and transfer documents, without explaining how late submissions are handled.",
+  "en_fix": "Clarify the sequence (e.g., state which applicant groups each date applies to, or move the results window after all document deadlines).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C024",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P05.txt: \"First day of classes | 2026-08-30\", \"Orientation for new applicants | TBA\"",
+  "reason": "Captured 10 Oct 2026, the orientation is still 'TBA' six weeks after classes began.",
+  "en_comment": "The admissions calendar still shows 'Orientation for new applicants: TBA' although classes started on 30 August 2026.",
+  "en_fix": "Replace with the actual date or remove the row, and publish the next cycle's calendar.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C025",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_admission_calendar_fs_ro.txt: second 'Fall 2026-2027 Undergraduate Admission Calendar' block with \"First day of classes 2026-08-30 / For non Saudi Students: ... Closed\"; rendered/pages/P05.txt shows each table once",
+  "reason": "Both calendars are duplicated in the page source with the non-Saudi row moved after 'First day of classes', but the mobile rendering shows each table only once, so the duplicate is hidden/view-specific rather than visibly published twice.",
+  "en_comment": "The Admissions Calendar page source contains a second copy of both Fall 2026-2027 calendars (with the non-Saudi row in a different position), which can surface in some views and risks the copies diverging.",
+  "en_fix": "Remove the duplicate tables so only one maintained version exists.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C027",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P05.txt: \"For non Saudi Students: Apply online through Study in Saudi platform\"",
+  "reason": "'non Saudi' lacks a hyphen.",
+  "en_comment": "The calendar row reads 'For non Saudi Students' without the hyphen.",
+  "en_fix": "Use 'For non-Saudi Students:'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C028",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P05.txt: \"Start of English Placement Test and personal Interviews | 2026-05-17\"",
+  "reason": "Capitalisation is inconsistent within the phrase.",
+  "en_comment": "The calendar row 'Start of English Placement Test and personal Interviews' is inconsistently capitalised.",
+  "en_fix": "Use 'Start of English Placement Test and Personal Interviews'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C029",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P05.txt: \"Announcement of admission results through Qabool platform | From July 19 to July 21, 2026\"; \"For non Saudi Students: ... Study in Saudi platform ... | Closed\"",
+  "reason": "Only the Qabool channel is named for results; no channel is given for non-Saudi/Study in Saudi applicants (whose route is marked Closed).",
+  "en_comment": "The calendar names only the Qabool platform for announcing results and gives no results channel for non-Saudi applicants applying via Study in Saudi.",
+  "en_fix": "State how and when non-Saudi applicants receive their results.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C031",
+  "verdict": "NOT_VERIFIABLE",
+  "evidence": "staff_list_summary.txt: \"(Staff names/emails deliberately not stored: personal data.)\"",
+  "reason": "The P06 staff list content is not stored in the local evidence, so duplicate entries cannot be checked.",
+  "en_comment": "",
+  "en_fix": "",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C032",
+  "verdict": "NOT_VERIFIABLE",
+  "evidence": "staff_list_summary.txt: \"Contact Us target: status 200 title Staff List ... chars 1170\"",
+  "reason": "The P06 role titles are not stored in the local evidence, so the capitalisation of the title cannot be checked.",
+  "en_comment": "",
+  "en_fix": "",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C034",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"Enter Verifaction Code[أدخل رمز التحقق]:*\"",
+  "reason": "'Verifaction' is misspelled.",
+  "en_comment": "The form label 'Enter Verifaction Code' is misspelled.",
+  "en_fix": "Correct to 'Enter Verification Code'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C035",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"Name [الأسم]: *\"",
+  "reason": "'الأسم' should be written with hamzat wasl.",
+  "en_comment": "The Arabic label 'الأسم' is misspelled.",
+  "en_fix": "Correct to 'الاسم'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C036",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"على إستفساراتكم\" ; \"Query [الإستفسار]:*\"",
+  "reason": "Verbal nouns of the istif'al pattern take hamzat wasl, so the hamza is incorrect.",
+  "en_comment": "The Arabic words 'إستفساراتكم' and 'الإستفسار' are written with an incorrect hamza.",
+  "en_fix": "Correct to 'استفساراتكم' and 'الاستفسار'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C037",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"Email [البريد الإللكتروني] | Mobile [جوال]\" vs \"Email [البريد الإلكتروني]:*\"",
+  "reason": "The word has a doubled lam and differs from the earlier correct spelling.",
+  "en_comment": "The Arabic option label 'البريد الإللكتروني' contains a doubled letter.",
+  "en_fix": "Correct to 'البريد الإلكتروني'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C038",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P07.txt: \":مرحباً بكم بجامعة الأمير محمد بن فهد، مكتب القبول يسعد بالإجابة على إستفساراتكم. الرجاء ملء الطلب أدناه\"",
+  "reason": "The colon is stored at the start of the Arabic line; in a left-to-right page it may display at the visual end, so this is a text-direction (markup) issue rather than a definite visible misplacement.",
+  "en_comment": "The Arabic welcome line stores its colon at the beginning of the text instead of the end, relying on left-to-right layout to position it; screen readers and copied text show it in the wrong place.",
+  "en_fix": "Move the colon to the end of the Arabic sentence and mark the line dir=\"rtl\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C039",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"Please fill the below request:\"",
+  "reason": "The phrasing is non-idiomatic ('fill' without 'in', 'the below request').",
+  "en_comment": "The form intro 'Please fill the below request' is grammatically awkward.",
+  "en_fix": "Use 'Please fill in the form below:'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C040",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P07.txt: \"Verification Code[رمز التحقق]:*\" / \"Enter Verifaction Code[أدخل رمز التحقق]:*\"",
+  "reason": "Both labels lack a space before the bracket, unlike the other labels.",
+  "en_comment": "Two form labels lack a space before the Arabic text in brackets ('Verification Code[رمز التحقق]').",
+  "en_fix": "Insert a space before the opening bracket.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C041",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P07.txt: \"ADMISSION QUERY | Welcome to PMU, the Admissions Office is glad to answer your inquiries ... Enter Verifaction Code[أدخل رمز التحقق]:* | STAY CONNECTED\"",
+  "reason": "No admissions email/phone or response time is shown, but the missing submit-button label may be an extraction artefact (e.g., an image or input button) and cannot be confirmed.",
+  "en_comment": "The Admission Query page offers only a web form, with no alternative admissions email or phone number and no expected response time.",
+  "en_fix": "Add the admissions email, phone number and a stated response time next to the form.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C045",
+  "verdict": "PARTIAL",
+  "evidence": "pages_v5/apply_raw_text.txt: \"Bachelor’s Programs — Admission Requirements\" ... \"A non-refundable application fee of SAR 950 must be paid\"; P25.txt: \"Pay a non-refundable application fee of SAR 1000 (incl. VAT)\", \"(SAT 1) 1300\"",
+  "reason": "The /apply source text gives SAR 950 with no Medicine exception while Medicine charges SAR 1000 with higher criteria, but /apply redirects instantly to the portal so this text is not normally seen by visitors.",
+  "en_comment": "The /apply page source presents a single SAR 950 fee and general criteria for all bachelor's programmes without noting that the College of Medicine has a SAR 1,000 fee and higher entry requirements.",
+  "en_fix": "Add a note/link that the College of Medicine has its own fee and criteria (or state 'fees vary by programme'); also decide whether this hidden content should remain behind the redirect.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C046",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"A non-refundable application fee of SAR 950 must be paid to complete the admission process.\"; P24.txt: \"SAR 950 (incl. VAT)\"; pages/admission_international_students.txt: \"SAR 500 (excl. VAT)\"",
+  "reason": "The /apply text omits the VAT basis stated on the other undergraduate pages; the SAR 500 international fee applies to a different applicant group.",
+  "en_comment": "The /apply page states the SAR 950 application fee without '(incl. VAT)', unlike the other undergraduate admissions pages.",
+  "en_fix": "Add '(incl. VAT)' to the fee statement.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C047",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"Qudrat 60% or equivalent SAT 1 score\" vs \"Alternatively, a SAT 1 total score of 1200 is accepted\"",
+  "reason": "No SAT 1 minimum is given for non-engineering majors (P24 likewise gives none), while the engineering group has 1200; the text sits behind an instant redirect.",
+  "en_comment": "For non-engineering majors the /apply page requires 'Qudrat 60% or equivalent SAT 1 score' without stating the equivalent SAT 1 score, whereas a figure (1200) is given for the engineering/AI group.",
+  "en_fix": "State the minimum SAT 1 score for non-engineering majors (also on the Undergraduate Admissions page).",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C048",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"* Students with a lower percentage can apply; however, acceptance will depend on the overall weight.\" (only under AI/Engineering); P24.txt: \"*Students with a lower percentage can apply\" under General requirements",
+  "reason": "The lower-score note appears only in the engineering group on /apply but applies to general admission on P24.",
+  "en_comment": "On /apply, the note that students with lower percentages may still apply appears only under the AI/engineering group, while the Undergraduate Admissions page applies it to general (non-engineering) admission as well.",
+  "en_fix": "Add the same note (English and Arabic) to the non-engineering section.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C049",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"نسب الموزونة\" (appears twice)",
+  "reason": "The Arabic heading lacks the definite article on the noun.",
+  "en_comment": "The Arabic heading 'نسب الموزونة' is grammatically incorrect.",
+  "en_fix": "Correct to 'النسب الموزونة'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C050",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_source.html: \"القدرات / <span dir=\\\"ltr\\\">1 SAT</span>\" vs \"القدرات / SAT 1\"",
+  "reason": "The span is explicitly LTR, so it displays '1 SAT', inconsistent with 'SAT 1' in the second table.",
+  "en_comment": "In the Arabic non-engineering table, the test is shown as '1 SAT' instead of 'SAT 1'.",
+  "en_fix": "Correct to 'القدرات / SAT 1'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C051",
+  "verdict": "CONFIRMED",
+  "evidence": "pages_v5/apply_raw_text.txt: \"ملاحظة: لا يُقبل اختبار النسخة المنزلية.\" vs \"Note: TOEFL Home Edition is not accepted.\"",
+  "reason": "The Arabic note omits the test name given in the English text.",
+  "en_comment": "The Arabic note says 'the home edition test is not accepted' without naming TOEFL, unlike the English text.",
+  "en_fix": "Use 'لا يُقبل اختبار التوفل (النسخة المنزلية).'",
+  "severity_check": "OK"
+ }
+]

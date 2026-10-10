@@ -1,0 +1,389 @@
+[
+ {
+  "id": "C100",
+  "verdict": "PARTIAL",
+  "evidence": "P14.txt: content ends with 'Personal Interview: Candidates will be personally interviewed...' (no documents); pages/admission_admissions_requirements_mba_gdp.txt sidebar: 'MBA Admissions / Apply for MBA'",
+  "reason": "The MBA page lists no supporting documents (unlike EMBA, MSHD, MSME), but an 'Apply for MBA' link does exist in the desktop sidebar, so only the missing-documents part holds fully.",
+  "en_comment": "The MBA admissions page does not list any required supporting documents, whereas the EMBA, MSHD and MSME pages do, and it has no application link within the page content.",
+  "en_fix": "Add the list of required documents and an 'Apply for MBA' button in the page body.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C101",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: 'A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)' vs P14.txt: 'A minimum GPA of 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree'",
+  "reason": "The same label '(Very Good)' is attached to 2.50/4.00 on the MBA page and 3.00/4.00 on the PhD ME page, so the grade equivalence is inconsistent.",
+  "en_comment": "The MBA page equates a 2.50/4.00 GPA with 'Very Good', while other graduate pages (e.g. PhD in Mechanical Engineering) equate 3.00/4.00 with 'Very Good'.",
+  "en_fix": "Use one consistent grade-band definition across all graduate pages, or remove the '(Very Good)' label and state numeric GPA only.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C102",
+  "verdict": "CONFIRMED",
+  "evidence": "P14.txt: 'non-business majors may be given the opportunity to take four business foundation courses before beginning their MBA coursework'",
+  "reason": "The wording 'may be given the opportunity' leaves unclear whether foundation courses are optional or required and whether they add to the 36 credit hours.",
+  "en_comment": "The MBA page does not make clear whether the four business foundation courses for non-business graduates are mandatory or optional, or whether they are in addition to the 36 credit hours.",
+  "en_fix": "State explicitly whether the foundation courses are required, and whether they count toward or are in addition to the 36 credit hours.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C103",
+  "verdict": "CONFIRMED",
+  "evidence": "P15.txt: 'Work Experience' followed directly by 'Personal Data Sheet/Curriculum Vita: The Personal Data Sheet should include relevant biographical information...'",
+  "reason": "The 'Work Experience' heading states no requirement; only a CV instruction follows it.",
+  "en_comment": "On the MSHD page, the 'Work Experience' heading states no actual requirement and is followed only by a CV instruction.",
+  "en_fix": "State the work-experience requirement (e.g. number of years, or 'not required') and move the CV item to a supporting-documents list.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C104",
+  "verdict": "PARTIAL",
+  "evidence": "P15.txt: no credit hours/duration in content; P22.txt: 'Master of Science in Human Development | SAR 50,000 | SAR 60,000' (no hours); pages/admission_admissions_requirements_msehd_gdp.txt sidebar: 'Apply for MSHD'",
+  "reason": "Credit hours and duration are indeed absent from the MSHD page and the fee row, but an 'Apply for MSHD' link exists in the desktop sidebar.",
+  "en_comment": "The MSHD admissions page does not state the programme's credit hours or duration, and the fee table also omits the credit-hour count for this programme.",
+  "en_fix": "Add credit hours and programme duration to the MSHD page and the fee table, and an apply button in the page body.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C105",
+  "verdict": "CONFIRMED",
+  "evidence": "P15.txt: page heading 'ADMISSIONS REQUIREMENTS' (other pages: 'MBA ADMISSIONS REQUIREMENTS', 'MSME ADMISSSIONS REQUIREMENTS')",
+  "reason": "The MSHD page heading omits the programme name, unlike the sibling pages (the programme is named only in the sub-heading).",
+  "en_comment": "The MSHD page heading reads only 'Admissions Requirements' without the programme name, unlike the other graduate programme pages.",
+  "en_fix": "Rename the heading to 'MSHD Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C106",
+  "verdict": "CONFIRMED",
+  "evidence": "P15.txt: 'Personal Data Sheet/Curriculum Vita:'",
+  "reason": "'Curriculum Vita' is a misspelling of 'Curriculum Vitae'.",
+  "en_comment": "The MSHD page misspells 'Curriculum Vitae' as 'Curriculum Vita'.",
+  "en_fix": "Change to 'Curriculum Vitae'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C107",
+  "verdict": "PARTIAL",
+  "evidence": "P15.txt (rendered, single line): 'one letter should be from a college or university professor who can discuss the Applicant’s academic abilities'",
+  "reason": "In the rendered page the sentence is continuous; only the erroneous capital 'A' in 'Applicant’s' is visible (the line break appears only in the source extraction).",
+  "en_comment": "On the MSHD page, 'Applicant’s' is incorrectly capitalised mid-sentence ('who can discuss the Applicant’s academic abilities').",
+  "en_fix": "Change to 'the applicant’s academic abilities'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C108",
+  "verdict": "CONFIRMED",
+  "evidence": "P15.txt: 'from an accredited and/or recognized university'; P14/P16/P17.txt: 'from a recognized university'",
+  "reason": "The MSHD page uses 'accredited and/or recognized university' while all other graduate pages say 'recognized university'.",
+  "en_comment": "The MSHD page requires a degree from an 'accredited and/or recognized university', whereas the other graduate pages say 'recognized university'.",
+  "en_fix": "Harmonise the wording across all graduate pages (or confirm the MSHD difference is intentional).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C109",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_admissions_requirements_msme_gdp.txt: 'MSME Admisssions Requirements'; P16.txt: 'MSME ADMISSSIONS REQUIREMENTS'",
+  "reason": "The heading misspells 'Admissions' with three 's'.",
+  "en_comment": "The MSME page heading misspells 'Admissions' as 'Admisssions'.",
+  "en_fix": "Change to 'MSME Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C110",
+  "verdict": "CONFIRMED",
+  "evidence": "P16.txt: 'The MSME is offered in Two tracks: Thermofluids track and Mechanical Systems track.'",
+  "reason": "'Two' is capitalised mid-sentence.",
+  "en_comment": "The MSME page capitalises 'Two' mid-sentence ('offered in Two tracks').",
+  "en_fix": "Change to 'two tracks'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C111",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: 'A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)' vs P16.txt: 'A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good)'",
+  "reason": "MSME labels 2.50/4.00 as 'Very Good' while the PhD ME page labels 3.00/4.00 as 'Very Good'.",
+  "en_comment": "The MSME page equates 2.50/4.00 with 'Very Good', while the PhD in Mechanical Engineering page equates 3.00/4.00 with 'Very Good'.",
+  "en_fix": "Use one consistent grade-band definition or state numeric GPA only.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C112",
+  "verdict": "CONFIRMED",
+  "evidence": "P16.txt: content ends at 'Personal Interview: Candidates will be personally interviewed...' with no apply link; pages/admission_admissions_requirements_msme_gdp.txt sidebar: 'Apply for MSME'",
+  "reason": "No apply link is in the content area (and the mobile render shows none); only the desktop sidebar has one, as the auditor noted.",
+  "en_comment": "The MSME admissions page has no application link in the page content; the only link is in the desktop sidebar, which is not shown on mobile.",
+  "en_fix": "Add an 'Apply for MSME' button in the page body.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C113",
+  "verdict": "CONFIRMED",
+  "evidence": "P17.txt: 'MSEE ADMISSSIONS REQUIREMENTS'; rendered_all.json source: 'Graduate Programs > MSEE  ADMISSSIONS REQUIREMENT' (double space in source; collapsed when displayed)",
+  "reason": "Triple-s misspelling and all-caps are confirmed in title, breadcrumb and heading; the double space exists in the HTML source but is not visible on screen.",
+  "en_comment": "The MSEE page title, breadcrumb and heading misspell 'Admissions' as 'ADMISSSIONS'.",
+  "en_fix": "Change to 'MSEE Admissions Requirements' in the title, breadcrumb and heading.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C114",
+  "verdict": "CONFIRMED",
+  "evidence": "P17.txt: 'The program will be offered under the College of Engineering.'; P22.txt: 'Master of Science in Electrical Engineering (30) | SAR 65,000 | SAR 80,000'",
+  "reason": "Future tense describes a programme that already has published fees, which reads like pre-launch text.",
+  "en_comment": "The MSEE page states that the programme 'will be offered' by the College of Engineering, which reads as pre-launch text although fees are already published.",
+  "en_fix": "Change to 'The program is offered by the College of Engineering.'",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C115",
+  "verdict": "CONFIRMED",
+  "evidence": "P17.txt: no credit hours, duration or apply link in content; pages/admission_application_form_msee_gdp.txt sidebar lists only 'Apply for EMBA/MBA/MSHD/MSME'; P22.txt: 'Master of Science in Electrical Engineering (30)'",
+  "reason": "The MSEE page lacks credit hours, duration and an apply link (none in the sidebar either), while the fee page shows 30 credit hours.",
+  "en_comment": "The MSEE admissions page does not state credit hours, duration or provide an application link, although the fee page lists the programme as 30 credit hours.",
+  "en_fix": "Add '30 credit hours' (if confirmed), the programme duration and an application link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C116",
+  "verdict": "CONFIRMED",
+  "evidence": "P17.txt: 'A Bachelor’s Degree of Science in Engineering from a recognized university' then '*Students with Bachelor of Science degrees in closely related disciplines to Engineering...'; P18.txt: 'Civil Engineering* from'",
+  "reason": "The footnote asterisk has no anchor in the degree line, and unlike MSCE/MSID no specific engineering discipline is named.",
+  "en_comment": "On the MSEE page the footnote marked '*' has no matching asterisk in the degree requirement, and the required bachelor's discipline is given only as 'Engineering' rather than a specific field.",
+  "en_fix": "Add the asterisk and specify the required discipline (e.g. Electrical Engineering), subject to Admissions confirmation.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C117",
+  "verdict": "CONFIRMED",
+  "evidence": "P17.txt: 'PMU) Masters in Electrical Engineering is designed...' and 'The core curriculum has two tracks; Communication Systems and Signal Processing track and Power Systems track.'",
+  "reason": "The programme is called 'Masters in Electrical Engineering' instead of its official name, and a semicolon is used where a colon is needed.",
+  "en_comment": "The MSEE page refers to the programme as 'Masters in Electrical Engineering' rather than 'Master of Science in Electrical Engineering' and uses a semicolon before the list of tracks.",
+  "en_fix": "Use 'Master of Science in Electrical Engineering' and 'two tracks: Communication Systems and Signal Processing, and Power Systems'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C118",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: 'A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)' vs P17.txt: 'A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good)'",
+  "reason": "MSEE labels 2.50/4.00 'Very Good' while PhD ME labels 3.00/4.00 'Very Good'.",
+  "en_comment": "The MSEE page equates 2.50/4.00 with 'Very Good', inconsistent with the PhD in Mechanical Engineering page, which equates 3.00/4.00 with 'Very Good'.",
+  "en_fix": "Use one consistent grade-band definition or state numeric GPA only.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C119",
+  "verdict": "CONFIRMED",
+  "evidence": "P18.txt: 'MSCE ADMISSSIONS REQUIREMENTS' (breadcrumb and heading); pages file TITLE: 'MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs'",
+  "reason": "Triple-s misspelling in title, breadcrumb and heading, in all caps.",
+  "en_comment": "The MSCE page title, breadcrumb and heading misspell 'Admissions' as 'ADMISSSIONS'.",
+  "en_fix": "Change to 'MSCE Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C120",
+  "verdict": "CONFIRMED",
+  "evidence": "P18.txt: 'The program will be offered under the College of Engineering.'",
+  "reason": "Future-tense pre-launch wording for a programme with published fees.",
+  "en_comment": "The MSCE page states the programme 'will be offered', which reads as outdated pre-launch text.",
+  "en_fix": "Change to 'The program is offered by the College of Engineering.'",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C121",
+  "verdict": "CONFIRMED",
+  "evidence": "P18.txt: 'The core curriculum has two tracks Structural and Geotechnical Engineering, Environment and Water Resources Engineering.'",
+  "reason": "The missing colon and comma-only separation make the two tracks read like three items.",
+  "en_comment": "The MSCE page lists its two tracks without a colon or clear separation, so they can be read as three items.",
+  "en_fix": "'two tracks: (1) Structural and Geotechnical Engineering; (2) Environmental and Water Resources Engineering.'",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C122",
+  "verdict": "CONFIRMED",
+  "evidence": "P18.txt: 'Statement of purpose:A statement of purpose (usually around 500 words)'",
+  "reason": "A space is missing after the colon.",
+  "en_comment": "The MSCE page is missing a space after the colon in 'Statement of purpose:A statement'.",
+  "en_fix": "Insert a space: 'Statement of purpose: A statement'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C123",
+  "verdict": "CONFIRMED",
+  "evidence": "P18.txt: no credit hours/duration/apply link in content; pages/admission_application_form_msce_gdp.txt sidebar has no MSCE apply link; P22.txt: 'Master of Science in Civil Engineering (30)'",
+  "reason": "The MSCE page lacks credit hours, duration and an apply link while the fee page shows 30 credit hours.",
+  "en_comment": "The MSCE admissions page does not state credit hours, duration or provide an application link, although the fee page lists 30 credit hours.",
+  "en_fix": "Add credit hours, duration and an application link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C124",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: 'A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)' vs P18.txt: 'A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good)'",
+  "reason": "MSCE labels 2.50/4.00 'Very Good', inconsistent with PhD ME's 3.00/4.00 'Very Good'.",
+  "en_comment": "The MSCE page equates 2.50/4.00 with 'Very Good', inconsistent with the PhD in Mechanical Engineering page (3.00/4.00 = 'Very Good').",
+  "en_fix": "Use one consistent grade-band definition or state numeric GPA only.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C125",
+  "verdict": "CONFIRMED",
+  "evidence": "P19.txt: 'MSID ADMISSSIONS REQUIREMENTS' (breadcrumb and heading); pages file TITLE: 'MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs'",
+  "reason": "Triple-s misspelling in title, breadcrumb and heading.",
+  "en_comment": "The MSID page title, breadcrumb and heading misspell 'Admissions' as 'ADMISSSIONS'.",
+  "en_fix": "Change to 'MSID Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C126",
+  "verdict": "CONFIRMED",
+  "evidence": "P19.txt: 'The Department of Interior Design at PMU will educate tomorrow’s interior design leaders...' / '...(PMU) will be to provide an environment conducive...'",
+  "reason": "The programme description is written in future tense like pre-launch text.",
+  "en_comment": "The MSID page describes the programme and its mission in the future tense ('will educate', 'will be to provide'), which reads as pre-launch text.",
+  "en_fix": "Rewrite in the present tense.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C127",
+  "verdict": "CONFIRMED",
+  "evidence": "P19.txt: Supporting Documents list only 'Statement of purpose' and 'Letters of reference' (no 'Work experience' line, unlike P17/P18); no credit hours or apply link; P22.txt: 'Master of Science in Interior Design (30)'",
+  "reason": "MSID lacks credit hours, duration, a work-experience statement and an apply link, while the fee page shows 30 credit hours.",
+  "en_comment": "The MSID admissions page does not state credit hours, duration or any work-experience expectation, and provides no application link, although the fee page lists 30 credit hours.",
+  "en_fix": "Add credit hours, duration, a work-experience statement and an application link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C128",
+  "verdict": "CONFIRMED",
+  "evidence": "P11.txt: 'A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good)' vs P19.txt: 'A minimum cumulative GPA of 2.50 out of 4.00 or equivalent (Very Good)'",
+  "reason": "MSID labels 2.50/4.00 'Very Good', inconsistent with PhD ME's 3.00/4.00 'Very Good'.",
+  "en_comment": "The MSID page equates 2.50/4.00 with 'Very Good', inconsistent with the PhD in Mechanical Engineering page (3.00/4.00 = 'Very Good').",
+  "en_fix": "Use one consistent grade-band definition or state numeric GPA only.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C131",
+  "verdict": "PARTIAL",
+  "evidence": "P20.txt: 'Must show completion of a Bachelor’s degree. (minimum 3.00 out of 4.00)' ... 'Graduate English Language Endorsement from UA Center for English as Second Language (CESL)'; P17.txt: 'minimum cumulative GPA of 2.50 out of 4.00'",
+  "reason": "The different GPA applies to a different programme so it is not a true conflict, but the page's reliability is doubtful because it references a non-PMU 'UA Center ... (CESL)'.",
+  "en_comment": "The Engineering Management page requires a 3.00/4.00 GPA (versus 2.50 on other engineering master's pages) and appears to contain content copied from another institution (it refers to the 'UA Center for English as Second Language'), so its requirements cannot be relied on.",
+  "en_fix": "Confirm the EMGMS GPA requirement and review the whole page against PMU's approved admission criteria.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C133",
+  "verdict": "PARTIAL",
+  "evidence": "P20.txt: 'Letters of Recommendation (Minimum 3)' / 'Must be written on university/company letterhead and signed by the recommender.'; P17.txt: 'at least two letters of recommendation'",
+  "reason": "Three letters vs two elsewhere is a programme-specific difference rather than a conflict (PhD-BA and EMBA also require three), but the page's source is doubtful.",
+  "en_comment": "The Engineering Management page requires at least three recommendation letters on letterhead, while other engineering master's pages require two; this needs confirmation given the page appears to be copied from another institution.",
+  "en_fix": "Confirm the number and format of recommendation letters for EMGMS.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C134",
+  "verdict": "PARTIAL",
+  "evidence": "P20.txt: 'Master of Science in Engineering Management Application(EMGMS) Checklist'; P22.txt: 'Master of Science in Engineering Management (30)'",
+  "reason": "The missing space is confirmed; the unusual 'EMGMS' acronym is a naming choice that cannot be shown to be wrong from the evidence.",
+  "en_comment": "The Engineering Management page heading lacks a space before '(EMGMS)', and the acronym 'EMGMS' does not follow the MS-prefix pattern used for the other master's programmes.",
+  "en_fix": "Add the missing space and confirm the official programme acronym.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C136",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: 'A Bachelor’s Degree in law from a recognized university' / 'A minimum (Very Good) in Bachelor’s Degree'",
+  "reason": "MIBL gives no numeric GPA, and 'Very Good' is used for different GPA levels on other pages.",
+  "en_comment": "The MIBL page states only a minimum of 'Very Good' with no numeric GPA, while 'Very Good' is equated with different GPAs (2.50 or 3.00/4.00) on other graduate pages.",
+  "en_fix": "State the minimum GPA numerically (e.g. 'x.xx out of 4.00 or 5.00').",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C137",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: 'minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall'; P14.txt: 'minimum scores of 6.0 overall ... or equivalent TOEFL iBT minimum scores of 83 overall'",
+  "reason": "TOEFL 83 is presented as equivalent to IELTS 6.0 on other pages and to IELTS 6.5 on the MIBL page, so the equivalence is inconsistent.",
+  "en_comment": "The MIBL page treats TOEFL iBT 83 as equivalent to IELTS 6.5, whereas all other graduate pages treat TOEFL iBT 83 as equivalent to IELTS 6.0.",
+  "en_fix": "Align the TOEFL equivalent with the IELTS 6.5 requirement, or confirm both scores.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C138",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: 'complete the program within two years in a full-time mode (maximum 6 credits in each semester)'; P22.txt: 'Master of Arts in International Business Law (36)'",
+  "reason": "36 credits at a maximum of 6 per semester needs 6 semesters (two years only if summer terms are used), and 6 credits per semester is not usually a full-time load.",
+  "en_comment": "The MIBL page says the 36-credit programme is completed in two years full-time with a maximum of 6 credits per semester, which requires six semesters and conflicts with the notion of a full-time load.",
+  "en_fix": "Correct the per-semester credit load or the stated duration (or state that summer terms are required).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C139",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: 'The year 2025 marks another milestone for PMU Law with the approval of the postgraduate program'",
+  "reason": "Present-tense reference to 2025 is dated as of October 2026.",
+  "en_comment": "The MIBL page still says 'The year 2025 marks another milestone', which is dated wording.",
+  "en_fix": "Rephrase as 'In 2025, the Ministry of Education approved…'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C140",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: criteria list only Educational Background, English test, Personal Interview, then '30% for the written test.'; P10.txt: 'Admissions to the Master of Arts (MA) in International Business Law Program / Application Form'",
+  "reason": "No supporting documents or apply link appear on the MIBL page; the application form is linked only from the graduate admissions list.",
+  "en_comment": "The MIBL admissions page lists no supporting documents and has no application link, and it gives a 30% weight to a written test that is not described anywhere on the page.",
+  "en_fix": "Add the required documents, details of the written test, and an application link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C141",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_admissions_requirements_milbl_gdp.txt: 'MIBL Admisssions Requirements'; P21.txt: 'MIBL ADMISSSIONS REQUIREMENTS'",
+  "reason": "Triple-s misspelling in the heading.",
+  "en_comment": "The MIBL page heading misspells 'Admissions' as 'Admisssions'.",
+  "en_fix": "Change to 'MIBL Admissions Requirements'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C142",
+  "verdict": "CONFIRMED",
+  "evidence": "P21.txt: 'admission on a part-time basis may be considered subject to the applicable regulation, delivered and facilitated by qualified and experienced academics'",
+  "reason": "Two unrelated ideas (part-time admission and teaching delivery) are fused into one run-on sentence.",
+  "en_comment": "The MIBL description merges part-time admission and programme delivery into a single run-on sentence.",
+  "en_fix": "Split into two sentences, e.g. '...subject to the applicable regulations. The programme is delivered by qualified and experienced academics...'.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C143",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_post_graduate_fees_tf_ro.txt sidebar: 'Payment Schedule / Spring Semester 2025/2026 / Summer Semester 2025/2026 / Fall Semester 2026/2027'; pages/admission_payment_schedule_tf_ro_summer.txt: '1st 01-July-2026 10-July-2026'",
+  "reason": "Links to elapsed Spring/Summer 2025/2026 schedules are still listed (in the sidebar, not the main content), but Fall 2026/2027 is current and Spring/Summer 2026/2027 schedules may simply not be due yet.",
+  "en_comment": "The Payment Schedule menu still lists Spring and Summer 2025/2026 schedules, whose deadlines have passed, alongside the current Fall 2026/2027 schedule.",
+  "en_fix": "Archive or remove the elapsed 2025/2026 schedules and add Spring/Summer 2026/2027 when available.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C144",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_post_graduate_fees_tf_ro.txt sidebar: 'Undergraduate Fees for / Continuing 2024-2025'; pages/admission_fees_tf_ro_2024_2025.txt: 'Undergraduate Fees (For continuing students admitted before Fall Semester 2025/2026)'",
+  "reason": "The linked page is not obsolete: it holds current fees for continuing students admitted before Fall 2025/2026; only the year-based label is misleading.",
+  "en_comment": "The menu label 'Undergraduate Fees for Continuing 2024-2025' looks outdated, although the page it links to sets current fees for students admitted before Fall 2025/2026.",
+  "en_fix": "Relabel the link as 'Undergraduate Fees – Continuing Students (admitted before Fall 2025/2026)'.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C145",
+  "verdict": "PARTIAL",
+  "evidence": "P22.txt: 'PRE-Master for Master of Education | NA | SAR 30,000' and 'Master of Science in Education and Human Development | 1,191 SAR /Credit hour'; P10.txt lists 'Admission to the Master of Human Development'",
+  "reason": "No 'Master of Education' admissions page exists, but the row may relate to the MSHD programme, which the same fee page also calls 'Education and Human Development' (slug 'msehd'), so it is not clearly obsolete.",
+  "en_comment": "The postgraduate fee page lists a 'PRE-Master for Master of Education' fee with no matching programme or admissions page, and names the MSHD programme inconsistently ('Human Development' vs 'Education and Human Development').",
+  "en_fix": "Clarify which programme the pre-master belongs to (or remove it) and use one programme name throughout.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C146",
+  "verdict": "PARTIAL",
+  "evidence": "P22.txt: 'Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33) | SAR 80,000'; pages/admission_list_majors_ro.txt: 'Master of Science in Engineering Innovation, Sustainability, and Entrepreneurship / Degree Plan / Catalog'",
+  "reason": "No admissions page exists and the programme is absent from the graduate admissions list (P10), but it does appear in the Registration Office List of Majors (under a different name: 'Master of Science in...').",
+  "en_comment": "The fee page lists fees for the 'Master of Engineering in Innovation, Sustainability, and Entrepreneurship', which has no admissions page or entry on the Graduate Admissions list, and the List of Majors gives it a different name ('Master of Science in Engineering Innovation...').",
+  "en_fix": "Add an admissions page and graduate-admissions entry (or remove the fee row) and standardise the programme name.",
+  "severity_check": "OK"
+ }
+]

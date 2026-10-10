@@ -4,7 +4,7 @@ const NAVY='1F3864',ACC='2E75B6',LIGHT='EAF1FB',GREY='595959',RED='C00000',AMB='
 const W=9638;
 const r=(t,o={})=>new TextRun({text:t,font:'Calibri',size:o.size||20,bold:o.bold,color:o.color||'262626',italics:o.italics});
 const p=(runs,o={})=>new Paragraph({children:Array.isArray(runs)?runs:[r(runs,o)],spacing:{after:o.after??120,before:o.before??0,line:276},alignment:o.align,keepNext:o.keepNext});
-const h1=t=>new Paragraph({heading:HeadingLevel.HEADING_1,children:[new TextRun({text:t,font:'Calibri',size:26,bold:true,color:NAVY})],spacing:{before:200,after:90},keepNext:true,border:{bottom:{style:BorderStyle.SINGLE,size:6,color:ACC,space:4}}});
+const h1=(t,pb)=>new Paragraph({pageBreakBefore:!!pb,heading:HeadingLevel.HEADING_1,children:[new TextRun({text:t,font:'Calibri',size:26,bold:true,color:NAVY})],spacing:{before:200,after:90},keepNext:true,border:{bottom:{style:BorderStyle.SINGLE,size:6,color:ACC,space:4}}});
 const bullet=(runs)=>new Paragraph({numbering:{reference:'b',level:0},children:runs,spacing:{after:80,line:276}});
 const num=(runs)=>new Paragraph({numbering:{reference:'n',level:0},children:runs,spacing:{after:80,line:276}});
 const bd={style:BorderStyle.SINGLE,size:4,color:'BFBFBF'};const borders={top:bd,bottom:bd,left:bd,right:bd};
@@ -34,17 +34,21 @@ const children=[
  h1('2. Overall Status'),
  table([3203,6435],['Indicator','Result'],[
   ['Overall status',status('NOT READY FOR CLOSURE',RED)],
-  ['Pages reviewed','39 (Admissions page, 37 directly linked pages, application portal)'],
-  ['Comments – linked pages','51  (Priority 1: 6 · Priority 2: 29 · Priority 3: 16)'],
-  ['Comments – legacy pages','10  (still online, not linked from the Admissions page)'],
+  ['Pages reviewed','39 (Admissions page, 37 directly linked pages, application portal) + 3 supporting fee pages'],
+  ['Content lines audited','1,248 (incl. 257 lines hidden in tabs and 136 lines in the /apply page source)'],
+  ['Key findings – linked pages','61  (Priority 1: 6 · Priority 2: 32 · Priority 3: 23)'],
+  ['Key findings – legacy pages','10  (still online, not linked from the Admissions page)'],
+  ['Detailed page-by-page notes','211 verified (169 confirmed, 42 partly confirmed)'],
   ['Decisions required','10 (policy and fee owners)'],
  ],{boldCol:0}),
  h1('3. Scope and Method'),
  bullet([r('The Admissions Office page, its 37 directly linked pages and the application portal welcome page. The Contact Us staff list was not copied because it contains personal names.')]),
  bullet([r('Each page was read line by line in a mobile view (390 px), including tables and content inside tabs. The '),r('/apply',{bold:true}),r(' page was read from its source because it redirects visitors immediately.')]),
+ bullet([r('Every content line (1,248) was given a review status, applicant segment and spelling/wording check; site-wide navigation was marked out of scope.')]),
+ bullet([r('An earlier set of 214 detailed page notes was re-verified one by one against the captured pages: 169 confirmed, 42 partly confirmed, 3 not verifiable, none rejected.')]),
  bullet([r('Each amendment previously requested in the thread was re-checked against the live page.')]),
  bullet([r('Read-only: no page, form or payment was changed or submitted. The desktop view was not tested.')]),
- h1('4. Priority 1 Items'),
+ h1('4. Priority 1 Items',true),
  table([534,2456,6648],['#','Topic','What the published pages show'],[
   ['1','International CS/Engineering','Criteria still require SAT II, which has been discontinued since 2021.'],
   ['2','International transfer / visiting fee','SAR 500 (excl. VAT); the transfer and visiting pages show SAR 950 (incl. VAT).'],
@@ -64,18 +68,24 @@ const children=[
   ['Graphic Design – female only',status('Not implemented – page shows Male and Female',RED)],
  ],{boldCol:0}),
  h1('6. Decisions Required'),
- p('Ten decisions with proposed owners are listed in the attached register (sheet "Decisions required"). Pending values should not be published as policy until the relevant owner confirms them in writing. The main ones are:',{after:80}),
+ p('Ten decisions with proposed owners are listed in the attached register (sheet "C. Decisions"). Pending values should not be published as policy until the relevant owner confirms them in writing. The main ones are:',{after:80}),
  num([r('Next intake and one application route per applicant type.',{bold:true}),r(' Admissions, Web and IT.')]),
  num([r('Fee and VAT matrix',{bold:true}),r(' (international, Medicine, Aptis). Finance with Admissions.')]),
  num([r('Minimum weighted scores and SAT alternatives',{bold:true}),r(' (SAT II, SAT 1200 scope). Admissions with the Colleges.')]),
  num([r('Graduate English requirements and EMGMS page.',{bold:true}),r(' Graduate Studies.')]),
  num([r('Admissions contact channel and privacy notice.',{bold:true}),r(' Admissions with Compliance.')]),
- h1('7. Attachments'),
+ h1('7. Attachments',true),
  table([747,3524,5367],['No.','File','Content'],[
-  ['02','Admission Pages Comments Register (xlsx)','Page-by-page comments with verbatim evidence and proposed change; decisions required; live status of previous requests.'],
-  ['03','Published Content Line-by-Line Ledger (xlsx)','Full extracted text of each page, for reference.'],
+  ['02','Admission Pages Comments Register (xlsx)','Summary; A. key findings (71); B. page-by-page notes (211); C. decisions required; D. live status of previous requests.'],
+  ['03','Published Content Line-by-Line Ledger (xlsx)','Every line of each page with its review status and cross-reference to the register (reference).'],
  ],{center:[0]}),
- h1('8. Limits'),
+ h1('8. Other Notable Points from the Line-by-Line Review'),
+ bullet([r('"Contact Info" on undergraduate pages leads to the graduate-only contact page; "Contact Us" leads to the Student Affairs staff list.')]),
+ bullet([r('The Aptis page says direct entry requires IELTS, while the TOEFL page and /apply also accept TOEFL iBT 83/19.')]),
+ bullet([r('Inconsistent ID documents: "Saudi ID" only on some pages, "Saudi ID or Iqama" on others, and "National ID" for applicants without Saudi residence.')]),
+ bullet([r('Graduate pages: "ADMISSSIONS" misspelt on six pages; the "(Very Good)" label is used for both 2.50 and 3.00 GPA minimums; MSEE, MSCE and MSID pages give no credit hours or application link.')]),
+ bullet([r('The Academic Calendar link on Study @ PMU opens the 2023/2024 calendar; Orientation remains "TBA" after classes began on 30 August 2026.')]),
+ h1('9. Limits'),
  bullet([r('The desktop view was not tested.')]),
  bullet([r('Content that only appears after interaction (pop-ups) and the downloadable PDF files were not fully reviewed.')]),
  bullet([r('TOEFL/IELTS equivalences refer to published ETS tables; setting the thresholds remains the owners\' decision.')]),

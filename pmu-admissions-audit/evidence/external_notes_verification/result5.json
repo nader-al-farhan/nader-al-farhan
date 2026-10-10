@@ -1,0 +1,380 @@
+[
+ {
+  "id": "C191",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P30.txt: \"College/Department | PRPM 0011 | PRPM 0012 | PRPM0022\" ... \"PRPM 0022 - Pre-Calculus\"",
+  "reason": "The table header writes PRPM0022 without the space used for every other course code on the same page.",
+  "en_comment": "The mathematics course table header on the Preparatory-to-Undergraduate page shows \"PRPM0022\", while the same course is written \"PRPM 0022\" elsewhere on the page.",
+  "en_fix": "Change the header to \"PRPM 0022\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C192",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P30.txt: \"Depending on students desired major at the university, the various colleges and majors require the following mathematics courses:\"",
+  "reason": "The possessive apostrophe is missing.",
+  "en_comment": "The sentence \"Depending on students desired major\" is missing a possessive apostrophe.",
+  "en_fix": "Change to \"Depending on students' desired major\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C193",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P30.txt: \"... > Undergraduate > Preparatory Program to Undergraduate Programs\" / \"ADMISSIONS FROM THE PREPARATORY PROGRAM TO UNDERGRADUATE PROGRAMS\"; pages/...txt TITLE: \"Admission from the Preparatory Program to Undergraduate Programs\"",
+  "reason": "Breadcrumb, H1 and HTML title use three different forms of the page name (breadcrumb drops 'Admission(s) from the'; title says 'Admission', H1 'Admissions').",
+  "en_comment": "The page name differs between the breadcrumb (\"Preparatory Program to Undergraduate Programs\"), the page heading (\"Admissions from the Preparatory Program…\") and the browser title (\"Admission from the Preparatory Program…\").",
+  "en_fix": "Use one name everywhere, e.g. \"Admission from the Preparatory Program to Undergraduate Programs\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C194",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering.\"; P37: \"...Software Engineering, Artificial Intelligence, ...\"; apply_raw_text.txt: \"AI and Computer Science, Architecture and Engineering Majors\"",
+  "reason": "P31 omits Artificial Intelligence, which P37 and the /apply page (P08) include in the same specific-requirements group.",
+  "en_comment": "The list of majors with specific admission requirements on the CS & Engineering requirements page omits Artificial Intelligence, while the SAT page and the Apply page include AI in the same group.",
+  "en_fix": "Add Artificial Intelligence (after confirming the definitive list with Admissions) and use the same list on P31, P37 and /apply.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C195",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"*Students with lower marks may apply, however, the minimum weighted total, defined by the Admissions Office, should be met.\"; P25: \"...40% Tahseely were 86 is the minimum acceptable score\"",
+  "reason": "The minimum weighted total for these majors is referenced but never stated, whereas the Medicine page publishes its value (86).",
+  "en_comment": "The CS & Engineering requirements page says applicants must meet a minimum weighted total \"defined by the Admissions Office\" but does not state the value.",
+  "en_fix": "Publish the minimum weighted total (as the College of Medicine page does), subject to Admissions Office confirmation.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C196",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"In order to be considered for admissions to Computer Science or Engineering majors, the candidate should meet the major specific requirements.\"",
+  "reason": "The admission-criteria sentence names only CS and Engineering although the same page lists Architecture as covered (and other pages add AI).",
+  "en_comment": "The Admission Criteria sentence refers only to \"Computer Science or Engineering majors\", although the page also applies the specific requirements to Architecture.",
+  "en_fix": "Refer to \"the majors listed above\" or name all covered majors (Architecture, CS, AI, Engineering).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C197",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"Submit original IELTS (Academic version) certificate or equivalent TOEFL iBT with acceptable scores (if available) or\" / \"For direct entry, submit original IELTS ... 6.0 overall and 5.5 in writing or equivalent TOEFL iBT with acceptable scores\"; apply_raw_text.txt: \"TOEFL iBT: Overall 83, Writing 19\"",
+  "reason": "Two overlapping bullets are joined by a dangling 'or', and the TOEFL minimum is described only as 'acceptable scores' although P08/P36 state 83/19.",
+  "en_comment": "The English-test requirement is split across two overlapping bullets joined by a trailing \"or\", and the TOEFL iBT minimum is given only as \"acceptable scores\".",
+  "en_fix": "Merge into one bullet: \"For direct entry: IELTS Academic 6.0 overall / 5.5 writing, or TOEFL iBT 83 overall / 19 writing (otherwise submit any available score for placement).\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C198",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"Applicants who scored 400 or more in SAT Math section may wave one or more of the mathematics courses\"",
+  "reason": "'wave' is a misspelling of 'waive'; the same error appears on P37.",
+  "en_comment": "\"may wave one or more of the mathematics courses\" misspells \"waive\".",
+  "en_fix": "Change \"wave\" to \"waive\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C199",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P31.txt: \"Copy of Saudi ID\" ... \"Copy of passport\"; P26: \"Copy of Saudi ID or “Iqama” (for Non-Saudis)\"",
+  "reason": "P31 lists only Saudi ID while the parallel document list on P26 adds Iqama for non-Saudis.",
+  "en_comment": "The How to Apply document list asks only for a \"Copy of Saudi ID\" and gives no Iqama option for non-Saudi applicants, unlike the equivalent list on the direct-admission page.",
+  "en_fix": "Change to \"Copy of Saudi ID or Iqama (for non-Saudis)\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C200",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_sat-admission.txt menu: \"Undergraduate Admissions / Home / New Applicant / Freshman\"; breadcrumb \"Home >\"; browser/result2_mobile_probes.json href \"https://www.pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx\"",
+  "reason": "The first item under 'Undergraduate Admissions' in the shared sidebar is labelled 'Home' but points to the undergraduate admissions landing page, while the breadcrumb 'Home' is the site home.",
+  "en_comment": "In the shared Admissions sidebar, the item labelled \"Home\" under Undergraduate Admissions opens the Undergraduate Admissions overview page, which can be confused with the site Home link in the breadcrumb.",
+  "en_fix": "Rename the menu item to \"Undergraduate Admissions Overview\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C201",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_fees_tf_ro.txt: \"Undergraduate Fees for / Continuing 2024-2025\"; pages/admission_fees_tf_ro_2024_2025.txt: \"Undergraduate Fees (For continuing students admitted before Fall Semester 2025/2026) Full-Time Students\"",
+  "reason": "The menu label carries an old year, but the target page defines its scope by admission cohort (admitted before Fall 2025/2026), so it may still be the applicable continuing-student fee rather than stale fees; currency needs Registration confirmation.",
+  "en_comment": "The Undergraduate Fees menu links to \"Undergraduate Fees for Continuing 2024-2025\"; the target page applies to students admitted before Fall 2025/2026, but the year label makes it look like an outdated fee schedule.",
+  "en_fix": "Relabel to describe the cohort (e.g. \"Continuing Students admitted before Fall 2025/2026\") or replace with the current-year continuing fees, as confirmed by the Registration Office.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C202",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P32.txt: \"Medical Program Fees / Fall Semester 2026/2027 / Fall Semester 2025/2026 / Continuing Students 2024–2025\"",
+  "reason": "The duplicate label is present in the in-page list; as with C201, the target content is cohort-based so 'outdated' is not proven.",
+  "en_comment": "The in-page list on Undergraduate Fees repeats the \"Continuing Students 2024–2025\" label, which suggests an old fee year although the content applies to students admitted before Fall 2025/2026.",
+  "en_fix": "Apply the same relabelling as the sidebar item.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C203",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_fees_tf_ro.txt: \"Payment Schedule / Spring Semester 2025/2026 / Summer Semester 2025/2026 / Fall Semester 2026/2027\"; payment_schedule_tf_ro_spring.txt deadlines \"01-Mar-2026 ... 10-May-2026\"",
+  "reason": "As of 10 Oct 2026 the Spring and Summer 2025/2026 schedules (deadlines Mar-May 2026) are for completed terms.",
+  "en_comment": "The Payment Schedule menu still lists Spring and Summer Semester 2025/2026 schedules, whose payment deadlines (March-May 2026) have passed.",
+  "en_fix": "Archive these links or replace them with the 2026/2027 Spring/Summer schedules when published.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C204",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_fees_tf_ro.txt: sidebar \"Undergraduate Fees Intake / 2026/2027\" ... \"Payment Schedule ... Fall Semester 2026/2027\" ... in-page \"Fall Semester 2026/2027\"",
+  "reason": "The same label 'Fall Semester 2026/2027' is used both for the intake-fee link (in-page list) and the payment-schedule link, while the sidebar calls the fee page 'Undergraduate Fees Intake 2026/2027'; the in-page link targets are not captured, and the auditor has sidebar/top-menu reversed.",
+  "en_comment": "On the Undergraduate Fees page, the in-page link to the 2026/2027 intake fees is labelled \"Fall Semester 2026/2027\" (the menu calls it \"Undergraduate Fees Intake 2026/2027\"), and the identical label is also used for the Fall payment-schedule link.",
+  "en_fix": "Label the in-page fee links \"Undergraduate Fees – Intake 2026/2027\" / \"Intake 2025/2026\" and keep \"Fall Semester\" for payment schedules only.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C205",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_fees_tf_ro.txt: sidebar \"Medical Program Studies\" ... in-page \"Medical Program Fees\"",
+  "reason": "Both labels are present; that they point to the same page is likely but the in-page href is not captured.",
+  "en_comment": "The medical fees page is labelled \"Medical Program Studies\" in the menu and \"Medical Program Fees\" in the page list.",
+  "en_fix": "Use one label, e.g. \"Medical Program Fees\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C206",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_fees_tf_ro.txt: \"Continuing 2024-2025\" ... \"Intake 2026/2027\" ... \"Continuing Students 2024–2025\"",
+  "reason": "Academic years appear with hyphen, en dash and slash on the same page.",
+  "en_comment": "Academic years on the Undergraduate Fees page are written in three formats (2024-2025, 2024–2025, 2026/2027).",
+  "en_fix": "Standardise on one format, e.g. \"2026/2027\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C207",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P32.txt: \"Post Graduate Fees\"",
+  "reason": "'Post Graduate' is a non-standard spelling of 'Postgraduate'.",
+  "en_comment": "The menu item \"Post Graduate Fees\" uses a non-standard spelling.",
+  "en_fix": "Change to \"Postgraduate Fees\" (or \"Graduate Fees\", matching \"Graduate Admissions\").",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C208",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P33.txt: \"Candidates with PMU recognized proficiency English language test certificates can verify the admission requirements on the following links IELTS requirements and TOEFL requirements.\"",
+  "reason": "The overview indeed states no minima, validity, Aptis scheduling or contact, but it links to the IELTS/TOEFL pages that hold the minima, so the gap is a convenience issue rather than missing information.",
+  "en_comment": "The Placement Tests overview gives no summary of minimum scores, validity, Aptis scheduling or an admissions contact, relying entirely on links to the individual test pages.",
+  "en_fix": "Add a short summary table (test, Core minimum, validity, how to submit) and an admissions contact.",
+  "severity_check": "LOWER"
+ },
+ {
+  "id": "C209",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P33.txt: \"Read more  about the current technology used for the English placement test Aptis.\"",
+  "reason": "Aptis is a test service, not a 'technology'; the phrasing is awkward.",
+  "en_comment": "The overview describes Aptis as \"the current technology used for the English placement test\".",
+  "en_fix": "Change to \"Read more about Aptis, the English placement test used by PMU.\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C210",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P33.txt: \"PMU has used international English language proficiency tests for admissions that ensure the accuracy of the outcomes.\"",
+  "reason": "Present-perfect 'has used' implies past practice and the sentence is awkward.",
+  "en_comment": "The sentence \"PMU has used international English language proficiency tests for admissions that ensure the accuracy of the outcomes\" uses an unsuitable tense and awkward wording.",
+  "en_fix": "Change to \"PMU uses internationally recognised English proficiency tests to place candidates accurately.\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C211",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"he/she will be required to take the IELTS through the PMU Testing Center or any other authorized testing center\"; P36: \"Core | 83 | 19\"; apply_raw_text.txt: \"TOEFL iBT: Overall 83, Writing 19\"",
+  "reason": "The Aptis page names IELTS as the only route to direct Core entry, while P36 and /apply accept TOEFL iBT 83/19 for the same undergraduate applicants.",
+  "en_comment": "The Aptis page states that candidates seeking direct entry to the Core Program \"will be required to take the IELTS\", although the TOEFL and Apply pages also accept TOEFL iBT (83 overall, 19 writing).",
+  "en_fix": "Change to \"…will be required to submit a valid IELTS Academic or TOEFL iBT result meeting the Core minimum (see the IELTS and TOEFL pages).\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C212",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Based on candidates overall and writing scores, they will be placed on one of the following levels: ... Level / Pre Beginner / Beginner / Intermediate / Advanced\"",
+  "reason": "The Aptis level table lists only level names with no score or CEFR bands, unlike the IELTS and TOEFL pages.",
+  "en_comment": "The Aptis page says placement depends on overall and writing scores but its level table shows no Aptis score or CEFR thresholds, unlike the IELTS and TOEFL pages.",
+  "en_fix": "Add the Aptis overall/writing score (or CEFR) range for each level, as set by the Admissions Office.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C213",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"they will be scheduled to take Aptis test (visit Aptis webpage)\" ... \"The duration of the placement test is approximately 4 hours.\"; P05: \"End of Placement Test & Retake | 2026-07-05\"",
+  "reason": "No scheduling procedure, fee, retake rule, validity or contact is given (only duration), and the only published placement window (17 May–5 Jul 2026) has passed.",
+  "en_comment": "The Aptis page says candidates \"will be scheduled\" for the test but gives no scheduling procedure, fee, retake rule, result validity or contact, and the only published test window (17 May–5 July 2026) has ended.",
+  "en_fix": "Add the scheduling process, fee (or none), retake rule, validity, contact and current test dates.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C214",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Pre Beginner\"; P35/P36/P26/P30: \"Pre-Beginner\"",
+  "reason": "P34 omits the hyphen used on all other pages.",
+  "en_comment": "The Aptis level table writes \"Pre Beginner\", while the other pages use \"Pre-Beginner\".",
+  "en_fix": "Change to \"Pre-Beginner\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C215",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Based on candidates overall and writing scores\"",
+  "reason": "Missing possessive apostrophe.",
+  "en_comment": "\"Based on candidates overall and writing scores\" is missing a possessive apostrophe.",
+  "en_fix": "Change to \"Based on candidates' overall and writing scores\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C216",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Aptis is an English language test service provided by British Council\"",
+  "reason": "Missing definite article before 'British Council'.",
+  "en_comment": "\"provided by British Council\" is missing the definite article.",
+  "en_fix": "Change to \"provided by the British Council\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C217",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Once the candidates meet the admission’s general requirements, they will be scheduled to take Aptis test\"",
+  "reason": "Incorrect possessive ('admission’s') and missing article before 'Aptis test'.",
+  "en_comment": "\"Once the candidates meet the admission’s general requirements, they will be scheduled to take Aptis test\" contains an incorrect possessive and a missing article.",
+  "en_fix": "Change to \"Once candidates meet the general admission requirements, they will be scheduled to take the Aptis test\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C218",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P34.txt: \"Candidates are highly encouraged to visit the below links to explore the Aptis before sitting for the test.\"",
+  "reason": "'explore the Aptis' is awkward phrasing.",
+  "en_comment": "\"explore the Aptis before sitting for the test\" is awkwardly phrased.",
+  "en_fix": "Change to \"explore the Aptis test format before sitting the test\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C219",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P35.txt: \"if the candidate provides a valid  IELTS  certificate (Academic version)\" ... \"The validation of the IELTS certificate | Two years...\"; P36: \"The original TOEFL iBT report has to be sent directly from ETS to PMU\"",
+  "reason": "The IELTS page gives no submission/verification method or position on IELTS Online/One Skill Retake, while the TOEFL page specifies direct sending and excludes home editions.",
+  "en_comment": "The IELTS page does not explain how scores must be submitted or verified, or whether IELTS Online or One Skill Retake results are accepted, whereas the TOEFL page specifies these points.",
+  "en_fix": "State how IELTS results are submitted/verified (e.g. TRF number or e-download to PMU) and which IELTS formats are accepted.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C220",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P35.txt: \"might be admitted to different level in the Preparatory Program ... successfully meets one of the below requirements of the categories below:\"",
+  "reason": "Missing article and duplicated 'below'.",
+  "en_comment": "The IELTS page sentence \"might be admitted to different level … meets one of the below requirements of the categories below\" is missing an article and repeats \"below\".",
+  "en_fix": "Change to \"may be admitted to a different level … meets one of the requirements below:\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C221",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P35.txt: \"The validation of the IELTS certificate | Two years from the date of IELTS test\"",
+  "reason": "'Validation' is the wrong word; 'validity' is meant.",
+  "en_comment": "The table row \"The validation of the IELTS certificate\" uses \"validation\" where \"validity\" is meant.",
+  "en_fix": "Change to \"Validity of the IELTS certificate\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C222",
+  "verdict": "NOT_VERIFIABLE",
+  "evidence": "rendered/pages/P36.txt: \"LEVEL | TOEFL iBT Overall | TOEFL iBT Writing / Core | 83 | 19\"",
+  "reason": "The page uses 0–120/0–30 thresholds as stated, but the claim that ETS moved to a 1–6 scale in January 2026 is an external fact not in the evidence.",
+  "en_comment": "",
+  "en_fix": "",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C223",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P36.txt: \"might be admitted to different level in the Preparatory Program ... meets one of the below minimum requirements of the categories below:\"",
+  "reason": "Same missing article and duplicated 'below' as on P35.",
+  "en_comment": "The TOEFL page sentence \"might be admitted to different level … one of the below minimum requirements of the categories below\" is missing an article and repeats \"below\".",
+  "en_fix": "Change to \"may be admitted to a different level … meets one of the minimum requirements below:\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C224",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P36.txt: \"The validation of the TOEFL iBT report | Two years from the date of TOEFL iBT test\"",
+  "reason": "'Validation' is used where 'validity' is meant.",
+  "en_comment": "The table row \"The validation of the TOEFL iBT report\" uses \"validation\" where \"validity\" is meant.",
+  "en_fix": "Change to \"Validity of the TOEFL iBT report\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C225",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P36.txt: \"the commencement date of the applied semester\" (blank lines) \"(online or home edition is not accepted)\" / \"The original TOEFL iBT report has to be sent directly from ETS to PMU\"",
+  "reason": "The parenthetical follows the validity row and is lower-case/imprecise, but in the rendered text it sits after a gap beside the submission note, so reading it as part of the validity rule is plausible rather than certain.",
+  "en_comment": "The note \"(online or home edition is not accepted)\" appears as a loose parenthetical directly after the validity row and does not use the official product name.",
+  "en_fix": "Make it a separate line: \"Not accepted: TOEFL iBT Home Edition.\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C227",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P37.txt: \"Software Engineering, Artificial Intelligence, Mechanical Engineering, Electrical Engineering and Civil Engineering etc.\"; P31: list without AI and without \"etc.\"",
+  "reason": "P37 and P31 give different lists for the same specific-requirement group, and the open-ended 'etc.' leaves coverage undefined.",
+  "en_comment": "The SAT page lists the majors with specific requirements including Artificial Intelligence and ending in \"etc.\", while the CS & Engineering requirements page gives a different, closed list without AI.",
+  "en_fix": "Publish one definitive list on P31, P37 and /apply and remove \"etc.\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C228",
+  "verdict": "CONFIRMED",
+  "evidence": "excluded.json: {\"url\": \"https://www.etec.gov.sa/en/service/theHumanitiesTrack/servicegoal\", \"t\": \"Tahseely\", \"from\": \"https://www.pmu.edu.sa/admission/sat-admission\"}",
+  "reason": "The 'Tahseely' link for science/engineering majors points to the ETEC Humanities Track URL (destination content not checked, but the path itself names the humanities track).",
+  "en_comment": "On the SAT page, the \"Tahseely\" link, given in the context of science and engineering majors, points to ETEC's Humanities Track page.",
+  "en_fix": "Point the link to the ETEC Tahseely scientific-track page or the general Tahseely page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C229",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P37.txt: \"Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests.\" ; P35/P36: \"Two years from the date of ... test\"",
+  "reason": "The SAT page states no validity period and no rule on total vs superscore, unlike the IELTS/TOEFL pages which state 2-year validity.",
+  "en_comment": "The SAT page states a 1200 minimum but gives no score validity period or whether superscores are accepted, whereas the IELTS and TOEFL pages state a two-year validity.",
+  "en_fix": "Add the SAT validity period and score-calculation rule (single sitting or superscore).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C230",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P37.txt: \"may wave one or more of the mathematics courses\"; \"Introductory Algebra | Wave | Wave\" ... \"Pre-Calculus | N/A | Wave\"",
+  "reason": "'wave' appears once in the text and four times in the table (5 total), misspelling 'waive'.",
+  "en_comment": "The SAT page misspells \"waive\" as \"wave\" five times (once in the text and four times in the course table).",
+  "en_fix": "Change to \"waive\" in the text and \"Waived\" in the table.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C231",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P37.txt: \"SCHOLASTIC APTITUDE TEST\" / \"Scholastic Aptitude Test (SAT)\"; P31: \"(SAT 1)\"; apply_raw_text.txt: \"Qudrat / SAT 1\"",
+  "reason": "The inconsistent naming (expanded name vs 'SAT 1') is verified; that the expansion is obsolete is an external fact not in evidence.",
+  "en_comment": "The test is called \"Scholastic Aptitude Test (SAT)\" on the SAT page but \"SAT 1\" on the requirements and Apply pages; the College Board now uses simply \"SAT\".",
+  "en_fix": "Use \"SAT\" consistently across P37, P31, P08 and the Admissions overview.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C232",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P37.txt: \"However, some majors require specific level of certain skills to apply for these specializations.\"",
+  "reason": "Missing indefinite article (same sentence also on P31).",
+  "en_comment": "\"some majors require specific level of certain skills\" is missing an article (the same sentence appears on the CS & Engineering requirements page).",
+  "en_fix": "Change to \"some majors require a specific level of certain skills\" on both pages.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C233",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P37.txt: \"Introductory Algebra | Wave | Wave / Intermediate Algebra | N/A | Wave / Pre-Calculus | N/A | Wave\"; P30: \"PRPM 0011 – Introductory Algebra\"",
+  "reason": "P37 names the courses without the PRPM codes used on P30.",
+  "en_comment": "The SAT waiver table names the mathematics courses without the course codes (PRPM 0011/0012/0022) used on the Preparatory Program page.",
+  "en_fix": "Add the course codes, e.g. \"PRPM 0011 Introductory Algebra\".",
+  "severity_check": "OK"
+ }
+]

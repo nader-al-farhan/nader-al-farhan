@@ -1,0 +1,389 @@
+[
+ {
+  "id": "C147",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P22.txt: \"Graduate FULL-TIME Students Tuition\" ... \"EMBA | SAR 60,000 | SAR 75,000\"; later \"EMBA Starting from Fall Semester (2025/2026) | 1,818.18 SAR /Credit hour\" (60,000/1,818.18 = 33)",
+  "reason": "The main table gives lump sums with no basis (per programme/year/semester), the arithmetic implies whole-programme totals, and only full-time tuition is published although P14 says the MBA can be taken part-time.",
+  "en_comment": "The graduate tuition table lists amounts (e.g., EMBA SAR 60,000) without stating whether they are per programme, per year or per semester, and no part-time tuition is published even though the MBA is offered part-time.",
+  "en_fix": "Label the column \"Total programme tuition\", state the payment schedule/instalments, and add part-time fees (or state that part-time students pay the per-credit-hour rate).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C148",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P22.txt: \"Not successfully completing a course in Graduate program ... and having to repeat it will cost as per the credit hour fee as follows:\" followed by two per-credit-hour tables",
+  "reason": "The only lead-in to the per-credit-hour tables concerns repeated courses, so readers cannot tell whether these are general credit-hour rates.",
+  "en_comment": "The per-credit-hour tables are introduced only as the cost of repeating a failed course, so it is unclear whether they are also the standard credit-hour rates.",
+  "en_fix": "Retitle as \"Per-credit-hour rates (also applied to repeated courses)\" or clarify their scope.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C149",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P22.txt: \"Master of Science in Human Development | SAR 50,000\" vs \"Master of Science in Education and Human Development | 1,191 SAR /Credit hour\"",
+  "reason": "The same programme appears under two different names on the same page.",
+  "en_comment": "The same programme is named \"Master of Science in Human Development\" in one table and \"Master of Science in Education and Human Development\" in another on the same page.",
+  "en_fix": "Use the official programme name consistently.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C150",
+  "verdict": "CONFIRMED",
+  "evidence": "P22: \"Doctoral program in Mechanical Engineering (72)\"; P11: \"PhD in Mechanical Engineering\"; P10: \"Admissions to the Doctorate in Mechanical Engineering Program\"",
+  "reason": "Three different names are used for the same doctoral programme across P22, P11 and P10.",
+  "en_comment": "The mechanical engineering doctorate is called \"Doctoral program\" on the fees page, \"PhD\" on its admissions page and \"Doctorate\" on the graduate programmes page.",
+  "en_fix": "Use one name, e.g. \"PhD in Mechanical Engineering\", on all pages.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C151",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P22.txt: \"1,818.18 SAR\" / \"2,083.3 SAR\" / \"2,424.25 SAR\" / \"1,191 SAR\" / \"2,167 SAR\"",
+  "reason": "Credit-hour rates are shown with 0, 1 or 2 decimal places on the same page.",
+  "en_comment": "Per-credit-hour rates are shown with inconsistent precision (e.g., 2,083.3 vs 1,818.18 vs 1,191 SAR).",
+  "en_fix": "Show all rates with two decimal places (e.g., 2,083.33 SAR).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C152",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P22.txt: \"EMBA - Continuing Students ... | 1,334 SAR /Credit hour | 1,667 SAR\" vs \"MBA - Continuing Students ... | 1,354 SAR /Credit hour | 1,667 SAR\"",
+  "reason": "The figures exist as quoted, but EMBA and MBA are different programmes whose new-student rates also differ (1,818.18 vs 1,805.55), so a SAR 20 difference is not by itself a contradiction; it can only be flagged for confirmation.",
+  "en_comment": "The alumni per-credit-hour rates for continuing EMBA (SAR 1,334) and MBA (SAR 1,354) students differ by SAR 20 while their non-alumni rates are identical (SAR 1,667); please confirm both figures are intended.",
+  "en_fix": "Confirm the two continuing-student alumni rates and correct if one is a typo.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C153",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P23.txt: \"Graduate Study Admission Coordinator / Office: G-017 Admin Bld / Email: graduateadm@pmu.edu.sa\"",
+  "reason": "The contact page gives only an office code and an email, with no phone, hours or campus, and an abbreviated building name.",
+  "en_comment": "The graduate admissions contact page lists only an email and \"Office: G-017 Admin Bld\", with no telephone number, office hours or campus (male/female) information.",
+  "en_fix": "Add the office phone number, working hours, campus details and the full building name.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C154",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P23.txt sidebar: \"Web Admission Guide\"; browser/result2_mobile_probes.json: \"https://www.pmu.edu.sa/PDF/Viewer.aspx?ID=203\"",
+  "reason": "The Web Admission Guide link is present in the P23 sidebar, but the PDF's text (2011 copyright, undergraduate-only scope) is not in the local evidence, so the staleness claim cannot be verified here.",
+  "en_comment": "The graduate contact page sidebar links to a \"Web Admission Guide\" (PDF ID=203) whose currency and relevance to graduate applicants should be checked; it is reported to date from 2011 and to cover undergraduate applicants only.",
+  "en_fix": "Review the guide; update it or remove it from graduate pages if outdated.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C155",
+  "verdict": "CONFIRMED",
+  "evidence": "crawl/admission_page_dom.json: \"t\": \"Contact Info\", \"raw\": \"../Admission/Admission_Contact_GDP.aspx\"; pages/admission_college_of_medicine_admission.txt sidebar ends \"Apply Now / Contact Info\"; P23 lists only \"Graduate Study Admission Coordinator\"",
+  "reason": "The shared sidebar's generic \"Contact Info\" item points to the graduate-only contact page, so undergraduate applicants on P25-P31 get no undergraduate contact.",
+  "en_comment": "The \"Contact Info\" item in the admissions sidebar, shown on all undergraduate admission pages, leads to the Graduate Degree Programs contact page, which lists only the graduate admissions coordinator.",
+  "en_fix": "Point \"Contact Info\" to a general/undergraduate admissions contact page, or add undergraduate contacts to the target page.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C156",
+  "verdict": "PARTIAL",
+  "evidence": "pages/admission_college_of_medicine_admission.txt sidebar: \"Web Admission Guide\"; probes: \"https://www.pmu.edu.sa/PDF/Viewer.aspx?ID=203\"; scope_inventory.csv: /apply \"redirects to https://admissions.pmu.edu.sa/welcome\"",
+  "reason": "The menu link exists on the undergraduate pages and the current route is /apply, but the guide PDF's content (2011, it@ contact) is not captured locally, so obsolescence is not verifiable from evidence.",
+  "en_comment": "The \"Web Admission Guide\" link in the admissions sidebar opens a PDF (ID=203) that is reported to date from 2011 and may describe a superseded online application system rather than the current /apply portal.",
+  "en_fix": "Verify the guide; replace it with a current application guide or remove the link.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C157",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P24.txt: \"PMU offers various degrees under the College of Architecture and Design, College of Computer Engineering and Science, College of Business Administration, College of Law and College of Engineering.\"; same page: \"College of Medical Admissions\"",
+  "reason": "The list omits the College of Medicine, which has its own admissions block on the same page; however, the College of Sciences and Human Studies is not mentioned in P24's body and appears on P04 only under Graduate Programs (MSHD), so its omission is less certain.",
+  "en_comment": "The \"Undergraduate Program\" summary lists five colleges but omits the College of Medicine, even though the same page has a College of Medicine admissions section.",
+  "en_fix": "Add the College of Medicine (and the College of Sciences and Human Studies if it offers undergraduate degrees).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C158",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P24.txt: \"College of Medical Admissions\" / \"The PMU College of Medical curriculum is based on a 7-year hybrid model\"; P25 title: \"ADMISSIONS TO THE COLLEGE OF MEDICINE\"",
+  "reason": "The college is misnamed \"College of Medical\" while the destination page uses \"College of Medicine\".",
+  "en_comment": "The undergraduate admissions page refers to the \"College of Medical\" instead of the \"College of Medicine\".",
+  "en_fix": "Replace \"College of Medical\" with \"College of Medicine\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C159",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P24.txt: \"This 7-year curriculum combines a variety of course-type: (Read more)\"",
+  "reason": "The sentence ends in a colon with no list and uses \"course-type\" instead of \"course types\".",
+  "en_comment": "The College of Medicine summary ends with \"combines a variety of course-type:\" followed by no list, which reads as truncated and ungrammatical.",
+  "en_fix": "Rewrite as a complete sentence, e.g. \"...combines a variety of course types. (Read more)\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C160",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P24.txt: \"Admission to each of the undergraduate program is based on different criteria.\"",
+  "reason": "Grammatical error: \"each of the\" requires a plural noun.",
+  "en_comment": "The sentence \"Admission to each of the undergraduate program is based on different criteria\" is ungrammatical.",
+  "en_fix": "Change to \"each of the undergraduate programs\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C161",
+  "verdict": "CONFIRMED",
+  "evidence": "P24: \"Computer Science and Engineering Majors Admission Requirements\"; P31: \"These majors are Architecture, Computer Science, Computer Engineering, Software Engineering...\"; P08: \"AI and Computer Science, Architecture and Engineering Majors\"",
+  "reason": "The link label omits Architecture (covered by the destination page) and AI (named on /apply).",
+  "en_comment": "The link \"Computer Science and Engineering Majors Admission Requirements\" does not reflect that the destination also covers Architecture, and the apply page names AI among these majors.",
+  "en_fix": "Rename to \"AI, Computer Science, Architecture and Engineering Majors Admission Requirements\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C162",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P05.txt: \"Fall 2026-2027 ... Last day for Freshman and Re-Admitting applicants to Apply Online | 2026-06-24 ... First day of classes | 2026-08-30\"",
+  "reason": "As of the 10 Oct 2026 capture the only calendar shown is Fall 2026-27, all of whose dates have passed, and no Spring 2027 or next-cycle dates exist.",
+  "en_comment": "The admissions calendar linked from the undergraduate page shows only the Fall 2026-2027 cycle, whose application deadlines and start date have already passed, with no dates for the next intake.",
+  "en_fix": "Publish the next admission cycle (e.g., Spring 2027 / Fall 2027) or state when it will open.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C164",
+  "verdict": "CONFIRMED",
+  "evidence": "P24: \"attested, in advance, by the Saudi Consulate and other authorized organizations\"; pages_v5/apply_raw_text.txt: \"Have the certificate stamped by the Saudi Embassy in their country\"",
+  "reason": "Two pages name different attesting authorities (Consulate vs Embassy) for the same requirement; minor wording difference.",
+  "en_comment": "The undergraduate page requires attestation by the \"Saudi Consulate\" while the apply page says the certificate must be stamped by the \"Saudi Embassy\".",
+  "en_fix": "Use one formulation, e.g. \"attested by the Saudi Embassy or Consulate\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C165",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt: \"*20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score\"",
+  "reason": "\"were\" should be \"where\" and it is unclear whether 86 is the minimum weighted score or the final composite.",
+  "en_comment": "The note \"20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score\" contains a typo and does not make clear which score must be at least 86.",
+  "en_fix": "\"...where 86 is the minimum acceptable total weighted score\" (confirm intended meaning).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C166",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P25.txt: \"admissions to College of Medical major ... the process typically involves understanding the weighting ... Here’s how each factor can contribute\" followed by \"Total weighted score* | 60% / Interview | 40%\"",
+  "reason": "The paragraph is generic and misnames the college, but the rule (60% weighted score + 40% interview) is stated in the table directly below it, so \"does not state the rule\" is overstated; AI authorship is speculative.",
+  "en_comment": "The admission-criteria paragraph uses vague, generic wording (\"the process typically involves...\") and the misnomer \"College of Medical major\" instead of stating the selection rule plainly.",
+  "en_fix": "Replace with: \"Applicants are ranked by a composite of total weighted score (60%) and interview (40%).\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C167",
+  "verdict": "PARTIAL",
+  "evidence": "P25: \"Pay a non-refundable application fee of SAR 1000 (incl. VAT)\"; P24/P26/P27/P28/P29/P31: \"SAR 950 (incl. VAT)\"; P08: \"application fee of SAR 950\"",
+  "reason": "The figures differ as stated, but Medicine is a distinct programme so a higher fee may be intentional; the issue is that it is not labelled as Medicine-specific.",
+  "en_comment": "The College of Medicine page states an application fee of SAR 1,000 while all other undergraduate pages and the apply page state SAR 950, without explaining that the higher fee applies to Medicine only.",
+  "en_fix": "Confirm the Medicine fee and label it \"College of Medicine applicants only\" (and mention it on /apply).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C168",
+  "verdict": "PARTIAL",
+  "evidence": "crawl/scope_inventory.csv: \"https://www.uap.sa/ ... admission/college_of_medicine_admission\"; P05: \"For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/\"",
+  "reason": "The Medicine page does link to uap.sa and the calendar directs Saudi students there, but the link targets of other pages' \"Complete online application\" items are not captured, so the cross-page inconsistency is only partly verifiable.",
+  "en_comment": "The College of Medicine page sends applicants to the national Qabool platform (uap.sa), consistent with the admissions calendar, while other undergraduate pages point to PMU's own Apply Now route, leaving the correct channel unclear.",
+  "en_fix": "State one application channel per applicant group (Saudi via uap.sa, non-Saudi via Study in Saudi/PMU portal) on all undergraduate pages.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C169",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt: \"Copy of General Aptitude Test score report (Qudrat) (80) or equivalent (SAT 1)\" / \"(SAAT – Tahseely) (80) or equivalent (SAT 1) 1300\"",
+  "reason": "SAT 1 is offered as the equivalent of both Qudrat (no score) and Tahseely (1300), so it is unclear whether one SAT score replaces both tests.",
+  "en_comment": "SAT 1 is listed as an equivalent for both Qudrat (no score given) and Tahseely (1300), so it is unclear whether a single SAT 1 score of 1300 replaces both tests.",
+  "en_fix": "Clarify, e.g. \"SAT 1 ≥ 1300 may replace both Qudrat and Tahseely\" (to be confirmed).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C170",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt How to Apply lists only: application, documents, school certificate (95%), Qudrat, Tahseely, \"Copy of Saudi ID or Iqama\", passport, \"SAR 1000\" fee - no IELTS/TOEFL, photos, Family ID or no-objection letter",
+  "reason": "The Medicine requirements list has no English-proficiency or medical-fitness requirement and omits documents required on all other undergraduate pages.",
+  "en_comment": "The College of Medicine \"How to Apply\" list does not state any English proficiency requirement or medical/fitness requirement, and omits documents (photos, Family ID, employer no-objection letter) required on other undergraduate pages.",
+  "en_fix": "Add the English requirement and any medical-fitness requirement, and align the document list (or state that it differs).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C171",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt: \"Population Health (to be developed in launch phase)\" (appears in Year 5 list and Year 6 electives)",
+  "reason": "An internal planning note remains twice in the public curriculum.",
+  "en_comment": "The curriculum lists \"Population Health (to be developed in launch phase)\" twice, which reads as an internal planning note.",
+  "en_fix": "Remove the note or state the course's current status.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C172",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_college_of_medicine_admission.txt: \"Block 9: Transition to Clerkship (Part 1 of CCC – see section below for explanation of CCC)\"; only other mention: \"Clinical Intersections (Part 2 of CCC)\"",
+  "reason": "The page refers to a section explaining CCC that does not exist.",
+  "en_comment": "Block 9 refers readers to \"see section below for explanation of CCC\", but no such section exists and the acronym CCC is never defined.",
+  "en_fix": "Spell out CCC and add the explanation or remove the cross-reference.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C173",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt: \"Elective Rotations\" / \"Surgery 8 weeks (Two 4-week electives)\" / \"Required Rotations\" / \"Advanced Surgery and one of the following electives:\" ... \"Vascular Surgery (2-week elective)\"",
+  "reason": "The Year 6 headings are ordered confusingly (\"Elective Rotations\" then \"Required Rotations\" within each block), and 2-week items sit inside blocks described as two 4-week electives.",
+  "en_comment": "The Year 6 rotation structure is confusing: \"Elective Rotations\" and \"Required Rotations\" headings alternate inconsistently, and some options are labelled \"2-week elective\" within blocks described as \"Two 4-week electives\".",
+  "en_fix": "Restructure Year 6 as a table (rotation, weeks, required vs elective component).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C174",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P25.txt: \"The PMU College of Medical curriculum ... combines a variety of course-type:\"",
+  "reason": "Same misnomer and grammar error as on P24.",
+  "en_comment": "The College of Medicine page itself calls the college \"College of Medical\" and uses \"a variety of course-type\".",
+  "en_fix": "\"The PMU College of Medicine curriculum ... combines a variety of course types.\"",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C175",
+  "verdict": "CONFIRMED",
+  "evidence": "P26: \"Submit documents before due date\"; P05 only: \"Fall 2026-2027 ... Last day for Transfer applicants to submit documents in person | 2026-07-20\"",
+  "reason": "The deadline referenced is only defined in a calendar whose dates have all passed.",
+  "en_comment": "The preparatory programme page asks applicants to \"Submit documents before due date\", but the only published due dates (Fall 2026-2027) have already passed.",
+  "en_fix": "Link to and publish the next cycle's document deadline.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C176",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P26.txt: \"mathematics and learning skills**\" ... \"**Based on the student’s English level, the following study skills courses are required:\"",
+  "reason": "The footnote marker is on \"learning skills\" while the footnote speaks of \"study skills\"; minor terminology inconsistency.",
+  "en_comment": "The text marks \"learning skills**\" but the footnote refers to \"study skills courses\", using two terms for the same component.",
+  "en_fix": "Use \"study skills\" consistently.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C177",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P26.txt: \"How to Apply:\" / \"Completed online application\"; P27: \"How to Apply:\" / \"Complete online application\"",
+  "reason": "The step list uses a past participle instead of the imperative used on other pages.",
+  "en_comment": "Under \"How to Apply\" the first step reads \"Completed online application\" instead of the instruction \"Complete online application\" used on other pages.",
+  "en_fix": "Change to \"Complete online application\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C178",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P27.txt: \"Copy of Saudi ID\"; P26 and P28: \"Copy of Saudi ID or “Iqama” (for Non-Saudis)\"",
+  "reason": "The freshman page omits the Iqama option for non-Saudis that other undergraduate pages include.",
+  "en_comment": "The freshman (direct admission) page requires a \"Copy of Saudi ID\" only, without the \"or Iqama (for non-Saudis)\" option given on the other undergraduate pages.",
+  "en_fix": "\"Copy of Saudi ID or Iqama (for non-Saudis)\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C179",
+  "verdict": "CONFIRMED",
+  "evidence": "P27: \"A valid IELTS certificate (Academic version) with Minimum scores of 6.0 overall and 5.5 in writing.\" and \"...or equivalent TOEFL iBT (Learn more)\"; P08: \"TOEFL iBT: Overall 83, Writing 19\"; P36: \"Core | 83 | 19\"",
+  "reason": "The criteria list IELTS only and the TOEFL alternative has no score, while P08/P36 state 83/19.",
+  "en_comment": "The freshman admission criteria mention only IELTS, and the TOEFL iBT alternative is given without minimum scores, although other pages specify TOEFL iBT 83 overall and 19 in writing.",
+  "en_fix": "Add \"or TOEFL iBT 83 overall and 19 in writing\" to both the criteria and How to Apply.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C180",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P28.txt: \"In order to be consider as a transfer candidate\"",
+  "reason": "Grammatical error.",
+  "en_comment": "The transfer page reads \"In order to be consider as a transfer candidate\".",
+  "en_fix": "\"In order to be considered as a transfer candidate\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C181",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P28.txt: \"The total GPA is 2.0 out of 4.0 from the previous institution\"",
+  "reason": "The GPA requirement is phrased as a statement of fact rather than a minimum threshold.",
+  "en_comment": "The transfer eligibility item \"The total GPA is 2.0 out of 4.0 from the previous institution\" does not state that 2.0 is a minimum.",
+  "en_fix": "\"Minimum cumulative GPA of 2.0 out of 4.0 at the previous institution\" (confirm).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C182",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P28.txt: \"...or equivalent TOEFL iBT with acceptable scores (read more...)\"; P08: \"TOEFL iBT: Overall 83, Writing 19\"",
+  "reason": "The TOEFL score is not stated on the transfer page.",
+  "en_comment": "The transfer page accepts \"TOEFL iBT with acceptable scores\" without stating the required scores.",
+  "en_fix": "State \"TOEFL iBT 83 overall and 19 in writing\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C183",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P28.txt: \"international university or can be a college/community college in a Western country (Associate Degree or above)\"",
+  "reason": "\"Western country\" is undefined, leaving eligibility of institutions unclear.",
+  "en_comment": "Transfer eligibility refers to a \"college/community college in a Western country\", an undefined term that leaves it unclear which institutions qualify.",
+  "en_fix": "Define the accepted institutions objectively (e.g., accredited institutions recognised by the Ministry of Education).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C184",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P00.txt: \"Visting Students\"; crawl/admission_page_dom.json: \"t\": \"Visting Students\", \"raw\": \"../Admission/Visiting-Student-Admission.aspx\"",
+  "reason": "The misspelling is in the link text on the parent Admissions page (P00) that points to P29, not on P29 itself.",
+  "en_comment": "The link to the visiting-student page on the main Admissions page is misspelled \"Visting Students\".",
+  "en_fix": "Correct to \"Visiting Students\".",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C185",
+  "verdict": "CONFIRMED",
+  "evidence": "pages/admission_visiting-student-admission.txt: \"TITLE: Visiting Student Admission :: Undergraduate :: Admission Office\" / breadcrumb \"Admission Office > Undergraduate > Visiting Student Admissions\"",
+  "reason": "P29 is the only page using \"Admission Office\" in its title/breadcrumb; \"Undergraduate\" instead of \"Undergraduate Admissions\" also appears on P30.",
+  "en_comment": "The visiting-student page title and breadcrumb use \"Admission Office\" and \"Undergraduate\", unlike the \"Admissions Office\" / \"Undergraduate Admissions\" naming used elsewhere.",
+  "en_fix": "Use \"Admissions Office > Undergraduate Admissions\" consistently.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C186",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P29.txt: \"...or equivalent to TOEFL iBT (learn more...), if the medium of instruction at the home institute is other than English\"; earlier: \"approval from the home institution\"",
+  "reason": "No TOEFL score is given and \"home institute\" is used alongside \"home institution\".",
+  "en_comment": "The visiting-student English requirement gives no TOEFL iBT scores and alternates between \"home institute\" and \"home institution\".",
+  "en_fix": "State TOEFL iBT 83/19 and use \"home institution\" throughout.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C187",
+  "verdict": "CONFIRMED",
+  "evidence": "P29: \"Submit documents before due date\"; P05 events cover only Freshman, Re-Admitting and Transfer applicants, e.g. \"Last day for Transfer applicants to submit documents in person | 2026-07-20\"",
+  "reason": "The calendar has no visiting-student deadline and its only cycle has passed.",
+  "en_comment": "The visiting-student page asks applicants to submit documents \"before due date\", but the admissions calendar gives no visiting-student deadline and only lists past Fall 2026 dates.",
+  "en_fix": "Publish a visiting-student deadline per semester.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C188",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P30.txt: \"College of Engineering* | Yes | No | Yes\" ... \"College of Computer Engineering & Science** | Yes | No | Yes\" ... \"College of Architecture & Design* | Yes | Yes | No\" ... \"* Department of Information Technology is excluded from PRPM 0022\" / \"** Department of Architecture is excluded from PRPM 0012\"",
+  "reason": "The asterisks attach footnotes to the wrong rows, and Architecture & Design shows PRPM 0012 \"Yes\" while the footnote says Architecture is excluded from it.",
+  "en_comment": "In the preparatory mathematics table the footnote markers do not match their notes (the IT note is attached to Engineering and Architecture & Design, the Architecture note to Computer Engineering & Science), and Architecture & Design shows PRPM 0012 as required while the footnote says Architecture is excluded.",
+  "en_fix": "Correct the markers and table values after confirming which maths courses Architecture requires.",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C189",
+  "verdict": "CONFIRMED",
+  "evidence": "rendered/pages/P30.txt: \"Successfully pass the EXIT exam\"",
+  "reason": "The progression criterion names an EXIT exam without describing it or giving a pass mark.",
+  "en_comment": "The criteria to progress from the Preparatory Program require students to \"Successfully pass the EXIT exam\" but do not describe the exam or its passing score.",
+  "en_fix": "Describe the EXIT exam and state the passing score (or link to it).",
+  "severity_check": "OK"
+ },
+ {
+  "id": "C190",
+  "verdict": "PARTIAL",
+  "evidence": "rendered/pages/P30.txt table rows: Engineering, Business Administration, Computer Engineering & Science, IT, Sciences & Human Studies, Architecture & Design, Interior Design; P04 lists \"B.S. in Artificial Intelligence\" under College of Computer Engineering and Science",
+  "reason": "No Medicine row exists, but AI belongs to the College of Computer Engineering & Science, which has a row, so a separate AI row is not clearly missing.",
+  "en_comment": "The preparatory-to-undergraduate mathematics table has no entry for the College of Medicine (and does not indicate whether AI follows the Computer Engineering & Science requirement).",
+  "en_fix": "Add a College of Medicine row (or state Medicine is excluded) and clarify AI's requirement.",
+  "severity_check": "OK"
+ }
+]
