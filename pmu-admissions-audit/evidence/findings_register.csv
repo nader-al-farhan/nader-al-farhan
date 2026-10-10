@@ -62,3 +62,6 @@ F-61,Low,EML/IN*,degrees_programs_fs_ro; email,Graphic Design: إناث فقط �
 F-62,Medium,EML/IN*,student_fees_tf_ro; email,Aptis: SAR 575 حي مقابل 950 مطلوب,live: APTIS Exam Fees SAR 575,تأكيد المبلغ,OPEN – verified conflict; needs decision
 F-63,High,EML,Amendment chain Jun 2025–Sep 2026,طلبات تعديل بلا مُعتمِد أو تاريخ تنفيذ مسجل,no approval record found,تعيين مالك ومسار اعتماد,OPEN – governance gap
 F-64,Low,EML,Data-flow draft Feb 2026,مسودة غير منشورة بخطأ إملائي TOFEL,typo in draft,تصحيح قبل النشر,OPEN – verified
+F-65,Medium,IN,admission page 'Contact Us' → faculty.pmu.edu.sa DepartmentStaffList/4,Contact Us يقود لقائمة شؤون الطلاب بلا مسمى قبول,15 entries; titles Registration/Career/Campus Life; none Admissions,ربط بجهة اتصال القبول,OPEN – verified; no remediation (no publish authority)
+F-66,Low,IN,Staff_List?DEpt=4&Name=Staff Name,إدخال موظف مكرر + معامل placeholder مهمل,duplicate entry; Name=Staff Name dropped on redirect,تنظيف,OPEN – verified; no remediation (no publish authority)
+F-67,Low,IN*,/default,فقرة NCAAA مكررة في الاستخراج (JS؛ غير مؤكد بصريًا),text extraction shows paragraph twice,فحص بصري,OPEN – needs visual confirmation
