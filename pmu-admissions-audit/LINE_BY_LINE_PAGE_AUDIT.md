@@ -109,7 +109,7 @@
 | T37 | `/admission/sat-admission` | 200 | 66 | PASS مع تحفظات | F-35,F-14 | "SAT … minimum score of 1200 instead of Qudrat and Tahseely"؛ جدول إعفاء الرياضيات 400–499/500+؛ "wave". |
 | T38 | `admissions.pmu.edu.sa/welcome` | 200 | — | FAIL | F-22,F-23 | Student Login / New Student? Register! / "Admission Calendar — No events are currently published."؛ لا متطلبات؛ تذييل "2022 ©" |
 
-## 4. سجل الملاحظات داخل النطاق الصارم (38)
+## 4. سجل الملاحظات داخل النطاق الصارم (39)
 > `IN` = الدليل كله في الصفحة الرئيسية أو أهدافها المباشرة · `IN*` = الادعاء داخل النطاق ويدعمه دليل من صفحة ملاصقة.
 
 | ID | الخطورة | النطاق | الصفحة | الملاحظة | الدليل الحرفي | الإجراء/صاحب القرار |
@@ -118,6 +118,7 @@
 | **F-02** | High | IN | international_students ↔ admission-from-other-universities, visiting-student-admission | رسم التحويل/الزائر 500 بلا ضريبة مقابل 950 شامل | Intl: "SAR 500 (excl. VAT)"; local: "SAR 950 (incl. VAT)" | قرار المالية |
 | **F-03** | High | IN* | college_of_medicine_admission (+ medical_program_studies_fees_tf_ro) | رسم الطب: 1000 "شامل" مقابل 1,150 شامل | Medicine: "SAR 1000 (incl. VAT)"; fees page: "Medical Application Fee SAR 1,150 (VAT inclusive)"; 1000×1.15=1150 | قرار المالية |
 | **F-04** | High | IN | admission_calendar_fs_ro | النتائج تُعلن قبل إغلاق مواعيد التسليم والتقويم منتهٍ | "From July 19 to July 21, 2026" vs "Last day to submit IELTS or TOEFL iBT 2026-07-20"; all dates ≤ 2026-08-30; today 2026-10-10 | تقويم بفصول وتواريخ نفاذ |
+| **F-50** | High | IN* | admission_calendar_fs_ro ↔ email 19ef49d2f90660a6 | إجراءات دورة 2026 الفعلية (ترشيح مسبق + نافذة 4 ساعات + مقابلات) غير منشورة | Email (Enrolment, 23 Jun 2026): "you have been shortlisted to apply … submit your application tomorrow, June 24, 2026, from 8:00 am to 12:00 pm (4 hours only)"; "interview … week of 28 June 2026"; site calendar shows only "Last day for Freshman … Apply Online 2026-06-24" and "Apply online through Qabool platform" | نشر الخطوات والنوافذ الحقيقية |
 | **F-16** | High | IN | admissions_requirements_emgms_gdp | نص جامعة أخرى (University of Arizona CESL) في صفحة EMGMS | "Graduate English Language Endorsement from UA Center for English as Second Language (CESL)"; "IELTS – minimum composite score of 7, with no subject area below a 6"; "TOEFL – minimum of 79 iBT" | قرار الدراسات العليا/الهندسة |
 | **F-06** | Medium | IN | college_of_medicine_admission | الحد الأدنى للمكونات لا يبلغ الحد الكلي | "(95%)","(80)","(80)" with "20% high school + 40% Qudrat + 40% Tahseely … 86 is the minimum": 0.2×95+0.4×80+0.4×80=83 | توضيح كلية الطب |
 | **F-07** | Medium | IN | undergraduate_programs_admission, admissions_requirements_cs_eng_majors | الحد الكلي للمفاضلة غير منشور | "the minimum weighted total, defined by the Admissions Office, should be met" | قرار بنشره |
@@ -141,7 +142,7 @@
 | **F-43** | Medium | IN | admissions_requirements_milbl_gdp | MIBL: GPA بلا رقم و"written test" غير معرّف | "A minimum (Very Good) in Bachelor’s Degree"; "30% for the written test" | استكمال النص |
 | **F-45** | Medium | IN | admissions_queries, admission_contact_gdp | قنوات الاتصال: نموذج بلا إشعار خصوصية ظاهر وبلا هاتف | Query form collects Name/Email/Mobile with no privacy text on page; graduate contact = "Office: G-017 Admin Bld; Email" only; undergrad "Contact Us" → staff directory | إشعار PDPL وقناة هاتف |
 | **F-47** | Medium | IN | admissions_requirements_phdba_gdp | قاعدة GPA مبهمة وادعاء اعتماد AACSB غير موثق | "minimum cumulative GPA of 3.00 … or … 3.20"; "internationally accredited by AACSB as top 6%" (sources confirm membership, not full accreditation) | دليل رسمي/توضيح |
-| **F-48** | Medium | IN | international_students ↔ admission_calendar_fs_ro | مسار تقديم غير السعوديين متعارض | Intl page: "process can be completed entirely online" via PMU; calendar: non-Saudi via "Study in Saudi platform … Closed" | توضيح المسار |
+| **F-48** | High | IN* | international_students ↔ admission_calendar_fs_ro (+ email 19f1347de) | مسار تقديم غير السعوديين متعارض: منصتان إلزاميتان وموعد 30 يونيو (بريد) مقابل "Closed" و24 يونيو (موقع) | Site calendar: non-Saudi "Apply online through Study in Saudi platform … Closed"; Intl page: "application process can be completed entirely online". Email (Intl Office, 29 Jun 2026): "application deadline is 30th June at 4pm … you must also submit application through the study in Saudi portal … opens on 1st of July 2026 … To be eligible for admission, you must apply through both platforms." | نشر المسارين والمواعيد في صفحة الدوليين والتقويم |
 | **F-14** | Low | IN | multiple | أخطاء إملائية/صياغة | "Visting Students","wave one or more","Verifaction Code","College of Medical","ADMISSSIONS"×4,"Admisssions"×2 | تدقيق لغوي |
 | **F-20** | Low | IN | all | لا meta description ولا canonical؛ مضيفان وصيغ URL متعددة | Main page served at pmu.edu.sa without redirect to www; links use "../Admission/X.aspx" (legacy case/extension) | canonical وتوحيد الروابط |
 | **F-24** | Low | IN* | admission_calendar_fs_ro | زر Apply Now بصيغة javascript:__doPostBack | href="javascript:WebForm_DoPostBackWithOptions(… Apply_Now_ADS …)"; 7 URL forms reach the same portal | رابط عادي |
@@ -213,7 +214,10 @@
 
 ## 9. القرار الختامي
 # **NOT READY FOR CLOSURE**
-- 38 ملاحظة مثبتة داخل النطاق الصارم (**5 High · 23 Medium · 10 Low**)، منها قرارات مالية وأكاديمية مفتوحة.
+- 39 ملاحظة مثبتة داخل النطاق الصارم (**7 High · 22 Medium · 10 Low**) + 7 مستمدة من البريد + 10 ملاصقة، منها قرارات مالية وأكاديمية مفتوحة.
 - لا معالجة نُفِّذت (لا صلاحية نشر) → لا يمكن إعلان أي إغلاق تقني.
 - بنود **INSUFFICIENT ACCESS OR EVIDENCE:** سطح المكتب، لوحة المفاتيح، قارئ الشاشة، الأداء، مسار التسجيل/الدفع داخل البوابة، PDF (28 ملفاً خارج النطاق الصارم).
 - لا نسبة إنجاز أو نجاح تُعلن غير الواردة أعلاه.
+
+---
+**تحديث (ربط البريد):** انظر `EMAIL_CONTEXT_LINKAGE.md` — رُفعت F-48 إلى High، وأُضيفت F-50 (IN*) وسبع ملاحظات مستمدة من البريد (F-51..F-57).

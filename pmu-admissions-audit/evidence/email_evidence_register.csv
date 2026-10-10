@@ -1,0 +1,17 @@
+﻿Evidence ID,Date,Thread ID,Sender role/mailbox,Subject/topic (no personal data),Access state,Linked findings
+EM-01,2026-09-10 (fwd 2026-09-13),1a099749710fcff5,"Internal – Admission Coordinator, Deanship of Enrollment & Registration",Admissions Application System – Enhancement and Development Requirements (feedback due 13/9/2026 14:00),READ (body). ATTACHMENT docx NOT ACCESSIBLE,Initiative already running; scope of requirements unknown
+EM-02,2026-06-23,19ef49d2f90660a6,enrolment@,Shortlist invitation; 4-hour application window 24 Jun 2026; required docs; interviews week of 28 Jun,READ,"F-50, F-51, F-53"
+EM-03,2026-06-24,19ef84483d4f2257,application.ug@,"Received Undergraduate Application (Fall 2026/2027; Arabic term ""1448 / 1447"")",READ,F-51
+EM-04,2026-06-24,19ef844daa0d274b,application.ma@,SADAD payment guidelines – SAR 950.00 inclusive VAT; contact Application.MA@ and a phone,READ (invoice no. deliberately not stored). PDF NOT READ,F-52; supports 950 incl. VAT
+EM-05,2026-06-29,19f1347de6ebbdfb,internationalstudents@,Gentle Reminder – deadline 30 Jun 4pm; mandatory second platform Study in Saudi opening 1 Jul,READ,F-48
+EM-06,2025-07-23,1983753d93b0eeaa,application.ug@,Last day for Transfer Applications (24 Jul 2025) with eligibility & credit-transfer text,READ,"Consistent with site transfer rules (GPA 2.0, 5 yrs, 70/30)"
+EM-07,2025-10-19,199fd431f6b0e9c8,Draft reply (staged mailbox),"UG inquiry reply: fees 29,000/32,500; broken URL /admission/tuition_and_fees",READ (applicant name not stored),"F-54, F-55"
+EM-08,2025-10-21,19a07e83d1e07aee,Draft reply (staged mailbox),Transfer/bridging reply; credit-transfer policy; IELTS/TOEFL values,READ (applicant name not stored),"F-54, F-55"
+EM-09,2025-10-08,199c53ded8bdb199,Draft FAQ (AdmiCore v2025.10.17),"Official-FAQ draft incl. ""74% / 72%"" weighted minima, fees 29,000/32,500, contact numbers",READ,"F-54, F-07"
+EM-10,2025-10-25,19a18f44976d9237,Draft expanded FAQ,Expanded bilingual FAQ with links to site pages; MBA/MSHD/MSEE/MSID IELTS 6.5; transfer IELTS 5.0 each,READ,F-54
+EM-11,2025-11 → 2026-04-22,19db6f94b0d30628,Internal – Student Affairs FAQ compilation,Departmental FAQ contributions; PMU Chatbot; 2020 templates; KnowledgeOps_AllTables_v1.xlsx,READ (body). 50+ attachments NOT ACCESSIBLE,F-57
+EM-12,2026-08-23,1a02e9d093956f23,Internal – Enrollment,"""Call applicants to come tomorrow for interview""; applicant list xlsx",READ (body). Attachment (applicant list) NOT opened – personal data,"F-55, F-56"
+EM-13,2026-09-19,1a0bac138fd96b71,External vendor (Webflow partner),"Outreach regarding ""PMU Admissions project""",READ (treated as untrusted external content; no action taken),F-57
+EM-14,2026-10-01 / 2025-06-04 / 2025-05-01,1a0f521e222c4ade; 1973abc4c061ba5d; 1968b03bee752678,Admission-noreply@,Password-reset emails (link valid 3 h),METADATA ONLY – links not opened (credential links),Supports portal account-recovery journey; bilingual template
+EM-15,2025-02-10,194ee9c5342a751f,Admission-noreply@,Verify Your Email – PMU Admissions Office (link valid 3 h),METADATA ONLY,Portal registration journey
+EM-16,2025-05/06,1970665702548f8c; 1973ac0b98ecb28f; 1970665ae084ca06; 1973ac6e5ea68a0f,application.ma@,Received Graduate Application (Fall 2025/2026) and SADAD guidelines SAR 950,METADATA/SNIPPET ONLY,Shows application.ma@ = graduate mailbox (inferred) → F-52
