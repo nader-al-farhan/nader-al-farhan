@@ -1,0 +1,63 @@
+URL: https://pmu.edu.sa/admission/admissions_queries
+CAPTURED: 2026-10-10 rendered innerText mobile 390px
+
+
+
+ADMISSION QUERY
+
+Welcome to PMU, the Admissions Office is glad to answer your inquiries. Please fill the below request:
+:مرحباً بكم بجامعة الأمير محمد بن فهد، مكتب القبول يسعد بالإجابة على إستفساراتكم. الرجاء ملء الطلب أدناه
+
+
+
+
+Name [الأسم]: *
+Email [البريد الإلكتروني]:*
+Mobile number [رقم الجوال]:*
+Query [الإستفسار]:*
+Preferred way to communicate with you [الطريقة المفضلة للتواصل معكم]:*
+Email [البريد الإللكتروني] | Mobile [جوال]
+Verification Code[رمز التحقق]:* 
+Enter Verifaction Code[أدخل رمز التحقق]:*
+
+
+
+STAY CONNECTED
+      
+FIND @ PMU
+Academic Calendar
+Careers
+Global Engagement
+Sports Center Schedule
+President's Office
+Dining
+News
+Events
+PMU Album
+COLLEGES / PROGRAMS
+College of Engineering
+College of Computer Engineering & Sciences
+College of Business
+College of Law
+College of Architecture and Design
+College of Sciences and Human Studies
+Preparatory Program
+RESOURCES
+Campus Map
+Directory
+EAIP
+IT Services
+Library Services
+SiteMap
+GET IN TOUCH
+EMPLOYMENT
+
+
+MAPS & LOCATIONS
+
+
+CONTACT
+
+
+
+2021 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.
