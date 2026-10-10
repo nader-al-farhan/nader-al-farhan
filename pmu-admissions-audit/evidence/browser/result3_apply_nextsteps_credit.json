@@ -1,0 +1,205 @@
+{
+ "apply": [
+  {
+   "u": "https://www.pmu.edu.sa/apply",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://www.pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://www.pmu.edu.sa/apply.aspx",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://www.pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://pmu.edu.sa/apply",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://pmu.edu.sa/Apply",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://www.pmu.edu.sa/Admission/Apply_Now_ADS.aspx",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://www.pmu.edu.sa/admission/apply_now_ads",
+    "https://pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://pmu.edu.sa/admission/apply_now_ads.aspx",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://pmu.edu.sa/admission/apply_now_ads",
+    "https://pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  },
+  {
+   "u": "https://pmu.edu.sa/admission/Apply_Now_ADS",
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "chain": [
+    "https://pmu.edu.sa/admission/apply_now_ads",
+    "https://pmu.edu.sa/apply",
+    "https://admissions.pmu.edu.sa/welcome",
+    "https://admissions.pmu.edu.sa/welcome"
+   ],
+   "info": {
+    "title": "PMU Student Application",
+    "lang": "en",
+    "text": "Creative minds …\nTransform the world\n\nWhen you are looking for an institution that not only provides you with a degree in a competent subject, but also prepares you for the future challenges after graduation, develops your personality and grooms you to be a leader wherever you go.\nWhen you want to be associated with an institution that pioneers in bringing positive change, welcome to Prince Mohammad Bin Fahd University where excellence is redefined.\nWhether you are looking for an undergraduate or a graduate program, PMU offers a wide range of specializations.\nThese cover the market and individual needs (visit Degrees & Programs webpage). We offer different programs accredited by prestigious national and international organizations.\nPMU’s system and academic programs were designed by the international educational consultant, Texas International Education Consortium (TIEC), which is a consortium of 32 universities in Texas, USA.\nThe university’s system and academic programs were also reviewed and verified by around 70 multinational academic and industrial experts.\n\nStudent Login\nNew Student? Register!\nAdmission Calendar\n\nNo events are currently published. Please check back later.\n\nContact Admissions\n2022 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+    "h": [
+     "Creative minds …Transform the world"
+    ],
+    "forms": 0,
+    "links": [
+     "Student Login -> https://admissions.pmu.edu.sa/student/login",
+     "New Student? Register! -> https://admissions.pmu.edu.sa/student/login/register",
+     "Admin Login Page -> https://admissions.pmu.edu.sa/admin/login",
+     "Contact Admissions -> https://pmu.edu.sa/admission/admission"
+    ]
+   }
+  }
+ ],
+ "degrees": "Home > Study @ PMU > Admissions Office > Future Students > Degrees & Programs\nAdmissions Office\nFuture Students\nUndergraduate Admissions\nGraduate Admissions\nUndergraduate Placement Tests\nWeb Admission Guide\nFinancial Aid\nApply Now\nContact Info\nDEGREES & PROGRAMS\n\n\nUndergraduate Programs\nGraduate Programs\nSTAY CONNECTED\n      \nFIND @ PMU\nAcademic Calendar\nCareers\nGlobal Engagement\nSports Center Schedule\nPresident's Office\nDining\nNews\nEvents\nPMU Album\nCOLLEGES / PROGRAMS\nCollege of Engineering\nCollege of Computer Engineering & Sciences\nCollege of Business\nCollege of Law\nCollege of Architecture and Design\nCollege of Sciences and Human Studies\nPreparatory Program\nRESOURCES\nCampus Map\nDirectory\nEAIP\nIT Services\nLibrary Services\nSiteMap\nGET IN TOUCH\nEMPLOYMENT\n\n\nMAPS & LOCATIONS\n\n\nCONTACT\n\n\n\n2021 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved.",
+ "nextSteps": {
+  "scrollW": 440,
+  "W": 390,
+  "els": [
+   "NAV#nav. right=430 text=about \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t Visio",
+   "UL#.list-unstyled text-uppercase menu-left right=410 text=about \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t Visio",
+   "LI#. right=410 text=about \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t Visio",
+   "A#. right=410 text=about",
+   "I#.fa fa-angle-right mobile-view right=410 text=",
+   "SPAN#.sf-menu-item-mobile-toggler right=410 text=",
+   "UL#.list-unstyled text-uppercase dropdown right=440 text=Vision & Mission\n\t\t\t\t\t\t\t\t\t Objectives\n\t\t",
+   "LI#. right=425 text=Vision & Mission",
+   "A#. right=425 text=Vision & Mission",
+   "LI#. right=425 text=Objectives",
+   "A#. right=425 text=Objectives",
+   "LI#. right=425 text=Values"
+  ]
+ },
+ "credit": {
+  "status": 200,
+  "text": "Home > Study @ PMU > Admissions Office > Undergraduate > Transfer > Credit Transfer Policy\nAdmissions Office\nFuture Students\nUndergraduate Admissions\nGraduate Admissions\nUndergraduate Placement Tests\nWeb Admission Guide\nFinancial Aid\nApply Now\nContact Info\nTRANSFER STUDENT ADMISSIONS AND CREDIT TRANSFER POLICY\nAdmissions\nAn applicant can be admitted as a Transfer Student if:\nThe previous Institution is a local government university, local private university, international university or can be a college/community college in a Western country (Associate Degree or above).\nThe previous type of study is regular and not online or distance learning.\nThe previous institution is recognized by Ministry of Education (MOE).\nThe total GPA is 2.0/4.0 from the previous institution.\nThe student is not dismissed from the previous institution.\nThe student meets the current PMU admission criteria.\n\n\nCredit Transfer\nEach course considered for transfer must meet the following conditions:\nNumber of credit hours for the course under consideration must have at least the same number of credit hours of PMU equivalent course.\nThe course considered for equivalency must have a minimum grade of C.\nThe contents of the course(s) under consideration must cover at least 80% of the contents of the equivalent PMU course.\nLast course passed on the submitted transcript should not be older than 5 years.\nThe equivalent PMU pre-requisite(s) by course content for any course considered for transfer should be also taken and successfully passed by the student from the previous institution.\nIf previous condition is not met, the student must take the pre-requisite(s) and retake the course under consideration at PMU.\nAll transfer students are required to complete PMU university core courses, regardless of the level at which he or she enters the university. These courses are: Professional Development and Competencies, Critical Thinking and Problem Solving, Leadership and Teamwork, Written Communication, Oral Communication, Writing and Research, and Technical and Professional Communications. Transfer students must also complete the university’s assessment capstone courses.\nThe number of transfer credits should not exceed maximum 70% of the graduation requirements of credits. At least 30% of the degree course requirements must be completed in residence at PMU.\nNO PREP courses will be considered for credit transfer (exception can be made for PREP Math if the student successfully passed it with a minimum grade of C).\n\nThe Course Equivalency Committee (CEC) will recommend credit transfers for final approval.\n\n\n\nSTAY CONNECTED\n      \nFIND @ PMU\nAcademic Calendar\nCareers\nGlobal Engagement\nSports Center Schedule\nPresident's Office\nDining\nNews\nEvents\nPMU Album\nCOLLEGES / PROGRAMS\nCollege of Engineering\nCollege of Computer Engineering & Sciences\nCollege of Business\nCollege of Law\nCollege of Architecture and Design\nCollege of Sciences and Human Studies\nPreparatory Program\nRESOURCES\nCampus Map\nDirectory\nEAIP\nIT Services\nLibrary Services\nSiteMap\nGET IN TOUCH\nEMPLOYMENT\n\n\nMAPS & LOCATIONS\n\n\nCONTACT\n\n\n\n2021 © PMU, Prince Mohammad Bin Fahd University All Rights Reserved."
+ }
+}

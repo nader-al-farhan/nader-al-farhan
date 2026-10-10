@@ -1,0 +1,219 @@
+[
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission",
+  "viewport": "mobile",
+  "status": 200,
+  "finalUrl": "https://www.pmu.edu.sa/admission/admission",
+  "probe": {
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+   "lang": "",
+   "dir": "",
+   "scrollW": 390,
+   "clientW": 390,
+   "hOverflow": false,
+   "overflowSample": [],
+   "tables": [],
+   "headings": [
+    "H1: Admissions Office",
+    "H2: Future Students",
+    "H2: International Students’ Office",
+    "H2: Graduate Admissions",
+    "H2: Undergraduate Admissions",
+    "H2: Undergraduate Placement Tests",
+    "H3: Stay Connected",
+    "H3: Find @ PMU",
+    "H3: Colleges / Programs",
+    "H3: RESOURCES",
+    "H3: GET IN TOUCH"
+   ],
+   "imgs": 6,
+   "imgsNoAlt": 4,
+   "imgsEmptyAlt": 0,
+   "metaViewport": "width=device-width, initial-scale=1.0",
+   "metaDesc": null,
+   "canonical": null,
+   "robots": null,
+   "ctas": [
+    {
+     "t": "Apply to PMU",
+     "h": "https://www.pmu.edu.sa/apply.aspx"
+    },
+    {
+     "t": "Contact Us",
+     "h": "https://www.pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name"
+    },
+    {
+     "t": "Admission Query",
+     "h": "https://www.pmu.edu.sa/Admission/admissions_queries"
+    },
+    {
+     "t": "Apply Now",
+     "h": "https://www.pmu.edu.sa/apply"
+    },
+    {
+     "t": "Apply",
+     "h": "https://www.pmu.edu.sa/apply"
+    },
+    {
+     "t": "Contact Info",
+     "h": "https://www.pmu.edu.sa/Admission/Admission_Contact_GDP.aspx"
+    },
+    {
+     "t": "Contact",
+     "h": "https://www.pmu.edu.sa/About/Contact_Us.aspx"
+    }
+   ],
+   "langSwitch": [],
+   "formCount": 1,
+   "inputsNoLabel": 0,
+   "links": 132
+  }
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/admission",
+  "viewport": "desktop",
+  "status": 403,
+  "finalUrl": "https://www.pmu.edu.sa/admission/admission",
+  "probe": {
+   "title": "Access Denied",
+   "lang": "",
+   "dir": "",
+   "scrollW": 1366,
+   "clientW": 1366,
+   "hOverflow": false,
+   "overflowSample": [],
+   "tables": [],
+   "headings": [
+    "H1: Access Denied"
+   ],
+   "imgs": 0,
+   "imgsNoAlt": 0,
+   "imgsEmptyAlt": 0,
+   "metaViewport": null,
+   "metaDesc": null,
+   "canonical": null,
+   "robots": null,
+   "ctas": [],
+   "langSwitch": [],
+   "formCount": 0,
+   "inputsNoLabel": 0,
+   "links": 0
+  }
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+  "viewport": "mobile",
+  "status": 200,
+  "finalUrl": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+  "probe": {
+   "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+   "lang": "",
+   "dir": "",
+   "scrollW": 390,
+   "clientW": 390,
+   "hOverflow": false,
+   "overflowSample": [],
+   "tables": [],
+   "headings": [
+    "H1: Undergraduate Admissions",
+    "H3: New  Applicant:",
+    "H4: Computer Science and Engineering Majors Admission Requiremen",
+    "H3: Preparatory  Program",
+    "H3: Freshman  Admissions",
+    "H3: College of Medical  Admissions",
+    "H3: Transfer Admissions",
+    "H3: Visiting  Student Admissions",
+    "H3: Undergraduate  Program",
+    "H3: Stay Connected",
+    "H3: Find @ PMU",
+    "H3: Colleges / Programs",
+    "H3: RESOURCES",
+    "H3: GET IN TOUCH"
+   ],
+   "imgs": 7,
+   "imgsNoAlt": 5,
+   "imgsEmptyAlt": 0,
+   "metaViewport": "width=device-width, initial-scale=1.0",
+   "metaDesc": null,
+   "canonical": null,
+   "robots": null,
+   "ctas": [
+    {
+     "t": "Apply to PMU",
+     "h": "https://www.pmu.edu.sa/apply.aspx"
+    },
+    {
+     "t": "Apply Now",
+     "h": "https://pmu.edu.sa/apply"
+    },
+    {
+     "t": "Click Here",
+     "h": "https://www.pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx"
+    },
+    {
+     "t": "Read More",
+     "h": "https://www.pmu.edu.sa/admission/Admission-to-the-Preparatory-Program.aspx"
+    },
+    {
+     "t": "Read more",
+     "h": "https://www.pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx"
+    },
+    {
+     "t": "Read more",
+     "h": "https://www.pmu.edu.sa/admission/college_of_medicine_admission.aspx"
+    },
+    {
+     "t": "Read more",
+     "h": "https://www.pmu.edu.sa/admission/Admission-from-Other-Universities.aspx"
+    },
+    {
+     "t": "Read more",
+     "h": "https://www.pmu.edu.sa/admission/Visiting-Student-Admission.aspx"
+    },
+    {
+     "t": "Read more",
+     "h": "https://www.pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx"
+    },
+    {
+     "t": "Contact",
+     "h": "https://www.pmu.edu.sa/About/Contact_Us.aspx"
+    }
+   ],
+   "langSwitch": [],
+   "formCount": 1,
+   "inputsNoLabel": 0,
+   "links": 107
+  }
+ },
+ {
+  "url": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+  "viewport": "desktop",
+  "status": 403,
+  "finalUrl": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+  "probe": {
+   "title": "Access Denied",
+   "lang": "",
+   "dir": "",
+   "scrollW": 1366,
+   "clientW": 1366,
+   "hOverflow": false,
+   "overflowSample": [],
+   "tables": [],
+   "headings": [
+    "H1: Access Denied"
+   ],
+   "imgs": 0,
+   "imgsNoAlt": 0,
+   "imgsEmptyAlt": 0,
+   "metaViewport": null,
+   "metaDesc": null,
+   "canonical": null,
+   "robots": null,
+   "ctas": [],
+   "langSwitch": [],
+   "formCount": 0,
+   "inputsNoLabel": 0,
+   "links": 0
+  }
+ }
+]

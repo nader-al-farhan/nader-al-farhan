@@ -1,0 +1,435 @@
+{
+ "Undergraduate Programs": [
+  "H3: STAY CONNECTED",
+  "H3: FIND @ PMU",
+  "H3: COLLEGES / PROGRAMS",
+  "H3: RESOURCES",
+  "H3: GET IN TOUCH"
+ ],
+ "Graduate Programs": [
+  "H3: STAY CONNECTED",
+  "H3: FIND @ PMU",
+  "H3: COLLEGES / PROGRAMS",
+  "H3: RESOURCES",
+  "H3: GET IN TOUCH"
+ ],
+ "checked": [
+  {
+   "h": "https://www.pmu.edu.sa/admission/admission",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/about.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/about"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/uni-vision-mission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/uni-vision-mission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/uni-values.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/uni-values"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/Governance.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/governance"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/deanships.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/deanships"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/puplications_presntations.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/puplications_presntations"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/admission-registration.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-registration"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/apply.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/apply"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/financial_aid_ro.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/financial_aid_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/registration_office.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/registration_office"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/tuition_fees_ro.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/tuition_fees_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Admission-Registration.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-registration"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Future_Students_RO.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/future_students_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/degrees_programs_fs_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/admissions_queries",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_queries"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/apply",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/apply"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/International_Students.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/international_students"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission_graduate_degree_programs"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_deme_gdp.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_deme_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_phdba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_emba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_mba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_msehd_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_msme_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_msee_gdp.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msee_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msce_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_MSID_GDP.aspx",
+   "err": "TimeoutError: apiRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  -"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_emgms_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_milbl_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/post_graduate_fees_tf_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission_Contact_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission_contact_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/college_of_medicine_admission",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/college_of_medicine_admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-to-the-preparatory-program"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/direct-admissions-from-secondary-school"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-from-other-universities"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Visiting-Student-Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/visiting-student-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Fees_TF_RO.aspx",
+   "err": "TimeoutError: apiRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  -"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/overview-undergraduate-placement-tests"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Aptis-Placement-Test.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/aptis-placement-test"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/IELTS-Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/ielts-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/TOEFL-Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/toefl-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/SAT-Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/sat-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/academic_calendar_2021_2022_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/About/Welcome_Rector.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/welcome_rector"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/about/maps.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/maps"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/About/Contact_Us.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/about/contact_us"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/undergraduate_programs_admission"
+  },
+  {
+   "h": "https://pmu.edu.sa/apply",
+   "s": 200,
+   "final": "https://pmu.edu.sa/apply"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Admissions_Requirements_CS_Eng_Majors.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Admission-to-the-Preparatory-Program.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-to-the-preparatory-program"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/college_of_medicine_admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/college_of_medicine_admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Admission-from-Other-Universities.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission-from-other-universities"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/Visiting-Student-Admission.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/visiting-student-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/international_students",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/international_students"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/International_Students_Office.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/international_students_office"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/overview-undergraduate-placement-tests"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/transfer-student-admission-and-credit-transfer-policy",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/transfer-student-admission-and-credit-transfer-policy"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/visiting-student-admission",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/visiting-student-admission"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/MBA_International_Students.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/mba_international_students"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/MSHD_International_Students.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/mshd_international_students"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/MSME_International_Students.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/msme_international_students"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/tuition_fees_ro",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/tuition_fees_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admission_graduate_degree_programs"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_EMBA_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_emba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_MBA_GDP.aspx",
+   "err": "TimeoutError: apiRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  -"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_MSEHD_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msehd_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_MSME_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msme_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Tuition_Fees_RO.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/tuition_fees_ro"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_PHDBA_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_phdba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Admissions_Requirements_PHDBA_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_phdba_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_gr.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_gr"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_DEME_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_deme_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_msce_gdp.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msce_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_MSEE_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msee_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/Application_Form_MSID_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_msid_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/application_form_milbl_gdp.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/application_form_milbl_gdp"
+  },
+  {
+   "h": "https://www.pmu.edu.sa/Admission/admissions_Requirements_MILBL_GDP.aspx",
+   "s": 200,
+   "final": "https://www.pmu.edu.sa/admission/admissions_requirements_milbl_gdp"
+  }
+ ]
+}
