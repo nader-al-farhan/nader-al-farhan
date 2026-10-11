@@ -1,0 +1,214 @@
+[
+ {
+  "id": "P1-1",
+  "u": "https://www.pmu.edu.sa/admission/international_students",
+  "st": 200,
+  "at": "2026-10-11T03:41:52.622Z",
+  "res": [
+   [
+    "SAT II 30%",
+    true
+   ],
+   [
+    "SAR 500 (excl. VAT)",
+    true
+   ],
+   [
+    "SAR 950 (incl. VAT)",
+    true
+   ],
+   [
+    "Copy of National ID",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-2",
+  "u": "https://www.pmu.edu.sa/admission/admission-from-other-universities",
+  "st": 200,
+  "at": "2026-10-11T03:41:55.654Z",
+  "res": [
+   [
+    "SAR 950 (incl. VAT)",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-2b",
+  "u": "https://www.pmu.edu.sa/admission/visiting-student-admission",
+  "st": 200,
+  "at": "2026-10-11T03:41:59.221Z",
+  "res": [
+   [
+    "SAR 950 (incl. VAT)",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-3",
+  "u": "https://www.pmu.edu.sa/admission/college_of_medicine_admission",
+  "st": 200,
+  "at": "2026-10-11T03:42:03.179Z",
+  "res": [
+   [
+    "SAR 1000 (incl. VAT)",
+    true
+   ],
+   [
+    "were 86",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-3b",
+  "u": "https://www.pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+  "st": 200,
+  "at": "2026-10-11T03:42:06.651Z",
+  "res": [
+   [
+    "SAR 1,150",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-4",
+  "u": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "st": 200,
+  "at": "2026-10-11T03:42:09.412Z",
+  "res": [
+   [
+    "Fall 2026-2027",
+    true
+   ],
+   [
+    "2026-06-24",
+    true
+   ],
+   [
+    "TBA",
+    true
+   ],
+   [
+    "Closed",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "P1-5",
+  "u": "https://www.pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "st": 200,
+  "at": "2026-10-11T03:42:12.564Z",
+  "res": [
+   [
+    "CESL",
+    true
+   ],
+   [
+    "79 iBT",
+    true
+   ],
+   [
+    "composite score of 7",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "FEE",
+  "u": "https://www.pmu.edu.sa/admission/student_fees_tf_ro",
+  "st": 200,
+  "at": "2026-10-11T03:42:15.920Z",
+  "res": [
+   [
+    "APTIS Exam Fees",
+    true
+   ],
+   [
+    "SAR 575",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "GR",
+  "u": "https://www.pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "st": 200,
+  "at": "2026-10-11T03:42:18.607Z",
+  "res": [
+   [
+    "6.5 overall",
+    true
+   ],
+   [
+    "ADMISSSIONS",
+    false
+   ]
+  ]
+ },
+ {
+  "id": "DEG",
+  "u": "https://www.pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "st": 200,
+  "at": "2026-10-11T03:42:21.893Z",
+  "res": [
+   [
+    "Chemical Engineering",
+    true
+   ],
+   [
+    "Graphic Design",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "CS",
+  "u": "https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "st": 200,
+  "at": "2026-10-11T03:42:24.567Z",
+  "res": [
+   [
+    "minimum weighted total",
+    false
+   ]
+  ]
+ },
+ {
+  "id": "SAT",
+  "u": "https://www.pmu.edu.sa/admission/sat-admission",
+  "st": 200,
+  "at": "2026-10-11T03:42:27.103Z",
+  "res": [
+   [
+    "international high school certificate",
+    true
+   ],
+   [
+    "1200",
+    true
+   ],
+   [
+    "wave",
+    true
+   ]
+  ]
+ },
+ {
+  "id": "PORTAL",
+  "u": "https://admissions.pmu.edu.sa/welcome",
+  "st": 200,
+  "at": "2026-10-11T03:42:30.627Z",
+  "res": [
+   [
+    "No events are currently published",
+    true
+   ]
+  ]
+ }
+]

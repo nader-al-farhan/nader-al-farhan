@@ -1,72 +1,94 @@
-# مسودة البريد (v2) — لم يُرسل شيء
+# مسودة البريد النهائية — لم يُرسل شيء
 
-**الطريقة:** Reply-All على آخر رسالة في سلسلة **"comments on Admission pages"** (من حسابك المؤسسي).
-**To:** Mr. Radhi H. Alkhaldi
-**Cc:** Rawan Abdullah Al Qahtani; Sara Abdulrahman Al Omar; Mujahid H. Alfadhel; Lamia Mashal Alutaibi; Christopher Sastrillo (قائمة 17 فبراير 2026 — عدّلها حسب رغبتك)
-**Subject:** RE: comments on Admission pages – Revisit of the Admissions Office webpages (published content, 10 Oct 2026)
+## طريقة الإرسال
+- **الطريقة:** Reply-All على آخر رسالة في سلسلة **"comments on Admission pages"**، من حسابك المؤسسي.
+- **To:** Mr. Radhi H. Alkhaldi
+- **Cc:** Rawan Abdullah Al Qahtani; Sara Abdulrahman Al Omar; Mujahid H. Alfadhel; Lamia Mashal Alutaibi; Christopher Sastrillo (قائمة رسالة 17 فبراير 2026؛ عدّلها حسب رغبتك)
+- **Subject:** RE: comments on Admission pages – Revisit of the Admissions Office webpages: review and recommendations
 
-**المرفقات:**
-1. `01_Admissions_Office_Pages_Revisit_Memo.pdf` — مذكرة من 3 صفحات (إلزامي؛ نسخة Word `.docx` متاحة للتعديل)
-2. `02_Admission_Pages_Comments_Register.xlsx` — ملخص + 71 ملاحظة رئيسية + 211 ملاحظة تفصيلية صفحة بصفحة + القرارات + حالة الطلبات السابقة (إلزامي)
-3. `03_Published_Content_Line_by_Line_Ledger.xlsx` — كل سطر منشور مع حالة تدقيقه (اختياري، مرجعي)
+## المرفقات
+| # | الملف | الصفة |
+|---|---|---|
+| 1 | `01_Executive_Report_Admissions_Webpages_Revisit.pdf` | **إلزامي** — التقرير التنفيذي (غلاف + 5 صفحات) |
+| 2 | `02_Admission_Pages_Comments_Register.xlsx` | **إلزامي** — سجل الملاحظات والقرارات |
+| 3 | `03_Published_Content_Line_by_Line_Ledger.xlsx` | **اختياري** — مرجع الأدلة السطرية |
+
+نسخة Word من التقرير (`.docx`) للتعديل الداخلي فقط، ولا تُرفق.
 
 ---
+
 ## English (recommended — the thread is in English)
 
 Dear Mr. Radhi,
 
-Further to your request to revisit the Admissions Office webpages, and continuing the comments shared earlier in this thread, I have reviewed the published content of https://pmu.edu.sa/admission/admission, its 37 directly linked pages and the application portal, page by page and line by line (1,248 content lines), as published on 10 October 2026.
+Further to your request to revisit the Admissions Office webpages and provide feedback, and continuing the comments shared earlier in this thread, please find attached my review of the published content of the Admissions Office page, the 37 pages linked from it and the application portal. Every content line was read and checked (1,248 lines), and the key facts were re-checked on the live site on 11 October 2026.
 
-Summary:
-- 71 key findings: 61 on pages linked from the Admissions page (6 Priority 1, 32 Priority 2, 23 Priority 3) and 10 on legacy pages that are still online but not linked from the hub. A further 211 detailed page-by-page notes (wording, missing details, consistency) are listed separately.
-- Priority 1 items: SAT II still required for international CS/Engineering applicants; international transfer/visiting fee shown as SAR 500 (excl. VAT) versus SAR 950 (incl. VAT) on the transfer and visiting pages; Medicine application fee SAR 1,000 versus SAR 1,150 on the medical fees page; an admission calendar covering only Fall 2026 with all dates passed; the EMGMS page containing another university's text without an application link; and no stated route or deadline for non-Saudi applicants.
-- Of the amendments requested earlier in this thread, B.S. Chemical Engineering has been added. The weighted minimums, the international/transfer fee, SAT II removal, the Aptis fee and retiring the old CS/Engineering page are not yet reflected on the live pages.
-- Ten items need a decision from the policy or fee owner before the wording can be corrected. They are listed with proposed owners in the attached register.
+Key points:
+- **Admission cycle:** applicants cannot currently see a valid admission cycle. The only calendar covers Fall 2026, all its dates have passed, and the application portal shows "No events are currently published".
+- **Conflicting critical values:** several values differ between pages.
+  - The international transfer/visiting fee is SAR 500 (excl. VAT), versus SAR 950 (incl. VAT) on the transfer and visiting pages and the official fees page.
+  - The Medicine application fee is SAR 1,000 on the admission page, versus SAR 1,150 on the medical fees page.
+  - SAT II is still required for international CS/Engineering applicants, although it was discontinued in 2021.
+  - Graduate English requirements differ between pages.
+- **EMGMS page:** it contains another institution's text and has no application link.
+- **Earlier requests:** of the amendments requested in this thread, B.S. Chemical Engineering has been added. The weighted minimums, fee changes, SAT II removal, Aptis fee and retirement of the old CS/Engineering page are not yet reflected.
+- **Findings:** there are 71 key findings in total.
+  - 37 can be corrected directly (wording, links, page titles, accessibility).
+  - 34 depend on ten decisions by the policy or fee owners, which are set out with options and recommendations in the report (Section 7).
 
 Attached:
-1. A short memo (PDF) with the summary and the status of earlier requests.
-2. The comments register: key findings, detailed page-by-page notes with verbatim evidence and proposed changes, decisions required, and the status of earlier requests.
-3. For reference, every published line of each page with its review status.
+1. Executive report (PDF): summary, results by area, status of earlier requests, root causes, decisions required, recommendations and a phased roadmap.
+2. Comments register (Excel): 71 key findings and 211 detailed page-by-page notes, each with verbatim evidence and a proposed change, plus the decisions and the status of earlier requests.
+3. For reference: every published line of each page with its review status.
 
-The review was read-only and no page was changed. Pending values should not be published as policy until confirmed in writing by the relevant owner.
+The review was read-only and no page was changed. I would suggest two immediate steps: an interim notice on the admission cycle, and removal of the external text from the EMGMS page. All other values should be changed only after written confirmation by the relevant owner.
 
-I would appreciate your guidance on the decision owners and priorities, and I am happy to go through the comments with the team.
+I would appreciate your guidance on the decision owners and priorities, and I would be glad to walk you and the team through the findings.
 
 Kind regards,
 Nader Alfarhan
 Administrative Assistant | Student Affairs
 
 ---
+
 ## النسخة العربية (إن فضّلت)
 
 سعادة الأستاذ راضي المحترم،
 
-إلحاقًا بطلبكم إعادة زيارة صفحات مكتب القبول، واستكمالًا للملاحظات السابقة في هذه السلسلة، راجعتُ المحتوى المنشور لصفحة مكتب القبول وروابطها المباشرة (37 صفحة) وبوابة التقديم، صفحةً بصفحة وسطرًا بسطر (1,248 سطرًا)، كما هو منشور بتاريخ 10 أكتوبر 2026.
+إلحاقًا بطلبكم إعادة زيارة صفحات مكتب القبول ومراجعتها وتقديم الملاحظات، واستكمالًا لما سبق في هذه السلسلة، أرفق لكم مراجعتي للمحتوى المنشور لصفحة مكتب القبول والصفحات الـ37 المرتبطة بها وبوابة التقديم. قرأتُ كل سطر محتوى وفحصتُه (1,248 سطرًا)، وأعدتُ التحقق من الحقائق الرئيسية على الموقع بتاريخ 11 أكتوبر 2026.
 
-الخلاصة:
-- 71 ملاحظة رئيسية: 61 على الصفحات المرتبطة بصفحة القبول (6 أولوية أولى، 32 ثانية، 23 ثالثة) و10 على صفحات قديمة ما زالت منشورة دون رابط من صفحة القبول، إضافة إلى 211 ملاحظة تفصيلية صفحة بصفحة.
-- أبرز الملاحظات:
-  - ما زال اختبار SAT II مطلوبًا للمتقدمين الدوليين لتخصصات الحاسب والهندسة.
-  - رسم التحويل والزيارة للدوليين 500 ريال (غير شامل الضريبة) مقابل 950 ريالًا (شاملة) في صفحتي التحويل والزائرين.
-  - رسم الطب 1,000 ريال مقابل 1,150 ريالًا في صفحة الرسوم.
-  - تقويم القبول لخريف 2026 فقط وكل تواريخه منتهية.
-  - صفحة EMGMS تتضمن نصًا لجامعة أخرى ولا يوجد فيها رابط تقديم.
-  - لا يوضَّح مسار التقديم وموعده لغير السعوديين.
-- من التعديلات المطلوبة سابقًا أُضيف برنامج الهندسة الكيميائية. لم تنعكس بعد: الحدود الموزونة، ورسوم الدوليين والتحويل، وإزالة SAT II، ورسم Aptis، وإلغاء صفحة الحاسب والهندسة القديمة.
-- عشرة بنود تتطلب قرار مالك السياسة أو الرسوم قبل تصحيح الصياغة، وهي موضحة في السجل المرفق مع الجهات المقترحة.
+أبرز النقاط:
+- **دورة القبول:** لا يجد المتقدم حاليًا دورة قبول سارية. التقويم الوحيد لخريف 2026 وجميع مواعيده انتهت، وبوابة التقديم تعرض «No events are currently published».
+- **قيم جوهرية متعارضة بين الصفحات:**
+  - رسم التحويل والزيارة للدوليين 500 ريال غير شامل الضريبة، مقابل 950 ريالًا شاملة في صفحتي التحويل والزائرين وجدول الرسوم الرسمي.
+  - رسم التقديم للطب 1,000 ريال في صفحة القبول، مقابل 1,150 ريالًا في صفحة رسوم البرنامج الطبي.
+  - ما زال SAT II مطلوبًا للدوليين في تخصصات الحاسب والهندسة رغم إيقافه منذ 2021.
+  - متطلبات اللغة الإنجليزية للدراسات العليا مختلفة بين الصفحات.
+- **صفحة EMGMS:** تتضمن نصًا لمؤسسة أخرى، وليس فيها رابط تقديم.
+- **التعديلات المطلوبة سابقًا في السلسلة:** أُضيف برنامج الهندسة الكيميائية. لم تنعكس بعد الحدود الموزونة، وتعديلات الرسوم، وإزالة SAT II، ورسم Aptis، وإلغاء صفحة الحاسب والهندسة القديمة.
+- **الملاحظات:** 71 ملاحظة رئيسية:
+  - 37 يمكن تصحيحها مباشرة (صياغة، روابط، عناوين صفحات، إتاحة).
+  - 34 تتوقف على عشرة قرارات من مالكي السياسات والرسوم، موضحة مع الخيارات والتوصيات في التقرير (القسم 7).
 
-المرفقات: مذكرة موجزة (PDF)، وسجل الملاحظات (الرئيسية والتفصيلية) مع الدليل الحرفي والتعديل المقترح والقرارات المطلوبة، وسجل كل سطر منشور مع حالة تدقيقه للرجوع.
+المرفقات:
+1. التقرير التنفيذي (PDF).
+2. سجل الملاحظات (Excel): 71 ملاحظة رئيسية و211 ملاحظة تفصيلية صفحة بصفحة، لكل منها الدليل الحرفي والتعديل المقترح، إلى جانب القرارات وحالة الطلبات السابقة.
+3. للرجوع: كل سطر منشور مع حالة تدقيقه.
 
-المراجعة قراءة فقط ولم يُعدَّل أي محتوى. أرجو توجيهكم بشأن الجهات المالكة للقرار والأولويات، ويسعدني عرض الملاحظات مع الفريق.
+المراجعة قراءة فقط ولم يُعدَّل أي محتوى. أقترح خطوتين فوريتين: إعلان مؤقت عن حالة دورة القبول، وإزالة النص الخارجي من صفحة EMGMS. أما بقية القيم فلا تُعدَّل إلا بعد تأكيد كتابي من الجهة المالكة.
+
+أرجو توجيهكم بشأن الجهات المالكة للقرار والأولويات، ويسعدني عرض النتائج عليكم وعلى الفريق.
 
 مع خالص التحية،
 نادر الفرحان
+مساعد إداري | شؤون الطلاب
 
 ---
+
 ## ملاحظات لك (لا تُرسل)
 1. **لم يُرسل شيء.** الإرسال بيدك بعد المراجعة.
-2. المرفقات من **المحتوى المنشور فقط**. استبعدتُ كل ما مصدره البريد الداخلي (F-50، F-52..F-64، ومنها ملاحظة حوكمة بيانات المتقدمين)، والإشارات إلى معرّفات الرسائل.
-3. استثناء واحد مقصود: ورقة «حالة الطلبات السابقة» تذكر بنود السلسلة نفسها (74/72، الهندسة الكيميائية، Graphic Design…)، وهي معروفة لدى المستلمين.
-4. راجع بنفسك الأرقام الجوهرية على الموقع قبل الإرسال: 500/950، 1,000/1,150، 575، وSAT II.
-5. المرفق 3 كبير (~3,200 سطر). أرسله فقط إن أردت تقديم دليل كامل.
-6. الملاحظات التفصيلية (211) أصلها ملف التدقيق الذي رفعتَه، وأعدتُ التحقق من كل منها مقابل الصفحات الملتقطة: 169 مؤكدة، 42 مؤكدة جزئيًا، 3 غير قابلة للتحقق (لم تُدرج).
+2. **المرفقات من المحتوى المنشور فقط.** استبعدتُ كل ما مصدره البريد الداخلي أو Drive أو Notion، وأي معرّفات رسائل، وأسماء الموظفين.
+   - الاستثناء الوحيد ورقة «حالة الطلبات السابقة»، لأنها تذكر بنود السلسلة نفسها، وهي معروفة لدى المستلمين.
+3. **رقم الصفحات:** التقرير غلاف و5 صفحات مرقّمة.
+4. **الملاحظات التفصيلية (211):** أصلها ملف التدقيق الذي رفعتَه، وأعدتُ التحقق من كل منها مقابل الصفحات الملتقطة: 169 مؤكدة، و42 مؤكدة جزئيًا، و3 غير قابلة للتحقق لم تُدرج.
+5. **المرفق 3 كبير** (نحو 3,200 سطر). أرسله فقط إن أردت تقديم دليل كامل.
