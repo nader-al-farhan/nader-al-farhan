@@ -1,0 +1,154 @@
+{
+ "https://ithelpdesk.pmu.edu.sa/": {
+  "status": 502,
+  "text": "",
+  "from": "P00",
+  "recheck": "ERR Error: page.goto: net::ERR_TUNNEL_CONNECTION_FAILE"
+ },
+ "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name": {
+  "status": 403,
+  "text": "Contact Us",
+  "from": "P00",
+  "recheck": 200,
+  "final": "https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4"
+ },
+ "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx": {
+  "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+  "text": "Admissions from the Preparatory Program",
+  "from": "P00",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs"
+ },
+ "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx": {
+  "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+  "text": "College of Law",
+  "from": "P00",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/academics/law_dept_cshs_udp"
+ },
+ "http://faculty.pmu.edu.sa/pmufaculties/": {
+  "status": 403,
+  "text": "FACULTY CORNER",
+  "from": "P01",
+  "recheck": 200,
+  "final": "https://faculty.pmu.edu.sa/pmufaculties/"
+ },
+ "https://www.pmu.edu.sa/news/2020/1660f8ae-2e45-48f0-9d91-b84b72d475de/index.html": {
+  "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+  "text": "LRC VIRTUAL HELP",
+  "from": "P01",
+  "recheck": 200,
+  "final": "https://www.pmu.edu.sa/news/2020/1660f8ae-2e45-48f0-9d91-b84b72d475de/index"
+ },
+ "http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4": {
+  "status": 403,
+  "text": "Contact Us",
+  "from": "P02",
+  "recheck": 200,
+  "final": "https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4"
+ },
+ "https://banner.pmu.edu.sa/PROD/twbkwbis.P_WWWLogin": {
+  "status": 502,
+  "text": "Banner Self Service Log In",
+  "from": "P02",
+  "recheck": "ERR Error: page.goto: net::ERR_TUNNEL_CONNECTION_FAILE"
+ },
+ "https://pmu.edu.sa/Admission/GPA_Calculator_RO.aspx": {
+  "status": 404,
+  "text": "GPA Calculator",
+  "from": "P02",
+  "recheck": 404,
+  "final": "https://pmu.edu.sa/admission/gpa_calculator_ro"
+ },
+ "https://pmu.edu.sa/Admission/Sponsored_Scholarship_Programs_FA_RO.aspx": {
+  "status": 404,
+  "text": "Sponsored Scholarship Programs",
+  "from": "P03",
+  "recheck": 404,
+  "final": "https://pmu.edu.sa/admission/sponsored_scholarship_programs_fa_ro"
+ },
+ "https://pmu.edu.sa/Admission/MOHE_Scholarships.aspx": {
+  "status": 404,
+  "text": "MOHE Scholarships",
+  "from": "P03",
+  "recheck": 404,
+  "final": "https://pmu.edu.sa/admission/mohe_scholarships"
+ },
+ "https://pmu.edu.sa/Admission/International_Students_Scholarships_FA_RO.aspx": {
+  "status": 404,
+  "text": "International Students Scholarships",
+  "from": "P03",
+  "recheck": 404,
+  "final": "https://pmu.edu.sa/admission/international_students_scholarships_fa_ro"
+ },
+ "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu7": {
+  "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+  "text": "Undergraduate Placement Tests",
+  "from": "P04",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu7"
+ },
+ "https://pmu.edu.sa/admission/Admission_Graduate_Degree_Programs.aspx": {
+  "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+  "text": "Graduate Programs",
+  "from": "P11",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/admission_graduate_degree_programs"
+ },
+ "https://pmu.edu.sa/admission/Undergraduate_Programs_Admission.aspx": {
+  "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+  "text": "Undergraduate Admissions",
+  "from": "P25",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/undergraduate_programs_admission"
+ },
+ "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx": {
+  "status": 403,
+  "text": "Submit documents before due date",
+  "from": "P27",
+  "recheck": 200,
+  "final": "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro"
+ },
+ "http://admissions.pmu.edu.sa/": {
+  "status": 503,
+  "text": "Complete online application",
+  "from": "P28",
+  "recheck": 200,
+  "final": "https://admissions.pmu.edu.sa/"
+ },
+ "https://pmu.edu.sa/admission/visiting-student-admission#menu13": {
+  "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+  "text": "Tips for a Smoother Application Process",
+  "from": "P29",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/visiting-student-admission#menu13"
+ },
+ "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx": {
+  "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+  "text": "if available",
+  "from": "P31",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests"
+ },
+ "https://pmu.edu.sa/admission/fees_tf_ro#menu3": {
+  "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+  "text": "",
+  "from": "P32",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/fees_tf_ro#menu3"
+ },
+ "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests": {
+  "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+  "text": "",
+  "from": "P33",
+  "recheck": 200,
+  "final": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests"
+ },
+ "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx": {
+  "status": 403,
+  "text": "Apply for IELTS",
+  "from": "P35",
+  "recheck": 200,
+  "final": "https://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx"
+ }
+}

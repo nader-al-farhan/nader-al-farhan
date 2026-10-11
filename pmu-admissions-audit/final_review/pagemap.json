@@ -1,0 +1,207 @@
+{
+ "P00": {
+  "url": "https://pmu.edu.sa/admission/admission",
+  "title": " Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "ar": "صفحة مكتب القبول (الرئيسية)"
+ },
+ "P01": {
+  "url": "https://www.pmu.edu.sa/default",
+  "title": " home",
+  "ar": ""
+ },
+ "P02": {
+  "url": "https://pmu.edu.sa/admission/admission-registration",
+  "title": " Study at PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "ar": ""
+ },
+ "P03": {
+  "url": "https://pmu.edu.sa/admission/future_students_ro",
+  "title": " Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "نظرة عامة – الطلاب المستقبليون"
+ },
+ "P04": {
+  "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "title": " Degrees & Programs :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "الدرجات والبرامج"
+ },
+ "P05": {
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "title": " Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "تقويم القبول"
+ },
+ "P06": {
+  "url": "https://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4",
+  "title": "(staff list – names not stored: personal data)",
+  "ar": "تواصل معنا (قائمة الموظفين)"
+ },
+ "P07": {
+  "url": "https://pmu.edu.sa/admission/admissions_queries",
+  "title": " Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "استفسار القبول"
+ },
+ "P08": {
+  "url": "https://www.pmu.edu.sa/apply",
+  "title": " apply",
+  "ar": "صفحة التقديم /apply"
+ },
+ "P09": {
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "title": " International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "الطلاب الدوليون دون إقامة سعودية"
+ },
+ "P10": {
+  "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "title": " Graduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "برامج الدراسات العليا"
+ },
+ "P11": {
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "title": " Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "دكتوراه الهندسة الميكانيكية"
+ },
+ "P12": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "title": " Admissions Requirements , Admissions to the PhD in Business Administration :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "دكتوراه إدارة الأعمال"
+ },
+ "P13": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "title": " Admissions Requirements , Executive MBA Program (EMBA) :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير إدارة الأعمال التنفيذي EMBA"
+ },
+ "P14": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+  "title": " Admissions Requirements, MBA Program (MBA) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير إدارة الأعمال MBA"
+ },
+ "P15": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "title": " Admissions Requirements for MSHD :: Graduate Degree Programs :: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير التنمية البشرية MSHD"
+ },
+ "P16": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+  "title": " Admissions to the Master of Science in Mechanical Engineering (MSME) Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير الهندسة الميكانيكية MSME"
+ },
+ "P17": {
+  "url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+  "title": " MSEE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير الهندسة الكهربائية MSEE"
+ },
+ "P18": {
+  "url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+  "title": " MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير الهندسة المدنية MSCE"
+ },
+ "P19": {
+  "url": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+  "title": " MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير التصميم الداخلي MSID"
+ },
+ "P20": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "title": " Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير الإدارة الهندسية EMGMS"
+ },
+ "P21": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "title": " Admissions to the Master of Arts (MA) in International Business Law Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University",
+  "ar": "ماجستير القانون التجاري الدولي MIBL"
+ },
+ "P22": {
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "title": " Post Graduate Fees :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "رسوم الدراسات العليا"
+ },
+ "P23": {
+  "url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+  "title": " Contact Info :: Graduate Degree Programs :: Admissions Office ::Study @ PMU:: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "معلومات التواصل – الدراسات العليا"
+ },
+ "P24": {
+  "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "title": " Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "القبول في البكالوريوس"
+ },
+ "P25": {
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "title": " Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "القبول في كلية الطب"
+ },
+ "P26": {
+  "url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+  "title": " Admission to the Preparatory Program :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "القبول في البرنامج التحضيري"
+ },
+ "P27": {
+  "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "title": " Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "القبول المباشر من الثانوية"
+ },
+ "P28": {
+  "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+  "title": " Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "القبول بالتحويل من جامعات أخرى"
+ },
+ "P29": {
+  "url": "https://pmu.edu.sa/admission/visiting-student-admission",
+  "title": " Visiting Student Admission :: Undergraduate :: Admission Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "الطلاب الزائرون"
+ },
+ "P30": {
+  "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "title": " Admission from the Preparatory Program to Undergraduate Programs :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "الانتقال من التحضيري إلى البكالوريوس"
+ },
+ "P31": {
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "title": " Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "متطلبات تخصصات الحاسب والهندسة"
+ },
+ "P32": {
+  "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "title": " Undergraduate Fees :: Tuition & Fees ::Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "رسوم البكالوريوس"
+ },
+ "P33": {
+  "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+  "title": " Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "اختبارات اللغة – نظرة عامة"
+ },
+ "P34": {
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "title": " Aptis Placement Test :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "اختبار Aptis"
+ },
+ "P35": {
+  "url": "https://pmu.edu.sa/admission/ielts-admission",
+  "title": " THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "اختبار IELTS"
+ },
+ "P36": {
+  "url": "https://pmu.edu.sa/admission/toefl-admission",
+  "title": " TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "اختبار TOEFL"
+ },
+ "P37": {
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "title": " SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University",
+  "ar": "اختبار SAT"
+ },
+ "P38": {
+  "url": "https://admissions.pmu.edu.sa/welcome",
+  "title": " welcome",
+  "ar": "بوابة التقديم"
+ },
+ "Shared menu": {
+  "url": "(menu shown on admission pages)",
+  "title": "",
+  "ar": "القائمة الجانبية لصفحات القبول"
+ },
+ "L2-fees": {
+  "url": "https://www.pmu.edu.sa/admission/student_fees_tf_ro ; https://www.pmu.edu.sa/admission/medical_program_studies_fees_tf_ro ; https://www.pmu.edu.sa/admission/fees_tf_ro_2026_2027",
+  "title": "Official fee pages (Level 2)",
+  "ar": "صفحات الرسوم الرسمية"
+ }
+}

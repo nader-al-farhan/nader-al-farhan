@@ -1,0 +1,2223 @@
+[
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "صفحة مكتب القبول – متن الصفحة بالكامل",
+  "current_text": "ADMISSIONS OFFICE … Future Students … International Students’ Office … Graduate Admissions … Undergraduate Admissions … Undergraduate Placement Tests … Scholastic Aptitude Test (SAT)",
+  "axis": "تجربة المستخدم",
+  "type": "محتوى إرشادي ناقص",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تقتصر الصفحة الرئيسية لمكتب القبول على عنوان وأربع قوائم روابط، دون مقدمة تعريفية أو بيان لحالة دورة القبول الحالية أو مواعيدها أو رسوم التقديم أو بيانات التواصل مع مكتب القبول.",
+  "recommendation": "إعادة بناء الصفحة حول مسار المتقدم (بكالوريوس، دراسات عليا، طلاب دوليون، محولون) مع مقدمة موجزة، وبيان حالة دورة القبول ومواعيدها الرئيسة، وزر تقديم بارز، وبيانات التواصل الرسمية لمكتب القبول.",
+  "refs": [
+   "F-36",
+   "C005"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "صفحة مكتب القبول – قائمتا Graduate Admissions وUndergraduate Admissions",
+  "current_text": "Admissions to the MIBL … ../Admission/Admissions_Requirements_MIlBL_GDP.aspx … Admission to the College of Medicine … Admissions to the Preparatory Program … Admissions from Other Universities",
+  "axis": "الاتساق",
+  "type": "عدم اتساق تسميات القائمة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يرد البند \"Admissions to the MIBL\" دون كلمة \"Program\" خلافًا لسائر بنود القائمة، ويتضمن رابطه خطأً في الحروف (MIlBL)، كما يرد البند \"Admission to the College of Medicine\" بصيغة المفرد في حين تستخدم البنود المجاورة \"Admissions\".",
+  "recommendation": "توحيد التسميات إلى \"Admissions to the MIBL Program\" و\"Admissions to the College of Medicine\"، وتصحيح الرابط إلى الصيغة السليمة مع إعادة توجيه دائمة من الرابط القديم.",
+  "refs": [
+   "C007",
+   "C008"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "صفحة مكتب القبول – قائمة Future Students – رابط \"Contact Us\" (ويظهر كذلك في صفحة الدراسة في الجامعة)، ويفتح قائمة الموظفين على faculty.pmu.edu.sa",
+  "current_text": "Contact Us → https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name",
+  "axis": "تجربة المستخدم",
+  "type": "رابط مضلل",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يقود رابط \"Contact Us\" في صفحة مكتب القبول إلى قائمة عامة لموظفي إدارة شؤون الطلاب لا تتضمن جهة اتصال لمكتب القبول، ويحمل الرابط معاملًا نائبًا غير مكتمل (Name=Staff Name) ويمر بإعادة توجيه قبل الوصول إلى الصفحة.",
+  "recommendation": "ربط \"Contact Us\" بصفحة تواصل خاصة بمكتب القبول تتضمن البريد الإلكتروني الرسمي ورقم الهاتف وساعات العمل عبر رابط https مباشر، وإزالة المعامل النائب، وتنقيح قائمة الموظفين من التكرار.",
+  "refs": [
+   "F-65",
+   "C002",
+   "F-66"
+  ],
+  "note": "لم تُحفظ محتويات قائمة الموظفين لاحتوائها على بيانات شخصية؛ لذا فإن خلوها من جهة اتصال للقبول ووجود إدخال مكرر فيها مأخوذان من الملاحظات الأصلية ولم يُعَد التحقق منهما نصيًا.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "قائمة صفحة مكتب القبول؛ نموذج استفسار القبول؛ صفحتا اختبار SAT ومتطلبات تخصصات الحاسب والهندسة؛ صفحتا القبول في كلية الطب والقبول في البكالوريوس؛ عناوين صفحات متطلبات عدد من برامج الدراسات العليا",
+  "current_text": "Visting Students ; Enter Verifaction Code ; may wave one or more of the mathematics courses ; The PMU College of Medical curriculum ; MSEE ADMISSSIONS REQUIREMENTS ; MSME Admisssions Requirements",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء إملائية متكررة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تتضمن صفحات القبول أخطاء إملائية ظاهرة في عناوين الروابط والنماذج، منها \"Visting\" بدل \"Visiting\" في رابط صفحة الطلاب الزائرين، و\"Verifaction\" بدل \"Verification\" في نموذج استفسار القبول.",
+  "recommendation": "تصحيح الكلمتين إلى \"Visiting\" و\"Verification\"، وإجراء تدقيق لغوي شامل لعناوين الروابط والنماذج قبل النشر.",
+  "refs": [
+   "F-14",
+   "C009",
+   "C034",
+   "C184"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "صفحة مكتب القبول – بنية الصفحة (شيفرة HTML)",
+  "current_text": "href=\"#sidebar\" (link with no text) ; landmarks: HEADER, NAV, HEADER, NAV, FOOTER, FOOTER (no MAIN)",
+  "axis": "وظيفي وتقني",
+  "type": "مشكلات وصولية في البنية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تخلو الصفحة من معلم المحتوى الرئيس (main)، وتتضمن رابطًا بلا نص يدل على وجهته، وإطار بحث مضمّنًا دون عنوان، مما يضعف التصفح بقارئات الشاشة.",
+  "recommendation": "إضافة عنصر main للمحتوى الرئيس، ومنح الرابط الفارغ نصًا وصفيًا أو تسمية وصولية، وإضافة عنوان للإطار المضمّن، وتصحيح مسار صورة الشعار المحالة.",
+  "refs": [
+   "F-38"
+  ],
+  "note": "النص الحالي مقتطف من شيفرة الصفحة وليس نصًا ظاهرًا؛ غياب عنوان الإطار وإعادة توجيه مسار صورة الشعار مأخوذان من الفحص التقني الأصلي.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "قالب الصفحات (صور الترويسة والشعار) – جميع الصفحات المفحوصة",
+  "current_text": "<img src=\"images/logo-name.png\"> (×2) ; <img src=\"images/logo-PMU-1.png\"> ; <img src=\"images/logo_new_r.png\"> — no alt attribute",
+  "axis": "وظيفي وتقني",
+  "type": "غياب النص البديل للصور",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تحتوي جميع الصفحات المفحوصة (38 صفحة) على صور بلا نص بديل (alt)، أغلبها صورتان من صور القالب في كل صفحة، فلا تُعرّف بها قارئات الشاشة.",
+  "recommendation": "إضافة نص بديل وصفي لكل صورة ذات دلالة (مثل اسم الجامعة في الشعار)، ونص بديل فارغ للصور الزخرفية.",
+  "refs": [
+   "F-19"
+  ],
+  "note": "النص الحالي مقتطف من شيفرة الصفحة.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "جميع صفحات الموقع التي فُحصت – سمة لغة المستند (شيفرة HTML)",
+  "current_text": "lang=\"\"",
+  "axis": "وظيفي وتقني",
+  "type": "لغة الصفحة غير معرّفة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "سمة لغة المستند (lang) فارغة في 36 صفحة من أصل 38 صفحة فُحصت بتاريخ 11 أكتوبر 2026، فلا تتعرف قارئات الشاشة ومحركات البحث على لغة المحتوى.",
+  "recommendation": "ضبط سمة اللغة على \"en\" للصفحات الإنجليزية و\"ar\" مع اتجاه \"rtl\" للصفحات العربية، وتمييز المقاطع العربية داخل الصفحات الإنجليزية بسمة لغة خاصة بها.",
+  "refs": [
+   "F-18"
+  ],
+  "note": "النص الحالي مقتطف من شيفرة الصفحة.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "صفحة مكتب القبول وسائر الصفحات – عناوين URL ووسوم الترويسة",
+  "current_text": "href=\"../Admission/Admission_Contact_GDP.aspx\" ; meta description: none",
+  "axis": "وظيفي وتقني",
+  "type": "عناوين URL غير موحدة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تُقدَّم الصفحة ذاتها عبر أكثر من نطاق وصيغة عنوان (مثل pmu.edu.sa دون تحويل إلى www، وروابط بالصيغة القديمة .aspx وبحالة أحرف مختلفة)، ولا تتضمن الصفحات وسم وصف (meta description) ولا عنوانًا مرجعيًا (canonical).",
+  "recommendation": "اعتماد نطاق وصيغة عنوان واحدة لكل صفحة مع إعادة توجيه دائمة من الصيغ الأخرى، وإضافة وسم canonical ووصف موجز لكل صفحة.",
+  "refs": [
+   "F-20"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P04",
+  "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "location": "صفحة الدرجات والبرامج – جدولا البرامج الجامعية وبرامج الدراسات العليا؛ مقارنةً بقائمة الدراسات العليا في صفحة مكتب القبول وصفحة برامج الدراسات العليا وصفحة رسوم الدراسات العليا",
+  "current_text": "College of Law … B.A. in Law … Graduate Programs ; Admissions to the EMGMS Program ; Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33) | SAR 80,000 | SAR 80,000",
+  "axis": "دقة المعلومات",
+  "type": "قائمة برامج غير مكتملة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا تتضمن صفحة الدرجات والبرامج برنامج كلية الطب ولا ماجستير الإدارة الهندسية (EMGMS) مع أن لكليهما صفحة قبول، ولا ماجستير الهندسة في الابتكار والاستدامة وريادة الأعمال المدرج برسومه في صفحة رسوم الدراسات العليا دون أي مدخل له في قائمة القبول في الدراسات العليا. كما تختلف قوائم برامج الدراسات العليا بين صفحة مكتب القبول وصفحة برامج الدراسات العليا وصفحة الدرجات والبرامج.",
+  "recommendation": "اعتماد قائمة موحدة بالبرامج المفتوحة للقبول تُغذّي جميع الصفحات من مصدر واحد، بعد أن تؤكد الجهات الأكاديمية المالكة البرامج المتاحة فعليًا (بما فيها برنامج الطب مع بيان إتاحته للطلاب والطالبات، وبرنامج الابتكار والاستدامة وريادة الأعمال).",
+  "refs": [
+   "F-11",
+   "F-25",
+   "C017",
+   "C018",
+   "C010"
+  ],
+  "note": "حالة ماجستير الهندسة في الابتكار والاستدامة وريادة الأعمال (مفتوح للقبول أم لا) تحتاج تأكيدًا من الجهة المالكة. أما اختلاف مسمى ماجستير التنمية البشرية فمعالج في ملاحظة مستقلة.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P04",
+  "url": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+  "location": "صفحة الدرجات والبرامج – جداول البرامج",
+  "current_text": "PhD. in Mechanical Engineering ; Masters in Business Administration (MBA) ; College of Computer Engineering and Science",
+  "axis": "الاتساق",
+  "type": "عدم اتساق مسميات الدرجات",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تُكتب الدرجة \"PhD.\" بصيغة غير قياسية في حين تستخدم صفحة الرسوم \"Ph.D.\"، ويرد \"Masters in Business Administration\" بدل الصيغة القياسية \"Master of Business Administration\"، ويختلف اسم الكلية عن صيغته في تذييل الموقع \"College of Computer Engineering & Sciences\".",
+  "recommendation": "توحيد الصيغ إلى \"Ph.D.\" (أو \"PhD\") و\"Master of Business Administration (MBA)\"، واعتماد الاسم الرسمي للكلية في جميع المواضع.",
+  "refs": [
+   "C019",
+   "C020",
+   "C021"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P03",
+  "url": "https://pmu.edu.sa/admission/future_students_ro",
+  "location": "صفحة النظرة العامة – الفقرة الافتتاحية وجملة الإحالة إلى الروابط (والفقرة نفسها مكررة في بوابة التقديم)",
+  "current_text": "When you are looking for an institution that not only provides you with a degree in a competent subject, … grooms you to be a leader wherever you go. … To explore the opportunities and the admission requirements more please visit the below links:",
+  "axis": "لغوي ونحوي",
+  "type": "جملة ناقصة وصياغة ركيكة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "الجملة الافتتاحية ناقصة؛ إذ تبدأ بشرط \"When…\" دون جواب، وتستخدم عبارة الإحالة صياغة غير سليمة \"please visit the below links\".",
+  "recommendation": "إعادة صياغة الجملة الافتتاحية جملةً تامة (مثل: \"If you are looking for an institution that…, PMU is the place for you.\")، واستخدام \"please visit the links below\"، وتطبيق التصحيح نفسه على بوابة التقديم.",
+  "refs": [
+   "C014",
+   "C016"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P03",
+  "url": "https://pmu.edu.sa/admission/future_students_ro",
+  "location": "صفحة النظرة العامة – الفقرة التعريفية (ومكررة في بوابة التقديم)",
+  "current_text": "We offer different programs accredited by prestigious national and international organizations.",
+  "axis": "دقة المعلومات",
+  "type": "ادعاء غير موثّق",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تذكر الصفحة أن البرامج معتمدة من جهات وطنية ودولية مرموقة دون تسمية هذه الجهات أو الإحالة إلى صفحة الاعتماد الأكاديمي.",
+  "recommendation": "تسمية جهات الاعتماد لكل برنامج أو إضافة رابط إلى صفحة الاعتماد الأكاديمي الرسمية.",
+  "refs": [
+   "C015"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – تقويم القبول في البكالوريوس لخريف 2026-2027",
+  "current_text": "Fall 2026-2027 … Last day to submit IELTS or TOEFL iBT | 2026-07-20 … Last day for Transfer applicants to submit documents in person | 2026-07-20 … First day of classes | 2026-08-30 … Announcement of admission results through Qabool platform | From July 19 to July 21, 2026",
+  "axis": "دقة المعلومات",
+  "type": "معلومة قديمة وتسلسل غير منطقي",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "يعرض تقويم القبول دورة خريف 2026-2027 وحدها، وجميع مواعيدها انقضت (آخرها بدء الدراسة في 30 أغسطس 2026)، دون إعلان عن الدورة التالية أو عن إغلاق القبول. كما يبدأ إعلان نتائج القبول (19–21 يوليو 2026) قبل يوم من آخر موعد لتقديم درجات IELTS/TOEFL ووثائق المتقدمين المحولين (20 يوليو 2026)، دون توضيح لكيفية التعامل مع ذلك.",
+  "recommendation": "نشر تقويم الدورة القادمة أو عبارة صريحة بإغلاق القبول مع موعد فتح الدورة التالية، وترتيب البنود زمنيًا مع بيان الفئة التي ينطبق عليها كل موعد؛ ويتطلب ذلك اعتماد مواعيد الدورة القادمة من مكتب القبول.",
+  "refs": [
+   "F-04",
+   "C023",
+   "C162",
+   "C175",
+   "C187"
+  ],
+  "note": "قد يكون تداخل موعد النتائج مع آخر موعد للوثائق مقصودًا لفئات مختلفة من المتقدمين؛ يلزم تأكيد ذلك من مكتب القبول.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – بند اللقاء التعريفي في تقويم البكالوريوس",
+  "current_text": "Orientation for new applicants | TBA",
+  "axis": "دقة المعلومات",
+  "type": "معلومة غير مكتملة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا يزال موعد اللقاء التعريفي للمتقدمين الجدد \"TBA\" مع أن الدراسة بدأت في 30 أغسطس 2026، في حين يحدد التقويم الأكاديمي 2026-2027 اللقاء التعريفي للطلاب الجدد في 27 أغسطس 2026 و14 يناير 2027؛ ولا يتضمن تقويم القبول أي نافذة قبول لفصل الربيع.",
+  "recommendation": "استبدال \"TBA\" بالموعد الفعلي أو حذف البند، ونشر نافذة القبول التالية (ومنها الربيع إن كان القبول فيه متاحًا) بما يتسق مع التقويم الأكاديمي.",
+  "refs": [
+   "F-31",
+   "C024"
+  ],
+  "note": "إتاحة القبول في فصل الربيع قرار يعود إلى مكتب القبول ويلزم تأكيده.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – بندا التقديم للطلاب غير السعوديين وإعلان النتائج",
+  "current_text": "For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar | Closed … Announcement of admission results through Qabool platform | From July 19 to July 21, 2026",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يحدد التقويم منصة \"قبول\" وحدها قناةً لإعلان النتائج، ولا يذكر كيف أو متى يتلقى المتقدمون غير السعوديين الذين يتقدمون عبر منصة \"ادرس في السعودية\" نتائجهم.",
+  "recommendation": "بيان قناة إعلان النتائج وموعدها للمتقدمين غير السعوديين.",
+  "refs": [
+   "C029"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – شيفرة الصفحة (نسخة ثانية من جدولي التقويم)",
+  "current_text": "Fall 2026-2027 Undergraduate Admission Calendar … First day of classes 2026-08-30 … For non Saudi Students: Apply online through Study in Saudi platform … Closed",
+  "axis": "وظيفي وتقني",
+  "type": "محتوى مكرر",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تتضمن شيفرة صفحة تقويم القبول نسخة ثانية من جدولي تقويم البكالوريوس والدراسات العليا، يختلف فيها موضع بند الطلاب غير السعوديين، مما قد يُظهرها في بعض طرق العرض ويعرّض النسختين لعدم التطابق عند التحديث.",
+  "recommendation": "حذف الجداول المكررة والإبقاء على نسخة واحدة تُحدَّث.",
+  "refs": [
+   "F-49",
+   "C025"
+  ],
+  "note": "العرض المرئي الذي جرى التقاطه يُظهر كل جدول مرة واحدة، والتكرار موجود في النص الكامل المستخرج من الصفحة.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – بنود جدول البكالوريوس",
+  "current_text": "For non Saudi Students: Apply online through Study in Saudi platform ; Start of English Placement Test and personal Interviews | 2026-05-17",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء في الترقيم والأحرف الكبيرة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "ترد عبارة \"non Saudi\" دون الشرطة الواصلة، ويختلف استخدام الأحرف الكبيرة في عبارة \"personal Interviews\".",
+  "recommendation": "التصحيح إلى \"For non-Saudi Students:\" و\"Start of English Placement Test and Personal Interviews\".",
+  "refs": [
+   "C027",
+   "C028"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P05",
+  "url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+  "location": "صفحة تقويم القبول – زر \"Apply Now\" فوق جدولي التقويم",
+  "current_text": "Apply Now",
+  "axis": "وظيفي وتقني",
+  "type": "رابط غير قياسي",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "يعمل زر \"Apply Now\" في صفحة التقويم عبر استدعاء برمجي للخادم (postback) بدل رابط عادي، فلا يمكن فتحه في تبويب جديد أو نسخه، وتصل عدة صيغ مختلفة للروابط إلى بوابة التقديم نفسها.",
+  "recommendation": "استبدال الزر برابط قياسي مباشر إلى عنوان موحد لبوابة التقديم.",
+  "refs": [
+   "F-24"
+  ],
+  "note": "نص الزر موجود في الأدلة، أما شيفرة الرابط البرمجي فلم تُحفظ ضمن النصوص المستخرجة؛ يُتحقق منها في الصفحة الحية قبل التنفيذ.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P07",
+  "url": "https://pmu.edu.sa/admission/admissions_queries",
+  "location": "صفحة استفسار القبول – نموذج الاستفسار؛ وصفحة التواصل للدراسات العليا",
+  "current_text": "Welcome to PMU, the Admissions Office is glad to answer your inquiries. … Name [الأسم]: * … Email [البريد الإلكتروني]:* … Mobile number [رقم الجوال]:*",
+  "axis": "تنظيمي",
+  "type": "غياب إشعار الخصوصية وقنوات التواصل",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يجمع نموذج استفسار القبول الاسم والبريد الإلكتروني ورقم الجوال دون أي إشعار خصوصية ظاهر، ولا تقدم الصفحة بريدًا إلكترونيًا أو هاتفًا بديلًا لمكتب القبول ولا مدة متوقعة للرد؛ كما تقتصر صفحة التواصل للدراسات العليا على المكتب والبريد الإلكتروني دون هاتف.",
+  "recommendation": "إضافة إشعار خصوصية بعد مراجعته من الجهة المختصة بالامتثال، وإضافة البريد الإلكتروني الرسمي ورقم الهاتف لمكتب القبول ومدة الرد المتوقعة بجوار النموذج.",
+  "refs": [
+   "F-45",
+   "C041"
+  ],
+  "note": "صياغة إشعار الخصوصية تتطلب اعتماد الجهة القانونية/جهة الامتثال.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P07",
+  "url": "https://pmu.edu.sa/admission/admissions_queries",
+  "location": "صفحة استفسار القبول – نص الترحيب وعناوين حقول التحقق",
+  "current_text": "Please fill the below request: ; Verification Code[رمز التحقق]:* ; Enter Verifaction Code[أدخل رمز التحقق]:*",
+  "axis": "لغوي ونحوي",
+  "type": "صياغة ركيكة ومسافات ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "عبارة \"Please fill the below request\" ركيكة، ويفتقد عنوانا حقلي التحقق المسافة قبل القوس الذي يضم النص العربي.",
+  "recommendation": "التصحيح إلى \"Please fill in the form below:\" وإضافة مسافة قبل القوس في العنوانين.",
+  "refs": [
+   "C039",
+   "C040"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P07",
+  "url": "https://pmu.edu.sa/admission/admissions_queries",
+  "location": "صفحة استفسار القبول – النص العربي للترحيب وعناوين الحقول؛ وعنوان \"نسب الموزونة\" في صفحة التقديم /apply",
+  "current_text": ":مرحباً بكم بجامعة الأمير محمد بن فهد، مكتب القبول يسعد بالإجابة على إستفساراتكم. … Name [الأسم] ; Query [الإستفسار] ; Email [البريد الإللكتروني] ; نسب الموزونة",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء إملائية ونحوية عربية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يتضمن النص العربي أخطاء إملائية في همزة الوصل (\"الأسم\"، \"الإستفسار\"، \"إستفساراتكم\")، وتكرار حرف في \"الإللكتروني\"، وموضعًا خاطئًا للنقطتين في بداية جملة الترحيب، إضافة إلى خطأ نحوي في عنوان \"نسب الموزونة\" بصفحة التقديم (مكرر مرتين).",
+  "recommendation": "التصحيح إلى \"الاسم\" و\"الاستفسار\" و\"استفساراتكم\" و\"البريد الإلكتروني\" و\"النسب الموزونة\"، ونقل النقطتين إلى نهاية الجملة العربية مع ضبط اتجاه السطر من اليمين إلى اليسار.",
+  "refs": [
+   "F-85",
+   "C035",
+   "C036",
+   "C037",
+   "C038",
+   "C049"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – قسم متطلبات القبول في البكالوريوس (يُعاد التوجيه فورًا إلى بوابة التقديم)",
+  "current_text": "Bachelor’s Programs — Admission Requirements … High school 80% or higher … Qudrat 60% or equivalent SAT 1 score … High school average: 85% or higher … Qudrat 65% or higher … Tahseely 65% or higher",
+  "axis": "وظيفي وتقني",
+  "type": "محتوى غير ظاهر للمتقدم",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تتضمن صفحة /apply باللغتين الحدود الدنيا والنسب الموزونة لبرامج البكالوريوس، لكنها تُعيد التوجيه فورًا إلى بوابة التقديم، فلا يراها المتقدم، ولا تعرض البوابة هذه المتطلبات. وتعادل الحدود الدنيا المنشورة نسبة موزونة قدرها 72% للتخصصات غير الهندسية و73% للهندسة والذكاء الاصطناعي وعلوم الحاسب والعمارة دون أن تُذكر صراحة.",
+  "recommendation": "نشر متطلبات القبول في صفحة ظاهرة ومرتبطة بمسار التقديم، وأن يؤكد مكتب القبول الحد الأدنى المعتمد للنسبة الموزونة ويقرر بقاء المحتوى المخفي أو حذفه.",
+  "refs": [
+   "F-71",
+   "F-23"
+  ],
+  "note": "النسبتان 72% و73% محسوبتان من الحدود الدنيا والأوزان المنشورة، ويلزم تأكيد كونهما الحد الأدنى المعتمد.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – تخصصات الهندسة والذكاء الاصطناعي؛ مقارنةً بصفحة اختبار SAT وصفحة متطلبات تخصصات الحاسب والهندسة",
+  "current_text": "/apply: \"a SAT 1 total score of 1200 is accepted in place of both Qudrat and Tahseely\" | SAT: \"Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests\" | CS/Eng: \"(SAAT – Tahseely) or SAT 1 (1200)\"",
+  "axis": "الاتساق",
+  "type": "تعارض في شروط القبول",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يُوصف بديل SAT 1 بدرجة 1200 بثلاث صيغ مختلفة: في /apply بديلًا عن القدرات والتحصيلي لجميع المتقدمين لتخصصات الهندسة والذكاء الاصطناعي والحاسب والعمارة، وفي صفحة SAT مقصورًا على حملة الشهادات الثانوية الدولية، وفي صفحة تخصصات الحاسب والهندسة بديلًا عن التحصيلي فقط.",
+  "recommendation": "أن يحدد مكتب القبول القاعدة المعتمدة لبديل SAT (الفئة المستفيدة والاختبارات التي يحل محلها)، ثم نشرها بصيغة واحدة في جميع الصفحات.",
+  "refs": [
+   "F-76"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – الحد الأدنى للتخصصات غير الهندسية",
+  "current_text": "Qudrat 60% or equivalent SAT 1 score",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تشترط الصفحة للتخصصات غير الهندسية \"القدرات 60% أو ما يعادلها من SAT 1\" دون ذكر الدرجة المعادلة، في حين تُذكر درجة 1200 لمجموعة الهندسة والذكاء الاصطناعي.",
+  "recommendation": "ذكر الحد الأدنى لدرجة SAT 1 للتخصصات غير الهندسية في /apply وصفحة القبول في البكالوريوس، بعد اعتماده من مكتب القبول.",
+  "refs": [
+   "C047"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – قسم رسوم التقديم؛ مقارنةً بصفحات القبول في البكالوريوس وكلية الطب",
+  "current_text": "A non-refundable application fee of SAR 950 must be paid to complete the admission process. ; other pages: \"SAR 950 (incl. VAT)\" ; College of Medicine: \"SAR 1000 (incl. VAT)\"",
+  "axis": "دقة المعلومات",
+  "type": "معلومة رسوم ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تذكر الصفحة رسوم تقديم بقيمة 950 ريالًا دون بيان أنها شاملة ضريبة القيمة المضافة كما في صفحات البكالوريوس الأخرى، وتعرض رسومًا ومعايير عامة لجميع برامج البكالوريوس دون الإشارة إلى أن لكلية الطب رسوم تقديم قدرها 1000 ريال شاملة ضريبة القيمة المضافة ومعايير أعلى (منها SAT 1 بدرجة 1300).",
+  "recommendation": "إضافة عبارة \"شاملة ضريبة القيمة المضافة\" إلى بيان الرسوم، وإضافة إشارة أو رابط إلى رسوم كلية الطب ومعاييرها الخاصة (أو عبارة \"تختلف الرسوم حسب البرنامج\").",
+  "refs": [
+   "C045",
+   "C046"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – قسم التخصصات غير الهندسية؛ مقارنةً بصفحة القبول في البكالوريوس",
+  "current_text": "* Students with a lower percentage can apply; however, acceptance will depend on the overall weight.",
+  "axis": "الاتساق",
+  "type": "ملاحظة غير متسقة بين الصفحات",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "ترد ملاحظة إمكانية تقديم الحاصلين على نسب أقل في /apply تحت مجموعة الهندسة والذكاء الاصطناعي وحدها، في حين تطبقها صفحة القبول في البكالوريوس على القبول العام (غير الهندسي) أيضًا.",
+  "recommendation": "إضافة الملاحظة نفسها بالعربية والإنجليزية إلى قسم التخصصات غير الهندسية، بعد تأكيد مكتب القبول انطباقها عليه.",
+  "refs": [
+   "C048"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – النص العربي لجدول التخصصات غير الهندسية وملاحظة اختبار التوفل",
+  "current_text": "القدرات / 1 SAT ; ملاحظة: لا يُقبل اختبار النسخة المنزلية. (EN: \"Note: TOEFL Home Edition is not accepted.\")",
+  "axis": "الاتساق",
+  "type": "عدم تطابق النصين العربي والإنجليزي",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يظهر اسم الاختبار في الجدول العربي \"1 SAT\" بدل \"SAT 1\"، وتذكر الملاحظة العربية عدم قبول \"النسخة المنزلية\" دون تسمية اختبار التوفل خلافًا للنص الإنجليزي.",
+  "recommendation": "التصحيح إلى \"القدرات / SAT 1\" و\"لا يُقبل اختبار التوفل (النسخة المنزلية)\".",
+  "refs": [
+   "C050",
+   "C051"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P08",
+  "url": "https://www.pmu.edu.sa/apply",
+  "location": "صفحة التقديم /apply – قسم الشهادات الثانوية الدولية؛ مقارنةً بصفحتي القبول في البكالوريوس والطلاب الدوليين",
+  "current_text": "/apply: \"Have the certificate stamped by the Saudi Embassy in their country\" | UG Admissions: \"attested, in advance, by the Saudi Consulate and other authorized organizations\" | International: \"certified by the Saudi Cultural Mission and Saudi Embassy\"",
+  "axis": "الاتساق",
+  "type": "صياغات متباينة لشرط التصديق",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يُصاغ شرط تصديق الشهادة الثانوية الدولية بثلاث صيغ مختلفة: السفارة السعودية في /apply، والقنصلية السعودية وجهات أخرى معتمدة في صفحة القبول في البكالوريوس، والملحقية الثقافية السعودية والسفارة في صفحة الطلاب الدوليين.",
+  "recommendation": "اعتماد صيغة واحدة لشرط التصديق (الجهة المصدِّقة في بلد الدراسة مع معادلة وزارة التعليم) بعد تأكيدها من مكتب القبول، وتطبيقها في جميع الصفحات.",
+  "refs": [
+   "C052"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P38",
+  "url": "https://admissions.pmu.edu.sa/welcome",
+  "location": "بوابة التقديم – قسم Admission Calendar؛ مقارنةً بصفحة تقويم القبول",
+  "current_text": "Admission Calendar | No events are currently published. Please check back later. … 2022 © PMU ; Admissions Calendar page: \"Fall 2026-2027 Undergraduate Admission Calendar\"",
+  "axis": "الاتساق",
+  "type": "تعارض بين مصدرين للتقويم",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تعرض بوابة التقديم عبارة \"لا توجد أحداث منشورة حاليًا\"، في حين تنشر صفحة تقويم القبول في الموقع مواعيد دورة خريف 2026-2027؛ كما يحمل تذييل البوابة تاريخ 2022.",
+  "recommendation": "اعتماد مصدر واحد لتقويم القبول تُعرض منه المواعيد في البوابة والموقع معًا، وتحديث سنة التذييل.",
+  "refs": [
+   "F-22"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P38",
+  "url": "https://admissions.pmu.edu.sa/welcome",
+  "location": "بوابة التقديم – الصفحة الترحيبية",
+  "current_text": "Creative minds … Transform the world … Student Login … New Student? Register! … Contact Admissions",
+  "axis": "تجربة المستخدم",
+  "type": "غياب العربية وإشعار الخصوصية",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "بوابة التقديم متاحة باللغة الإنجليزية وحدها، ولا تتضمن رابطًا لإشعار الخصوصية مع أنها نقطة تسجيل المتقدمين.",
+  "recommendation": "إضافة واجهة عربية للبوابة ورابط لإشعار الخصوصية بعد مراجعته من الجهة المختصة بالامتثال.",
+  "refs": [
+   "F-77"
+  ],
+  "note": "غياب التقويم في البوابة معالج في الملاحظة السابقة.",
+  "group": "G1"
+ },
+ {
+  "page_id": "Shared menu",
+  "url": "(menu shown on admission pages)",
+  "location": "القائمة الجانبية لصفحات القبول – رابط \"Contact Info\" (يظهر في صفحات النظرة العامة والدرجات والبرامج وتقويم القبول وصفحات البكالوريوس)",
+  "current_text": "Contact Info → CONTACT INFO | Graduate Study Admission Coordinator | Office: G-017 Admin Bld | Email: graduateadm@pmu.edu.sa",
+  "axis": "تجربة المستخدم",
+  "type": "رابط مضلل",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يقود رابط \"Contact Info\" في القائمة الجانبية، بما فيها صفحات القبول في البكالوريوس، إلى صفحة تواصل الدراسات العليا التي لا تذكر إلا منسق القبول في الدراسات العليا، فلا يجد المتقدم للبكالوريوس جهة تواصل خاصة به.",
+  "recommendation": "توجيه الرابط إلى صفحة تواصل عامة لمكتب القبول (بريد إلكتروني وهاتف) أو إضافة بيانات تواصل البكالوريوس إلى الصفحة المستهدفة، أو إعادة تسمية الرابط إلى \"Graduate Admissions Contact\" في صفحات الدراسات العليا.",
+  "refs": [
+   "C001",
+   "C155"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "Shared menu",
+  "url": "(menu shown on admission pages)",
+  "location": "القائمة الجانبية لصفحات القبول – بندا \"Admission Calendar\" و\"Home\" تحت Undergraduate Admissions",
+  "current_text": "Admission Calendar (sidebar) ; Admissions Calendar (page title) ; Undergraduate Admissions … Home … New Applicant … Freshman",
+  "axis": "الاتساق",
+  "type": "تسميات غير متسقة في القائمة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تُسمى صفحة التقويم \"Admission Calendar\" في القائمة الجانبية و\"Admissions Calendar\" في القائمة الرئيسية وعنوان الصفحة، ويحمل البند المؤدي إلى صفحة القبول في البكالوريوس اسم \"Home\" فيلتبس برابط الصفحة الرئيسية للموقع في مسار التصفح.",
+  "recommendation": "اعتماد \"Admissions Calendar\" في جميع المواضع، وإعادة تسمية البند \"Home\" إلى \"Undergraduate Admissions Overview\".",
+  "refs": [
+   "C003",
+   "C200"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "Shared menu",
+  "url": "(menu shown on admission pages)",
+  "location": "القائمة الجانبية لصفحات الدراسات العليا – رابط \"Tuition & Fees\"",
+  "current_text": "Tuition & Fees",
+  "axis": "وظيفي وتقني",
+  "type": "رابط غير دقيق",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يفتح رابط \"Tuition & Fees\" في القائمة الجانبية لبرامج الدراسات العليا صفحة الرسوم الدراسية العامة، في حين يفتح الرابط نفسه في قائمة الدراسات العليا بصفحة مكتب القبول صفحة رسوم الدراسات العليا مباشرة.",
+  "recommendation": "توجيه الرابط في القائمة الجانبية للدراسات العليا إلى صفحة رسوم الدراسات العليا.",
+  "refs": [
+   "C053"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "Shared menu",
+  "url": "(menu shown on admission pages)",
+  "location": "القائمة الجانبية لصفحات القبول – قسم Financial Aid (المنح الدراسية) وحاسبة المعدل",
+  "current_text": "Sponsored Scholarship Programs ; MOHE Scholarships ; International Students Scholarships → \"404 - File or directory not found\"",
+  "axis": "وظيفي وتقني",
+  "type": "روابط معطلة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "أربعة روابط في القائمة الجانبية (صفحات المنح الثلاث وحاسبة المعدل) تعيد خطأ 404، وصفحة المساعدات المالية خالية من المحتوى.",
+  "recommendation": "إصلاح الروابط أو إزالتها من القائمة، واستكمال صفحة المساعدات المالية أو حذفها بعد تأكيد الجهة المالكة.",
+  "refs": [
+   "F-30"
+  ],
+  "note": "هذه الصفحات من الصفحات القديمة غير المرتبطة مباشرة بالصفحة الرئيسية لمكتب القبول، لكنها تظهر في القائمة الجانبية لصفحات النظرة العامة والدرجات والبرامج وتقويم القبول.",
+  "group": "G1"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "صفحات متطلبات برامج الدراسات العليا – بند المقابلة الشخصية (دكتوراه الهندسة الميكانيكية، دكتوراه إدارة الأعمال، ماجستير الهندسة الميكانيكية والكهربائية والمدنية والتصميم الداخلي وغيرها)",
+  "current_text": "Candidates will be personally interviewed by committee of the program administrators and faculty",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ نحوي متكرر",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تفتقد جملة المقابلة أداة التنكير \"a\" قبل \"committee\"، وتتكرر بالصياغة نفسها في عدة صفحات للدراسات العليا.",
+  "recommendation": "التصحيح إلى \"Candidates will be interviewed by a committee of program administrators and faculty.\" في جميع الصفحات.",
+  "refs": [
+   "C055"
+  ],
+  "group": "G1"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "قسما Transfer Students وVisitor Students – قائمة How to Apply (مقارنةً بصفحة القبول بالتحويل وصفحة الطلاب الزائرين وصفحة الرسوم الرسمية)",
+  "current_text": "[الطلاب الدوليون] Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents | [التحويل, الطلاب الزائرون] Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents | [Other Fees] Admission Application Fees- Undergraduate Programs … Non-refundable SAR 950",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في رسوم التقديم",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "تذكر صفحة الطلاب الدوليين أن رسوم التقديم للطلاب المحوَّلين والزائرين 500 ريال غير شاملة ضريبة القيمة المضافة، في حين تذكر صفحتا القبول بالتحويل والطلاب الزائرين وصفحة الرسوم الرسمية أن رسوم التقديم لمرحلة البكالوريوس 950 ريالًا شاملة ضريبة القيمة المضافة. كما تذكر الصفحة نفسها في قسم الطلاب المستجدين مبلغ 950 ريالًا شاملة ضريبة القيمة المضافة.",
+  "recommendation": "اعتماد مبلغ واحد لرسوم التقديم ومعالجة واحدة لضريبة القيمة المضافة لكل فئة من المتقدمين بقرار من الإدارة المالية ومكتب القبول، ثم توحيده في جميع الصفحات بما فيها صفحة الطلاب الدوليين.",
+  "refs": [
+   "F-02"
+  ],
+  "note": "إن كانت هناك رسوم مختلفة معتمدة للطلاب الدوليين فيلزم توثيقها في صفحة الرسوم الرسمية.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "قسم Freshman Students – معايير القبول والأوزان النسبية لتخصصات الحاسب والهندسة (مقارنةً بصفحة متطلبات تخصصات الحاسب والهندسة وصفحة اختبار SAT)",
+  "current_text": "[الطلاب الدوليون] Acceptable secondary school GPA *80% or equivalent … Computer Science & Engineering Majors: Secondary School 40% SAT I 30% SAT II 30% | [الحاسب والهندسة] HS GPA out of 100 | ≥ 85 | 40% | [SAT] might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests",
+  "axis": "دقة المعلومات",
+  "type": "معيار قبول متقادم",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "تشترط صفحة الطلاب الدوليين لتخصصات الحاسب والهندسة اختبار SAT II بوزن 30%، وهو اختبار أوقفته الجهة المنظمة له (College Board) عام 2021، كما لا تذكر الحد الأدنى الأعلى لمعدل الثانوية (85%) ولا بديل SAT بدرجة 1200 المنشورَين في صفحتي متطلبات تخصصات الحاسب والهندسة واختبار SAT.",
+  "recommendation": "حذف SAT II واستبداله بالبديل المعتمد (مثل SAT بدرجة 1200 بديلًا عن القدرات والتحصيلي)، وإضافة الحدود الدنيا الخاصة بهذه التخصصات أو الإحالة إلى صفحة متطلبات تخصصات الحاسب والهندسة، بعد اعتماد ذلك من مكتب القبول والكليات المعنية.",
+  "refs": [
+   "F-01",
+   "C063"
+  ],
+  "note": "إيقاف اختبارات SAT Subject Tests معلومة خارجية معروفة وليست مأخوذة من صفحات الجامعة.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "قسم Freshman Students – Admission Criteria؛ وقسم Transportation",
+  "current_text": "[الطلاب الدوليون] Acceptable SAT I … Transportation Transportation Campus Life | [SAT] might submit SAT with minimum score of 1200",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تشترط صفحة الطلاب الدوليين «SAT I مقبولًا» دون تحديد حد أدنى، بينما تحدد صفحة اختبار SAT حدًّا أدنى قدره 1200 لحملة الشهادات الثانوية الدولية. كما يظهر قسم Transportation بعنوانه فقط دون أي محتوى.",
+  "recommendation": "ذكر الحد الأدنى المعتمد لدرجة SAT في الصفحة (1200 إذا أكده مكتب القبول)، واستكمال قسم المواصلات بمعلومات فعلية أو حذفه.",
+  "refs": [
+   "F-46",
+   "C062",
+   "C066"
+  ],
+  "note": "رُفعت الأولوية إلى متوسطة لأن بعض الملاحظات المدمجة مصنفة بأولوية متوسطة.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "قسم Apply في صفحة الطلاب الدوليين (مقارنةً بتقويم القبول)",
+  "current_text": "[الطلاب الدوليون] The application process can be completed entirely online. | [تقويم القبول] For non Saudi Students: Apply online through Study in Saudi platform: https://studyinsaudi.sa/ar … Closed",
+  "axis": "دقة المعلومات",
+  "type": "مسار تقديم وموعد غير منشورين",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "يُظهر تقويم القبول مسار التقديم للمتقدمين من غير السعوديين عبر منصة «ادرس في السعودية» بحالة «Closed» دون أي تاريخ، ولا تذكر صفحة الطلاب الدوليين مسار التقديم ولا موعده النهائي، مكتفية بأن التقديم يتم إلكترونيًا بالكامل.",
+  "recommendation": "نشر مسار التقديم المعتمد للمتقدمين من غير السعوديين وموعد فتحه وإغلاقه للدورة القادمة في صفحة الطلاب الدوليين وتقويم القبول معًا.",
+  "refs": [
+   "F-48"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "تبويب Graduate Studies في صفحة الطلاب الدوليين",
+  "current_text": "[الطلاب الدوليون] Graduate Studies MBA MSHD MSME",
+  "axis": "دقة المعلومات",
+  "type": "قائمة برامج ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يعرض تبويب الدراسات العليا في صفحة الطلاب الدوليين ثلاثة برامج فقط (MBA وMSHD وMSME)، في حين تعرض صفحة مكتب القبول برامج أخرى للدراسات العليا لا تظهر في هذا التبويب (منها دكتوراه إدارة الأعمال، وEMBA، ودكتوراه الهندسة الميكانيكية، وMSEE، وMSCE، وMSID، وEMGMS، وMIBL).",
+  "recommendation": "إضافة البرامج الناقصة أو الإحالة إلى صفحة برامج الدراسات العليا الكاملة، بعد تأكيد البرامج المتاحة للطلاب الدوليين من عمادة الدراسات العليا.",
+  "refs": [
+   "F-81",
+   "C065"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "صفحة الطلاب الدوليين – قسم International Admissions Office (بيانات التواصل)",
+  "current_text": "[الطلاب الدوليون] PMU’s International Admissions Office staff will be there for you.",
+  "axis": "تجربة المستخدم",
+  "type": "بيانات تواصل غير متوفرة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "لا تتضمن صفحة الطلاب الدوليين بريدًا إلكترونيًا أو رقم هاتف أو موقعًا لمكتب القبول الدولي، ويقتصر التواصل على رابط عام لصفحة «اتصل بنا» في الجامعة.",
+  "recommendation": "إضافة البريد الإلكتروني ورقم الهاتف وموقع مكتب القبول الدولي، أو رابط مباشر لصفحة التواصل الخاصة به.",
+  "refs": [
+   "C067"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "صفحة الطلاب الدوليين – الفقرة التعريفية، ومسار التنقل، وقوائم المستندات، وقائمة International Students Services Office",
+  "current_text": "[الطلاب الدوليون] From choosing a program to applying to accept Admission Offer to issuing student visa to housing to start the study … International Students without Saudi residence … Copy of SAT 1 - if available … Issuing IQAMA … All registration’s functions",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء لغوية وتحريرية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تتضمن الصفحة جملة تعريفية مضطربة التركيب، واختلافًا في كتابة الأحرف الكبيرة بين مسار التنقل («Saudi residence») وعنوان الصفحة («Saudi Residence»)، وتسمية الاختبار نفسه «SAT I» و«SAT 1»، وكتابة «IQAMA» بأحرف كبيرة، واستخدامًا خاطئًا لعلامة الملكية في «registration’s».",
+  "recommendation": "إعادة صياغة الجملة التعريفية في صورة قائمة واضحة (اختيار البرنامج، التقديم، قبول العرض، التأشيرة، السكن، بدء الدراسة)، وتوحيد «Saudi Residence» و«SAT»، وتصحيح العبارتين إلى «Issuing Iqama» و«All registration functions».",
+  "refs": [
+   "C073",
+   "C074",
+   "C072",
+   "C078"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "صفحة الطلاب الدوليين – قسم Why PMU (تسميات الروابط)",
+  "current_text": "[الطلاب الدوليون] Curriculum (TIEC) … Life @ pmu",
+  "axis": "تجربة المستخدم",
+  "type": "تسمية روابط غير واضحة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يتضمن قسم Why PMU رابطًا بعنوان «Curriculum (TIEC)» باختصار غير مُعرَّف، ورابطًا بعنوان «Life @ pmu» يُكتب فيه اختصار الجامعة بأحرف صغيرة.",
+  "recommendation": "كتابة الاختصار كاملًا أو إعادة تسمية الرابط بما يصف وجهته، وتصحيح التسمية الثانية إلى «Life @ PMU» مع حذفها إن كانت تكرر رابطًا آخر في القسم.",
+  "refs": [
+   "C076",
+   "C077"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P09",
+  "url": "https://pmu.edu.sa/admission/international_students",
+  "location": "صفحة الطلاب الدوليين – قسم Housing",
+  "current_text": "[الطلاب الدوليون] various academic support elements will be located in the residence halls for the convenience of students.",
+  "axis": "دقة المعلومات",
+  "type": "نص قديم بصيغة المستقبل",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يصف قسم السكن عناصر الدعم الأكاديمي في السكن الطلابي بصيغة المستقبل («will be located»)، مما يوحي بأنه نص من مرحلة التأسيس ولم يُحدَّث.",
+  "recommendation": "تحديث النص بصيغة الحاضر وبمعلومات السكن الحالية بالتنسيق مع الجهة المسؤولة عن السكن الطلابي.",
+  "refs": [
+   "C075"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P28",
+  "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+  "location": "صفحة القبول بالتحويل – Admission Criteria وEligibility (والنص نفسه في قسم Transfer Students بصفحة الطلاب الدوليين)",
+  "current_text": "[التحويل, الطلاب الدوليون] In order to be consider as a transfer candidate … The total GPA is 2.0 out of 4.0 from the previous institution",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ نحوي وصياغة ملتبسة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "ترد في الصفحتين عبارة «to be consider» والصواب «to be considered»، ويرد شرط المعدل بصيغة تقريرية («The total GPA is 2.0») توحي بقيمة ثابتة لا بحدٍّ أدنى.",
+  "recommendation": "تصحيح العبارة إلى «To be considered as a transfer candidate» وإعادة صياغة الشرط إلى «Minimum cumulative GPA of 2.0 out of 4.0 at the previous institution» بعد تأكيد مكتب القبول.",
+  "refs": [
+   "C070",
+   "C180",
+   "C069",
+   "C181"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P28",
+  "url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+  "location": "صفحة القبول بالتحويل – Eligibility (والنص المماثل في صفحة الطلاب الدوليين)",
+  "current_text": "[التحويل] international university or can be a college/community college in a Western country (Associate Degree or above)",
+  "axis": "دقة المعلومات",
+  "type": "معيار غير محدد",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يشير شرط الأهلية إلى كليات أو كليات مجتمع «في دولة غربية» دون تعريف موضوعي لهذا الوصف، فلا يتضح للمتقدم أي المؤسسات مقبولة.",
+  "recommendation": "تعريف المؤسسات المقبولة بمعيار موضوعي (مثل المؤسسات المعتمدة والمعترف بها من وزارة التعليم)، بقرار من مكتب القبول.",
+  "refs": [
+   "C183"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P29",
+  "url": "https://pmu.edu.sa/admission/visiting-student-admission",
+  "location": "عنوان الصفحة في المتصفح ومسار التنقل في صفحة الطلاب الزائرين؛ ومسار التنقل والعنوان في صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس",
+  "current_text": "[الطلاب الزائرون] Visiting Student Admission :: Undergraduate :: Admission Office … Admission Office > Undergraduate > Visiting Student Admissions | [الانتقال من التحضيري] Preparatory Program to Undergraduate Programs … ADMISSIONS FROM THE PREPARATORY PROGRAM … Admission from the Preparatory Program",
+  "axis": "الاتساق",
+  "type": "عدم اتساق التسمية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تستخدم صفحة الطلاب الزائرين «Admission Office» و«Undergraduate» بدلًا من «Admissions Office» و«Undergraduate Admissions» المستخدمة في بقية الصفحات، وتختلف تسمية صفحة الانتقال من البرنامج التحضيري بين مسار التنقل والعنوان الرئيسي وعنوان المتصفح.",
+  "recommendation": "توحيد التسمية في مسار التنقل والعناوين وعنوان المتصفح وفق التسمية المعتمدة («Admissions Office > Undergraduate Admissions»)، واعتماد اسم واحد لكل صفحة.",
+  "refs": [
+   "C185",
+   "C193"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P27",
+  "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "location": "صفحة القبول المباشر – Admission Criteria وHow to Apply (والنص المماثل في صفحات الطلاب الدوليين والقبول بالتحويل والطلاب الزائرين ومتطلبات الحاسب والهندسة)",
+  "current_text": "[القبول المباشر] or equivalent TOEFL iBT (Learn more) | [التحويل] or equivalent TOEFL iBT with acceptable scores (read more...) | [الطلاب الزائرون] or equivalent to TOEFL iBT (learn more...), if the medium of instruction at the home institute is other than English | [/apply] TOEFL iBT: Overall 83, Writing 19",
+  "axis": "دقة المعلومات",
+  "type": "حد أدنى غير منشور",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تقبل صفحات البكالوريوس «ما يعادل TOEFL iBT» أو «درجات مقبولة» دون ذكر الحد الأدنى، بينما تحدد صفحة التقديم وصفحات الدراسات العليا 83 درجة إجمالية و19 في الكتابة. كما تقتصر معايير القبول في صفحة القبول المباشر على IELTS، وتتناوب صفحة الطلاب الزائرين بين «home institute» و«home institution».",
+  "recommendation": "نشر الحد الأدنى المعتمد لاختبار TOEFL iBT (83 إجمالًا و19 في الكتابة إن أكده مكتب القبول ومركز الاختبارات) في جميع صفحات البكالوريوس أو ربطها بجدول معادلة واحد، واستخدام «home institution» بصورة موحدة.",
+  "refs": [
+   "F-10",
+   "C064",
+   "C179",
+   "C182",
+   "C186"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P27",
+  "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "location": "شرط اختبار اللغة الإنجليزية في صفحة القبول المباشر (مقارنةً بصفحة التقديم وصفحات الدراسات العليا)",
+  "current_text": "[القبول المباشر] minimum scores of 6.0 overall and 5.5 in writing or equivalent TOEFL iBT | [/apply] IELTS Academic: Overall 6.0, Writing 5.5 … TOEFL iBT: Overall 83, Writing 19",
+  "axis": "دقة المعلومات",
+  "type": "معادلة درجات تحتاج مراجعة",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تعامل الصفحات درجة IELTS 6.0 ودرجة TOEFL iBT 83 بوصفهما متعادلتين، في حين تشير جداول المقارنة المنشورة من الجهة المالكة لاختبار TOEFL إلى أن 6.0 تقابل نطاقًا أدنى وأن 83 تقابل نحو 6.5.",
+  "recommendation": "مراجعة جدول المعادلة بين IELTS وTOEFL iBT من قبل مكتب القبول ومركز الاختبارات واعتماد درجات متكافئة، ثم نشرها موحدة في جميع الصفحات.",
+  "refs": [
+   "F-41"
+  ],
+  "note": "جداول المعادلة مصدر خارجي لم يُتحقق منه من صفحات الجامعة؛ يلزم تأكيده من الجهة المختصة.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P31",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "location": "صفحة متطلبات تخصصات الحاسب والهندسة – How to Apply (والنص نفسه في قسمي Transfer Students وVisitor Students بصفحة الطلاب الدوليين)",
+  "current_text": "[الحاسب والهندسة, الطلاب الدوليون] Submit original IELTS (Academic version) certificate or equivalent TOEFL iBT with acceptable scores (if available) or For direct entry, submit original IELTS (Academic version) certificate with minimum scores of 6.0 overall and 5.5 in writing",
+  "axis": "تجربة المستخدم",
+  "type": "صياغة ملتبسة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يتوزع شرط اختبار اللغة الإنجليزية على بندين متداخلين يربطهما «or» في نهاية الأول مع حرف كبير زائد في «For»، فلا يتضح الفرق بين خيار تقديم الدرجة لتحديد المستوى وخيار القبول المباشر.",
+  "recommendation": "دمج الشرط في بند واحد واضح يفصل بين الخيارين: (أ) دون شهادة يُحدد موعد لاختبار تحديد المستوى، (ب) للقبول المباشر تُقدم شهادة IELTS أو TOEFL iBT بالحد الأدنى المعتمد.",
+  "refs": [
+   "C197",
+   "C071"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P27",
+  "url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+  "location": "قائمة How to Apply في صفحة القبول المباشر وصفحة متطلبات الحاسب والهندسة (مقارنةً بصفحات البرنامج التحضيري والتحويل والزائرين والطلاب الدوليين)",
+  "current_text": "[القبول المباشر, الحاسب والهندسة] Copy of Saudi ID | [البرنامج التحضيري, التحويل, الطلاب الزائرون] Copy of Saudi ID or “Iqama” (for Non-Saudis) | [الطلاب الدوليون] Copy of National ID",
+  "axis": "الاتساق",
+  "type": "عدم اتساق قوائم المستندات",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تطلب صفحتا القبول المباشر ومتطلبات الحاسب والهندسة «صورة الهوية السعودية» فقط دون خيار الإقامة لغير السعوديين، بينما تذكر صفحات أخرى «الهوية السعودية أو الإقامة»، وتطلب صفحة الطلاب الدوليين «صورة الهوية الوطنية» دون توضيح أنها هوية بلد المتقدم.",
+  "recommendation": "اعتماد قائمة مستندات واحدة لكل فئة من المتقدمين، وتعديل الصفحتين إلى «Copy of Saudi ID or Iqama (for non-Saudis)»، وتوضيح عبارة صفحة الطلاب الدوليين إلى «Copy of national ID from home country (if applicable)».",
+  "refs": [
+   "F-80",
+   "C178",
+   "C199",
+   "C068"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب – رابط التقديم (مقارنةً بتقويم القبول وبقية صفحات البكالوريوس)",
+  "current_text": "[تقويم القبول] For Saudi Students: Apply online through Qabool platform: https://www.uap.sa/ | [القبول في البكالوريوس] Apply online based on the admissions calendar (Apply Now)",
+  "axis": "الاتساق",
+  "type": "قناة تقديم غير موحدة",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تحيل صفحة كلية الطب إلى منصة «قبول» الوطنية (uap.sa) بما يتفق مع تقويم القبول، بينما تحيل بقية صفحات البكالوريوس إلى رابط «Apply Now» الخاص بالجامعة، فلا تتضح القناة المعتمدة لكل فئة من المتقدمين.",
+  "recommendation": "تحديد قناة التقديم المعتمدة لكل فئة (السعوديون، وغير السعوديين) بقرار من مكتب القبول، وذكرها بصيغة موحدة في جميع صفحات البكالوريوس.",
+  "refs": [
+   "C168"
+  ],
+  "note": "وجود رابط uap.sa في صفحة كلية الطب ثابت في سجل الروابط، ولم يُلتقط نص الرابط نفسه في النص المستخرج.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب – How to Apply (مقارنةً بصفحة رسوم البرنامج الطبي وبقية صفحات البكالوريوس وصفحة التقديم)",
+  "current_text": "[كلية الطب] Pay a non-refundable application fee of SAR 1000 (incl. VAT) upon submission of documents | [Medical fees] SAR 1,150 (VAT inclusive) | [القبول في البكالوريوس, البرنامج التحضيري–الحاسب والهندسة] SAR 950 (incl. VAT)",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في رسوم التقديم",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "تذكر صفحة كلية الطب أن رسوم التقديم 1000 ريال شاملة ضريبة القيمة المضافة، بينما تذكر صفحة رسوم البرنامج الطبي 1,150 ريالًا شاملة ضريبة القيمة المضافة (وهو ما يساوي 1000 ريال مضافًا إليها 15%)، ولا توضح صفحات البكالوريوس الأخرى وصفحة التقديم، التي تذكر 950 ريالًا، أن لكلية الطب رسومًا مختلفة.",
+  "recommendation": "تأكيد المبلغ المعتمد ومعالجة الضريبة من الإدارة المالية وكلية الطب، وتوحيده في الصفحتين، والإشارة في صفحات البكالوريوس وصفحة التقديم إلى أن الرسوم المختلفة خاصة بمتقدمي كلية الطب.",
+  "refs": [
+   "F-03",
+   "C167"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب – Admission Criteria وHow to Apply (الحدود الدنيا ومعادلة النسبة الموزونة)",
+  "current_text": "[كلية الطب] Copy of secondary school certificate or equivalent (95%) … (Qudrat) (80) or equivalent (SAT 1) … (SAAT – Tahseely) (80) or equivalent (SAT 1) 1300 … *20% high school + 40% Qudrat + 40% Tahseely were 86 is the minimum acceptable score",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في معايير القبول",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "الحدود الدنيا المنشورة (الثانوية 95% والقدرات 80 والتحصيلي 80) تعطي وفق المعادلة المنشورة نسبة موزونة قدرها 83 فقط، وهي أقل من الحد الأدنى المذكور (86). كما لا يتضح أي درجة يُشترط أن تبلغ 86، ولا ما إذا كانت درجة SAT 1 واحدة (1300) تُغني عن القدرات والتحصيلي معًا، إذ لا يُذكر حد أدنى لـSAT 1 بديلًا عن القدرات.",
+  "recommendation": "تحديد الحدود الدنيا والمعادلة المعتمدة من كلية الطب ومكتب القبول، وإعادة صياغة الملاحظة إلى «where 86 is the minimum acceptable total weighted score»، وتوضيح شروط استخدام SAT 1 بديلًا.",
+  "refs": [
+   "F-06",
+   "C165",
+   "C169"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب – Admission Criteria وقائمة How to Apply",
+  "current_text": "[كلية الطب] the process typically involves understanding the weighting and criteria that the medical college uses to evaluate applicants. Here’s how each factor can contribute to the overall acceptance percentage:",
+  "axis": "دقة المعلومات",
+  "type": "صياغة غير رسمية ومتطلبات ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تصف فقرة معايير القبول الإجراء بلغة عامة وغير رسمية بدل النص على قاعدة المفاضلة صراحة. ولا تذكر قائمة التقديم أي متطلب للغة الإنجليزية أو للّياقة الطبية، وتخلو من مستندات تطلبها صفحات البكالوريوس الأخرى (الصور الشخصية، وسجل الأسرة، وخطاب عدم الممانعة من جهة العمل).",
+  "recommendation": "استبدال الفقرة بنص رسمي معتمد مثل: «يُرتَّب المتقدمون وفق النسبة الموزونة (60%) والمقابلة الشخصية (40%)»، وإضافة متطلب اللغة الإنجليزية وأي متطلبات أخرى معتمدة، ومواءمة قائمة المستندات أو النص على اختلافها، بقرار من كلية الطب.",
+  "refs": [
+   "F-40",
+   "C166",
+   "C170"
+  ],
+  "note": "وجود متطلب للغة الإنجليزية أو للّياقة الطبية لكلية الطب قرار يعود للكلية ويحتاج إلى تأكيد.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب (المقدمة، ومعايير القبول، وخطة السنتين الخامسة والسادسة)، وقسم College of Medical Admissions في صفحة القبول في البكالوريوس",
+  "current_text": "[القبول في البكالوريوس, كلية الطب] The PMU College of Medical curriculum … combines a variety of course-type: | [القبول في البكالوريوس] College of Medical Admissions | [كلية الطب] College of Medical major … were 86 is the minimum acceptable score … Population Health (to be developed in launch phase)",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء لغوية ونص غير محدث",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تُسمى الكلية «College of Medical» بدلًا من «College of Medicine» في الصفحتين، وتنتهي جملة «combines a variety of course-type:» بنقطتين دون قائمة، وترد «were» بدلًا من «where»، ويتكرر مقرر «Population Health (to be developed in launch phase)» مرتين بعبارة تخطيطية داخلية.",
+  "recommendation": "تصحيح التسمية إلى «College of Medicine»، وإعادة صياغة الجملة إلى «combines a variety of course types»، وتصحيح «were» إلى «where»، وحذف العبارة التخطيطية أو بيان الوضع الحالي للمقرر بعد مراجعة كلية الطب.",
+  "refs": [
+   "F-82",
+   "C158",
+   "C174",
+   "C159",
+   "C171"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P25",
+  "url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+  "location": "صفحة القبول في كلية الطب – خطة السنوات 3–4 (Block 9) وخطة السنة السادسة",
+  "current_text": "[كلية الطب] Block 9: Transition to Clerkship (Part 1 of CCC – see section below for explanation of CCC) … Surgery 8 weeks (Two 4-week electives) … Vascular Surgery (2-week elective)",
+  "axis": "تجربة المستخدم",
+  "type": "إحالة مفقودة وعرض مربك",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يحيل Block 9 القارئ إلى «القسم أدناه» لشرح اختصار CCC، ولا يوجد هذا القسم ولا يُعرَّف الاختصار في الصفحة. كما تتناوب عناوين «Elective Rotations» و«Required Rotations» في خطة السنة السادسة بصورة غير متسقة، وتُوصف بعض الخيارات بأنها اختيارية لأسبوعين ضمن كتل موصوفة بمقررين اختياريين من أربعة أسابيع.",
+  "recommendation": "كتابة الاختصار CCC كاملًا وإضافة الشرح أو حذف الإحالة، وإعادة عرض خطة السنة السادسة في جدول (الدورة، عدد الأسابيع، الإجباري والاختياري) بعد مراجعة كلية الطب.",
+  "refs": [
+   "C172",
+   "C173"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P24",
+  "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "location": "صفحة القبول في البكالوريوس – قسم Undergraduate Program",
+  "current_text": "[القبول في البكالوريوس] PMU offers various degrees under the College of Architecture and Design, College of Computer Engineering and Science, College of Business Administration, College of Law and College of Engineering.",
+  "axis": "دقة المعلومات",
+  "type": "قائمة كليات ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يعدد قسم Undergraduate Program خمس كليات ولا يذكر كلية الطب، مع أن الصفحة نفسها تتضمن قسمًا للقبول في كلية الطب.",
+  "recommendation": "إضافة كلية الطب إلى القائمة، وإضافة كلية العلوم والدراسات الإنسانية إن كانت تقدم برامج بكالوريوس.",
+  "refs": [
+   "C157"
+  ],
+  "note": "طرح البكالوريوس في كلية العلوم والدراسات الإنسانية يحتاج إلى تأكيد.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P24",
+  "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "location": "صفحة القبول في البكالوريوس – قسم New Applicant",
+  "current_text": "[القبول في البكالوريوس] Admission to each of the undergraduate program is based on different criteria.",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ نحوي",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "ترد عبارة «each of the undergraduate program» بصيغة المفرد، والصواب «each of the undergraduate programs».",
+  "recommendation": "تصحيح العبارة إلى «Admission to each of the undergraduate programs is based on different criteria».",
+  "refs": [
+   "C160"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P24",
+  "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "location": "صفحة القبول في البكالوريوس – قسم New Applicant (مقارنةً بصفحة التقديم وصفحة الطلاب الدوليين)",
+  "current_text": "[القبول في البكالوريوس] attested, in advance, by the Saudi Consulate and other authorized organizations | [/apply] Have the certificate stamped by the Saudi Embassy in their country | [الطلاب الدوليون] certified by the Saudi Cultural Mission and Saudi Embassy",
+  "axis": "الاتساق",
+  "type": "تعارض في جهة التصديق",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تشترط صفحة القبول في البكالوريوس تصديق الشهادات من «القنصلية السعودية»، بينما تذكر صفحة التقديم «السفارة السعودية»، وتذكر صفحة الطلاب الدوليين «الملحقية الثقافية السعودية والسفارة السعودية».",
+  "recommendation": "اعتماد صيغة واحدة لجهة التصديق المطلوبة (مثل «Saudi Embassy or Consulate» إن كانت معتمدة) بقرار من مكتب القبول، وتوحيدها في جميع الصفحات.",
+  "refs": [
+   "C164"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P24",
+  "url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+  "location": "عناوين الصفحة (مستويات H) في صفحة القبول في البكالوريوس وصفحة الطلاب الدوليين وصفحة تقويم القبول",
+  "current_text": "[القبول في البكالوريوس] UNDERGRADUATE ADMISSIONS … New Applicant: … Computer Science and Engineering Majors Admission Requirements | [الطلاب الدوليون] International Admissions Office … Apply | [تقويم القبول] ADMISSIONS CALENDARS",
+  "axis": "وظيفي وتقني",
+  "type": "ترتيب عناوين غير سليم",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "لا تتبع مستويات العناوين تسلسلًا سليمًا: في صفحة البكالوريوس ينتقل العنوان من H1 إلى H3 ثم H4 ثم يعود إلى H3، وفي صفحة الطلاب الدوليين لا يوجد H1 وتنتقل العناوين من H2 إلى H4، وفي صفحة التقويم يسبق H2 عنوان H1.",
+  "recommendation": "تصحيح تسلسل العناوين في القوالب (H1 واحد ثم H2 فـH3) بما يدعم سهولة الوصول ومحركات البحث.",
+  "refs": [
+   "F-26"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P31",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "location": "صفحة متطلبات تخصصات الحاسب والهندسة – المقدمة وAdmission Criteria (مقارنةً بصفحة SAT وصفحة القبول في البكالوريوس وصفحة الطلاب الدوليين)",
+  "current_text": "[الحاسب والهندسة] These majors are Architecture, Computer Science, Computer Engineering, Software Engineering … to Computer Science or Engineering majors | [SAT] Software Engineering, Artificial Intelligence | [القبول في البكالوريوس] Computer Science and Engineering Majors Admission Requirements | [الطلاب الدوليون] Non-Engineering Majors:",
+  "axis": "الاتساق",
+  "type": "قائمة تخصصات غير موحدة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا تتضمن قائمة التخصصات ذات المتطلبات الخاصة في صفحة متطلبات الحاسب والهندسة تخصص الذكاء الاصطناعي، بينما تتضمنه صفحة SAT وصفحة التقديم. كما تقتصر جملة معايير القبول وعنوان الرابط في صفحة البكالوريوس على «الحاسب والهندسة» رغم شمول العمارة، وتقسم صفحة الطلاب الدوليين التخصصات إلى «غير هندسية» و«حاسب وهندسة» دون تعدادها.",
+  "recommendation": "اعتماد قائمة نهائية واحدة بالتخصصات ذات المتطلبات الخاصة من مكتب القبول، وتوحيدها وتسمية المجموعة في صفحة متطلبات الحاسب والهندسة وصفحة SAT وصفحة التقديم وصفحة البكالوريوس وصفحة الطلاب الدوليين، مع تعداد التخصصات في كل مجموعة.",
+  "refs": [
+   "C194",
+   "C196",
+   "C161",
+   "C061",
+   "F-35",
+   "C227"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P31",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+  "location": "صفحة متطلبات تخصصات الحاسب والهندسة – الحاشية أسفل جدول المتطلبات",
+  "current_text": "[الحاسب والهندسة] *Students with lower marks may apply, however, the minimum weighted total, defined by the Admissions Office, should be met.",
+  "axis": "دقة المعلومات",
+  "type": "حد أدنى غير منشور",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تشترط الصفحة استيفاء حد أدنى للنسبة الموزونة «يحدده مكتب القبول» دون ذكر قيمته، في حين تنشر صفحة كلية الطب حدها الأدنى.",
+  "recommendation": "يقرر مكتب القبول نشر الحد الأدنى للنسبة الموزونة لكل مجموعة تخصصات، أو بيان آلية تحديده، وتوحيد ذلك في صفحات البكالوريوس.",
+  "refs": [
+   "F-07",
+   "C195"
+  ],
+  "note": "قرار نشر الحد الأدنى يعود إلى الجهة المالكة لسياسة القبول.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P26",
+  "url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+  "location": "صفحة القبول في البرنامج التحضيري – الفقرة التعريفية والحاشية وقائمة How to Apply",
+  "current_text": "[البرنامج التحضيري] mathematics and learning skills** … the following study skills courses are required: … How to Apply: Completed online application",
+  "axis": "لغوي ونحوي",
+  "type": "عدم اتساق المصطلحات وصيغة الأمر",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تستخدم الصفحة مصطلحين للمكوّن نفسه («learning skills» و«study skills»)، ويرد البند الأول في قائمة التقديم بصيغة «Completed online application» بدلًا من صيغة الأمر «Complete online application» المستخدمة في الصفحات الأخرى.",
+  "recommendation": "توحيد المصطلح إلى «study skills»، وتصحيح البند إلى «Complete online application».",
+  "refs": [
+   "C176",
+   "C177"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P30",
+  "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "location": "صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس – جدول مقررات الرياضيات وحواشيه (مقارنةً بصفحة الخطة الدراسية للبرنامج التحضيري)",
+  "current_text": "[الانتقال من التحضيري] College of Computer Engineering & Science** … College of Architecture & Design* … * Department of Information Technology is excluded from PRPM 0022 ** Department of Architecture is excluded from PRPM 0012 | [Study plan] * Department of Interior Design is excluded from PRPM 0022",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في جدول المتطلبات",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا تطابق علامات الحواشي في جدول الرياضيات الصفوف الصحيحة: حاشية تقنية المعلومات مرتبطة بكليتي الهندسة والعمارة والتصميم، وحاشية العمارة مرتبطة بكلية هندسة وعلوم الحاسب. ويُظهر الجدول مقرر PRPM 0012 مطلوبًا للعمارة والتصميم مع أن الحاشية تستثني قسم العمارة منه، كما تختلف الحواشي عن جدول صفحة الخطة الدراسية للبرنامج التحضيري.",
+  "recommendation": "اعتماد جدول واحد لمتطلبات الرياضيات من البرنامج التحضيري بعد تأكيد مقررات العمارة، وتصحيح علامات الحواشي وقيم الجدول، ونشره بالصيغة نفسها في الصفحتين.",
+  "refs": [
+   "F-42",
+   "F-87",
+   "C188"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P30",
+  "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "location": "صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس – جدول مقررات الرياضيات",
+  "current_text": "[الانتقال من التحضيري] College of Sciences & Human Studies … Department of Interior Design",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "لا يتضمن جدول متطلبات الرياضيات صفًا لكلية الطب، ولا يوضح ما إذا كان تخصص الذكاء الاصطناعي يتبع متطلبات كلية هندسة وعلوم الحاسب.",
+  "recommendation": "تأكيد متطلبات كلية الطب وتخصص الذكاء الاصطناعي من البرنامج التحضيري، ثم إضافة صف لكلية الطب (أو النص على استثنائها) وتوضيح متطلب الذكاء الاصطناعي.",
+  "refs": [
+   "C190"
+  ],
+  "note": "لم يُتحقق مما إذا كان طلاب كلية الطب يمرون بالبرنامج التحضيري.",
+  "group": "G2"
+ },
+ {
+  "page_id": "P30",
+  "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "location": "صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس – Criteria and Procedure",
+  "current_text": "[الانتقال من التحضيري] Successfully pass the EXIT exam",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "يشترط للانتقال إلى البكالوريوس اجتياز «اختبار EXIT» دون وصف للاختبار أو درجة النجاح فيه أو رابط لمعلوماته.",
+  "recommendation": "إضافة وصف موجز للاختبار ودرجة النجاح المعتمدة، أو رابط لصفحة توضحه، بالتنسيق مع البرنامج التحضيري.",
+  "refs": [
+   "C189"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P30",
+  "url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+  "location": "صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس – فقرة مقررات الرياضيات وعنوان الجدول",
+  "current_text": "[الانتقال من التحضيري] Depending on students desired major at the university … PRPM 0012 | PRPM0022",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء تحريرية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تفتقد عبارة «students desired major» علامة الملكية، ويُكتب رمز المقرر في عنوان الجدول «PRPM0022» دون مسافة خلافًا لكتابته «PRPM 0022» في بقية الصفحة.",
+  "recommendation": "تصحيح العبارة إلى «Depending on students’ desired major» وتوحيد رمز المقرر إلى «PRPM 0022».",
+  "refs": [
+   "C192",
+   "C191"
+  ],
+  "group": "G2"
+ },
+ {
+  "page_id": "P20",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "location": "صفحة متطلبات القبول لماجستير الإدارة الهندسية: قائمة «Application Materials» (كشف الدرجات، خطابات التوصية، درجات إتقان اللغة الإنجليزية)",
+  "current_text": "(minimum 3.00 out of 4.00) … Letters of Recommendation (Minimum 3) … TOEFL – minimum of 79 iBT … IELTS – minimum composite score of 7, with no subject area below a 6 … Graduate English Language Endorsement from UA Center for English as Second Language (CESL)",
+  "axis": "دقة المعلومات",
+  "type": "نص يشير إلى جامعة أخرى",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "تتضمن صفحة متطلبات القبول لبرنامج ماجستير الإدارة الهندسية نصًا يشير إلى مركز لغة تابع لجامعة أخرى (UA CESL)، وتشترط درجة IELTS 7 مقابل TOEFL iBT 79 غير المتكافئتين، وتشير إلى اختبار PBT القديم. كما تختلف متطلباتها عن بقية برامج الهندسة (معدل 3.00 بدلًا من 2.50، وثلاثة خطابات توصية بدلًا من اثنين)، ولا يمكن الاعتماد عليها بوصفها متطلبات معتمدة للجامعة.",
+  "recommendation": "إزالة المحتوى المنقول فورًا، واستبدال متطلبات البرنامج كاملة (المعدل، واختبارات اللغة، وعدد خطابات التوصية) بالمتطلبات المعتمدة من عمادة الدراسات العليا وكلية الهندسة.",
+  "refs": [
+   "F-16",
+   "F-69",
+   "C131",
+   "C133"
+  ],
+  "note": "تكافؤ TOEFL iBT 79 مع IELTS 6.5 تقريبًا مرجعه جداول المقارنة المنشورة من جهة الاختبار، وليس نص الصفحة.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P10",
+  "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "location": "صفحة برامج الدراسات العليا: قائمة البرامج؛ وصفحة مكتب القبول (الرئيسية): رابط «Admissions to the EMGMS Program»؛ والقائمة الجانبية لصفحات الدراسات العليا",
+  "current_text": "[Admissions Office page] Admissions to the EMGMS Program … [Graduate Admissions] Admissions to the Master of Arts (MA) in International Business Law Program … [Sidebar] Apply for EMBA … Apply for MBA … Apply for MSHD … Apply for MSME",
+  "axis": "تنظيمي",
+  "type": "برنامج دون مسار تقديم",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "يظهر برنامج ماجستير الإدارة الهندسية في صفحة مكتب القبول الرئيسية وله صفحة متطلبات ورسوم منشورة، لكنه غير مدرج في صفحة برامج الدراسات العليا، ولا يوجد له رابط تقديم أو نموذج طلب.",
+  "recommendation": "تحديد حالة طرح البرنامج من قِبل عمادة الدراسات العليا: فإن كان مطروحًا يُضاف إلى صفحة برامج الدراسات العليا مع رابط تقديم، وإلا يُزال من صفحة مكتب القبول ومن جدول الرسوم.",
+  "refs": [
+   "F-74",
+   "C079"
+  ],
+  "note": "الجزء من الملاحظة المتعلق ببرنامج ماجستير الهندسة في الابتكار والاستدامة وريادة الأعمال مدرج في صف البرامج المسعّرة دون صفحة قبول.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: جدول الرسوم الدراسية الكاملة؛ وصفحة قائمة التخصصات",
+  "current_text": "Master of Engineering in Innovation, Sustainability, and Entrepreneurship (33) | SAR 80,000 | SAR 80,000 … PRE-Master for Master of Education | NA | SAR 30,000 … [List of Majors] Master of Science in Engineering Innovation, Sustainability, and Entrepreneurship",
+  "axis": "دقة المعلومات",
+  "type": "برامج مسعّرة دون صفحة قبول",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "يتضمن جدول رسوم الدراسات العليا رسومًا لبرنامج ماجستير الهندسة في الابتكار والاستدامة وريادة الأعمال ولبرنامج «ما قبل الماجستير لماجستير التربية»، ولا توجد لهما صفحة قبول ولا إدراج في صفحة برامج الدراسات العليا أو صفحة الدرجات والبرامج، كما يرد اسم الأول بصيغة مختلفة في قائمة التخصصات.",
+  "recommendation": "تأكيد حالة طرح البرنامجين من عمادة الدراسات العليا والإدارة المالية، ثم إما إضافة صفحة قبول ورابط تقديم لكل برنامج مطروح، أو حذف صفّي الرسوم، مع توحيد الاسم الرسمي.",
+  "refs": [
+   "F-32",
+   "C146",
+   "C145"
+  ],
+  "note": "الجزء من الملاحظة الخاص باختلاف اسم برنامج التنمية البشرية مدرج في صف توحيد أسماء البرامج.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: جدولا الرسوم؛ وصفحة برامج الدراسات العليا: عناوين البرامج؛ وصفحتا متطلبات دكتوراه الهندسة الميكانيكية وماجستير التنمية البشرية",
+  "current_text": "Master of Science in Human Development … Master of Science in Education and Human Development | 1,191 SAR /Credit hour … Doctoral program in Mechanical Engineering (72) … [Graduate Admissions] Doctorate in Mechanical Engineering Program … Admission to the Master of Human Development",
+  "axis": "الاتساق",
+  "type": "عدم توحيد أسماء البرامج",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يرد البرنامج الواحد بأسماء مختلفة: دكتوراه الهندسة الميكانيكية باسم «Doctoral program» في صفحة الرسوم و«Doctorate» في صفحة البرامج و«PhD» في صفحة المتطلبات، وماجستير التنمية البشرية باسم «Human Development» و«Education and Human Development» في صفحة الرسوم نفسها و«Master of Human Development» في صفحة البرامج.",
+  "recommendation": "اعتماد اسم رسمي واحد لكل برنامج من عمادة الدراسات العليا (مثل «PhD in Mechanical Engineering» و«Master of Science in Human Development») واستخدامه في جميع الصفحات وجداول الرسوم.",
+  "refs": [
+   "F-86",
+   "C081",
+   "C082",
+   "C149",
+   "C150",
+   "C004",
+   "C054"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P10",
+  "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "location": "صفحة برامج الدراسات العليا: عناوين البرامج وروابطها",
+  "current_text": "Admissions to the PhD in Business Administration … Admission to the Executive MBA Program … Admission to the MBA … [MIBL page heading] MIBL ADMISSSIONS REQUIREMENTS … [MIBL page URL] admissions_requirements_milbl_gdp",
+  "axis": "الاتساق",
+  "type": "عدم توحيد العناوين والاختصارات",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تتناوب عناوين البرامج بين «Admission» و«Admissions» وتتضمن كلمة «Program» في بعضها دون بعض، ويُختصر ماجستير القانون التجاري الدولي إلى «MIBL» في العناوين بينما يرد «MILBL» في عناوين صفحاته.",
+  "recommendation": "توحيد صيغة العناوين (مثل: Admissions to the [Programme Name] Program) وتوحيد الاختصار في التسميات، وتعديل العناوين الإلكترونية حيثما أمكن مع إعادة توجيه العناوين القديمة.",
+  "refs": [
+   "C083",
+   "C084"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P10",
+  "url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "location": "صفحة برامج الدراسات العليا: روابط «Application Form» و«Admissions Requirements» لبرامج دكتوراه الهندسة الميكانيكية وماجستير الهندسة المدنية والكهربائية والتصميم الداخلي والقانون التجاري الدولي؛ وصفحة مكتب القبول: روابط «Home» و«Tuition & Fees»",
+  "current_text": "Admissions to the Doctorate in Mechanical Engineering Program … Application Form … Admissions Requirements … Admissions to the Master of Science in Civil Engineering (MSCE) Program … Application Form … Admissions Requirements … [Admissions Office page] Home … Tuition & Fees",
+  "axis": "تجربة المستخدم",
+  "type": "روابط بعناوين غير مميزة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تتكرر عناوين روابط «Application Form» و«Admissions Requirements» دون اسم البرنامج لخمسة برامج، وتقود روابط التقديم لدكتوراه الهندسة الميكانيكية وماجستير الهندسة المدنية والكهربائية والتصميم الداخلي إلى صفحة تقديم عامة واحدة لا تسمي البرنامج، كما تتكرر عناوين «Home» و«Tuition & Fees» في صفحة مكتب القبول مع اختلاف وجهاتها.",
+  "recommendation": "إضافة اسم البرنامج إلى كل رابط (مثل: Application Form for MSCE)، وإنشاء صفحة تقديم لكل برنامج أو جعل الصفحة العامة تسمي البرامج التي تخدمها، واستخدام عناوين فريدة للروابط المختلفة الوجهة.",
+  "refs": [
+   "C080",
+   "F-37"
+  ],
+  "note": "رُفعت الأولوية إلى متوسطة لأن إحدى الملاحظتين المدمجتين مصنفة متوسطة.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "قسم «Educational Background» في صفحات متطلبات دكتوراه الهندسة الميكانيكية، وماجستير إدارة الأعمال التنفيذي، وماجستير إدارة الأعمال، وماجستير الهندسة الميكانيكية والكهربائية والمدنية، وماجستير التصميم الداخلي، وماجستير القانون التجاري الدولي",
+  "current_text": "[PhD ME] A minimum cumulative GPA of 3.00 out of 4.00 or equivalent (Very Good) … [EMBA, MBA, MSME, MSEE, MSCE, MSID] … 2.50 out of 4.00 or equivalent (Very Good) in Bachelor’s Degree … [MIBL] A minimum (Very Good) in Bachelor’s Degree",
+  "axis": "الاتساق",
+  "type": "تعريف متضارب للتقدير",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يُقرن تقدير «Very Good» بمعدل 3.00 من 4.00 في صفحة دكتوراه الهندسة الميكانيكية، وبمعدل 2.50 من 4.00 في صفحات ماجستير إدارة الأعمال التنفيذي وماجستير إدارة الأعمال وماجستير الهندسة الميكانيكية والكهربائية والمدنية والتصميم الداخلي، بينما تكتفي صفحة ماجستير القانون التجاري الدولي بعبارة «Very Good» دون رقم.",
+  "recommendation": "الإبقاء على الحد الأدنى الخاص بكل برنامج مع ذكره رقميًا فقط أو تعريف التقديرات تعريفًا موحدًا، وتحديد المعدل المطلوب رقميًا لماجستير القانون التجاري الدولي بعد اعتماده من عمادة الدراسات العليا.",
+  "refs": [
+   "F-78",
+   "C088",
+   "C097",
+   "C101",
+   "C111",
+   "C118",
+   "C124",
+   "C128",
+   "C136"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P21",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "location": "صفحة متطلبات القبول لماجستير القانون التجاري الدولي: قسم «Admission Criteria» وأوزان المفاضلة",
+  "current_text": "A minimum (Very Good) in Bachelor’s Degree … In selecting applicants, the following weight is assigned to each admission requirement … 30% for the written test.",
+  "axis": "دقة المعلومات",
+  "type": "متطلبات قبول ناقصة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا تحدد الصفحة المعدل الأدنى رقميًا، وتمنح الاختبار التحريري وزنًا قدره 30% دون أي وصف له في معايير القبول، ولا تتضمن قائمة بالمستندات المطلوبة ولا رابط تقديم ضمن محتوى الصفحة.",
+  "recommendation": "استكمال المتطلبات بذكر المعدل الأدنى رقميًا، ووصف الاختبار التحريري (محتواه وموعده وطريقة التسجيل)، وإضافة قائمة المستندات المطلوبة ورابط التقديم.",
+  "refs": [
+   "F-43",
+   "C140"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P21",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "location": "صفحة متطلبات القبول لماجستير القانون التجاري الدولي: قسم «English Language Proficiency Test»؛ وصفحة نموذج التقديم للبرنامج نفسه",
+  "current_text": "[MIBL requirements] A valid IELTS certificate (Academic version) with minimum scores of 6.5 overall and 5.5 in each skill or equivalent TOEFL iBT minimum scores of 83 overall … [MIBL application form] Submit original IELTS (Academic version) certificate with minimum scores of 6.0 overall",
+  "axis": "الاتساق",
+  "type": "تعارض في متطلب اللغة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تشترط صفحة متطلبات البرنامج IELTS بدرجة 6.5، بينما تشترط صفحة نموذج التقديم للبرنامج نفسه 6.0، وتشترط بقية صفحات الدراسات العليا 6.0. وتعدّ الصفحة TOEFL iBT 83 معادلًا لـ IELTS 6.5، في حين تعدّه بقية الصفحات معادلًا لـ 6.0.",
+  "recommendation": "تأكيد الدرجة المعتمدة للبرنامج من عمادة الدراسات العليا، ثم توحيدها في صفحتي المتطلبات والتقديم، ومواءمة درجة TOEFL المعادلة معها.",
+  "refs": [
+   "F-29",
+   "F-68",
+   "C137"
+  ],
+  "note": "لوحظ أيضًا أن صفحة نموذج التقديم العامة للدراسات العليا (المرتبطة ببرامج دكتوراه الهندسة الميكانيكية وماجستير الهندسة المدنية والكهربائية والتصميم الداخلي) تشترط IELTS 6.5، بخلاف صفحات متطلبات تلك البرامج (6.0)؛ يُستحسن مراجعتها ضمن التصحيح نفسه.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P21",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "location": "صفحة متطلبات القبول لماجستير القانون التجاري الدولي: الفقرة التعريفية",
+  "current_text": "Typically, candidates will complete the program within two years in a full-time mode (maximum 6 credits in each semester)",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في مدة الدراسة",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تذكر الصفحة إكمال البرنامج في سنتين بدوام كامل بحد أقصى 6 ساعات معتمدة في الفصل، بينما يحدد جدول الرسوم البرنامج بـ 36 ساعة معتمدة، وهو ما يتطلب ستة فصول دراسية ولا يتوافق مع مفهوم الدوام الكامل.",
+  "recommendation": "تأكيد العبء الدراسي الفصلي ومدة البرنامج مع كلية القانون، ثم تصحيح أحدهما أو النص على وجوب الدراسة في الفصول الصيفية إن كان ذلك مقصودًا.",
+  "refs": [
+   "C138"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P21",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "location": "صفحة متطلبات القبول لماجستير القانون التجاري الدولي: الفقرة التعريفية",
+  "current_text": "The year 2025 marks another milestone for PMU Law with the approval of the postgraduate program",
+  "axis": "دقة المعلومات",
+  "type": "صياغة مرتبطة بتاريخ مضى",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تستخدم الفقرة التعريفية صياغة تفترض أن عام 2025 هو العام الجاري، وقد أصبحت قديمة.",
+  "recommendation": "إعادة الصياغة بصيغة ثابتة، مثل: «In 2025, the Ministry of Education approved the Master of Arts (MA) in International Business Law…».",
+  "refs": [
+   "C139"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P21",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+  "location": "صفحة متطلبات القبول لماجستير القانون التجاري الدولي: الفقرة التعريفية",
+  "current_text": "admission on a part-time basis may be considered subject to the applicable regulation, delivered and facilitated by qualified and experienced academics in the respective areas.",
+  "axis": "لغوي ونحوي",
+  "type": "جملة طويلة متداخلة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تدمج الجملة موضوع القبول بدوام جزئي مع موضوع تقديم البرنامج من قِبل أكاديميين مؤهلين في جملة واحدة، فيلتبس المعنى.",
+  "recommendation": "تقسيم الجملة إلى جملتين، مثل: «...subject to the applicable regulations. The program is delivered by qualified and experienced academics in the respective areas.»",
+  "refs": [
+   "C142"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "العنوان الرئيس ومسار التنقل في صفحات متطلبات دكتوراه الهندسة الميكانيكية، وماجستير الهندسة الميكانيكية والكهربائية والمدنية، وماجستير التصميم الداخلي، وماجستير القانون التجاري الدولي (وعنوان المتصفح في صفحات الهندسة الكهربائية والمدنية والتصميم الداخلي)",
+  "current_text": "PHD IN MECHANICAL ENGINEERING ADMISSSIONS REQUIREMENTS … MSME ADMISSSIONS REQUIREMENTS … MSEE ADMISSSIONS REQUIREMENTS … MSCE ADMISSSIONS REQUIREMENTS … MSID ADMISSSIONS REQUIREMENTS … MIBL ADMISSSIONS REQUIREMENTS",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ إملائي",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "كُتبت كلمة «ADMISSIONS» بثلاثة أحرف S في عناوين ست صفحات من صفحات الدراسات العليا ومسارات التنقل فيها، وفي عنوان المتصفح لثلاث منها.",
+  "recommendation": "تصحيح الكلمة إلى «ADMISSIONS» في العناوين ومسارات التنقل وعناوين المتصفح في الصفحات الست.",
+  "refs": [
+   "F-79",
+   "C086",
+   "C109",
+   "C113",
+   "C119",
+   "C125",
+   "C141"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "عنوان الصفحة في المتصفح (title) لصفحة متطلبات دكتوراه الهندسة الميكانيكية",
+  "current_text": "Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU",
+  "axis": "وظيفي وتقني",
+  "type": "عنوان صفحة خاطئ",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يحمل عنوان صفحة متطلبات دكتوراه الهندسة الميكانيكية في المتصفح اسم «Application Form for MSDH»، وهو يشير إلى نوع صفحة مختلف وإلى اختصار برنامج آخر مكتوب خطأً، مما يضلل المتقدم ونتائج محركات البحث.",
+  "recommendation": "تغيير العنوان إلى «PhD in Mechanical Engineering Admissions Requirements :: Graduate Programs :: Admissions Office».",
+  "refs": [
+   "F-75",
+   "C085"
+  ],
+  "note": "إحدى الملاحظتين المدمجتين مصنفة متوسطة والأخرى منخفضة، واعتُمدت المتوسطة لأثر العنوان على نتائج البحث. ولوحظ أن صفحة نموذج التقديم لماجستير التنمية البشرية تحمل العنوان نفسه «Application Form for MSDH» (والصحيح MSHD).",
+  "group": "G3"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "صفحة متطلبات دكتوراه الهندسة الميكانيكية: الفقرة التعريفية وبند «Work experience»",
+  "current_text": "widen the horizons of engineer professionals. The PhD program provides employees with the skills … Work experience: Successful candidates are preferred to have industrial experience.",
+  "axis": "لغوي ونحوي",
+  "type": "صياغة غير دقيقة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تستخدم الفقرة التعريفية عبارة «engineer professionals» بدلًا من «engineering professionals» وتفترض أن المتقدمين موظفون، ولا يوضح بند الخبرة العملية ما إذا كانت الخبرة الصناعية شرطًا أم ميزة مفضلة.",
+  "recommendation": "تعديل العبارتين إلى «engineering professionals» و«provides participants with the skills»، وإعادة صياغة بند الخبرة إلى «Industrial experience is preferred but not required» أو النص على المتطلب صراحة.",
+  "refs": [
+   "C089",
+   "C090"
+  ],
+  "note": "ترد عبارة بند الخبرة نفسها في صفحتي ماجستير الهندسة الكهربائية والمدنية.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P11",
+  "url": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+  "location": "المحتوى الرئيس لصفحات متطلبات دكتوراه الهندسة الميكانيكية، ودكتوراه إدارة الأعمال، وماجستير التنمية البشرية، وماجستير الهندسة الكهربائية والمدنية، وماجستير التصميم الداخلي؛ مقارنةً بجدول صفحة رسوم الدراسات العليا",
+  "current_text": "[Fees page] Doctoral program in Mechanical Engineering (72) … Doctor of Philosophy (Ph.D.) In Business Administration (72) … Master of Science in Electrical Engineering (30) … Master of Science in Civil Engineering (30) … Master of Science in Interior Design (30)",
+  "axis": "دقة المعلومات",
+  "type": "معلومات أساسية ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "لا تذكر صفحات متطلبات هذه البرامج عدد الساعات المعتمدة ولا مدة الدراسة ولا نمطها، ولا تتضمن رابط تقديم ضمن المحتوى، مع أن صفحة الرسوم تذكر الساعات المعتمدة لمعظمها (72 للدكتوراه و30 لبرامج الماجستير الهندسية والتصميم الداخلي)، ولا يذكر جدول الرسوم ساعات ماجستير التنمية البشرية. كما لا تتضمن صفحة ماجستير التصميم الداخلي أي بيان عن الخبرة العملية.",
+  "recommendation": "إضافة عدد الساعات المعتمدة ومدة الدراسة ونمطها ورابط التقديم إلى كل صفحة بعد تأكيدها من الكليات المعنية، وإضافة ساعات ماجستير التنمية البشرية إلى جدول الرسوم، وبيان متطلب الخبرة لماجستير التصميم الداخلي.",
+  "refs": [
+   "C087",
+   "C092",
+   "C104",
+   "C115",
+   "C123",
+   "C127"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P13",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "location": "المحتوى الرئيس لصفحات متطلبات ماجستير إدارة الأعمال التنفيذي وماجستير إدارة الأعمال وماجستير الهندسة الميكانيكية وبقية برامج الدراسات العليا؛ والقائمة الجانبية؛ وصفحات نماذج التقديم",
+  "current_text": "[Application Form pages] Pay a non-refundable application fee of SAR 950 (incl. VAT) upon submission of documents … [Sidebar] Apply for EMBA … Apply for MBA … Apply for MSHD … Apply for MSME",
+  "axis": "تجربة المستخدم",
+  "type": "معلومات التقديم غير ظاهرة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "لا تعرض صفحة برامج الدراسات العليا ولا صفحات متطلبات البرامج رسوم التقديم (950 ريالًا شاملة ضريبة القيمة المضافة، غير مستردة، وهي منشورة في صفحات نماذج التقديم فقط) ولا قائمة المستندات المطلوبة، ولا تحيل إلى مواعيد التقديم في تقويم القبول.",
+  "recommendation": "إضافة زر تقديم واضح، ورسوم التقديم، وقائمة المستندات المطلوبة، وموعد البدء أو رابط تقويم القبول للدراسات العليا ضمن محتوى كل صفحة برنامج.",
+  "refs": [
+   "F-39",
+   "C098",
+   "C100",
+   "C112",
+   "C056",
+   "C057"
+  ],
+  "note": "عدم ظهور القائمة الجانبية في عرض الجوال وارد في الملاحظات المصدرية، ويتسق مع النص المعروض في عرض الجوال الذي لا يتضمن روابط «Apply for».",
+  "group": "G3"
+ },
+ {
+  "page_id": "P13",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "location": "صفحة متطلبات ماجستير إدارة الأعمال التنفيذي: قسم «Work Experience»",
+  "current_text": "Successful candidates should have from three to five years of professional work experience",
+  "axis": "دقة المعلومات",
+  "type": "متطلب خبرة ملتبس",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "توحي عبارة «من ثلاث إلى خمس سنوات» بوجود حد أعلى للخبرة العملية، في حين تذكر الفقرة التعريفية أن المشاركين يلزمهم عدة سنوات من الخبرة بعد البكالوريوس.",
+  "recommendation": "تأكيد المقصود مع كلية إدارة الأعمال، والنص على الحد الأدنى فقط (مثل: «A minimum of three years of professional work experience») إن لم يكن الحد الأعلى مقصودًا.",
+  "refs": [
+   "F-73"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P13",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+  "location": "صفحة متطلبات ماجستير إدارة الأعمال التنفيذي: قسم «Supporting Documents»",
+  "current_text": "Three reference letters from supervisors and others in superior positions within the employing organization or others who can provide appropriate references",
+  "axis": "لغوي ونحوي",
+  "type": "صياغة مطوّلة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "صيغت عبارة خطابات التوصية صياغة مطوّلة وغير مألوفة («others in superior positions»).",
+  "recommendation": "إعادة الصياغة إلى: «Three reference letters from supervisors or senior colleagues».",
+  "refs": [
+   "C099"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P15",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "location": "صفحة متطلبات ماجستير التنمية البشرية: عنوان «Work Experience»",
+  "current_text": "Work Experience … Personal Data Sheet/Curriculum Vita: The Personal Data Sheet should include relevant biographical information and professional/educational experience.",
+  "axis": "دقة المعلومات",
+  "type": "متطلب ناقص",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يرد عنوان «Work Experience» دون أي متطلب تحته، ويليه مباشرة بند السيرة الذاتية.",
+  "recommendation": "النص على متطلب الخبرة العملية (عدد السنوات أو «غير مطلوبة») بعد تأكيده من الكلية، ونقل بند السيرة الذاتية إلى قائمة المستندات الداعمة، أو حذف العنوان.",
+  "refs": [
+   "F-83",
+   "C103"
+  ],
+  "note": "إحدى الملاحظتين المدمجتين مصنفة متوسطة والأخرى منخفضة، واعتُمدت المتوسطة لأن النقص يمس متطلبًا من متطلبات القبول.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P15",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "location": "صفحة متطلبات ماجستير التنمية البشرية: العنوان الرئيس وقسما السيرة الذاتية وخطابات التوصية",
+  "current_text": "ADMISSIONS REQUIREMENTS … Personal Data Sheet/Curriculum Vita: … who can discuss the Applicant’s academic abilities",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء تحريرية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "لا يتضمن العنوان الرئيس اسم البرنامج خلافًا لبقية صفحات البرامج، وكُتبت «Curriculum Vitae» بصيغة «Curriculum Vita»، وكُتبت كلمة «Applicant’s» بحرف كبير في وسط الجملة.",
+  "recommendation": "تعديل العنوان إلى «MSHD ADMISSIONS REQUIREMENTS»، وتصحيح «Curriculum Vitae»، وكتابة «the applicant’s» بحرف صغير.",
+  "refs": [
+   "C105",
+   "C106",
+   "C107"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P15",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+  "location": "صفحة متطلبات ماجستير التنمية البشرية: قسم «Educational Background»",
+  "current_text": "A completed baccalaureate degree (with GPA 2.50/4.00) from an accredited and/or recognized university",
+  "axis": "الاتساق",
+  "type": "اختلاف في صياغة الشرط",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "تشترط الصفحة شهادة من جامعة «معتمدة و/أو معترف بها»، بينما تكتفي بقية صفحات الدراسات العليا بعبارة «جامعة معترف بها».",
+  "recommendation": "تأكيد ما إذا كان الاختلاف مقصودًا من عمادة الدراسات العليا، وإلا توحيد الصياغة في جميع صفحات الدراسات العليا.",
+  "refs": [
+   "C108"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P14",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+  "location": "صفحة متطلبات ماجستير إدارة الأعمال: الفقرة التعريفية",
+  "current_text": "non-business majors may be given the opportunity to take four business foundation courses before beginning their MBA coursework",
+  "axis": "دقة المعلومات",
+  "type": "شرط غير واضح",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "لا توضح الصفحة ما إذا كانت المقررات التأسيسية الأربعة لخريجي التخصصات غير الإدارية إلزامية أم اختيارية، ولا ما إذا كانت ضمن الساعات المعتمدة الـ 36 أم إضافية إليها.",
+  "recommendation": "النص صراحة على إلزامية المقررات التأسيسية من عدمها وعلاقتها بالساعات المعتمدة الـ 36، بعد تأكيد ذلك من كلية إدارة الأعمال.",
+  "refs": [
+   "C102"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P16",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+  "location": "صفحة متطلبات ماجستير الهندسة الميكانيكية: الفقرة التعريفية",
+  "current_text": "The MSME is offered in Two tracks: Thermofluids track and Mechanical Systems track.",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ في الأحرف الكبيرة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "كُتبت كلمة «Two» بحرف كبير في وسط الجملة.",
+  "recommendation": "تصحيحها إلى «two tracks».",
+  "refs": [
+   "C110"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P18",
+  "url": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+  "location": "الفقرة التعريفية وقسم «Supporting Documents» في صفحة متطلبات ماجستير الهندسة المدنية؛ والفقرة التعريفية في صفحة ماجستير الهندسة الكهربائية",
+  "current_text": "[MSCE] The core curriculum has two tracks Structural and Geotechnical Engineering, Environment and Water Resources Engineering. … Statement of purpose:A statement of purpose … [MSEE] Masters in Electrical Engineering … two tracks; Communication Systems and Signal Processing track",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء ترقيم وتسمية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تُسرد مساري ماجستير الهندسة المدنية دون نقطتين أو فاصل واضح فيمكن قراءتهما ثلاثة بنود، وتنقص مسافة بعد النقطتين في «Statement of purpose:A»، وتستخدم صفحة الهندسة الكهربائية فاصلة منقوطة قبل قائمة المسارين واسم «Masters in Electrical Engineering» بدلًا من الاسم الرسمي.",
+  "recommendation": "تصحيح الصياغة إلى «two tracks: (1) Structural and Geotechnical Engineering; (2) Environmental and Water Resources Engineering»، وإضافة المسافة، واستخدام «Master of Science in Electrical Engineering» و«two tracks: Communication Systems and Signal Processing, and Power Systems».",
+  "refs": [
+   "C121",
+   "C122",
+   "C117"
+  ],
+  "note": "ترد عبارة «Masters in Civil Engineering» بالصيغة نفسها في صفحة الهندسة المدنية.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P17",
+  "url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+  "location": "الفقرة التعريفية في صفحات متطلبات ماجستير الهندسة الكهربائية والمدنية وماجستير التصميم الداخلي",
+  "current_text": "[MSEE, MSCE] The program will be offered under the College of Engineering. … [MSID] The Department of Interior Design at PMU will educate tomorrow’s interior design leaders and innovators … will be to provide an environment conducive",
+  "axis": "دقة المعلومات",
+  "type": "صياغة سابقة للإطلاق",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تصف الصفحات الثلاث البرامج بصيغة المستقبل («will be offered» و«will educate» و«will be to provide»)، مع أن رسومها منشورة، مما يوحي بأنها لم تُطرح بعد.",
+  "recommendation": "إعادة الصياغة بصيغة المضارع، مثل: «The program is offered by the College of Engineering.»",
+  "refs": [
+   "C114",
+   "C120",
+   "C126"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P17",
+  "url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+  "location": "صفحة متطلبات ماجستير الهندسة الكهربائية: قسم «Educational Background»",
+  "current_text": "A Bachelor’s Degree of Science in Engineering from a recognized university … *Students with Bachelor of Science degrees in closely related disciplines to Engineering can apply upon conditions specified by the College of Engineering.",
+  "axis": "دقة المعلومات",
+  "type": "شرط غير محدد",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "ترد الحاشية المعلّمة بنجمة دون نجمة مقابلة في شرط الشهادة، ويُذكر التخصص المطلوب «Engineering» عامًا دون تحديد، خلافًا لصفحتي الهندسة الميكانيكية والمدنية.",
+  "recommendation": "إضافة النجمة وتحديد التخصص المطلوب (مثل: Electrical Engineering) بعد تأكيده من كلية الهندسة.",
+  "refs": [
+   "C116"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P12",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "location": "صفحة متطلبات دكتوراه إدارة الأعمال: الفقرة التعريفية وقسم «Educational Background»",
+  "current_text": "Doctor of Philosophy (Ph.D.) in Business Administration program is to develop scholars … (scale is 4.00 = \"A”)",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ نحوي وترقيمي",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "الجملة الافتتاحية غير سليمة نحويًا (تنقصها أداة التعريف وفعل مناسب)، وتستخدم ملاحظة سلّم المعدل علامتي تنصيص غير متطابقتين.",
+  "recommendation": "إعادة الصياغة إلى «The PhD in Business Administration program aims to develop scholars…»، وتوحيد علامتي التنصيص.",
+  "refs": [
+   "C093",
+   "C095"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P12",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "location": "صفحة متطلبات دكتوراه إدارة الأعمال: الفقرة التعريفية",
+  "current_text": "The Ph.D. program is internationally accredited by AACSB as top 6% of business schools worldwide.",
+  "axis": "دقة المعلومات",
+  "type": "ادعاء اعتماد غير موثق",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تنسب الصفحة اعتماد AACSB إلى برنامج الدكتوراه بوصفه برنامجًا، مع أن الاعتماد يُمنح للكلية، وتذكر نسبة «أعلى 6%» دون مرجع.",
+  "recommendation": "التحقق من حالة الاعتماد مع كلية إدارة الأعمال، ثم إعادة الصياغة بما يطابق الوضع الفعلي (مثل: «PMU’s College of Business is AACSB-accredited») مع ذكر مرجع لنسبة 6% أو حذفها.",
+  "refs": [
+   "C094"
+  ],
+  "note": "الملاحظة الرئيسة المتعلقة بهذه الصفحة (المدمجة في صف شروط الأهلية) تشير إلى أن المصادر المتاحة تؤكد العضوية لا الاعتماد الكامل؛ لا يمكن تأكيد ذلك من نص الصفحة وحده. رُفعت الأولوية إلى متوسطة لأثر الادعاء على سمعة الجامعة.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P12",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+  "location": "صفحة متطلبات دكتوراه إدارة الأعمال: قسم «Educational Background»",
+  "current_text": "Otherwise, if the master degree is not from another discipline they must successfully attend and complete with minimum GPA 2.80 12 credit hours of MBA … Applicants must have a minimum cumulative GPA of 3.00 (scale is 4.00 = \"A”) or they must have a minimum cumulative GPA of 3.20",
+  "axis": "دقة المعلومات",
+  "type": "شرط أهلية ملتبس",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تتضمن جملة الأهلية نفيًا مزدوجًا («not from another discipline») يعكس المعنى المقصود، وتذكر ثلاثة حدود للمعدل (2.80 و3.00 و3.20) دون بيان الحالة التي ينطبق عليها كل منها.",
+  "recommendation": "إعادة صياغة الشروط في بنود منفصلة واضحة تحدد لكل حالة (تخصص الماجستير، ومرحلة الدراسة) المعدل المطلوب، بعد اعتمادها من عمادة الدراسات العليا.",
+  "refs": [
+   "F-72",
+   "F-47"
+  ],
+  "note": "الشق الثاني من إحدى الملاحظتين المدمجتين (ادعاء اعتماد AACSB) معالج في صف مستقل.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: عنوان الجدول الأول وتمهيد جدولي الرسوم بالساعة المعتمدة",
+  "current_text": "Graduate FULL-TIME Students Tuition … EMBA | SAR 60,000 | SAR 75,000 … Not successfully completing a course in Graduate program for PMU Alumni and non-PMU alumni and having to repeat it will cost as per the credit hour fee as follows:",
+  "axis": "دقة المعلومات",
+  "type": "أساس الرسوم غير واضح",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "لا يبين الجدول الأول ما إذا كانت المبالغ عن البرنامج كاملًا أم عن سنة أم فصل، ولا تُنشر رسوم الدوام الجزئي رغم طرح ماجستير إدارة الأعمال بدوام جزئي، ويُقدَّم جدولا الرسوم بالساعة المعتمدة على أنهما تكلفة إعادة المقرر فقط.",
+  "recommendation": "تسمية العمود «إجمالي الرسوم الدراسية للبرنامج» مع بيان جدول السداد، ونشر رسوم الدوام الجزئي أو النص على تطبيق سعر الساعة المعتمدة، وتوضيح نطاق جدولي الساعة المعتمدة، بالتنسيق مع الإدارة المالية.",
+  "refs": [
+   "C147",
+   "C148"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: جدول الرسوم بالساعة المعتمدة",
+  "current_text": "2,083.3 SAR /Credit hour … 1,818.18 SAR /Credit hour … 1,191 SAR /Credit hour",
+  "axis": "الاتساق",
+  "type": "تفاوت في دقة الأرقام",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تُعرض أسعار الساعة المعتمدة بدرجات دقة مختلفة (بلا كسور، وبمنزلة عشرية واحدة، وبمنزلتين).",
+  "recommendation": "عرض جميع الأسعار بمنزلتين عشريتين (مثل: 2,083.33) بعد تأكيد القيم من الإدارة المالية.",
+  "refs": [
+   "C151"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: جدول رسوم الطلاب المستمرين",
+  "current_text": "EMBA - Continuing Students (Admitted before Fall Semester 2025/2026) | 1,334 SAR /Credit hour | 1,667 SAR /Credit hour … MBA - Continuing Students (Admitted before Fall Semester 2025/2026) | 1,354 SAR /Credit hour",
+  "axis": "دقة المعلومات",
+  "type": "قيمة تحتاج إلى تأكيد",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "يختلف سعر الساعة لخريجي الجامعة المستمرين في ماجستير إدارة الأعمال التنفيذي (1,334 ريالًا) عنه في ماجستير إدارة الأعمال (1,354 ريالًا) بفارق 20 ريالًا، مع تطابق سعر غير الخريجين (1,667 ريالًا) في البرنامجين.",
+  "recommendation": "تأكيد القيمتين من الإدارة المالية وتصحيح أيٍّ منهما إن كان الفارق خطأً مطبعيًا.",
+  "refs": [
+   "C152"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P22",
+  "url": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+  "location": "صفحة رسوم الدراسات العليا: القائمة الجانبية (رسوم البكالوريوس وجداول السداد)",
+  "current_text": "Undergraduate Fees for Continuing 2024-2025 … Payment Schedule … Spring Semester 2025/2026 … Summer Semester 2025/2026 … Fall Semester 2026/2027",
+  "axis": "تنظيمي",
+  "type": "روابط بتسميات قديمة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تعرض القائمة الجانبية جدولي سداد فصلي الربيع والصيف 2025/2026 اللذين انقضت مواعيدهما، إلى جانب جدول خريف 2026/2027، ويبدو عنوان رابط «Undergraduate Fees for Continuing 2024-2025» قديمًا مع أن الصفحة المرتبطة به تحدد الرسوم الحالية للطلاب المقبولين قبل خريف 2025/2026.",
+  "recommendation": "أرشفة جدولي 2025/2026 المنقضيين أو إزالتهما وإضافة جداول 2026/2027 عند توفرها، وإعادة تسمية الرابط إلى «Undergraduate Fees – Continuing Students (admitted before Fall 2025/2026)».",
+  "refs": [
+   "C143",
+   "C144"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P23",
+  "url": "https://pmu.edu.sa/admission/admission_contact_gdp",
+  "location": "صفحة معلومات التواصل للدراسات العليا: قسم «Contact Info»",
+  "current_text": "Graduate Study Admission Coordinator … Office: G-017 Admin Bld … Email: graduateadm@pmu.edu.sa",
+  "axis": "تجربة المستخدم",
+  "type": "معلومات تواصل ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تقتصر الصفحة على بريد إلكتروني ورقم مكتب مختصر، دون رقم هاتف أو ساعات عمل أو بيان الحرم (طلاب/طالبات) أو الاسم الكامل للمبنى.",
+  "recommendation": "إضافة رقم الهاتف وساعات العمل وبيانات الحرم والاسم الكامل للمبنى.",
+  "refs": [
+   "C153"
+  ],
+  "group": "G3"
+ },
+ {
+  "page_id": "P20",
+  "url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+  "location": "صفحة متطلبات ماجستير الإدارة الهندسية: العنوان الفرعي",
+  "current_text": "Master of Science in Engineering Management Application(EMGMS) Checklist",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ في المسافات والاختصار",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تنقص مسافة قبل «(EMGMS)» في العنوان الفرعي، ولا يتبع الاختصار «EMGMS» نمط الاختصارات المعتمد لبقية برامج الماجستير (البادئة MS).",
+  "recommendation": "إضافة المسافة الناقصة، وتأكيد الاختصار الرسمي للبرنامج من عمادة الدراسات العليا وتوحيده.",
+  "refs": [
+   "C134"
+  ],
+  "note": "شق الاختصار يتطلب تأكيدًا من الجهة المالكة.",
+  "group": "G3"
+ },
+ {
+  "page_id": "P32",
+  "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "location": "القائمة الجانبية لرسوم البكالوريوس وقائمة الروابط داخل الصفحة",
+  "current_text": "Undergraduate Fees for Continuing 2024-2025 … Continuing Students 2024–2025",
+  "axis": "دقة المعلومات",
+  "type": "تسمية توحي بمعلومة قديمة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يحمل رابط رسوم الطلاب المستمرين في القائمة الجانبية وفي قائمة الصفحة تسمية العام 2024–2025، في حين أن الصفحة المستهدفة تنص على أنها تخص الطلاب المقبولين قبل الفصل الدراسي الأول 2025/2026، مما يوحي للقارئ بأن جدول الرسوم منتهي الصلاحية.",
+  "recommendation": "تعديل التسمية في الموضعين لتصف الفئة المعنية (مثل: «Continuing Students admitted before Fall 2025/2026») أو استبدالها بجدول رسوم الطلاب المستمرين للعام الحالي، وذلك بعد تأكيد مكتب التسجيل.",
+  "refs": [
+   "C201",
+   "C202"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P32",
+  "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "location": "القائمة الجانبية – Payment Schedule",
+  "current_text": "Payment Schedule / Spring Semester 2025/2026 / Summer Semester 2025/2026 / Fall Semester 2026/2027",
+  "axis": "دقة المعلومات",
+  "type": "جداول سداد منتهية",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "لا تزال قائمة جداول السداد تعرض جدولي الفصل الثاني والفصل الصيفي للعام 2025/2026، وقد انقضت مواعيد أقساطهما (من مارس إلى مايو 2026 للفصل الثاني، ومن يوليو إلى أغسطس 2026 للفصل الصيفي).",
+  "recommendation": "أرشفة هذين الرابطين أو استبدالهما بجدولي الفصل الثاني والفصل الصيفي للعام 2026/2027 فور اعتمادهما من الجهة المالكة.",
+  "refs": [
+   "C203"
+  ],
+  "note": "تواريخ الفصل الصيفي (يوليو–أغسطس 2026) أُضيفت بعد التحقق من صفحة الجدول نفسها.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P32",
+  "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "location": "القائمة الجانبية وقائمة الروابط داخل صفحة رسوم البكالوريوس",
+  "current_text": "Medical Program Studies / Undergraduate Fees Intake 2026/2027 … Undergraduate Fees for Continuing 2024-2025 … Payment Schedule … Fall Semester 2026/2027 … Medical Program Fees / Fall Semester 2026/2027 / Fall Semester 2025/2026 / Continuing Students 2024–2025",
+  "axis": "الاتساق",
+  "type": "عدم اتساق التسميات",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تختلف تسميات الروابط نفسها بين القائمة الجانبية وقائمة الصفحة: فرسوم الدفعة الجديدة تُسمّى «Undergraduate Fees Intake» في القائمة و«Fall Semester» في الصفحة (وهي التسمية ذاتها المستخدمة لجدول السداد)، ورسوم البرنامج الطبي تُسمّى «Medical Program Studies» مرة و«Medical Program Fees» مرة أخرى، كما يُكتب العام الدراسي بثلاث صيغ مختلفة (2024-2025 و2024–2025 و2026/2027).",
+  "recommendation": "توحيد التسميات: «Undergraduate Fees – Intake 2026/2027» و«Intake 2025/2026» لروابط الرسوم، وقصر «Fall Semester» على جداول السداد، واعتماد «Medical Program Fees» في الموضعين، وكتابة الأعوام الدراسية بصيغة واحدة مثل «2026/2027».",
+  "refs": [
+   "C204",
+   "C205",
+   "C206"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P32",
+  "url": "https://pmu.edu.sa/admission/fees_tf_ro",
+  "location": "القائمة الجانبية – بند رسوم الدراسات العليا",
+  "current_text": "Post Graduate Fees",
+  "axis": "لغوي ونحوي",
+  "type": "صيغة كتابة غير قياسية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يُكتب بند رسوم الدراسات العليا بصيغة «Post Graduate» المنفصلة، وهي صيغة غير قياسية.",
+  "recommendation": "تعديلها إلى «Postgraduate Fees» أو «Graduate Fees» اتساقًا مع تسمية «Graduate Admissions».",
+  "refs": [
+   "C207"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P33",
+  "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+  "location": "فقرة «English Language Proficiency Tests»",
+  "current_text": "Candidates with PMU recognized proficiency English language test certificates can verify the admission requirements on the following links IELTS requirements and TOEFL requirements.",
+  "axis": "تجربة المستخدم",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "لا تقدم صفحة النظرة العامة على اختبارات اللغة أي ملخص للحد الأدنى من الدرجات أو مدة صلاحية النتائج أو آلية جدولة اختبار Aptis أو جهة تواصل في مكتب القبول، وتعتمد كليًا على الإحالة إلى صفحات الاختبارات المنفردة.",
+  "recommendation": "إضافة جدول مختصر (الاختبار، الحد الأدنى للالتحاق المباشر بالبرنامج الأساسي، مدة الصلاحية، طريقة تقديم النتيجة) مع بيانات التواصل مع مكتب القبول.",
+  "refs": [
+   "C208"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P33",
+  "url": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+  "location": "فقرة «English Language Proficiency Tests»",
+  "current_text": "PMU has used international English language proficiency tests for admissions that ensure the accuracy of the outcomes.   Read more  about the current technology used for the English placement test Aptis.",
+  "axis": "لغوي ونحوي",
+  "type": "صياغة ركيكة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تستخدم الجملة الأولى زمنًا غير مناسب وصياغة ركيكة، وتصف الجملة الثانية اختبار Aptis بأنه «التقنية الحالية» لاختبار تحديد المستوى، وهو وصف غير دقيق.",
+  "recommendation": "إعادة الصياغة إلى: «PMU uses internationally recognised English proficiency tests to place candidates accurately.» و«Read more about Aptis, the English placement test used by PMU.»",
+  "refs": [
+   "C209",
+   "C210"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P34",
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "location": "الفقرة الخاصة بالالتحاق المباشر بالبرنامج الأساسي (Core Program)",
+  "current_text": "If a candidate feels that he/she is eligible for direct entry into the Core Program, he/she will be required to take the IELTS through the PMU Testing Center or any other authorized testing center",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في الاختبارات المقبولة",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "تشترط صفحة Aptis اختبار IELTS وحده للالتحاق المباشر بالبرنامج الأساسي، في حين تقبل صفحة TOEFL وصفحة التقديم (/apply) نتيجة TOEFL iBT أيضًا (83 إجمالًا و19 في الكتابة).",
+  "recommendation": "تعديل الجملة لتنص على قبول نتيجة سارية من IELTS Academic أو TOEFL iBT تستوفي الحد الأدنى للبرنامج الأساسي، مع الإحالة إلى صفحتي IELTS وTOEFL.",
+  "refs": [
+   "C211"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P34",
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "location": "جدول المستويات بعد فقرة الإحالة إلى دليل المرشح",
+  "current_text": "Based on candidates overall and writing scores, they will be placed on one of the following levels: … Level / Pre Beginner / Beginner / Intermediate / Advanced … direct entry into the Core Program",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تذكر الصفحة أن التسكين يعتمد على الدرجة الإجمالية ودرجة الكتابة، لكن جدول المستويات لا يتضمن أي درجات Aptis أو مستويات الإطار الأوروبي المرجعي (CEFR) المقابلة لكل مستوى، خلافًا لصفحتي IELTS وTOEFL، كما لا تشرح المقصود بـ«Core Program».",
+  "recommendation": "نشر نطاق الدرجة الإجمالية ودرجة الكتابة (أو مستوى CEFR) لكل مستوى كما يعتمده مكتب القبول، مع تعريف موجز بالبرنامج الأساسي.",
+  "refs": [
+   "F-44",
+   "C212"
+  ],
+  "note": "الأولوية متوسطة وفق الملاحظة التفصيلية الأعلى أولوية ضمن العنصرين المدمجين؛ يتطلب نشر النطاقات اعتمادها من الجهة المالكة.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P34",
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "location": "فقرة جدولة الاختبار ومدته",
+  "current_text": "Once the candidates meet the admission’s general requirements, they will be scheduled to take Aptis test (visit Aptis webpage) … The duration of the placement test is approximately 4 hours.",
+  "axis": "دقة المعلومات",
+  "type": "معلومات إجرائية ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تكتفي الصفحة بذكر أن المتقدم «سيُجدول» لاختبار Aptis دون بيان آلية الجدولة أو رسوم الاختبار أو قواعد الإعادة أو مدة صلاحية النتيجة أو جهة التواصل، في حين تعرض صفحة الرسوم الأخرى «APTIS Exam Fees SAR 575»، والفترة الوحيدة المنشورة للاختبار في تقويم القبول (17 مايو – 5 يوليو 2026) قد انتهت.",
+  "recommendation": "إضافة آلية الجدولة ورسوم الاختبار المعتمدة (أو النص على عدم وجودها) وقواعد الإعادة ومدة الصلاحية وجهة التواصل والمواعيد القادمة، بعد تأكيد الرسوم من البرنامج التحضيري والإدارة المالية.",
+  "refs": [
+   "F-13",
+   "C213"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P34",
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "location": "فقرات الصفحة وجدول المستويات",
+  "current_text": "Aptis is an English language test service provided by British Council … Once the candidates meet the admission’s general requirements, they will be scheduled to take Aptis test … to explore the Aptis before sitting for the test … Based on candidates overall and writing scores … Pre Beginner",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء لغوية متعددة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "تتضمن الصفحة عدة أخطاء لغوية: حذف أداة التعريف قبل «British Council» وقبل «Aptis test»، واستخدام ملكية غير صحيحة في «admission’s general requirements»، وصياغة ركيكة في «explore the Aptis»، وغياب علامة الملكية في «candidates»، وكتابة «Pre Beginner» بلا شرطة خلافًا لـ«Pre-Beginner» في صفحتي IELTS وTOEFL.",
+  "recommendation": "التعديل إلى: «provided by the British Council» و«Once candidates meet the general admission requirements, they will be scheduled to take the Aptis test» و«explore the Aptis test format before sitting the test» و«Based on candidates’ overall and writing scores» و«Pre-Beginner».",
+  "refs": [
+   "C214",
+   "C215",
+   "C216",
+   "C217",
+   "C218"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P34",
+  "url": "https://pmu.edu.sa/admission/aptis-placement-test",
+  "location": "رابط «Aptis Candidate Guide (Click here)» – ملف PDF مرفق",
+  "current_text": "Aptis Candidate Guide August 2017",
+  "axis": "دقة المعلومات",
+  "type": "مرجع خارجي قديم",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تحيل الصفحة إلى نسخة مستضافة من دليل المرشح لاختبار Aptis صادرة في أغسطس 2017 (أُنشئ الملف عام 2017 وعُدّل آخر مرة في مارس 2019)، وقد لا تعكس النسخة الحالية للاختبار.",
+  "recommendation": "استبدال الملف المستضاف برابط إلى موارد المرشحين الحالية على موقع المجلس الثقافي البريطاني بدلًا من استضافة إصدار 2017.",
+  "refs": [
+   "PDF-APTIS"
+  ],
+  "note": "بيانات إنشاء الملف وتعديله مأخوذة من خصائص ملف PDF.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P35",
+  "url": "https://pmu.edu.sa/admission/ielts-admission",
+  "location": "الفقرة التمهيدية وجدول المستويات (يتكرر النص نفسه في صفحة TOEFL – TOEFL)",
+  "current_text": "might be admitted to different level in the Preparatory Program … successfully meets one of the below requirements of the categories below … The validation of the IELTS certificate | TOEFL: The validation of the TOEFL iBT report … one of the below minimum requirements of the categories below",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء لغوية متكررة",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "في صفحتي IELTS وTOEFL تنقص أداة التنكير في «to different level»، وتتكرر كلمة «below» في الجملة نفسها، وتُستخدم «validation» بدلًا من «validity» في صف مدة الصلاحية.",
+  "recommendation": "التعديل في الصفحتين إلى: «may be admitted to a different level … meets one of the (minimum) requirements below:» و«Validity of the IELTS certificate» و«Validity of the TOEFL iBT report».",
+  "refs": [
+   "C220",
+   "C221",
+   "C223",
+   "C224"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P35",
+  "url": "https://pmu.edu.sa/admission/ielts-admission",
+  "location": "الفقرة التمهيدية وجدول المستويات",
+  "current_text": "if the candidate provides a valid  IELTS  certificate (Academic version) … The validation of the IELTS certificate | Two years from the date of IELTS test",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "لا توضح صفحة IELTS طريقة تقديم النتيجة أو التحقق منها، ولا ما إذا كانت نتائج IELTS Online أو One Skill Retake مقبولة، في حين تحدد صفحة TOEFL هذه الجوانب («The original TOEFL iBT report has to be sent directly from ETS to PMU»).",
+  "recommendation": "بيان طريقة تقديم نتيجة IELTS والتحقق منها (مثل رقم نموذج النتيجة أو الإرسال الإلكتروني إلى الجامعة) وصيغ الاختبار المقبولة، وفق ما يعتمده مكتب القبول.",
+  "refs": [
+   "C219"
+  ],
+  "note": "قبول صيغ IELTS Online وOne Skill Retake قرار يعود إلى مكتب القبول.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P36",
+  "url": "https://pmu.edu.sa/admission/toefl-admission",
+  "location": "أسفل جدول المستويات",
+  "current_text": "(online or home edition is not accepted)",
+  "axis": "تجربة المستخدم",
+  "type": "ملاحظة غير واضحة الموضع",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "تظهر عبارة عدم قبول النسخة المنزلية بين قوسين مباشرة بعد صف مدة الصلاحية، منفصلة عن سياقها، ولا تستخدم الاسم الرسمي للمنتج.",
+  "recommendation": "إفرادها في سطر مستقل بصيغة واضحة، مثل: «Not accepted: TOEFL iBT Home Edition.»",
+  "refs": [
+   "C225"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P36",
+  "url": "https://pmu.edu.sa/admission/toefl-admission",
+  "location": "جدول مستويات TOEFL iBT (وجدول IELTS المقابل في صفحة IELTS)",
+  "current_text": "LEVEL | TOEFL iBT Overall | TOEFL iBT Writing … Core | 83 | 19",
+  "axis": "دقة المعلومات",
+  "type": "مقياس درجات قد يكون قديمًا",
+  "classification": "متابعة وتحقق",
+  "priority": "متوسطة",
+  "description": "تُعرض متطلبات TOEFL iBT على مقياس 0–120 فقط، وتشير مصادر ثانوية إلى أن ETS بدأت في 21 يناير 2026 بإصدار النتائج على مقياس جديد من 1 إلى 6.",
+  "recommendation": "التحقق من تغيير المقياس لدى ETS، ثم نشر جدول تعادل معتمد يتضمن المقياس الجديد بالتنسيق بين مكتب القبول ومركز الاختبارات.",
+  "refs": [
+   "F-08"
+  ],
+  "note": "معلومة تغيير المقياس من مصدر ثانوي ولم يُتحقق منها من مصدر رسمي.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P37",
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "location": "رابط «Tahseely» في الفقرة الأولى",
+  "current_text": "instead of Qudrat and Tahseely tests",
+  "axis": "وظيفي وتقني",
+  "type": "رابط مضلل",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يشير رابط «Tahseely»، الوارد في سياق تخصصات العلوم والهندسة، إلى صفحة المسار الإنساني على موقع هيئة تقويم التعليم والتدريب.",
+  "recommendation": "توجيه الرابط إلى صفحة اختبار التحصيلي للمسار العلمي أو إلى الصفحة العامة لاختبار التحصيلي.",
+  "refs": [
+   "C228"
+  ],
+  "note": "وجهة الرابط: https://www.etec.gov.sa/en/service/theHumanitiesTrack/servicegoal",
+  "group": "G4"
+ },
+ {
+  "page_id": "P37",
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "location": "الفقرة الأولى",
+  "current_text": "Students with international high school certificate might submit SAT with minimum score of 1200 instead of Qudrat and Tahseely tests.",
+  "axis": "دقة المعلومات",
+  "type": "معلومة ناقصة",
+  "classification": "توصية تحسين",
+  "priority": "متوسطة",
+  "description": "تحدد الصفحة حدًا أدنى قدره 1200 درجة دون بيان مدة صلاحية النتيجة أو ما إذا كانت الدرجة المركبة من عدة جلسات (Superscore) مقبولة، في حين تنص صفحتا IELTS وTOEFL على صلاحية مدتها سنتان.",
+  "recommendation": "إضافة مدة صلاحية نتيجة SAT وقاعدة احتساب الدرجة (جلسة واحدة أو درجة مركبة) بعد اعتمادها من مكتب القبول.",
+  "refs": [
+   "C229"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P37",
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "location": "الفقرة الأولى وجدول إعفاء مقررات الرياضيات (الجملة الأولى مكررة في الحاسب والهندسة)؛ وصفحة متطلبات تخصصات الحاسب والهندسة (فقرة الإعفاء من مقررات الرياضيات)",
+  "current_text": "some majors require specific level of certain skills … may wave one or more of the mathematics courses … Introductory Algebra | Wave | Wave … Pre-Calculus | N/A | Wave",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء إملائية ولغوية",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "كُتبت كلمة «waive» (بمعنى الإعفاء) خطأً «wave» في صفحة اختبار SAT (مرة في النص وأربع مرات في الجدول) وفي صفحة متطلبات تخصصات الحاسب والهندسة، وتنقص أداة التعريف في موضع من صفحة SAT.",
+  "recommendation": "تصحيح «wave» إلى «waive» في النص و«Waived» في الجدول، وتعديل العبارة إلى «require a specific level» في الصفحتين.",
+  "refs": [
+   "C230",
+   "C232",
+   "C198"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "P37",
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "location": "عنوان الصفحة ومسار التنقل (مقارنة بصفحة متطلبات تخصصات الحاسب والهندسة الحاسب والهندسة وصفحة التقديم)",
+  "current_text": "Scholastic Aptitude Test (SAT) | الحاسب والهندسة: (SAT 1) | /apply: Qudrat / SAT 1",
+  "axis": "الاتساق",
+  "type": "عدم اتساق التسمية",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يُسمّى الاختبار «Scholastic Aptitude Test (SAT)» في صفحة SAT و«SAT 1» في صفحة المتطلبات وصفحة التقديم، في حين أن الاسم المعتمد حاليًا هو «SAT» فقط.",
+  "recommendation": "توحيد التسمية إلى «SAT» في صفحة SAT وصفحة متطلبات تخصصات الحاسب والهندسة وصفحة التقديم وصفحة القبول الرئيسية.",
+  "refs": [
+   "C231"
+  ],
+  "note": "الاسم الحالي للاختبار لدى College Board معلومة خارجية تستحسن مراجعتها.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P37",
+  "url": "https://pmu.edu.sa/admission/sat-admission",
+  "location": "جدول إعفاء مقررات الرياضيات",
+  "current_text": "Introductory Algebra | Wave | Wave / Intermediate Algebra | N/A | Wave / Pre-Calculus | N/A | Wave",
+  "axis": "الاتساق",
+  "type": "غياب رموز المقررات",
+  "classification": "توصية تحسين",
+  "priority": "منخفضة",
+  "description": "يذكر جدول الإعفاء أسماء مقررات الرياضيات دون رموزها المستخدمة في صفحة الانتقال من البرنامج التحضيري إلى البكالوريوس (مثل «PRPM 0011 – Introductory Algebra»).",
+  "recommendation": "إضافة رموز المقررات إلى الجدول، مثل «PRPM 0011 Introductory Algebra».",
+  "refs": [
+   "C233"
+  ],
+  "group": "G4"
+ },
+ {
+  "page_id": "Shared menu",
+  "url": "https://www.pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf",
+  "location": "رابط «Web Admission Guide» في القائمة الجانبية لصفحات مكتب القبول (ملف PDF)",
+  "current_text": "PMU WEB ADMISSION GUIDE … Copyright © 2011 … For assistance please contact it@pmu.edu.sa … TOEFL Paper valid range is from 001 to 999 … TOEFL Computer valid range is from 040 to 300 … SAT valid range is from 50.00 to 99.99",
+  "axis": "دقة المعلومات",
+  "type": "دليل قديم",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يفتح الرابط دليل تقديم إلكتروني مؤرخًا في ديسمبر 2018 ويحمل حقوق نشر 2011، يشرح الدخول باسم مستخدم ورقم سري (Login ID وPIN)، ويقتصر على نوعي طلب (مستجد ومحوّل)، ويتضمن جدول درجات يشمل اختبارات متوقفة (TOEFL Paper وTOEFL Computer) ونطاقًا لدرجة SAT لا يتوافق مع مقياسه (50.00–99.99)، ويحيل للمساعدة إلى بريد تقنية المعلومات، كما تتضمن صفحته الأخيرة أسماء وأرقامًا مباشرة لموظفين (2018). أما بوابة التقديم الحالية فتعتمد واجهة مختلفة («Student Login» و«New Student? Register!»).",
+  "recommendation": "سحب الدليل من القائمة أو استبداله بدليل محدَّث يشرح بوابة التقديم الحالية، مع إزالة بيانات التواصل الشخصية القديمة.",
+  "refs": [
+   "PDF-WAG",
+   "C156",
+   "C154"
+  ],
+  "note": "تاريخ ديسمبر 2018 مأخوذ من رابط الملف.",
+  "group": "G4"
+ },
+ {
+  "page_id": "P10",
+  "url": "https://www.pmu.edu.sa/admission/admission_graduate_degree_programs",
+  "location": "روابط «Application Form» لبرامج دكتوراه الهندسة الميكانيكية وماجستير الهندسة المدنية والكهربائية والتصميم الداخلي",
+  "current_text": "[برامج الدراسات العليا] \"Application Form\" → application_form_gr | [نموذج التقديم العام] \"minimum scores of 6.5 overall and 5.5 in each skill\" | [صفحات متطلبات البرامج الأربعة] \"minimum scores of 6.0 overall and 5.5 in each skill\"",
+  "axis": "دقة المعلومات",
+  "type": "تعارض في متطلب اللغة",
+  "classification": "تصحيح مطلوب",
+  "priority": "عالية",
+  "description": "تحيل روابط «Application Form» لأربعة برامج (دكتوراه الهندسة الميكانيكية، وماجستير الهندسة المدنية، وماجستير الهندسة الكهربائية، وماجستير التصميم الداخلي) إلى نموذج تقديم عام يشترط IELTS بدرجة 6.5، في حين تشترط صفحات متطلبات هذه البرامج نفسها درجة 6.0.",
+  "recommendation": "ربط كل برنامج بنموذج تقديم خاص به، أو توحيد درجة IELTS في النموذج العام وفق قرار عمادة الدراسات العليا.",
+  "refs": [
+   "NEW-GR-FORM"
+  ],
+  "note": "تحقق مباشر من روابط الصفحة بتاريخ 11 أكتوبر 2026.",
+  "group": "NEW"
+ },
+ {
+  "page_id": "P30",
+  "url": "https://www.pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs ; https://www.pmu.edu.sa/admission/aptis-placement-test",
+  "location": "عرض الصفحة على الجوال (عرض 390 بكسل)",
+  "current_text": "(فحص عرض) عرض محتوى الصفحتين أكبر من عرض شاشة الجوال",
+  "axis": "تجربة المستخدم",
+  "type": "تمرير أفقي على الجوال",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يتجاوز عرض المحتوى عرض شاشة الجوال في صفحتي الانتقال من البرنامج التحضيري إلى البكالوريوس واختبار Aptis، فيضطر المستخدم إلى التمرير أفقيًا.",
+  "recommendation": "جعل الجداول والروابط الطويلة متجاوبة (التفاف النص، أو جداول قابلة للتمرير داخل إطارها).",
+  "refs": [
+   "NEW-MOBILE"
+  ],
+  "note": "فحص بمتصفح محمول بتاريخ 11 أكتوبر 2026.",
+  "group": "NEW"
+ }
+]

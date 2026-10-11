@@ -1,0 +1,3439 @@
+{
+ "pages": {
+  "P00": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS OFFICE"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Office :: Study at PMU :: PMU :: Prince Mohammad Bin Fahd University"
+  },
+  "P01": {
+   "status": 200,
+   "final": "https://www.pmu.edu.sa/default",
+   "lang": "",
+   "h1": [],
+   "imgs": 10,
+   "noalt": [
+    "c-logo-new.png",
+    "logo-name.png",
+    "Graduation-Ceremony-2022-2023-President-Message.jpg",
+    "AnnualReport2023.png",
+    "press-release-ranking-thumb.jpg",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 62,
+   "title": "PMU, Prince Mohammad Bin Fahd University."
+  },
+  "P02": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission-registration",
+   "lang": "",
+   "h1": [
+    "STUDY AT PMU"
+   ],
+   "imgs": 4,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Study at PMU :: PMU :: Prince Mohammad Bin Fahd University"
+  },
+  "P03": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/future_students_ro",
+   "lang": "",
+   "h1": [
+    "OVERVIEW"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P04": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/degrees_programs_fs_ro",
+   "lang": "",
+   "h1": [
+    "DEGREES & PROGRAMS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Degrees & Programs :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P05": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS CALENDARS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Calendar :: Future Students :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P07": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_queries",
+   "lang": "",
+   "h1": [
+    "ADMISSION QUERY"
+   ],
+   "imgs": 4,
+   "noalt": [
+    "logo-name.png",
+    "Captcha.aspx",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admission Query :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P08": {
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "lang": "en",
+   "h1": [
+    "Creative minds …\nTransform the world"
+   ],
+   "imgs": 1,
+   "noalt": [
+    "admissions-banner.jpg"
+   ],
+   "overflow": false,
+   "empty": 0,
+   "title": "PMU Student Application"
+  },
+  "P09": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/international_students",
+   "lang": "",
+   "h1": [],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 56,
+   "title": "International Students’ Office :: Admissions :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P10": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+   "lang": "",
+   "h1": [
+    "GRADUATE ADMISSIONS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Graduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P11": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/application_form_deme_gdp",
+   "lang": "",
+   "h1": [
+    "PHD IN MECHANICAL ENGINEERING ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Application Form for MSDH :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P12": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+   "lang": "",
+   "h1": [
+    "PHD-BA ADMISSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements , Admissions to the PhD in Business Administration :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P13": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp",
+   "lang": "",
+   "h1": [
+    "EMBA ADMISSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements , Executive MBA Program (EMBA) :: Graduate Programs :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P14": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp",
+   "lang": "",
+   "h1": [
+    "MBA ADMISSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements, MBA Program (MBA) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P15": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements for MSHD :: Graduate Degree Programs :: Admissions Office :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P16": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp",
+   "lang": "",
+   "h1": [
+    "MSME ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions to the Master of Science in Mechanical Engineering (MSME) Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University"
+  },
+  "P17": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+   "lang": "",
+   "h1": [
+    "MSEE ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "MSEE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P18": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/application_form_msce_gdp",
+   "lang": "",
+   "h1": [
+    "MSCE ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "MSCE ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P19": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/application_form_msid_gdp",
+   "lang": "",
+   "h1": [
+    "MSID ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "MSID ADMISSSIONS REQUIREMENTS :: Graduate Degree Programs :: Admissions Office ::Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P20": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+   "lang": "",
+   "h1": [
+    "EMGMS ADMISSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements, Master of Science in Engineering Management (EMGMS) :: Graduate Programs :: Admissions Office:: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P21": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+   "lang": "",
+   "h1": [
+    "MIBL ADMISSSIONS REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions to the Master of Arts (MA) in International Business Law Program :: Graduate Programs :: Admissions Office :: Study @ PMU :: PMU :: Prince Mohammad Bin Fahd University"
+  },
+  "P22": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro",
+   "lang": "",
+   "h1": [
+    "POST GRADUATE FEES"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 59,
+   "title": "Post Graduate Fees :: Tuition & Fees :: Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P23": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission_contact_gdp",
+   "lang": "",
+   "h1": [
+    "CONTACT INFO"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Contact Info :: Graduate Degree Programs :: Admissions Office ::Study @ PMU:: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P24": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+   "lang": "",
+   "h1": [
+    "UNDERGRADUATE ADMISSIONS"
+   ],
+   "imgs": 4,
+   "noalt": [
+    "logo-name.png",
+    "admission-banner.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Undergraduate Programs Admissions :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P25": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS TO THE COLLEGE OF MEDICINE"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions to the College of Medicine :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P26": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS TO THE PREPARATORY PROGRAM"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admission to the Preparatory Program :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P27": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+   "lang": "",
+   "h1": [
+    "DIRECT ADMISSIONS FROM SECONDARY SCHOOL"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Direct Admissions from Secondary School :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P28": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission-from-other-universities",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS FROM OTHER UNIVERSITIES"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions from Other Universities :: Undergraduate Admissions :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P29": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/visiting-student-admission",
+   "lang": "",
+   "h1": [
+    "VISITING STUDENT ADMISSIONS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Visiting Student Admission :: Undergraduate :: Admission Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P30": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+   "lang": "",
+   "h1": [
+    "ADMISSIONS FROM THE PREPARATORY PROGRAM TO UNDERGRADUATE PROGRAMS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": true,
+   "empty": 57,
+   "title": "Admission from the Preparatory Program to Undergraduate Programs :: Undergraduate :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P31": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+   "lang": "",
+   "h1": [
+    "COMPUTER SCIENCE AND ENGINEERING MAJORS ADMISSION REQUIREMENTS"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Admissions Requirements , Computer Science and Engineering Majors :: Undergraduate:: Admissions Office :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P32": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/fees_tf_ro",
+   "lang": "",
+   "h1": [
+    "UNDERGRADUATE FEES"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 59,
+   "title": "Undergraduate Fees :: Tuition & Fees ::Registration Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P33": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests",
+   "lang": "",
+   "h1": [
+    "OVERVIEW"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P34": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/aptis-placement-test",
+   "lang": "",
+   "h1": [
+    "APTIS PLACEMENT TEST"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": true,
+   "empty": 57,
+   "title": "Aptis Placement Test :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P35": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/ielts-admission",
+   "lang": "",
+   "h1": [
+    "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "THE INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS) :: Undergraduate Placement Tests :: Admissions Office :: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P36": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/toefl-admission",
+   "lang": "",
+   "h1": [
+    "TEST OF ENGLISH AS A FOREIGN LANGUAGE"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "TOEFL ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P37": {
+   "status": 200,
+   "final": "https://pmu.edu.sa/admission/sat-admission",
+   "lang": "",
+   "h1": [
+    "SCHOLASTIC APTITUDE TEST"
+   ],
+   "imgs": 3,
+   "noalt": [
+    "logo-name.png",
+    "logo_new_r.png"
+   ],
+   "overflow": false,
+   "empty": 57,
+   "title": "SAT ::Undergraduate Placement Tests :: Admissions Office:: Study @ PMU :: PMU, Prince Mohammad Bin Fahd University"
+  },
+  "P38": {
+   "status": 200,
+   "final": "https://admissions.pmu.edu.sa/welcome",
+   "lang": "en",
+   "h1": [
+    "Creative minds …\nTransform the world"
+   ],
+   "imgs": 1,
+   "noalt": [
+    "admissions-banner.jpg"
+   ],
+   "overflow": false,
+   "empty": 0,
+   "title": "PMU Student Application"
+  }
+ },
+ "links": {
+  "https://www.pmu.edu.sa/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/admission": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/about.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/uni-vision-mission.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/uni-values.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/Governance.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/deanships.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/puplications_presntations.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/admission-registration.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/Admission.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/apply.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/financial_aid_ro.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/registration_office.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/tuition_fees_ro.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/academics.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/college_of_engineering_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/college_business_administration_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/law_dept_cshs_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/college_of_medicine_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/academics/overview_pp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/research/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/research/research_center": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmfcfs.pmu.edu.sa/Default.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/ai/default": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/cybersecurity/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Patent-Center/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/cews/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/sarc/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/csbi/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/sim/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/amric/": {
+   "status": 200,
+   "text": "Additive Manufacturing Research & Innovation Center",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/life_pmu/life_pmu.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/life_pmu/campus_life.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/life_pmu/health_care_counseling_services.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/life_pmu/office_special_needs.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://blackboard.pmu.edu.sa/": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://www.pmu.edu.sa/login/banner-login.html": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://financehelpdesk.pmu.edu.sa/login": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://www.pmu.edu.sa/login/index?Login=Login+Portal": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/resources_services/e_resources_lrc.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://iconnect.pmu.edu.sa/?login=Login+Portal": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://workflow.pmu.edu.sa/wfprod": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://ithelpdesk.pmu.edu.sa/": {
+   "status": 502,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Default.aspx": {
+   "status": 200,
+   "text": "Home",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/Admission-Registration.aspx": {
+   "status": 200,
+   "text": "Study @ PMU",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Future_Students_RO.aspx": {
+   "status": 200,
+   "text": "Overview",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Degrees_Programs_FS_RO.aspx": {
+   "status": 200,
+   "text": "Degrees & Programs",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx": {
+   "status": 200,
+   "text": "Admissions Calendar",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Staff_Profile/Staff_List.aspx?&DEpt=4&Name=Staff%20Name": {
+   "status": 403,
+   "text": "Contact Us",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/admissions_queries": {
+   "status": 200,
+   "text": "Admission Query",
+   "from": "P00"
+  },
+  "https://www.pmu.edu.sa/apply": {
+   "status": 200,
+   "text": "Apply Now",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/International_Students.aspx": {
+   "status": 200,
+   "text": "International Students without Saudi Residence",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission_Graduate_Degree_Programs.aspx": {
+   "status": 200,
+   "text": "Home",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/application_form_deme_gdp.aspx": {
+   "status": 200,
+   "text": "Admissions to the PhD in Mechanical Engineering Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_phdba_gdp.aspx": {
+   "status": 200,
+   "text": "Admissions to the PhD in Business Administration Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_EMBA_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the EMBA Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MBA_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MBA Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MSEHD_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MSHD Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MSME_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MSME Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/application_form_msee_gdp.aspx": {
+   "status": 200,
+   "text": "Admissions to the MSEE Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/application_form_MSCE_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MSCE Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/application_form_MSID_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MSID Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_emgms_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the EMGMS Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_MIlBL_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions to the MIBL",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Post_Graduate_Fees_TF_RO.aspx": {
+   "status": 200,
+   "text": "Tuition & Fees",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission_Contact_GDP.aspx": {
+   "status": 200,
+   "text": "Contact Info",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Undergraduate_Programs_Admission.aspx": {
+   "status": 200,
+   "text": "Home",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission": {
+   "status": 200,
+   "text": "Admission to the College of Medicine",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission-to-the-Preparatory-Program.aspx": {
+   "status": 200,
+   "text": "Admissions to the Preparatory Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Direct-Admissions-from-Secondary-School.aspx": {
+   "status": 200,
+   "text": "Direct Admissions from Secondary School",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission-from-Other-Universities.aspx": {
+   "status": 200,
+   "text": "Admissions from Other Universities",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Visiting-Student-Admission.aspx": {
+   "status": 200,
+   "text": "Visting Students",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admission-from-the-Prep-to-UG-Programs.aspx": {
+   "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+   "text": "Admissions from the Preparatory Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_CS_Eng_Majors.aspx": {
+   "status": 200,
+   "text": "Computer Science and Engineering Majors Admission Requiremen",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Fees_TF_RO.aspx": {
+   "status": 200,
+   "text": "Tuition & Fees",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx": {
+   "status": 200,
+   "text": "Overview",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/Aptis-Placement-Test.aspx": {
+   "status": 200,
+   "text": "Aptis",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/IELTS-Admission.aspx": {
+   "status": 200,
+   "text": "IELTS",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/TOEFL-Admission.aspx": {
+   "status": 200,
+   "text": "TOEFL",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/SAT-Admission.aspx": {
+   "status": 200,
+   "text": "Scholastic Aptitude Test (SAT)",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx": {
+   "status": 200,
+   "text": "Academic Calendar",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/global-engagement/": {
+   "status": 200,
+   "text": "Global Engagement",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/life_pmu/sportscenterschedule.aspx": {
+   "status": 200,
+   "text": "Sports Center Schedule",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/About/Welcome_Rector.aspx": {
+   "status": 200,
+   "text": "President's Office",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Life_Pmu/Dining_CL.aspx": {
+   "status": 200,
+   "text": "Dining",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/news/more_news.aspx": {
+   "status": 200,
+   "text": "News",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/news/more_events.aspx": {
+   "status": 200,
+   "text": "Events",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/gallary.aspx": {
+   "status": 200,
+   "text": "PMU Album",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx": {
+   "status": 200,
+   "text": "College of Engineering",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx": {
+   "status": 200,
+   "text": "College of Computer Engineering & Sciences",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx": {
+   "status": 200,
+   "text": "College of Business",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/law_dept_cshs_udp.aspx": {
+   "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+   "text": "College of Law",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx": {
+   "status": 200,
+   "text": "College of Sciences and Human Studies",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Academics/Overview_PP.aspx": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/Life_PMU/Campus_Life.aspx": {
+   "status": 200,
+   "text": "Campus Map",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/resources_services/engineering_technical_affairs.aspx": {
+   "status": 200,
+   "text": "EAIP",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/resources_services/sections_it_dept.aspx": {
+   "status": 200,
+   "text": "IT Services",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/resources_services/library_services_lrc.aspx": {
+   "status": 200,
+   "text": "Library Services",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/hr/hr.aspx": {
+   "status": 200,
+   "text": "EMPLOYMENT",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/about/maps.aspx": {
+   "status": 200,
+   "text": "MAPS & LOCATIONS",
+   "from": "P00"
+  },
+  "https://pmu.edu.sa/About/Contact_Us.aspx": {
+   "status": 200,
+   "text": "CONTACT",
+   "from": "P00"
+  },
+  "https://www.pmu.edu.sa/announcement/2024/c166305a-d8f2-4196-b480-69eaacf35fbe/index": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/about.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/uni-vision-mission.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/uni-values.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/Governance.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/deanships.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/puplications_presntations.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/admission/admission-registration.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/admission/Admission.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/apply": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/admission/financial_aid_ro.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/admission/registration_office.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/admission/tuition_fees_ro.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/academics.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/college_of_engineering_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/college_computer_engineering_science_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/college_business_administration_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/law_dept_cshs_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/College_of_Architecture_Design_UDP.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/college_sciences_human_studies_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/college_of_medicine_udp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/overview_pp.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/life_pmu/life_pmu.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/life_pmu/campus_life.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/life_pmu/health_care_counseling_services.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/life_pmu/office_special_needs.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/e_resources_lrc.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/uakhobar/": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Strategic-Plan-2022-2026.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/default#myCarousel": {
+   "status": 200,
+   "text": "Previous",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/undergraduate_degree_programs.aspx": {
+   "status": 200,
+   "text": "UNDERGRADUATE PROGRAMS",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/academics/graduate_degree_programs.aspx": {
+   "status": 200,
+   "text": "GRADUATE PROGRAMS",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Hasaad-2024.aspx": {
+   "status": 200,
+   "text": "",
+   "from": "P01"
+  },
+  "https://pmfcfs.pmu.edu.sa/About-Center.aspx": {
+   "status": 200,
+   "text": "about the Center",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/academics/pmu_core_competencies_cshs_udp": {
+   "status": 200,
+   "text": "Courses",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/academics/master_in_future_studies": {
+   "status": 200,
+   "text": "Master's",
+   "from": "P01"
+  },
+  "https://pmfcfs.pmu.edu.sa/contact-us.aspx": {
+   "status": 200,
+   "text": "Contact  Us",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/lrc_library.aspx": {
+   "status": 200,
+   "text": "LRC",
+   "from": "P01"
+  },
+  "http://faculty.pmu.edu.sa/pmufaculties/": {
+   "status": 403,
+   "text": "FACULTY CORNER",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/global-engagement/": {
+   "status": 200,
+   "text": "GLOBAL ENGAGEMENT",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Facts-Figures.html": {
+   "status": 200,
+   "text": "Learn More About the Facts & Figures",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/about/annual-report-2023": {
+   "status": 200,
+   "text": "ANNUAL REPORT 2023",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/news/2022/d7fe3b63-e40f-4973-8ec2-fd060f7e961a/index": {
+   "status": 200,
+   "text": "PRESS RELEASE",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/news/2020/1660f8ae-2e45-48f0-9d91-b84b72d475de/index.html": {
+   "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+   "text": "LRC VIRTUAL HELP",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/announcement/2021/e21c3f76-a16a-4ef3-b2d5-8d5cad77d36f/index.html": {
+   "status": 200,
+   "text": "...Read More",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/resources_services.aspx": {
+   "status": 200,
+   "text": "RESOURCES",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/services.aspx": {
+   "status": 200,
+   "text": "SERVICES",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/alumni/alumni.aspx": {
+   "status": 200,
+   "text": "ALUMNI",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Admission/academic_calendar_2021_2022_ro.aspx": {
+   "status": 200,
+   "text": "Academic Calendar",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/life_pmu/sportscenterschedule.aspx": {
+   "status": 200,
+   "text": "Sports Center Schedule",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/About/Welcome_Rector.aspx": {
+   "status": 200,
+   "text": "President's Office",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Life_Pmu/Dining_CL.aspx": {
+   "status": 200,
+   "text": "Dining",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/news/more_news.aspx": {
+   "status": 200,
+   "text": "News",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/news/more_events.aspx": {
+   "status": 200,
+   "text": "Events",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Gallary.aspx": {
+   "status": 200,
+   "text": "PMU Album",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/College_of_Engineering_UDP.aspx": {
+   "status": 200,
+   "text": "College of Engineering",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/College_Computer_Engineering_Science_UDP.aspx": {
+   "status": 200,
+   "text": "College of Computer Engineering & Sciences",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/College_Business_Administration_UDP.aspx": {
+   "status": 200,
+   "text": "College of Business",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/law_dept_cshs_udp.aspx": {
+   "status": 200,
+   "text": "College of Law",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/College_Sciences_Human_Studies_UDP.aspx": {
+   "status": 200,
+   "text": "College of Sciences and Human Studies",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/college_of_medicine_udp.aspx": {
+   "status": 200,
+   "text": "College of Medicine",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Academics/Overview_PP.aspx": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/Life_PMU/Campus_Life.aspx": {
+   "status": 200,
+   "text": "Campus Map",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/engineering_technical_affairs.aspx": {
+   "status": 200,
+   "text": "EAIP",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/sections_it_dept.aspx": {
+   "status": 200,
+   "text": "IT Services",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/resources_services/library_services_lrc.aspx": {
+   "status": 200,
+   "text": "Library Services",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/hr/hr.aspx": {
+   "status": 200,
+   "text": "EMPLOYMENT",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/about/maps.aspx": {
+   "status": 200,
+   "text": "MAPS & LOCATIONS",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/About/Contact_Us.aspx": {
+   "status": 200,
+   "text": "CONTACT",
+   "from": "P01"
+  },
+  "https://www.pmu.edu.sa/About/purchasing.aspx": {
+   "status": 200,
+   "text": "VENDOR REGISTRATION",
+   "from": "P01"
+  },
+  "https://pmu.edu.sa/admission/admission-registration": {
+   "status": 200,
+   "text": "",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/admission/admission-registration#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/admission/admission-registration#myCarousel": {
+   "status": 200,
+   "text": "Previous",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Admission.aspx": {
+   "status": 200,
+   "text": "Home",
+   "from": "P02"
+  },
+  "http://faculty.pmu.edu.sa/PMUStaffs/DepartmentStaffList/4": {
+   "status": 403,
+   "text": "Contact Us",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Welcome_FA_RO.aspx": {
+   "status": 200,
+   "text": "Welcome",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Students_Rights_Responsibilities_FA_RO.aspx": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Tips_Smoother_Application_Process_FA_RO.aspx": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Registration_Office.aspx": {
+   "status": 200,
+   "text": "Welcome",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Academic_Calendar_2023_2024_RO.aspx": {
+   "status": 200,
+   "text": "Academic Calendar",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Tuition_Fees_RO.aspx": {
+   "status": 200,
+   "text": "Tuition & Fees",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Grading_System_RO.aspx": {
+   "status": 200,
+   "text": "Grading System",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Academic_Standing_RO.aspx": {
+   "status": 200,
+   "text": "Academic Standing",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Re_instatement_RO.aspx": {
+   "status": 200,
+   "text": "Re-instatement",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/PDF/Viewer.aspx?ID=380": {
+   "status": 200,
+   "text": "Student Registration- Quick Guide",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Registration_Steps.aspx": {
+   "status": 200,
+   "text": "Registration Steps",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Registration_Forms_RO.aspx": {
+   "status": 200,
+   "text": "Registration Forms",
+   "from": "P02"
+  },
+  "https://banner.pmu.edu.sa/PROD/twbkwbis.P_WWWLogin": {
+   "status": 502,
+   "text": "Banner Self Service Log In",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/List_Majors_RO.aspx": {
+   "status": 200,
+   "text": "List of Majors",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Final_Exam_Schedule_RO.aspx": {
+   "status": 200,
+   "text": "Final Exam Schedule",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/PDF/Viewer.aspx?ID=179": {
+   "status": 200,
+   "text": "Student Handbook",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/GPA_Calculator_RO.aspx": {
+   "status": 404,
+   "text": "GPA Calculator",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Payment_Method_TF_RO.aspx": {
+   "status": 200,
+   "text": "Tuition Fee Payment",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/FAQ_TF_RO.aspx": {
+   "status": 200,
+   "text": "FAQ",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Summer_Semester_Tuition_TF_RO.aspx": {
+   "status": 200,
+   "text": "Summer Semester Tuition",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/Admission/Student_Fees_TF_RO.aspx": {
+   "status": 200,
+   "text": "Student Fees",
+   "from": "P02"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro": {
+   "status": 200,
+   "text": "",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_EMBA_GDP.aspx": {
+   "status": 200,
+   "text": "Application Form for EMBA",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_MBA_GDP.aspx": {
+   "status": 200,
+   "text": "Application Form for MBA",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_MSEHD_GDP.aspx": {
+   "status": 200,
+   "text": "Application Form for MSEHD",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/PDF/Viewer.aspx?ID=203": {
+   "status": 200,
+   "text": "Web Admission Guide",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Sponsored_Scholarship_Programs_FA_RO.aspx": {
+   "status": 404,
+   "text": "Sponsored Scholarship Programs",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/MOHE_Scholarships.aspx": {
+   "status": 404,
+   "text": "MOHE Scholarships",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/International_Students_Scholarships_FA_RO.aspx": {
+   "status": 404,
+   "text": "International Students Scholarships",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/New_Students_FA_RO.aspx": {
+   "status": 200,
+   "text": "New Students",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Continuing_Students_FA_RO.aspx": {
+   "status": 200,
+   "text": "Continuing Students",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Important_Notes_FA_RO.aspx": {
+   "status": 200,
+   "text": "Important Notes",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/PDF/Viewer.aspx?ID=220": {
+   "status": 200,
+   "text": "List of Required Documents",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/PDF/Viewer.aspx?ID=221": {
+   "status": 200,
+   "text": "Financial Aid Application",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/Admission/Apply_Now_ADS.aspx": {
+   "status": 200,
+   "text": "Apply Now",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/future_students_ro#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P03"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro": {
+   "status": 200,
+   "text": "",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/Future_Students_RO.aspx": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu7": {
+   "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+   "text": "Undergraduate Placement Tests",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/degrees_programs_fs_ro#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P04"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro": {
+   "status": 200,
+   "text": "",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admission_calendar_fs_ro#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/Apply": {
+   "status": 200,
+   "text": "Apply Now",
+   "from": "P05"
+  },
+  "https://pmu.edu.sa/admission/admissions_queries": {
+   "status": 200,
+   "text": "",
+   "from": "P07"
+  },
+  "https://pmu.edu.sa/admission/admissions_queries#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P07"
+  },
+  "https://admissions.pmu.edu.sa/student/login": {
+   "status": 200,
+   "text": "Student Login",
+   "from": "P08"
+  },
+  "https://admissions.pmu.edu.sa/student/login/register": {
+   "status": 200,
+   "text": "New Student? Register!",
+   "from": "P08"
+  },
+  "https://admissions.pmu.edu.sa/admin/login": {
+   "status": 200,
+   "text": "Admin Login Page",
+   "from": "P08"
+  },
+  "https://pmu.edu.sa/admission/international_students": {
+   "status": 200,
+   "text": "",
+   "from": "P09"
+  },
+  "https://pmu.edu.sa/admission/International_Students_Office.aspx": {
+   "status": 200,
+   "text": "International Students' Office",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/admission_calendar_fs_ro": {
+   "status": 200,
+   "text": "Admission Calendar",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/overview-undergraduate-placement-tests": {
+   "status": 200,
+   "text": "(Learn more)",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/undergraduate_programs_admission": {
+   "status": 200,
+   "text": "Admission requirements.",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/transfer-student-admission-and-credit-transfer-policy": {
+   "status": 200,
+   "text": "(click here)",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/visiting-student-admission": {
+   "status": 200,
+   "text": "Visitor Students",
+   "from": "P09"
+  },
+  "https://pmu.edu.sa/admission/MBA_International_Students.aspx": {
+   "status": 200,
+   "text": "MBA",
+   "from": "P09"
+  },
+  "https://pmu.edu.sa/admission/MSHD_International_Students.aspx": {
+   "status": 200,
+   "text": "MSHD",
+   "from": "P09"
+  },
+  "https://pmu.edu.sa/admission/MSME_International_Students.aspx": {
+   "status": 200,
+   "text": "MSME",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/admission/tuition_fees_ro": {
+   "status": 200,
+   "text": "Tuition and Fees",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/life_pmu/housing_residence_halls_cl": {
+   "status": 200,
+   "text": "Housing",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/life_pmu/life_pmu": {
+   "status": 200,
+   "text": "Campus Life",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/hr/culture_of_saudi_arabia": {
+   "status": 200,
+   "text": "Culture of Saudi Arabia",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/resources_services/learning_enrichment_us": {
+   "status": 200,
+   "text": "Student\n                    Support Center",
+   "from": "P09"
+  },
+  "https://www.pmu.edu.sa/academics/overview": {
+   "status": 200,
+   "text": "Curriculum (TIEC)",
+   "from": "P09"
+  },
+  "https://pmu.edu.sa/admission/admission_graduate_degree_programs": {
+   "status": 200,
+   "text": "",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/admission/admission_graduate_degree_programs#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/admission/admission_graduate_degree_programs#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_MSME_GDP.aspx": {
+   "status": 200,
+   "text": "Apply for MSME",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/admission/admission_graduate_degree_programs#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_PHDBA_GDP.aspx": {
+   "status": 200,
+   "text": "Application Form for PhD-BA",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Admissions_Requirements_PHDBA_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements PhD-BA",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/application_form_gr.aspx": {
+   "status": 200,
+   "text": "Application Form",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_DEME_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/application_form_msce_gdp.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_MSEE_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/Application_Form_MSID_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/application_form_milbl_gdp.aspx": {
+   "status": 200,
+   "text": "Application Form",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/Admission/admissions_Requirements_MILBL_GDP.aspx": {
+   "status": 200,
+   "text": "Admissions Requirements",
+   "from": "P10"
+  },
+  "https://pmu.edu.sa/admission/application_form_deme_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P11"
+  },
+  "https://pmu.edu.sa/admission/Admission_Graduate_Degree_Programs.aspx": {
+   "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+   "text": "Graduate Programs",
+   "from": "P11"
+  },
+  "https://pmu.edu.sa/admission/application_form_deme_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P11"
+  },
+  "https://pmu.edu.sa/admission/application_form_deme_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P11"
+  },
+  "https://pmu.edu.sa/admission/application_form_deme_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P11"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P12"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P12"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P12"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P12"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P13"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P13"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P13"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emba_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P13"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P14"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P14"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P14"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_mba_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P14"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P15"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P15"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P15"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msehd_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P15"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P16"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P16"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P16"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_msme_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P16"
+  },
+  "https://pmu.edu.sa/admission/application_form_msee_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P17"
+  },
+  "https://pmu.edu.sa/admission/application_form_msee_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P17"
+  },
+  "https://pmu.edu.sa/admission/application_form_msee_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P17"
+  },
+  "https://pmu.edu.sa/admission/application_form_msee_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P17"
+  },
+  "https://pmu.edu.sa/admission/application_form_msce_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P18"
+  },
+  "https://pmu.edu.sa/admission/application_form_msce_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P18"
+  },
+  "https://pmu.edu.sa/admission/application_form_msce_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P18"
+  },
+  "https://pmu.edu.sa/admission/application_form_msce_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P18"
+  },
+  "https://pmu.edu.sa/admission/application_form_msid_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P19"
+  },
+  "https://pmu.edu.sa/admission/application_form_msid_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P19"
+  },
+  "https://pmu.edu.sa/admission/application_form_msid_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P19"
+  },
+  "https://pmu.edu.sa/admission/application_form_msid_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P19"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P20"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P20"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P20"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P20"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P21"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P21"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp#menu2": {
+   "status": 200,
+   "text": "Graduate Programs",
+   "from": "P21"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P21"
+  },
+  "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro": {
+   "status": 200,
+   "text": "",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/Registration_Office.aspx": {
+   "status": 200,
+   "text": "Registration Office",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/Tuition_Fees_RO.aspx": {
+   "status": 200,
+   "text": "Tuition & Fees",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro#menu1": {
+   "status": 200,
+   "text": "Study @ PMU",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/Fees_TF_RO.aspx": {
+   "status": 200,
+   "text": "Undergraduate Fees",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro#menu2": {
+   "status": 200,
+   "text": "",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro.aspx": {
+   "status": 200,
+   "text": "Medical Program Studies",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2026_2027.aspx": {
+   "status": 200,
+   "text": "Undergraduate Fees Intake\n                2026/2027",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2025_2026.aspx": {
+   "status": 200,
+   "text": "Undergraduate Fees Intake\n                2025/2026",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2024_2025.aspx": {
+   "status": 200,
+   "text": "Undergraduate Fees for\n                Continuing 2024-2025",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/Admission/payment_schedule_tf_ro.aspx": {
+   "status": 200,
+   "text": "Payment Schedule",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro#menu3": {
+   "status": 200,
+   "text": "",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/Admission/payment_schedule_tf_ro_spring.aspx": {
+   "status": 200,
+   "text": "Spring Semester 2025/2026",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/Admission/payment_schedule_tf_ro_summer.aspx": {
+   "status": 200,
+   "text": "Summer Semester 2025/2026",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/Admission/payment_schedule_tf_ro_fall.aspx": {
+   "status": 200,
+   "text": "Fall Semester 2026/2027",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/post_graduate_fees_tf_ro#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P22"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp": {
+   "status": 200,
+   "text": "",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/admission_contact_gdp#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P23"
+  },
+  "https://pmu.edu.sa/admission/undergraduate_programs_admission": {
+   "status": 200,
+   "text": "",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/undergraduate_programs_admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/Admissions_Requirements_CS_Eng_Majors.aspx": {
+   "status": 200,
+   "text": "Computer Science and Engineering Majors Admission Requiremen",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/Admission-to-the-Preparatory-Program.aspx": {
+   "status": 200,
+   "text": "Read More",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission.aspx": {
+   "status": 200,
+   "text": "Read more",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/Admission-from-Other-Universities.aspx": {
+   "status": 200,
+   "text": "Read more",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/Visiting-Student-Admission.aspx": {
+   "status": 200,
+   "text": "Read more",
+   "from": "P24"
+  },
+  "https://pmu.edu.sa/admission/Undergraduate_Programs_Admission.aspx": {
+   "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+   "text": "Undergraduate Admissions",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/college_of_medicine_admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P25"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program": {
+   "status": 200,
+   "text": "",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/admission-to-the-preparatory-program#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P26"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school": {
+   "status": 200,
+   "text": "",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P27"
+  },
+  "http://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx": {
+   "status": 403,
+   "text": "Submit documents before due date",
+   "from": "P27"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities": {
+   "status": 200,
+   "text": "",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/admission-from-other-universities#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P28"
+  },
+  "https://www.pmu.edu.sa/Admission/Transfer-Student-Admission-and-Credit-Transfer-Policy.aspx": {
+   "status": 200,
+   "text": "click here",
+   "from": "P28"
+  },
+  "http://admissions.pmu.edu.sa/": {
+   "status": 503,
+   "text": "Complete online application",
+   "from": "P28"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission": {
+   "status": 200,
+   "text": "",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#menu13": {
+   "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+   "text": "Tips for a Smoother Application Process",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/visiting-student-admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P29"
+  },
+  "https://www.pmu.edu.sa/Admission/Admission_Calendar_FS_RO.aspx": {
+   "status": 200,
+   "text": "Submit documents before due date",
+   "from": "P29"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs": {
+   "status": 200,
+   "text": "",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/Admission/Preparatory-Program-Study-Plan.aspx": {
+   "status": 200,
+   "text": "study plan",
+   "from": "P30"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors": {
+   "status": 200,
+   "text": "",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P31"
+  },
+  "http://pmu.edu.sa/Admission/Overview-Undergraduate-Placement-Tests.aspx": {
+   "status": "ERR TimeoutError: apiRequestContext.get: Timeout 30000ms exceede",
+   "text": "if available",
+   "from": "P31"
+  },
+  "https://www.pmu.edu.sa/admission/sat-admission": {
+   "status": 200,
+   "text": "(read more…)",
+   "from": "P31"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro": {
+   "status": 200,
+   "text": "",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro#menu1": {
+   "status": 200,
+   "text": "Study @ PMU",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro#menu2": {
+   "status": 200,
+   "text": "",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro#menu3": {
+   "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+   "text": "",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro": {
+   "status": 200,
+   "text": "Medical Program Fees",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2026_2027": {
+   "status": 200,
+   "text": "Fall Semester 2026/2027",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2025_2026": {
+   "status": 200,
+   "text": "Fall Semester 2025/2026",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/fees_tf_ro_2024_2025": {
+   "status": 200,
+   "text": "Continuing Students 2024–2025",
+   "from": "P32"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests": {
+   "status": "ERR Error: apiRequestContext.get: Client network socket disconne",
+   "text": "",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/overview-undergraduate-placement-tests#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P33"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test": {
+   "status": 200,
+   "text": "",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/Overview-Undergraduate-Placement-Tests.aspx": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/aptis-placement-test#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/Attachments/Admission/PDF/Appendix%203.3%20(Aptis%20Candidate%20Guide).pdf": {
+   "status": 200,
+   "text": "Click here",
+   "from": "P34"
+  },
+  "https://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx": {
+   "status": 200,
+   "text": "Apply for IELTS",
+   "from": "P34"
+  },
+  "https://csbd.pmu.edu.sa/Continuing-Education/Short-Courses-and-Workshops.aspx": {
+   "status": 200,
+   "text": "Click here..",
+   "from": "P34"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission": {
+   "status": 200,
+   "text": "",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/ielts-admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P35"
+  },
+  "http://csbd.pmu.edu.sa/Continuing-Education/IELTS-Testing-Centre.aspx": {
+   "status": 403,
+   "text": "Apply for IELTS",
+   "from": "P35"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission": {
+   "status": 200,
+   "text": "",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/toefl-admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P36"
+  },
+  "https://pmu.edu.sa/admission/sat-admission": {
+   "status": 200,
+   "text": "",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu1": {
+   "status": 200,
+   "text": "Admissions Office",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu2": {
+   "status": 200,
+   "text": "Future Students",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu3": {
+   "status": 200,
+   "text": "Undergraduate Admissions",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu4": {
+   "status": 200,
+   "text": "New Applicant",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu5": {
+   "status": 200,
+   "text": "Preparatory Program",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu6": {
+   "status": 200,
+   "text": "Graduate Admissions",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu7": {
+   "status": 200,
+   "text": "Undergraduate Placement Tests",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu9": {
+   "status": 200,
+   "text": "Financial Aid",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu10": {
+   "status": 200,
+   "text": "Types of Financial Aid",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu11": {
+   "status": 200,
+   "text": "Applying for Aid",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu12": {
+   "status": 200,
+   "text": "Students Rights and Responsibilities",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#menu13": {
+   "status": 200,
+   "text": "Tips for a Smoother Application Process",
+   "from": "P37"
+  },
+  "https://pmu.edu.sa/admission/sat-admission#sidebar": {
+   "status": 200,
+   "text": "",
+   "from": "P37"
+  }
+ }
+}
