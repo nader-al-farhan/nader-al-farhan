@@ -2171,17 +2171,18 @@
   "page_id": "Shared menu",
   "url": "https://www.pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf",
   "location": "رابط «Web Admission Guide» في القائمة الجانبية لصفحات مكتب القبول (ملف PDF)",
-  "current_text": "PMU WEB ADMISSION GUIDE … Copyright © 2011 … For assistance please contact it@pmu.edu.sa … TOEFL Paper valid range is from 001 to 999 … TOEFL Computer valid range is from 040 to 300 … SAT valid range is from 50.00 to 99.99",
+  "current_text": "PMU WEB ADMISSION GUIDE … Copyright © 2011 … For assistance please contact it@pmu.edu.sa … TOEFL Paper valid range is from 001 to 999 … TOEFL Computer valid range is from 040 to 300 … SAT valid range is from 50.00 to 99.99 … Application Fee SR 500.00 (non refundable)",
   "axis": "دقة المعلومات",
   "type": "دليل قديم",
   "classification": "تصحيح مطلوب",
   "priority": "متوسطة",
-  "description": "يفتح الرابط دليل تقديم إلكتروني مؤرخًا في ديسمبر 2018 ويحمل حقوق نشر 2011، يشرح الدخول باسم مستخدم ورقم سري (Login ID وPIN)، ويقتصر على نوعي طلب (مستجد ومحوّل)، ويتضمن جدول درجات يشمل اختبارات متوقفة (TOEFL Paper وTOEFL Computer) ونطاقًا لدرجة SAT لا يتوافق مع مقياسه (50.00–99.99)، ويحيل للمساعدة إلى بريد تقنية المعلومات، كما تتضمن صفحته الأخيرة أسماء وأرقامًا مباشرة لموظفين (2018). أما بوابة التقديم الحالية فتعتمد واجهة مختلفة («Student Login» و«New Student? Register!»).",
+  "description": "يفتح الرابط دليل تقديم إلكتروني مؤرخًا في ديسمبر 2018 ويحمل حقوق نشر 2011، يشرح الدخول باسم مستخدم ورقم سري (Login ID وPIN)، ويقتصر على نوعي طلب (مستجد ومحوّل)، ويتضمن جدول درجات يشمل اختبارات متوقفة (TOEFL Paper وTOEFL Computer) ونطاقًا لدرجة SAT لا يتوافق مع مقياسه (50.00–99.99)، ويعرض في صفحة الدفع (ص 20) رسم طلب «SR 500.00 (non refundable)» دون إشارة إلى ضريبة القيمة المضافة أو سنة السريان، بما يتعارض مع الرسوم المنشورة حاليًا لبعض الفئات (950 ريالًا للمحولين والزائرين الدوليين، و1,150 ريالًا لكلية الطب)، ويحيل للمساعدة إلى بريد تقنية المعلومات، كما تتضمن صفحته الأخيرة أسماء وأرقامًا مباشرة لموظفين (2018). أما بوابة التقديم الحالية فتعتمد واجهة مختلفة («Student Login» و«New Student? Register!»).",
   "recommendation": "سحب الدليل من القائمة أو استبداله بدليل محدَّث يشرح بوابة التقديم الحالية، مع إزالة بيانات التواصل الشخصية القديمة.",
   "refs": [
    "PDF-WAG",
    "C156",
-   "C154"
+   "C154",
+   "ZIP-CA-0449"
   ],
   "note": "تاريخ ديسمبر 2018 مأخوذ من رابط الملف.",
   "group": "G4"
@@ -2219,5 +2220,61 @@
   ],
   "note": "فحص بمتصفح محمول بتاريخ 11 أكتوبر 2026.",
   "group": "NEW"
+ },
+ {
+  "page_id": "P00",
+  "url": "https://pmu.edu.sa/admission/admission",
+  "location": "تذييل الصفحة – رابط «Academic Calendar»",
+  "current_text": "Academic Calendar → ../Admission/academic_calendar_2021_2022_ro.aspx",
+  "axis": "دقة المعلومات",
+  "type": "رابط إلى محتوى منتهي",
+  "classification": "تصحيح مطلوب",
+  "priority": "متوسطة",
+  "description": "يفتح رابط «Academic Calendar» في تذييل صفحة مكتب القبول التقويم الأكاديمي للعام 2021/2022، لا تقويم العام الجاري، فيحصل المتقدم على مواعيد منتهية منذ أربع سنوات.",
+  "recommendation": "توجيه الرابط إلى التقويم الأكاديمي المعتمد للعام الجاري (أو صفحة تقويم ثابتة تُحدَّث سنويًا)، مع إبقاء التقاويم السابقة في أرشيف مؤرخ.",
+  "refs": [
+   "ZIP-CA-0059",
+   "LIVE-2026-10-13"
+  ],
+  "note": "تحقق مباشر من الصفحة الحية بتاريخ 13 أكتوبر 2026.",
+  "group": "ZIP"
+ },
+ {
+  "page_id": "P38",
+  "url": "https://admissions.pmu.edu.sa/student/login/register",
+  "location": "بوابة التقديم – نموذج التسجيل، قائمة الأنشطة (Activities)",
+  "current_text": "Coop or Intership Programs",
+  "axis": "لغوي ونحوي",
+  "type": "خطأ إملائي",
+  "classification": "تصحيح مطلوب",
+  "priority": "منخفضة",
+  "description": "يرد خيار «Coop or Intership Programs» في قائمة الأنشطة بنموذج التسجيل في بوابة التقديم، وفيه خطأ إملائي (Intership) وصيغة غير قياسية (Coop).",
+  "recommendation": "تصحيح الخيار إلى «Co-op or Internship Programs».",
+  "refs": [
+   "ZIP-CA-0064",
+   "PORTAL-BUNDLE"
+  ],
+  "note": "تحقق من النص في ملف البرمجة المنشور للبوابة (main.2b01aae0109ae974.js).",
+  "group": "ZIP"
+ },
+ {
+  "page_id": "P38",
+  "url": "https://admissions.pmu.edu.sa/student/login/register",
+  "location": "بوابة التقديم – نموذج التسجيل، تسميات الحقول وقوائم الدول",
+  "current_text": "الأسم الأول … أسم الأب … East Afrcia … Columbia",
+  "axis": "لغوي ونحوي",
+  "type": "أخطاء إملائية محتملة",
+  "classification": "متابعة وتحقق",
+  "priority": "منخفضة",
+  "description": "رُصدت في حزمة المعالجة المرفقة أخطاء إملائية في تسميات حقول نموذج التسجيل (همزة القطع في «الأسم» و«أسم») وفي أسماء دول («East Afrcia» و«Columbia» بدل Colombia). لم يمكن التحقق منها في الملف المنشور للبوابة لأنها تُحمَّل ديناميكيًا من الخادم.",
+  "recommendation": "فتح نموذج التسجيل يدويًا والتحقق من التسميات، ثم تصحيحها إلى «الاسم الأول» و«اسم الأب» و«East Africa» و«Colombia» إن ثبت وجودها.",
+  "refs": [
+   "ZIP-CE-0140",
+   "ZIP-CE-0141",
+   "ZIP-CE-0143",
+   "ZIP-CE-0144"
+  ],
+  "note": "غير مُتحقَّق منه مباشرة؛ مصدره الحزمة المرفقة.",
+  "group": "ZIP"
  }
 ]
