@@ -45,3 +45,24 @@ title(n,'ملاحظات الإعداد','',1);n.column_dimensions['A'].width=120
 for row in n.iter_rows(min_row=4):
     for c in row: c.alignment=Alignment(wrap_text=True,vertical='top',horizontal='right',readingOrder=2)
 wb.save('final_review/مرفق_التصحيحات_والقرارات_المطلوبة.xlsx');print('ok',i,len(Z['D']))
+# --- status of the amendments requested in the 26 Oct 2025 reply (live check 13 Oct 2026)
+wb=openpyxl.load_workbook('final_review/مرفق_التصحيحات_والقرارات_المطلوبة.xlsx')
+s=wb.create_sheet('حالة تعديلات 26 أكتوبر 2025',0);s.sheet_view.rightToLeft=True
+s.append(['#','التعديل المطلوب في رد 26 أكتوبر 2025','الحالة على الموقع (13 أكتوبر 2026)','الدليل المنشور (حرفيًا)','الرابط','المطلوب لإغلاقه'])
+A=[
+(1,'الحد الأدنى للمجموع الموزون: 74% للحاسب والهندسة، و72% لغير الهندسية، مع ملاحظة المفاضلة والمقابلة الشخصية','لم يُنفَّذ','HS GPA out of 100 ≥ 85 40% Qudrat ≥ 65 30% Tahseely ≥ 65 30% *Students with lower marks may apply, however, the minimum weighted total, defined by the Admissions Office, should be met.','https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors','نشر النسبتين المعتمدتين والملاحظة في صفحتي القبول في البكالوريوس ومتطلبات الحاسب والهندسة'),
+(2,'إضافة برنامج B.S. Chemical Engineering','منفّذ جزئيًا','These majors are Architecture, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Electrical Engineering and Civil Engineering.','https://www.pmu.edu.sa/admission/admissions_requirements_cs_eng_majors','أُضيف إلى قوائم البرامج، ولم يُضف إلى قائمة التخصصات في صفحتي متطلبات الحاسب والهندسة واختبار SAT'),
+(3,'رسم التقديم للطلاب الدوليين والمحولين والزائرين من 500 إلى 950 ريالًا','منفّذ جزئيًا','Pay a non-refundable application fee of SAR 500 (excl. VAT) upon submission of documents','https://www.pmu.edu.sa/admission/international_students','حُدِّث في صفحتي التحويل والزائرين (950 شاملة الضريبة)، وبقي 500 في صفحة الطلاب الدوليين؛ ويلزم توحيد المعالجة الضريبية: طُلب «excl. VAT» والمنشور «incl. VAT»'),
+(4,'إزالة اشتراط (SAAT) أو ما يعادله (SAT 2) لتخصصات الحاسب والهندسة','منفّذ جزئيًا','Computer Science & Engineering Majors: Secondary School 40% SAT I 30% SAT II 30%','https://www.pmu.edu.sa/admission/international_students','أُزيل SAT 2 من صفحة متطلبات الحاسب والهندسة، وما زال SAT II بوزن 30% في صفحة الطلاب الدوليين'),
+(5,'رسم إعادة اختبار APTIS من 575 إلى 950 ريالًا (شامل الضريبة)','لم يُنفَّذ','APTIS Exam Fees SAR 575','https://www.pmu.edu.sa/admission/student_fees_tf_ro','تحديث جدول الرسوم بعد تأكيد الشؤون المالية'),
+(6,'تحديث دليل التقديم الإلكتروني (Web Admission Guide) ليعكس التعديلات','لم يُنفَّذ','Application Fee SR 500.00 (non refundable)','https://www.pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf','استبدال دليل 2018 بدليل محدَّث أو سحبه من القائمة'),
+]
+for r in A: s.append(list(r))
+title(s,'حالة التعديلات المطلوبة في رد 26 أكتوبر 2025','تحقق مباشر من الموقع الحي بتاريخ 13 أكتوبر 2026',6)
+body(s,4,[5,40,16,52,44,48],'مرفق سجل ملاحظات صفحات مكتب القبول',center=(1,3))
+for row in s.iter_rows(min_row=5):
+    for c in row: c.alignment=Alignment(wrap_text=True,vertical='top',horizontal='center' if c.column in (1,3) else ('left' if c.column in (4,5) else 'right'),readingOrder=1 if c.column in (4,5) else 2)
+for v,fg,bg in [('لم يُنفَّذ','9C0006','FFC7CE'),('منفّذ جزئيًا','7F4F00','FFEB9C')]:
+    s.conditional_formatting.add(f'C5:C{s.max_row}',FormulaRule(formula=[f'C5="{v}"'],font=Font(bold=True,color=fg),fill=PatternFill('solid',fgColor=bg)))
+wb.active=0
+wb.save('final_review/مرفق_التصحيحات_والقرارات_المطلوبة.xlsx');print('status sheet ok')
