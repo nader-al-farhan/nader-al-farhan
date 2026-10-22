@@ -51,11 +51,11 @@ H.append(f'<!doctype html><html lang="{L}" dir="{"rtl" if AR else "ltr"}"><head>
 # ---------------- cover
 H.append(f'''<div class="cover"><div class="t">{T('Admissions Office Webpages', 'صفحات مكتب القبول')}<br>{T('Independent Content Review', 'مراجعة مستقلة للمحتوى')}</div>
 <div class="s">{T('Prince Mohammad Bin Fahd University (PMU) — Prepared for Management Review', 'جامعة الأمير محمد بن فهد — معد للمراجعة الإدارية')}</div>
-<div class="m"><b>{T('Prepared for', 'معد لـ')}:</b> Mr. Radhi Alkhaldi, Associate Director of Enrollment<br>
-<b>{T('Prepared by', 'إعداد')}:</b> {T('Nader T. Al-Farhan, Student Affairs', 'نادر بن ضيف الله الفرحان، شؤون الطلاب')}<br>
+<div class="m"><b>{T('Prepared for', 'معد لـ')}:</b> Mr. Radhi H. Alkhaldi, Associate Director of Enrollment<br>
+<b>{T('Prepared by', 'إعداد')}:</b> {T('Nader Al Farhan, Administrative Assistant | Student Affairs', 'نادر الفرحان، مساعد إداري | شؤون الطلاب')}<br>
 <b>{T('Root source', 'المصدر الجذري')}:</b> <span class="ltr">https://www.pmu.edu.sa/admission/admission</span><br>
 <b>{T('Observation', 'تاريخ الرصد')}:</b> <span class="ltr">{D['obs_at']}</span> {T('(baseline reads 10–11 Oct 2026)', '(قراءات الأساس 10–11 أكتوبر 2026)')}<br>
-<b>{T('Companion register', 'السجل المرافق')}:</b> <span class="ltr">{T('02_PMU_Admissions_Content_Review_Register_EN.xlsx', '02_PMU_Admissions_Content_Review_Register_AR.xlsx')}</span><br>
+<b>{T('Companion register', 'السجل المرافق')}:</b> <span class="ltr">{T('L2-01_Evidence_and_Follow-up_Pack_EN.xlsx', 'L2-01_Evidence_and_Follow-up_Pack_AR.xlsx')}</span><br>
 <b>{T('Status', 'الحالة')}:</b> {T('Prepared for Management Review — not an approval, publication confirmation or closure certificate', 'معد للمراجعة الإدارية — لا يمثل اعتمادًا أو تأكيد نشر أو شهادة إغلاق')}</div>
 <div class="w">{T('Read-only review of published content. No website content was changed, no forms were submitted and no applicant systems were accessed.', 'مراجعة قراءة فقط للمحتوى المنشور. لم يُعدَّل أي محتوى في الموقع، ولم تُرسل نماذج، ولم يُدخل إلى أنظمة المتقدمين.')}</div></div>''')
 
@@ -80,9 +80,9 @@ H.append('</ul>')
 H.append(f'<h3>{T("Decisions requested from management", "القرارات المطلوبة من الإدارة")}</h3><p>' + T(
  'Ten institutional decisions are set out in Section 9 (D-01 to D-10). The most time-sensitive are D-01 (application fees and VAT basis by applicant category), D-02 (current admission cycle and interim notice) and D-03/D-04 (undergraduate and graduate eligibility and English requirements). Where pages conflict, this report does not select a value: each conflict is stated as "Proven published conflict; the correct policy requires institutional confirmation."',
  'تعرض الفقرة 9 عشرة قرارات مؤسسية (D-01 إلى D-10)، أكثرها إلحاحًا: D-01 (رسوم التقديم وأساس الضريبة حسب فئة المتقدم)، وD-02 (دورة القبول الحالية والإشعار المؤقت)، وD-03/D-04 (أهلية البكالوريوس والدراسات العليا ومتطلبات اللغة). وحيث تتعارض الصفحات لا يختار هذا التقرير قيمة بعينها، بل يُثبت كل تعارض بصيغة: «تعارض منشور مثبت؛ السياسة الصحيحة تحتاج تأكيدًا مؤسسيًا».') + '</p>')
-am_nr = sum(1 for a in D['amend'] if a['st_en'] == 'Not reflected'); am_pr = sum(1 for a in D['amend'] if a['st_en'] == 'Partially reflected')
-H.append('<p>' + T(f'Of the six amendments requested in this correspondence on 26 October 2025, {am_nr} are not yet reflected and {am_pr} are partially reflected (Annex A).',
-                   f'ومن التعديلات الستة المطلوبة في هذه المراسلات بتاريخ 26 أكتوبر 2025، لم يُنفَّذ {am_nr} ونُفِّذ {am_pr} جزئيًا (الملحق أ).') + '</p>')
+am_nr = sum(1 for a in D['amend'] if a['code'] == 'NOT_PUBLISHED'); am_pr = sum(1 for a in D['amend'] if a['code'] == 'PARTIALLY_PUBLISHED')
+H.append('<p>' + T(f'Of the six amendments requested in this correspondence on 26 October 2025, {am_nr} are NOT_PUBLISHED and {am_pr} are PARTIALLY_PUBLISHED (Annex A); none is fully published.',
+                   f'ومن التعديلات الستة المطلوبة في هذه المراسلات بتاريخ 26 أكتوبر 2025، حالة {am_nr} منها NOT_PUBLISHED و{am_pr} PARTIALLY_PUBLISHED (الملحق أ)؛ ولم يُنشر أيٌّ منها كاملًا.') + '</p>')
 H.append(f'<div class="status">{T("Audit status: NOT READY FOR VERIFIED CLOSURE", "حالة التدقيق: NOT READY FOR VERIFIED CLOSURE (غير جاهز للإغلاق المتحقق منه)")}<br><span style="font-weight:400">' + T(
  'Inventory and examination of the discovered scope are complete; closure is not possible while conflicting policy values await institutional confirmation, two items remain unverifiable from published content, no applicant data or feedback was available, and no correction has yet been published. The package is Prepared for Management Review.',
  'اكتمل جرد النطاق المكتشف وفحصه؛ ويتعذر الإغلاق ما دامت القيم المتعارضة تنتظر تأكيدًا مؤسسيًا، وبقي بندان يتعذر التحقق منهما من المحتوى المنشور، ولم تتوفر بيانات أو آراء للمتقدمين، ولم يُنشر أي تصحيح بعد. أما الحزمة نفسها فمعدّة للمراجعة الإدارية.') + '</span></div></div>')
@@ -97,12 +97,12 @@ H.append(f'<h3>{T("Method", "المنهج")}</h3><ul>' + ''.join(f'<li>{x}</li>'
   'Line-by-line reading of every content unit against six axes: language, accuracy, function, organisation, consistency and applicant experience; PDF text extraction with visual checks of informative images.',
   'Evidence: each finding quotes the published text verbatim with its URL and location; each proven conflict is documented by at least two sources; key findings carry highlighted screenshots of the live page taken on 21 Oct 2026.',
   'Re-verification: on 21 Oct 2026 the verbatim text of every finding was re-matched against a fresh capture; changed items are flagged rather than silently removed.',
-  'Classification and priority follow the ten categories and the P0–P3 scale defined in the register (Definitions sheet). AI-assisted tools (Claude) supported reading, matching, translation and drafting; results were checked against the captured evidence.'],
+  'Classification and priority follow the nine-type classification of the Master Directive and the P0–P3 scale (Definitions sheet); verification statuses are VERIFIED, BLOCKED or NOT_APPLICABLE. AI-assisted tools (Claude) supported reading, matching, translation and drafting; results were checked against the captured evidence.'],
  ['الاكتشاف والالتقاط: تصفح آلي عبر Chromium (Playwright) من الصفحة الجذرية بطلبات قراءة فقط؛ ولقطات كاملة ونصوص ظاهرة ومخفية لكل صفحة؛ وفحص حالة 434 رابطًا فريدًا من صفحات النطاق.',
   'قراءة كل وحدة محتوى سطرًا بسطر على ستة محاور: اللغة والدقة والوظيفة والتنظيم والاتساق وتجربة المتقدم؛ واستخراج نصوص PDF مع فحص بصري للصور المعلوماتية.',
   'الأدلة: كل ملاحظة تقتبس النص المنشور حرفيًا مع رابطه وموضعه؛ وكل تعارض مثبت موثق بمصدرين على الأقل؛ وللملاحظات الرئيسة لقطات مظللة من الصفحة الحية بتاريخ 21 أكتوبر 2026.',
   'إعادة التحقق: في 21 أكتوبر 2026 طوبق النص الحرفي لكل ملاحظة مع لقطة جديدة؛ ووُسمت البنود المتغيرة بدل حذفها.',
-  'التصنيف والأولوية وفق التصنيفات العشرة وسلم P0–P3 المعرّفة في السجل (ورقة التعريفات). واستُعين بأدوات الذكاء الاصطناعي (Claude) في القراءة والمطابقة والترجمة والصياغة، مع التحقق من النتائج مقابل الأدلة الملتقطة.']))) + '</ul>')
+  'التصنيف والأولوية وفق التصنيف التساعي للأمر الموحد وسلم P0–P3 (ورقة التعريفات)؛ وحالات التحقق VERIFIED أو BLOCKED أو NOT_APPLICABLE. واستُعين بأدوات الذكاء الاصطناعي (Claude) في القراءة والمطابقة والترجمة والصياغة، مع التحقق من النتائج مقابل الأدلة الملتقطة.']))) + '</ul>')
 H.append(f'<h3>{T("Limits and exclusions", "الحدود والاستبعادات")}</h3><ul>' + ''.join(f'<li>{x}</li>' for x in T(
  ['No security, vulnerability, performance or load testing; no form submission or data entry; no login to the applicant portal or internal systems; no access to applicant records; no change to the website; no contact with staff or applicants.',
   'The portal was reviewed only as a published referral destination (public landing page); its registration labels were read from the published script bundle, and four labels loaded dynamically could not be verified.',
@@ -239,18 +239,19 @@ H.append('</table></div>')
 
 # ---------------- 12 references
 H.append(f'<div class="sec"><h1>12. {T("References to the register and evidence", "الإحالات إلى السجل والأدلة")}</h1><table><tr><th>{T("Register sheet", "ورقة السجل")}</th><th>{T("Content", "المحتوى")}</th></tr>')
-SH = [('Summary / الملخص', T('Indicators, counts, statuses and limits', 'المؤشرات والأعداد والحالات والقيود')), ('Definitions / التعريفات', T('Status, priority and category definitions', 'تعريفات الحالات والأولويات والتصنيفات')),
-      ('Resource Inventory / جرد الموارد', T(f"{len(D['inventory'])} records with stable IDs (R-…, X-…)", f"{len(D['inventory'])} سجلًا بمعرفات ثابتة (R-…، X-…)")), ('Findings / الملاحظات', T(f"{S['n']} findings (F-001 … F-131)", f"{S['n']} ملاحظة (F-001 … F-131)")),
-      ('Evidence / الأدلة', T(f"{len(D['evidence'])} evidence items (E-…), screenshots EV-01 … EV-14", f"{len(D['evidence'])} دليلًا (E-…)، واللقطات EV-01 … EV-14")), ('Coverage / التغطية', T('Coverage measures and link status', 'مقاييس التغطية وحالة الروابط')),
-      ('Language Comparison / المقارنة اللغوية', T('10 Arabic–English pairs and search steps', '10 أزواج عربية–إنجليزية وخطوات البحث')), ('Data & Feedback / البيانات والآراء', T('Availability statement and proposed design', 'بيان التوفر والتصميم المقترح')),
-      ('Decisions Required / القرارات المطلوبة', 'D-01 … D-10'), ('Follow-up Plan / خطة المتابعة', 'A-01 … A-13'), ('Quality Control / ضبط الجودة', T('Output checks and remaining issues', 'فحوص المخرجات والمشكلات المتبقية')),
-      ('Strengths; Editorial Corrections; Amendments 26 Oct 2025', T(f"S-01 … S-08; {len(D['edits'])} corrections; A-1 … A-6", f"S-01 … S-08؛ {len(D['edits'])} تصحيحًا؛ A-1 … A-6"))]
+SH = [('README / Source Register', T('Order, versions, sources and their authority', 'الأمر والنسخ والمصادر وسلطتها')),
+      ('Master Findings Register', T(f"{S['n']} findings F-001 … F-131 + H-1 … H-6 + V-01 … V-10 (19 mandatory fields)", f"{S['n']} ملاحظة F-001 … F-131 + H-1 … H-6 + V-01 … V-10 (19 حقلًا إلزاميًا)")),
+      ('Evidence Register', T(f"{len(D['evidence'])} evidence items (E-…), live re-confirmations (RC-…), screenshots EV-01 … EV-14", f"{len(D['evidence'])} دليلًا (E-…) وإعادات تأكيد حية (RC-…) ولقطات EV-01 … EV-14")),
+      ('URL & Resource Inventory / Scope Coverage Matrix', T('Resources, discovery paths, statuses and coverage by section', 'الموارد ومسارات الاكتشاف والحالات والتغطية حسب القسم')),
+      ('Arabic-English Parity', T('10 pairs and search steps', '10 أزواج وخطوات البحث')), ('Historical Amendment Verification', 'H-1 … H-6'),
+      ('Decision Register (= Decision & Approval Matrix)', 'D-01 … D-10'), ('Corrective Action Tracker (= Roadmap)', 'A-01 … A-13'),
+      ('QC & Acceptance Matrix', 'G1 … G5'), ('Change Log; Editorial Corrections; Definitions', T(f"v1.0 … v3.0; {len(D['edits'])} corrections", f"v1.0 … v3.0؛ {len(D['edits'])} تصحيحًا"))]
 for a, b in SH: H.append(f'<tr><td class="ltr">{a}</td><td>{b}</td></tr>')
 H.append('</table></div>')
 
 # ---------------- Annex A amendments
 H.append(f'<div class="sec"><h1>{T("Annex A — Status of the amendments requested on 26 October 2025", "الملحق أ — حالة التعديلات المطلوبة في 26 أكتوبر 2025")}</h1><table><tr><th>ID</th><th>{T("Requested amendment", "التعديل المطلوب")}</th><th>{T("Status (21 Oct 2026)", "الحالة (21 أكتوبر 2026)")}</th><th>{T("Published evidence", "الدليل المنشور")}</th></tr>')
-for a in D['amend']: H.append(f'<tr><td class="ltr">{a["aid"]}</td><td>{e(T(a["req_en"], a["req_ar"]))}</td><td><b>{e(T(a["st_en"], a["st_ar"]))}</b></td><td>{e(T(a["ev_en"], a["ev_ar"]))}</td></tr>')
+for a in D['amend']: H.append(f'<tr><td class="ltr">{a["hid"]}</td><td>{e(T(a["req_en"], a["req_ar"]))}</td><td class="ltr"><b>{a["code"]}</b></td><td>{e(T(a["ev_en"], a["ev_ar"]))}</td></tr>')
 H.append('</table></div>')
 # ---------------- Annex B index
 H.append(f'<div class="sec"><h1>{T("Annex B — Index of all findings", "الملحق ب — فهرس جميع الملاحظات")}</h1><table><tr><th>ID</th><th>P</th><th>{T("Title", "العنوان")}</th><th>{T("Page", "الصفحة")}</th><th>{T("Category", "التصنيف")}</th><th>{T("Verification", "التحقق")}</th></tr>')
