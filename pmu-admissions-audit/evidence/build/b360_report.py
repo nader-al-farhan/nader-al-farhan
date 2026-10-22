@@ -50,13 +50,13 @@ figcaption {{ font-size: 8pt; color: #444; margin-top: 2pt; }}
 H.append(f'<!doctype html><html lang="{L}" dir="{"rtl" if AR else "ltr"}"><head><meta charset="utf-8"><title>{T("PMU Admissions Office — Content Review Report", "تقرير مراجعة محتوى مكتب القبول")}</title><style>{css}</style></head><body>')
 # ---------------- cover
 H.append(f'''<div class="cover"><div class="t">{T('Admissions Office Webpages', 'صفحات مكتب القبول')}<br>{T('Independent Content Review', 'مراجعة مستقلة للمحتوى')}</div>
-<div class="s">{T('Prince Mohammad Bin Fahd University (PMU) — Management review report', 'جامعة الأمير محمد بن فهد — تقرير للمراجعة الإدارية')}</div>
+<div class="s">{T('Prince Mohammad Bin Fahd University (PMU) — Prepared for Management Review', 'جامعة الأمير محمد بن فهد — معد للمراجعة الإدارية')}</div>
 <div class="m"><b>{T('Prepared for', 'معد لـ')}:</b> Mr. Radhi Alkhaldi, Associate Director of Enrollment<br>
 <b>{T('Prepared by', 'إعداد')}:</b> {T('Nader T. Al-Farhan, Student Affairs', 'نادر بن ضيف الله الفرحان، شؤون الطلاب')}<br>
 <b>{T('Root source', 'المصدر الجذري')}:</b> <span class="ltr">https://www.pmu.edu.sa/admission/admission</span><br>
 <b>{T('Observation', 'تاريخ الرصد')}:</b> <span class="ltr">{D['obs_at']}</span> {T('(baseline reads 10–11 Oct 2026)', '(قراءات الأساس 10–11 أكتوبر 2026)')}<br>
 <b>{T('Companion register', 'السجل المرافق')}:</b> <span class="ltr">{T('02_PMU_Admissions_Content_Review_Register_EN.xlsx', '02_PMU_Admissions_Content_Review_Register_AR.xlsx')}</span><br>
-<b>{T('Status', 'الحالة')}:</b> {T('Draft for management review — not an approval, publication confirmation or closure certificate', 'مسودة للمراجعة الإدارية — لا تمثل اعتمادًا أو تأكيد نشر أو شهادة إغلاق')}</div>
+<b>{T('Status', 'الحالة')}:</b> {T('Prepared for Management Review — not an approval, publication confirmation or closure certificate', 'معد للمراجعة الإدارية — لا يمثل اعتمادًا أو تأكيد نشر أو شهادة إغلاق')}</div>
 <div class="w">{T('Read-only review of published content. No website content was changed, no forms were submitted and no applicant systems were accessed.', 'مراجعة قراءة فقط للمحتوى المنشور. لم يُعدَّل أي محتوى في الموقع، ولم تُرسل نماذج، ولم يُدخل إلى أنظمة المتقدمين.')}</div></div>''')
 
 # ---------------- 1 executive summary
@@ -84,8 +84,8 @@ am_nr = sum(1 for a in D['amend'] if a['st_en'] == 'Not reflected'); am_pr = sum
 H.append('<p>' + T(f'Of the six amendments requested in this correspondence on 26 October 2025, {am_nr} are not yet reflected and {am_pr} are partially reflected (Annex A).',
                    f'ومن التعديلات الستة المطلوبة في هذه المراسلات بتاريخ 26 أكتوبر 2025، لم يُنفَّذ {am_nr} ونُفِّذ {am_pr} جزئيًا (الملحق أ).') + '</p>')
 H.append(f'<div class="status">{T("Audit status: NOT READY FOR VERIFIED CLOSURE", "حالة التدقيق: NOT READY FOR VERIFIED CLOSURE (غير جاهز للإغلاق المتحقق منه)")}<br><span style="font-weight:400">' + T(
- 'Inventory and examination of the discovered scope are complete; closure is not possible while conflicting policy values await institutional confirmation, two items remain unverifiable from published content, no applicant data or feedback was available, and no correction has yet been published. The package itself is ready for management review.',
- 'اكتمل جرد النطاق المكتشف وفحصه؛ ويتعذر الإغلاق ما دامت القيم المتعارضة تنتظر تأكيدًا مؤسسيًا، وبقي بندان يتعذر التحقق منهما من المحتوى المنشور، ولم تتوفر بيانات أو آراء للمتقدمين، ولم يُنشر أي تصحيح بعد. أما الحزمة نفسها فجاهزة للعرض الإداري.') + '</span></div></div>')
+ 'Inventory and examination of the discovered scope are complete; closure is not possible while conflicting policy values await institutional confirmation, two items remain unverifiable from published content, no applicant data or feedback was available, and no correction has yet been published. The package is Prepared for Management Review.',
+ 'اكتمل جرد النطاق المكتشف وفحصه؛ ويتعذر الإغلاق ما دامت القيم المتعارضة تنتظر تأكيدًا مؤسسيًا، وبقي بندان يتعذر التحقق منهما من المحتوى المنشور، ولم تتوفر بيانات أو آراء للمتقدمين، ولم يُنشر أي تصحيح بعد. أما الحزمة نفسها فمعدّة للمراجعة الإدارية.') + '</span></div></div>')
 
 # ---------------- 2 scope & method
 H.append(f'<div class="sec"><h1>2. {T("Scope, date, method and limits", "النطاق والتاريخ والمنهج والحدود")}</h1>')

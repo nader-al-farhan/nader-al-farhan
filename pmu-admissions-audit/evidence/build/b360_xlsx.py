@@ -65,11 +65,11 @@ summ = [
  (T('Language pairs compared', 'الأزواج اللغوية المقارنة'), T('1 bilingual page (/apply, 9 segment pairs) + 1 bilingual form (1 pair); no separate Arabic site version found', 'صفحة ثنائية اللغة واحدة (/apply، 9 أزواج مقاطع) + نموذج ثنائي اللغة (زوج واحد)؛ ولم يُعثر على نسخة عربية مستقلة')),
  (T('Overall audit status', 'الحالة العامة للتدقيق'), 'NOT READY FOR VERIFIED CLOSURE'),
  (T('Reason for status', 'سبب الحالة'), T('Policy values in conflict await institutional confirmation; portal registration labels and one link could not be verified; no applicant data or feedback was available; no corrections have been published.', 'القيم المتعارضة تنتظر تأكيدًا مؤسسيًا؛ وتعذر التحقق من تسميات تسجيل البوابة ورابط واحد؛ ولا تتوفر بيانات أو آراء للمتقدمين؛ ولم يُنشر أي تصحيح.')),
- (T('Package readiness for management review', 'جاهزية الحزمة للعرض الإداري'), T('Ready for management review (draft, not approved)', 'جاهزة للعرض الإداري (مسودة غير معتمدة)')),
+ (T('Package readiness for management review', 'جاهزية الحزمة للعرض الإداري'), T('Prepared for Management Review (not approved)', 'معدّة للمراجعة الإدارية (غير معتمدة)')),
  (T('Implementation of corrections', 'تنفيذ التصحيحات'), T('Outside this mandate; nothing changed on the website', 'خارج صلاحية هذا التكليف؛ لم يُعدَّل شيء في الموقع')),
 ]
 sheet('Summary', 'الملخص', 'PMU Admissions Office — Content Review Register', 'سجل مراجعة محتوى مكتب القبول — جامعة الأمير محمد بن فهد',
-      'Prepared for management review. Not an approval, publication confirmation or closure certificate.', 'معد للمراجعة الإدارية. لا يمثل اعتمادًا أو تأكيد نشر أو شهادة إغلاق.',
+      'Prepared for Management Review. Not an approval, publication confirmation or closure certificate.', 'معد للمراجعة الإدارية. لا يمثل اعتمادًا أو تأكيد نشر أو شهادة إغلاق.',
       [('Indicator', 'المؤشر'), ('Value', 'القيمة')], summ, [46, 110])
 
 # Definitions

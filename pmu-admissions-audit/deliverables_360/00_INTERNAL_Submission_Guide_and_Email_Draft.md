@@ -25,7 +25,7 @@
 
 | Order | Filename | Status | Purpose | Audience | Relevance to the email |
 |---|---|---|---|---|---|
-| 1 | `01_PMU_Admissions_Content_Review_Report_EN.pdf` | **Essential** | Management report (34 pp.) with 12 sections plus Annexes A–B: summary, scope and method, coverage, strengths, material findings with 14 evidence figures, applicant journey, data limits, recommendations, decisions D-01–D-10, follow-up plan, gaps, register references | Mr. Radhi and senior leadership | Main document; the email summarises it |
+| 1 | `01_PMU_Admissions_Content_Review_Report_EN.pdf` | **Essential** (labelled *Prepared for Management Review*) | Management report (34 pp.) with 12 sections plus Annexes A–B: summary, scope and method, coverage, strengths, material findings with 14 evidence figures, applicant journey, data limits, recommendations, decisions D-01–D-10, follow-up plan, gaps, register references | Mr. Radhi and senior leadership | Main document; the email summarises it |
 | 2 | `02_PMU_Admissions_Content_Review_Register_EN.xlsx` | **Essential** | Traceable register, 14 sheets: Summary, Definitions, Inventory, Findings (131), Evidence, Coverage, Language Comparison, Data & Feedback, Decisions, Follow-up Plan, Quality Control, Strengths, 48 Editorial Corrections, 26 Oct 2025 amendments | Mr. Radhi; the team that prepares the institutional package | Basis for preparing the institutional package and assigning owners |
 | 3 | `03_PMU_Admissions_Content_Review_Report_AR.pdf` | Supplementary | Arabic version matching the English report | Arabic-preferring readers in leadership | Optional |
 | 4 | `04_PMU_Admissions_Content_Review_Register_AR.xlsx` | Supplementary | Arabic version matching the English register (right-to-left) | Implementing team | Optional (or available on request) |
@@ -105,7 +105,7 @@ To complete the assessment of the matters that remain unresolved, the following 
 
 **Limitations**
 
-The review assessed published content only. It did not verify how procedures are applied in practice, and no applicant data or feedback was available. Four registration labels in the application portal and one portal link could not be verified from published content and are recorded for manual checking. The package is therefore presented for management review and is not a closure certificate (status: NOT READY FOR VERIFIED CLOSURE).
+The review assessed published content only. It did not verify how procedures are applied in practice, and no applicant data or feedback was available. Four registration labels in the application portal and one portal link could not be verified from published content and are recorded for manual checking. The package is therefore Prepared for Management Review; it is not an approval or a closure certificate (audit status: NOT READY FOR VERIFIED CLOSURE).
 
 I would be pleased to present the findings to you or the team at your convenience.
 
@@ -178,7 +178,7 @@ Prince Mohammad Bin Fahd University (PMU)
 
 **القيود**
 
-اقتصرت المراجعة على المحتوى المنشور، ولم تتحقق من التطبيق التشغيلي للإجراءات، ولم تتوفر بيانات أو آراء للمتقدمين. وتعذّر التحقق من أربع تسميات في تسجيل البوابة ومن رابط واحد لها من خلال المحتوى المنشور، وسُجّلت للفحص اليدوي. لذلك تُقدَّم الحزمة للمراجعة الإدارية، وليست شهادة إغلاق (الحالة: NOT READY FOR VERIFIED CLOSURE).
+اقتصرت المراجعة على المحتوى المنشور، ولم تتحقق من التطبيق التشغيلي للإجراءات، ولم تتوفر بيانات أو آراء للمتقدمين. وتعذّر التحقق من أربع تسميات في تسجيل البوابة ومن رابط واحد لها من خلال المحتوى المنشور، وسُجّلت للفحص اليدوي. لذلك فالحزمة معدّة للمراجعة الإدارية، وليست اعتمادًا ولا شهادة إغلاق (حالة التدقيق: NOT READY FOR VERIFIED CLOSURE).
 
 ويسعدني عرض النتائج على سعادتكم أو على فريق العمل في الوقت المناسب لكم.
 

@@ -10,7 +10,7 @@ def run(*a): r = subprocess.run(a, capture_output=True, text=True); print(r.stdo
 def build():
     run('python3', f'{B}/b360_xlsx.py', DATA, f'{OUTD}/{N["reg_en"]}', 'en')
     run('python3', f'{B}/b360_xlsx.py', DATA, f'{OUTD}/{N["reg_ar"]}', 'ar')
-    for L, lab in (('en', 'PMU Admissions Office — Content Review | Draft for management review'), ('ar', 'PMU Admissions Office — Content Review (Arabic) | Draft for management review')):
+    for L, lab in (('en', 'PMU Admissions Office — Content Review | Prepared for Management Review'), ('ar', 'PMU Admissions Office — Content Review (Arabic) | Prepared for Management Review')):
         run('python3', f'{B}/b360_report.py', DATA, f'{S}/ev', f'{S}/rep_{L}.html', L)
         run('node', f'{B}/b360_pdf.js', f'{S}/rep_{L}.html', f'{OUTD}/{N["rep_" + L]}', lab)
 build()
