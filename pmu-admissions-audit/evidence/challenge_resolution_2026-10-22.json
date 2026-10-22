@@ -1,0 +1,96 @@
+{
+ "applied": {
+  "F-012": {
+   "cls": "MISSING_INFORMATION",
+   "plevel": "P2",
+   "note": "Challenge accepted: incomplete lists rather than contradictory statements."
+  },
+  "F-027": {
+   "cls": "AMBIGUITY",
+   "plevel": "P3",
+   "note": "Challenge accepted: placement of a note; one side (/apply) is not displayed to visitors."
+  },
+  "F-030": {
+   "cls": "OUTDATED_CONTENT",
+   "plevel": "P2",
+   "note": "Challenge accepted: the portal message is consistent with the expired calendar; the issue is currency (see F-014), not conflict."
+  },
+  "F-054": {
+   "cls": "AMBIGUITY",
+   "plevel": "P2",
+   "note": "Challenge accepted: per-test minimums below a combined threshold are not an error; the interaction of the two rules is unclear and needs College confirmation."
+  },
+  "F-005": {
+   "plevel": "P2",
+   "note": "Challenge accepted on severity (target page is labelled 2021/2022). Evidence confirmed: footer href to academic_calendar_2021_2022_ro in the root page source on 22 Oct 2026."
+  },
+  "F-014": {
+   "plevel": "P1",
+   "note": "Challenge accepted: dates are visibly past (no misinformation); results/deadline comparison removed because it concerned different applicant categories.",
+   "desc_en": "The Admissions Calendar displays only the Fall 2026-2027 cycle, all of whose dates have passed (the last being the start of classes on 30 August 2026), with no announcement of the next cycle or of the closure of admissions.",
+   "desc_ar": "يعرض تقويم القبول دورة خريف 2026-2027 وحدها، وجميع مواعيدها انقضت (آخرها بدء الدراسة في 30 أغسطس 2026)، دون إعلان عن الدورة التالية أو عن إغلاق القبول."
+  },
+  "F-023": {
+   "plevel": "P2",
+   "note": "Challenge accepted: the same values are visible on the Undergraduate and CS & Engineering pages."
+  },
+  "F-035": {
+   "plevel": "P2",
+   "note": "Challenge accepted: scope corrected to the three links confirmed on 22 Oct 2026; unsupported claims removed.",
+   "title_en": "Broken scholarship links on admission pages",
+   "title_ar": "روابط منح معطلة في صفحات القبول",
+   "desc_en": "Three scholarship links (Sponsored Scholarship Programs, MOHE Scholarships, International Students Scholarships) shown on several admission pages return HTTP 404 (link check of 22 Oct 2026).",
+   "desc_ar": "ثلاثة روابط للمنح (Sponsored Scholarship Programs وMOHE Scholarships وInternational Students Scholarships) تظهر في عدد من صفحات القبول وتعيد الخطأ 404 (فحص الروابط في 22 أكتوبر 2026)."
+  },
+  "F-040": {
+   "plevel": "P1",
+   "note": "Challenge accepted: SAT II appears in the weighting applied to applicants below the minimum percentage, not in the listed admission criteria.",
+   "title_en": "International CS/Engineering weighting still includes discontinued SAT II",
+   "title_ar": "أوزان الحاسب والهندسة للطلاب الدوليين ما زالت تتضمن SAT II الموقوف",
+   "desc_en": "On the International Students page, the weighting applied to Computer Science and Engineering applicants with a lower percentage includes SAT II at 30%, a test discontinued by College Board in 2021. The page also omits the 85% secondary-school minimum and the SAT 1 (1200) alternative published on the CS & Engineering requirements and SAT pages.",
+   "desc_ar": "في صفحة الطلاب الدوليين تتضمن الأوزان المطبقة على المتقدمين لتخصصات الحاسب والهندسة الحاصلين على نسبة أقل اختبارَ SAT II بوزن 30%، وهو اختبار أوقفته College Board عام 2021. كما لا تذكر الصفحة الحد الأدنى 85% للثانوية ولا بديل SAT 1 بدرجة 1200 المنشورَين في صفحتي متطلبات الحاسب والهندسة واختبار SAT."
+  },
+  "F-042": {
+   "plevel": "P2",
+   "note": "Challenge accepted: the 1200 minimum is published on the SAT page."
+  },
+  "F-053": {
+   "plevel": "P2",
+   "note": "Challenge accepted: the calendar names the channel per category."
+  },
+  "F-059": {
+   "plevel": "P2",
+   "note": "Challenge accepted: the TOEFL page publishes 83/19 and is linked."
+  },
+  "F-099": {
+   "plevel": "P2",
+   "note": "Challenge accepted: documents are on the programme form page; the undescribed written test remains the gap."
+  },
+  "F-117": {
+   "plevel": "P2",
+   "note": "Challenge accepted: both tests are accepted elsewhere; wording gap rather than eligibility error."
+  },
+  "F-024": {
+   "note": "Description corrected after evidence recheck.",
+   "desc_en": "The SAT 1 (1200) alternative is described in three different ways: on /apply as replacing both General Aptitude and Achievement tests for Engineering, AI, Computer Science and Architecture applicants; on the SAT page as restricted to holders of international secondary certificates; and on the CS & Engineering page, which lists SAT 1 as the equivalent of Qudrat and, at 1200, as an alternative to Tahseely.",
+   "desc_ar": "يُوصف بديل SAT 1 بدرجة 1200 بثلاث صيغ: في /apply بديلًا عن القدرات والتحصيلي معًا لمتقدمي الهندسة والذكاء الاصطناعي والحاسب والعمارة؛ وفي صفحة SAT مقصورًا على حملة الشهادات الثانوية الدولية؛ وفي صفحة الحاسب والهندسة التي تذكر SAT 1 معادلًا للقدرات، وبدرجة 1200 بديلًا عن التحصيلي."
+  },
+  "F-084": {
+   "note": "Description corrected: the 2.80 GPA applies to bridging courses.",
+   "desc_en": "The eligibility sentence contains a double negative (“not from another discipline”) that reverses the intended meaning, and states GPA thresholds of 3.00 and 3.20 without specifying the case to which each applies (2.80 relates to the bridging courses).",
+   "desc_ar": "تتضمن جملة الأهلية نفيًا مزدوجًا («not from another discipline») يعكس المعنى المقصود، وتذكر حدّي المعدل 3.00 و3.20 دون بيان الحالة التي ينطبق عليها كلٌّ منهما (ويتعلق 2.80 بالمقررات التمهيدية)."
+  },
+  "F-100": {
+   "note": "Description corrected: the generic graduate form also requires 6.5.",
+   "desc_en": "The MIBL requirements page requires IELTS 6.5, whereas the MIBL application form requires 6.0. Graduate pages are themselves inconsistent (programme requirement pages state 6.0; the generic graduate form states 6.5 — see F-073). The page treats TOEFL iBT 83 as equivalent to IELTS 6.5, whereas other pages treat 83 as equivalent to 6.0.",
+   "desc_ar": "تشترط صفحة متطلبات MIBL درجة IELTS 6.5، بينما يشترط نموذج تقديم البرنامج 6.0. وصفحات الدراسات العليا نفسها غير متسقة (صفحات متطلبات البرامج 6.0؛ ونموذج الدراسات العليا العام 6.5 — انظر F-073). وتعدّ الصفحة TOEFL iBT 83 معادلًا لـ IELTS 6.5، بينما تعدّه صفحات أخرى معادلًا لـ 6.0."
+  },
+  "F-050": {
+   "retire": "Duplicate of F-029 (same pages, quotes and recommendation); merged on independent challenge."
+  }
+ },
+ "kept": {
+  "F-052": "Severity kept at P0: a conflicting stated application fee is a direct financial obligation for applicants (difference SAR 150).",
+  "F-039": "Kept P0: the official schedule states a single undergraduate fee of SAR 950 incl. VAT; the International page states SAR 500 excl. VAT for the same applicants."
+ }
+}
