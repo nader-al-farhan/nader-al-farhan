@@ -1,0 +1,345 @@
+[
+{
+"eid": "E001",
+"fid": "F-039",
+"tev": "E-039-1",
+"role": "A",
+"name": "IntlTransferFee500",
+"url": "https://pmu.edu.sa/admission/international_students",
+"snip": "SAR 500 (excl. VAT)"
+},
+{
+"eid": "E002",
+"fid": "F-039",
+"tev": "E-039-2",
+"role": "B",
+"name": "TransferPageFee950",
+"url": "https://pmu.edu.sa/admission/admission-from-other-universities",
+"snip": "SAR 950 (incl. VAT)"
+},
+{
+"eid": "E003",
+"fid": "F-039",
+"tev": "E-039-3",
+"role": "C",
+"name": "OfficialFeeSchedule950",
+"url": "https://www.pmu.edu.sa/admission/student_fees_tf_ro",
+"snip": "Admission Application Fees- Undergraduate Programs",
+"minH": 160
+},
+{
+"eid": "E004",
+"fid": "F-052",
+"tev": "E-052-1",
+"role": "A",
+"name": "MedicineFee1000",
+"url": "https://pmu.edu.sa/admission/college_of_medicine_admission",
+"snip": "SAR 1000 (incl. VAT)"
+},
+{
+"eid": "E005",
+"fid": "F-052",
+"tev": "E-052-2",
+"role": "B",
+"name": "MedicalFeeSchedule1150",
+"url": "https://pmu.edu.sa/admission/medical_program_studies_fees_tf_ro",
+"snip": "Medical Application Fee"
+},
+{
+"eid": "E006",
+"fid": "F-014",
+"tev": "E-014-1",
+"role": "",
+"name": "CalendarExpiredCycle",
+"url": "https://pmu.edu.sa/admission/admission_calendar_fs_ro",
+"snip": "Undergraduate Admission Calendar",
+"minH": 300
+},
+{
+"eid": "E007",
+"fid": "F-020",
+"tev": "E-020-1",
+"role": "",
+"name": "QueryFormNoPrivacyNotice",
+"url": "https://pmu.edu.sa/admission/admissions_queries",
+"snip": "Mobile number",
+"minH": 300
+},
+{
+"eid": "E008",
+"fid": "F-024",
+"tev": "E-024-1",
+"role": "A",
+"name": "ApplySAT1200BothTests",
+"url": "https://www.pmu.edu.sa/apply",
+"snip": "1200 is accepted in place of both",
+"block": "admissions.pmu.edu.sa"
+},
+{
+"eid": "E009",
+"fid": "F-024",
+"tev": "E-024-2",
+"role": "B",
+"name": "SATPage1200",
+"url": "https://pmu.edu.sa/admission/sat-admission",
+"snip": "minimum score of 1200"
+},
+{
+"eid": "E010",
+"fid": "F-024",
+"tev": "E-024-3",
+"role": "C",
+"name": "CSEngTahseelyTable",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+"snip": "Tahseely",
+"minH": 200
+},
+{
+"eid": "E011",
+"fid": "F-029",
+"tev": "E-029-1",
+"role": "A",
+"name": "ApplyEmbassyStamp",
+"url": "https://www.pmu.edu.sa/apply",
+"snip": "stamped by the Saudi Embassy",
+"block": "admissions.pmu.edu.sa"
+},
+{
+"eid": "E012",
+"fid": "F-029",
+"tev": "E-029-2",
+"role": "B",
+"name": "UGConsulateAttestation",
+"url": "https://pmu.edu.sa/admission/undergraduate_programs_admission",
+"snip": "attested, in advance, by the Saudi Consulate"
+},
+{
+"eid": "E013",
+"fid": "F-029",
+"tev": "E-029-3",
+"role": "C",
+"name": "IntlCulturalMission",
+"url": "https://pmu.edu.sa/admission/international_students",
+"snip": "certified by the Saudi Cultural Mission"
+},
+{
+"eid": "E014",
+"fid": "F-036",
+"tev": "E-036-1",
+"role": "",
+"name": "WebAdmissionGuideFee500",
+"pdf": "https://www.pmu.edu.sa/Attachments/Admission/Images/PDF/Web-Admission-Guide-v2-2_20-12-18.pdf",
+"page": 20
+},
+{
+"eid": "E015",
+"fid": "F-040",
+"tev": "E-040-1",
+"role": "",
+"name": "IntlWeightingSATII",
+"url": "https://pmu.edu.sa/admission/international_students",
+"snip": "SAT II 30%",
+"minH": 140
+},
+{
+"eid": "E016",
+"fid": "F-041",
+"tev": "E-041-1",
+"role": "",
+"name": "IntlNoRouteDeadline",
+"url": "https://pmu.edu.sa/admission/international_students",
+"snip": "completed entirely online"
+},
+{
+"eid": "E017",
+"fid": "F-061",
+"tev": "E-061-1",
+"role": "A",
+"name": "DirectSaudiIDOnly",
+"url": "https://pmu.edu.sa/admission/direct-admissions-from-secondary-school",
+"snip": "Copy of Saudi ID",
+"minH": 200
+},
+{
+"eid": "E018",
+"fid": "F-061",
+"tev": "E-061-2",
+"role": "B",
+"name": "PrepSaudiIDOrIqama",
+"url": "https://pmu.edu.sa/admission/admission-to-the-preparatory-program",
+"snip": "Iqama",
+"minH": 200
+},
+{
+"eid": "E019",
+"fid": "F-061",
+"tev": "E-061-3",
+"role": "C",
+"name": "IntlNationalID",
+"url": "https://pmu.edu.sa/admission/international_students",
+"snip": "Copy of National ID"
+},
+{
+"eid": "E020",
+"fid": "F-065",
+"tev": "E-065-1",
+"role": "A",
+"name": "PrepToUGMathFootnotes",
+"url": "https://pmu.edu.sa/admission/admission-from-the-prep-to-ug-programs",
+"snip": "excluded from PRPM 0022",
+"minH": 260
+},
+{
+"eid": "E021",
+"fid": "F-065",
+"tev": "E-065-2",
+"role": "B",
+"name": "PrepStudyPlanFootnotes",
+"url": "https://www.pmu.edu.sa/admission/preparatory-program-study-plan",
+"snip": "Interior Design is excluded",
+"minH": 0
+},
+{
+"eid": "E022",
+"fid": "F-070",
+"tev": "E-070-1",
+"role": "A",
+"name": "CSEngMajorsList",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+"snip": "These majors are"
+},
+{
+"eid": "E023",
+"fid": "F-070",
+"tev": "E-070-2",
+"role": "B",
+"name": "SATPageMajorsList",
+"url": "https://pmu.edu.sa/admission/sat-admission",
+"snip": "These majors are"
+},
+{
+"eid": "E024",
+"fid": "F-073",
+"tev": "E-073-2",
+"role": "A",
+"name": "GradFormIELTS65",
+"url": "https://www.pmu.edu.sa/admission/application_form_gr",
+"snip": "6.5 overall"
+},
+{
+"eid": "E025",
+"fid": "F-073",
+"tev": "E-073-3",
+"role": "B",
+"name": "MSEEPageIELTS60",
+"url": "https://pmu.edu.sa/admission/application_form_msee_gdp",
+"snip": "6.0 overall"
+},
+{
+"eid": "E026",
+"fid": "F-074",
+"tev": "E-074-1",
+"role": "A",
+"name": "RootEMGMSLink",
+"url": "https://www.pmu.edu.sa/admission/admission",
+"snip": "Admissions to the EMGMS Program"
+},
+{
+"eid": "E027",
+"fid": "F-074",
+"tev": "E-074-1",
+"role": "B",
+"name": "GradListNoEMGMS",
+"url": "https://pmu.edu.sa/admission/admission_graduate_degree_programs",
+"snip": "Admissions to the Doctorate in Mechanical Engineering Program",
+"minH": 420
+},
+{
+"eid": "E028",
+"fid": "F-084",
+"tev": "E-084-1",
+"role": "",
+"name": "PhDBAEligibility",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_phdba_gdp",
+"snip": "Otherwise, if the master degree",
+"minH": 200
+},
+{
+"eid": "E029",
+"fid": "F-097",
+"tev": "E-097-1",
+"role": "",
+"name": "EMGMSOtherUniversityText",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_emgms_gdp",
+"snip": "CESL",
+"minH": 200
+},
+{
+"eid": "E030",
+"fid": "F-100",
+"tev": "E-100-1",
+"role": "A",
+"name": "MIBLRequirementsIELTS65",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_milbl_gdp",
+"snip": "6.5 overall"
+},
+{
+"eid": "E031",
+"fid": "F-100",
+"tev": "E-100-2",
+"role": "B",
+"name": "MIBLFormIELTS60",
+"url": "https://www.pmu.edu.sa/admission/application_form_milbl_gdp",
+"snip": "6.0 overall"
+},
+{
+"eid": "E032",
+"fid": "F-117",
+"tev": "E-117-1",
+"role": "A",
+"name": "AptisCoreIELTSOnly",
+"url": "https://pmu.edu.sa/admission/aptis-placement-test",
+"snip": "eligible for direct entry into the Core Program"
+},
+{
+"eid": "E033",
+"fid": "F-117",
+"tev": "E-117-3",
+"role": "B",
+"name": "ApplyDirectEntryIELTSTOEFL",
+"url": "https://www.pmu.edu.sa/apply",
+"snip": "IELTS Academic: Overall 6.0",
+"minH": 0,
+"block": "admissions.pmu.edu.sa"
+},
+{
+"eid": "E034",
+"fid": "F-028",
+"tev": "E-028-1",
+"role": "",
+"name": "ApplyArabicWeightingLabel",
+"url": "https://www.pmu.edu.sa/apply",
+"snip": "القدرات / 1 SAT",
+"minH": 0,
+"block": "admissions.pmu.edu.sa"
+},
+{
+"eid": "E035",
+"fid": "F-071",
+"tev": "H-1",
+"role": "H",
+"name": "CSEngWeightedTotalNoValue",
+"url": "https://pmu.edu.sa/admission/admissions_requirements_cs_eng_majors",
+"snip": "minimum weighted total, defined by the Admissions Office"
+},
+{
+"eid": "E036",
+"fid": "F-119",
+"tev": "H-5",
+"role": "H",
+"name": "AptisFee575",
+"url": "https://www.pmu.edu.sa/admission/student_fees_tf_ro",
+"snip": "APTIS Exam Fees",
+"minH": 120
+}
+]
